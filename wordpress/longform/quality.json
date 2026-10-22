@@ -1,0 +1,102 @@
+{
+  "published-crm-lms-integratsiya": {
+    "visible_characters": 16322,
+    "tables": 3,
+    "sha256": "0bf0d88070d4071c582dcf1ace20bba006c3e7bda8639342c6ec7f6c5860135b"
+  },
+  "published-crm-est-zayavki-teryayutsya": {
+    "visible_characters": 12056,
+    "tables": 1,
+    "sha256": "0e2ce64930af6e12676acaaf39548e7ecaa0ae82a0e5248aa78faa0bfe41f811"
+  },
+  "published-proverka-form-do-crm": {
+    "visible_characters": 11647,
+    "tables": 1,
+    "sha256": "27c923b200a9f7447273d128ba594ef530a308dc34fa85ed6863cc8b695de5fe"
+  },
+  "published-do-vnedreniya-bitrix24": {
+    "visible_characters": 12545,
+    "tables": 1,
+    "sha256": "be4d7d30f8f797efd2e185fc112de792f862307771f6557080ed48519729e146"
+  },
+  "published-pervyy-ai-pilot": {
+    "visible_characters": 11231,
+    "tables": 3,
+    "sha256": "1aa482ef08cb163718a9a728db70d44d5857ef32da4909aa5c0b098dbdd32129"
+  },
+  "published-ai-chelovek-proverka": {
+    "visible_characters": 11364,
+    "tables": 4,
+    "sha256": "5d8fab3eeb900db9a6187a023815a174fae8fe0f1df274c31443708739f88202"
+  },
+  "published-priemka-avtomatizatsii": {
+    "visible_characters": 12160,
+    "tables": 4,
+    "sha256": "2a0bf74f3509f4a2d32d8666d0be2d14e43dc728b755c707e3bacfd63b602238"
+  },
+  "article-41": {
+    "visible_characters": 13935,
+    "tables": 3,
+    "sha256": "ef575bac58c9d8e3c64d88da202fdfa6ed84c7997a68342fdeebda657b943b42"
+  },
+  "article-42": {
+    "visible_characters": 13740,
+    "tables": 3,
+    "sha256": "41133ebe84702ddec84be2fd95adff817fdc8dad2ee93e25b8ab18fb303e5f3c"
+  },
+  "article-43": {
+    "visible_characters": 14177,
+    "tables": 3,
+    "sha256": "fe6404844cc1b6cba5e29bc7711a5189250db2ce3ddfddd8fe0529f23e6c3fbc"
+  },
+  "article-44": {
+    "visible_characters": 12907,
+    "tables": 3,
+    "sha256": "ca1880cfdbcaf48e38ae50f30c9b6ef98a44156447d541acb2b796baebd5adfd"
+  },
+  "article-45": {
+    "visible_characters": 13777,
+    "tables": 2,
+    "sha256": "0830863a28c38491447f467c7465fb57e7f192d841080899e262ae7be474b5d8"
+  },
+  "article-46": {
+    "visible_characters": 14075,
+    "tables": 3,
+    "sha256": "315a5259308e1d9f276595677dd9b9376e433cd9dde542095187436b18963b76"
+  },
+  "article-47": {
+    "visible_characters": 13070,
+    "tables": 3,
+    "sha256": "6bffbdf33a2ddd153ed5ddbd7591c80b9e9f5a2dfe7bc2fdd0333969e6fb4bed"
+  },
+  "article-48": {
+    "visible_characters": 12635,
+    "tables": 2,
+    "sha256": "1b12aab5fac87517a9afb785ee435cc1d190b417d5f29568844fb670e2037fee"
+  },
+  "article-49": {
+    "visible_characters": 13268,
+    "tables": 3,
+    "sha256": "8c48bd9895de3f4997810f18a81ccbc5f5cb4b4e1af36c4a0fd39b985876745b"
+  },
+  "article-50": {
+    "visible_characters": 13466,
+    "tables": 3,
+    "sha256": "b95b93ac4d0637df80d71b10ad901f5bb7abdfedc8c4faee16ed1501a1a6181a"
+  },
+  "published-integratsiya-dubli-i-povtory": {
+    "visible_characters": 12909,
+    "tables": 3,
+    "sha256": "9ee03ba855f109575b655d68c49c05113c921d3d856e4c8df605ab5fc0e53e53"
+  },
+  "published-karta-ruchnyh-operatsiy": {
+    "visible_characters": 13546,
+    "tables": 4,
+    "sha256": "8e52c759ba20e8f0233848840943c4219c20feaaf7cc9f5d714780f47c0cb9f2"
+  },
+  "published-ai-kontent-redaktor": {
+    "visible_characters": 14079,
+    "tables": 3,
+    "sha256": "c75e757f4337d58a797c6abe5d359a09f2ea61d76826779651275d0c73857c6e"
+  }
+}
