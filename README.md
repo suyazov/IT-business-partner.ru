@@ -1,6 +1,6 @@
 # IT-business-partner.ru / Сутри
 
-Подготовленная WordPress-версия двух сайтов находится в [wordpress/](wordpress/README.md). Статус, границы публикации и сохранение старых адресов описаны в [контексте](context.md) и [плане переноса](wordpress/docs/ROLLOUT.md). Production ещё не переключён.
+Подготовленная WordPress-версия двух сайтов находится в [wordpress/](wordpress/README.md). Статус, границы публикации и сохранение старых адресов описаны в [контексте](context.md) и [плане переноса](wordpress/docs/ROLLOUT.md). Оба домена опубликованы на WordPress 22 октября 2026.
 
 Ниже сохранено описание исходного React-приложения.
 
