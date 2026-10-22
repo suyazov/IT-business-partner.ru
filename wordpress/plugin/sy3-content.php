@@ -38,6 +38,15 @@ add_action('pre_get_posts', function ($query) {
 register_activation_hook(__FILE__, function () { sy3_register_content(); flush_rewrite_rules(); });
 add_filter('query_vars', function ($vars) { $vars[] = 'sy3_feed'; return $vars; });
 
+// Keep the editor's author selector available without exposing the user collection.
+// Check capability at REST dispatch so a JSON body cannot override a query guard.
+add_filter('rest_pre_dispatch', function ($result, $server, $request) {
+    if (strcasecmp(untrailingslashit($request->get_route()), '/wp/v2/users') === 0 && !current_user_can('list_users')) {
+        return new WP_Error('sy3_user_list_forbidden', 'Недостаточно прав для просмотра пользователей.', ['status' => rest_authorization_required_code()]);
+    }
+    return $result;
+}, 10, 3);
+
 add_shortcode('sy3_cards', function ($atts): string {
     $a = shortcode_atts(['type' => 'post', 'count' => 3, 'class' => '', 'ids' => ''], $atts);
     if (!in_array($a['type'], ['post', 'sy3_service', 'sy3_case', 'sy3_legacy'], true)) return '';
