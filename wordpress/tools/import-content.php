@@ -28,11 +28,12 @@ function sy3_import_post(string $key, array $args): int {
     $existing = get_posts(['post_type' => ['page', 'post', 'sy3_service', 'sy3_case', 'sy3_legacy'], 'post_status' => 'any', 'meta_key' => '_sy3_seed', 'meta_value' => $key, 'numberposts' => 1]);
     $collision = get_page_by_path($args['post_name'], OBJECT, $args['post_type']);
     if (!$existing && $collision) WP_CLI::error('Unowned slug collision: ' . $key);
-    $args['post_status'] = 'publish';
+    $args['post_status'] ??= 'publish';
     $args['comment_status'] = 'closed';
     $args['ping_status'] = 'closed';
     if ($existing) {
         $id = $existing[0]->ID;
+        $args['post_status'] = $existing[0]->post_status;
         if (getenv('SY3_IMPORT_UPDATE') !== '1') { $ids[$key] = $id; return $id; }
         $saved = get_post_meta($id, '_sy3_seed_hash', true);
         if (!$saved || !hash_equals($saved, hash('sha256', $existing[0]->post_content))) WP_CLI::error('Manual content edits preserved; cannot overwrite ' . $key);
@@ -114,19 +115,14 @@ if (!$personal) {
 } else {
     $records = json_decode(file_get_contents(__DIR__ . '/../content/cases.json'), true, 512, JSON_THROW_ON_ERROR);
     update_option('sy3_external_cases', array_map(fn($i) => ['slug' => $i['slug'], 'title' => $i['title'], 'label' => $i['label'], 'excerpt' => $i['excerpt'], 'url' => rtrim(get_option('sy3_main_url'), '/') . '/cases/' . $i['slug'] . '/'], $records));
-    // Preserve old seed records as drafts. AFFiNE Share determines the public catalogue.
-    foreach (get_posts(['post_type' => 'sy3_legacy', 'post_status' => 'publish', 'numberposts' => -1, 'meta_key' => '_sy3_seed']) as $legacy) {
-        wp_update_post(['ID' => $legacy->ID, 'post_status' => 'draft']);
-    }
+    update_option('sy3_legacy_post_redirects', ['ii-dlya-biznesa-gde-nachat' => 'pervyy-ai-pilot', 'ai-kontent-marketing-kak-avtomatizirovat' => 'ai-kontent-redaktor', 'vnedrenie-crm-bitrix24-lms-platforma' => 'crm-lms-integratsiya']);
     sy3_import_post('page:portfolio', ['post_type' => 'page', 'post_name' => 'portfolio', 'post_title' => 'Проекты и решения', 'post_excerpt' => '25 проектов: CRM, интеграции, ИИ, WordPress и развитие существующих сайтов. Подробные разборы — на сайте Сутри.', 'post_content' => sy3_shortcode('[sy3_external_cases count="25"]')]);
     $blog = sy3_import_post('page:blog', ['post_type' => 'page', 'post_name' => 'blog', 'post_title' => 'Архив публикаций', 'post_excerpt' => 'Публикации предыдущей версии сайта.', 'post_content' => '']);
     update_option('page_for_posts', $blog); update_option('permalink_structure', '/blog/%postname%/');
     foreach (json_decode(file_get_contents(__DIR__ . '/../content/legacy-posts.json'), true, 512, JSON_THROW_ON_ERROR) as $post) {
         $date = gmdate('Y-m-d H:i:s', strtotime($post['createdAt']));
-        $id = sy3_import_post('legacy-post:' . $post['slug'], ['post_type' => 'post', 'post_name' => $post['slug'], 'post_title' => $post['title'], 'post_excerpt' => $post['excerpt'], 'post_date_gmt' => $date, 'post_date' => get_date_from_gmt($date), 'post_content' => sy3_g(sy3_p('Архивная публикация предыдущей версии сайта. Текст сохранён для доступности по прежнему адресу; его актуальность не проверялась при переносе.'), 'callout') . sy3_b('html', wp_kses_post($post['content']))]);
+        $id = sy3_import_post('legacy-post:' . $post['slug'], ['post_type' => 'post', 'post_status' => 'draft', 'post_name' => $post['slug'], 'post_title' => $post['title'], 'post_excerpt' => $post['excerpt'], 'post_date_gmt' => $date, 'post_date' => get_date_from_gmt($date), 'post_content' => sy3_g(sy3_p('Исходная публикация предыдущей версии сайта. Повторная публикация требует редакторской проверки.'), 'callout') . sy3_b('html', wp_kses_post($post['content']))]);
         update_post_meta($id, '_sy3_label', 'Архивная публикация');
-        // Historical source is retained; republication needs separate editorial review.
-        wp_update_post(['ID' => $id, 'post_status' => 'draft']);
     }
 }
 

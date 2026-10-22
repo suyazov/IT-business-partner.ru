@@ -87,6 +87,13 @@ def main():
         personal + '/portfolio/matklass': primary + '/cases/matklass/',
         personal + '/portfolio/antispam-24-sites': primary + '/cases/antispam-24-sites/',
     }
+    for slug in ('postavki26', 'glosscheck', 'petlifeexpo', 'ocifrovkavideokasset', 'avg-realestate'):
+        redirects[personal + '/portfolio/' + slug] = primary + '/cases/' + slug + '/'
+    for old, new in {'ii-dlya-biznesa-gde-nachat': 'pervyy-ai-pilot', 'ai-kontent-marketing-kak-avtomatizirovat': 'ai-kontent-redaktor', 'vnedrenie-crm-bitrix24-lms-platforma': 'crm-lms-integratsiya'}.items():
+        for suffix in ('', '/'):
+            redirects[personal + '/blog/' + old + suffix] = primary + '/journal/' + new + '/'
+    for suffix in ('', '/'):
+        redirects[personal + '/blog' + suffix] = primary + '/journal/'
     for source, target in redirects.items():
         headers, _ = request(source, 301)
         assert headers['Location'] == target, (source, headers['Location'], target)

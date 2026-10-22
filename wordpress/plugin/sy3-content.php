@@ -121,6 +121,14 @@ add_action('template_redirect', function () {
     $path = wp_parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
     $redirects = ['index.html' => '/', 'services.html' => '/services/', 'portfolio.html' => '/cases/', 'about.html' => '/about/', 'contact.html' => '/contacts/', 'bitrix24.html' => '/services/bitrix24/', 'sitemap.xml' => '/wp-sitemap.xml'];
     $key = ltrim((string) $path, '/');
+    if (sy3_is_personal()) {
+        $base = rtrim(get_option('sy3_main_url', 'https://sy3.ru'), '/');
+        if (preg_match('#^blog/([a-z0-9-]+)/?$#', $key, $old)) {
+            $map = get_option('sy3_legacy_post_redirects', []);
+            if (isset($map[$old[1]])) { wp_redirect($base . '/journal/' . $map[$old[1]] . '/', 301, 'SY3 journal migration'); exit; }
+        }
+        if (rtrim($key, '/') === 'blog') { wp_redirect($base . '/journal/', 301, 'SY3 journal migration'); exit; }
+    }
     if (isset($redirects[$key])) { wp_safe_redirect(home_url($redirects[$key]), 301); exit; }
     if (sy3_is_personal() && preg_match('#^portfolio/([a-z0-9-]+)/?$#', $key, $m) && in_array($m[1], array_column(get_option('sy3_external_cases', []), 'slug'), true)) {
         $base = rtrim(get_option('sy3_main_url', 'https://sy3.ru'), '/');
