@@ -1,0 +1,52 @@
+{
+  "post:crm-est-zayavki-teryayutsya": {
+    "cover_sha256": ""
+  },
+  "post:proverka-form-do-crm": {
+    "cover_sha256": ""
+  },
+  "post:do-vnedreniya-bitrix24": {
+    "cover_sha256": ""
+  },
+  "post:pervyy-ai-pilot": {
+    "cover_sha256": ""
+  },
+  "post:ai-chelovek-proverka": {
+    "cover_sha256": ""
+  },
+  "post:priemka-avtomatizatsii": {
+    "cover_sha256": ""
+  },
+  "post:integratsiya-dubli-i-povtory": {
+    "cover_sha256": ""
+  },
+  "post:karta-ruchnyh-operatsiy": {
+    "cover_sha256": ""
+  },
+  "post:ai-kontent-redaktor": {
+    "cover_sha256": ""
+  },
+  "post:crm-lms-integratsiya": {
+    "cover_sha256": ""
+  },
+  "case:bitrix24-doors": {
+    "cover_sha256": "c3fe8b62987266a6e93a3f84eff39286a21cb1dd521f18b1c6c9f3496c6f61d8",
+    "title": "Bitrix24: обращения и договоры для компании по продаже дверей",
+    "excerpt": "Компания продаёт двери и работает с обращениями клиентов по нескольким каналам: мессенджеры, общая почта и заявки с сайта."
+  },
+  "case:glosscheck": {
+    "cover_sha256": "7a43bd6efc2075b5a9e1ba85b6f19370ace9bd20952a5af8caf68a5821d31e66",
+    "title": "GlossCheck: ИИ-сервис с чатом, файлами и OCR",
+    "excerpt": "GlossCheck — это AI-сервис для проверки продуктов и обработки пользовательских запросов."
+  },
+  "case:matklass": {
+    "cover_sha256": "2671aaa58987d834d3c0cb81597bdae6f43487e08faedde01d84c42fba69a8b8",
+    "title": "Маткласс: проверка пути заявки до amoCRM",
+    "excerpt": "Проверить, что обращения с основного сайта, блогов и отдельных лендингов доходят до CRM."
+  },
+  "case:libertygas": {
+    "cover_sha256": "85e72cd0fc1ca2f6b74d8732c3e4b44bc07317c9a6b85db0ee1117381c3a4297",
+    "title": "LibertyGas: автономный редактор референс-листов A4",
+    "excerpt": "Сотрудник самостоятельно собирает страницы объектов, меняет фотографии и получает PDF: один объект — один лист A4."
+  }
+}
