@@ -16,7 +16,7 @@ foreach ($changes as $key => [$type, $body]) {
     if (count($posts) !== 1) WP_CLI::error('Expected one owned page: ' . $key);
     $post = $posts[0];
     if (!hash_equals((string) get_post_meta($post->ID, '_sy3_seed_hash', true), hash('sha256', $post->post_content))) WP_CLI::error('Manual edits preserved: ' . $key);
-    if ($key === 'page:home' && !in_array($post->post_excerpt, ['Связываю заявки, CRM и рабочие сервисы в понятную систему.', 'Создание сайтов, веб-сервисов и автоматизация бизнеса: CRM, интеграции и ИИ.'], true)) WP_CLI::error('Manual home excerpt preserved.');
+    if ($key === 'page:home' && !in_array($post->post_excerpt, ['Связываю заявки, CRM и рабочие сервисы в понятную систему.', 'Создаю сайты и веб-сервисы, связываю заявки, CRM и рабочие инструменты в понятную систему.', 'Создание сайтов, веб-сервисов и автоматизация бизнеса: CRM, интеграции и ИИ.'], true)) WP_CLI::error('Manual home excerpt preserved.');
     $ids[$key] = $post->ID;
 }
 $existing = get_posts(['post_type' => 'sy3_service', 'post_status' => 'any', 'meta_key' => '_sy3_seed', 'meta_value' => 'service:web-development', 'numberposts' => 2]);
