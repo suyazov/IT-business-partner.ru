@@ -39,6 +39,11 @@ function sy3_editorial_quality(string $content): array {
     return ['characters'=>$characters,'table'=>$table,'diagram'=>$diagram,'complete'=>$characters>=10000&&$table&&$diagram];
 }
 
+function sy3_editorial_review_hash(int $id): string {
+    $post=get_post($id);
+    return hash('sha256',wp_json_encode([$post->post_title,$post->post_excerpt,$post->post_content,get_post_thumbnail_id($id)],JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
+}
+
 /** Call only from WP-CLI. MySQL advisory lock serializes concurrent timer/manual runs. */
 function sy3_editorial_publish_due(?int $now = null): array {
     global $wpdb;
@@ -69,7 +74,7 @@ function sy3_editorial_publish_due(?int $now = null): array {
             if (!sy3_editorial_eligible($id)) { $blocked ??= ['status'=>'changed']; continue; }
             if (wp_check_post_lock($id)) { $blocked ??= ['status'=>'being_edited','id'=>$id]; continue; }
             if (!get_post_thumbnail_id($id) || !sy3_editorial_quality($candidate['post']->post_content)['complete']) { $blocked ??= ['status'=>'incomplete','id'=>$id]; continue; }
-            if(!hash_equals((string)get_post_meta($id,'_sy3_editorial_reviewed_hash',true),hash('sha256',$candidate['post']->post_content))){$blocked??=['status'=>'review_required','id'=>$id];continue;}
+            if(!hash_equals((string)get_post_meta($id,'_sy3_editorial_reviewed_hash',true),sy3_editorial_review_hash($id))){$blocked??=['status'=>'review_required','id'=>$id];continue;}
             $result = wp_update_post(['ID'=>$id,'post_status'=>'publish','edit_date'=>true,'post_date'=>wp_date('Y-m-d H:i:s',$now),'post_date_gmt'=>gmdate('Y-m-d H:i:s',$now)],true);
             if (is_wp_error($result)) return ['status'=>'error','message'=>$result->get_error_message()];
             if (get_post_status($id)!=='publish') return ['status'=>'error','message'=>'Publication status was not persisted.'];
@@ -109,7 +114,7 @@ add_action('save_post_post', function ($id) {
     if (!isset(sy3_editorial_series()[get_post_meta($id, '_sy3_editorial_batch', true)])) return;
     update_post_meta($id, '_sy3_editorial_enabled', isset($_POST['sy3_editorial_enabled']) ? '1' : '0');
     $content=get_post_field('post_content',$id);
-    if(isset($_POST['sy3_editorial_reviewed'])&&sy3_editorial_quality($content)['complete'])update_post_meta($id,'_sy3_editorial_reviewed_hash',hash('sha256',$content));
+    if(isset($_POST['sy3_editorial_reviewed'])&&sy3_editorial_quality($content)['complete'])update_post_meta($id,'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($id));
 });
 
 add_action('admin_menu', function () {

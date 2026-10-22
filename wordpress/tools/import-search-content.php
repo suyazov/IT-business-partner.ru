@@ -3,6 +3,7 @@
 if (!defined('WP_CLI') || !WP_CLI) exit(1);
 if (wp_get_environment_type() === 'production' && getenv('SY3_ALLOW_PRODUCTION_IMPORT') !== '1') WP_CLI::error('Production authority required.');
 if (get_option('sy3_site_mode') !== 'expertise' || !defined('SY3_EDITORIAL_BATCH')) WP_CLI::error('Main site and editorial plugin required.');
+if(!function_exists('sy3_editorial_review_hash'))WP_CLI::error('Activate the reviewed editorial plugin before any import.');
 require_once __DIR__ . '/search-content-lib.php';
 [$records, $services, $media] = sy3_search_load();
 $owned = []; $service_ids = []; $case_ids = [];
@@ -68,7 +69,7 @@ foreach ($records as $record) {
     $id = wp_insert_post(wp_slash(['post_type'=>'post','post_status'=>'draft','post_author'=>$author->ID,'post_name'=>$record['slug'],'post_title'=>$record['title'],'post_excerpt'=>$record['excerpt'],'post_content'=>$body,'post_category'=>[(int)$term['term_id']],'comment_status'=>'closed','ping_status'=>'closed','meta_input'=>$meta]),true);
     if (is_wp_error($id)) WP_CLI::error($id->get_error_message());
     set_post_thumbnail($id,$covers[$record['cover']]); $owned[$record['id']]=$id;
-    update_post_meta($id,'_sy3_editorial_reviewed_hash',hash('sha256',get_post_field('post_content',$id)));
+    update_post_meta($id,'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($id));
     $receipt['articles'][]=['key'=>$record['id'],'id'=>$id,'action'=>'created'];
 }
 WP_CLI::log(wp_json_encode($receipt,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));

@@ -6,7 +6,7 @@ $slugs=array_column(json_decode(file_get_contents(__DIR__.'/../content/articles.
 $posts=get_posts(['post_type'=>'post','post_status'=>['draft','publish','pending','private','future'],'numberposts'=>-1,'meta_query'=>['relation'=>'OR',['key'=>'_sy3_editorial_batch','value'=>array_keys(sy3_editorial_series()),'compare'=>'IN'],['key'=>'_sy3_seed','value'=>array_map(fn($s)=>'post:'.$s,$slugs),'compare'=>'IN']]]);
 $rows=[];$ready=0;$minimum=null;$counts=[];
 foreach($posts as $post){
-    $quality=sy3_editorial_quality($post->post_content);$reviewed=hash_equals((string)get_post_meta($post->ID,'_sy3_editorial_reviewed_hash',true),hash('sha256',$post->post_content));
+    $quality=sy3_editorial_quality($post->post_content);$reviewed=hash_equals((string)get_post_meta($post->ID,'_sy3_editorial_reviewed_hash',true),sy3_editorial_review_hash($post->ID));
     $cover=(bool)get_post_thumbnail_id($post->ID);$ok=$quality['complete']&&$reviewed&&$cover;
     if($ok){$ready++;$minimum=$minimum===null?$quality['characters']:min($minimum,$quality['characters']);}
     $counts[$post->post_status]=($counts[$post->post_status]??0)+1;

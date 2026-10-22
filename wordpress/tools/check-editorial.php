@@ -20,7 +20,7 @@ try {
     for ($n = 0; $n < 3; $n++) {
         $id = wp_insert_post(['post_type' => 'post', 'post_status' => 'draft', 'post_title' => 'Editorial isolated fixture ' . $n, 'post_content' => sy3_editorial_fixture_content(), 'meta_input' => ['_sy3_editorial_batch' => SY3_EDITORIAL_BATCH, '_sy3_editorial_enabled' => '1', '_sy3_editorial_at' => $now + $n * 60, '_sy3_editorial_test_fixture' => '1']]);
         $fixtures[] = $id; set_post_thumbnail($id, $cover);
-        update_post_meta($id,'_sy3_editorial_reviewed_hash',hash('sha256',get_post_field('post_content',$id)));
+        update_post_meta($id,'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($id));
     }
     $check(sy3_editorial_publish_due($now - 1)['status'] === 'nothing_due', 'Future drafts must stay private');
     $result = sy3_editorial_publish_due($now); $check($result['status'] === 'published' && $result['id'] === $fixtures[0], 'First due draft');

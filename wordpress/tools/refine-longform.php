@@ -3,6 +3,7 @@
 if(!defined('WP_CLI')||!WP_CLI)exit(1);
 if(wp_get_environment_type()==='production'&&getenv('SY3_ALLOW_PRODUCTION_IMPORT')!=='1')WP_CLI::error('Production authority required.');
 if(get_option('sy3_site_mode')!=='expertise')WP_CLI::error('Only sy3.ru is in scope.');
+if(!function_exists('sy3_editorial_review_hash'))WP_CLI::error('Activate the reviewed editorial plugin before any import.');
 require_once __DIR__.'/search-content-lib.php';
 $base=__DIR__.'/../longform/';
 $records=json_decode(file_get_contents($base.'manifest.json'),true,512,JSON_THROW_ON_ERROR);
@@ -56,7 +57,7 @@ foreach($plans as $p){
     if($p['action']==='expanded'){
         $result=wp_update_post(wp_slash(['ID'=>$p['id'],'post_content'=>$p['content']]),true);if(is_wp_error($result))WP_CLI::error($result->get_error_message());
         $hash=hash('sha256',get_post_field('post_content',$p['id']));update_post_meta($p['id'],$p['hash_meta'],$hash);update_post_meta($p['id'],'_sy3_longform_revision',$p['revision']);update_post_meta($p['id'],'_sy3_longform_characters',$p['visible_characters']);
-        update_post_meta($p['id'],'_sy3_editorial_reviewed_hash',$hash);
+        update_post_meta($p['id'],'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($p['id']));
     }
     $receipt[]=['id'=>$p['id'],'key'=>$p['key'],'action'=>$p['action']];
 }

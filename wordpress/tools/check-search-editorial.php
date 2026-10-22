@@ -14,7 +14,7 @@ try{
     foreach($options as $key)delete_option($key);
     $cover=get_posts(['post_type'=>'attachment','post_status'=>'inherit','numberposts'=>1])[0]->ID;
     $now=time()-10*DAY_IN_SECONDS;
-    $make=function($batch,$at)use(&$fixtures,$cover){$id=wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>'Isolated series fixture','post_content'=>sy3_editorial_fixture_content(),'meta_input'=>['_sy3_editorial_test_fixture'=>'1','_sy3_editorial_batch'=>$batch,'_sy3_editorial_enabled'=>'1','_sy3_editorial_at'=>$at]]);$fixtures[]=$id;set_post_thumbnail($id,$cover);update_post_meta($id,'_sy3_editorial_reviewed_hash',hash('sha256',get_post_field('post_content',$id)));return $id;};
+    $make=function($batch,$at)use(&$fixtures,$cover){$id=wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>'Isolated series fixture','post_content'=>sy3_editorial_fixture_content(),'meta_input'=>['_sy3_editorial_test_fixture'=>'1','_sy3_editorial_batch'=>$batch,'_sy3_editorial_enabled'=>'1','_sy3_editorial_at'=>$at]]);$fixtures[]=$id;set_post_thumbnail($id,$cover);update_post_meta($id,'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($id));return $id;};
     $old1=$make(SY3_EDITORIAL_BATCH,$now);$old2=$make(SY3_EDITORIAL_BATCH,$now+60);
     $seo1=$make(SY3_EDITORIAL_SEARCH_BATCH,$now-120);$seo2=$make(SY3_EDITORIAL_SEARCH_BATCH,$now+60);$seo3=$make(SY3_EDITORIAL_SEARCH_BATCH,$now+120);
     update_option('sy3_editorial_paused',true);
@@ -36,7 +36,16 @@ try{
     $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='incomplete','Missing image prevents publication');
     set_post_thumbnail($old2,$cover);delete_post_meta($old2,'_sy3_editorial_reviewed_hash');
     $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Unreviewed material stays private');
-    $original=get_post_field('post_content',$old2);update_post_meta($old2,'_sy3_editorial_reviewed_hash',hash('sha256',$original));
+    $original=get_post_field('post_content',$old2);update_post_meta($old2,'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($old2));
+    wp_update_post(['ID'=>$old2,'post_title'=>'Changed title without touching article body']);
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Title-only editing requires a fresh review');
+    wp_update_post(['ID'=>$old2,'post_title'=>'Isolated series fixture','post_excerpt'=>'Changed excerpt only']);
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Excerpt-only editing requires a fresh review');
+    wp_update_post(['ID'=>$old2,'post_excerpt'=>'']);
+    $other_cover=get_posts(['post_type'=>'attachment','post_status'=>'inherit','post__not_in'=>[$cover],'numberposts'=>1])[0]->ID;
+    set_post_thumbnail($old2,$other_cover);
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Changing the cover requires a fresh review');
+    set_post_thumbnail($old2,$cover);
     wp_update_post(['ID'=>$old2,'post_content'=>$original.'<!-- wp:paragraph --><p>Изменение после проверки.</p><!-- /wp:paragraph -->']);
     $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Editing invalidates the exact reviewed version');
     wp_update_post(['ID'=>$old2,'post_content'=>'<!-- wp:paragraph --><p>Короткий текст.</p><!-- /wp:paragraph -->']);
