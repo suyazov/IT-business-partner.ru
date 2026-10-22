@@ -4,16 +4,24 @@ function sy3_home_content(): string {
     $contact = 'https://t.me/moi_imperator';
     $hero = sy3_g(sy3_cols([
         sy3_p('<span class="status-dot" aria-hidden="true"></span> АВТОМАТИЗАЦИЯ БИЗНЕСА', 'eyebrow') .
-        sy3_h('Ваш бизнес.<br>Меньше рутины.<br><em>Больше порядка.</em>', 1) .
+        sy3_g(sy3_image('artem-suyazov.jpg', 'Артём Суязов.', 'hero-avatar') . sy3_p('Артём Суязов<br><span>Ваш IT-бизнес-партнёр</span>'), 'hero-person-mobile') .
+        sy3_h('Сайты. CRM. ИИ.<br>Меньше рутины.<br><em>Больше порядка.</em>', 1) .
         sy3_p('Создаю сайты и веб-сервисы, настраиваю CRM и связываю рабочие инструменты. Чтобы клиенту было удобно обратиться, а команде — принять заявку и выполнить работу.', 'hero-intro') .
-        sy3_buttons([['Обсудить мой процесс ↗', $contact], ['Посмотреть проекты ↓', '#selected-cases', true]]) .
+        sy3_buttons([['Обсудить задачу с Артёмом ↗', $contact], ['Посмотреть проекты ↓', '#selected-cases', true]]) .
         sy3_p('Напишите Артёму в Telegram. Начнём с вашей задачи — без готового ТЗ.', 'hero-note'),
-        sy3_image('hero-system.webp', 'Связанные элементы одной системы для работы бизнеса.', 'hero-art') . sy3_p('САЙТЫ И СЕРВИСЫ <span>↔</span> CRM <span>↔</span> ИИ', 'hero-art-caption')
+        sy3_g(
+            sy3_p('Ваш IT-бизнес-партнёр', 'eyebrow') .
+            sy3_image('artem-suyazov.jpg', 'Артём Суязов — IT-бизнес-партнёр, автор проектов Сутри.', 'hero-portrait') .
+            sy3_p('Артём Суязов', 'portrait-name') .
+            sy3_p('Сайты · CRM · интеграции · ИИ', 'portrait-role') .
+            sy3_p('<a href="' . esc_url(home_url('/about/')) . '">Лично веду ваш проект ↗</a>', 'portrait-link'),
+            'hero-person'
+        )
     ], 'hero-columns') . sy3_g(
         sy3_p('<strong class="bitrix">Битрикс24</strong><br>Бизнес-партнёр') .
         sy3_p('<strong>От заявки до работы</strong><br>Проверяю весь путь') .
         sy3_p('<strong>Ваши сервисы</strong><br>Настраиваю и связываю') .
-        sy3_p('<strong>Артём Суязов</strong><br>Лично разбираю вашу задачу'),
+        sy3_p('<strong>25 кейсов</strong><br><a href="#selected-cases">Практика в проектах ↗</a>'),
         'trust-strip'
     ), 'section-inner');
     $services = sy3_p('01 / Решения для бизнеса', 'eyebrow') . sy3_g(sy3_h('Сайты и автоматизация<br>для работы бизнеса.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/services/')) . '">Все направления ↗</a>'), 'section-heading') . sy3_shortcode('[sy3_cards type="sy3_service" count="4"]');
@@ -25,8 +33,8 @@ function sy3_home_content(): string {
         sy3_p('04 / ПРОВЕРИТЬ', 'step-number') . sy3_h('Пройти весь путь', 3) . sy3_p('Проверяем рабочий сценарий, передаём инструкции и договариваемся о сопровождении.')
     ], 'process-grid');
     $author = sy3_cols([
-        sy3_p('Лично отвечаю<br>за проект.', 'author-statement') . sy3_p('Артём Суязов<br><span>IT-бизнес-партнёр</span>', 'author-name'),
-        sy3_p('04 / Кто отвечает за работу', 'eyebrow') . sy3_h('Привет,<br>я Артём Суязов.') . sy3_p('Работаю на стыке бизнеса и технологий: разбираю процессы, связываю системы и помогаю довести изменения до рабочего сценария.') . sy3_p('Мне важно, чтобы после проекта было понятно, как пользоваться решением, кто за него отвечает и как проверить, что оно работает.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/about/')) . '">Подробнее о подходе ↗</a>') . sy3_p('Лично веду разбор задачи и согласование решения.', 'author-signature')
+        sy3_image('artem-suyazov.jpg', 'Артём Суязов.', 'author-portrait') . sy3_p('Артём Суязов<br><span>IT-бизнес-партнёр · основатель Сутри</span>', 'author-name'),
+        sy3_p('04 / Кто отвечает за работу', 'eyebrow') . sy3_h('За проектом —<br>конкретный человек.') . sy3_p('Привет, я Артём. Лично разбираю вашу задачу, предлагаю решение и согласовываю результат. Вы знаете, кому задать вопрос и с кем обсудить следующий шаг.') . sy3_p('Создаю сайты и сервисы, внедряю CRM и связываю системы. В портфолио — проекты для торговли, образования и сервисного бизнеса: с описанием задачи, выполненной работы и способа проверки.') . sy3_p('До начала работ договариваемся об объёме, стоимости и критериях готовности. После запуска — инструкции и понятный порядок дальнейшей работы.') . sy3_buttons([['Написать мне в Telegram ↗', $contact]]) . sy3_p('<a class="text-link" href="' . esc_url(home_url('/about/')) . '">Подробнее обо мне и подходе ↗</a>')
     ], 'author-grid');
     $journal = sy3_p('05 / Журнал', 'eyebrow') . sy3_g(sy3_h('Разобраться.<br>Принять решение.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/journal/')) . '">Читать журнал ↗</a>'), 'section-heading') . sy3_p('Практические разборы для собственника: что проверить, с чего начать и как принять работу.', 'section-intro') . sy3_shortcode('[sy3_cards type="post" count="3"]');
     $faq = sy3_p('06 / Частые вопросы', 'eyebrow') . sy3_h('До начала работы') . sy3_g(
