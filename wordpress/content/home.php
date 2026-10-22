@@ -5,10 +5,10 @@ function sy3_home_content(): string {
     $hero = sy3_g(sy3_cols([
         sy3_p('<span class="status-dot" aria-hidden="true"></span> АВТОМАТИЗАЦИЯ БИЗНЕСА', 'eyebrow') .
         sy3_h('Ваш бизнес.<br>Меньше рутины.<br><em>Больше порядка.</em>', 1) .
-        sy3_p('Собираю заявки, CRM и сервисы в одну систему. Чтобы обращения попадали к менеджерам, данные передавались автоматически, а команда занималась клиентами.', 'hero-intro') .
+        sy3_p('Создаю сайты и веб-сервисы, настраиваю CRM и связываю рабочие инструменты. Чтобы клиенту было удобно обратиться, а команде — принять заявку и выполнить работу.', 'hero-intro') .
         sy3_buttons([['Обсудить мой процесс ↗', $contact], ['Посмотреть проекты ↓', '#selected-cases', true]]) .
         sy3_p('Напишите Артёму в Telegram. Начнём с вашей задачи — без готового ТЗ.', 'hero-note'),
-        sy3_image('hero-system.webp', 'Три связанных элемента — CRM, интеграции и ИИ — в одной системе.', 'hero-art') . sy3_p('CRM <span>↔</span> ИНТЕГРАЦИИ <span>↔</span> ИИ', 'hero-art-caption')
+        sy3_image('hero-system.webp', 'Связанные элементы одной системы для работы бизнеса.', 'hero-art') . sy3_p('САЙТЫ И СЕРВИСЫ <span>↔</span> CRM <span>↔</span> ИИ', 'hero-art-caption')
     ], 'hero-columns') . sy3_g(
         sy3_p('<strong class="bitrix">Битрикс24</strong><br>Бизнес-партнёр') .
         sy3_p('<strong>От заявки до работы</strong><br>Проверяю весь путь') .
@@ -16,12 +16,12 @@ function sy3_home_content(): string {
         sy3_p('<strong>Артём Суязов</strong><br>Лично разбираю вашу задачу'),
         'trust-strip'
     ), 'section-inner');
-    $services = sy3_p('01 / Решения для бизнеса', 'eyebrow') . sy3_g(sy3_h('Где нужна<br>автоматизация?') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/services/')) . '">Все направления ↗</a>'), 'section-heading') . sy3_shortcode('[sy3_cards type="sy3_service" count="3"]');
+    $services = sy3_p('01 / Решения для бизнеса', 'eyebrow') . sy3_g(sy3_h('Сайты и автоматизация<br>для работы бизнеса.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/services/')) . '">Все направления ↗</a>'), 'section-heading') . sy3_shortcode('[sy3_cards type="sy3_service" count="4"]');
     $cases = sy3_p('02 / Выбранные проекты', 'eyebrow') . sy3_g(sy3_h('<span id="selected-cases">Работа, которую<br>можно посмотреть.</span>') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/cases/')) . '">Все 25 кейсов ↗</a>'), 'section-heading') . sy3_shortcode('[sy3_featured_cases]');
     $process = sy3_p('03 / Как работаем', 'eyebrow') . sy3_h('Автоматизация начинается<br>с разговора о работе.') . sy3_p('Согласуем понятный результат и способ проверки до начала внедрения.', 'section-intro') . sy3_cols([
         sy3_p('01 / РАЗОБРАТЬСЯ', 'step-number') . sy3_h('Увидеть процесс', 3) . sy3_p('Собираем путь заявки, участников, системы и ручные операции. Находим узкое место.'),
         sy3_p('02 / ДОГОВОРИТЬСЯ', 'step-number') . sy3_h('Выбрать первый шаг', 3) . sy3_p('Определяем границы работ, ограничения, стоимость и сценарий приёмки.'),
-        sy3_p('03 / СДЕЛАТЬ', 'step-number') . sy3_h('Собрать решение', 3) . sy3_p('Настраиваем CRM или интеграцию. Для ИИ начинаем с ограниченного пилота.'),
+        sy3_p('03 / СДЕЛАТЬ', 'step-number') . sy3_h('Собрать решение', 3) . sy3_p('Разрабатываем сайт или сервис, настраиваем CRM и интеграции. Для ИИ начинаем с ограниченного пилота.'),
         sy3_p('04 / ПРОВЕРИТЬ', 'step-number') . sy3_h('Пройти весь путь', 3) . sy3_p('Проверяем рабочий сценарий, передаём инструкции и договариваемся о сопровождении.')
     ], 'process-grid');
     $author = sy3_cols([

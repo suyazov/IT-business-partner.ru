@@ -68,7 +68,7 @@ function sy3_import_cover(int $post_id, array $cover): void {
     if (!$current || get_post_meta($current, '_sy3_media_hash', true)) set_post_thumbnail($post_id, $attachment);
 }
 
-$home = sy3_import_post('page:home', ['post_type' => 'page', 'post_name' => 'home', 'post_title' => $personal ? 'Артём Суязов — IT-бизнес-партнёр' : 'Автоматизация бизнеса: CRM, интеграции и ИИ', 'post_excerpt' => $personal ? 'Помогаю бизнесу разобраться с технологиями и довести решения до работы.' : 'Связываю заявки, CRM и рабочие сервисы в понятную систему.', 'post_content' => $personal ? sy3_personal_home() : sy3_home_content()]);
+$home = sy3_import_post('page:home', ['post_type' => 'page', 'post_name' => 'home', 'post_title' => $personal ? 'Артём Суязов — IT-бизнес-партнёр' : 'Автоматизация бизнеса: CRM, интеграции и ИИ', 'post_excerpt' => $personal ? 'Помогаю бизнесу разобраться с технологиями и довести решения до работы.' : 'Создаю сайты и веб-сервисы, связываю заявки, CRM и рабочие инструменты в понятную систему.', 'post_content' => $personal ? sy3_personal_home() : sy3_home_content()]);
 update_option('show_on_front', 'page'); update_option('page_on_front', $home);
 update_option('blogname', $personal ? 'Артём Суязов — IT-бизнес-партнёр' : 'Сутри — автоматизация бизнеса');
 update_option('blogdescription', 'CRM, интеграции и ИИ. Разбор процесса, внедрение и проверка рабочего сценария.');

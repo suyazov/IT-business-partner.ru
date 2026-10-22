@@ -23,7 +23,7 @@ add_action('wp_enqueue_scripts', function () {
 add_shortcode('sy3_featured_cases', function (): string {
     ob_start();
     echo '<div class="card-grid cases-grid curated-cases">';
-    foreach (['bitrix24-doors', 'matklass', 'glosscheck', 'libertygas'] as $slug) {
+    foreach (['bitrix24-doors', 'chitayka', 'glosscheck', 'stilspace', 'matklass', 'libertygas'] as $slug) {
         $item = get_page_by_path($slug, OBJECT, 'sy3_case');
         if ($item && $item->post_status === 'publish') sy3_post_card($item);
     }
@@ -76,6 +76,6 @@ add_filter('excerpt_length', fn() => 27);
 add_filter('excerpt_more', fn() => '…');
 
 add_filter('document_title_parts', function ($parts) {
-    if (is_front_page()) return ['title' => sy3_personal() ? 'Артём Суязов — IT-бизнес-партнёр' : 'CRM, интеграции и ИИ для бизнеса — Сутри'];
+    if (is_front_page()) return ['title' => sy3_personal() ? 'Артём Суязов — IT-бизнес-партнёр' : 'Создание сайтов, веб-сервисов и автоматизация бизнеса — Сутри'];
     return $parts;
 });

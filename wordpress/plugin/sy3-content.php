@@ -118,7 +118,7 @@ add_action('template_redirect', function () {
     }
     if ($feed === 'llms') {
         header('Content-Type: text/plain; charset=utf-8');
-        echo '# ' . get_bloginfo('name') . "\n\n> CRM, интеграции и ИИ для бизнеса. Автор: Артём Суязов.\n\n";
+        echo '# ' . get_bloginfo('name') . "\n\n> Сайты, веб-сервисы, CRM, интеграции и ИИ для бизнеса. Автор: Артём Суязов.\n\n";
         foreach (['Услуги' => '/services/', 'Кейсы' => '/cases/', 'Журнал' => '/journal/', 'Контакты' => '/contacts/'] as $label => $path) echo '- [' . $label . '](' . home_url($path) . ")\n";
         foreach ($items as $item) echo '- [' . get_the_title($item) . '](' . get_permalink($item) . '): ' . get_the_excerpt($item) . "\n";
         exit;
