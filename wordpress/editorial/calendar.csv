@@ -1,0 +1,101 @@
+position,id,title,slug,category,publish_msk,file,sources,cover
+1,1,У заявки должен быть хозяин: что настроить раньше красивой воронки,u-zayavki-dolzhen-byt-hozyain,CRM,2026-10-25T10:00:00+03:00,01-crm.md,"doors,matklass",crm
+2,11,"Форма пишет «отправлено», а заявки нет: где искать разрыв",forma-otpravlena-no-zayavki-net,Интеграции,2026-10-28T10:00:00+03:00,02-integrations.md,"matklass,antispam",audit
+3,21,OCR или анализ изображения: как выбрать обработку документов без лишних расходов,ocr-ili-analiz-izobrazheniya,ИИ,2026-10-31T10:00:00+03:00,03-ai.md,glosscheck,audit
+4,31,Один объект — один лист A4: почему печать нужно проектировать отдельно от экрана,odin-obekt-odin-list-a4,Документы,2026-11-03T10:00:00+03:00,04-documents.md,liberty,editor
+5,41,Двойное бронирование: почему свободного места на экране недостаточно,dvoinoe-bronirovanie-resursa,Бронирование,2026-11-06T10:00:00+03:00,05-booking.md,"booking,opsplanning",booking
+6,51,Семья вместо одной карточки клиента: что важно учесть в CRM детского центра,semya-kak-model-klienta,CRM,2026-11-09T10:00:00+03:00,06-education.md,kids,team
+7,61,CMS должна помогать редактору: как превратить красивую вёрстку в рабочий инструмент,cms-dlya-redaktora-a-ne-razrabotchika,Сайты,2026-11-12T10:00:00+03:00,07-web.md,"webportfolio,star",editor
+8,71,Единая точка приёма задач: как сохранить просьбу клиента среди переписки,edinaya-tochka-priema-rabochih-zaprosov,Процессы,2026-11-15T10:00:00+03:00,08-operations.md,"support,bridge",workflow
+9,81,Справочник статей: почему финансовая автоматизация начинается с названий,spravochnik-statey-operatsiy,Финансы,2026-11-18T10:00:00+03:00,09-finance.md,finance,finance
+10,91,"Границы MVP: как запустить полезный процесс, а не половину большой системы",granitsy-mvp-avtomatizatsii,Стратегия,2026-11-21T10:00:00+03:00,10-strategy.md,"platform,parking",planning
+11,2,Равномерная очередь в CRM: почему одинаковое число лидов ещё не означает справедливость,ravnomernaya-ochered-crm,CRM,2026-11-24T10:00:00+03:00,01-crm.md,doors,workflow
+12,12,У бизнеса несколько сайтов: зачем нужен реестр всех форм заявки,inventarizaciya-form-na-neskolkih-saytah,Интеграции,2026-11-27T10:00:00+03:00,02-integrations.md,antispam,workflow
+13,22,История ИИ-чата: почему длинная память может стать дорогой и бесполезной,istoriya-ai-chata-i-stoimost,ИИ,2026-11-30T10:00:00+03:00,03-ai.md,glosscheck,finance
+14,32,Когда бизнесу достаточно автономного редактора вместо сложной веб-системы,avtonomnyy-redaktor-dokumentov,Документы,2026-12-03T10:00:00+03:00,04-documents.md,liberty,launch
+15,42,Несколько площадок в одной брони: сохранить всё или не сохранять ничего,bronirovanie-neskolkih-ploshchadok,Бронирование,2026-12-06T10:00:00+03:00,05-booking.md,booking,booking
+16,52,Кто может забрать ребёнка: почему контакт в CRM ещё не означает полномочие,peredacha-rebenka-upolnomochennomu,Процессы,2026-12-09T10:00:00+03:00,06-education.md,kids,control
+17,62,"Уведомление потерялось, заявка осталась: зачем форме собственное хранилище",zayavka-sayta-dolzhna-sohranyatsya,Сайты,2026-12-12T10:00:00+03:00,07-web.md,avla,workflow
+18,72,"Статус «готово» должен означать результат, который можно открыть и проверить",status-gotovo-tolko-posle-rezultata,Процессы,2026-12-15T10:00:00+03:00,08-operations.md,"bridge,support",control
+19,82,Деньги на счёте и прибыль: как не смешать два вопроса в одном отчёте,dvizhenie-deneg-i-pribyl-v-otchetah,Финансы,2026-12-18T10:00:00+03:00,09-finance.md,finance,control
+20,92,Готовая система или своя разработка: что сравнивать кроме цены лицензии,gotovaya-sistema-ili-razrabotka,Стратегия,2026-12-21T10:00:00+03:00,10-strategy.md,"platform,finance",audit
+21,3,Письма с сайта в CRM: как не потерять отдельный запрос внутри длинной переписки,pisma-s-sayta-v-crm,CRM,2026-12-24T10:00:00+03:00,01-crm.md,"doors,matklass",integration
+22,13,Антиспам без CAPTCHA: как защитить формы и не усложнить обращение клиенту,antispam-bez-kapchi,Интеграции,2026-12-27T10:00:00+03:00,02-integrations.md,antispam,control
+23,23,Зачем бизнесу управление инструкциями ИИ из своей админки,upravlenie-promptom-iz-adminki,ИИ,2026-12-30T10:00:00+03:00,03-ai.md,glosscheck,editor
+24,33,Многостраничный PDF из данных: как исключить ручное копирование страниц,mnogostranichnyy-pdf-iz-dannyh,Документы,2027-01-02T10:00:00+03:00,04-documents.md,liberty,workflow
+25,43,Статус брони и занятость площадки: почему это разные настройки,statusy-broni-i-zanyatost,Бронирование,2027-01-05T10:00:00+03:00,05-booking.md,"booking,opsplanning",control
+26,53,"Лист ожидания: как не потерять клиента, когда группа заполнена",list-ozhidaniya-po-vmestimosti,CRM,2027-01-08T10:00:00+03:00,06-education.md,kids,booking
+27,63,"Фильтр каталога начинается с товарных данных, а не с красивых переключателей",filtr-kataloga-nachinaetsya-s-dannyh,Сайты,2027-01-11T10:00:00+03:00,07-web.md,webportfolio,planning
+28,73,"ИИ нашёл документ — как понять, что работать нужно именно по нему",aktualnyy-istochnik-dlya-raboty-ai,Процессы,2027-01-14T10:00:00+03:00,08-operations.md,"bridge,support",planning
+29,83,Автозаполнение операций: как ускорить ввод и сохранить право на проверку,pravila-avtozapolneniya-operatsiy,Финансы,2027-01-17T10:00:00+03:00,09-finance.md,finance,workflow
+30,93,Что автоматизировать первым: пять критериев вместо списка пожеланий,prioritety-avtomatizatsii-biznesa,Стратегия,2027-01-20T10:00:00+03:00,10-strategy.md,"platform,finance",planning
+31,4,"Неактивный сотрудник в CRM: маленький дубликат, который ломает большой процесс",neaktivnye-sotrudniki-v-crm,CRM,2027-01-23T10:00:00+03:00,01-crm.md,doors,audit
+32,14,"Как понять, что антиспам помогает, а не блокирует клиентов",kak-izmerit-rabotu-antispama,Процессы,2027-01-26T10:00:00+03:00,02-integrations.md,antispam,acceptance
+33,24,Гостевой ИИ-чат: как дать попробовать сервис и сохранить управляемую нагрузку,gostevoy-ai-chat,ИИ,2027-01-29T10:00:00+03:00,03-ai.md,glosscheck,launch
+34,34,Версии шаблонов: почему старый договор не должен меняться после обновления формы,versii-shablonov-dokumentov,Документы,2027-02-01T10:00:00+03:00,04-documents.md,"euro,doors",planning
+35,44,Календарь внутри сделки CRM: меньше переключений без смешивания систем,kalendar-vnutri-sdelki-crm,Бронирование,2027-02-04T10:00:00+03:00,05-booking.md,"booking,opsplanning",integration
+36,54,Последнее место в группе: как проверить одновременную запись двух администраторов,poslednee-mesto-v-gruppe,CRM,2027-02-07T10:00:00+03:00,06-education.md,kids,acceptance
+37,64,"Сократили оформление заказа — проверьте, не сломалась ли корзина",korzina-i-checkout-odin-scenariy,Сайты,2027-02-10T10:00:00+03:00,07-web.md,webportfolio,acceptance
+38,74,"Независимая проверка изменений: зачем она нужна, если разработчик уже всё протестировал",nezavisimaya-proverka-izmeneniy,Процессы,2027-02-13T10:00:00+03:00,08-operations.md,"bridge,webportfolio",acceptance
+39,84,"Заявка на расход: как связать просьбу, решение и фактическую оплату",zayavka-na-rashod-i-soglasovanie,Финансы,2027-02-16T10:00:00+03:00,09-finance.md,"finance,opsplanning",acceptance
+40,94,"Выгрузка данных: требование, которое лучше обсудить до покупки системы",vygruzki-i-perenosimost-dannyh,Стратегия,2027-02-19T10:00:00+03:00,10-strategy.md,"platform,finance",launch
+41,5,Договор из сделки: какие данные нужно привести в порядок до автоматической генерации,dogovor-iz-sdelki-crm,Документы,2027-02-22T10:00:00+03:00,01-crm.md,doors,editor
+42,15,Повторная отправка без дублей: почему интеграции нужен номер операции,povtornaya-otpravka-bez-dubley,Интеграции,2027-02-25T10:00:00+03:00,02-integrations.md,"kids,booking",duplicates
+43,25,Ограничения ИИ-запросов: защита бюджета и качества сервиса,limity-ai-zaprosov,ИИ,2027-02-28T10:00:00+03:00,03-ai.md,glosscheck,control
+44,35,Пустые поля в готовом документе: почему генерация должна уметь останавливаться,pustye-polya-v-dokumentah,Документы,2027-03-03T10:00:00+03:00,04-documents.md,"euro,doors",audit
+45,45,Видеть занятость — не значит видеть клиента: права в общем календаре,dostup-k-kalendaryu-i-dannym-klienta,Бронирование,2027-03-06T10:00:00+03:00,05-booking.md,"booking,platform",team
+46,55,"История посещений: почему исправление должно дополнять запись, а не стирать прошлое",istoriyu-poseshcheniy-nelzya-perepisyvat,Процессы,2027-03-09T10:00:00+03:00,06-education.md,kids,workflow
+47,65,Перенос сайта с конструктора: почему скачать страницу недостаточно,perenos-s-konstruktora-bez-zavisimostey,Сайты,2027-03-12T10:00:00+03:00,07-web.md,webportfolio,launch
+48,75,Исправление должно быть обратимым: как ограничить последствия неудачного изменения,izmeneniya-kotorye-mozhno-otmenit,Процессы,2027-03-15T10:00:00+03:00,08-operations.md,"bridge,webportfolio",control
+49,85,Версии премиальных схем: почему новая формула не должна переписывать прошлый месяц,versii-premialnyh-shem,Управление,2027-03-18T10:00:00+03:00,09-finance.md,opsplanning,planning
+50,95,Несколько компаний в одной CRM: общий интерфейс не означает общую базу для всех,neskolko-kompaniy-v-odnoy-crm,CRM,2027-03-21T10:00:00+03:00,10-strategy.md,platform,team
+51,6,Продажи и сервис в одной CRM: как передать заказ вместе с контекстом,prodazhi-i-servis-v-crm,CRM,2027-03-24T10:00:00+03:00,01-crm.md,doors,team
+52,16,Какая система главная: как прекратить перезаписывание данных между сервисами,glavnaya-sistema-dlya-kazhdogo-polya,Интеграции,2027-03-27T10:00:00+03:00,02-integrations.md,"opsplanning,platform",integration
+53,26,Из голосового сообщения в понятную задачу: что должно происходить после распознавания,golosovoe-soobshchenie-v-zadachu,ИИ,2027-03-30T10:00:00+03:00,03-ai.md,support,team
+54,36,Настраиваемые поля без хаоса: кто может видеть и менять данные,dinamicheskie-polya-i-roli,Документы,2027-04-02T10:00:00+03:00,04-documents.md,"euro,platform",team
+55,46,Отмена брони: как освободить ресурс и сохранить историю договорённости,otmena-broni-bez-potery-istorii,Бронирование,2027-04-05T10:00:00+03:00,05-booking.md,booking,workflow
+56,56,Работа без связи: почему внесённые позже данные нужно отличать от проверенных онлайн,offline-dannye-nuzhno-podtverzhdat,Процессы,2027-04-08T10:00:00+03:00,06-education.md,kids,control
+57,66,Медиатека в S3: как освободить сервер и сохранить старые ссылки на изображения,mediateka-s3-sohranit-starye-ssylki,Сайты,2027-04-11T10:00:00+03:00,07-web.md,s3,control
+58,76,"Какие действия можно поручить ИИ сразу, а для каких нужно подтверждение",prava-ai-na-deystviya,Процессы,2027-04-14T10:00:00+03:00,08-operations.md,"support,bridge",team
+59,86,Единый справочник сотрудников: почему ФИО недостаточно для автоматизации,edinyy-spravochnik-sotrudnikov,Управление,2027-04-17T10:00:00+03:00,09-finance.md,opsplanning,team
+60,96,Доступ поддержки по согласию: как помочь пользователю и сохранить контроль,dostup-podderzhki-po-soglasiyu,Автоматизация,2027-04-20T10:00:00+03:00,10-strategy.md,platform,control
+61,7,Одна форма для разных заявок: как упростить внутренние обращения на обучение,edinaya-forma-zayavok-na-obuchenie,Процессы,2027-04-23T10:00:00+03:00,01-crm.md,training,learning
+62,17,"Журнал интеграции, который помогает руководителю, а не только разработчику",zhurnal-integracii-dlya-biznesa,Интеграции,2027-04-26T10:00:00+03:00,02-integrations.md,"support,bridge",workflow
+63,27,"ИИ готовит действие, человек подтверждает: где полезен такой режим автоматизации",ai-gotovit-chelovek-podtverzhdaet,ИИ,2027-04-29T10:00:00+03:00,03-ai.md,"support,opsplanning",control
+64,37,"История правок документа: важно видеть не только изменения, но и принятые решения",istoriya-pravok-dokumenta,Документы,2027-05-02T10:00:00+03:00,04-documents.md,lawyer,editor
+65,47,"Шаг календаря и длительность брони: две настройки, которые часто путают",shag-kalendarya-i-dlitelnost-broni,Бронирование,2027-05-05T10:00:00+03:00,05-booking.md,"booking,opsplanning",booking
+66,57,"Абонемент, посещение и оплата: зачем CRM различать эти сущности",abonement-ne-raven-vyruchke,CRM,2027-05-08T10:00:00+03:00,06-education.md,kids,finance
+67,67,Как превратить SEO-аудит из списка замечаний в проверяемую работу,seo-audit-prevratit-v-priemku,Сайты,2027-05-11T10:00:00+03:00,07-web.md,webportfolio,audit
+68,77,"Сервис работает, а заявки не обрабатываются: почему зелёного индикатора недостаточно",servis-rabotaet-a-zadacha-ne-vypolnyaetsya,Процессы,2027-05-14T10:00:00+03:00,08-operations.md,"support,bridge",audit
+69,87,"Настраиваемые KPI: как проверить формулу до того, как она начнёт влиять на расчёты",testy-nastraivaemyh-kpi-formul,Управление,2027-05-17T10:00:00+03:00,09-finance.md,opsplanning,acceptance
+70,97,Общая платформа и отраслевые модули: что действительно стоит переиспользовать,obshchaya-platforma-i-otraslevye-moduli,Стратегия,2027-05-20T10:00:00+03:00,10-strategy.md,platform,workflow
+71,8,"Почему интеграции нужен идентификатор сотрудника, а не только его имя",identifikator-vmesto-imeni,Интеграции,2027-05-23T10:00:00+03:00,01-crm.md,"training,platform",integration
+72,18,Внешний сервис недоступен: как должна вести себя ваша автоматизация,oshibki-vneshnego-api,Интеграции,2027-05-26T10:00:00+03:00,02-integrations.md,"glosscheck,support",control
+73,28,Файл для ИИ: почему проверка загрузки важна раньше качества ответа,fayly-dlya-ai-proverka-na-vhode,ИИ,2027-05-29T10:00:00+03:00,03-ai.md,glosscheck,audit
+74,38,Как прототип помогает проверить документный сервис до сложной разработки,prototip-dokumentnogo-servisa,Документы,2027-06-01T10:00:00+03:00,04-documents.md,"lawyer,euro",launch
+75,48,Как перейти от отдельного календарного прототипа к модулю рабочей системы,perehod-ot-prototipa-k-kalendaryu,Бронирование,2027-06-04T10:00:00+03:00,05-booking.md,"booking,opsplanning",planning
+76,58,Несколько филиалов в одной CRM: общий обзор без случайного доступа к чужим данным,filialy-v-odnoy-crm,CRM,2027-06-07T10:00:00+03:00,06-education.md,"platform,kids",team
+77,68,"Одна статья может стать основой блога, если правильно спроектировать шаблон",shablon-stati-v-deystvuyushchey-cms,Сайты,2027-06-10T10:00:00+03:00,07-web.md,"webportfolio,modx",editor
+78,78,Предпросмотр сайта и публикация: как избежать сюрпризов на основном домене,predprosmotr-i-publikaciya-raznye-etapy,Процессы,2027-06-13T10:00:00+03:00,08-operations.md,"bridge,webportfolio",launch
+79,88,Закрытие периода: как остановить незаметное изменение уже согласованных данных,zakrytie-perioda-v-avtomatizatsii,Управление,2027-06-16T10:00:00+03:00,09-finance.md,"opsplanning,finance",control
+80,98,Редакционный конвейер с ИИ: почему генератор текста — только один этап,redaktsionnyy-konveyer-s-ii,ИИ,2027-06-19T10:00:00+03:00,10-strategy.md,prohair,editor
+81,9,"Проверка CRM под администратором не показывает, сможет ли работать менеджер",prava-menedzhera-priemka-crm,CRM,2027-06-22T10:00:00+03:00,01-crm.md,"doors,platform",control
+82,19,Поменяли поле в одной системе — сломали процесс в другой: как управлять контрактом интеграции,izmenenie-formata-integracii,Интеграции,2027-06-25T10:00:00+03:00,02-integrations.md,"platform,booking",planning
+83,29,"Как сравнивать ИИ-видео для бизнеса: один референс, одинаковые критерии",sravnenie-ai-video-modeley,ИИ,2027-06-28T10:00:00+03:00,03-ai.md,avatar,launch
+84,39,Реквизиты без ручного копирования: как связать карточку клиента и документ,rekvizity-bez-ruchnogo-kopirovaniya,Документы,2027-07-01T10:00:00+03:00,04-documents.md,"doors,euro",integration
+85,49,"Кабинет, сотрудник и оборудование: как учитывать несколько ограничений расписания",obshchie-resursy-v-raspisanii,Бронирование,2027-07-04T10:00:00+03:00,05-booking.md,"booking,kids",team
+86,59,"Занятие можно записать только тогда, когда свободны все участники расписания",konflikty-pedagoga-i-kabineta,CRM,2027-07-07T10:00:00+03:00,06-education.md,kids,booking
+87,69,"Интерактивная карта продаёт только тогда, когда данные на ней можно поддерживать",karta-obektov-s-upravleniem-iz-cms,Сайты,2027-07-10T10:00:00+03:00,07-web.md,star,booking
+88,79,Контекст проекта: как перестать заново объяснять бизнес при каждой задаче,kontekst-proekta-dlya-komandy-i-ai,Процессы,2027-07-13T10:00:00+03:00,08-operations.md,"bridge,support",learning
+89,89,"Исключения бюджета: как сделать отклонение рабочей задачей, а не красной ячейкой",ochered-isklyucheniy-byudzheta,Финансы,2027-07-16T10:00:00+03:00,09-finance.md,"finance,opsplanning",audit
+90,99,"После запуска: какие измерения покажут, помогает ли автоматизация бизнесу",izmereniya-posle-zapuska-avtomatizatsii,Стратегия,2027-07-19T10:00:00+03:00,10-strategy.md,"platform,finance",control
+91,10,Как составить набор контрольных заявок для CRM и не ограничиться одной успешной отправкой,crm-kontrolnye-scenarii-kanalov,CRM,2027-07-22T10:00:00+03:00,01-crm.md,"matklass,doors",audit
+92,20,Интеграция может только читать: почему это иногда лучше двусторонней синхронизации,integraciya-chtenie-ili-zapis,Интеграции,2027-07-25T10:00:00+03:00,02-integrations.md,"opsplanning,booking",integration
+93,30,"Границы ИИ-помощника: как объяснить пользователю, на что можно опереться",granicy-ai-pomoshchnika,ИИ,2027-07-28T10:00:00+03:00,03-ai.md,"glosscheck,support",planning
+94,40,Пошаговый конструктор документов: как не потерять пользователя между полями,poshagovyy-konstruktor-dokumentov,Документы,2027-07-31T10:00:00+03:00,04-documents.md,euro,workflow
+95,50,Бронь и оплата — разные события: как не смешать занятость и деньги,bron-i-oplata-raznye-sobytiya,Бронирование,2027-08-03T10:00:00+03:00,05-booking.md,"booking,kids,shumakova",finance
+96,60,От заявки до зачисления: почему статус продажи не должен автоматически занимать место,ot-zayavki-do-zachisleniya,CRM,2027-08-06T10:00:00+03:00,06-education.md,"kids,training",crm
+97,70,Лендинг с оплатой: когда не нужен целый интернет-магазин,lending-s-oplatoy-bez-bolshogo-magazina,Сайты,2027-08-09T10:00:00+03:00,07-web.md,shumakova,finance
+98,80,"Как принимать разработку с помощью ИИ, если вы не хотите читать весь код",kak-prinimat-razrabotku-s-pomoshchyu-ai,ИИ,2027-08-12T10:00:00+03:00,08-operations.md,"bridge,webportfolio",acceptance
+99,90,Аудит перед переносом: почему «один сайт» может оказаться общей бизнес-системой,audit-pered-perenosom-sistemy,Автоматизация,2027-08-15T10:00:00+03:00,09-finance.md,parking,audit
+100,100,Бизнес-бриф на автоматизацию: что рассказать исполнителю вместо списка кнопок,biznes-brif-na-avtomatizatsiyu,Стратегия,2027-08-18T10:00:00+03:00,10-strategy.md,"platform,parking,finance",planning
