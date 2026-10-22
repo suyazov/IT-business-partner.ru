@@ -909,7 +909,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 230,
@@ -927,8 +927,16 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Ошибки при подключении к почтовым серверам",
+        "title": "Beget: подключение почтовых клиентов",
         "url": "https://beget.com/ru/kb/how-to/mail/reshenie-problem"
+      },
+      {
+        "title": "Thunderbird: IMAP-синхронизация",
+        "url": "https://support.mozilla.org/en-US/kb/imap-synchronization"
+      },
+      {
+        "title": "RFC 9051: IMAP",
+        "url": "https://www.rfc-editor.org/rfc/rfc9051"
       }
     ],
     "angle": "Диагностика различий представления одного ящика; не общая инструкция Outlook",
@@ -936,7 +944,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 231,
@@ -954,8 +962,12 @@
     "cover": "crm",
     "sources": [
       {
-        "title": "Почта",
+        "title": "Beget: управление почтой",
         "url": "https://beget.com/ru/kb/manual/pochta"
+      },
+      {
+        "title": "WordPress: результат wp_mail",
+        "url": "https://developer.wordpress.org/reference/functions/wp_mail/"
       }
     ],
     "angle": "Отделение записи заявки от вторичного уведомления на инфраструктуре Beget",
@@ -963,7 +975,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 232,
@@ -981,8 +993,20 @@
     "cover": "planning",
     "sources": [
       {
-        "title": "Облачные серверы MySQL",
+        "title": "Beget: облачный сервер MySQL",
         "url": "https://beget.com/ru/kb/manual/cloud-server"
+      },
+      {
+        "title": "Beget: облачные базы DBaaS",
+        "url": "https://beget.com/ru/cloud/dbaas"
+      },
+      {
+        "title": "MySQL: анализ запросов с EXPLAIN",
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/using-explain.html"
+      },
+      {
+        "title": "MySQL: копирование и восстановление",
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html"
       }
     ],
     "angle": "Критерии по измерениям и зависимости приложения; без обещаний ускорения",
@@ -990,7 +1014,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 233,
@@ -1563,7 +1587,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 252,
@@ -1590,7 +1614,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 253,
@@ -1610,6 +1634,10 @@
       {
         "title": "Настройка CronTab",
         "url": "https://beget.com/ru/kb/manual/crontab"
+      },
+      {
+        "title": "PostgreSQL: явные блокировки и конкурентный доступ",
+        "url": "https://www.postgresql.org/docs/current/explicit-locking.html"
       }
     ],
     "angle": "Условия владения блокировкой и безопасного повторного запуска обработки",
@@ -1617,7 +1645,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 254,
@@ -1637,6 +1665,10 @@
       {
         "title": "n8n – Шаблоны и сценарии применения сервиса автоматизации",
         "url": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya"
+      },
+      {
+        "title": "n8n: обработка ошибок выполнения",
+        "url": "https://docs.n8n.io/flow-logic/error-handling/"
       }
     ],
     "angle": "Реестр входов, исключений и владельцев вместо обзора конструктора",
@@ -1644,7 +1676,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 255,
@@ -1664,6 +1696,10 @@
       {
         "title": "n8n – Шаблоны и сценарии применения сервиса автоматизации",
         "url": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya"
+      },
+      {
+        "title": "n8n: ключ шифрования сохранённых подключений",
+        "url": "https://docs.n8n.io/hosting/configuration/configuration-examples/encryption-key/"
       }
     ],
     "angle": "Комплект передачи работающих сценариев без экспорта секретов в документы",
@@ -1671,7 +1707,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 256,
@@ -1691,6 +1727,14 @@
       {
         "title": "Настройка Node.js",
         "url": "https://beget.com/ru/kb/how-to/web-apps/node-js"
+      },
+      {
+        "title": "MDN: смысл ответа HTTP 202 Accepted",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/202"
+      },
+      {
+        "title": "GitHub: практики приёма вебхуков",
+        "url": "https://docs.github.com/en/webhooks/using-webhooks/best-practices-for-using-webhooks"
       }
     ],
     "angle": "Маршрут события от подтверждения приёма до записи результата; не установка Node.js",
@@ -1698,7 +1742,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 257,
@@ -1718,6 +1762,10 @@
       {
         "title": "Установка Python",
         "url": "https://beget.com/ru/kb/how-to/web-apps/python"
+      },
+      {
+        "title": "Python: чтение CSV и параметры формата",
+        "url": "https://docs.python.org/3/library/csv.html"
       }
     ],
     "angle": "Сухой прогон, отчёт об отклонениях и повторяемость импорта",
@@ -1725,7 +1773,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 258,
@@ -1745,6 +1793,10 @@
       {
         "title": "Настройка и использование Redis",
         "url": "https://beget.com/ru/kb/how-to/services/ispolzovanie-redis"
+      },
+      {
+        "title": "Redis: срок действия ключа EXPIRE",
+        "url": "https://redis.io/docs/latest/commands/expire/"
       }
     ],
     "angle": "Прикладная актуальность данных и инвалидирование конкретного справочника",
@@ -1752,7 +1804,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 259,
@@ -1770,8 +1822,16 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Настройка и использование Redis",
+        "title": "Beget: настройка и использование Redis",
         "url": "https://beget.com/ru/kb/how-to/services/ispolzovanie-redis"
+      },
+      {
+        "title": "Redis persistence",
+        "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/"
+      },
+      {
+        "title": "Redis key eviction",
+        "url": "https://redis.io/docs/latest/develop/reference/eviction/"
       }
     ],
     "angle": "Выбор роли Redis и поведение кабинета при утрате временного состояния",
@@ -1779,7 +1839,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 260,
@@ -1797,8 +1857,12 @@
     "cover": "finance",
     "sources": [
       {
-        "title": "Настройка CronTab",
+        "title": "Beget: настройка CronTab",
         "url": "https://beget.com/ru/kb/manual/crontab"
+      },
+      {
+        "title": "Microsoft: Retry pattern",
+        "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry"
       }
     ],
     "angle": "Передача аналитикам набора с датой среза и контрольными суммами",
@@ -1806,7 +1870,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 261,
@@ -1824,8 +1888,12 @@
     "cover": "control",
     "sources": [
       {
-        "title": "Настройка CronTab",
+        "title": "Beget: настройка CronTab",
         "url": "https://beget.com/ru/kb/manual/crontab"
+      },
+      {
+        "title": "Microsoft: Retry pattern",
+        "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry"
       }
     ],
     "angle": "Остановка приёма, завершение текущего задания и понятная процедура возобновления",
@@ -1833,7 +1901,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 262,
@@ -1851,8 +1919,16 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Sentry: установка и настройка инструмента для поиска и мониторинга ошибок",
+        "title": "Beget: установка и настройка Sentry на VPS",
         "url": "https://beget.com/ru/kb/how-to/vps/sentry-ustanovka-i-nastrojka-instrumenta-dlya-monitoringa-oshibok"
+      },
+      {
+        "title": "Sentry: Tags for Node.js",
+        "url": "https://docs.sentry.io/platforms/javascript/guides/node/enriching-events/tags/"
+      },
+      {
+        "title": "Sentry: Data Scrubbing",
+        "url": "https://docs.sentry.io/security-legal-pii/scrubbing/"
       }
     ],
     "angle": "Корреляция технического события и рабочего маршрута без логирования контактов",
@@ -1860,7 +1936,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 263,
@@ -2579,7 +2655,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 288,
@@ -2606,7 +2682,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 289,
@@ -2633,7 +2709,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 290,
@@ -2664,7 +2740,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 291,
@@ -2682,8 +2758,12 @@
     "cover": "finance",
     "sources": [
       {
-        "title": "Обзор системы электронного обучения Moodle",
+        "title": "Beget: обзор Moodle",
         "url": "https://beget.com/ru/kb/faq/moodle-review"
+      },
+      {
+        "title": "Moodle: смысл завершения элемента",
+        "url": "https://docs.moodle.org/405/en/Activity_completion"
       }
     ],
     "angle": "Контракт показателей обучения и выгрузок с подрядчиком аналитики",
@@ -2691,7 +2771,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 292,
@@ -2718,7 +2798,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 293,
@@ -2745,7 +2825,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 294,
@@ -2772,7 +2852,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 295,
@@ -2799,7 +2879,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 296,
@@ -2826,7 +2906,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 297,
@@ -2853,7 +2933,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 298,
@@ -2880,7 +2960,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 299,
