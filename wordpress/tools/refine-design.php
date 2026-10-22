@@ -4,6 +4,7 @@ if (!defined('WP_CLI') || !WP_CLI) exit(1);
 if (wp_get_environment_type() === 'production' && getenv('SY3_ALLOW_PRODUCTION_IMPORT') !== '1') WP_CLI::error('Production authority required.');
 if (get_option('sy3_site_mode') !== 'expertise') WP_CLI::error('This update is only for sy3.ru.');
 require_once __DIR__ . '/../content/home.php';
+$baseline = json_decode(file_get_contents(__DIR__ . '/../content/design-baseline.json'), true, 512, JSON_THROW_ON_ERROR);
 $records = [];
 $records['page:home'] = ['content' => sy3_home_content()];
 foreach (['articles' => 'post:', 'cases' => 'case:'] as $file => $prefix) {
@@ -19,11 +20,17 @@ foreach ($records as $key => &$record) {
     $record['post'] = $posts[0];
     $saved = get_post_meta($posts[0]->ID, '_sy3_seed_hash', true);
     if (!$saved || !hash_equals($saved, hash('sha256', $posts[0]->post_content))) WP_CLI::error('Manual content edit preserved: ' . $key);
+    if (str_starts_with($key, 'case:')) {
+        foreach (['title' => 'post_title', 'excerpt' => 'post_excerpt'] as $field => $property) {
+            if (!in_array($posts[0]->$property, [$baseline[$key][$field], $record[$field]], true)) WP_CLI::error('Manual ' . $field . ' preserved: ' . $key);
+        }
+    }
     if (!empty($record['cover'])) {
         $path = __DIR__ . '/../content/media/' . basename($record['cover']['file']);
         if (!is_file($path) || !hash_equals($record['cover']['sha256'], hash_file('sha256', $path))) WP_CLI::error('Invalid cover: ' . $key);
         $thumbnail = get_post_thumbnail_id($posts[0]);
-        if ($thumbnail && !get_post_meta($thumbnail, '_sy3_media_hash', true)) WP_CLI::error('Manual cover preserved: ' . $key);
+        $current_hash = $thumbnail ? get_post_meta($thumbnail, '_sy3_media_hash', true) : '';
+        if (($thumbnail && !$current_hash) || !in_array($current_hash, [$baseline[$key]['cover_sha256'], $record['cover']['sha256']], true)) WP_CLI::error('Manual cover preserved: ' . $key);
     }
 }
 unset($record);
