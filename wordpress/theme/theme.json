@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {"contentSize": "780px", "wideSize": "1280px"},
+    "color": {"palette": [
+      {"slug": "paper", "name": "Светлый", "color": "#f3f4f3"},
+      {"slug": "ink", "name": "Графит", "color": "#0a1015"},
+      {"slug": "cyan", "name": "Холодный голубой", "color": "#a4e8f5"},
+      {"slug": "muted", "name": "Серый", "color": "#626c72"}
+    ]},
+    "typography": {"fluid": true, "fontFamilies": [{"slug": "sans", "name": "Manrope", "fontFamily": "Manrope, Arial, Helvetica, sans-serif"}],
+      "fontSizes": [{"slug": "small", "name": "Мелкий", "size": "0.875rem"}, {"slug": "normal", "name": "Обычный", "size": "1.125rem"}, {"slug": "large", "name": "Крупный", "size": "1.5rem"}, {"slug": "hero", "name": "Первый экран", "size": "4.8rem"}]}
+  },
+  "styles": {"color": {"background": "#f3f4f3", "text": "#161d21"}, "typography": {"fontFamily": "var:preset|font-family|sans", "lineHeight": "1.65"}, "spacing": {"blockGap": "1.25rem"}},
+  "customTemplates": []
+}

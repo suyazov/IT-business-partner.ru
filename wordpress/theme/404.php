@@ -1,0 +1,1 @@
+<?php defined('ABSPATH') || exit; get_header(); ?><main id="main" class="wrap error-page"><p class="eyebrow">404 / Страница не найдена</p><h1>Здесь пока<br>ничего нет.</h1><p>Возможно, адрес изменился. Нужное направление можно найти на главной.</p><a class="button" href="<?php echo esc_url(home_url('/')); ?>">На главную ↗</a></main><?php get_footer(); ?>

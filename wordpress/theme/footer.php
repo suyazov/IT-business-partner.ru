@@ -1,0 +1,5 @@
+<?php defined('ABSPATH') || exit; ?>
+<footer class="site-footer"><div class="wrap footer-top"><div><a class="footer-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php echo esc_html(sy3_label()); ?><span aria-hidden="true">↗</span></a><p>Технологии, которые помогают<br>вести бизнес.</p></div><div><p class="eyebrow">Обсудим вашу задачу</p><a class="footer-email" href="mailto:artem.suyazov@gmail.com">artem.suyazov@gmail.com</a><p><a href="tel:+79064790552">+7 (906) 479-05-52</a> · <a href="https://t.me/moi_imperator">Telegram ↗</a></p></div></div>
+<div class="wrap footer-wordmark" aria-hidden="true"><?php echo sy3_personal() ? 'на связи.' : 'сутри'; ?><span>↗</span></div>
+<div class="wrap footer-bottom"><span>© <?php echo esc_html(wp_date('Y')); ?> ИП Суязов Артем Анатольевич</span><?php wp_nav_menu(['theme_location' => 'footer', 'container' => false, 'fallback_cb' => false, 'depth' => 1]); ?><a href="<?php echo esc_url(sy3_personal() ? sy3_main_url() : 'https://it-business-partner.ru/'); ?>"><?php echo sy3_personal() ? 'Сайт услуг Сутри ↗' : 'Личный сайт Артёма ↗'; ?></a></div></footer>
+<?php wp_footer(); ?></body></html>
