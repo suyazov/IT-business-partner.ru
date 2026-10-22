@@ -93,6 +93,10 @@ foreach ($records as $record) {
     }
     $body = sy3_editorial_blocks($record['body']);
     $related = [];
+    if ($record['number'] >= 61 && $record['number'] <= 70) {
+        $web_service = get_page_by_path('web-development', OBJECT, 'sy3_service');
+        if ($web_service && $web_service->post_status === 'publish') $related[$web_service->ID] = $web_service;
+    }
     foreach ($record['sources'] as $source) {
         $path = $sources[$source]['case'] ?? '';
         if (!$path) continue;
