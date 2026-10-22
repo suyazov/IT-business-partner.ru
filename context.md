@@ -1,5 +1,13 @@
 # IT-business-partner.ru — Project Context
 
+## Защищённая форма и уведомления SY3 Support
+
+Result: подготовлена форма sy3.ru с honeypot по эталону LEMESH PRO, HMAC/nonce, атомарным replay, фиксированным лимитом 5/10 минут и закрытой файловой очередью. Заявка сохраняется до доставки; новый root-only отправитель использует существующих ботов Telegram/MAX и фиксированных личных получателей без выдачи их токенов WordPress. Есть крупная адаптивная форма, отдельный no-JS путь, согласие/обновлённая privacy и закрытый раздел заявок. Production пока не менялся, реальных отправок не было.
+
+Current state: preview 1440/390/320, главная/контакты/услуга без overflow/JS/HTTP ошибок; honeypot исключён из фокуса и a11y. Native HTTP проверил ошибочный контакт и исправление с тем же токеном, CRLF-нормализацию, повтор, чужой Origin и honeypot `0`. Два одновременных PHP процесса сохранили одну заявку/одну квоту; последующий replay вернул прежний номер. PHP integration: 19 сценариев PASS, fixtures очищены, HTTP/mail ноль; Python dispatcher: 39 offline тестов PASS, включая partial delivery/429/crash/unknown response/locks/TLS/ограничения входа. Review исправил CRLF/DEL/URL boundary, guards privacy title/excerpt, неограниченные token-lock файлы и fsync каталога. Подготовленные systemd units проходят verify. Детали `wordpress/docs/LEADS.md`; evidence `private/leads-{preview-browser,native-http,concurrency}-checks.json`, `leads-php-integration-checks.txt`, `lead-routing-audit.json`.
+
+Next action: независимое review exact head, затем точное разрешение на новый sender, приватную очередь/config и `sy3-leads.service/.timer`; после него — публикация формы/privacy и один явно тестовый lead владельцу с подтверждением двух каналов. Существующие bot runtimes/SQLite, все 311 статей и редакционный таймер не входят в изменения. Новых backups нет. Preview/QA снова нужны для проверки формы; исходный контрольный срок временных файлов 23.10.2026 18:00 МСК сохраняется.
+
 ## Основной корпус и серия Beget
 
 Result: весь согласованный корпус загружен в production: 311 готовых собственных материалов, 300 draft/11 publish, минимум 10 354 содержательных знака. В каждом есть практические таблицы, разбор процесса, индивидуальная редактируемая схема и SVG/CSV. Все 100 Beget-статей завершены. Вводная статья Beget 202 выпущена отдельно; остальные новые материалы — черновики.
