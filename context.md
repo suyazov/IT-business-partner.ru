@@ -1,5 +1,19 @@
 # IT-business-partner.ru — Project Context
 
+## WordPress: sy3.ru и личный сайт — 2026-10-22
+
+Owner requested redesign of both sites today with WordPress as CMS and a focus on CRM, integrations and AI automation. Implementation is in `wordpress/`; the prior React/Hono runtime is preserved. `sy3.ru` is the commercial/expert-content destination; `it-business-partner.ru` presents the author and collaboration format.
+
+Result: one custom WordPress theme, a content plugin, 3 service pages, 8 new articles, 2 detailed case studies based on existing published materials, author/contact/data pages. Existing 8 portfolio records and 3 public blog posts are preserved for migration; 2 case URLs redirect to the main site, other old routes remain on the personal site as archive content. Homepage editing was verified in WordPress: 112 valid native blocks. Quantitative case claims retain their original verification limits; no new client-system audit or lead/traffic growth is claimed.
+
+Current state: isolated branch/worktree and two local WordPress previews; production directories, Nginx, DNS and production databases have not changed. HTTP smoke passed for 41 HTML pages, 12 local assets, 8 exact redirects, sitemap children, llms.txt and both sales feeds; both mobile menus and 390px layouts passed browser checks. PHP/JSON/SVG validation and scoped diff checks passed. The live personal checkout has staged/dirty/untracked work and must be preserved; it is not recoverable solely from published Git. Source/design/content preparation is not evidence of production rollout. Review, exact rollout authority, bounded backup/rollback and live acceptance remain separate gates.
+
+Next action: review the prepared version and authorize the exact two-domain rollout in `wordpress/docs/ROLLOUT.md`. The implementation executor is Codex; no Kimi or Bridge execution was launched for this work.
+
+Cleanup: no production rollback copies were made. Working source and local CMS previews are retained for review, with a cleanup/review date of 2026-10-23 18:00 Moscow time. Reproducible preview core/SQLite data may be removed after required review material and any editor changes are preserved; protected access files are not disposable backups. No unrelated dirty work, receipts or Git history may be deleted.
+
+Operational note: an erroneous `Network.clearBrowserCookies` command during the first editor check cleared cookies in the shared server Chrome profile. Reauthentication may be needed in that profile. Further browser checks use an owned isolated browser context and dispose only that context.
+
 ## Обзор
 Сайт-визитка + блог для IT-business-partner.ru. SPA на React с бэкендом на Hono + tRPC, ORM — Drizzle + MySQL.
 

@@ -1,4 +1,10 @@
-# React + TypeScript + Vite
+# IT-business-partner.ru / Сутри
+
+Подготовленная WordPress-версия двух сайтов находится в [wordpress/](wordpress/README.md). Статус, границы публикации и сохранение старых адресов описаны в [контексте](context.md) и [плане переноса](wordpress/docs/ROLLOUT.md). Production ещё не переключён.
+
+Ниже сохранено описание исходного React-приложения.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
