@@ -22,6 +22,8 @@ function sy3_page_definitions(): array {
         ]
     ];
     if (get_option('sy3_site_mode') === 'expertise') {
+        require_once __DIR__ . '/lead-privacy.php';
+        $definitions['privacy'] = sy3_lead_privacy_definition();
         $definitions['about']['content'] = sy3_cols([
             sy3_image('artem-suyazov.jpg', 'Артём Суязов — IT-бизнес-партнёр.', 'about-portrait'),
             sy3_p('Лично на связи', 'eyebrow') . sy3_h('Привет, я Артём.') . sy3_p('Помогаю собственникам превратить задачу бизнеса в работающий сайт, сервис или систему автоматизации. Со мной можно обсудить и небольшой первый шаг, и развитие нескольких связанных инструментов.') . sy3_p('Лично разбираю задачу, согласовываю объём и стоимость, показываю результат. Важные договорённости и критерии приёмки фиксируем до начала работ.') . sy3_buttons([['Написать Артёму ↗', 'https://t.me/moi_imperator']])
