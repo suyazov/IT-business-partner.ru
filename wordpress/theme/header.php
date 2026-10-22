@@ -1,6 +1,6 @@
 <?php defined('ABSPATH') || exit; ?><!doctype html>
 <html <?php language_attributes(); ?>>
-<head><meta charset="<?php bloginfo('charset'); ?>"><meta name="viewport" content="width=device-width, initial-scale=1"><?php wp_head(); ?></head>
+<head><meta charset="<?php bloginfo('charset'); ?>"><meta name="viewport" content="width=device-width, initial-scale=1"><?php if(!sy3_personal()): ?><link rel="icon" href="<?php echo esc_url(get_theme_file_uri('assets/favicon.svg')); ?>" type="image/svg+xml"><?php endif; ?><?php wp_head(); ?></head>
 <body <?php body_class(sy3_personal() ? 'brand-personal' : 'brand-sy3'); ?>><?php wp_body_open(); ?>
 <a class="skip-link" href="#main">Перейти к содержимому</a>
 <header class="site-header"><div class="header-inner">

@@ -1,0 +1,2726 @@
+[
+  {
+    "id": 202,
+    "slug": "ai-shlyuz-beget-crm-sayt-processy",
+    "title": "ИИ-шлюз Beget для сайта и CRM: как подключить модель к рабочему процессу",
+    "primary_query": "как подключить ИИ шлюз Beget к CRM",
+    "related_queries": [
+      "ИИ шлюз Beget для сайта",
+      "интеграция Beget AI Gateway",
+      "Chat Completions Beget"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "ai-automation",
+    "case": "glosscheck",
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "ИИ-Шлюз",
+        "url": "https://beget.com/ru/cloud/ai-gateway"
+      }
+    ],
+    "angle": "Серверный адаптер, контракт результата и приёмка CRM; отдельный продукт Beget вместо общего выбора ИИ",
+    "planned_at": "2026-10-23 00:00:00",
+    "series": "standalone",
+    "standalone": true,
+    "collection": "beget",
+    "manuscript_ready": true
+  },
+  {
+    "id": 203,
+    "slug": "beget-ai-gateway-responses-404",
+    "title": "Ошибка 404 при подключении ИИ-шлюза Beget: проверяем тип API",
+    "primary_query": "Beget AI Gateway Responses API 404",
+    "related_queries": [
+      "Beget MODEL_NOT_FOUND",
+      "Chat Completions вместо Responses",
+      "ошибка подключения ИИ шлюза"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "ai-automation",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Диагностика конкретной несовместимости протокола; не общий разбор HTTP 404",
+    "planned_at": "2027-01-31 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 204,
+    "slug": "ai-beget-byudzhet-pilota",
+    "title": "Бюджет ИИ-пилота через Beget: как считать стоимость полезного результата",
+    "primary_query": "как контролировать расходы ИИ шлюза Beget",
+    "related_queries": [
+      "лимиты AI Gateway",
+      "стоимость принятого ответа ИИ",
+      "бюджет нейросети для бизнеса"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "ai-automation",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "ИИ-Шлюз",
+        "url": "https://beget.com/ru/cloud/ai-gateway"
+      }
+    ],
+    "angle": "Модель учёта принятых результатов, затрат проверки и повторов для шлюза; без прайс-листа",
+    "planned_at": "2027-02-01 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 205,
+    "slug": "beget-ai-gateway-kluch-server",
+    "title": "Ключ ИИ-шлюза Beget: серверное хранение и разделение доступов",
+    "primary_query": "где хранить API ключ Beget AI Gateway",
+    "related_queries": [
+      "ключ ИИ в браузере",
+      "доступ разработчика к ИИ шлюзу",
+      "ротация ключа интеграции"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "ai-automation",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Жизненный цикл доступа конкретной интеграции и смена подрядчика; без чтения реальных секретов",
+    "planned_at": "2027-02-02 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 206,
+    "slug": "beget-ai-gateway-test-modeli",
+    "title": "Смена модели в ИИ-шлюзе Beget: контрольная выборка до переключения",
+    "primary_query": "как проверить смену модели Beget AI Gateway",
+    "related_queries": [
+      "тестирование модели для CRM",
+      "регрессия ИИ ответов",
+      "сравнение моделей на заявках"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "ai-automation",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Протокол допуска замены модели на тех же обращениях; не подбор лучших моделей",
+    "planned_at": "2027-02-03 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 207,
+    "slug": "beget-ai-gateway-ochered-zayavok",
+    "title": "Очередь ИИ-заданий: как не потерять заявку при недоступности шлюза",
+    "primary_query": "очередь запросов Beget AI Gateway",
+    "related_queries": [
+      "ИИ шлюз недоступен",
+      "повторы обработки заявки",
+      "сохранить заявку без ИИ"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "integrations",
+    "case": null,
+    "cover": "workflow",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Устойчивость заявки при асинхронной работе конкретного адаптера; не общий вебхук-гайд",
+    "planned_at": "2027-02-04 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 208,
+    "slug": "beget-ai-gateway-kontekst-dannyh",
+    "title": "Какие данные передавать в ИИ-шлюз: карта контекста для бизнеса",
+    "primary_query": "какие данные отправлять в Beget AI Gateway",
+    "related_queries": [
+      "обезличивание заявок для ИИ",
+      "контекст нейросети CRM",
+      "минимизация данных ИИ"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "business-analysis",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Паспорт полей и допустимости передачи для одного сценария; не юридическое заключение",
+    "planned_at": "2027-02-05 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 209,
+    "slug": "beget-embeddings-baza-znaniy",
+    "title": "Embeddings через Beget: проектируем поиск по внутренним инструкциям",
+    "primary_query": "Beget embeddings поиск по базе знаний",
+    "related_queries": [
+      "семантический поиск Beget",
+      "поиск инструкций для оператора",
+      "индекс базы знаний компании"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "ai-automation",
+    "case": null,
+    "cover": "learning",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Жизненный цикл индекса и проверка выдачи устаревших инструкций; не обещание готового RAG",
+    "planned_at": "2027-02-06 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 210,
+    "slug": "beget-ai-vnutrenniy-redaktor",
+    "title": "Внутренний ИИ-редактор на Beget: очередь черновиков и контроль публикации",
+    "primary_query": "ИИ редактор через Beget API",
+    "related_queries": [
+      "ИИ черновики WordPress",
+      "согласование текстов нейросети",
+      "редактор контента компании"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "web-development",
+    "case": null,
+    "cover": "editor",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Разделение генерации, фактчекинга и публикации в собственном интерфейсе; не автонаполнение SEO",
+    "planned_at": "2027-02-07 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 211,
+    "slug": "beget-ai-instrumenty-prava",
+    "title": "Инструменты ИИ-ассистента: как ограничить действия с CRM и учётной системой",
+    "primary_query": "Beget AI Gateway вызов функций CRM",
+    "related_queries": [
+      "права ИИ ассистента",
+      "подтверждение действий модели",
+      "ИИ интеграция с учётной системой"
+    ],
+    "cluster": "ИИ-шлюз и прикладной ИИ",
+    "service": "integrations",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "ИИ-шлюз (AI Gateway)",
+        "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      }
+    ],
+    "angle": "Серверные полномочия и очередь подтверждения; подрядчик 1С подключается к ограниченному контуру",
+    "planned_at": "2027-02-08 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 212,
+    "slug": "beget-shared-ili-vps-forma",
+    "title": "Хостинг или VPS для сайта с CRM-интеграциями: как выбрать в Beget",
+    "primary_query": "Beget хостинг или VPS для интеграций",
+    "related_queries": [
+      "лимиты хостинга для CRM",
+      "фоновые задания на хостинге",
+      "переход сайта на VPS Beget"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-migration",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "Ограничения хостинга",
+        "url": "https://beget.com/ru/kb/faq/hosting/ogranicheniya-hostinga"
+      }
+    ],
+    "angle": "Решение через требования фоновых обработчиков и доступа; не общее сравнение тарифов",
+    "planned_at": "2027-02-09 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 213,
+    "slug": "beget-wordpress-zapusk-priemka",
+    "title": "WordPress после установки в Beget: что проверить до запуска рекламы",
+    "primary_query": "проверка WordPress после установки Beget",
+    "related_queries": [
+      "приёмка сайта на Beget",
+      "WordPress формы после установки",
+      "запуск сайта на хостинге"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "wordpress-support",
+    "case": null,
+    "cover": "launch",
+    "sources": [
+      {
+        "title": "Автоматическая установка CMS",
+        "url": "https://beget.com/ru/kb/faq/hosting/avtomaticheskaya-ustanovka-cms"
+      }
+    ],
+    "angle": "Граница автоустановки и бизнес-приёмки сайта; не инструкция установки по кликам",
+    "planned_at": "2027-02-10 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 214,
+    "slug": "beget-katalogi-neskolko-saytov",
+    "title": "Несколько сайтов в аккаунте Beget: разделяем каталоги и изменения",
+    "primary_query": "как разделить сайты в аккаунте Beget",
+    "related_queries": [
+      "каталоги сайтов Beget",
+      "доступы к нескольким сайтам",
+      "изоляция WordPress проектов"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-support",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Сайты",
+        "url": "https://beget.com/ru/kb/manual/sajty"
+      }
+    ],
+    "angle": "Карта соответствий доменов, каталогов и ответственных; не DNS-учебник",
+    "planned_at": "2027-02-11 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 215,
+    "slug": "beget-perenos-kontrol-platezhey",
+    "title": "Перенос интернет-магазина в Beget: приёмка оплаты, заказов и уведомлений",
+    "primary_query": "перенос магазина на Beget проверка заказов",
+    "related_queries": [
+      "оплата после переноса хостинга",
+      "вебхуки магазина после переезда",
+      "приёмка переноса интернет магазина"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-migration",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Как перенести к нам сайт от другого хостинг-провайдера",
+        "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
+      }
+    ],
+    "angle": "Заказ как сквозной маршрут и запрет параллельной обработки платежей на стенде",
+    "planned_at": "2027-02-12 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 216,
+    "slug": "beget-php-smena-diagnostika",
+    "title": "Смена версии PHP в Beget: диагностируем совместимость рабочего маршрута",
+    "primary_query": "смена PHP Beget проверка сайта",
+    "related_queries": [
+      "совместимость плагинов PHP Beget",
+      "ошибки формы после смены PHP",
+      "приёмка обновления PHP"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "wordpress-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Компиляция и настройка PHP-расширений на хостинге Beget",
+        "url": "https://beget.com/ru/kb/how-to/web-apps/php"
+      }
+    ],
+    "angle": "Матрица зависимостей форм, фоновых задач и расширений; не общая статья об обновлении WordPress",
+    "planned_at": "2027-02-13 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 217,
+    "slug": "beget-php-session-zavisanie",
+    "title": "Почему второй запрос ждёт первый: блокировка PHP-сессии в личном кабинете",
+    "primary_query": "блокировка PHP сессии Beget",
+    "related_queries": [
+      "параллельные запросы личного кабинета",
+      "сайт зависает при загрузке",
+      "session lock PHP диагностика"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-modernization",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Блокировка сессии в PHP",
+        "url": "https://beget.com/ru/kb/how-to/other/blokirovka-php-sessij"
+      }
+    ],
+    "angle": "Воспроизведение блокировки на одновременной операции кабинета; не общая оптимизация скорости",
+    "planned_at": "2027-02-14 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 218,
+    "slug": "beget-migraciya-bez-pochty",
+    "title": "Переносим сайт в Beget, оставляем почту у другого провайдера",
+    "primary_query": "перенести сайт на Beget не переносить почту",
+    "related_queries": [
+      "MX при переносе сайта",
+      "сайт и почта у разных провайдеров",
+      "DNS перенос без потери писем"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-migration",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Как перенести к нам сайт от другого хостинг-провайдера",
+        "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
+      },
+      {
+        "title": "DNS-записи",
+        "url": "https://beget.com/ru/kb/manual/dns"
+      }
+    ],
+    "angle": "Разделение веб- и почтового маршрутов в одной карте переключения",
+    "planned_at": "2027-02-15 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 219,
+    "slug": "beget-vosstanovlenie-odin-fayl",
+    "title": "Восстановление одного файла в Beget: как не откатить свежие заявки",
+    "primary_query": "Beget восстановить отдельный файл сайта",
+    "related_queries": [
+      "частичное восстановление сайта",
+      "не откатывать базу WordPress",
+      "исправление файла на хостинге"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-support",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Резервное копирование (BackUp)",
+        "url": "https://beget.com/ru/kb/manual/backup"
+      }
+    ],
+    "angle": "Выбор минимального объекта восстановления без отката транзакционных данных",
+    "planned_at": "2027-02-16 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 220,
+    "slug": "beget-snapshot-baza-zakazov",
+    "title": "Снапшот сервера и база заказов: где проходит граница восстановления",
+    "primary_query": "снапшот Beget восстановление заказов",
+    "related_queries": [
+      "снапшот и консистентность базы",
+      "потеря заказов при откате VPS",
+      "согласованный откат магазина"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-support",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Что такое снапшоты и в чем их отличие от бэкапов",
+        "url": "https://beget.com/ru/kb/how-to/other/backup-i-snapshot-v-chyom-raznica"
+      },
+      {
+        "title": "Резервное копирование VPS",
+        "url": "https://beget.com/ru/kb/manual/rezervnoe-kopirovanie-vps"
+      }
+    ],
+    "angle": "Согласование файлов и изменяемых заказов; не повтор общего определения backup",
+    "planned_at": "2027-02-17 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 221,
+    "slug": "beget-pereezd-proverka-do-dns",
+    "title": "Проверка сайта на Beget до смены DNS: маршрут для владельца и разработчика",
+    "primary_query": "проверить сайт Beget до смены DNS",
+    "related_queries": [
+      "тест сайта на новом хостинге",
+      "проверка HTTPS до переезда",
+      "приёмка сайта по новому IP"
+    ],
+    "cluster": "Размещение и перенос сайта",
+    "service": "website-migration",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Как перенести к нам сайт от другого хостинг-провайдера",
+        "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
+      }
+    ],
+    "angle": "Предварительная проверка реального Host, TLS, формы и запрет боевых уведомлений со стенда",
+    "planned_at": "2027-02-18 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 222,
+    "slug": "beget-dns-webhook-perekluchenie",
+    "title": "Смена IP сайта и входящие вебхуки: проверяем интеграции после DNS",
+    "primary_query": "DNS Beget вебхуки после смены IP",
+    "related_queries": [
+      "вебхук на старый сервер",
+      "переключение CRM интеграций",
+      "DNS кэш при переезде"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "integrations",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "DNS-записи",
+        "url": "https://beget.com/ru/kb/manual/dns"
+      }
+    ],
+    "angle": "Сверка доставки событий на старый и новый endpoint без изменения поисковых URL",
+    "planned_at": "2027-02-19 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 223,
+    "slug": "beget-domen-prodlenie-process",
+    "title": "Продление домена как бизнес-процесс: владелец, уведомления, контроль",
+    "primary_query": "контроль продления домена Beget",
+    "related_queries": [
+      "кто продлевает домен компании",
+      "домен истекает ответственный",
+      "календарь доменных продлений"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-support",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Как продлить доменное имя сайта",
+        "url": "https://beget.com/ru/kb/how-to/domains/kak-prodlit-domennoe-imya-cherez-beget"
+      }
+    ],
+    "angle": "Организационная процедура критичного актива; не справка о регистрации домена",
+    "planned_at": "2027-02-20 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 224,
+    "slug": "beget-poddomen-lichnyy-kabinet",
+    "title": "Поддомен для личного кабинета: маршруты, права и коммуникации",
+    "primary_query": "личный кабинет на поддомене Beget",
+    "related_queries": [
+      "поддомен для веб сервиса",
+      "сайт и кабинет разные приложения",
+      "запуск поддомена для клиентов"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "web-development",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "Домены и поддомены",
+        "url": "https://beget.com/ru/kb/manual/domeny-i-poddomeny"
+      }
+    ],
+    "angle": "Отдельный продуктовый маршрут и контроль ссылок из писем; не настройка A-записи по шагам",
+    "planned_at": "2027-02-21 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 225,
+    "slug": "beget-spf-neskolko-otpraviteley",
+    "title": "SPF для сайта, CRM и рассылки: собираем карту отправителей",
+    "primary_query": "SPF Beget сайт CRM рассылка",
+    "related_queries": [
+      "несколько отправителей SPF",
+      "почта CRM от домена",
+      "письма сайта SPF проверка"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-support",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+        "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim"
+      }
+    ],
+    "angle": "Одна согласованная карта отправителей и контроль заголовков; не копия настройки DKIM",
+    "planned_at": "2027-02-22 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 226,
+    "slug": "beget-dkim-smena-pochty",
+    "title": "Перенос почты и DKIM: как проверить, кто подписывает письма",
+    "primary_query": "DKIM после переноса почты Beget",
+    "related_queries": [
+      "подпись DKIM домена",
+      "почта старый новый сервер",
+      "проверка отправителя после переезда"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-migration",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+        "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim"
+      }
+    ],
+    "angle": "Проверка писем из разных источников после почтовой миграции",
+    "planned_at": "2027-02-23 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 227,
+    "slug": "beget-dmarc-otchety-process",
+    "title": "Отчёты DMARC: как связать наблюдение с исправлением отправки",
+    "primary_query": "DMARC Beget анализ отправителей",
+    "related_queries": [
+      "отчёты DMARC для бизнеса",
+      "легитимные отправители домена",
+      "DMARC почта CRM"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+        "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim"
+      }
+    ],
+    "angle": "Разбор источников перед изменением политики; не готовая строгая политика для любого домена",
+    "planned_at": "2027-02-24 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 228,
+    "slug": "beget-pochta-pereadresaciya-obrashcheniy",
+    "title": "Переадресация почты отдела: как не потерять обращение между ящиками",
+    "primary_query": "переадресация Beget почта отдела",
+    "related_queries": [
+      "forward письма клиентам",
+      "общий почтовый ящик отдела",
+      "проверка цепочки переадресации"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "workflow",
+    "sources": [
+      {
+        "title": "Forward (перенаправление почты)",
+        "url": "https://beget.com/ru/kb/faq/mail/forward-perenapravlenie-pochty"
+      }
+    ],
+    "angle": "Маршрут назначения обращения и контроль ответа, а не подключение почты к CRM",
+    "planned_at": "2027-02-25 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 229,
+    "slug": "beget-pochta-smena-sotrudnika",
+    "title": "Увольнение сотрудника: передаём почту и клиентские обращения",
+    "primary_query": "Beget передать почту сотрудника",
+    "related_queries": [
+      "передача ящика менеджера",
+      "закрыть доступ к корпоративной почте",
+      "почта после смены сотрудника"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-support",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Почта",
+        "url": "https://beget.com/ru/kb/manual/pochta"
+      },
+      {
+        "title": "Настройки аккаунта",
+        "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta"
+      }
+    ],
+    "angle": "Приёмка передачи дел и отзыв доступа без публикации личной переписки",
+    "planned_at": "2027-02-26 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 230,
+    "slug": "beget-imap-sinhronizaciya",
+    "title": "Почта есть в Webmail, но нет в программе: разбираем IMAP-синхронизацию",
+    "primary_query": "Beget почта есть в webmail нет в клиенте",
+    "related_queries": [
+      "IMAP папки Beget",
+      "почта не синхронизируется",
+      "проверка почтового клиента"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Ошибки при подключении к почтовым серверам",
+        "url": "https://beget.com/ru/kb/how-to/mail/reshenie-problem"
+      }
+    ],
+    "angle": "Диагностика различий представления одного ящика; не общая инструкция Outlook",
+    "planned_at": "2027-02-27 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 231,
+    "slug": "beget-pochta-formy-nezavisimost",
+    "title": "Уведомление с формы и почта менеджера: два результата одной заявки",
+    "primary_query": "Beget письма формы не заменяют CRM",
+    "related_queries": [
+      "форма отправляет письмо нет заявки",
+      "почтовое уведомление о лиде",
+      "контроль заявки без письма"
+    ],
+    "cluster": "Домены и деловая почта",
+    "service": "website-crm-integration",
+    "case": null,
+    "cover": "crm",
+    "sources": [
+      {
+        "title": "Почта",
+        "url": "https://beget.com/ru/kb/manual/pochta"
+      }
+    ],
+    "angle": "Отделение записи заявки от вторичного уведомления на инфраструктуре Beget",
+    "planned_at": "2027-02-28 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 232,
+    "slug": "beget-cloud-mysql-kogda-vynos",
+    "title": "Когда выносить MySQL сайта в отдельный облачный сервис Beget",
+    "primary_query": "Beget облачный MySQL когда нужен",
+    "related_queries": [
+      "отдельная база для WordPress",
+      "нагрузка базы интернет магазина",
+      "переезд MySQL в облако"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "website-modernization",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "Облачные серверы MySQL",
+        "url": "https://beget.com/ru/kb/manual/cloud-server"
+      }
+    ],
+    "angle": "Критерии по измерениям и зависимости приложения; без обещаний ускорения",
+    "planned_at": "2027-03-01 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 233,
+    "slug": "beget-wordpress-cloud-db-priemka",
+    "title": "База WordPress в облаке Beget: что проверить после переноса",
+    "primary_query": "WordPress облачный MySQL Beget проверка",
+    "related_queries": [
+      "перенос базы WordPress приёмка",
+      "доступ к облачной базе сайта",
+      "WordPress после смены базы"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "wordpress-support",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Перенос базы данных WordPress с виртуального хостинга в облако",
+        "url": "https://beget.com/ru/kb/how-to/vps/perenos-bazy-dannyh-wordpress-s-virtualnogo-hostinga-v-oblako"
+      }
+    ],
+    "angle": "Транзакционные маршруты, фоновые задачи и сверка источника записи",
+    "planned_at": "2027-03-02 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 234,
+    "slug": "beget-bitrix-cloud-db-integracii",
+    "title": "База 1С-Битрикс в облаке: проверяем обмен, поиск и фоновые задания",
+    "primary_query": "Битрикс облачный MySQL Beget интеграции",
+    "related_queries": [
+      "обмен 1С после переноса базы",
+      "агенты Битрикс облачная база",
+      "приёмка базы интернет магазина"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "1c-integration",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Миграция базы данных Bitrix с виртуального хостинга в облако",
+        "url": "https://beget.com/ru/kb/how-to/vps/migracziya-bazy-dannyh-bitrix-s-virtualnogo-hostinga-v-oblako"
+      }
+    ],
+    "angle": "Веб-CMS 1С-Битрикс отличаем от 1С учёта и Bitrix24; обмен принимает подрядчик 1С",
+    "planned_at": "2027-03-03 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 235,
+    "slug": "beget-mysql-private-network",
+    "title": "Приватная сеть для MySQL: схема доступа сайта и обработчиков",
+    "primary_query": "MySQL Beget приватная сеть",
+    "related_queries": [
+      "закрытый доступ к базе сайта",
+      "сайт и база в одной приватной сети",
+      "доступ обработчика к MySQL"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "integrations",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Использование MySQL на отдельном сервере с приватной сетью VPS",
+        "url": "https://beget.com/ru/kb/how-to/vps/mysql-with-private-network"
+      }
+    ],
+    "angle": "Матрица разрешённых соединений приложения, админа и заданий",
+    "planned_at": "2027-03-04 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 236,
+    "slug": "beget-postgresql-analitika-vitrina",
+    "title": "Облачный PostgreSQL для аналитической витрины: границы рабочего проекта",
+    "primary_query": "Beget PostgreSQL витрина данных",
+    "related_queries": [
+      "база данных для BI витрины",
+      "PostgreSQL управленческая аналитика",
+      "отчётная база отдельно от CRM"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "bi-dashboards",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Облачная база данных PostgreSQL",
+        "url": "https://beget.com/ru/kb/manual/cloud-postgresql"
+      }
+    ],
+    "angle": "Контракт источников и владельцев показателей; BI реализуется с подрядчиком аналитики",
+    "planned_at": "2027-03-05 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 237,
+    "slug": "beget-postgresql-roli-otchetov",
+    "title": "Подключение BI к PostgreSQL: роли и ограничения для отчётности",
+    "primary_query": "подключить BI к PostgreSQL Beget",
+    "related_queries": [
+      "чтение данных для дашборда",
+      "права аналитика PostgreSQL",
+      "доступ отчёта к базе"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "bi-dashboards",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Облачный PostgreSQL: Подключение к базе данных",
+        "url": "https://beget.com/ru/kb/faq/cloud/oblachnyj-postgresql-podklyuchenie-k-baze-dannyh"
+      }
+    ],
+    "angle": "Раздельные роли загрузки и чтения; не обещание настроенной безопасности одной галочкой",
+    "planned_at": "2027-03-06 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 238,
+    "slug": "beget-postgresql-restore-pilot",
+    "title": "Проверка восстановления PostgreSQL: сверяем записи и связь с приложением",
+    "primary_query": "Beget PostgreSQL проверка восстановления",
+    "related_queries": [
+      "приёмка восстановления базы",
+      "тест резервной копии PostgreSQL",
+      "проверить восстановленные данные"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "website-support",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Резервное копирование и восстановление PostgreSQL",
+        "url": "https://beget.com/ru/kb/how-to/rezervnoe-kopirovanie-i-vosstanovlenie-postgresql"
+      }
+    ],
+    "angle": "Индивидуальный протокол для БД с прикладными инвариантами; не повтор backup WordPress",
+    "planned_at": "2027-03-07 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 239,
+    "slug": "beget-sql-join-dubli-dashbord",
+    "title": "Почему после JOIN выручка удвоилась: проверяем модель управленческого отчёта",
+    "primary_query": "SQL JOIN дубли выручки в отчёте",
+    "related_queries": [
+      "дубли строк BI дашборд",
+      "соединение таблиц аналитика",
+      "сверка выручки SQL"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "bi-dashboards",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Принципы работы SQL Join: виды, запросы, примеры",
+        "url": "https://beget.com/ru/kb/how-to/other/sql-join-vidy-zaprosy-primery"
+      }
+    ],
+    "angle": "Пример зерна данных и контрольных сумм, собственный набор строк вместо копии SQL-справки",
+    "planned_at": "2027-03-08 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 240,
+    "slug": "beget-mysql-polzovateli-servisov",
+    "title": "Одна база и несколько интеграций: распределяем пользователей MySQL",
+    "primary_query": "Beget MySQL пользователи интеграций",
+    "related_queries": [
+      "права базы для сайта и скрипта",
+      "отдельный пользователь MySQL",
+      "доступ подрядчика к базе"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "integrations",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Базы данных MySQL",
+        "url": "https://beget.com/ru/kb/manual/mysql"
+      }
+    ],
+    "angle": "Матрица технических пользователей, задач и отзыва доступа",
+    "planned_at": "2027-03-09 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 241,
+    "slug": "beget-db-rashozhdenie-istochnikov",
+    "title": "Сайт и отчёт показывают разные данные: ищем источник записи",
+    "primary_query": "сайт и отчёт разные базы Beget",
+    "related_queries": [
+      "проверить подключение к базе сайта",
+      "аналитика устаревшие данные",
+      "не та база после переноса"
+    ],
+    "cluster": "Базы данных и аналитика",
+    "service": "website-audit",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Облачные серверы MySQL",
+        "url": "https://beget.com/ru/kb/manual/cloud-server"
+      }
+    ],
+    "angle": "Цепочка конфигурации приложения и времени обновления витрины без раскрытия паролей",
+    "planned_at": "2027-03-10 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 242,
+    "slug": "beget-s3-wordpress-media-migraciya",
+    "title": "Медиа WordPress в S3 Beget: переносим изображения без разрыва страниц",
+    "primary_query": "WordPress изображения S3 Beget перенос",
+    "related_queries": [
+      "медиатека WordPress облачное хранилище",
+      "ссылки изображений после S3",
+      "приёмка выгрузки медиа"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "wordpress-support",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Подключение облачного объектного хранилища (S3) в WordPress и настройка хранения изображений в нем",
+        "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-s3-v-wordpress-i-nastrojka-hraneniya-izobrazhenij-v-nem"
+      }
+    ],
+    "angle": "Сверка старых страниц, новых загрузок и альтернативного текста; не общий CDN-гайд",
+    "planned_at": "2027-03-11 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 243,
+    "slug": "beget-s3-zakrytye-dokumenty",
+    "title": "Документы клиентов в S3: отделяем публичные файлы от служебных",
+    "primary_query": "S3 Beget закрытые документы клиентов",
+    "related_queries": [
+      "права доступа к файлам S3",
+      "документы личного кабинета",
+      "публичный бакет и приватные файлы"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "web-development",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Объектное хранилище S3: Руководство по панели управления",
+        "url": "https://beget.com/ru/kb/manual/obektnoe-hranilishche-s3-v-beget"
+      }
+    ],
+    "angle": "Категории документов и серверная выдача по правам; не утверждение о конкретных настройках ACL",
+    "planned_at": "2027-03-12 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 244,
+    "slug": "beget-s3-imya-fayla-versii",
+    "title": "Имена и версии файлов в S3: как не выдать старое коммерческое предложение",
+    "primary_query": "версии документов S3 Beget",
+    "related_queries": [
+      "старый файл в личном кабинете",
+      "ссылка на коммерческое предложение",
+      "версионирование файлов приложения"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "editor",
+    "sources": [
+      {
+        "title": "Объектное хранилище S3: Руководство по панели управления",
+        "url": "https://beget.com/ru/kb/manual/obektnoe-hranilishche-s3-v-beget"
+      }
+    ],
+    "angle": "Прикладной реестр документа и актуальной версии независимо от возможностей бакета",
+    "planned_at": "2027-03-13 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 245,
+    "slug": "beget-s3-wordpress-backup-uchyot",
+    "title": "WordPress и S3: реестр резервных копий с датой и результатом проверки",
+    "primary_query": "Beget S3 WordPress реестр копий",
+    "related_queries": [
+      "результат резервирования WordPress",
+      "учёт архивов в S3",
+      "проверенная копия сайта"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "wordpress-support",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Интеграция объектного хранилища S3 c WordPress: настройка, создание и восстановление резервной копии",
+        "url": "https://beget.com/ru/kb/faq/cloud/rezervnoe-kopirovanie-wordpress-v-s3-nastrojka-sozdanie-i-vosstanovlenie"
+      }
+    ],
+    "angle": "Учёт результатов конкретной цепочки выгрузки, не общее содержание backup",
+    "planned_at": "2027-03-14 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 246,
+    "slug": "beget-s3-perenos-sverka",
+    "title": "Переезд между S3-хранилищами: как сверять состав и доступность файлов",
+    "primary_query": "перенос в S3 Beget сверка файлов",
+    "related_queries": [
+      "миграция бакета S3",
+      "проверить количество файлов в хранилище",
+      "контроль целостности медиа"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "website-migration",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Перенос данных в облачное хранилище S3 Beget из другого объектного хранилища S3",
+        "url": "https://beget.com/ru/kb/faq/cloud/perenos-dannyh-v-oblachnoe-hranilishche-s3-beget"
+      }
+    ],
+    "angle": "Манифест объектов, сверка размеров и тест конечных страниц",
+    "planned_at": "2027-03-15 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 247,
+    "slug": "beget-rclone-biznes-fayly",
+    "title": "S3 как диск для отдела: ограничения рабочего процесса с rclone",
+    "primary_query": "Beget S3 rclone диск Windows",
+    "related_queries": [
+      "общие файлы отдела S3",
+      "одновременное редактирование S3",
+      "хранилище документов через rclone"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Подключение бакета S3 как диска в Windows – при помощи утилиты rclone",
+        "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-baketa-kak-diska-v-windows-rclone"
+      }
+    ],
+    "angle": "Договорённости о владельце файла и публикации версии; не замена офисной совместной работы",
+    "planned_at": "2027-03-16 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 248,
+    "slug": "beget-s3-bitrix-kartochki",
+    "title": "Изображения 1С-Битрикс из S3: проверяем каталог и обмен с учётной системой",
+    "primary_query": "Битрикс картинки S3 Beget обмен",
+    "related_queries": [
+      "изображения каталога S3",
+      "обмен 1С файлы товаров",
+      "карточки товаров после переноса медиа"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "1c-integration",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Настройка отдачи изображений из S3 для Битрикса",
+        "url": "https://beget.com/ru/kb/faq/cloud/nastrojka-otdachi-kartinok-iz-s3-dlya-bitriks"
+      }
+    ],
+    "angle": "Приёмка веб-каталога совместно с подрядчиком обмена; без выдуманного клиентского кейса",
+    "planned_at": "2027-03-17 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 249,
+    "slug": "beget-cdn-wordpress-obnovlenie",
+    "title": "CDN WordPress: почему после обновления посетитель видит старые файлы",
+    "primary_query": "Beget CDN WordPress старые стили",
+    "related_queries": [
+      "очистка CDN после публикации",
+      "версии CSS WordPress",
+      "кэш изображений сайта"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "wordpress-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Подключение CDN к WordPress в облаке Beget",
+        "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress"
+      }
+    ],
+    "angle": "Разделение кэша браузера, приложения и доставки на конкретном релизе",
+    "planned_at": "2027-03-18 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 250,
+    "slug": "beget-cdn-lichnyy-kabinet",
+    "title": "CDN и личный кабинет: что можно ускорять, а что зависит от пользователя",
+    "primary_query": "CDN Beget личный кабинет кэш",
+    "related_queries": [
+      "кэш авторизованных страниц",
+      "CDN персональные данные",
+      "правила кэширования кабинета"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "web-development",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Подключение CDN к WordPress в облаке Beget",
+        "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress"
+      }
+    ],
+    "angle": "Классификация ответов по общим и персональным данным; не обещание настроек для любой CMS",
+    "planned_at": "2027-03-19 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 251,
+    "slug": "beget-s3-stoimost-hraneniya",
+    "title": "Стоимость файлового хранилища: считаем рост медиа и обслуживание",
+    "primary_query": "S3 Beget планирование расходов",
+    "related_queries": [
+      "рост хранилища сайта",
+      "расходы медиа WordPress",
+      "архивы и файлы стоимость"
+    ],
+    "cluster": "Файлы, S3 и доставка",
+    "service": "website-support",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Объектное хранилище S3: Руководство по панели управления",
+        "url": "https://beget.com/ru/kb/manual/obektnoe-hranilishche-s3-v-beget"
+      }
+    ],
+    "angle": "Собственная модель объёма, обращений и жизненного цикла без устаревающего тарифа",
+    "planned_at": "2027-03-20 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 252,
+    "slug": "beget-cron-obmen-priemka",
+    "title": "Cron для обмена с CRM: расписание есть, а результат не появился",
+    "primary_query": "Beget cron обмен CRM не работает",
+    "related_queries": [
+      "проверка задания cron Beget",
+      "планировщик интеграции",
+      "журнал результата обмена"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "integrations",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Настройка CronTab",
+        "url": "https://beget.com/ru/kb/manual/crontab"
+      }
+    ],
+    "angle": "Связь запуска задания с завершённой бизнес-операцией, не синтаксис cron",
+    "planned_at": "2027-03-21 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 253,
+    "slug": "beget-cron-perekrutie-zadaniy",
+    "title": "Два запуска одного задания: блокировка обмена на хостинге",
+    "primary_query": "Beget cron параллельные запуски",
+    "related_queries": [
+      "перекрытие фоновых заданий",
+      "блокировка обмена CRM",
+      "повторы cron интеграции"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "integrations",
+    "case": null,
+    "cover": "duplicates",
+    "sources": [
+      {
+        "title": "Настройка CronTab",
+        "url": "https://beget.com/ru/kb/manual/crontab"
+      }
+    ],
+    "angle": "Условия владения блокировкой и безопасного повторного запуска обработки",
+    "planned_at": "2027-03-22 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 254,
+    "slug": "beget-n8n-obrashcheniya-marshrut",
+    "title": "n8n для маршрутизации обращений: где заканчивается сценарий на схеме",
+    "primary_query": "n8n Beget обработка заявок",
+    "related_queries": [
+      "автоматизация формы через n8n",
+      "состояния сценария n8n",
+      "приёмка workflow заявок"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "workflow",
+    "sources": [
+      {
+        "title": "n8n – Шаблоны и сценарии применения сервиса автоматизации",
+        "url": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya"
+      }
+    ],
+    "angle": "Реестр входов, исключений и владельцев вместо обзора конструктора",
+    "planned_at": "2027-03-23 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 255,
+    "slug": "beget-n8n-dostupy-peredacha",
+    "title": "Передача n8n заказчику: учёт подключений и отзыв доступа подрядчика",
+    "primary_query": "n8n Beget передача заказчику",
+    "related_queries": [
+      "доступы n8n после разработки",
+      "владелец workflow",
+      "смена подрядчика автоматизации"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "n8n – Шаблоны и сценарии применения сервиса автоматизации",
+        "url": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya"
+      }
+    ],
+    "angle": "Комплект передачи работающих сценариев без экспорта секретов в документы",
+    "planned_at": "2027-03-24 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 256,
+    "slug": "beget-node-obrabotchik-vebhukov",
+    "title": "Node.js-обработчик на Beget: контракт приёма вебхука и журнал результата",
+    "primary_query": "Node.js Beget обработчик webhook",
+    "related_queries": [
+      "приём событий CRM Node",
+      "проверка входящего webhook",
+      "серверный обработчик на хостинге"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "web-development",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Настройка Node.js",
+        "url": "https://beget.com/ru/kb/how-to/web-apps/node-js"
+      }
+    ],
+    "angle": "Маршрут события от подтверждения приёма до записи результата; не установка Node.js",
+    "planned_at": "2027-03-25 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 257,
+    "slug": "beget-python-import-kataloga",
+    "title": "Python на хостинге: проверяем пакетный импорт каталога до записи",
+    "primary_query": "Python Beget импорт каталога",
+    "related_queries": [
+      "импорт CSV товаров Python",
+      "проверка данных перед загрузкой",
+      "журнал импорта сайта"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "integrations",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Установка Python",
+        "url": "https://beget.com/ru/kb/how-to/web-apps/python"
+      }
+    ],
+    "angle": "Сухой прогон, отчёт об отклонениях и повторяемость импорта",
+    "planned_at": "2027-03-26 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 258,
+    "slug": "beget-redis-spravochik-crm",
+    "title": "Redis для справочника интеграции: срок жизни данных и явное обновление",
+    "primary_query": "Redis Beget кэш справочника CRM",
+    "related_queries": [
+      "устаревший справочник Redis",
+      "TTL данных интеграции",
+      "кэш категорий сайта"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "integrations",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Настройка и использование Redis",
+        "url": "https://beget.com/ru/kb/how-to/services/ispolzovanie-redis"
+      }
+    ],
+    "angle": "Прикладная актуальность данных и инвалидирование конкретного справочника",
+    "planned_at": "2027-03-27 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 259,
+    "slug": "beget-redis-seansy-sayta",
+    "title": "Redis и пользовательские сессии: что произойдёт при перезапуске",
+    "primary_query": "Redis Beget сессии сайта",
+    "related_queries": [
+      "выход пользователей после перезапуска",
+      "хранение сессий приложения",
+      "проверка сессий Redis"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "website-modernization",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Настройка и использование Redis",
+        "url": "https://beget.com/ru/kb/how-to/services/ispolzovanie-redis"
+      }
+    ],
+    "angle": "Выбор роли Redis и поведение кабинета при утрате временного состояния",
+    "planned_at": "2027-03-28 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 260,
+    "slug": "beget-cron-otchet-analitika",
+    "title": "Ежедневная выгрузка для дашборда: контроль полноты и свежести",
+    "primary_query": "Beget cron выгрузка данных для BI",
+    "related_queries": [
+      "расписание обновления дашборда",
+      "свежесть управленческого отчёта",
+      "контроль выгрузки CRM"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "bi-dashboards",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Настройка CronTab",
+        "url": "https://beget.com/ru/kb/manual/crontab"
+      }
+    ],
+    "angle": "Передача аналитикам набора с датой среза и контрольными суммами",
+    "planned_at": "2027-03-29 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 261,
+    "slug": "beget-fonovaya-zadacha-otmena",
+    "title": "Как остановить фоновый обмен, не потеряв очередь операций",
+    "primary_query": "Beget остановить фоновую интеграцию",
+    "related_queries": [
+      "пауза обмена сайта и CRM",
+      "безопасное выключение задания",
+      "возобновить очередь интеграции"
+    ],
+    "cluster": "Фоновые задачи и автоматизация",
+    "service": "integrations",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Настройка CronTab",
+        "url": "https://beget.com/ru/kb/manual/crontab"
+      }
+    ],
+    "angle": "Остановка приёма, завершение текущего задания и понятная процедура возобновления",
+    "planned_at": "2027-03-30 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 262,
+    "slug": "beget-sentry-oshibka-zayavki",
+    "title": "Sentry для сайта: связываем исключение с потерянным шагом заявки",
+    "primary_query": "Sentry Beget ошибки формы CRM",
+    "related_queries": [
+      "мониторинг ошибки заявки",
+      "техническая ошибка и лид",
+      "связать событие Sentry с обращением"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Sentry: установка и настройка инструмента для поиска и мониторинга ошибок",
+        "url": "https://beget.com/ru/kb/how-to/vps/sentry-ustanovka-i-nastrojka-instrumenta-dlya-monitoringa-oshibok"
+      }
+    ],
+    "angle": "Корреляция технического события и рабочего маршрута без логирования контактов",
+    "planned_at": "2027-03-31 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 263,
+    "slug": "beget-logs-edinaya-kartina",
+    "title": "Единый журнал сайта и интеграций: какие события собирать",
+    "primary_query": "Vector Beget логи интеграций",
+    "related_queries": [
+      "централизованные журналы сайта",
+      "корреляция событий CRM",
+      "сбор логов бизнес процесса"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "integrations",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Vector – руководство по установке сервиса для сбора логов",
+        "url": "https://beget.com/ru/kb/how-to/vps/vector-servis-sbora-logov"
+      }
+    ],
+    "angle": "Схема идентификаторов и состояний нескольких приложений; не каталог команд логирования",
+    "planned_at": "2027-04-01 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 264,
+    "slug": "beget-nginx-logs-forma",
+    "title": "Журнал Nginx и отправка формы: как найти нужный запрос",
+    "primary_query": "Beget Nginx логи отправка формы",
+    "related_queries": [
+      "access log форма сайта",
+      "ошибка POST заявки",
+      "поиск запроса по времени"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Как настроить логирование и ротацию логов Nginx на Ubuntu",
+        "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-logirovanie-i-rotacziyu-logov-nginx-na-ubuntu"
+      }
+    ],
+    "angle": "Последовательная диагностика конкретного POST без раскрытия тела заявки",
+    "planned_at": "2027-04-02 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 265,
+    "slug": "beget-log-rotation-hranenie",
+    "title": "Ротация журналов: сохраняем диагностический след и контролируем диск",
+    "primary_query": "Beget Nginx ротация логов место",
+    "related_queries": [
+      "срок хранения журналов сайта",
+      "диск заполнен логами",
+      "ротация интеграционных логов"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Как настроить логирование и ротацию логов Nginx на Ubuntu",
+        "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-logirovanie-i-rotacziyu-logov-nginx-na-ubuntu"
+      }
+    ],
+    "angle": "Политика сроков и проверка продолжения записи после ротации",
+    "planned_at": "2027-04-03 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 266,
+    "slug": "beget-statistika-pik-zaprosov",
+    "title": "Рост нагрузки на хостинге: отличаем аудиторию от неисправного обработчика",
+    "primary_query": "Beget статистика рост нагрузки",
+    "related_queries": [
+      "пики запросов хостинг Beget",
+      "боты или клиенты сайта",
+      "нагрузка из за интеграции"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-audit",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Статистика",
+        "url": "https://beget.com/ru/kb/manual/statistika"
+      }
+    ],
+    "angle": "Сопоставление нагрузки со временем действий и логами обработчика",
+    "planned_at": "2027-04-04 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 267,
+    "slug": "beget-2fa-dostup-vladelca",
+    "title": "Двухфакторная защита аккаунта Beget: готовим передачу и восстановление доступа",
+    "primary_query": "Beget двухфакторная защита аккаунта компании",
+    "related_queries": [
+      "2FA хостинг владелец",
+      "смена телефона доступ к хостингу",
+      "передача аккаунта Beget"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Настройка приложений для двухфакторной аутентификации в Beget",
+        "url": "https://beget.com/ru/kb/how-to/nastrojka-dvuhfaktornoj-autentifikacii-v-beget"
+      }
+    ],
+    "angle": "Владение фактором и процедура восстановления без публикации кодов",
+    "planned_at": "2027-04-05 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 268,
+    "slug": "beget-ftp-podryadchik-dostup",
+    "title": "Доступ подрядчика к одному сайту в Beget: границы и завершение работ",
+    "primary_query": "Beget FTP доступ подрядчику к сайту",
+    "related_queries": [
+      "отдельный FTP аккаунт сайта",
+      "отозвать доступ разработчика",
+      "права подрядчика хостинг"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "FTP-аккаунты",
+        "url": "https://beget.com/ru/kb/manual/ftp"
+      }
+    ],
+    "angle": "Согласованный каталог, срок и факт отзыва, не общий FTP-клиент-гайд",
+    "planned_at": "2027-04-06 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 269,
+    "slug": "beget-vps-pervaya-priemka",
+    "title": "Первый VPS для бизнеса: приёмка эксплуатации до размещения сайта",
+    "primary_query": "Beget VPS приёмка настройки",
+    "related_queries": [
+      "готовность сервера к сайту",
+      "чек лист VPS для бизнеса",
+      "ответственный за VPS"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Первые шаги после создания VPS: настройка, защита, мониторинг",
+        "url": "https://beget.com/ru/kb/how-to/vps/sozdaniya-vps-nastrojka-i-monitoring"
+      }
+    ],
+    "angle": "Разделение готовности сервера и приложения, комплект эксплуатации для владельца",
+    "planned_at": "2027-04-07 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 270,
+    "slug": "beget-ufw-webhook-dostup",
+    "title": "Firewall и интеграции: как закрыть лишнее и сохранить рабочий обмен",
+    "primary_query": "UFW Beget доступ webhook CRM",
+    "related_queries": [
+      "фаервол сломал интеграцию",
+      "разрешённые соединения сервера",
+      "проверка портов обмена"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "integrations",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Настройка и установка файрвола (брандмауэра) в Ubuntu с помощью утилиты UFW",
+        "url": "https://beget.com/ru/kb/how-to/vps/nastrojka-i-ustanovka-fajrvola-brandmauera-v-ubuntu-s-pomoshhyu-utility-ufw"
+      }
+    ],
+    "angle": "Матрица входящих и исходящих связей с проверкой конкретной задачи",
+    "planned_at": "2027-04-08 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 271,
+    "slug": "beget-fail2ban-neblokirovat-komandu",
+    "title": "Fail2Ban и поддержка сайта: как отличать защиту от блокировки сотрудников",
+    "primary_query": "Fail2Ban Beget заблокирован сотрудник",
+    "related_queries": [
+      "доступ администратора сайт заблокирован",
+      "ошибки входа IP блокировка",
+      "приёмка защиты от перебора"
+    ],
+    "cluster": "Наблюдение, доступы и защита",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Fail2Ban: установка и настройка инструмента для защиты от брутфорса",
+        "url": "https://beget.com/ru/kb/how-to/vps/fail2ban-ustanovka-i-nastrojka-instrumenta"
+      }
+    ],
+    "angle": "Диагностика причины и согласованное снятие ложной блокировки без отключения защиты",
+    "planned_at": "2027-04-09 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 272,
+    "slug": "beget-docker-python-peredacha",
+    "title": "Python-сервис в Docker: что передать заказчику кроме образа",
+    "primary_query": "Docker Python Beget передача проекта",
+    "related_queries": [
+      "эксплуатация контейнера приложения",
+      "конфигурация Python сервиса",
+      "документация Docker проекта"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "web-development",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Контейнеризация Python-приложения с Docker: от создания до деплоя",
+        "url": "https://beget.com/ru/kb/how-to/vps/kontejnerizaciya-python-prilozheniya-s-docker"
+      }
+    ],
+    "angle": "Комплект запуска, состояния и прикладной проверки; не повтор Dockerfile-урока",
+    "planned_at": "2027-04-10 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 273,
+    "slug": "beget-portainer-vladelec-servisa",
+    "title": "Portainer для поддержки: кто может перезапускать контейнеры и менять настройки",
+    "primary_query": "Portainer Beget права поддержки",
+    "related_queries": [
+      "перезапуск контейнера подрядчик",
+      "оператор приложения Portainer",
+      "ответственность за контейнеры"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "website-support",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Как работать с Docker через Portainer",
+        "url": "https://beget.com/ru/kb/how-to/vps/kak-rabotat-s-docker-cherez-portainer"
+      }
+    ],
+    "angle": "Разделение просмотра, эксплуатации и изменений в процессе сопровождения",
+    "planned_at": "2027-04-11 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 274,
+    "slug": "beget-docker-volumes-udaleniye",
+    "title": "Очистка Docker: как не удалить данные рабочего сервиса",
+    "primary_query": "Docker Beget удалить неиспользуемые тома",
+    "related_queries": [
+      "проверить Docker volume перед удалением",
+      "данные контейнера приложения",
+      "безопасная очистка Docker"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Как очистить образы, контейнеры и тома Docker",
+        "url": "https://beget.com/ru/kb/how-to/vps/ochistka-obrazov-kontejnerov-i-tomov-v-docker"
+      }
+    ],
+    "angle": "Проверка владельца и использования каждого объекта; без универсальной команды prune",
+    "planned_at": "2027-04-12 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 275,
+    "slug": "beget-terraform-plan-soglasovanie",
+    "title": "Terraform для Beget: согласование плана изменений перед применением",
+    "primary_query": "Terraform Beget план изменений",
+    "related_queries": [
+      "review инфраструктуры Terraform",
+      "стоимость изменений облака",
+      "приёмка IaC Beget"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "web-development",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "Terraform для управления облачной инфраструктурой Beget",
+        "url": "https://beget.com/ru/kb/faq/cloud/terraform"
+      }
+    ],
+    "angle": "Разделение кода, плана и полномочий на применение; не исполнение реальных изменений",
+    "planned_at": "2027-04-13 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 276,
+    "slug": "beget-ci-release-forma",
+    "title": "CI/CD для сайта: проверка заявки как условие выпуска",
+    "primary_query": "Gitea Actions Beget проверка сайта",
+    "related_queries": [
+      "pipeline тест формы CRM",
+      "приёмка релиза веб сервиса",
+      "автоматические проверки перед публикацией"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "web-development",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Gitea Actions: установка и настройка встроенного CI/CD для автоматизации задач в вашем репозитории",
+        "url": "https://beget.com/ru/kb/how-to/vps/gitea-actions"
+      }
+    ],
+    "angle": "Целевой сквозной сценарий в конвейере; не обзор CI/CD",
+    "planned_at": "2027-04-14 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 277,
+    "slug": "beget-container-registry-postavka",
+    "title": "Собственный реестр контейнеров: фиксируем версию поставки веб-сервиса",
+    "primary_query": "Harbor Beget версия контейнера проекта",
+    "related_queries": [
+      "реестр образов веб сервиса",
+      "какой образ работает на сервере",
+      "поставка приложения заказчику"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "web-development",
+    "case": null,
+    "cover": "launch",
+    "sources": [
+      {
+        "title": "Harbor – как создать собственный реестр контейнеров",
+        "url": "https://beget.com/ru/kb/how-to/vps/harbor-sobstvennyy-reestr-konteynerov"
+      }
+    ],
+    "angle": "Связь версии образа, исходного коммита и результатов приёмки",
+    "planned_at": "2027-04-15 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 278,
+    "slug": "beget-rootless-servis-ekspluataciya",
+    "title": "Rootless-контейнер как сервис: проверяем запуск после перезагрузки",
+    "primary_query": "Podman systemd Beget запуск после перезагрузки",
+    "related_queries": [
+      "rootless сервис приложение",
+      "эксплуатация Podman контейнера",
+      "проверка запуска systemd"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "website-support",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Запуск rootless-контейнеров в Podman как systemd-юнит",
+        "url": "https://beget.com/ru/kb/how-to/vps/rootless-kontejnery-v-podman-kak-systemd"
+      }
+    ],
+    "angle": "Приёмка жизненного цикла приложения, а не установка нового контейнерного стека",
+    "planned_at": "2027-04-16 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 279,
+    "slug": "beget-private-network-app-db",
+    "title": "Приватная сеть приложения и базы: документируем зависимости",
+    "primary_query": "Beget приватная сеть приложение база",
+    "related_queries": [
+      "карта сетевых связей проекта",
+      "доступ сервисов в облаке",
+      "приватная сеть интеграций"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "integrations",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Приватные сети для пользователей VPS",
+        "url": "https://beget.com/ru/kb/manual/private-network"
+      }
+    ],
+    "angle": "Граф зависимостей с владельцем каждой связи и диагностикой разрыва",
+    "planned_at": "2027-04-17 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 280,
+    "slug": "beget-balansirovshchik-sessii",
+    "title": "Балансировка сайта: что проверить у сессий, загрузок и фоновых задач",
+    "primary_query": "Nginx Beget балансировка сессии сайта",
+    "related_queries": [
+      "два сервера личный кабинет",
+      "загрузки файлов за балансировщиком",
+      "приёмка масштабирования сайта"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "website-modernization",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Как настроить балансировку нагрузки на сервере при помощи Nginx",
+        "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-balansirovku-nagruzki-na-servere-pri-pomoshchi-nginx"
+      }
+    ],
+    "angle": "Состояние приложения между узлами и единичность фоновых действий",
+    "planned_at": "2027-04-18 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 281,
+    "slug": "beget-ipv6-api-diagnostika",
+    "title": "IPv6 для сайта и API: проверяем оба маршрута подключения",
+    "primary_query": "Beget IPv6 сайт API проверка",
+    "related_queries": [
+      "dual stack сайт ошибки",
+      "IPv4 IPv6 интеграция",
+      "проверка DNS AAAA сайта"
+    ],
+    "cluster": "Поставка и эксплуатация сервисов",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Публикуем сайт и API по IPv6: dual stack без риска для текущих пользователей",
+        "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-ipv6-k-sajtu-i-api-c-dostupom-ipv4"
+      }
+    ],
+    "angle": "Раздельная проверка доступности веб-сайта и внешнего обмена по двум стекам",
+    "planned_at": "2027-04-19 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 282,
+    "slug": "beget-moodle-korporativnoe-obuchenie",
+    "title": "Moodle для обучения сотрудников: карта процесса до выбора сервера",
+    "primary_query": "Moodle Beget обучение сотрудников",
+    "related_queries": [
+      "корпоративное обучение Moodle",
+      "процесс адаптации сотрудника LMS",
+      "учёт прохождения обучения"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "business-analysis",
+    "case": null,
+    "cover": "learning",
+    "sources": [
+      {
+        "title": "Обзор системы электронного обучения Moodle",
+        "url": "https://beget.com/ru/kb/faq/moodle-review"
+      }
+    ],
+    "angle": "Владельцы курсов, зачисление и подтверждение результата; не обзор LMS",
+    "planned_at": "2027-04-20 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 283,
+    "slug": "beget-moodle-registraciya-istochnik",
+    "title": "Зачисление на курс: как связать сайт, CRM и Moodle",
+    "primary_query": "Beget Moodle интеграция CRM зачисление",
+    "related_queries": [
+      "сайт CRM LMS маршрут",
+      "доступ к курсу после оплаты",
+      "проверка зачисления в Moodle"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "integrations",
+    "case": null,
+    "cover": "integration",
+    "sources": [
+      {
+        "title": "Как установить Moodle на shared hosting или VPS",
+        "url": "https://beget.com/ru/kb/faq/how-to-install-moodle-virtual"
+      }
+    ],
+    "angle": "Сквозной маршрут с проверкой прав и повтора, без утверждения готового модуля Beget",
+    "planned_at": "2027-04-21 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 284,
+    "slug": "beget-moodle-kurs-obnovlenie",
+    "title": "Обновление учебного курса: версии материалов и повторная проверка знаний",
+    "primary_query": "Moodle Beget обновление курса",
+    "related_queries": [
+      "версии корпоративного курса",
+      "переобучение сотрудников LMS",
+      "контроль актуальности материалов"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "editor",
+    "sources": [
+      {
+        "title": "Как создать дистанционный курс в Moodle",
+        "url": "https://beget.com/ru/kb/faq/online-courses-platform"
+      }
+    ],
+    "angle": "Связь изменения регламента с конкретным назначением обучения",
+    "planned_at": "2027-04-22 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 285,
+    "slug": "beget-moodle-vebinar-dostupy",
+    "title": "Вебинар в Moodle: доступ участников, запись и готовность поддержки",
+    "primary_query": "Moodle BigBlueButton Beget проверка вебинара",
+    "related_queries": [
+      "доступ к вебинару LMS",
+      "приёмка видеозанятия",
+      "маршрут участника онлайн обучения"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "web-development",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Как подключить BigBlueButton к Moodle",
+        "url": "https://beget.com/ru/kb/faq/bigbluebutton-instructions"
+      }
+    ],
+    "angle": "Репетиция роли участника и организатора, а не пересказ подключения BBB",
+    "planned_at": "2027-04-23 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 286,
+    "slug": "beget-authelia-vnutrennie-instrumenty",
+    "title": "Единый вход во внутренние инструменты: границы проекта с Authelia",
+    "primary_query": "Authelia Beget единый вход компании",
+    "related_queries": [
+      "доступ к внутренним сервисам",
+      "SSO для инструментов команды",
+      "приёмка авторизации сервисов"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "web-development",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Authelia – установка и настройка сервера OAuth-аутентификации и авторизации",
+        "url": "https://beget.com/ru/kb/how-to/vps/authelia-ustanovka-i-nastrojka-oauth"
+      }
+    ],
+    "angle": "Перечень приложений и проверка обходных маршрутов без обещания универсального OAuth",
+    "planned_at": "2027-04-24 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 287,
+    "slug": "beget-seafile-peredacha-dokumentov",
+    "title": "Файлы проекта в Seafile: как организовать передачу документов клиенту",
+    "primary_query": "Seafile Beget документы клиенту",
+    "related_queries": [
+      "файлообмен проекта заказчик",
+      "права на папки документов",
+      "передача финальной версии файла"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Seafile как альтернатива хранилищу Nextcloud: установка и настройка на сервере",
+        "url": "https://beget.com/ru/kb/how-to/vps/seafile-alternativa-nextcloud"
+      }
+    ],
+    "angle": "Состав выдачи, версии и отзыв внешнего доступа; не обзор альтернатив облачным дискам",
+    "planned_at": "2027-04-25 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 288,
+    "slug": "beget-vikunja-obrashcheniya-podderzhki",
+    "title": "Vikunja для внутренних заявок: статусы, ответственные и приёмка",
+    "primary_query": "Vikunja Beget внутренние заявки",
+    "related_queries": [
+      "трекер заявок команды",
+      "постановка задач из обращения",
+      "приёмка задачи поддержки"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "business-process-automation",
+    "case": null,
+    "cover": "workflow",
+    "sources": [
+      {
+        "title": "Vikunja – установка и настройка таск-менеджера",
+        "url": "https://beget.com/ru/kb/how-to/vps/vikunja-task-manager"
+      }
+    ],
+    "angle": "Маршрут обращения до подтверждения результата с конкретным владельцем",
+    "planned_at": "2027-04-26 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 289,
+    "slug": "beget-markdown-baza-reglamentov",
+    "title": "Регламенты в Markdown: как связать инструкцию и рабочую задачу",
+    "primary_query": "Markdown Beget база регламентов",
+    "related_queries": [
+      "документация процесса в Git",
+      "актуальность инструкций команды",
+      "источник правды регламентов"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "business-analysis",
+    "case": null,
+    "cover": "learning",
+    "sources": [
+      {
+        "title": "Markdown: что это такое и для чего нужен этот формат",
+        "url": "https://beget.com/ru/kb/how-to/vps/markdown-chto-ehto-takoe-i-dlya-chego-nuzhen"
+      }
+    ],
+    "angle": "Версия документа, владелец и проверка выполнения вместо справочника синтаксиса",
+    "planned_at": "2027-04-27 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 290,
+    "slug": "beget-lms-vybor-shared-vps",
+    "title": "LMS на хостинге или VPS: требования обучения к инфраструктуре",
+    "primary_query": "Moodle Beget хостинг или VPS",
+    "related_queries": [
+      "сервер для корпоративной LMS",
+      "нагрузка онлайн обучения",
+      "выбор размещения Moodle"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "website-modernization",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "Как установить Moodle на shared hosting или VPS",
+        "url": "https://beget.com/ru/kb/faq/how-to-install-moodle-virtual"
+      },
+      {
+        "title": "Ограничения хостинга",
+        "url": "https://beget.com/ru/kb/faq/hosting/ogranicheniya-hostinga"
+      }
+    ],
+    "angle": "Расчёт через сценарии занятий, файлы и поддержку; без универсального числа пользователей",
+    "planned_at": "2027-04-28 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 291,
+    "slug": "beget-obuchenie-dashbord-pokazateli",
+    "title": "Дашборд обучения: какие события нужны кроме процента прохождения",
+    "primary_query": "Moodle Beget аналитика обучения",
+    "related_queries": [
+      "дашборд адаптации сотрудников",
+      "данные LMS для BI",
+      "метрики корпоративного обучения"
+    ],
+    "cluster": "Внутренние инструменты и обучение",
+    "service": "bi-dashboards",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Обзор системы электронного обучения Moodle",
+        "url": "https://beget.com/ru/kb/faq/moodle-review"
+      }
+    ],
+    "angle": "Контракт показателей обучения и выгрузок с подрядчиком аналитики",
+    "planned_at": "2027-04-29 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 292,
+    "slug": "beget-multiakkaunt-klienty",
+    "title": "Несколько клиентских сайтов в Beget: собственность и разделение сопровождения",
+    "primary_query": "Beget мультиаккаунты сайты клиентов",
+    "related_queries": [
+      "аккаунт хостинга владельца сайта",
+      "передача клиентского хостинга",
+      "разделение проектов агентства"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-support",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Мультиаккаунты",
+        "url": "https://beget.com/ru/kb/manual/multiakkaunty"
+      }
+    ],
+    "angle": "Границы владения и финансовой ответственности вместо сравнения аккаунтов",
+    "planned_at": "2027-04-30 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 293,
+    "slug": "beget-dostupy-karta-proekta",
+    "title": "Карта доступов сайта: что должен знать владелец без списка паролей",
+    "primary_query": "Beget карта доступов сайта",
+    "related_queries": [
+      "передача доступов владельцу",
+      "реестр сервисов проекта",
+      "хранение секретов подрядчика"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-support",
+    "case": null,
+    "cover": "control",
+    "sources": [
+      {
+        "title": "Настройки аккаунта",
+        "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta"
+      }
+    ],
+    "angle": "Безопасный реестр сервисов, владельцев и мест хранения, а не публикация реквизитов",
+    "planned_at": "2027-05-01 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 294,
+    "slug": "beget-dokumenty-zakryvayushchie",
+    "title": "Хостинг в расходах проекта: документы, владелец оплаты и контроль услуг",
+    "primary_query": "Beget документы расходы проекта",
+    "related_queries": [
+      "акты за хостинг компании",
+      "владелец оплаты инфраструктуры",
+      "реестр облачных услуг бизнеса"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "business-analysis",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Документы",
+        "url": "https://beget.com/ru/kb/manual/dokumenty"
+      }
+    ],
+    "angle": "Процесс сверки услуги с бизнес-проектом; без бухгалтерских и юридических выводов",
+    "planned_at": "2027-05-02 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 295,
+    "slug": "beget-support-zapros-diagnostika",
+    "title": "Обращение в поддержку Beget: собираем факты, которые ускоряют диагностику",
+    "primary_query": "как написать в поддержку Beget по сайту",
+    "related_queries": [
+      "данные для диагностики хостинга",
+      "тикет ошибка сайта",
+      "граница поддержки хостинга и разработчика"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-support",
+    "case": null,
+    "cover": "audit",
+    "sources": [
+      {
+        "title": "Помощь и поддержка",
+        "url": "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka"
+      }
+    ],
+    "angle": "Пакет времени, URL, запроса и воспроизведения без паролей и персональных данных",
+    "planned_at": "2027-05-03 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 296,
+    "slug": "beget-api-inventarizaciya",
+    "title": "Beget API для реестра инфраструктуры: чтение, сверка и исключения",
+    "primary_query": "Beget API реестр инфраструктуры",
+    "related_queries": [
+      "инвентаризация сайтов через API",
+      "сверка ресурсов хостинга",
+      "автоматизация реестра доменов"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "integrations",
+    "case": null,
+    "cover": "planning",
+    "sources": [
+      {
+        "title": "Beget.API Хостинга",
+        "url": "https://beget.com/ru/kb/api/beget-api"
+      }
+    ],
+    "angle": "Первый сценарий только чтения и отчёт об изменениях; не автоматические destructive операции",
+    "planned_at": "2027-05-04 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 297,
+    "slug": "beget-plavayushchiy-ip-pereezd",
+    "title": "Плавающий IP и перенос сервиса: что проверять кроме адреса",
+    "primary_query": "Beget плавающий IP перенос сервиса",
+    "related_queries": [
+      "смена сервера без смены IP",
+      "приёмка переноса приложения",
+      "зависимости сервиса при переезде"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-migration",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Плавающий IPv4-адрес: подключение, перенос и сценарии использования",
+        "url": "https://beget.com/ru/kb/manual/ipv4-kupit-v-oblake"
+      }
+    ],
+    "angle": "Данные, фоновые задания и внешние разрешения после переключения адреса",
+    "planned_at": "2027-05-05 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 298,
+    "slug": "beget-uslugi-nenuzhnyy-resurs",
+    "title": "Лишние облачные услуги: как найти владельца и безопасно завершить использование",
+    "primary_query": "Beget неиспользуемые услуги проверка",
+    "related_queries": [
+      "аудит расходов облака",
+      "владелец ресурса хостинга",
+      "отключение ненужного сервиса"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-audit",
+    "case": null,
+    "cover": "finance",
+    "sources": [
+      {
+        "title": "Управление услугами",
+        "url": "https://beget.com/ru/kb/manual/upravlenie-uslugami"
+      }
+    ],
+    "angle": "Доказательство неиспользования, срок удержания и точная санкция на удаление",
+    "planned_at": "2027-05-06 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 299,
+    "slug": "beget-systemd-fonovyy-servis",
+    "title": "Фоновый обработчик как systemd-сервис: наблюдаем рабочий результат",
+    "primary_query": "systemd Beget обработчик интеграции",
+    "related_queries": [
+      "сервис работает обмен не идёт",
+      "перезапуск фонового обработчика",
+      "приёмка systemd приложения"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "integrations",
+    "case": null,
+    "cover": "workflow",
+    "sources": [
+      {
+        "title": "Systemctl: управление сервисами и юнитами Systemd",
+        "url": "https://beget.com/ru/kb/how-to/vps/systemctl-upravlenie-servisami-i-yunitami"
+      }
+    ],
+    "angle": "Различение активного процесса и успешного задания, без установки юнитов читателю вслепую",
+    "planned_at": "2027-05-07 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 300,
+    "slug": "beget-sla-granicy-otvetstvennosti",
+    "title": "Хостинг, разработчик и интегратор: кто отвечает за какой сбой",
+    "primary_query": "Beget разработчик границы поддержки сайта",
+    "related_queries": [
+      "ответственность за сайт и хостинг",
+      "SLA интеграций",
+      "кто исправляет CRM обмен"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-support",
+    "case": null,
+    "cover": "team",
+    "sources": [
+      {
+        "title": "Помощь и поддержка",
+        "url": "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka"
+      }
+    ],
+    "angle": "Матрица маршрутизации инцидентов по фактам, не обещание чужого SLA",
+    "planned_at": "2027-05-08 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  },
+  {
+    "id": 301,
+    "slug": "beget-ekspluatacionnyy-pasport",
+    "title": "Паспорт сайта на Beget: артефакты, которые остаются владельцу после проекта",
+    "primary_query": "Beget паспорт сайта после разработки",
+    "related_queries": [
+      "документация сопровождения сайта",
+      "передача проекта владельцу",
+      "карта инфраструктуры веб сервиса"
+    ],
+    "cluster": "Владение инфраструктурой",
+    "service": "website-support",
+    "case": null,
+    "cover": "acceptance",
+    "sources": [
+      {
+        "title": "Сайты",
+        "url": "https://beget.com/ru/kb/manual/sajty"
+      },
+      {
+        "title": "Настройки аккаунта",
+        "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta"
+      }
+    ],
+    "angle": "Финальный комплект владения, проверок и следующего обслуживания без секретов",
+    "planned_at": "2027-05-09 10:00:00",
+    "series": "search",
+    "standalone": false,
+    "collection": "beget",
+    "manuscript_ready": false
+  }
+]

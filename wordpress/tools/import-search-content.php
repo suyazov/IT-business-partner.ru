@@ -5,7 +5,7 @@ if (wp_get_environment_type() === 'production' && getenv('SY3_ALLOW_PRODUCTION_I
 if (get_option('sy3_site_mode') !== 'expertise' || !defined('SY3_EDITORIAL_BATCH')) WP_CLI::error('Main site and editorial plugin required.');
 if(!function_exists('sy3_editorial_review_hash'))WP_CLI::error('Activate the reviewed editorial plugin before any import.');
 require_once __DIR__ . '/search-content-lib.php';
-[$records, $services, $media] = sy3_search_load();
+[$records, $services, $media] = sy3_search_load(getenv('SY3_CONTENT_COLLECTION')?:'search');
 $owned = []; $service_ids = []; $case_ids = [];
 foreach ($services as $service) {
     $seed = 'service:' . $service['slug'];
@@ -65,7 +65,8 @@ foreach ($records as $record) {
     if (!empty($record['case'])) $body .= sy3_p('Практика по теме: <a href="'.esc_url(get_permalink($case_ids[$record['case']])).'">'.esc_html(get_the_title($case_ids[$record['case']])).'</a>.');
     $term = term_exists($record['cluster'],'category') ?: wp_insert_term($record['cluster'],'category');
     if (is_wp_error($term)) WP_CLI::error($term->get_error_message());
-    $meta = ['_sy3_editorial_batch'=>$record['id']===101?SY3_EDITORIAL_BATCH:SY3_SEARCH_BATCH,'_sy3_editorial_key'=>(string)$record['id'],'_sy3_editorial_enabled'=>'1','_sy3_editorial_at'=>(new DateTimeImmutable($record['planned_at'],new DateTimeZone('Europe/Moscow')))->getTimestamp(),'_sy3_editorial_seed_hash'=>hash('sha256',$body),'_sy3_search_query'=>$record['primary_query'],'_sy3_search_variants'=>$record['related_queries'],'_sy3_search_sources'=>$record['sources'],'_sy3_label'=>$record['cluster'],'_sy3_description'=>$record['excerpt'],'_sy3_related'=>implode(',',array_filter([$service_id,!empty($record['case'])?$case_ids[$record['case']]:null]))];
+    $meta = ['_sy3_editorial_batch'=>$record['id']===101?SY3_EDITORIAL_BATCH:SY3_SEARCH_BATCH,'_sy3_editorial_key'=>(string)$record['id'],'_sy3_editorial_enabled'=>empty($record['standalone'])?'1':'0','_sy3_editorial_at'=>(new DateTimeImmutable($record['planned_at'],new DateTimeZone('Europe/Moscow')))->getTimestamp(),'_sy3_editorial_seed_hash'=>hash('sha256',$body),'_sy3_search_query'=>$record['primary_query'],'_sy3_search_variants'=>$record['related_queries'],'_sy3_search_sources'=>$record['sources'],'_sy3_label'=>$record['cluster'],'_sy3_description'=>$record['excerpt'],'_sy3_related'=>implode(',',array_filter([$service_id,!empty($record['case'])?$case_ids[$record['case']]:null]))];
+    if(!empty($record['standalone']))$meta['_sy3_editorial_standalone']='1';
     $id = wp_insert_post(wp_slash(['post_type'=>'post','post_status'=>'draft','post_author'=>$author->ID,'post_name'=>$record['slug'],'post_title'=>$record['title'],'post_excerpt'=>$record['excerpt'],'post_content'=>$body,'post_category'=>[(int)$term['term_id']],'comment_status'=>'closed','ping_status'=>'closed','meta_input'=>$meta]),true);
     if (is_wp_error($id)) WP_CLI::error($id->get_error_message());
     set_post_thumbnail($id,$covers[$record['cover']]); $owned[$record['id']]=$id;

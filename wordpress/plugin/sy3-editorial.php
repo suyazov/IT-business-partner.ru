@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Сутри — редакционный календарь
  * Description: Две очереди черновиков: экспертная раз в три дня и поисковая раз в день, с общей паузой и снятием отдельных материалов.
- * Version: 1.1.0
+ * Version: 1.2.0
  */
 defined('ABSPATH') || exit;
 const SY3_EDITORIAL_BATCH = 'sy3-expertise-20261022';
@@ -58,7 +58,7 @@ function sy3_editorial_publish_due(?int $now = null): array {
         foreach (sy3_editorial_series() as $batch => $series) {
             $last = (int) get_option($series['option'], 0);
             // Recover this series independently if publication preceded an interrupted receipt write.
-            $recent = get_posts(['post_type'=>'post','post_status'=>'publish','meta_key'=>'_sy3_editorial_batch','meta_value'=>$batch,'posts_per_page'=>1,'orderby'=>'date','order'=>'DESC']);
+            $recent = get_posts(['post_type'=>'post','post_status'=>'publish','meta_key'=>'_sy3_editorial_batch','meta_value'=>$batch,'meta_query'=>['relation'=>'OR',['key'=>'_sy3_editorial_standalone','compare'=>'NOT EXISTS'],['key'=>'_sy3_editorial_standalone','value'=>'1','compare'=>'!=']],'posts_per_page'=>1,'orderby'=>'date','order'=>'DESC']);
             if ($recent) $last = max($last, (int) get_post_timestamp($recent[0]));
             if ($last && $now < $last + $series['interval']) { $next[] = $last + $series['interval']; continue; }
             $posts = get_posts(['post_type'=>'post','post_status'=>'draft','posts_per_page'=>1,'meta_query'=>[
@@ -93,12 +93,14 @@ add_action('manage_post_posts_custom_column', function ($column, $id) {
     $series = sy3_editorial_series()[get_post_meta($id, '_sy3_editorial_batch', true)] ?? null;
     if ($column !== 'sy3_calendar' || !$series) return;
     $at = (int) get_post_meta($id, '_sy3_editorial_at', true);
+    if(get_post_meta($id,'_sy3_editorial_standalone',true)==='1'){echo 'Отдельный пост';return;}
     echo esc_html($series['label'] . ': ' . (sy3_editorial_eligible((int) $id) ? wp_date('d.m.Y H:i', $at) . ' МСК' : 'Снято с очереди / опубликовано'));
 }, 10, 2);
 
 add_action('add_meta_boxes_post', function ($post) {
     if (!isset(sy3_editorial_series()[get_post_meta($post->ID, '_sy3_editorial_batch', true)])) return;
     add_meta_box('sy3-calendar', 'Редакционный календарь', function ($post) {
+        if(get_post_meta($post->ID,'_sy3_editorial_standalone',true)==='1'){echo '<p>Отдельный пост по решению владельца. В ежедневную очередь не входит и её интервал не меняет.</p>';return;}
         $at = (int) get_post_meta($post->ID, '_sy3_editorial_at', true);
         wp_nonce_field('sy3-calendar-' . $post->ID, 'sy3_calendar_nonce');
         $series = sy3_editorial_series()[get_post_meta($post->ID, '_sy3_editorial_batch', true)];

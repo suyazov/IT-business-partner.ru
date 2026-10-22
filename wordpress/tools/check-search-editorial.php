@@ -17,10 +17,13 @@ try{
     $make=function($batch,$at)use(&$fixtures,$cover){$id=wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>'Isolated series fixture','post_content'=>sy3_editorial_fixture_content(),'meta_input'=>['_sy3_editorial_test_fixture'=>'1','_sy3_editorial_batch'=>$batch,'_sy3_editorial_enabled'=>'1','_sy3_editorial_at'=>$at]]);$fixtures[]=$id;set_post_thumbnail($id,$cover);update_post_meta($id,'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($id));return $id;};
     $old1=$make(SY3_EDITORIAL_BATCH,$now);$old2=$make(SY3_EDITORIAL_BATCH,$now+60);
     $seo1=$make(SY3_EDITORIAL_SEARCH_BATCH,$now-120);$seo2=$make(SY3_EDITORIAL_SEARCH_BATCH,$now+60);$seo3=$make(SY3_EDITORIAL_SEARCH_BATCH,$now+120);
+    $standalone=$make(SY3_EDITORIAL_SEARCH_BATCH,$now);update_post_meta($standalone,'_sy3_editorial_standalone','1');update_post_meta($standalone,'_sy3_editorial_enabled','0');
+    wp_update_post(['ID'=>$standalone,'post_status'=>'publish','edit_date'=>true,'post_date'=>wp_date('Y-m-d H:i:s',$now),'post_date_gmt'=>gmdate('Y-m-d H:i:s',$now)]);
     update_option('sy3_editorial_paused',true);
     $check(sy3_editorial_publish_due($now)['status']==='paused','Global pause applies to both series');
     update_option('sy3_editorial_paused',false);
     $r=sy3_editorial_publish_due($now);$check(($r['id']??0)===$seo1,'Oldest due SEO article first');
+    $check(get_post_status($standalone)==='publish','Standalone post does not delay the separate daily queue');
     $check(get_post_status($old1)==='draft','Only one article per invocation');
     $r=sy3_editorial_publish_due($now);$check(($r['id']??0)===$old1,'Expertise series not delayed by SEO publication');
     $check(sy3_editorial_publish_due($now+3600)['status']==='interval','Both series respect intervals');
