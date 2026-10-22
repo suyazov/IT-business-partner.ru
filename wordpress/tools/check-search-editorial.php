@@ -1,0 +1,58 @@
+<?php
+/** Preview-only: independent intervals, recovery and one blocked series. */
+if (!defined('WP_CLI') || !WP_CLI || wp_get_environment_type()==='production') exit('Preview only.');
+require_once ABSPATH . 'wp-admin/includes/post.php';
+require_once __DIR__.'/editorial-test-fixture.php';
+$fixtures=[]; $assertions=0;
+$options=['sy3_editorial_last_publication','sy3_search_last_publication','sy3_editorial_paused'];
+$saved=[]; foreach($options as $key) $saved[$key]=get_option($key,null);
+$check=function($ok,$message)use(&$assertions){if(!$ok)throw new RuntimeException($message);$assertions++;};
+$lock_filter=fn($q)=>preg_match('/^SELECT (GET_LOCK|RELEASE_LOCK)\(/',$q)?'SELECT 1':$q;
+$restrict=function($q)use(&$fixtures){if($q->get('post_type')==='post'&&$fixtures)$q->set('post__in',$fixtures);};
+add_filter('query',$lock_filter);add_action('pre_get_posts',$restrict);
+try{
+    foreach($options as $key)delete_option($key);
+    $cover=get_posts(['post_type'=>'attachment','post_status'=>'inherit','numberposts'=>1])[0]->ID;
+    $now=time()-10*DAY_IN_SECONDS;
+    $make=function($batch,$at)use(&$fixtures,$cover){$id=wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>'Isolated series fixture','post_content'=>sy3_editorial_fixture_content(),'meta_input'=>['_sy3_editorial_test_fixture'=>'1','_sy3_editorial_batch'=>$batch,'_sy3_editorial_enabled'=>'1','_sy3_editorial_at'=>$at]]);$fixtures[]=$id;set_post_thumbnail($id,$cover);update_post_meta($id,'_sy3_editorial_reviewed_hash',hash('sha256',get_post_field('post_content',$id)));return $id;};
+    $old1=$make(SY3_EDITORIAL_BATCH,$now);$old2=$make(SY3_EDITORIAL_BATCH,$now+60);
+    $seo1=$make(SY3_EDITORIAL_SEARCH_BATCH,$now-120);$seo2=$make(SY3_EDITORIAL_SEARCH_BATCH,$now+60);$seo3=$make(SY3_EDITORIAL_SEARCH_BATCH,$now+120);
+    update_option('sy3_editorial_paused',true);
+    $check(sy3_editorial_publish_due($now)['status']==='paused','Global pause applies to both series');
+    update_option('sy3_editorial_paused',false);
+    $r=sy3_editorial_publish_due($now);$check(($r['id']??0)===$seo1,'Oldest due SEO article first');
+    $check(get_post_status($old1)==='draft','Only one article per invocation');
+    $r=sy3_editorial_publish_due($now);$check(($r['id']??0)===$old1,'Expertise series not delayed by SEO publication');
+    $check(sy3_editorial_publish_due($now+3600)['status']==='interval','Both series respect intervals');
+    $r=sy3_editorial_publish_due($now+DAY_IN_SECONDS);$check(($r['id']??0)===$seo2,'SEO releases again after 24h');
+    $check(get_post_status($old2)==='draft','Expertise still waits 72h');
+    delete_option('sy3_search_last_publication');
+    $check(sy3_editorial_publish_due($now+DAY_IN_SECONDS+3600)['status']==='interval','SEO recovery reads its own published timestamp');
+    $editor=get_user_by('login','sy3_preview_editor');update_post_meta($old2,'_edit_lock',time().':'.$editor->ID);
+    $r=sy3_editorial_publish_due($now+3*DAY_IN_SECONDS);$check(($r['id']??0)===$seo3,'Open expertise editor does not block due SEO');
+    $check(get_post_status($old2)==='draft','Open draft remains private');
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='being_edited','Editing guard still active');
+    delete_post_meta($old2,'_edit_lock');delete_post_thumbnail($old2);
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='incomplete','Missing image prevents publication');
+    set_post_thumbnail($old2,$cover);delete_post_meta($old2,'_sy3_editorial_reviewed_hash');
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Unreviewed material stays private');
+    $original=get_post_field('post_content',$old2);update_post_meta($old2,'_sy3_editorial_reviewed_hash',hash('sha256',$original));
+    wp_update_post(['ID'=>$old2,'post_content'=>$original.'<!-- wp:paragraph --><p>Изменение после проверки.</p><!-- /wp:paragraph -->']);
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='review_required','Editing invalidates the exact reviewed version');
+    wp_update_post(['ID'=>$old2,'post_content'=>'<!-- wp:paragraph --><p>Короткий текст.</p><!-- /wp:paragraph -->']);
+    $check(sy3_editorial_publish_due($now+3*DAY_IN_SECONDS)['status']==='incomplete','Short text cannot pass by an old approval hash');
+    wp_update_post(['ID'=>$old2,'post_content'=>$original]);
+    $quality=sy3_editorial_quality($original);$check($quality['complete']&&$quality['characters']>=10000,'Substantive text counted without the diagram');
+    $huge_diagram='<!-- wp:group {"className":"process-map"} --><div class="wp-block-group process-map"><!-- wp:paragraph --><p>'.str_repeat('Диаграмма не заменяет текст. ',600).'</p><!-- /wp:paragraph --></div><!-- /wp:group -->';
+    $check(!sy3_editorial_quality($huge_diagram)['complete']&&sy3_editorial_quality($huge_diagram)['characters']===0,'Large graphics do not pad the minimum text length');
+    $check(!sy3_editorial_quality('<!-- wp:paragraph --><p>'.str_repeat('Только текст. ',1000).'</p><!-- /wp:paragraph -->')['complete'],'Long text without table and diagram stays incomplete');
+    $r=sy3_editorial_publish_due($now+3*DAY_IN_SECONDS);$check(($r['id']??0)===$old2,'Expertise releases at 72h after restoring reviewed content');
+    $check((int)get_option('sy3_search_last_publication')===$now+3*DAY_IN_SECONDS,'Independent SEO clock persisted');
+    $check((int)get_option('sy3_editorial_last_publication')===$now+3*DAY_IN_SECONDS,'Independent expertise clock persisted');
+    $check(sy3_editorial_publish_due($now+100*DAY_IN_SECONDS)['status']==='nothing_due','No extra release after all fixtures');
+    WP_CLI::success($assertions.' checks passed; fixture-only preview; MySQL lock transport substituted.');
+}finally{
+    remove_action('pre_get_posts',$restrict);remove_filter('query',$lock_filter);
+    foreach($fixtures as $id)if(get_post_meta($id,'_sy3_editorial_test_fixture',true)==='1')wp_delete_post($id,true);
+    foreach($saved as $key=>$value){if($value===null)delete_option($key);else update_option($key,$value,false);}
+}
