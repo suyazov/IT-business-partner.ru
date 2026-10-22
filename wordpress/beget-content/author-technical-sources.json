@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-22T22:12:15.068163+00:00",
+  "method": "Official primary pages opened and read through web tool; narrow provider facts plus original methodology, no paragraph-by-paragraph rewrite.",
+  "sources": [
+    {
+      "url": "https://beget.com/ru/kb/how-to/vps/perenos-bazy-dannyh-wordpress-s-virtualnogo-hostinga-v-oblako",
+      "title": "Перенос базы данных WordPress с виртуального хостинга в облако",
+      "available": true
+    },
+    {
+      "url": "https://developer.wordpress.org/advanced-administration/wordpress/wp-config/",
+      "title": "WordPress: настройка wp-config.php",
+      "available": true
+    },
+    {
+      "url": "https://developer.wordpress.org/plugins/cron/",
+      "title": "WordPress: устройство WP-Cron",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/how-to/vps/migracziya-bazy-dannyh-bitrix-s-virtualnogo-hostinga-v-oblako",
+      "title": "Миграция базы данных Bitrix с виртуального хостинга в облако",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/how-to/vps/mysql-with-private-network",
+      "title": "Использование MySQL на отдельном сервере с приватной сетью VPS",
+      "available": true
+    },
+    {
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/account-names.html",
+      "title": "MySQL: имена аккаунтов и хост подключения",
+      "available": true
+    },
+    {
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/connection-access.html",
+      "title": "MySQL: проверка доступа при соединении",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/manual/statistika",
+      "title": "Статистика",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/how-to/nastrojka-dvuhfaktornoj-autentifikacii-v-beget",
+      "title": "Настройка приложений для двухфакторной аутентификации в Beget",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/manual/ftp",
+      "title": "FTP-аккаунты",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/how-to/vps/systemctl-upravlenie-servisami-i-yunitami",
+      "title": "Systemctl: управление сервисами и юнитами Systemd",
+      "available": true
+    },
+    {
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html",
+      "title": "systemd: конфигурация службы и типы запуска",
+      "available": true
+    },
+    {
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html",
+      "title": "systemctl: состояния и управление службами",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka",
+      "title": "Помощь и поддержка",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/manual/sajty",
+      "title": "Сайты",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta",
+      "title": "Настройки аккаунта",
+      "available": true
+    }
+  ]
+}
