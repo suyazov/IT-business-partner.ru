@@ -32,6 +32,22 @@
     "cluster": "Бизнес-процессы"
   },
   {
+    "id": 182,
+    "title": "Интеграция сайта с CRM: как выбрать штатную форму, плагин или собственный API",
+    "slug": "sposob-integracii-sayta-s-crm",
+    "series": "search",
+    "publish_msk": "2026-10-27 10:00:00",
+    "cluster": "Интеграции"
+  },
+  {
+    "id": 188,
+    "title": "ЮKassa: платёж прошёл, а заказ остался неоплаченным — порядок проверки",
+    "slug": "yookassa-oplata-status-zakaza",
+    "series": "search",
+    "publish_msk": "2026-10-28 10:00:00",
+    "cluster": "Интернет-магазины"
+  },
+  {
     "id": 103,
     "title": "Sitemap WordPress: как найти карту сайта и проверить её состав",
     "slug": "sitemap-wordpress-proverka",
@@ -54,6 +70,22 @@
     "series": "search",
     "publish_msk": "2026-11-04 10:00:00",
     "cluster": "Битрикс24"
+  },
+  {
+    "id": 162,
+    "title": "AS-IS и TO-BE: как описать текущий и будущий процесс без смешивания фактов",
+    "slug": "as-is-to-be-biznes-process",
+    "series": "search",
+    "publish_msk": "2026-11-05 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 183,
+    "title": "Webhook: как проверить доставку события от сервиса до изменения в вашей системе",
+    "slug": "webhook-kak-proverit-dostavku",
+    "series": "search",
+    "publish_msk": "2026-11-06 10:00:00",
+    "cluster": "Интеграции"
   },
   {
     "id": 104,
@@ -80,6 +112,22 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 163,
+    "title": "Интервью сотрудников перед автоматизацией: вопросы, примеры и проверка ответов",
+    "slug": "intervyu-sotrudnikov-dlya-avtomatizatsii",
+    "series": "search",
+    "publish_msk": "2026-11-15 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 184,
+    "title": "Дубли заявок при повторе API-запроса: практическая схема идемпотентности",
+    "slug": "idempotentnost-api-zayavki",
+    "series": "search",
+    "publish_msk": "2026-11-16 10:00:00",
+    "cluster": "Интеграции"
+  },
+  {
     "id": 105,
     "title": "Noindex: как исключить страницу из поиска и не заблокировать нужные материалы",
     "slug": "noindex-proverka-stranicy",
@@ -102,6 +150,22 @@
     "series": "search",
     "publish_msk": "2026-11-21 10:00:00",
     "cluster": "Битрикс24"
+  },
+  {
+    "id": 164,
+    "title": "BPMN для заказчика: как читать схему процесса и проверять её перед разработкой",
+    "slug": "bpmn-dlya-zakazchika",
+    "series": "search",
+    "publish_msk": "2026-11-22 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 185,
+    "title": "Ошибка 429 API: очередь, Retry-After и ограниченный повтор запроса",
+    "slug": "oshibka-429-api-retry-after",
+    "series": "search",
+    "publish_msk": "2026-11-23 10:00:00",
+    "cluster": "Интеграции"
   },
   {
     "id": 106,
@@ -128,12 +192,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 165,
+    "title": "SIPOC: как быстро определить границы процесса до подробной схемы",
+    "slug": "sipoc-opisanie-processa",
+    "series": "search",
+    "publish_msk": "2026-11-28 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 107,
     "title": "Редирект 301 или 302: как выбрать код и проверить переход",
     "slug": "301-ili-302-redirekt",
     "series": "search",
     "publish_msk": "2026-11-30 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 126,
+    "title": "Обновление PHP для WordPress: проверить нужно весь сайт, а не только ядро",
+    "slug": "obnovlenie-php-dlya-wordpress",
+    "series": "search",
+    "publish_msk": "2026-12-01 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 147,
@@ -144,12 +224,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 166,
+    "title": "RACI: как распределить ответственность за процесс и перестать терять передачи",
+    "slug": "raci-raspredelenie-otvetstvennosti",
+    "series": "search",
+    "publish_msk": "2026-12-03 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 108,
     "title": "HTTP → HTTPS в Nginx: настройка с проверкой домена и маршрутов",
     "slug": "http-https-nginx-redirekt",
     "series": "search",
     "publish_msk": "2026-12-04 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 127,
+    "title": "Конфликт плагинов WordPress: как найти причину без хаотичного отключения сайта",
+    "slug": "konflikt-plaginov-wordpress",
+    "series": "search",
+    "publish_msk": "2026-12-05 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 148,
@@ -160,12 +256,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 167,
+    "title": "Регламент бизнес-процесса: что включить и как проверить документ на практике",
+    "slug": "reglament-biznes-processa",
+    "series": "search",
+    "publish_msk": "2026-12-07 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 109,
     "title": "HTTP → HTTPS в Apache: почему правило в .htaccess подходит не каждому сайту",
     "slug": "http-https-apache-redirekt",
     "series": "search",
     "publish_msk": "2026-12-08 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 128,
+    "title": "Staging для WordPress: что проверять на стенде и что нельзя переносить обратно",
+    "slug": "staging-dlya-wordpress",
+    "series": "search",
+    "publish_msk": "2026-12-09 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 149,
@@ -176,12 +288,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 168,
+    "title": "Автоматизация согласования документов: маршрут, версии и возврат на исправление",
+    "slug": "avtomatizatsiya-soglasovaniya-dokumentov",
+    "series": "search",
+    "publish_msk": "2026-12-11 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 110,
     "title": "Цикл редиректов: как найти два конфликтующих правила",
     "slug": "cikl-redirektov-kak-nayti",
     "series": "search",
     "publish_msk": "2026-12-12 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 129,
+    "title": "Права администраторов WordPress: как дать сотруднику доступ к работе, а не ко всему сайту",
+    "slug": "prava-administratorov-wordpress",
+    "series": "search",
+    "publish_msk": "2026-12-13 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 150,
@@ -192,12 +320,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 169,
+    "title": "Маршрут входящей заявки: как настроить приём, назначение и передачу в работу",
+    "slug": "marshrut-vhodyashchey-zayavki",
+    "series": "search",
+    "publish_msk": "2026-12-15 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 111,
     "title": "Mixed content после перехода на HTTPS: где искать старые HTTP-ресурсы",
     "slug": "mixed-content-posle-https",
     "series": "search",
     "publish_msk": "2026-12-16 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 130,
+    "title": "Домен на владельце бизнеса: что проверить до смены подрядчика",
+    "slug": "domen-na-vladelce-biznesa",
+    "series": "search",
+    "publish_msk": "2026-12-17 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 151,
@@ -208,12 +352,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 170,
+    "title": "Исключения бизнес-процесса: как описать отказы, отмены и недостающие данные",
+    "slug": "isklyucheniya-biznes-processa",
+    "series": "search",
+    "publish_msk": "2026-12-19 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 112,
     "title": "Срок SSL-сертификата: проверять нужно тот сертификат, который видит посетитель",
     "slug": "srok-ssl-sertifikata-monitoring",
     "series": "search",
     "publish_msk": "2026-12-20 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 131,
+    "title": "Ошибка 500 на сайте: что собрать для диагностики и как не ухудшить ситуацию",
+    "slug": "oshibka-500-diagnostika",
+    "series": "search",
+    "publish_msk": "2026-12-21 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 152,
@@ -224,12 +384,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 171,
+    "title": "KPI бизнес-процесса: как выбрать показатели и задать правила расчёта",
+    "slug": "kpi-biznes-processa",
+    "series": "search",
+    "publish_msk": "2026-12-23 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 113,
     "title": "Www или без www: как выбрать основной адрес сайта и согласовать настройки",
     "slug": "www-bez-www-osnovnoy-domen",
     "series": "search",
     "publish_msk": "2026-12-24 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 132,
+    "title": "Ошибки 502 и 504: как проверить связь веб-сервера с приложением",
+    "slug": "oshibki-502-504-chto-proveryat",
+    "series": "search",
+    "publish_msk": "2026-12-25 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 153,
@@ -240,12 +416,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 172,
+    "title": "Оценка эффекта автоматизации: как посчитать исходное состояние и проверить прогноз",
+    "slug": "otsenka-effekta-avtomatizatsii",
+    "series": "search",
+    "publish_msk": "2026-12-27 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 114,
     "title": "Страница 404: как помочь посетителю и вернуть правильный HTTP-ответ",
     "slug": "stranica-404-pravilnyy-otvet",
     "series": "search",
     "publish_msk": "2026-12-28 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 133,
+    "title": "Белый экран WordPress: как найти ошибку, когда сама страница ничего не сообщает",
+    "slug": "belyy-ekran-wordpress",
+    "series": "search",
+    "publish_msk": "2026-12-29 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 154,
@@ -256,12 +448,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 173,
+    "title": "Приоритизация задач автоматизации: как сравнить идеи и выбрать первый проект",
+    "slug": "prioritizatsiya-zadach-avtomatizatsii",
+    "series": "search",
+    "publish_msk": "2026-12-31 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 115,
     "title": "Массовые 404 после переноса: как отделить проблему маршрутов от потери материалов",
     "slug": "massovye-404-posle-perenosa",
     "series": "search",
     "publish_msk": "2027-01-01 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 134,
+    "title": "Мониторинг доступности сайта: какие проверки полезнее одного зелёного индикатора",
+    "slug": "monitoring-dostupnosti-sayta",
+    "series": "search",
+    "publish_msk": "2027-01-02 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 155,
@@ -272,12 +480,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 174,
+    "title": "Техническое задание на автоматизацию: структура требований без списка абстрактных функций",
+    "slug": "tehnicheskoe-zadanie-na-avtomatizatsiyu",
+    "series": "search",
+    "publish_msk": "2027-01-04 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 116,
     "title": "Смена домена сайта: как организовать переезд и сохранить соответствие страниц",
     "slug": "smena-domena-sohranenie-url",
     "series": "search",
     "publish_msk": "2027-01-05 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 135,
+    "title": "Логирование форм: как увидеть путь заявки и не записывать лишние личные данные",
+    "slug": "logirovanie-form-zayavok",
+    "series": "search",
+    "publish_msk": "2027-01-06 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 156,
@@ -288,12 +512,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 175,
+    "title": "Критерии приёмки автоматизации: как превратить «всё работает» в проверяемый результат",
+    "slug": "kriterii-priemki-avtomatizatsii",
+    "series": "search",
+    "publish_msk": "2027-01-08 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 117,
     "title": "Карта старых и новых URL: как подготовить перенаправления до переезда",
     "slug": "karta-staryh-novyh-url",
     "series": "search",
     "publish_msk": "2027-01-09 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 136,
+    "title": "Core Web Vitals: как выбрать исправление по причине, а не по общему баллу",
+    "slug": "core-web-vitals-chto-ispravlyat",
+    "series": "search",
+    "publish_msk": "2027-01-10 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 157,
@@ -304,12 +544,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 176,
+    "title": "Автоматизация закупок: как связать потребность, согласование и получение",
+    "slug": "avtomatizatsiya-zakupok-process",
+    "series": "search",
+    "publish_msk": "2027-01-12 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 118,
     "title": "Как закрыть сайт разработки: robots.txt, noindex и ограничение доступа",
     "slug": "zakryt-stend-ot-indeksacii",
     "series": "search",
     "publish_msk": "2027-01-13 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 137,
+    "title": "Оптимизация изображений: размер, формат и загрузка без потери смысла",
+    "slug": "optimizaciya-izobrazheniy-sayta",
+    "series": "search",
+    "publish_msk": "2027-01-14 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 158,
@@ -320,12 +576,28 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 177,
+    "title": "Автоматизация заявок сотрудников: единый вход и разные маршруты обработки",
+    "slug": "avtomatizatsiya-zayavok-sotrudnikov",
+    "series": "search",
+    "publish_msk": "2027-01-16 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 119,
     "title": "Title и description: как описать страницу без набора одинаковых ключевых слов",
     "slug": "title-description-kak-proverit",
     "series": "search",
     "publish_msk": "2027-01-17 10:00:00",
     "cluster": "Техническое SEO"
+  },
+  {
+    "id": 138,
+    "title": "Кэш сайта: почему изменения видны администратору, но не посетителю",
+    "slug": "kesh-sayta-starye-izmeneniya",
+    "series": "search",
+    "publish_msk": "2027-01-18 10:00:00",
+    "cluster": "Поддержка сайта"
   },
   {
     "id": 159,
@@ -336,6 +608,14 @@
     "cluster": "Битрикс24"
   },
   {
+    "id": 178,
+    "title": "Изменение требований в проекте автоматизации: как оценивать новые пожелания",
+    "slug": "upravlenie-izmeneniyami-trebovaniy",
+    "series": "search",
+    "publish_msk": "2027-01-20 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
     "id": 120,
     "title": "Индексация пагинации: как не спрятать товары за первой страницей",
     "slug": "paginaciya-indeksaciya-canonical",
@@ -344,11 +624,75 @@
     "cluster": "Техническое SEO"
   },
   {
+    "id": 139,
+    "title": "Мобильная вёрстка: как проверить путь клиента, а не только ширину экрана",
+    "slug": "mobilnaya-verstka-proverka",
+    "series": "search",
+    "publish_msk": "2027-01-22 10:00:00",
+    "cluster": "Поддержка сайта"
+  },
+  {
     "id": 160,
     "title": "Обучение и приёмка CRM: как проверить готовность сотрудников к работе",
     "slug": "obuchenie-i-priemka-crm",
     "series": "search",
     "publish_msk": "2027-01-23 10:00:00",
     "cluster": "Битрикс24"
+  },
+  {
+    "id": 179,
+    "title": "Карта интеграций: как описать обмен данными между CRM, сайтом и учётной системой",
+    "slug": "karta-integratsiy-biznes-sistem",
+    "series": "search",
+    "publish_msk": "2027-01-24 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 140,
+    "title": "Доступность формы: подписи, ошибки и управление с клавиатуры",
+    "slug": "dostupnost-form-cheklist",
+    "series": "search",
+    "publish_msk": "2027-01-25 10:00:00",
+    "cluster": "Поддержка сайта"
+  },
+  {
+    "id": 180,
+    "title": "Поддержка после внедрения: что подготовить до передачи системы в обычную работу",
+    "slug": "podderzhka-posle-vnedreniya-crm",
+    "series": "search",
+    "publish_msk": "2027-01-26 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 141,
+    "title": "Приёмка сайта: чек-лист, который связывает страницы с задачами бизнеса",
+    "slug": "priemka-sayta-prakticheskiy-cheklist",
+    "series": "search",
+    "publish_msk": "2027-01-27 10:00:00",
+    "cluster": "Поддержка сайта"
+  },
+  {
+    "id": 181,
+    "title": "Как выбрать бизнес-аналитика для автоматизации: вопросы и проверка подхода",
+    "slug": "kak-vybrat-biznes-analitika",
+    "series": "search",
+    "publish_msk": "2027-01-28 10:00:00",
+    "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 186,
+    "title": "WordPress не отправляет письма: как проверить путь от wp_mail до ящика",
+    "slug": "wordpress-ne-otpravlyaet-pisma",
+    "series": "search",
+    "publish_msk": "2027-01-29 10:00:00",
+    "cluster": "Поддержка сайта"
+  },
+  {
+    "id": 187,
+    "title": "Защита формы от спама: что проверять на сервере после установки виджета",
+    "slug": "antispam-form-server-check",
+    "series": "search",
+    "publish_msk": "2027-01-30 10:00:00",
+    "cluster": "Поддержка сайта"
   }
 ]
