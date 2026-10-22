@@ -1,5 +1,13 @@
 # IT-business-partner.ru — Project Context
 
+## Текущая итерация: качество дизайна sy3.ru
+
+Result: подготовлена тема 1.2.0: увеличен текст, перестроена главная с четырьмя выбранными проектами и прямым обращением в Telegram, создана серия из 12 редакционных изображений, заменена обложка первого CRM-кейса, добавлен свежий публичный скриншот Маткласса и отдельные обложки 10 статей. Каталог 25 кейсов и тексты материалов сохранены. Подробности и промпты: `wordpress/docs/DESIGN.md`.
+
+Current state: проверен локальный WordPress на 320/390/768/1440 px; 11 браузерных сценариев без переполнения, сломанных изображений и JS/HTTP ошибок. Подготовлен ограниченный updater с общей предварительной проверкой хешей и защитой редакторских правок. Личный сайт отложен по указанию владельца; изменения предназначены только для sy3.ru. Пользователь ранее разрешил публикацию после независимого ревью и проверок; бэкапы прямо отменены.
+
+Next action: независимое ревью exact head, routine merge, доставка только темы и 15 целевых записей sy3.ru, один live smoke. Проектные locks удерживает текущая задача. Временные браузерные файлы и тестовые скриншоты — `/root/preview/sy3-wordpress-20261022/private/redesign-*`; удалить после проверки под storage lock, срок 23.10.2026 18:00 МСК. Результаты проверок и исходные сайты сохранять.
+
 ## WordPress: sy3.ru и личный сайт — опубликовано 2026-10-22
 
 Result: sy3.ru and it-business-partner.ru now use separate WordPress 7.1.3 installations with MariaDB and Russian dashboards. Main site: 3 services, 10 journal articles, 25 AFFiNE Share cases and 23 native covers. Personal site: author/approach, four selected works on home, links to all 25 cases. Existing portfolio and blog routes have explicit redirects to matching current material. Source PR #1 merged as `532ea91c5b03d527eb98d6c1012d22207a62a82d`; independent reviewer passed exact head `bde81d80807c99446d6a11a4c70cef584f1efb47`. No paid API, DNS, mail or Telegram changes.

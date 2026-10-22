@@ -57,7 +57,7 @@ function sy3_import_cover(int $post_id, array $cover): void {
     else {
         $upload = wp_upload_bits($file, null, file_get_contents($source));
         if ($upload['error']) WP_CLI::error($upload['error']);
-        $attachment = wp_insert_attachment(['post_mime_type' => 'image/webp', 'post_title' => $cover['alt'], 'post_status' => 'inherit'], $upload['file'], $post_id, true);
+        $attachment = wp_insert_attachment(['post_mime_type' => 'image/webp', 'post_title' => $cover['alt'], 'post_excerpt' => $cover['caption'] ?? '', 'post_status' => 'inherit'], $upload['file'], $post_id, true);
         if (is_wp_error($attachment)) WP_CLI::error($attachment->get_error_message());
         wp_update_attachment_metadata($attachment, wp_generate_attachment_metadata($attachment, $upload['file']));
         update_post_meta($attachment, '_sy3_media_hash', $cover['sha256']);
@@ -90,6 +90,7 @@ if (!$personal) {
             update_post_meta($id, '_sy3_label', $item['label'] ?? $item['category'] ?? 'Разбор');
             update_post_meta($id, '_sy3_art', $item['art']);
             update_post_meta($id, '_sy3_description', $item['excerpt']);
+            if (isset($item['proof'])) update_post_meta($id, '_sy3_proof', $item['proof']);
             if (!empty($item['cover'])) sy3_import_cover($id, $item['cover']);
             if (!empty($item['affineDocId'])) update_post_meta($id, '_sy3_affine_doc', sanitize_text_field($item['affineDocId']));
             if ($type === 'sy3_case') {

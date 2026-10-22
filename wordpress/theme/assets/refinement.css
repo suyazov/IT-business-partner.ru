@@ -1,0 +1,174 @@
+/* Main business site only. Personal site keeps its independently published design. */
+body.brand-sy3 { --paper:#faf9f6; --ink:#19212c; --muted:#535e6b; --line:#d9dcd9; --accent:#b6ccff; --dark:#070f20; font-size:20px; }
+.brand-sy3 .wrap,.brand-sy3 .section-inner { width:min(1320px,calc(100% - 96px)); }
+.brand-sy3 .site-header { height:100px; }
+.brand-sy3 .brand small { font-size:11px; letter-spacing:.03em; }
+.brand-sy3 .site-header nav a { font-size:16px; }
+.brand-sy3 .button,.brand-sy3 .wp-block-button__link { font-size:17px; min-height:60px; padding:18px 27px; }
+.brand-sy3 .header-cta { font-size:16px; min-height:50px; }
+.brand-sy3 .eyebrow { font-size:13px; letter-spacing:.1em; font-weight:600; }
+.brand-sy3 h2 { font-size:clamp(42px,5vw,72px); letter-spacing:-.055em; }
+.brand-sy3 .section { padding-block:104px; }
+.brand-sy3 .section-intro { font-size:20px; max-width:720px; }
+.brand-sy3 .text-link { font-size:17px; gap:16px; }
+.brand-sy3 .hero-redesign { padding-top:60px; background:#070f20; }
+.brand-sy3 .hero-columns { grid-template-columns:1.25fr 1fr; min-height:635px; align-items:center; }
+.brand-sy3 .hero h1 { font-size:clamp(58px,6.1vw,88px); white-space:normal; line-height:1.06; letter-spacing:-.065em; margin-bottom:30px; }
+.brand-sy3 .hero h1 em { color:#b6ccff; }
+.brand-sy3 .hero .eyebrow { font-size:13px; color:#cad5e6; margin-bottom:30px; }
+.brand-sy3 .hero .hero-intro { font-size:20px; max-width:580px; line-height:1.6; color:#c1cad7; }
+.brand-sy3 .hero .hero-note { font-size:14px; color:#aebbd0; max-width:490px; line-height:1.6; }
+.brand-sy3 .hero .wp-block-buttons { gap:12px; margin-bottom:24px; }
+.brand-sy3 .hero-art { margin:0 -40px 0 -15px; }
+.brand-sy3 .hero-art img { width:100%; height:480px; object-fit:cover; border-radius:160px 16px 160px 16px; }
+.brand-sy3 .hero-art-caption { font-size:14px; letter-spacing:.08em; color:#ced8eb; text-align:center; margin:24px 0; }
+.brand-sy3 .hero-art-caption span { color:#7499ff; padding:0 12px; }
+.brand-sy3 .trust-strip { margin-top:40px; padding-block:28px; gap:25px; font-size:14px; color:#aebbd0; }
+.brand-sy3 .trust-strip strong { font-size:16px; color:#eff3fb; }
+.brand-sy3 .trust-strip .bitrix { font-size:25px; color:#b6ccff; }
+.brand-sy3 .sy3_service .card-copy { grid-template-columns:.65fr 1.25fr 1fr 40px; gap:32px; padding-block:38px; }
+.brand-sy3 .sy3_service h3 { font-size:38px; }
+.brand-sy3 .sy3_service .eyebrow { font-size:12px; }
+.brand-sy3 .entry-card p:not(.eyebrow) { font-size:18px; line-height:1.6; }
+.brand-sy3 .entry-card .eyebrow { font-size:12px; margin-bottom:14px; }
+.brand-sy3 .entry-card h3 { font-size:30px; line-height:1.22; letter-spacing:-.045em; }
+.brand-sy3 .work-section { background:#efeee9; border-radius:36px 36px 0 0; }
+.brand-sy3 .cases-grid { gap:58px 36px; }
+.brand-sy3 .card-art { border-radius:14px; }
+.brand-sy3 .portfolio-cover img { background:#eae8e3; }
+.brand-sy3 .curated-cases .card-art img { aspect-ratio:3/2; object-fit:contain; }
+.brand-sy3 .curated-cases .card-copy { padding-top:26px; }
+.brand-sy3 .case-proof { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 20px; }
+.brand-sy3 .case-proof span { font-size:14px; border:1px solid #c9cdc9; border-radius:24px; padding:7px 12px; }
+.brand-sy3 .section-dark { background:#142649; }
+.brand-sy3 .section-dark .eyebrow,.brand-sy3 .section-dark .section-intro { color:#c4cee1; }
+.brand-sy3 .process-grid { gap:28px !important; }
+.brand-sy3 .process-grid h3 { font-size:28px; }
+.brand-sy3 .process-grid p { font-size:17px; line-height:1.65; color:#cad3e4; }
+.brand-sy3 .process-grid .step-number { font-size:13px; color:#acc7ff; }
+.brand-sy3 .author-grid { grid-template-columns:1fr 1.1fr; gap:80px !important; }
+.brand-sy3 .author-grid .wp-block-column > p:not(.eyebrow) { font-size:20px; }
+.brand-sy3 .author-grid .author-statement { font-size:clamp(45px,5vw,70px) !important; line-height:1.06; letter-spacing:-.06em; color:#264caa !important; }
+.brand-sy3 .author-name { padding-top:26px; border-top:1px solid #cbd1dd; color:var(--ink) !important; }
+.brand-sy3 .author-name span { font-size:16px; color:var(--muted); }
+.brand-sy3 .author-signature { font-size:16px !important; }
+.brand-sy3 .journal-section { background:#eceff4; }
+.brand-sy3 .post .card-art img { aspect-ratio:3/2; object-fit:cover; }
+.brand-sy3 .post .card-copy { padding-top:24px; }
+.brand-sy3 .post h3 { font-size:28px; }
+.brand-sy3 .post .text-link { padding-top:15px; }
+.brand-sy3 .wp-block-details { padding-block:28px; }
+.brand-sy3 .wp-block-details summary { font-size:25px; }
+.brand-sy3 .wp-block-details p { font-size:19px; line-height:1.7; }
+.brand-sy3 .contact-section { background:#dce6fc; }
+.brand-sy3 .cta-panel { border:0; padding:0; gap:70px !important; }
+.brand-sy3 .cta-panel h2 { font-size:clamp(54px,7.2vw,100px); }
+.brand-sy3 .cta-panel p { font-size:20px; }
+.brand-sy3 .cta-panel .wp-block-button__link { background:#244fc4; border-color:#244fc4; color:white; }
+.brand-sy3 .cta-panel .wp-block-button__link:hover { background:#183b9a; }
+.brand-sy3 .contact-alternative { margin-top:24px; margin-bottom:0; }
+.brand-sy3 .footer-top p { font-size:17px; color:#b1bdd0; }
+.brand-sy3 .footer-top .eyebrow { font-size:13px; }
+.brand-sy3 .footer-bottom { font-size:13px; color:#b1bdd0; }
+.brand-sy3 .footer-wordmark { font-size:clamp(90px,20vw,270px); }
+.brand-sy3 .page-heading .lead { font-size:23px; }
+.brand-sy3 .page-heading .byline { font-size:15px; }
+.brand-sy3 .topic-links a { font-size:15px; padding:9px 18px; }
+.brand-sy3 .article-body { font-size:20px; line-height:1.8; }
+.brand-sy3 .article-body h2 { font-size:39px; }
+.brand-sy3 .article-body figcaption { font-size:14px; }
+.brand-sy3 .article-aside { border-radius:14px; background:#e6ebf5; }
+.brand-sy3 .article-aside p { font-size:16px; }
+.brand-sy3 .article-aside .button { font-size:16px; }
+.brand-sy3 .aside-author span { font-size:14px; }
+.brand-sy3 .case-cover img { border-radius:14px; }
+.brand-sy3 .search-form input { font-size:18px; }
+.brand-sy3 .contact-grid .wp-block-button__link { font-size:17px; }
+.brand-sy3 .journal-archive { grid-template-columns:repeat(2,minmax(0,1fr)); gap:54px 36px; }
+.brand-sy3 .journal-archive .post:first-child { grid-column:1/-1; display:grid; grid-template-columns:1.2fr 1fr; gap:42px; align-items:center; padding-bottom:40px; border-bottom:1px solid var(--line); }
+.brand-sy3 .journal-archive .post:first-child h3 { font-size:42px; }
+.brand-sy3 .journal-archive .post:first-child .card-copy { padding:0; }
+@media(max-width:1100px) {
+ .brand-sy3 .hero-columns { grid-template-columns:1.25fr 1fr; }
+ .brand-sy3 .hero h1 { font-size:6.3vw; }
+ .brand-sy3 .hero-art img { height:420px; border-radius:100px 14px; }
+ .brand-sy3 .hero .hero-intro { font-size:18px; }
+ .brand-sy3 .header-inner { gap:20px; }
+ .brand-sy3 .site-header nav ul { gap:20px; }
+ .brand-sy3 .header-cta { font-size:14px; }
+ .brand-sy3 .sy3_service .card-copy { grid-template-columns:1.3fr 1fr 30px; }
+ .brand-sy3 .sy3_service .eyebrow { grid-column:1/-1; margin:0; }
+ .brand-sy3 .author-grid { gap:40px !important; }
+}
+@media(max-width:850px) {
+ .brand-sy3 .wrap,.brand-sy3 .section-inner { width:calc(100% - 48px); }
+ .brand-sy3 .site-header { height:84px; }
+ .brand-sy3 .menu-toggle { font-size:16px; }
+ .brand-sy3 .hero-columns { grid-template-columns:1fr; }
+ .brand-sy3 .hero h1 { font-size:clamp(48px,8.5vw,74px); }
+ .brand-sy3 .hero-art { margin:20px 0 0; }
+ .brand-sy3 .hero-art img { height:auto; aspect-ratio:2/1; object-fit:cover; border-radius:18px; }
+ .brand-sy3 .hero .hero-intro { max-width:650px; }
+ .brand-sy3 .hero-art-caption { margin:14px 0 24px; }
+ .brand-sy3 .trust-strip { margin-top:8px; }
+ .brand-sy3 .section { padding-block:72px; }
+ .brand-sy3 .process-grid { grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
+ .brand-sy3 .journal-archive .post:first-child { gap:24px; }
+ .brand-sy3 .journal-archive .post:first-child h3 { font-size:32px; }
+ .brand-sy3 .card-grid > .post:last-child { grid-column:auto; }
+ .brand-sy3 .card-grid > .post:last-child .card-art img { aspect-ratio:3/2; }
+}
+@media(max-width:620px) {
+ body.brand-sy3 { font-size:18px; }
+ .brand-sy3 .wrap,.brand-sy3 .section-inner { width:calc(100% - 40px); }
+ .brand-sy3 .site-header { height:78px; }
+ .brand-sy3 .brand small { font-size:9px; }
+ .brand-sy3 .hero-redesign { padding-top:38px; }
+ .brand-sy3 .hero h1 { font-size:clamp(38px,10.2vw,62px); line-height:1.12; letter-spacing:-.055em; }
+ .brand-sy3 .hero .eyebrow { font-size:12px; margin-bottom:26px; }
+ .brand-sy3 .hero .hero-intro { font-size:18px; line-height:1.65; }
+ .brand-sy3 .hero .hero-note { font-size:14px; }
+ .brand-sy3 .hero .wp-block-buttons { flex-direction:column; align-items:stretch; gap:8px; }
+ .brand-sy3 .hero .wp-block-button__link { display:flex; font-size:17px; }
+ .brand-sy3 .hero-art img { aspect-ratio:3/2; }
+ .brand-sy3 .hero-art-caption { font-size:11px; letter-spacing:.04em; }
+ .brand-sy3 .hero-art-caption span { padding:0 7px; }
+ .brand-sy3 .trust-strip { gap:24px 16px; font-size:13px; }
+ .brand-sy3 .trust-strip strong { font-size:15px; }
+ .brand-sy3 .trust-strip .bitrix { font-size:23px; }
+ .brand-sy3 .section { padding-block:60px; }
+ .brand-sy3 h2,.brand-sy3 .section-heading h2 { font-size:39px; line-height:1.12; }
+ .brand-sy3 .section-heading { gap:22px; }
+ .brand-sy3 .section-intro { font-size:18px; }
+ .brand-sy3 .eyebrow { font-size:12px; }
+ .brand-sy3 .sy3_service .card-copy { grid-template-columns:1fr 28px; gap:18px; padding-block:30px; }
+ .brand-sy3 .sy3_service h3 { font-size:32px; }
+ .brand-sy3 .sy3_service p:not(.eyebrow) { grid-column:1/-1; font-size:18px; }
+ .brand-sy3 .work-section { border-radius:22px 22px 0 0; }
+ .brand-sy3 .cases-grid { gap:40px; }
+ .brand-sy3 .entry-card h3 { font-size:29px; }
+ .brand-sy3 .process-grid { grid-template-columns:1fr !important; gap:30px !important; }
+ .brand-sy3 .process-grid .step-number { margin-bottom:18px; }
+ .brand-sy3 .process-grid h3 { font-size:29px; }
+ .brand-sy3 .process-grid p { font-size:18px; }
+ .brand-sy3 .author-grid { gap:35px !important; }
+ .brand-sy3 .author-grid .wp-block-column > p:not(.eyebrow) { font-size:18px; }
+ .brand-sy3 .author-grid .author-statement { font-size:49px !important; }
+ .brand-sy3 .journal-archive { grid-template-columns:1fr; gap:40px; }
+ .brand-sy3 .journal-archive .post:first-child { display:flex; gap:0; padding-bottom:0; border:0; }
+ .brand-sy3 .journal-archive .post:first-child .card-copy { padding-top:24px; }
+ .brand-sy3 .journal-archive .post:first-child h3 { font-size:29px; }
+ .brand-sy3 .wp-block-details summary { font-size:22px; }
+ .brand-sy3 .wp-block-details p { font-size:18px; }
+ .brand-sy3 .cta-panel { gap:28px !important; }
+ .brand-sy3 .cta-panel h2 { font-size:53px; }
+ .brand-sy3 .cta-panel p { font-size:18px; }
+ .brand-sy3 .page-heading h1 { font-size:40px; line-height:1.12; }
+ .brand-sy3 .page-heading .lead { font-size:19px; }
+ .brand-sy3 .topic-links a { font-size:14px; }
+ .brand-sy3 .article-body { font-size:18px; }
+ .brand-sy3 .article-body h2 { font-size:30px; }
+ .brand-sy3 .article-aside p { font-size:18px; }
+ .brand-sy3 .footer-top p { font-size:16px; }
+ .brand-sy3 .footer-bottom { font-size:13px; }
+}

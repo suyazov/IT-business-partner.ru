@@ -6,3 +6,8 @@
 .editor-styles-wrapper .hero em {font-style:normal;color:#a4e8f5;}
 .editor-styles-wrapper .section-dark {background:#0a1015;color:#edf4f7;padding:32px;}
 .editor-styles-wrapper .callout {padding:24px;background:#e3edf1;}
+.editor-styles-wrapper .hero-redesign {background:#070f20;}
+.editor-styles-wrapper .hero-redesign .hero-intro {font-size:20px;line-height:1.6;}
+.editor-styles-wrapper .hero-redesign .hero-note {font-size:14px;}
+.editor-styles-wrapper .hero-art img {max-height:480px;object-fit:contain;}
+.editor-styles-wrapper .author-statement {font-size:56px;line-height:1.1;color:#264caa;}

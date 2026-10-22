@@ -15,8 +15,20 @@ add_action('after_setup_theme', function () {
 
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('sy3-site', get_theme_file_uri('assets/design.css'), [], wp_get_theme()->get('Version'));
+    if (!sy3_personal()) wp_enqueue_style('sy3-refinement', get_theme_file_uri('assets/refinement.css'), ['sy3-site'], wp_get_theme()->get('Version'));
     wp_enqueue_script('sy3-site', get_theme_file_uri('assets/site.js'), [], wp_get_theme()->get('Version'), true);
-    if (is_front_page()) wp_enqueue_script('sy3-core', get_theme_file_uri('assets/core-visual.js'), [], wp_get_theme()->get('Version'), true);
+    if (is_front_page() && sy3_personal()) wp_enqueue_script('sy3-core', get_theme_file_uri('assets/core-visual.js'), [], wp_get_theme()->get('Version'), true);
+});
+
+add_shortcode('sy3_featured_cases', function (): string {
+    ob_start();
+    echo '<div class="card-grid cases-grid curated-cases">';
+    foreach (['bitrix24-doors', 'matklass', 'glosscheck', 'libertygas'] as $slug) {
+        $item = get_page_by_path($slug, OBJECT, 'sy3_case');
+        if ($item && $item->post_status === 'publish') sy3_post_card($item);
+    }
+    echo '</div>';
+    return ob_get_clean();
 });
 
 add_shortcode('sy3_visual', function ($attributes): string {
@@ -40,7 +52,7 @@ function sy3_main_url(string $path = ''): string {
     return sy3_personal() ? rtrim(get_option('sy3_main_url', 'https://sy3.ru'), '/') . '/' . ltrim($path, '/') : home_url('/' . ltrim($path, '/'));
 }
 function sy3_label(): string { return sy3_personal() ? 'Артём Суязов' : 'сутри'; }
-function sy3_contact_url(): string { return home_url('/contacts/'); }
+function sy3_contact_url(): string { return sy3_personal() ? home_url('/contacts/') : 'https://t.me/moi_imperator'; }
 
 function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';
@@ -54,6 +66,7 @@ function sy3_post_card(WP_Post $item): void {
         <div class="card-copy"><p class="eyebrow"><?php echo esc_html($topic); ?></p>
         <h3><a href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo esc_html(get_the_title($item)); ?></a></h3>
         <p><?php echo esc_html(get_the_excerpt($item)); ?></p>
+        <?php $proof = get_post_meta($item->ID, '_sy3_proof', true); if (is_array($proof) && $proof): ?><div class="case-proof"><?php foreach ($proof as $fact): ?><span><?php echo esc_html($fact); ?></span><?php endforeach; ?></div><?php endif; ?>
         <a class="text-link" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo $item->post_type === 'sy3_case' ? 'Читать кейс' : 'Подробнее'; ?> <span aria-hidden="true">↗</span></a></div>
     </article>
     <?php
