@@ -1,12 +1,20 @@
 # IT-business-partner.ru — Project Context
 
+## Вёрстка карточки и подключение аналитики — 23 октября 2026
+
+Result: исправлен подтверждённый live-дефект боковой карточки в статьях/кейсах/услугах. Общий h2 растягивал заголовок до 73,44 px при ширине колонки 300 px; теперь карточка имеет собственный размер 28–32 px, безопасный перенос и несжимаемый портрет. Theme version 1.4.1 обновляет CSS cache key. Второй сайт не меняется.
+
+Current state: preview smoke 23 сочетания семи страниц и ширин 320/390/768/1024/1440 прошёл без выхода текста за viewport/карточку, JS/HTTP ошибок. Скриншот карточки просмотрен. Подготовлен `sy3-measurement.php`: Настройки → Аналитика и поиск SY3, три валидируемых поля, production-only метатеги и async Метрика без Webvisor/чтения полей форм. Пустые значения ничего не подключают. Доступов/номеров в access map не было; Incan подтверждён владельцем как логин Яндекса. В серверном браузере оба кабинета потребовали вход, владелец выбрал авторизовать их сам. Номера и подтверждения прав пока не получены; фактического подключения аналитики ещё нет.
+
+Next action: независимый review exact head и публикация scoped CSS/plugin; после входа владельца выбрать/создать счётчик только для sy3.ru, установить выданные verification tokens, подтвердить URL-prefix в обоих кабинетах и добавить sitemap. DNS/боевые bot runtimes/новые systemd unit/редакционное расписание не входят в этот этап. Новых backups нет. Evidence `private/layout-preview-checks.json`; описание `wordpress/docs/MEASUREMENT.md`.
+
 ## Защищённая форма и уведомления SY3 Support
 
 Result: подготовлена форма sy3.ru с honeypot по эталону LEMESH PRO, HMAC/nonce, атомарным replay, фиксированным лимитом 5/10 минут и закрытой файловой очередью. Заявка сохраняется до доставки; новый root-only отправитель использует существующих ботов Telegram/MAX и фиксированных личных получателей без выдачи их токенов WordPress. Есть крупная адаптивная форма, отдельный no-JS путь, согласие/обновлённая privacy и закрытый раздел заявок. Production пока не менялся, реальных отправок не было.
 
 Current state: preview 1440/390/320, главная/контакты/услуга без overflow/JS/HTTP ошибок; honeypot исключён из фокуса и a11y. Native HTTP проверил ошибочный контакт и исправление с тем же токеном, CRLF-нормализацию, повтор, чужой Origin и honeypot `0`. Два одновременных PHP процесса сохранили одну заявку/одну квоту; последующий replay вернул прежний номер. PHP integration: 19 сценариев PASS, fixtures очищены, HTTP/mail ноль; Python dispatcher: 39 offline тестов PASS, включая partial delivery/429/crash/unknown response/locks/TLS/ограничения входа. Review исправил CRLF/DEL/URL boundary, guards privacy title/excerpt, неограниченные token-lock файлы и fsync каталога. Подготовленные systemd units проходят verify. Детали `wordpress/docs/LEADS.md`; evidence `private/leads-{preview-browser,native-http,concurrency}-checks.json`, `leads-php-integration-checks.txt`, `lead-routing-audit.json`.
 
-Next action: независимое review exact head, затем точное разрешение на новый sender, приватную очередь/config и `sy3-leads.service/.timer`; после него — публикация формы/privacy и один явно тестовый lead владельцу с подтверждением двух каналов. Существующие bot runtimes/SQLite, все 311 статей и редакционный таймер не входят в изменения. Новых backups нет. Preview/QA снова нужны для проверки формы; исходный контрольный срок временных файлов 23.10.2026 18:00 МСК сохраняется.
+Next action: независимый review PASS exact `72309d4a`, PR #22 merged. Ожидается точное разрешение на новый sender, приватную очередь/config и `sy3-leads.service/.timer`; после него — публикация формы/privacy и один явно тестовый lead владельцу с подтверждением двух каналов. Существующие bot runtimes/SQLite, все 311 статей и редакционный таймер не входят в изменения. Новых backups нет. Preview/QA сохранены для canary; исходный контрольный срок временных файлов 23.10.2026 18:00 МСК сохраняется.
 
 ## Основной корпус и серия Beget
 
