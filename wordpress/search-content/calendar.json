@@ -48,6 +48,38 @@
     "cluster": "Интернет-магазины"
   },
   {
+    "id": 191,
+    "title": "Онлайн-запись: как технически проверить одновременное бронирование одного ресурса",
+    "slug": "proverka-odnovremennogo-bronirovaniya",
+    "series": "search",
+    "publish_msk": "2026-10-29 10:00:00",
+    "cluster": "Онлайн-запись"
+  },
+  {
+    "id": 193,
+    "title": "ИИ-помощник по базе знаний: подготовка источников, поиск и ответы со ссылками",
+    "slug": "ii-pomoshchnik-po-baze-znaniy",
+    "series": "search",
+    "publish_msk": "2026-10-30 10:00:00",
+    "cluster": "ИИ и база знаний"
+  },
+  {
+    "id": 198,
+    "title": "Личный кабинет клиента: требования, роли и сценарии приёмки",
+    "slug": "lichnyy-kabinet-klienta-trebovaniya",
+    "series": "search",
+    "publish_msk": "2026-10-31 10:00:00",
+    "cluster": "Веб-сервисы"
+  },
+  {
+    "id": 200,
+    "title": "Предпроектное обследование автоматизации: материалы, встречи и ожидаемый результат",
+    "slug": "predproektnoe-obsledovanie-avtomatizatsii",
+    "series": "search",
+    "publish_msk": "2026-11-01 10:00:00",
+    "cluster": "Управление IT"
+  },
+  {
     "id": 103,
     "title": "Sitemap WordPress: как найти карту сайта и проверить её состав",
     "slug": "sitemap-wordpress-proverka",
@@ -86,6 +118,46 @@
     "series": "search",
     "publish_msk": "2026-11-06 10:00:00",
     "cluster": "Интеграции"
+  },
+  {
+    "id": 189,
+    "title": "Обязательные поля WooCommerce: как сократить checkout и сохранить нужные данные",
+    "slug": "polya-checkout-woocommerce",
+    "series": "search",
+    "publish_msk": "2026-11-07 10:00:00",
+    "cluster": "Интернет-магазины"
+  },
+  {
+    "id": 192,
+    "title": "Часовые пояса в онлайн-записи: как хранить время и проверять отображение",
+    "slug": "chasovye-poyasa-onlayn-zapis",
+    "series": "search",
+    "publish_msk": "2026-11-08 10:00:00",
+    "cluster": "Онлайн-запись"
+  },
+  {
+    "id": 194,
+    "title": "Как проверить ошибки ИИ-помощника: контрольные вопросы и разбор ответов",
+    "slug": "proverka-oshibok-ii-pomoshchnika",
+    "series": "search",
+    "publish_msk": "2026-11-09 10:00:00",
+    "cluster": "ИИ и база знаний"
+  },
+  {
+    "id": 199,
+    "title": "Веб-сервис или мобильное приложение: как выбрать формат для бизнес-задачи",
+    "slug": "veb-servis-ili-mobilnoe-prilozhenie",
+    "series": "search",
+    "publish_msk": "2026-11-10 10:00:00",
+    "cluster": "Веб-сервисы"
+  },
+  {
+    "id": 201,
+    "title": "SLA поддержки сайта: как согласовать реакцию, восстановление и рабочее время",
+    "slug": "sla-podderzhki-sayta",
+    "series": "search",
+    "publish_msk": "2026-11-11 10:00:00",
+    "cluster": "Управление IT"
   },
   {
     "id": 104,
@@ -128,6 +200,22 @@
     "cluster": "Интеграции"
   },
   {
+    "id": 190,
+    "title": "WooCommerce неправильно показывает доставку: зоны, порядок и данные адреса",
+    "slug": "woocommerce-nepravilnaya-dostavka",
+    "series": "search",
+    "publish_msk": "2026-11-17 10:00:00",
+    "cluster": "Интернет-магазины"
+  },
+  {
+    "id": 195,
+    "title": "Какие данные давать ИИ-помощнику: минимизация, права и журналирование",
+    "slug": "kakie-dannye-davat-ii",
+    "series": "search",
+    "publish_msk": "2026-11-18 10:00:00",
+    "cluster": "ИИ и база знаний"
+  },
+  {
     "id": 105,
     "title": "Noindex: как исключить страницу из поиска и не заблокировать нужные материалы",
     "slug": "noindex-proverka-stranicy",
@@ -168,6 +256,14 @@
     "cluster": "Интеграции"
   },
   {
+    "id": 196,
+    "title": "Стоимость ИИ-сценария: как учитывать вход, ответ, инструменты и повторные попытки",
+    "slug": "stoimost-ii-stsenariya",
+    "series": "search",
+    "publish_msk": "2026-11-24 10:00:00",
+    "cluster": "ИИ и база знаний"
+  },
+  {
     "id": 106,
     "title": "Canonical: как указать основной адрес и не скрыть различия между страницами",
     "slug": "canonical-kak-proverit",
@@ -198,6 +294,14 @@
     "series": "search",
     "publish_msk": "2026-11-28 10:00:00",
     "cluster": "Бизнес-процессы"
+  },
+  {
+    "id": 197,
+    "title": "Актуальность базы знаний: как назначить владельцев и организовать пересмотр",
+    "slug": "aktualnost-bazy-znaniy-kompanii",
+    "series": "search",
+    "publish_msk": "2026-11-29 10:00:00",
+    "cluster": "ИИ и база знаний"
   },
   {
     "id": 107,
@@ -694,5 +798,13 @@
     "series": "search",
     "publish_msk": "2027-01-30 10:00:00",
     "cluster": "Поддержка сайта"
+  },
+  {
+    "id": 101,
+    "title": "Как связать сайт, CRM и бизнес-процессы: план комплексной автоматизации",
+    "slug": "kompleksnaya-avtomatizaciya-biznesa-plan",
+    "series": "expertise",
+    "publish_msk": "2027-08-21 10:00:00",
+    "cluster": "Стратегия автоматизации"
   }
 ]
