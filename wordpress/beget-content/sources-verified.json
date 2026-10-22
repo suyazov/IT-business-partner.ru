@@ -1,0 +1,534 @@
+{
+  "ai": {
+    "title": "ИИ-шлюз (AI Gateway)",
+    "url": "https://beget.com/ru/kb/manual/ai-gateway",
+    "verified_at": "2026-10-22T20:44:58.283488+00:00",
+    "http_status": 200,
+    "html_sha256": "00c31fe2ae8030cd23f9a750d7c8f002889c51f5f62cf5978671207217b6a939"
+  },
+  "ai-product": {
+    "title": "ИИ-Шлюз",
+    "url": "https://beget.com/ru/cloud/ai-gateway",
+    "verified_at": "2026-10-22T20:44:58.114386+00:00",
+    "http_status": 200,
+    "html_sha256": "e7b87d9ab2a3720331b58a895d7ea7ea0031a0cfcc8031b49f0101eba736ef9b"
+  },
+  "sites": {
+    "title": "Сайты",
+    "url": "https://beget.com/ru/kb/manual/sajty",
+    "verified_at": "2026-10-22T20:44:58.062829+00:00",
+    "http_status": 200,
+    "html_sha256": "c5d08e0da12a0765a6079f27462d21df88b10066d785e6abe0de151ae0e65efb"
+  },
+  "hosting": {
+    "title": "Ограничения хостинга",
+    "url": "https://beget.com/ru/kb/faq/hosting/ogranicheniya-hostinga",
+    "verified_at": "2026-10-22T20:44:58.075275+00:00",
+    "http_status": 200,
+    "html_sha256": "55eea61cc668b9276319899c0427db02680eb92a57e759649e67d0b3319aff5e"
+  },
+  "migration": {
+    "title": "Как перенести к нам сайт от другого хостинг-провайдера",
+    "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera",
+    "verified_at": "2026-10-22T20:44:57.844623+00:00",
+    "http_status": 200,
+    "html_sha256": "c28c71565065d289cd32809d021e55d7aeb57e49482bda8c1a44afab9f16bb06"
+  },
+  "php": {
+    "title": "Компиляция и настройка PHP-расширений на хостинге Beget",
+    "url": "https://beget.com/ru/kb/how-to/web-apps/php",
+    "verified_at": "2026-10-22T20:44:57.896237+00:00",
+    "http_status": 200,
+    "html_sha256": "fab6933348c615f33f15ae19da9c373d899a90ce900f2e182aba8ec499e4d6d2"
+  },
+  "php-session": {
+    "title": "Блокировка сессии в PHP",
+    "url": "https://beget.com/ru/kb/how-to/other/blokirovka-php-sessij",
+    "verified_at": "2026-10-22T20:44:58.393401+00:00",
+    "http_status": 200,
+    "html_sha256": "c7d0724a454281e4aebba8fa86fd8a3b3819505c8156e0f9e63f202f6a65b75d"
+  },
+  "cms": {
+    "title": "Автоматическая установка CMS",
+    "url": "https://beget.com/ru/kb/faq/hosting/avtomaticheskaya-ustanovka-cms",
+    "verified_at": "2026-10-22T20:44:58.353003+00:00",
+    "http_status": 200,
+    "html_sha256": "94c52196625baf1af869b7e52d20ded8c21dfa42f8565ecc4303a018b614334e"
+  },
+  "backup": {
+    "title": "Резервное копирование (BackUp)",
+    "url": "https://beget.com/ru/kb/manual/backup",
+    "verified_at": "2026-10-22T20:44:58.496684+00:00",
+    "http_status": 200,
+    "html_sha256": "2c855ab9720a9640d244ede73949edbc0293f4d57847ec1740f6610abd59c1e9"
+  },
+  "vps-backup": {
+    "title": "Резервное копирование VPS",
+    "url": "https://beget.com/ru/kb/manual/rezervnoe-kopirovanie-vps",
+    "verified_at": "2026-10-22T20:44:58.970823+00:00",
+    "http_status": 200,
+    "html_sha256": "025eede4c9085dc208783e9e4dbef73925a66fb00a744ce74d79eab16b4f9bc2"
+  },
+  "snapshot": {
+    "title": "Что такое снапшоты и в чем их отличие от бэкапов",
+    "url": "https://beget.com/ru/kb/how-to/other/backup-i-snapshot-v-chyom-raznica",
+    "verified_at": "2026-10-22T20:44:58.746065+00:00",
+    "http_status": 200,
+    "html_sha256": "ba122f4f1c8dbe364938995d5fbb16ff47444bb6a5a7f1e45622b353cbf2a2ac"
+  },
+  "dns": {
+    "title": "DNS-записи",
+    "url": "https://beget.com/ru/kb/manual/dns",
+    "verified_at": "2026-10-22T20:44:58.705936+00:00",
+    "http_status": 200,
+    "html_sha256": "4ee16ef58dd4a0737bf6a43dfb7e749c05298ee595e00876f714cd7e989a4969"
+  },
+  "domains": {
+    "title": "Домены и поддомены",
+    "url": "https://beget.com/ru/kb/manual/domeny-i-poddomeny",
+    "verified_at": "2026-10-22T20:44:58.926473+00:00",
+    "http_status": 200,
+    "html_sha256": "dce1d42f45c59a85ecc87d8ba6fb26631d39bd4a46317014a74552e8bfb815ec"
+  },
+  "renewal": {
+    "title": "Как продлить доменное имя сайта",
+    "url": "https://beget.com/ru/kb/how-to/domains/kak-prodlit-domennoe-imya-cherez-beget",
+    "verified_at": "2026-10-22T20:44:58.887963+00:00",
+    "http_status": 200,
+    "html_sha256": "3908119242e7a29f91ed06e58ad5e22ce39f755bbe7f053c3ae282b6b6994e60"
+  },
+  "mail": {
+    "title": "Почта",
+    "url": "https://beget.com/ru/kb/manual/pochta",
+    "verified_at": "2026-10-22T20:44:59.271792+00:00",
+    "http_status": 200,
+    "html_sha256": "6862689a78cbf204b2857140524396021da9188fe90c8ed7edf32571bd61c323"
+  },
+  "dkim": {
+    "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+    "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim",
+    "verified_at": "2026-10-22T20:44:59.120415+00:00",
+    "http_status": 200,
+    "html_sha256": "d7c52711c0085de9dcd2e01e3879be6bf8ef5ab24176fe8e0956264f92eb89b7"
+  },
+  "mail-errors": {
+    "title": "Ошибки при подключении к почтовым серверам",
+    "url": "https://beget.com/ru/kb/how-to/mail/reshenie-problem",
+    "verified_at": "2026-10-22T20:44:59.501016+00:00",
+    "http_status": 200,
+    "html_sha256": "bcc0e9c7300efb8a04355140bb6e051583d6f53a6baf373513678a9442bfa329"
+  },
+  "mail-forward": {
+    "title": "Forward (перенаправление почты)",
+    "url": "https://beget.com/ru/kb/faq/mail/forward-perenapravlenie-pochty",
+    "verified_at": "2026-10-22T20:45:00.040010+00:00",
+    "http_status": 200,
+    "html_sha256": "0d0d794da0b67f34fe01197572e5ed43a4473deb3f4cbc66ec450e2f9dce951c"
+  },
+  "mysql": {
+    "title": "Базы данных MySQL",
+    "url": "https://beget.com/ru/kb/manual/mysql",
+    "verified_at": "2026-10-22T20:44:59.366719+00:00",
+    "http_status": 200,
+    "html_sha256": "a8049bcbf3c5680dd1873f73540b417e7a27661e987bd276fc2e3716412a6c44"
+  },
+  "cloud-mysql": {
+    "title": "Облачные серверы MySQL",
+    "url": "https://beget.com/ru/kb/manual/cloud-server",
+    "verified_at": "2026-10-22T20:44:59.852617+00:00",
+    "http_status": 200,
+    "html_sha256": "317134b8e98ae77fd43e19a892926162baee57e76fd27778b182446bae74cb88"
+  },
+  "pg": {
+    "title": "Облачная база данных PostgreSQL",
+    "url": "https://beget.com/ru/kb/manual/cloud-postgresql",
+    "verified_at": "2026-10-22T20:44:59.572809+00:00",
+    "http_status": 200,
+    "html_sha256": "66db355627725a32a5d795280e7172c12acc44e451fb419851dc5c05fc685493"
+  },
+  "pg-connect": {
+    "title": "Облачный PostgreSQL: Подключение к базе данных",
+    "url": "https://beget.com/ru/kb/faq/cloud/oblachnyj-postgresql-podklyuchenie-k-baze-dannyh",
+    "verified_at": "2026-10-22T20:44:59.658771+00:00",
+    "http_status": 200,
+    "html_sha256": "1ecbad1a8672e07f1b685a81045b0e080f904b95daeb1a38bdaeb625fdddaf6b"
+  },
+  "pg-backup": {
+    "title": "Резервное копирование и восстановление PostgreSQL",
+    "url": "https://beget.com/ru/kb/how-to/rezervnoe-kopirovanie-i-vosstanovlenie-postgresql",
+    "verified_at": "2026-10-22T20:45:00.523619+00:00",
+    "http_status": 200,
+    "html_sha256": "d9a46bc2895e198e33940f377f4bd5925989a74cf833558689574432d4574b73"
+  },
+  "join": {
+    "title": "Принципы работы SQL Join: виды, запросы, примеры",
+    "url": "https://beget.com/ru/kb/how-to/other/sql-join-vidy-zaprosy-primery",
+    "verified_at": "2026-10-22T20:45:00.656726+00:00",
+    "http_status": 200,
+    "html_sha256": "d4e27bcc4fc67e9bd3529327c6c16863eade2fadb39226f1f1f1b93558a7fdd9"
+  },
+  "private-mysql": {
+    "title": "Использование MySQL на отдельном сервере с приватной сетью VPS",
+    "url": "https://beget.com/ru/kb/how-to/vps/mysql-with-private-network",
+    "verified_at": "2026-10-22T20:45:00.693988+00:00",
+    "http_status": 200,
+    "html_sha256": "071f5c05c8619ae7c158437627bdc22a7caeadeb443bb17e2ce08471d69dbad6"
+  },
+  "wp-db": {
+    "title": "Перенос базы данных WordPress с виртуального хостинга в облако",
+    "url": "https://beget.com/ru/kb/how-to/vps/perenos-bazy-dannyh-wordpress-s-virtualnogo-hostinga-v-oblako",
+    "verified_at": "2026-10-22T20:45:00.449655+00:00",
+    "http_status": 200,
+    "html_sha256": "25318ed0f26b3a27da0c1cb01bb0cb230866c1670b52dde5faf81d4e00a726df"
+  },
+  "bitrix-db": {
+    "title": "Миграция базы данных Bitrix с виртуального хостинга в облако",
+    "url": "https://beget.com/ru/kb/how-to/vps/migracziya-bazy-dannyh-bitrix-s-virtualnogo-hostinga-v-oblako",
+    "verified_at": "2026-10-22T20:45:00.967530+00:00",
+    "http_status": 200,
+    "html_sha256": "f719b3d30157d5087ef02ff4db086f1ab926a2066ef73db7088d4924ca0ffa2a"
+  },
+  "s3": {
+    "title": "Объектное хранилище S3: Руководство по панели управления",
+    "url": "https://beget.com/ru/kb/manual/obektnoe-hranilishche-s3-v-beget",
+    "verified_at": "2026-10-22T20:45:00.666228+00:00",
+    "http_status": 200,
+    "html_sha256": "9e63fba86f394e404356fd80aaccd2338413705013e909469c6bc447c2efcea9"
+  },
+  "s3-clients": {
+    "title": "Настройка подключения к S3 при помощи клиентов AWS CLI, S3cmd, Cyberduck, Rclone, Goofys, MinIO Client, SDK и FTP/SFTP",
+    "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-k-obektnomu-hranilishchu-s3-pri-pomoshchi-klientov-aws-cli-s3cmd-cyberduck-sdk",
+    "verified_at": "2026-10-22T20:45:00.594990+00:00",
+    "http_status": 200,
+    "html_sha256": "6b99222f420070eb2a1dc3c93cc5d4244cc10a33c6269d79d8099c6788ab4502"
+  },
+  "s3-wp-media": {
+    "title": "Подключение облачного объектного хранилища (S3) в WordPress и настройка хранения изображений в нем",
+    "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-s3-v-wordpress-i-nastrojka-hraneniya-izobrazhenij-v-nem",
+    "verified_at": "2026-10-22T20:45:00.714763+00:00",
+    "http_status": 200,
+    "html_sha256": "2fbba52c0e8520f438788ad9bb606c48f55de1db4996e365daf87b94274aaf0e"
+  },
+  "s3-wp-backup": {
+    "title": "Интеграция объектного хранилища S3 c WordPress: настройка, создание и восстановление резервной копии",
+    "url": "https://beget.com/ru/kb/faq/cloud/rezervnoe-kopirovanie-wordpress-v-s3-nastrojka-sozdanie-i-vosstanovlenie",
+    "verified_at": "2026-10-22T20:45:00.994750+00:00",
+    "http_status": 200,
+    "html_sha256": "1fd1c9bf515ecc102fd5e729461cabad570eaa7870017355801d98770b20099e"
+  },
+  "s3-bitrix": {
+    "title": "Настройка отдачи изображений из S3 для Битрикса",
+    "url": "https://beget.com/ru/kb/faq/cloud/nastrojka-otdachi-kartinok-iz-s3-dlya-bitriks",
+    "verified_at": "2026-10-22T20:45:01.158028+00:00",
+    "http_status": 200,
+    "html_sha256": "6a4eecdbc38f09a5d67fdef7271988f00396ed28b9cefbed592fe9eb05629f80"
+  },
+  "s3-migration": {
+    "title": "Перенос данных в облачное хранилище S3 Beget из другого объектного хранилища S3",
+    "url": "https://beget.com/ru/kb/faq/cloud/perenos-dannyh-v-oblachnoe-hranilishche-s3-beget",
+    "verified_at": "2026-10-22T20:45:01.370398+00:00",
+    "http_status": 200,
+    "html_sha256": "660029bbd2236abb7cbd21565ba7e9b62c69d6ef61e3f467a901b25977b578d8"
+  },
+  "rclone": {
+    "title": "Подключение бакета S3 как диска в Windows – при помощи утилиты rclone",
+    "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-baketa-kak-diska-v-windows-rclone",
+    "verified_at": "2026-10-22T20:45:01.243219+00:00",
+    "http_status": 200,
+    "html_sha256": "cf22f56f2174e9ca85dfa27566341f9b0ace491f26b2a6df8cbdbbd23ca2ac0f"
+  },
+  "cdn-wp": {
+    "title": "Подключение CDN к WordPress в облаке Beget",
+    "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress",
+    "verified_at": "2026-10-22T20:45:01.738211+00:00",
+    "http_status": 200,
+    "html_sha256": "8e279857b9d9f559861745f6f7adec9fc15d6025aa48472d705616358ad4ea9e"
+  },
+  "cron": {
+    "title": "Настройка CronTab",
+    "url": "https://beget.com/ru/kb/manual/crontab",
+    "verified_at": "2026-10-22T20:45:01.277999+00:00",
+    "http_status": 200,
+    "html_sha256": "6886cc1df1376b9fa90359f6609c8e3790eab7e32c5cdd8680cede923887bd52"
+  },
+  "node": {
+    "title": "Настройка Node.js",
+    "url": "https://beget.com/ru/kb/how-to/web-apps/node-js",
+    "verified_at": "2026-10-22T20:45:01.483449+00:00",
+    "http_status": 200,
+    "html_sha256": "28d2c4de0771975620f6015c347d26511f0b58e6bc0429cb6820f4f30ed1a410"
+  },
+  "python": {
+    "title": "Установка Python",
+    "url": "https://beget.com/ru/kb/how-to/web-apps/python",
+    "verified_at": "2026-10-22T20:45:01.670455+00:00",
+    "http_status": 200,
+    "html_sha256": "7a1795ce84000dbc2d20bfad16556fdb941c7ea148ded0566e798743d9a7c119"
+  },
+  "n8n": {
+    "title": "n8n – Шаблоны и сценарии применения сервиса автоматизации",
+    "url": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya",
+    "verified_at": "2026-10-22T20:45:02.207837+00:00",
+    "http_status": 200,
+    "html_sha256": "05b0d29f417d7871c744d6ec49a3351d737d432b63ad3ab583eb6ceb342238cb"
+  },
+  "redis": {
+    "title": "Настройка и использование Redis",
+    "url": "https://beget.com/ru/kb/how-to/services/ispolzovanie-redis",
+    "verified_at": "2026-10-22T20:45:01.840864+00:00",
+    "http_status": 200,
+    "html_sha256": "7fdf632238cfa59c0972f61d5feb0b869c1c2d7c652f7db8bd3458fdfa14a4a7"
+  },
+  "sentry": {
+    "title": "Sentry: установка и настройка инструмента для поиска и мониторинга ошибок",
+    "url": "https://beget.com/ru/kb/how-to/vps/sentry-ustanovka-i-nastrojka-instrumenta-dlya-monitoringa-oshibok",
+    "verified_at": "2026-10-22T20:45:02.759884+00:00",
+    "http_status": 200,
+    "html_sha256": "c1e6c57afaf673fa9c52b0eede671273611871f53e16cdefe1517e681113a395"
+  },
+  "vector": {
+    "title": "Vector – руководство по установке сервиса для сбора логов",
+    "url": "https://beget.com/ru/kb/how-to/vps/vector-servis-sbora-logov",
+    "verified_at": "2026-10-22T20:45:01.944889+00:00",
+    "http_status": 200,
+    "html_sha256": "3c55d1d0d6ed5b13dc1c7e7732c88d96f29c6a5e8d5f90b9aa654c3f1aafff09"
+  },
+  "nginx-log": {
+    "title": "Как настроить логирование и ротацию логов Nginx на Ubuntu",
+    "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-logirovanie-i-rotacziyu-logov-nginx-na-ubuntu",
+    "verified_at": "2026-10-22T20:45:01.977795+00:00",
+    "http_status": 200,
+    "html_sha256": "1e5bb31a7c10281a3fe84524b1fc2ae9a449288979389feca38b0c96878e611a"
+  },
+  "logs": {
+    "title": "Журналы",
+    "url": "https://beget.com/ru/kb/manual/zhurnaly",
+    "verified_at": "2026-10-22T20:45:02.352372+00:00",
+    "http_status": 200,
+    "html_sha256": "f3a2a8588024c08aa8df6d7e171da7481f34531e4b15ac4aca324f2603dff852"
+  },
+  "stats": {
+    "title": "Статистика",
+    "url": "https://beget.com/ru/kb/manual/statistika",
+    "verified_at": "2026-10-22T20:45:13.019409+00:00",
+    "http_status": 200,
+    "html_sha256": "c19e8d6fe1c4e062a5b856918e1f6e98fab074facd4ee7708853fc37064ef7a4"
+  },
+  "2fa": {
+    "title": "Настройка приложений для двухфакторной аутентификации в Beget",
+    "url": "https://beget.com/ru/kb/how-to/nastrojka-dvuhfaktornoj-autentifikacii-v-beget",
+    "verified_at": "2026-10-22T20:45:02.693631+00:00",
+    "http_status": 200,
+    "html_sha256": "cf0d3d4c51275b3b419c046742a0407189828ca05fa3bc75bc7cdcae50b27263"
+  },
+  "ftp": {
+    "title": "FTP-аккаунты",
+    "url": "https://beget.com/ru/kb/manual/ftp",
+    "verified_at": "2026-10-22T20:45:02.652680+00:00",
+    "http_status": 200,
+    "html_sha256": "f5b8cb085d9b38d78d4921bd97e9a4079aebbd5a38c27951e1bc8471d80611e7"
+  },
+  "vps-start": {
+    "title": "Первые шаги после создания VPS: настройка, защита, мониторинг",
+    "url": "https://beget.com/ru/kb/how-to/vps/sozdaniya-vps-nastrojka-i-monitoring",
+    "verified_at": "2026-10-22T20:45:03.446613+00:00",
+    "http_status": 200,
+    "html_sha256": "46c2a8365e670b3ce8cf6ae2c209b7c69339e5ef0b199968ccdc5c39bb6fe9eb"
+  },
+  "ufw": {
+    "title": "Настройка и установка файрвола (брандмауэра) в Ubuntu с помощью утилиты UFW",
+    "url": "https://beget.com/ru/kb/how-to/vps/nastrojka-i-ustanovka-fajrvola-brandmauera-v-ubuntu-s-pomoshhyu-utility-ufw",
+    "verified_at": "2026-10-22T20:45:03.072098+00:00",
+    "http_status": 200,
+    "html_sha256": "3710f749446b2fa85d377399acc4c24174aff72965acab7bfce7f6259f355395"
+  },
+  "fail2ban": {
+    "title": "Fail2Ban: установка и настройка инструмента для защиты от брутфорса",
+    "url": "https://beget.com/ru/kb/how-to/vps/fail2ban-ustanovka-i-nastrojka-instrumenta",
+    "verified_at": "2026-10-22T20:45:02.953254+00:00",
+    "http_status": 200,
+    "html_sha256": "8b8eb833d3441fd0f7905a9ce87b422d6b4b36d90478136ca7c917aa06cec027"
+  },
+  "docker": {
+    "title": "Контейнеризация Python-приложения с Docker: от создания до деплоя",
+    "url": "https://beget.com/ru/kb/how-to/vps/kontejnerizaciya-python-prilozheniya-s-docker",
+    "verified_at": "2026-10-22T20:45:03.746603+00:00",
+    "http_status": 200,
+    "html_sha256": "c615dbb29e3f78e718860440b2e2411e5b69f3ac1c7f59de02653c200c6257fe"
+  },
+  "portainer": {
+    "title": "Как работать с Docker через Portainer",
+    "url": "https://beget.com/ru/kb/how-to/vps/kak-rabotat-s-docker-cherez-portainer",
+    "verified_at": "2026-10-22T20:45:03.944750+00:00",
+    "http_status": 200,
+    "html_sha256": "733dd307f826315670e731af20bb38660656b9810984cd9d87cb7b475292e980"
+  },
+  "docker-clean": {
+    "title": "Как очистить образы, контейнеры и тома Docker",
+    "url": "https://beget.com/ru/kb/how-to/vps/ochistka-obrazov-kontejnerov-i-tomov-v-docker",
+    "verified_at": "2026-10-22T20:45:04.052951+00:00",
+    "http_status": 200,
+    "html_sha256": "85d474d501f9d6c5ffa9011585c766b9dbeabe074ae6adaa34efe81c53a35ed7"
+  },
+  "terraform": {
+    "title": "Terraform для управления облачной инфраструктурой Beget",
+    "url": "https://beget.com/ru/kb/faq/cloud/terraform",
+    "verified_at": "2026-10-22T20:45:03.363377+00:00",
+    "http_status": 200,
+    "html_sha256": "7ec6ddb9fadc50bc9fa229530684a5b8183a48e07a6306aa31cd8fc74186e0dc"
+  },
+  "ci": {
+    "title": "Gitea Actions: установка и настройка встроенного CI/CD для автоматизации задач в вашем репозитории",
+    "url": "https://beget.com/ru/kb/how-to/vps/gitea-actions",
+    "verified_at": "2026-10-22T20:45:03.724379+00:00",
+    "http_status": 200,
+    "html_sha256": "52df277bf9bae3c4f28a9c8c4dbc633a88d0735f6b9793f882a9370dcd5996d0"
+  },
+  "registry": {
+    "title": "Harbor – как создать собственный реестр контейнеров",
+    "url": "https://beget.com/ru/kb/how-to/vps/harbor-sobstvennyy-reestr-konteynerov",
+    "verified_at": "2026-10-22T20:45:03.625317+00:00",
+    "http_status": 200,
+    "html_sha256": "4fc4029836278b569c21c7cbf1b278436bd26b4f5a78cf51cc159c5ae2398d11"
+  },
+  "podman": {
+    "title": "Запуск rootless-контейнеров в Podman как systemd-юнит",
+    "url": "https://beget.com/ru/kb/how-to/vps/rootless-kontejnery-v-podman-kak-systemd",
+    "verified_at": "2026-10-22T20:45:03.847823+00:00",
+    "http_status": 200,
+    "html_sha256": "793335338ab0896af3c980f080480c4ce7b9f17e42e402624680b332d4c5561c"
+  },
+  "private": {
+    "title": "Приватные сети для пользователей VPS",
+    "url": "https://beget.com/ru/kb/manual/private-network",
+    "verified_at": "2026-10-22T20:45:04.218006+00:00",
+    "http_status": 200,
+    "html_sha256": "1ce1222a7d74653c97775b9785f994badca32981dcc7500302e1760563a8ab15"
+  },
+  "lb": {
+    "title": "Как настроить балансировку нагрузки на сервере при помощи Nginx",
+    "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-balansirovku-nagruzki-na-servere-pri-pomoshchi-nginx",
+    "verified_at": "2026-10-22T20:45:05.048430+00:00",
+    "http_status": 200,
+    "html_sha256": "7ea4b5cb2cfa810b5b092c452fc4eca457e3557039aae3a3dc94d15e27d1c0ec"
+  },
+  "ipv6": {
+    "title": "Публикуем сайт и API по IPv6: dual stack без риска для текущих пользователей",
+    "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-ipv6-k-sajtu-i-api-c-dostupom-ipv4",
+    "verified_at": "2026-10-22T20:45:04.504687+00:00",
+    "http_status": 200,
+    "html_sha256": "e1574b0d6293b1794b7ccbaeae0e354488071e7350d0a808c42d02107175b360"
+  },
+  "moodle": {
+    "title": "Обзор системы электронного обучения Moodle",
+    "url": "https://beget.com/ru/kb/faq/moodle-review",
+    "verified_at": "2026-10-22T20:45:04.440549+00:00",
+    "http_status": 200,
+    "html_sha256": "f3aa4f9fffaa0114765ec1fd6fefd1612d07b3c462a9776b4c5ed480b8ced5fd"
+  },
+  "moodle-install": {
+    "title": "Как установить Moodle на shared hosting или VPS",
+    "url": "https://beget.com/ru/kb/faq/how-to-install-moodle-virtual",
+    "verified_at": "2026-10-22T20:45:05.093110+00:00",
+    "http_status": 200,
+    "html_sha256": "005db002cf12a393a54fdb839763a8a320f799d8672a152ceabb667590e51d58"
+  },
+  "moodle-course": {
+    "title": "Как создать дистанционный курс в Moodle",
+    "url": "https://beget.com/ru/kb/faq/online-courses-platform",
+    "verified_at": "2026-10-22T20:45:04.984995+00:00",
+    "http_status": 200,
+    "html_sha256": "37390d4da4c75138d87d6caf6a5cfd5861b476ead0c6744da9a494a0ee081fda"
+  },
+  "bbb": {
+    "title": "Как подключить BigBlueButton к Moodle",
+    "url": "https://beget.com/ru/kb/faq/bigbluebutton-instructions",
+    "verified_at": "2026-10-22T20:45:05.431676+00:00",
+    "http_status": 200,
+    "html_sha256": "efa733cceecbe9d63fc1163308c9113bce3f616bee2dc5e119ec44c9aecfafca"
+  },
+  "authelia": {
+    "title": "Authelia – установка и настройка сервера OAuth-аутентификации и авторизации",
+    "url": "https://beget.com/ru/kb/how-to/vps/authelia-ustanovka-i-nastrojka-oauth",
+    "verified_at": "2026-10-22T20:45:05.011061+00:00",
+    "http_status": 200,
+    "html_sha256": "0c1eb036672a7eac702d30102592b050bcc3446ee2a431c509643ad8589a5571"
+  },
+  "seafile": {
+    "title": "Seafile как альтернатива хранилищу Nextcloud: установка и настройка на сервере",
+    "url": "https://beget.com/ru/kb/how-to/vps/seafile-alternativa-nextcloud",
+    "verified_at": "2026-10-22T20:45:05.235749+00:00",
+    "http_status": 200,
+    "html_sha256": "01e3cbfc1cc5d8325997163971bbe220bd017dd2c7f680327299bf2a46052b06"
+  },
+  "vikunja": {
+    "title": "Vikunja – установка и настройка таск-менеджера",
+    "url": "https://beget.com/ru/kb/how-to/vps/vikunja-task-manager",
+    "verified_at": "2026-10-22T20:45:05.119400+00:00",
+    "http_status": 200,
+    "html_sha256": "24bd61d93b9fabdf419ac4a6be4f993349a36d5f1cad6f458f2322e16a15b1bf"
+  },
+  "markdown": {
+    "title": "Markdown: что это такое и для чего нужен этот формат",
+    "url": "https://beget.com/ru/kb/how-to/vps/markdown-chto-ehto-takoe-i-dlya-chego-nuzhen",
+    "verified_at": "2026-10-22T20:45:06.595155+00:00",
+    "http_status": 200,
+    "html_sha256": "179bad611057f2a6dc9e684e04bf7a56fe7c17d78888b690833f162a030dfbf6"
+  },
+  "multi": {
+    "title": "Мультиаккаунты",
+    "url": "https://beget.com/ru/kb/manual/multiakkaunty",
+    "verified_at": "2026-10-22T20:45:05.617845+00:00",
+    "http_status": 200,
+    "html_sha256": "54e3801447d30122be8e2fa5bc8aaa973d320ce1bd87fc4e4a8cc7727b46e738"
+  },
+  "account": {
+    "title": "Настройки аккаунта",
+    "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta",
+    "verified_at": "2026-10-22T20:45:05.796791+00:00",
+    "http_status": 200,
+    "html_sha256": "11022d90cea9055c225f1861840dd4c19c83fc6525f62a0de1a901b1d90f6917"
+  },
+  "docs": {
+    "title": "Документы",
+    "url": "https://beget.com/ru/kb/manual/dokumenty",
+    "verified_at": "2026-10-22T20:45:05.643316+00:00",
+    "http_status": 200,
+    "html_sha256": "77cce5fd38bb0f76d35e03fe1409eac17baee27b9f7dabb68f65ccb1795d8c2b"
+  },
+  "support": {
+    "title": "Помощь и поддержка",
+    "url": "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka",
+    "verified_at": "2026-10-22T20:45:05.804544+00:00",
+    "http_status": 200,
+    "html_sha256": "a7dbae2741b9f31f3b87958814759b061c9b10599f20abeea97e6f754f86be49"
+  },
+  "api": {
+    "title": "Beget.API Хостинга",
+    "url": "https://beget.com/ru/kb/api/beget-api",
+    "verified_at": "2026-10-22T20:45:05.831598+00:00",
+    "http_status": 200,
+    "html_sha256": "bfd38c9684964e342971f65bed2e261e3da93a7a65ea732264b840f7ed0474d9"
+  },
+  "ip": {
+    "title": "Плавающий IPv4-адрес: подключение, перенос и сценарии использования",
+    "url": "https://beget.com/ru/kb/manual/ipv4-kupit-v-oblake",
+    "verified_at": "2026-10-22T20:45:06.095340+00:00",
+    "http_status": 200,
+    "html_sha256": "642a14f7f72ce07c0780da1db87c5dd4687a0ee24e96fab6686c488b371a2227"
+  },
+  "services": {
+    "title": "Управление услугами",
+    "url": "https://beget.com/ru/kb/manual/upravlenie-uslugami",
+    "verified_at": "2026-10-22T20:45:06.451597+00:00",
+    "http_status": 200,
+    "html_sha256": "8623ff8f4f098ee3c1b31bc58f179c958d9ec3164a198178785f68efaad64fc8"
+  },
+  "systemd": {
+    "title": "Systemctl: управление сервисами и юнитами Systemd",
+    "url": "https://beget.com/ru/kb/how-to/vps/systemctl-upravlenie-servisami-i-yunitami",
+    "verified_at": "2026-10-22T20:45:07.147871+00:00",
+    "http_status": 200,
+    "html_sha256": "72beb2e666c1ad382d8e0c6a4af3220015afa46955503e362155b68f05bc7e0f"
+  }
+}

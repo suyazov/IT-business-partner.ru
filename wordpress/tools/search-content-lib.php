@@ -2,13 +2,14 @@
 /** Native blocks and validation for the separately owned search-content batch. */
 require_once __DIR__ . '/../content/blocks.php';
 const SY3_SEARCH_BATCH = 'sy3-search-20261022';
+const SY3_BEGET_PARTNER_URL = 'https://beget.com/p133852';
 
 function sy3_search_inline(string $text): string {
     $parts = preg_split('/(`[^`]+`|\[[^\]]+\]\([^\s)]+\)|\*\*[^*]+\*\*)/u', $text, -1, PREG_SPLIT_DELIM_CAPTURE);
     return implode('', array_map(function ($part) {
         if (preg_match('/^`([^`]+)`$/us', $part, $m)) return '<code>' . esc_html($m[1]) . '</code>';
         if (preg_match('/^\*\*([^*]+)\*\*$/us', $part, $m)) return '<strong>' . esc_html($m[1]) . '</strong>';
-        if (preg_match('/^\[([^\]]+)\]\(([^\s)]+)\)$/us', $part, $m)) return '<a href="' . esc_url($m[2], ['https', 'http']) . '">' . esc_html($m[1]) . '</a>';
+        if (preg_match('/^\[([^\]]+)\]\(([^\s)]+)\)$/us', $part, $m)) return '<a href="' . esc_url($m[2], ['https', 'http']) . '"'.($m[2]===SY3_BEGET_PARTNER_URL?' rel="sponsored nofollow"':'').'>' . esc_html($m[1]) . '</a>';
         return esc_html($part);
     }, $parts));
 }
@@ -74,10 +75,13 @@ function sy3_process_artifact(array $diagram,string $key): string {
     return sy3_g($body,'process-map');
 }
 
-function sy3_search_load(): array {
-    $base = __DIR__ . '/../search-content/';
+function sy3_search_load(string $collection='search'): array {
+    if(!in_array($collection,['search','beget'],true))WP_CLI::error('Unknown article collection.');
+    $beget=$collection==='beget';$expected=$beget?range(202,301):range(101,201);
+    $base = __DIR__ . ($beget?'/../beget-content/':'/../search-content/');
+    $service_base=__DIR__.'/../search-content/';
     $records = json_decode(file_get_contents($base . 'manifest.json'), true, 512, JSON_THROW_ON_ERROR);
-    $services = array_merge(json_decode(file_get_contents($base . 'services.json'), true, 512, JSON_THROW_ON_ERROR), json_decode(file_get_contents($base . 'partner-services.json'), true, 512, JSON_THROW_ON_ERROR));
+    $services = array_merge(json_decode(file_get_contents($service_base . 'services.json'), true, 512, JSON_THROW_ON_ERROR), json_decode(file_get_contents($service_base . 'partner-services.json'), true, 512, JSON_THROW_ON_ERROR));
     $media = json_decode(file_get_contents(__DIR__ . '/../editorial/media.json'), true, 512, JSON_THROW_ON_ERROR);
     $known_services = array_merge(array_column($services, 'slug'), array_column(json_decode(file_get_contents(__DIR__ . '/../content/services.json'), true), 'slug'));
     $known_cases = array_column(json_decode(file_get_contents(__DIR__ . '/../content/cases.json'), true), 'slug');
@@ -88,7 +92,7 @@ function sy3_search_load(): array {
     }
     usort($records, fn($a, $b) => $a['id'] <=> $b['id']);
     $partial=getenv('SY3_SEARCH_PARTIAL_IMPORT')==='1';$ids=array_column($records,'id');
-    if (!$ids||count($ids)!==count(array_unique($ids))||array_diff($ids,range(101,201))||(!$partial&&$ids!==range(101,201))) WP_CLI::error('101 distinct articles numbered 101–201 required, or explicit partial-import mode.');
+    if (!$ids||count($ids)!==count(array_unique($ids))||array_diff($ids,$expected)||(!$partial&&$ids!==$expected)) WP_CLI::error('Complete numbered collection required, or explicit partial-import mode.');
     $planned = [];
     foreach (['slug', 'title', 'primary_query'] as $field) if (count(array_unique(array_column($records, $field))) !== count($records)) WP_CLI::error('Duplicate search-content ' . $field);
     $bodies = [];
@@ -96,7 +100,9 @@ function sy3_search_load(): array {
         $date = DateTimeImmutable::createFromFormat('!Y-m-d H:i:s', $record['planned_at'] ?? '', new DateTimeZone('Europe/Moscow'));
         if (!$date || $date->format('Y-m-d H:i:s') !== ($record['planned_at'] ?? '')) WP_CLI::error('Invalid planned date.');
         if ($record['id']===101 && $record['planned_at']!=='2027-08-21 10:00:00') WP_CLI::error('Expertise continuation date mismatch.');
-        if ($record['id']!==101) $planned[]=$date->getTimestamp();
+        $standalone=!empty($record['standalone']);
+        if($standalone&&(!$beget||$record['id']!==202))WP_CLI::error('Only approved Beget introduction may be standalone.');
+        if ($record['id']!==101&&!$standalone) $planned[]=$date->getTimestamp();
         if (!preg_match('/\A[a-z0-9]+(?:-[a-z0-9]+)*\z/', $record['slug'])) WP_CLI::error('Unsafe slug.');
         $path = $base . 'articles/' . $record['id'] . '-' . $record['slug'] . '.md';
         $raw = file_get_contents($path);
@@ -109,6 +115,10 @@ function sy3_search_load(): array {
         if (!in_array($record['service'], $known_services, true) || (!empty($record['case']) && !in_array($record['case'], $known_cases, true))) WP_CLI::error('Invalid relation: ' . $record['slug']);
         if (count($record['related_queries']) < 3 || !$record['sources'] || mb_strlen($record['excerpt']) < 100 || mb_strlen($record['excerpt']) > 230) WP_CLI::error('Incomplete search brief: ' . $record['slug']);
         foreach ($record['sources'] as $source) if (!filter_var($source['url'], FILTER_VALIDATE_URL) || wp_parse_url($source['url'], PHP_URL_SCHEME) !== 'https') WP_CLI::error('Invalid source URL.');
+        if($beget){
+            if(!array_filter($record['sources'],fn($s)=>wp_parse_url($s['url'],PHP_URL_HOST)==='beget.com'))WP_CLI::error('Beget primary documentation required.');
+            if(substr_count($body,SY3_BEGET_PARTNER_URL)!==1||!str_contains(mb_strtolower($body),'партнёрск'))WP_CLI::error('One disclosed partner link required.');
+        }
         if (!isset($media[$record['cover']])) WP_CLI::error('Unknown cover.');
         $cover = $media[$record['cover']]; $cover_path = __DIR__ . '/../content/media/' . basename($cover['file']);
         if (!hash_equals($cover['sha256'], hash_file('sha256', $cover_path))) WP_CLI::error('Cover hash mismatch.');
@@ -119,9 +129,9 @@ function sy3_search_load(): array {
     }
     unset($record);
     sort($planned);
-    $start=(new DateTimeImmutable('2026-10-23 10:00:00',new DateTimeZone('Europe/Moscow')))->getTimestamp();
-    $allowed_dates=array_map(fn($n)=>$start+$n*DAY_IN_SECONDS,range(0,99));
-    if(count($planned)!==count(array_unique($planned))||array_diff($planned,$allowed_dates)||(!$partial&&$planned!==$allowed_dates)) WP_CLI::error('Expected distinct daily search slots from 23.10.2026 10:00 MSK.');
+    $start=(new DateTimeImmutable($beget?'2027-01-31 10:00:00':'2026-10-23 10:00:00',new DateTimeZone('Europe/Moscow')))->getTimestamp();
+    $allowed_dates=array_map(fn($n)=>$start+$n*DAY_IN_SECONDS,range(0,$beget?98:99));
+    if(count($planned)!==count(array_unique($planned))||array_diff($planned,$allowed_dates)||(!$partial&&$planned!==$allowed_dates)) WP_CLI::error('Expected distinct daily slots within the collection calendar.');
     if (count(array_unique($bodies)) !== count($records)) WP_CLI::error('Duplicate article body.');
     return [$records, $services, $media];
 }
