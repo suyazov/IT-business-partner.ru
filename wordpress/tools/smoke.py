@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check the two isolated WP installs. No writes, external requests or credentials."""
 import json
+from pathlib import Path
 import sys
 import urllib.error
 import urllib.parse
@@ -40,6 +41,7 @@ def main():
         raise SystemExit('This smoke is limited to explicitly local previews.')
     seen = set()
     assets = set()
+    expected_cases = {item['slug'] for item in json.loads((Path(__file__).resolve().parents[1] / 'content/cases.json').read_text())}
 
     def request(url, expected=200, redirect=False):
         opener = urllib.request.build_opener() if redirect else urllib.request.build_opener(NoRedirect())
@@ -56,7 +58,7 @@ def main():
     while queue:
         url, _ = queue.pop(0)
         if url in seen: continue
-        assert len(seen) < 90, 'Unexpected crawl expansion'
+        assert len(seen) < 120, 'Unexpected crawl expansion'
         headers, body = request(url, redirect=True)
         if 'text/html' not in headers.get('Content-Type', ''): continue
         page = Page(); page.feed(body.decode())
@@ -99,10 +101,14 @@ def main():
             assert ET.fromstring(child).tag.endswith('urlset')
         _, feed = request(base + '/sales/portfolio-feed.json')
         items = json.loads(feed)['cases']
-        assert len(items) == (2 if base == primary else 8)
+        assert {item['slug'] for item in items} == expected_cases
+        assert len(items) == len(expected_cases)
+        for item in items:
+            assert item['url'] == primary + '/cases/' + item['slug'] + '/'
         _, llms = request(base + '/llms.txt')
         assert '/cases/' in llms.decode()
-    print(json.dumps({'status': 'passed', 'html_pages': len(seen), 'local_assets': len(assets), 'exact_redirects': len(redirects), 'primary_cases': 2, 'personal_preserved_cases': 8}, ensure_ascii=False))
+    request(personal + '/portfolio/vip26/', 404)
+    print(json.dumps({'status': 'passed', 'html_pages': len(seen), 'local_assets': len(assets), 'exact_redirects': len(redirects), 'primary_cases': len(expected_cases), 'personal_case_links': len(expected_cases)}, ensure_ascii=False))
 
 
 if __name__ == '__main__': main()

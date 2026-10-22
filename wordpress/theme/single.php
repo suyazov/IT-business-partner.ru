@@ -23,7 +23,7 @@ get_header();
         <?php endif; ?>
     </header>
     <div class="article-layout wrap">
-        <article class="article-body"><?php the_content(); ?></article>
+        <article class="article-body"><?php if ($kind === 'sy3_case' && has_post_thumbnail()): ?><figure class="case-cover"><?php the_post_thumbnail('full', ['loading' => 'eager']); ?></figure><?php endif; ?><?php the_content(); ?></article>
         <aside class="article-aside">
             <p class="eyebrow">Есть похожая задача?</p>
             <h2>Начнём<br>с вашего процесса.</h2>

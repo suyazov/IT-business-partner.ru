@@ -46,6 +46,27 @@ function sy3_import_post(string $key, array $args): int {
     WP_CLI::log($key . ' → ' . $id); return $id;
 }
 
+function sy3_import_cover(int $post_id, array $cover): void {
+    require_once ABSPATH . 'wp-admin/includes/image.php';
+    $file = basename($cover['file']);
+    $source = __DIR__ . '/../content/media/' . $file;
+    if (!is_file($source) || !hash_equals($cover['sha256'], hash_file('sha256', $source))) WP_CLI::error('Invalid portfolio media: ' . $file);
+    $prior = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => '_sy3_media_hash', 'meta_value' => $cover['sha256'], 'numberposts' => 1]);
+    if ($prior) $attachment = $prior[0]->ID;
+    else {
+        $upload = wp_upload_bits($file, null, file_get_contents($source));
+        if ($upload['error']) WP_CLI::error($upload['error']);
+        $attachment = wp_insert_attachment(['post_mime_type' => 'image/webp', 'post_title' => $cover['alt'], 'post_status' => 'inherit'], $upload['file'], $post_id, true);
+        if (is_wp_error($attachment)) WP_CLI::error($attachment->get_error_message());
+        wp_update_attachment_metadata($attachment, wp_generate_attachment_metadata($attachment, $upload['file']));
+        update_post_meta($attachment, '_sy3_media_hash', $cover['sha256']);
+        update_post_meta($attachment, '_wp_attachment_image_alt', $cover['alt']);
+    }
+    // A manually selected cover is owned by the editor and must be preserved.
+    $current = get_post_thumbnail_id($post_id);
+    if (!$current || get_post_meta($current, '_sy3_media_hash', true)) set_post_thumbnail($post_id, $attachment);
+}
+
 $home = sy3_import_post('page:home', ['post_type' => 'page', 'post_name' => 'home', 'post_title' => $personal ? 'Артём Суязов — IT-бизнес-партнёр' : 'Автоматизация бизнеса: CRM, интеграции и ИИ', 'post_excerpt' => $personal ? 'Помогаю бизнесу разобраться с технологиями и довести решения до работы.' : 'Связываю заявки, CRM и рабочие сервисы в понятную систему.', 'post_content' => $personal ? sy3_personal_home() : sy3_home_content()]);
 update_option('show_on_front', 'page'); update_option('page_on_front', $home);
 update_option('blogname', $personal ? 'Артём Суязов — IT-бизнес-партнёр' : 'Сутри — автоматизация бизнеса');
@@ -68,6 +89,14 @@ if (!$personal) {
             update_post_meta($id, '_sy3_label', $item['label'] ?? $item['category'] ?? 'Разбор');
             update_post_meta($id, '_sy3_art', $item['art']);
             update_post_meta($id, '_sy3_description', $item['excerpt']);
+            if (!empty($item['cover'])) sy3_import_cover($id, $item['cover']);
+            if (!empty($item['affineDocId'])) update_post_meta($id, '_sy3_affine_doc', sanitize_text_field($item['affineDocId']));
+            if ($type === 'sy3_case') {
+                $topic = $item['topic'] ?? 'Сайты и WordPress';
+                $term = term_exists($topic, 'sy3_case_topic') ?: wp_insert_term($topic, 'sy3_case_topic');
+                if (is_wp_error($term)) WP_CLI::error($term->get_error_message());
+                wp_set_object_terms($id, [(int) $term['term_id']], 'sy3_case_topic');
+            }
             if (isset($item['source'])) update_post_meta($id, '_sy3_case_source', esc_url_raw($item['source']));
             if (isset($item['category'])) {
                 $term = term_exists($item['category'], 'category') ?: wp_insert_term($item['category'], 'category');
@@ -85,20 +114,19 @@ if (!$personal) {
 } else {
     $records = json_decode(file_get_contents(__DIR__ . '/../content/cases.json'), true, 512, JSON_THROW_ON_ERROR);
     update_option('sy3_external_cases', array_map(fn($i) => ['slug' => $i['slug'], 'title' => $i['title'], 'label' => $i['label'], 'excerpt' => $i['excerpt'], 'url' => rtrim(get_option('sy3_main_url'), '/') . '/cases/' . $i['slug'] . '/'], $records));
-    $selected = array_column($records, 'slug');
-    foreach (json_decode(file_get_contents(__DIR__ . '/../content/legacy-cases.json'), true, 512, JSON_THROW_ON_ERROR) as $case) {
-        if (in_array($case['slug'], $selected, true)) continue;
-        $content = sy3_g(sy3_p('Сохранённый материал предыдущей версии сайта. Повторная проверка результатов в рамках переноса не проводилась.'), 'callout') . sy3_p(esc_html($case['description'])) . sy3_h('Работы по проекту') . sy3_list($case['services']) . sy3_h('Результаты, указанные в исходном материале') . sy3_list($case['results']) . sy3_h('Технологии') . sy3_p(esc_html(implode(' · ', $case['technologies'])));
-        $id = sy3_import_post('legacy:' . $case['slug'], ['post_type' => 'sy3_legacy', 'post_name' => $case['slug'], 'post_title' => $case['title'], 'post_excerpt' => $case['excerpt'], 'post_content' => $content]);
-        update_post_meta($id, '_sy3_label', 'Архив проекта');
+    // Preserve old seed records as drafts. AFFiNE Share determines the public catalogue.
+    foreach (get_posts(['post_type' => 'sy3_legacy', 'post_status' => 'publish', 'numberposts' => -1, 'meta_key' => '_sy3_seed']) as $legacy) {
+        wp_update_post(['ID' => $legacy->ID, 'post_status' => 'draft']);
     }
-    sy3_import_post('page:portfolio', ['post_type' => 'page', 'post_name' => 'portfolio', 'post_title' => 'Выбранные работы', 'post_excerpt' => 'Подробные разборы двух проектов — на сайте Сутри. Остальные материалы сохранены в архиве.', 'post_content' => sy3_shortcode('[sy3_external_cases]') . sy3_h('Архив проектов') . sy3_shortcode('[sy3_cards type="sy3_legacy" count="12"]')]);
+    sy3_import_post('page:portfolio', ['post_type' => 'page', 'post_name' => 'portfolio', 'post_title' => 'Проекты и решения', 'post_excerpt' => '25 проектов: CRM, интеграции, ИИ, WordPress и развитие существующих сайтов. Подробные разборы — на сайте Сутри.', 'post_content' => sy3_shortcode('[sy3_external_cases count="25"]')]);
     $blog = sy3_import_post('page:blog', ['post_type' => 'page', 'post_name' => 'blog', 'post_title' => 'Архив публикаций', 'post_excerpt' => 'Публикации предыдущей версии сайта.', 'post_content' => '']);
     update_option('page_for_posts', $blog); update_option('permalink_structure', '/blog/%postname%/');
     foreach (json_decode(file_get_contents(__DIR__ . '/../content/legacy-posts.json'), true, 512, JSON_THROW_ON_ERROR) as $post) {
         $date = gmdate('Y-m-d H:i:s', strtotime($post['createdAt']));
         $id = sy3_import_post('legacy-post:' . $post['slug'], ['post_type' => 'post', 'post_name' => $post['slug'], 'post_title' => $post['title'], 'post_excerpt' => $post['excerpt'], 'post_date_gmt' => $date, 'post_date' => get_date_from_gmt($date), 'post_content' => sy3_g(sy3_p('Архивная публикация предыдущей версии сайта. Текст сохранён для доступности по прежнему адресу; его актуальность не проверялась при переносе.'), 'callout') . sy3_b('html', wp_kses_post($post['content']))]);
         update_post_meta($id, '_sy3_label', 'Архивная публикация');
+        // Historical source is retained; republication needs separate editorial review.
+        wp_update_post(['ID' => $id, 'post_status' => 'draft']);
     }
 }
 
@@ -111,7 +139,11 @@ if (!wp_get_nav_menu_items($menu)) {
 $footer_object = wp_get_nav_menu_object('Сутри: подвал');
 $footer = $footer_object ? $footer_object->term_id : wp_create_nav_menu('Сутри: подвал');
 if (!wp_get_nav_menu_items($footer)) wp_update_nav_menu_item($footer, 0, ['menu-item-title' => 'О данных на сайте', 'menu-item-url' => home_url('/privacy/'), 'menu-item-status' => 'publish']);
-if ($personal && count(wp_get_nav_menu_items($footer) ?: []) === 1) wp_update_nav_menu_item($footer, 0, ['menu-item-title' => 'Архив публикаций', 'menu-item-url' => home_url('/blog/'), 'menu-item-status' => 'publish']);
+if ($personal && !wp_count_posts('post')->publish) {
+    foreach (wp_get_nav_menu_items($footer) ?: [] as $link) {
+        if ($link->title === 'Архив публикаций' && $link->url === home_url('/blog/')) wp_delete_post($link->ID, true);
+    }
+}
 set_theme_mod('nav_menu_locations', ['primary' => $menu, 'footer' => $footer]);
 flush_rewrite_rules();
 WP_CLI::success('Content imported for ' . $expected . '. All content is editable in WordPress.');

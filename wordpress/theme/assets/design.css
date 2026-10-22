@@ -134,6 +134,11 @@ p { margin-bottom: 1.3em; }
 .card-art { display: block; overflow: hidden; position: relative; background: #d9e2e7; border-radius: 3px; }
 .card-art img { width: 100%; display: block; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .7s cubic-bezier(.2,.7,.3,1); }
 .card-art:hover img { transform: scale(1.035); }
+.portfolio-cover img, .cases-grid .portfolio-cover img { object-fit: contain; aspect-ratio: 4 / 3; background: #e9edf0; }
+.case-cover { margin: 0 0 42px; }
+.case-cover img { display: block; width: 100%; height: auto; }
+.case-topics { margin-bottom: 44px; }
+.case-topics a[aria-current="page"] { background: var(--ink); color: white; }
 .card-grid:has(> .sy3_service) { display: block; }
 .sy3_service { counter-increment: services; border-top: 1px solid #bdc8ce; transition: background .3s; }
 .sy3_service:last-child { border-bottom: 1px solid #bdc8ce; }

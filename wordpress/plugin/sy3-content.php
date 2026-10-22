@@ -17,6 +17,7 @@ function sy3_register_content(): void {
             'menu_icon' => $type === 'sy3_case' ? 'dashicons-portfolio' : 'dashicons-networking',
         ]);
     }
+    register_taxonomy('sy3_case_topic', 'sy3_case', ['label' => 'Направления кейсов', 'public' => !sy3_is_personal(), 'show_ui' => true, 'show_in_rest' => true, 'hierarchical' => true, 'rewrite' => ['slug' => 'case-topics', 'with_front' => false]]);
     if (sy3_is_personal()) register_post_type('sy3_legacy', [
         'labels' => ['name' => 'Архив проектов', 'singular_name' => 'Архивный проект'],
         'public' => true, 'show_in_rest' => true, 'has_archive' => false,
@@ -29,6 +30,11 @@ function sy3_register_content(): void {
 }
 function sy3_is_personal(): bool { return get_option('sy3_site_mode') === 'personal'; }
 add_action('init', 'sy3_register_content');
+add_action('pre_get_posts', function ($query) {
+    if (!is_admin() && $query->is_main_query() && ($query->is_post_type_archive('sy3_case') || $query->is_tax('sy3_case_topic'))) {
+        $query->set('orderby', ['menu_order' => 'ASC', 'ID' => 'ASC']);
+    }
+});
 register_activation_hook(__FILE__, function () { sy3_register_content(); flush_rewrite_rules(); });
 add_filter('query_vars', function ($vars) { $vars[] = 'sy3_feed'; return $vars; });
 
@@ -45,8 +51,10 @@ add_shortcode('sy3_cards', function ($atts): string {
     return ob_get_clean();
 });
 
-add_shortcode('sy3_external_cases', function (): string {
+add_shortcode('sy3_external_cases', function ($atts): string {
     $items = get_option('sy3_external_cases', []);
+    $a = shortcode_atts(['count' => 4], $atts);
+    $items = array_slice($items, 0, min(100, max(1, (int) $a['count'])));
     ob_start(); echo '<div class="card-grid cases-grid">';
     foreach ($items as $item) { ?>
         <article class="entry-card"><div class="card-copy"><p class="eyebrow"><?php echo esc_html($item['label']); ?></p><h3><a href="<?php echo esc_url($item['url']); ?>"><?php echo esc_html($item['title']); ?></a></h3><p><?php echo esc_html($item['excerpt']); ?></p><a class="text-link" href="<?php echo esc_url($item['url']); ?>">Читать на сайте Сутри ↗</a></div></article>
@@ -114,7 +122,7 @@ add_action('template_redirect', function () {
     $redirects = ['index.html' => '/', 'services.html' => '/services/', 'portfolio.html' => '/cases/', 'about.html' => '/about/', 'contact.html' => '/contacts/', 'bitrix24.html' => '/services/bitrix24/', 'sitemap.xml' => '/wp-sitemap.xml'];
     $key = ltrim((string) $path, '/');
     if (isset($redirects[$key])) { wp_safe_redirect(home_url($redirects[$key]), 301); exit; }
-    if (sy3_is_personal() && preg_match('#^portfolio/(antispam-24-sites|matklass)/?$#', $key, $m)) {
+    if (sy3_is_personal() && preg_match('#^portfolio/([a-z0-9-]+)/?$#', $key, $m) && in_array($m[1], array_column(get_option('sy3_external_cases', []), 'slug'), true)) {
         $base = rtrim(get_option('sy3_main_url', 'https://sy3.ru'), '/');
         wp_redirect($base . '/cases/' . $m[1] . '/', 301, 'SY3 portfolio migration'); exit;
     }
