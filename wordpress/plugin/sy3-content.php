@@ -41,7 +41,7 @@ add_filter('query_vars', function ($vars) { $vars[] = 'sy3_feed'; return $vars; 
 // Keep the editor's author selector available without exposing the user collection.
 // Check capability at REST dispatch so a JSON body cannot override a query guard.
 add_filter('rest_pre_dispatch', function ($result, $server, $request) {
-    if (untrailingslashit($request->get_route()) === '/wp/v2/users' && !current_user_can('list_users')) {
+    if (strcasecmp(untrailingslashit($request->get_route()), '/wp/v2/users') === 0 && !current_user_can('list_users')) {
         return new WP_Error('sy3_user_list_forbidden', 'Недостаточно прав для просмотра пользователей.', ['status' => rest_authorization_required_code()]);
     }
     return $result;
