@@ -1,5 +1,8 @@
-.editor-styles-wrapper {font-family:Arial,Helvetica,sans-serif;color:#202923;background:#f6f5ef;}
-.editor-styles-wrapper .eyebrow {font-size:12px;letter-spacing:.1em;text-transform:uppercase;}
-.editor-styles-wrapper .hero {padding:40px;border:1px solid #d7dbce;}
-.editor-styles-wrapper .section-dark {background:#202923;color:#f6f5ef;padding:32px;}
-.editor-styles-wrapper .callout {padding:24px;background:#d7edaa;}
+@font-face {font-family:Manrope;font-style:normal;font-weight:400 700;font-display:swap;src:url('fonts/manrope-cyrillic.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}
+@font-face {font-family:Manrope;font-style:normal;font-weight:400 700;font-display:swap;src:url('fonts/manrope-latin.woff2') format('woff2');}
+.editor-styles-wrapper {font-family:Manrope,Arial,sans-serif;color:#161d21;background:#f3f4f3;}
+.editor-styles-wrapper .eyebrow {font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+.editor-styles-wrapper .hero {padding:40px;background:#0a1015;color:#edf4f7;}
+.editor-styles-wrapper .hero em {font-style:normal;color:#a4e8f5;}
+.editor-styles-wrapper .section-dark {background:#0a1015;color:#edf4f7;padding:32px;}
+.editor-styles-wrapper .callout {padding:24px;background:#e3edf1;}

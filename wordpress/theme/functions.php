@@ -14,8 +14,25 @@ add_action('after_setup_theme', function () {
 });
 
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('sy3-site', get_theme_file_uri('assets/site.css'), [], wp_get_theme()->get('Version'));
+    wp_enqueue_style('sy3-site', get_theme_file_uri('assets/design.css'), [], wp_get_theme()->get('Version'));
     wp_enqueue_script('sy3-site', get_theme_file_uri('assets/site.js'), [], wp_get_theme()->get('Version'), true);
+    if (is_front_page()) wp_enqueue_script('sy3-core', get_theme_file_uri('assets/core-visual.js'), [], wp_get_theme()->get('Version'), true);
+});
+
+add_shortcode('sy3_visual', function ($attributes): string {
+    $a = shortcode_atts(['mode' => 'business'], $attributes);
+    $mode = $a['mode'] === 'personal' ? 'personal' : 'business';
+    return '<figure class="system-visual" data-mode="' . $mode . '">'
+        . '<div class="visual-glow" aria-hidden="true"></div>'
+        . '<img class="visual-fallback" src="' . esc_url(get_theme_file_uri('assets/system-core.svg')) . '" alt="" aria-hidden="true" width="640" height="640">'
+        . '<canvas role="img" aria-label="Анимированная объёмная композиция: связанные элементы одной системы" width="640" height="640"></canvas>'
+        . '<span class="visual-coordinate coordinate-top" aria-hidden="true">СВЯЗЬ / 01—03</span>'
+        . '<span class="visual-node node-crm" aria-hidden="true"><i></i> CRM</span>'
+        . '<span class="visual-node node-api" aria-hidden="true"><i></i> Интеграции</span>'
+        . '<span class="visual-node node-ai" aria-hidden="true"><i></i> ИИ</span>'
+        . '<figcaption>' . ($mode === 'personal' ? 'На стыке бизнеса и технологий' : 'От отдельных сервисов — к одной системе') . '</figcaption>'
+        . '<button class="visual-pause" type="button" aria-pressed="false" aria-label="Остановить анимацию">Пауза <span aria-hidden="true">Ⅱ</span></button>'
+        . '</figure>';
 });
 
 function sy3_personal(): bool { return get_option('sy3_site_mode') === 'personal'; }
