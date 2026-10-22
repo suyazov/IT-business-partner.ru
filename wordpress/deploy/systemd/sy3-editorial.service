@@ -1,0 +1,18 @@
+[Unit]
+Description=Publish the next due sy3.ru editorial draft
+After=mariadb.service
+
+[Service]
+Type=oneshot
+User=php-sy3
+Group=php-sy3
+WorkingDirectory=/var/www/sy3-wordpress
+Environment=HTTPS=on
+Environment=SERVER_PORT=443
+ExecStart=/usr/local/bin/wp --path=/var/www/sy3-wordpress sy3-editorial publish-due
+TimeoutStartSec=90
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+UMask=0027

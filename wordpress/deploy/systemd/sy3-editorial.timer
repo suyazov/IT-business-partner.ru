@@ -1,0 +1,11 @@
+[Unit]
+Description=Check the sy3.ru editorial calendar every five minutes
+
+[Timer]
+OnCalendar=*-*-* *:00/5:00
+Persistent=true
+AccuracySec=30s
+Unit=sy3-editorial.service
+
+[Install]
+WantedBy=timers.target

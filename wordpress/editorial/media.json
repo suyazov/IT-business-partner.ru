@@ -1,0 +1,77 @@
+{
+  "crm": {
+    "file": "editorial-crm.webp",
+    "sha256": "0b85e03b78883bda873dd0a2d50e4c0cd796a4cbbbbb48e0e74e3169d215e34f",
+    "alt": "Порядок в потоке обращений"
+  },
+  "audit": {
+    "file": "editorial-audit.webp",
+    "sha256": "8ef62c2243712995d083506df028dbe444f209d88445b1846db475d123db4392",
+    "alt": "Проверка процесса и поиск разрыва"
+  },
+  "planning": {
+    "file": "editorial-planning.webp",
+    "sha256": "3cf45eeed4667d7e9d9778db6a49074353d1d7df6cb36b9a6f1aea3af49a8958",
+    "alt": "Выбор направления автоматизации"
+  },
+  "launch": {
+    "file": "editorial-launch.webp",
+    "sha256": "009bc5fe69215669daa5ee5306604737ff52952a38f9a566039b9fc2c63e6681",
+    "alt": "Первый этап нового решения"
+  },
+  "control": {
+    "file": "editorial-control.webp",
+    "sha256": "6c7ae7a89064e3354d2aa5e71fa95f0da1f8b12314e0f2352c6f82a131a13ff2",
+    "alt": "Управляемая автоматизация"
+  },
+  "acceptance": {
+    "file": "editorial-acceptance.webp",
+    "sha256": "f5db2dea5a2127475f1437b94d462bedf1523921b3de6a9171e87e69fd3bd09f",
+    "alt": "Проверка результата работы"
+  },
+  "duplicates": {
+    "file": "editorial-duplicates.webp",
+    "sha256": "db43bb22ebcdfff2e986454ae3fef7992b25daa261821385bb7a245ef51d90e2",
+    "alt": "Обработка повторов"
+  },
+  "workflow": {
+    "file": "editorial-workflow.webp",
+    "sha256": "60359b27931c568a72f1001b16bbdf2c988d41c9f80c341c5b4e62fe0fa04652",
+    "alt": "Последовательность рабочих действий"
+  },
+  "editor": {
+    "file": "editorial-editor.webp",
+    "sha256": "0d369e802b3b3dfa16861606c1884e8baa085361683b66e43ceaf800b4946bf9",
+    "alt": "Подготовка документов"
+  },
+  "learning": {
+    "file": "editorial-learning.webp",
+    "sha256": "ae15fbd70c7f2193b0c6ed11460cc14381b933b401595b4a1591ed3a2e2c81a3",
+    "alt": "Связь знаний и рабочих систем"
+  },
+  "doors": {
+    "file": "editorial-doors.webp",
+    "sha256": "c4aa8c240d6fe378ef1f535cecfb63369509657bc58c1f13d774937ecce5fa32",
+    "alt": "Двери, объединённые единым маршрутом"
+  },
+  "integration": {
+    "file": "editorial-integration.webp",
+    "sha256": "35f548c6c6bf8b19a97ab33820c80bd0e2f0cd59f7b7d7abb25cb1c3a233b296",
+    "alt": "Связанные системы"
+  },
+  "booking": {
+    "file": "editorial-booking.webp",
+    "sha256": "73956b218fdf840f2c599776795b3c4d315d5348d37e2669476b917ec66ca54e",
+    "alt": "Планирование занятости ресурсов"
+  },
+  "finance": {
+    "file": "editorial-finance.webp",
+    "sha256": "6881bc182ef5b40fe4603addb7857325fd39857809da4d3d4435816af0da0907",
+    "alt": "Согласованные данные управленческого учёта"
+  },
+  "team": {
+    "file": "editorial-team.webp",
+    "sha256": "2c1122bc62bea6b7191cc6f67802f70145ae3d8674ae82f196997ff17a69942a",
+    "alt": "Связь участников процесса"
+  }
+}
