@@ -17,7 +17,7 @@
 
 Итоговые два доменных конфига — в `deploy/nginx/`. Сохранены TLS и доменные include; изменены только эти vhost, `nginx -t` и reload успешны. DNS, сертификаты, почта, платёжные сервисы и общие пулы PHP не менялись.
 
-Существующий sy3 include блокировал REST-запросы редактора. Для `/wp-json/wp/v2/users/me` добавлена точная передача WordPress; для коллекции `/wp-json/wp/v2/users` принудительно добавляется `context=edit`, чтобы WordPress проверял capability `list_users`. Без авторизации оба endpoint возвращают 401. Общий include не изменён; XML-RPC и прямой доступ к конфигу остаются закрыты.
+Существующий sy3 include блокировал REST-запросы редактора. Для `/wp-json/wp/v2/users/me` добавлена точная передача WordPress; для коллекции `/wp-json/wp/v2/users` принудительно добавляется `context=edit`, чтобы WordPress проверял capability `list_users`. Дополнительный WordPress REST-dispatch guard требует `list_users` для всей коллекции независимо от параметров запроса, включая JSON body, который имеет приоритет над query. Без авторизации оба endpoint возвращают 401. Общий include не изменён; XML-RPC и прямой доступ к конфигу остаются закрыты.
 
 ## Сохранение адресов
 
