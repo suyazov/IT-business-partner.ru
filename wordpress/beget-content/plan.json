@@ -55,7 +55,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 204,
@@ -82,7 +82,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 205,
@@ -100,8 +100,12 @@
     "cover": "control",
     "sources": [
       {
-        "title": "ИИ-шлюз (AI Gateway)",
+        "title": "Beget: программное подключение ИИ-шлюза",
         "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "OWASP: управление секретами приложения",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html"
       }
     ],
     "angle": "Жизненный цикл доступа конкретной интеграции и смена подрядчика; без чтения реальных секретов",
@@ -109,7 +113,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 206,
@@ -136,7 +140,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 207,
@@ -154,8 +158,12 @@
     "cover": "workflow",
     "sources": [
       {
-        "title": "ИИ-шлюз (AI Gateway)",
+        "title": "Beget: руководство по ИИ-шлюзу",
         "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "Microsoft Azure: ограниченные повторы",
+        "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry"
       }
     ],
     "angle": "Устойчивость заявки при асинхронной работе конкретного адаптера; не общий вебхук-гайд",
@@ -163,7 +171,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 208,
@@ -181,8 +189,12 @@
     "cover": "planning",
     "sources": [
       {
-        "title": "ИИ-шлюз (AI Gateway)",
+        "title": "Beget: устройство подключения ИИ-шлюза",
         "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "OWASP: посторонние инструкции внутри материалов",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html"
       }
     ],
     "angle": "Паспорт полей и допустимости передачи для одного сценария; не юридическое заключение",
@@ -190,7 +202,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 209,
@@ -208,8 +220,16 @@
     "cover": "learning",
     "sources": [
       {
-        "title": "ИИ-шлюз (AI Gateway)",
+        "title": "Beget: embeddings через ИИ-шлюз",
         "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "pgvector: векторный поиск в PostgreSQL",
+        "url": "https://github.com/pgvector/pgvector"
+      },
+      {
+        "title": "Qdrant: фильтрация по метаданным",
+        "url": "https://qdrant.tech/documentation/search/filtering/"
       }
     ],
     "angle": "Жизненный цикл индекса и проверка выдачи устаревших инструкций; не обещание готового RAG",
@@ -217,7 +237,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 210,
@@ -235,8 +255,16 @@
     "cover": "editor",
     "sources": [
       {
-        "title": "ИИ-шлюз (AI Gateway)",
+        "title": "Beget: подключение ИИ-шлюза",
         "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "WordPress REST API: состояния записей",
+        "url": "https://developer.wordpress.org/rest-api/reference/posts/"
+      },
+      {
+        "title": "WordPress: роли и полномочия",
+        "url": "https://wordpress.org/documentation/article/roles-and-capabilities/"
       }
     ],
     "angle": "Разделение генерации, фактчекинга и публикации в собственном интерфейсе; не автонаполнение SEO",
@@ -244,7 +272,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 211,
@@ -262,8 +290,12 @@
     "cover": "control",
     "sources": [
       {
-        "title": "ИИ-шлюз (AI Gateway)",
+        "title": "Beget: поддерживаемые вызовы ИИ-шлюза",
         "url": "https://beget.com/ru/kb/manual/ai-gateway"
+      },
+      {
+        "title": "OWASP: границы действий ИИ и посторонние инструкции",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html"
       }
     ],
     "angle": "Серверные полномочия и очередь подтверждения; подрядчик 1С подключается к ограниченному контуру",
@@ -271,7 +303,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 212,
@@ -289,8 +321,16 @@
     "cover": "planning",
     "sources": [
       {
-        "title": "Ограничения хостинга",
+        "title": "Beget: ограничения виртуального хостинга",
         "url": "https://beget.com/ru/kb/faq/hosting/ogranicheniya-hostinga"
+      },
+      {
+        "title": "Beget: виртуальный хостинг",
+        "url": "https://beget.com/ru/hosting/virtual"
+      },
+      {
+        "title": "Beget: облачные услуги и VPS",
+        "url": "https://beget.com/ru/cloud"
       }
     ],
     "angle": "Решение через требования фоновых обработчиков и доступа; не общее сравнение тарифов",
@@ -298,7 +338,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 213,
@@ -316,8 +356,16 @@
     "cover": "launch",
     "sources": [
       {
-        "title": "Автоматическая установка CMS",
+        "title": "Beget: автоматическая установка CMS",
         "url": "https://beget.com/ru/kb/faq/hosting/avtomaticheskaya-ustanovka-cms"
+      },
+      {
+        "title": "WordPress: требования приложения",
+        "url": "https://wordpress.org/about/requirements/"
+      },
+      {
+        "title": "WordPress: роли и полномочия",
+        "url": "https://wordpress.org/documentation/article/roles-and-capabilities/"
       }
     ],
     "angle": "Граница автоустановки и бизнес-приёмки сайта; не инструкция установки по кликам",
@@ -325,7 +373,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 214,
@@ -343,8 +391,12 @@
     "cover": "team",
     "sources": [
       {
-        "title": "Сайты",
+        "title": "Beget: управление сайтами и доменами",
         "url": "https://beget.com/ru/kb/manual/sajty"
+      },
+      {
+        "title": "WordPress: роли и полномочия",
+        "url": "https://wordpress.org/documentation/article/roles-and-capabilities/"
       }
     ],
     "angle": "Карта соответствий доменов, каталогов и ответственных; не DNS-учебник",
@@ -352,7 +404,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 215,
@@ -370,8 +422,16 @@
     "cover": "acceptance",
     "sources": [
       {
-        "title": "Как перенести к нам сайт от другого хостинг-провайдера",
+        "title": "Beget: технические вопросы переноса сайта",
         "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
+      },
+      {
+        "title": "ЮKassa: уведомления о платежах",
+        "url": "https://yookassa.ru/developers/using-api/webhooks"
+      },
+      {
+        "title": "WooCommerce: диагностика доставки",
+        "url": "https://woocommerce.com/document/troubleshooting-core-shipping/"
       }
     ],
     "angle": "Заказ как сквозной маршрут и запрет параллельной обработки платежей на стенде",
@@ -379,7 +439,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 216,
@@ -397,8 +457,16 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Компиляция и настройка PHP-расширений на хостинге Beget",
+        "title": "Beget: расширения PHP и режим выполнения",
         "url": "https://beget.com/ru/kb/how-to/web-apps/php"
+      },
+      {
+        "title": "PHP: интерфейс выполнения SAPI",
+        "url": "https://www.php.net/manual/en/function.php-sapi-name.php"
+      },
+      {
+        "title": "PHP: поддерживаемые ветки",
+        "url": "https://www.php.net/supported-versions.php"
       }
     ],
     "angle": "Матрица зависимостей форм, фоновых задач и расширений; не общая статья об обновлении WordPress",
@@ -406,7 +474,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 217,
@@ -424,8 +492,16 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Блокировка сессии в PHP",
+        "title": "Beget: блокировка PHP-сессии",
         "url": "https://beget.com/ru/kb/how-to/other/blokirovka-php-sessij"
+      },
+      {
+        "title": "PHP: завершение записи сессии",
+        "url": "https://www.php.net/manual/en/function.session-write-close.php"
+      },
+      {
+        "title": "PHP: начало сессии и read_and_close",
+        "url": "https://www.php.net/manual/en/function.session-start.php"
       }
     ],
     "angle": "Воспроизведение блокировки на одновременной операции кабинета; не общая оптимизация скорости",
@@ -433,7 +509,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 218,
@@ -451,12 +527,12 @@
     "cover": "integration",
     "sources": [
       {
-        "title": "Как перенести к нам сайт от другого хостинг-провайдера",
-        "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
+        "title": "Beget: DNS-записи",
+        "url": "https://beget.com/ru/kb/manual/dns"
       },
       {
-        "title": "DNS-записи",
-        "url": "https://beget.com/ru/kb/manual/dns"
+        "title": "Beget: вопросы переноса сайта",
+        "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
       }
     ],
     "angle": "Разделение веб- и почтового маршрутов в одной карте переключения",
@@ -464,7 +540,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 219,
@@ -482,8 +558,12 @@
     "cover": "acceptance",
     "sources": [
       {
-        "title": "Резервное копирование (BackUp)",
+        "title": "Beget: резервные копии хостинга",
         "url": "https://beget.com/ru/kb/manual/backup"
+      },
+      {
+        "title": "Beget: восстановление файлов VPS",
+        "url": "https://beget.com/ru/kb/manual/rezervnoe-kopirovanie-vps"
       }
     ],
     "angle": "Выбор минимального объекта восстановления без отката транзакционных данных",
@@ -491,7 +571,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 220,
@@ -509,12 +589,16 @@
     "cover": "control",
     "sources": [
       {
-        "title": "Что такое снапшоты и в чем их отличие от бэкапов",
+        "title": "Beget: backup и snapshot",
         "url": "https://beget.com/ru/kb/how-to/other/backup-i-snapshot-v-chyom-raznica"
       },
       {
-        "title": "Резервное копирование VPS",
+        "title": "Beget: файловое восстановление VPS",
         "url": "https://beget.com/ru/kb/manual/rezervnoe-kopirovanie-vps"
+      },
+      {
+        "title": "MySQL: копирование и восстановление базы",
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html"
       }
     ],
     "angle": "Согласование файлов и изменяемых заказов; не повтор общего определения backup",
@@ -522,7 +606,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 221,
@@ -870,6 +954,14 @@
       {
         "title": "Перенос базы данных WordPress с виртуального хостинга в облако",
         "url": "https://beget.com/ru/kb/how-to/vps/perenos-bazy-dannyh-wordpress-s-virtualnogo-hostinga-v-oblako"
+      },
+      {
+        "title": "WordPress: настройка wp-config.php",
+        "url": "https://developer.wordpress.org/advanced-administration/wordpress/wp-config/"
+      },
+      {
+        "title": "WordPress: устройство WP-Cron",
+        "url": "https://developer.wordpress.org/plugins/cron/"
       }
     ],
     "angle": "Транзакционные маршруты, фоновые задачи и сверка источника записи",
@@ -877,7 +969,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 234,
@@ -904,7 +996,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 235,
@@ -924,6 +1016,14 @@
       {
         "title": "Использование MySQL на отдельном сервере с приватной сетью VPS",
         "url": "https://beget.com/ru/kb/how-to/vps/mysql-with-private-network"
+      },
+      {
+        "title": "MySQL: имена аккаунтов и хост подключения",
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/account-names.html"
+      },
+      {
+        "title": "MySQL: проверка доступа при соединении",
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/connection-access.html"
       }
     ],
     "angle": "Матрица разрешённых соединений приложения, админа и заданий",
@@ -931,7 +1031,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 236,
@@ -958,7 +1058,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 237,
@@ -978,6 +1078,10 @@
       {
         "title": "Облачный PostgreSQL: Подключение к базе данных",
         "url": "https://beget.com/ru/kb/faq/cloud/oblachnyj-postgresql-podklyuchenie-k-baze-dannyh"
+      },
+      {
+        "title": "PostgreSQL: назначение привилегий GRANT",
+        "url": "https://www.postgresql.org/docs/current/sql-grant.html"
       }
     ],
     "angle": "Раздельные роли загрузки и чтения; не обещание настроенной безопасности одной галочкой",
@@ -985,7 +1089,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 238,
@@ -1012,7 +1116,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 239,
@@ -1032,6 +1136,10 @@
       {
         "title": "Принципы работы SQL Join: виды, запросы, примеры",
         "url": "https://beget.com/ru/kb/how-to/other/sql-join-vidy-zaprosy-primery"
+      },
+      {
+        "title": "PostgreSQL: соединение строк таблиц",
+        "url": "https://www.postgresql.org/docs/current/tutorial-join.html"
       }
     ],
     "angle": "Пример зерна данных и контрольных сумм, собственный набор строк вместо копии SQL-справки",
@@ -1039,7 +1147,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 240,
@@ -1059,6 +1167,10 @@
       {
         "title": "Базы данных MySQL",
         "url": "https://beget.com/ru/kb/manual/mysql"
+      },
+      {
+        "title": "MySQL: назначение разрешений GRANT",
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/grant.html"
       }
     ],
     "angle": "Матрица технических пользователей, задач и отзыва доступа",
@@ -1066,7 +1178,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 241,
@@ -1768,7 +1880,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 267,
@@ -1795,7 +1907,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 268,
@@ -1822,7 +1934,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 269,
@@ -1849,7 +1961,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 270,
@@ -1876,7 +1988,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 271,
@@ -1903,7 +2015,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 272,
@@ -1930,7 +2042,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 273,
@@ -1957,7 +2069,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 274,
@@ -1975,8 +2087,12 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Как очистить образы, контейнеры и тома Docker",
+        "title": "Beget: очистка образов, контейнеров и томов Docker",
         "url": "https://beget.com/ru/kb/how-to/vps/ochistka-obrazov-kontejnerov-i-tomov-v-docker"
+      },
+      {
+        "title": "Docker: жизненный цикл volumes",
+        "url": "https://docs.docker.com/engine/storage/volumes/"
       }
     ],
     "angle": "Проверка владельца и использования каждого объекта; без универсальной команды prune",
@@ -1984,7 +2100,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 275,
@@ -2002,8 +2118,12 @@
     "cover": "planning",
     "sources": [
       {
-        "title": "Terraform для управления облачной инфраструктурой Beget",
+        "title": "Beget: Terraform для облачной инфраструктуры",
         "url": "https://beget.com/ru/kb/faq/cloud/terraform"
+      },
+      {
+        "title": "HashiCorp: terraform plan",
+        "url": "https://developer.hashicorp.com/terraform/cli/commands/plan"
       }
     ],
     "angle": "Разделение кода, плана и полномочий на применение; не исполнение реальных изменений",
@@ -2011,7 +2131,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 276,
@@ -2029,8 +2149,12 @@
     "cover": "acceptance",
     "sources": [
       {
-        "title": "Gitea Actions: установка и настройка встроенного CI/CD для автоматизации задач в вашем репозитории",
+        "title": "Beget: Gitea Actions",
         "url": "https://beget.com/ru/kb/how-to/vps/gitea-actions"
+      },
+      {
+        "title": "SY.3: проверка форм и amoCRM для Маткласса",
+        "url": "https://sy3.ru/cases/matklass/"
       }
     ],
     "angle": "Целевой сквозной сценарий в конвейере; не обзор CI/CD",
@@ -2038,7 +2162,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 277,
@@ -2656,6 +2780,14 @@
       {
         "title": "Systemctl: управление сервисами и юнитами Systemd",
         "url": "https://beget.com/ru/kb/how-to/vps/systemctl-upravlenie-servisami-i-yunitami"
+      },
+      {
+        "title": "systemd: конфигурация службы и типы запуска",
+        "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html"
+      },
+      {
+        "title": "systemctl: состояния и управление службами",
+        "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html"
       }
     ],
     "angle": "Различение активного процесса и успешного задания, без установки юнитов читателю вслепую",
@@ -2663,7 +2795,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 300,
@@ -2690,7 +2822,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 301,
@@ -2721,6 +2853,6 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   }
 ]
