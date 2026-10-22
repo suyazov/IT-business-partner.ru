@@ -47,7 +47,7 @@ foreach($records as $r){
     // Preserve the exact serialized original blocks, even if the editor changes its canonical format.
     $restored=$blocks;array_splice($restored,$insert,count($added));
     if(serialize_blocks($restored)!==$post->post_content)WP_CLI::error('Original block round-trip differs: '.$key);
-    $plans[]=['id'=>$post->ID,'key'=>$key,'action'=>'expanded','content'=>$content,'revision'=>$revision,'hash_meta'=>$hash_meta,'before'=>hash('sha256',$post->post_content),'visible_characters'=>mb_strlen($substantive)];
+    $plans[]=['id'=>$post->ID,'key'=>$key,'action'=>'expanded','content'=>$content,'revision'=>$revision,'hash_meta'=>$hash_meta,'before'=>hash('sha256',$post->post_content),'post_date'=>$post->post_date,'post_date_gmt'=>$post->post_date_gmt,'visible_characters'=>mb_strlen($substantive)];
 }
 if(getenv('SY3_IMPORT_DRY_RUN')==='1'){WP_CLI::success('Preflight: '.count($plans).' owned articles; '.count(array_filter($plans,fn($p)=>$p['action']==='expanded')).' additions; original blocks/statuses/metadata preserved; no writes.');return;}
 // Recheck every source hash immediately before the first write.
@@ -55,7 +55,7 @@ foreach($plans as $p)if($p['action']==='expanded'&&!hash_equals($p['before'],has
 $receipt=[];
 foreach($plans as $p){
     if($p['action']==='expanded'){
-        $result=wp_update_post(wp_slash(['ID'=>$p['id'],'post_content'=>$p['content']]),true);if(is_wp_error($result))WP_CLI::error($result->get_error_message());
+        $result=wp_update_post(wp_slash(['ID'=>$p['id'],'post_content'=>$p['content'],'edit_date'=>true,'post_date'=>$p['post_date'],'post_date_gmt'=>$p['post_date_gmt']]),true);if(is_wp_error($result))WP_CLI::error($result->get_error_message());
         $hash=hash('sha256',get_post_field('post_content',$p['id']));update_post_meta($p['id'],$p['hash_meta'],$hash);update_post_meta($p['id'],'_sy3_longform_revision',$p['revision']);update_post_meta($p['id'],'_sy3_longform_characters',$p['visible_characters']);
         update_post_meta($p['id'],'_sy3_editorial_reviewed_hash',sy3_editorial_review_hash($p['id']));
     }
