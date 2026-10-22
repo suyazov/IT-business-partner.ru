@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T22:12:15.068163+00:00",
+  "checked_at": "2026-10-22T22:27:22.454151+00:00",
   "method": "Official primary pages opened and read through web tool; narrow provider facts plus original methodology, no paragraph-by-paragraph rewrite.",
   "sources": [
     {
@@ -80,6 +80,41 @@
     {
       "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta",
       "title": "Настройки аккаунта",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/how-to/vps/vector-servis-sbora-logov",
+      "title": "Vector – руководство по установке сервиса для сбора логов",
+      "available": true
+    },
+    {
+      "url": "https://vector.dev/docs/introduction/concepts/",
+      "title": "Vector: компоненты и понятия конвейера событий",
+      "available": true
+    },
+    {
+      "url": "https://vector.dev/docs/reference/configuration/pipeline-components/",
+      "title": "Vector: структура источников, преобразований и получателей",
+      "available": true
+    },
+    {
+      "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-logirovanie-i-rotacziyu-logov-nginx-na-ubuntu",
+      "title": "Как настроить логирование и ротацию логов Nginx на Ubuntu",
+      "available": true
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_log_module.html",
+      "title": "Nginx: журнал запросов и переменные времени",
+      "available": true
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_upstream_module.html",
+      "title": "Nginx: параметры взаимодействия с upstream",
+      "available": true
+    },
+    {
+      "url": "https://nginx.org/en/docs/control.html",
+      "title": "Nginx: управление и ротация журналов",
       "available": true
     }
   ]

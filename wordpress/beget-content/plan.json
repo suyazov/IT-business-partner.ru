@@ -624,8 +624,12 @@
     "cover": "acceptance",
     "sources": [
       {
-        "title": "Как перенести к нам сайт от другого хостинг-провайдера",
+        "title": "Beget: подготовка переноса сайта",
         "url": "https://beget.com/ru/kb/how-to/services/kak-perenesti-k-nam-sajt-ot-drugogo-hosting-provajdera"
+      },
+      {
+        "title": "Beget: DNS-записи",
+        "url": "https://beget.com/ru/kb/manual/dns"
       }
     ],
     "angle": "Предварительная проверка реального Host, TLS, формы и запрет боевых уведомлений со стенда",
@@ -633,7 +637,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 222,
@@ -651,8 +655,16 @@
     "cover": "integration",
     "sources": [
       {
-        "title": "DNS-записи",
+        "title": "Beget: DNS-записи",
         "url": "https://beget.com/ru/kb/manual/dns"
+      },
+      {
+        "title": "RFC 1034: модель DNS",
+        "url": "https://www.rfc-editor.org/rfc/rfc1034"
+      },
+      {
+        "title": "ЮKassa: обработка входящих уведомлений",
+        "url": "https://yookassa.ru/developers/using-api/webhooks"
       }
     ],
     "angle": "Сверка доставки событий на старый и новый endpoint без изменения поисковых URL",
@@ -660,7 +672,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 223,
@@ -687,7 +699,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 224,
@@ -705,8 +717,16 @@
     "cover": "planning",
     "sources": [
       {
-        "title": "Домены и поддомены",
+        "title": "Beget: домены и поддомены",
         "url": "https://beget.com/ru/kb/manual/domeny-i-poddomeny"
+      },
+      {
+        "title": "MDN: параметры Set-Cookie",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie"
+      },
+      {
+        "title": "MDN: CORS",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"
       }
     ],
     "angle": "Отдельный продуктовый маршрут и контроль ссылок из писем; не настройка A-записи по шагам",
@@ -714,7 +734,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 225,
@@ -732,8 +752,16 @@
     "cover": "integration",
     "sources": [
       {
-        "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+        "title": "Beget: почтовая аутентификация в DNS",
         "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim"
+      },
+      {
+        "title": "RFC 7208: SPF",
+        "url": "https://www.rfc-editor.org/rfc/rfc7208"
+      },
+      {
+        "title": "RFC 9989: согласование доменов",
+        "url": "https://datatracker.ietf.org/doc/html/rfc9989"
       }
     ],
     "angle": "Одна согласованная карта отправителей и контроль заголовков; не копия настройки DKIM",
@@ -741,7 +769,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 226,
@@ -759,8 +787,20 @@
     "cover": "acceptance",
     "sources": [
       {
-        "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+        "title": "Beget: почтовая аутентификация",
         "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim"
+      },
+      {
+        "title": "RFC 6376: DKIM",
+        "url": "https://www.rfc-editor.org/rfc/rfc6376"
+      },
+      {
+        "title": "RFC 8301: требования к алгоритмам DKIM",
+        "url": "https://www.rfc-editor.org/rfc/rfc8301"
+      },
+      {
+        "title": "RFC 9989: согласование идентичностей",
+        "url": "https://datatracker.ietf.org/doc/html/rfc9989"
       }
     ],
     "angle": "Проверка писем из разных источников после почтовой миграции",
@@ -768,7 +808,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 227,
@@ -786,8 +826,16 @@
     "cover": "audit",
     "sources": [
       {
-        "title": "Настройка DKIM-, SPF- и DMARC-записей домена",
+        "title": "Beget: почтовая аутентификация",
         "url": "https://beget.com/ru/kb/how-to/mail/nastrojka-dkim"
+      },
+      {
+        "title": "RFC 9989: DMARC",
+        "url": "https://datatracker.ietf.org/doc/html/rfc9989"
+      },
+      {
+        "title": "RFC 9990: агрегированные отчёты DMARC",
+        "url": "https://www.rfc-editor.org/rfc/rfc9990"
       }
     ],
     "angle": "Разбор источников перед изменением политики; не готовая строгая политика для любого домена",
@@ -795,7 +843,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 228,
@@ -813,8 +861,16 @@
     "cover": "workflow",
     "sources": [
       {
-        "title": "Forward (перенаправление почты)",
+        "title": "Beget: пересылка и сохранение письма",
         "url": "https://beget.com/ru/kb/faq/mail/forward-perenapravlenie-pochty"
+      },
+      {
+        "title": "Beget: управление почтой",
+        "url": "https://beget.com/ru/kb/manual/pochta"
+      },
+      {
+        "title": "RFC 9989: взаимодействие почтовых маршрутов",
+        "url": "https://datatracker.ietf.org/doc/html/rfc9989"
       }
     ],
     "angle": "Маршрут назначения обращения и контроль ответа, а не подключение почты к CRM",
@@ -822,7 +878,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 229,
@@ -1205,7 +1261,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 242,
@@ -1225,6 +1281,14 @@
       {
         "title": "Подключение облачного объектного хранилища (S3) в WordPress и настройка хранения изображений в нем",
         "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-s3-v-wordpress-i-nastrojka-hraneniya-izobrazhenij-v-nem"
+      },
+      {
+        "title": "WordPress: медиатека и сведения вложений",
+        "url": "https://wordpress.org/documentation/article/media-library-screen/"
+      },
+      {
+        "title": "WordPress: вывод изображений вложения",
+        "url": "https://developer.wordpress.org/reference/functions/wp_get_attachment_image/"
       }
     ],
     "angle": "Сверка старых страниц, новых загрузок и альтернативного текста; не общий CDN-гайд",
@@ -1232,7 +1296,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 243,
@@ -1259,7 +1323,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 244,
@@ -1286,7 +1350,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 245,
@@ -1306,6 +1370,10 @@
       {
         "title": "Интеграция объектного хранилища S3 c WordPress: настройка, создание и восстановление резервной копии",
         "url": "https://beget.com/ru/kb/faq/cloud/rezervnoe-kopirovanie-wordpress-v-s3-nastrojka-sozdanie-i-vosstanovlenie"
+      },
+      {
+        "title": "WordPress: база и файловые компоненты резервирования",
+        "url": "https://wordpress.org/documentation/article/wordpress-backups/"
       }
     ],
     "angle": "Учёт результатов конкретной цепочки выгрузки, не общее содержание backup",
@@ -1313,7 +1381,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 246,
@@ -1333,6 +1401,10 @@
       {
         "title": "Перенос данных в облачное хранилище S3 Beget из другого объектного хранилища S3",
         "url": "https://beget.com/ru/kb/faq/cloud/perenos-dannyh-v-oblachnoe-hranilishche-s3-beget"
+      },
+      {
+        "title": "rclone: сверка исходного и целевого набора",
+        "url": "https://rclone.org/commands/rclone_check/"
       }
     ],
     "angle": "Манифест объектов, сверка размеров и тест конечных страниц",
@@ -1340,7 +1412,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 247,
@@ -1360,6 +1432,10 @@
       {
         "title": "Подключение бакета S3 как диска в Windows – при помощи утилиты rclone",
         "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-baketa-kak-diska-v-windows-rclone"
+      },
+      {
+        "title": "rclone: монтирование, ограничения и VFS-кэш",
+        "url": "https://rclone.org/commands/rclone_mount/"
       }
     ],
     "angle": "Договорённости о владельце файла и публикации версии; не замена офисной совместной работы",
@@ -1367,7 +1443,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 248,
@@ -1394,7 +1470,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 249,
@@ -1414,6 +1490,14 @@
       {
         "title": "Подключение CDN к WordPress в облаке Beget",
         "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress"
+      },
+      {
+        "title": "MDN: модель HTTP-кэширования",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching"
+      },
+      {
+        "title": "WordPress: версия подключаемого стиля",
+        "url": "https://developer.wordpress.org/reference/functions/wp_enqueue_style/"
       }
     ],
     "angle": "Разделение кэша браузера, приложения и доставки на конкретном релизе",
@@ -1421,7 +1505,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 250,
@@ -1441,6 +1525,10 @@
       {
         "title": "Подключение CDN к WordPress в облаке Beget",
         "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress"
+      },
+      {
+        "title": "MDN: ограничения хранения Cache-Control",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control"
       }
     ],
     "angle": "Классификация ответов по общим и персональным данным; не обещание настроек для любой CMS",
@@ -1448,7 +1536,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 251,
@@ -1792,6 +1880,14 @@
       {
         "title": "Vector – руководство по установке сервиса для сбора логов",
         "url": "https://beget.com/ru/kb/how-to/vps/vector-servis-sbora-logov"
+      },
+      {
+        "title": "Vector: компоненты и понятия конвейера событий",
+        "url": "https://vector.dev/docs/introduction/concepts/"
+      },
+      {
+        "title": "Vector: структура источников, преобразований и получателей",
+        "url": "https://vector.dev/docs/reference/configuration/pipeline-components/"
       }
     ],
     "angle": "Схема идентификаторов и состояний нескольких приложений; не каталог команд логирования",
@@ -1799,7 +1895,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 264,
@@ -1819,6 +1915,14 @@
       {
         "title": "Как настроить логирование и ротацию логов Nginx на Ubuntu",
         "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-logirovanie-i-rotacziyu-logov-nginx-na-ubuntu"
+      },
+      {
+        "title": "Nginx: журнал запросов и переменные времени",
+        "url": "https://nginx.org/en/docs/http/ngx_http_log_module.html"
+      },
+      {
+        "title": "Nginx: параметры взаимодействия с upstream",
+        "url": "https://nginx.org/en/docs/http/ngx_http_upstream_module.html"
       }
     ],
     "angle": "Последовательная диагностика конкретного POST без раскрытия тела заявки",
@@ -1826,7 +1930,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 265,
@@ -1846,6 +1950,10 @@
       {
         "title": "Как настроить логирование и ротацию логов Nginx на Ubuntu",
         "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-logirovanie-i-rotacziyu-logov-nginx-na-ubuntu"
+      },
+      {
+        "title": "Nginx: управление и ротация журналов",
+        "url": "https://nginx.org/en/docs/control.html"
       }
     ],
     "angle": "Политика сроков и проверка продолжения записи после ротации",
@@ -1853,7 +1961,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 266,
@@ -2180,8 +2288,12 @@
     "cover": "launch",
     "sources": [
       {
-        "title": "Harbor – как создать собственный реестр контейнеров",
+        "title": "Beget: собственный реестр Harbor",
         "url": "https://beget.com/ru/kb/how-to/vps/harbor-sobstvennyy-reestr-konteynerov"
+      },
+      {
+        "title": "Docker: получение образа и digest",
+        "url": "https://docs.docker.com/reference/cli/docker/image/pull/"
       }
     ],
     "angle": "Связь версии образа, исходного коммита и результатов приёмки",
@@ -2189,7 +2301,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 278,
@@ -2216,7 +2328,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 279,
@@ -2243,7 +2355,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 280,
@@ -2270,7 +2382,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 281,
@@ -2297,7 +2409,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 282,
@@ -2324,7 +2436,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 283,
@@ -2342,8 +2454,12 @@
     "cover": "integration",
     "sources": [
       {
-        "title": "Как установить Moodle на shared hosting или VPS",
+        "title": "Beget: установка Moodle на хостинге или VPS",
         "url": "https://beget.com/ru/kb/faq/how-to-install-moodle-virtual"
+      },
+      {
+        "title": "Moodle: Enrolments",
+        "url": "https://docs.moodle.org/405/en/Enrolments"
       }
     ],
     "angle": "Сквозной маршрут с проверкой прав и повтора, без утверждения готового модуля Beget",
@@ -2351,7 +2467,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 284,
@@ -2369,8 +2485,12 @@
     "cover": "editor",
     "sources": [
       {
-        "title": "Как создать дистанционный курс в Moodle",
+        "title": "Beget: создание курса в Moodle",
         "url": "https://beget.com/ru/kb/faq/online-courses-platform"
+      },
+      {
+        "title": "Moodle: условия завершения элемента",
+        "url": "https://docs.moodle.org/405/en/Activity_completion"
       }
     ],
     "angle": "Связь изменения регламента с конкретным назначением обучения",
@@ -2378,7 +2498,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 285,
@@ -2405,7 +2525,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 286,
@@ -2432,7 +2552,7 @@
     "series": "search",
     "standalone": false,
     "collection": "beget",
-    "manuscript_ready": false
+    "manuscript_ready": true
   },
   {
     "id": 287,
