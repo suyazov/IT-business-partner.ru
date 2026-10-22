@@ -84,6 +84,106 @@
     "tables": 3,
     "sha256": "b95b93ac4d0637df80d71b10ad901f5bb7abdfedc8c4faee16ed1501a1a6181a"
   },
+  "article-51": {
+    "visible_characters": 13224,
+    "tables": 2,
+    "sha256": "333192fcdc5d83ba140f097118285858b577fb79eaea661f8dffcaee70b411f1"
+  },
+  "article-52": {
+    "visible_characters": 13111,
+    "tables": 2,
+    "sha256": "c424f89a6c61e25e31dec39630881bbaf61364eee2197f30ae597d4add9e5e47"
+  },
+  "article-53": {
+    "visible_characters": 13287,
+    "tables": 3,
+    "sha256": "6dcdd484898918eb944c6d01a9c49bd0912b20d148ad17b239f5d6e2b782b7f9"
+  },
+  "article-54": {
+    "visible_characters": 13029,
+    "tables": 3,
+    "sha256": "ec06edc1e04375bbd9bb557128362a9f545207f36f11c4f0ae1c9cf09d5db56a"
+  },
+  "article-55": {
+    "visible_characters": 13558,
+    "tables": 3,
+    "sha256": "fb9ebf428396fb6528ef7ff54f1b585a69e46a0594c22c4d75f68a80cb7c975b"
+  },
+  "article-56": {
+    "visible_characters": 13414,
+    "tables": 3,
+    "sha256": "d0aef46a325e4c75d37202a60e9e96028a7d0e5d8ad586021ee022146c199f30"
+  },
+  "article-57": {
+    "visible_characters": 13841,
+    "tables": 3,
+    "sha256": "a1fc6d3bebf0481d165820db6aec27e82cdb9b5e9aadc55d8d61f7bc4e76a210"
+  },
+  "article-58": {
+    "visible_characters": 13019,
+    "tables": 3,
+    "sha256": "3e4f93858b332b2f65c1d892d96d004ba72caadfc5a561fe4603a8c9064e9d5e"
+  },
+  "article-59": {
+    "visible_characters": 12560,
+    "tables": 3,
+    "sha256": "de196defaac47ce0b627369e9de66fec0af020bc519e2f95c15fcf69538b98d3"
+  },
+  "article-60": {
+    "visible_characters": 13712,
+    "tables": 3,
+    "sha256": "9f9043b041639e28e883756834b97f1585a0b2f31d87f59667681a51ed81e73c"
+  },
+  "article-61": {
+    "visible_characters": 13286,
+    "tables": 2,
+    "sha256": "ca05aed450ca56bb7a7185f3ed43402f05b8c68213f66abcf2903a3a77b813d2"
+  },
+  "article-62": {
+    "visible_characters": 13905,
+    "tables": 3,
+    "sha256": "ab16fca3e27eda197629c862ff1963277de1c93b8a903f18067fd6518199a9d1"
+  },
+  "article-63": {
+    "visible_characters": 13274,
+    "tables": 3,
+    "sha256": "50dbdf8129b814067d7b27a9812fc730f6f21ab9de0ed95cb54cdaee42e9de4e"
+  },
+  "article-64": {
+    "visible_characters": 12984,
+    "tables": 3,
+    "sha256": "43b7614db4de9b2738fbd4d663ba84419efce35d6c2350c3db68661dee94c742"
+  },
+  "article-65": {
+    "visible_characters": 12482,
+    "tables": 2,
+    "sha256": "e41dbe7939e859da9619c286c6e6afcb5997eac27adf9fee84371cc5c4cb2c80"
+  },
+  "article-66": {
+    "visible_characters": 13131,
+    "tables": 2,
+    "sha256": "01401dd92e569823506c024dee69fc041b02da042a4eadc59620ae7662506739"
+  },
+  "article-67": {
+    "visible_characters": 13299,
+    "tables": 2,
+    "sha256": "54295500a0a3c5923776d20a0af9ede1a5b8cadcdd6c671771374d1cd60ff063"
+  },
+  "article-68": {
+    "visible_characters": 13029,
+    "tables": 2,
+    "sha256": "b3803ea4a9743a352fc3f275e042465c39a71240324f8481f758a966aa617ec5"
+  },
+  "article-69": {
+    "visible_characters": 13741,
+    "tables": 3,
+    "sha256": "5f3c78b3f8f1dd5a4a68ea9cc720cc6e1e48d73d340b62932ccf343858fed557"
+  },
+  "article-70": {
+    "visible_characters": 14173,
+    "tables": 3,
+    "sha256": "78d2f2d9218040fb2cf71be50eeecc2d3067725df23b46a138fbcfdc24bf2f24"
+  },
   "published-integratsiya-dubli-i-povtory": {
     "visible_characters": 12909,
     "tables": 3,
