@@ -14,6 +14,10 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
 .brand-sy3 .is-style-outline .wp-block-button__link{background:transparent;color:var(--ink);border-color:#9ea69a}
 .brand-sy3 .is-style-outline .wp-block-button__link:hover{background:#ebf1df}
 .brand-sy3 h2{font-size:clamp(43px,5.1vw,76px);font-weight:500;line-height:1.08;letter-spacing:-.06em}
+.brand-sy3 .article-aside{min-width:0}
+.brand-sy3 .article-aside h2{font-size:clamp(28px,2.2vw,32px);line-height:1.15;letter-spacing:-.04em;overflow-wrap:anywhere}
+.brand-sy3 .aside-profile img{flex-shrink:0}
+.brand-sy3 .aside-profile span{min-width:0;overflow-wrap:anywhere}
 .brand-sy3 .eyebrow{font-size:12px;font-weight:500;letter-spacing:.075em}
 .brand-sy3 .section{padding-block:112px}
 .brand-sy3 .section-heading{gap:35px;margin-bottom:56px;align-items:flex-end}
