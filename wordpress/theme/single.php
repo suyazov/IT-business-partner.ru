@@ -15,7 +15,7 @@ get_header();
     $minutes = max(1, (int) ceil($words / 170));
     ?>
     <header class="page-heading wrap">
-        <a class="eyebrow back-link" href="<?php echo esc_url(home_url('/' . $back[0])); ?>">← <?php echo esc_html($back[1]); ?></a>
+        <a class="eyebrow back-link" href="<?php echo esc_url(home_url('/' . $back[0])); ?>"><?php echo esc_html($back[1]); ?></a>
         <h1><?php the_title(); ?></h1>
         <p class="lead"><?php echo esc_html(get_the_excerpt()); ?></p>
         <?php if ($kind === 'post'): ?>
@@ -30,7 +30,7 @@ get_header();
             <p class="eyebrow">Есть похожая задача?</p>
             <h2><?php echo sy3_personal() ? 'Начнём<br>с вашего процесса.' : 'Обсудим<br>вашу задачу.'; ?></h2>
             <p><?php echo sy3_personal() ? 'Расскажите, где теряются заявки или время команды. Разберём исходную ситуацию и следующий шаг.' : 'Расскажите, что хотите запустить или улучшить: сайт, CRM, интеграцию или работу команды. Предложу понятный первый шаг.'; ?></p>
-            <a class="button" href="<?php echo esc_url(sy3_contact_url()); ?>">Обсудить задачу ↗</a>
+            <a class="button" href="<?php echo esc_url(sy3_contact_url()); ?>">Обсудить задачу</a>
             <p class="aside-author"><?php echo sy3_personal() ? 'Артём Суязов<br><span>CRM · интеграции · ИИ</span>' : 'Вы пишете мне напрямую.<br><span>Начнём с задачи — готовое ТЗ не нужно.</span>'; ?></p>
         </aside>
     </div>

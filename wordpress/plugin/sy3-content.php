@@ -31,6 +31,10 @@ function sy3_register_content(): void {
 function sy3_is_personal(): bool { return get_option('sy3_site_mode') === 'personal'; }
 add_action('init', 'sy3_register_content');
 add_action('pre_get_posts', function ($query) {
+    if (!is_admin() && $query->is_main_query() && $query->is_post_type_archive('sy3_service')) {
+        $query->set('orderby', ['menu_order' => 'ASC', 'ID' => 'ASC']);
+        $query->set('posts_per_page', 50);
+    }
     if (!is_admin() && $query->is_main_query() && ($query->is_post_type_archive('sy3_case') || $query->is_tax('sy3_case_topic'))) {
         $query->set('orderby', ['menu_order' => 'ASC', 'ID' => 'ASC']);
     }
@@ -95,6 +99,11 @@ add_action('wp_head', function () {
         $data = ['@context' => 'https://schema.org', '@type' => 'Article', 'headline' => get_the_title(), 'description' => wp_strip_all_tags($description), 'mainEntityOfPage' => get_permalink(), 'datePublished' => get_the_date(DATE_W3C), 'dateModified' => get_the_modified_date(DATE_W3C), 'author' => ['@type' => 'Person', 'name' => 'Артём Суязов', 'url' => home_url('/about/')]];
         echo '<script type="application/ld+json">' . wp_json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) . '</script>';
     }
+    if (is_singular() && has_post_thumbnail()) echo '<meta property="og:image" content="' . esc_url(get_the_post_thumbnail_url(null, 'large')) . '">' . "\n";
+    if (is_singular('sy3_service')) {
+        $data = ['@context' => 'https://schema.org', '@type' => 'Service', 'name' => get_the_title(), 'description' => wp_strip_all_tags($description), 'url' => get_permalink(), 'provider' => ['@type' => 'Person', 'name' => 'Артём Суязов', 'url' => home_url('/about/')]];
+        echo '<script type="application/ld+json">' . wp_json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) . '</script>';
+    }
 }, 5);
 
 add_action('template_redirect', function () {
@@ -120,6 +129,9 @@ add_action('template_redirect', function () {
         header('Content-Type: text/plain; charset=utf-8');
         echo '# ' . get_bloginfo('name') . "\n\n> Сайты, веб-сервисы, CRM, интеграции и ИИ для бизнеса. Автор: Артём Суязов.\n\n";
         foreach (['Услуги' => '/services/', 'Кейсы' => '/cases/', 'Журнал' => '/journal/', 'Контакты' => '/contacts/'] as $label => $path) echo '- [' . $label . '](' . home_url($path) . ")\n";
+        echo "\n## Услуги\n\n";
+        foreach (get_posts(['post_type' => 'sy3_service', 'post_status' => 'publish', 'numberposts' => -1, 'orderby' => 'menu_order', 'order' => 'ASC']) as $service) echo '- [' . get_the_title($service) . '](' . get_permalink($service) . '): ' . get_the_excerpt($service) . "\n";
+        echo "\n## Кейсы\n\n";
         foreach ($items as $item) echo '- [' . get_the_title($item) . '](' . get_permalink($item) . '): ' . get_the_excerpt($item) . "\n";
         exit;
     }

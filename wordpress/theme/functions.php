@@ -15,7 +15,12 @@ add_action('after_setup_theme', function () {
 
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('sy3-site', get_theme_file_uri('assets/design.css'), [], wp_get_theme()->get('Version'));
-    if (!sy3_personal()) wp_enqueue_style('sy3-refinement', get_theme_file_uri('assets/refinement.css'), ['sy3-site'], wp_get_theme()->get('Version'));
+    if (!sy3_personal()) {
+        wp_enqueue_style('sy3-refinement', get_theme_file_uri('assets/refinement.css'), ['sy3-site'], wp_get_theme()->get('Version'));
+        wp_enqueue_style('sy3-direction', get_theme_file_uri('assets/direction.css'), ['sy3-refinement'], wp_get_theme()->get('Version'));
+        wp_enqueue_style('sy3-process-maps', get_theme_file_uri('assets/process-maps.css'), ['sy3-direction'], wp_get_theme()->get('Version'));
+        wp_enqueue_script('sy3-motion', get_theme_file_uri('assets/motion.js'), ['sy3-site'], wp_get_theme()->get('Version'), true);
+    }
     wp_enqueue_script('sy3-site', get_theme_file_uri('assets/site.js'), [], wp_get_theme()->get('Version'), true);
     if (is_front_page() && sy3_personal()) wp_enqueue_script('sy3-core', get_theme_file_uri('assets/core-visual.js'), [], wp_get_theme()->get('Version'), true);
 });
@@ -23,13 +28,25 @@ add_action('wp_enqueue_scripts', function () {
 add_shortcode('sy3_featured_cases', function (): string {
     ob_start();
     echo '<div class="card-grid cases-grid curated-cases">';
-    foreach (['bitrix24-doors', 'chitayka', 'glosscheck', 'stilspace', 'matklass', 'libertygas'] as $slug) {
+    foreach (['chitayka', 'stilspace', 'glosscheck', 'libertygas', 'matklass', 'bitrix24-doors'] as $slug) {
         $item = get_page_by_path($slug, OBJECT, 'sy3_case');
         if ($item && $item->post_status === 'publish') sy3_post_card($item);
     }
     echo '</div>';
     return ob_get_clean();
 });
+
+add_shortcode('sy3_core_services', function (): string {
+    ob_start(); echo '<div class="card-grid core-services">';
+    foreach (['web-development','bitrix24','integrations','ai-automation','1c-integration','bi-dashboards'] as $slug) {
+        $item=get_page_by_path($slug,OBJECT,'sy3_service');
+        if ($item && $item->post_status==='publish') sy3_post_card($item);
+    }
+    echo '</div>'; return ob_get_clean();
+});
+
+// Presentation only: leave editor-owned blocks and seed hashes intact.
+add_filter('the_content',fn($content)=>sy3_personal()?$content:str_replace(['↗','↓'],'',$content),20);
 
 add_shortcode('sy3_visual', function ($attributes): string {
     $a = shortcode_atts(['mode' => 'business'], $attributes);
@@ -67,7 +84,7 @@ function sy3_post_card(WP_Post $item): void {
         <h3><a href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo esc_html(get_the_title($item)); ?></a></h3>
         <p><?php echo esc_html(get_the_excerpt($item)); ?></p>
         <?php $proof = get_post_meta($item->ID, '_sy3_proof', true); if (is_array($proof) && $proof): ?><div class="case-proof"><?php foreach ($proof as $fact): ?><span><?php echo esc_html($fact); ?></span><?php endforeach; ?></div><?php endif; ?>
-        <a class="text-link" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo $item->post_type === 'sy3_case' ? 'Читать кейс' : 'Подробнее'; ?> <span aria-hidden="true">↗</span></a></div>
+        <a class="text-link" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo $item->post_type === 'sy3_case' ? 'Читать кейс' : 'Подробнее'; ?></a></div>
     </article>
     <?php
 }
