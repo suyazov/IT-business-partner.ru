@@ -146,7 +146,7 @@ function sy3_leads_form(bool $standalone=false): void {
     $challenge=$standalone?sy3_leads_issue('/') : ['token'=>'','nonce'=>''];
     ?>
     <section class="sy3-lead-section" id="request-form" aria-labelledby="request-title"><div class="wrap sy3-lead-layout">
-      <div class="sy3-lead-intro"><p class="eyebrow">Первый шаг</p><h2 id="request-title">Обсудим<br>вашу задачу</h2><p>Расскажите, что хотите запустить или улучшить. Я уточню задачу и предложу первый шаг.</p><p class="sy3-lead-alternative">Можно написать <a href="https://t.me/moi_imperator">в Telegram</a> или позвонить <a href="tel:+79064790552">+7 (906) 479-05-52</a>.</p></div>
+      <div class="sy3-lead-intro"><p class="eyebrow">Первый шаг</p><h2 id="request-title">Обсудим<br>вашу задачу</h2><p>Расскажите, что хотите запустить или улучшить. Я уточню задачу и предложу первый шаг.</p><p class="sy3-lead-alternative">Можно написать в бота <a href="https://t.me/sy3_support_bot?start=site_sy3">Telegram</a> или <a href="https://max.ru/id263514840335_1_bot?start=site_sy3">MAX</a>.</p></div>
       <form class="sy3-lead-form" method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" data-challenge="<?php echo esc_url(rest_url('sy3-leads/v1/challenge')); ?>" data-submit="<?php echo esc_url(rest_url('sy3-leads/v1/submit')); ?>" <?php if($standalone)echo 'data-standalone="true"'; ?>>
         <input type="hidden" name="action" value="sy3_lead_submit"><input type="hidden" name="token" value="<?php echo esc_attr($challenge['token']); ?>"><input type="hidden" name="nonce" value="<?php echo esc_attr($challenge['nonce']); ?>">
         <label>Как к вам обращаться<input name="name" autocomplete="name" maxlength="120" placeholder="Ваше имя"></label>
@@ -168,7 +168,7 @@ add_action('wp_enqueue_scripts',function(){
 // Change rendered project CTAs without altering editor content or its approval hashes.
 add_filter('the_content',function($content){
     if(get_option('sy3_site_mode')!=='expertise')return $content;
-    return preg_replace('~(href=")https://t\.me/moi_imperator("[^>]*>Обсудить[^<]*</a>)~u','$1#request-form$2',$content);
+    return preg_replace('~(href=")https://t\.me/(?:moi_imperator|sy3_support_bot\?start=site_sy3)("[^>]*>Обсудить[^<]*</a>)~u','$1#request-form$2',$content);
 },25);
 
 function sy3_leads_standalone(): void {
@@ -185,7 +185,7 @@ function sy3_leads_native_submit(): void {
     $data=wp_unslash($_POST);unset($data['action']);
     $result=sy3_leads_same_origin()?sy3_leads_accept($data,$_SERVER['REMOTE_ADDR']??''):sy3_leads_error('origin','Откройте форму на сайте Сутри.',403);
     $value=$result->get_data();status_header($result->get_status());
-    get_header();echo '<main id="main" class="wrap sy3-lead-native"><h1>'.esc_html(!empty($value['ok'])?'Спасибо за обращение':'Не удалось отправить заявку').'</h1><p>'.esc_html($value['message']).'</p><p><a href="'.esc_url(admin_url('admin-post.php?action=sy3_lead_form')).'">Вернуться к форме</a> · <a href="https://t.me/moi_imperator">Написать в Telegram</a></p></main>';
+    get_header();echo '<main id="main" class="wrap sy3-lead-native"><h1>'.esc_html(!empty($value['ok'])?'Спасибо за обращение':'Не удалось отправить заявку').'</h1><p>'.esc_html($value['message']).'</p><p><a href="'.esc_url(admin_url('admin-post.php?action=sy3_lead_form')).'">Вернуться к форме</a> · <a href="https://t.me/sy3_support_bot?start=site_sy3">Написать в Telegram</a></p></main>';
     remove_all_actions('sy3_before_footer');get_footer();exit;
 }
 add_action('admin_post_nopriv_sy3_lead_submit','sy3_leads_native_submit');
