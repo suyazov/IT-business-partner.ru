@@ -16,6 +16,10 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
 .brand-sy3 .article-faq summary:focus-visible,.brand-sy3 .article-cta-alt:focus-visible{outline:2px solid var(--ink);outline-offset:5px;border-radius:3px}
 .brand-sy3 .article-body .article-faq details p{font-size:17px;line-height:1.75;margin:16px 0 0}
 .brand-sy3 .article-body .article-faq-jump{font-size:14px;margin:0 0 24px}
+.brand-sy3 .article-sources-details summary{cursor:pointer;font-size:16px;line-height:1.5;padding-block:2px}
+.brand-sy3 .article-sources-details summary :is(h2,h3,h4){display:inline;margin:0;font:inherit;letter-spacing:normal}
+.brand-sy3 .article-sources-details summary:focus-visible{outline:2px solid var(--ink);outline-offset:5px;border-radius:3px}
+.brand-sy3 .article-sources-details>ul{margin-top:16px}
 @media(max-width:760px){.brand-sy3 .article-body .article-inline-cta{padding:20px;margin-block:30px}.brand-sy3 .article-body .article-inline-cta h3{font-size:24px}.brand-sy3 .article-body .article-inline-cta p{font-size:16px}.brand-sy3 .article-body .article-faq h2{font-size:28px}.brand-sy3 .article-faq summary{font-size:18px}.brand-sy3 .article-body .article-faq details p{font-size:16px}}
 .brand-sy3 .wrap,.brand-sy3 .section-inner{width:min(1392px,calc(100% - 96px))}
 .brand-sy3 .site-header,.home.brand-sy3 .site-header{height:100px;background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line)}

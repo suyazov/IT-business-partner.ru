@@ -123,6 +123,23 @@ function sy3_article_support_content(string $content, WP_Post $post): string {
     return $output . sy3_article_faq($post, $items);
 }
 
+/** Keep source blocks in editor-owned content; change only their public presentation. */
+function sy3_article_sources_details(string $html, array $block): string {
+    $classes = preg_split('/\s+/', $block['attrs']['className'] ?? '') ?: [];
+    if (!in_array('editorial-sources', $classes, true)) return $html;
+    if (!preg_match('~\A(\s*<(div|section)\b[^>]*>)(.*)(</\2>\s*)\z~su', $html, $outer)) return $html;
+    if (!preg_match('~\A\s*(<h([2-4])\b[^>]*>.*?</h\2>)\s*~su', $outer[3], $heading)) return $html;
+    // A native summary may contain a heading: preserve its level, attributes and anchor.
+    return $outer[1] . '<details class="article-sources-details"><summary>' . $heading[1]
+        . '</summary>' . substr($outer[3], strlen($heading[0])) . '</details>' . $outer[4];
+}
+
+add_filter('render_block_core/group', function (string $html, array $block): string {
+    if (is_admin() || is_feed() || (defined('REST_REQUEST') && REST_REQUEST) || wp_doing_ajax()
+        || sy3_personal() || !is_singular('post') || !in_the_loop() || !is_main_query()) return $html;
+    return sy3_article_sources_details($html, $block);
+}, 10, 2);
+
 add_filter('the_content', function (string $content): string {
     if (is_admin() || is_feed() || (defined('REST_REQUEST') && REST_REQUEST) || wp_doing_ajax()
         || sy3_personal() || !is_singular('post') || !in_the_loop() || !is_main_query()
