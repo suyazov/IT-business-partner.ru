@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Сутри — контент и навигация
  * Description: Услуги, кейсы, связи материалов, SEO и фиды. Контент сохраняется при смене темы.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires PHP: 8.1
  */
 defined('ABSPATH') || exit;
@@ -19,6 +19,11 @@ function sy3_register_content(): void {
         ]);
     }
     register_taxonomy('sy3_case_topic', 'sy3_case', ['label' => 'Направления кейсов', 'public' => !sy3_is_personal(), 'show_ui' => true, 'show_in_rest' => true, 'hierarchical' => true, 'rewrite' => ['slug' => 'case-topics', 'with_front' => false]]);
+    register_taxonomy('sy3_case_tag', 'sy3_case', [
+        'labels' => ['name' => 'Теги кейсов', 'singular_name' => 'Тег кейса', 'add_new_item' => 'Добавить тег кейса', 'search_items' => 'Найти теги кейсов'],
+        'public' => !sy3_is_personal(), 'show_ui' => true, 'show_in_rest' => true, 'show_admin_column' => true,
+        'hierarchical' => false, 'rewrite' => ['slug' => 'case-tags', 'with_front' => false],
+    ]);
     if (sy3_is_personal()) register_post_type('sy3_legacy', [
         'labels' => ['name' => 'Архив проектов', 'singular_name' => 'Архивный проект'],
         'public' => true, 'show_in_rest' => true, 'has_archive' => false,
@@ -36,7 +41,7 @@ add_action('pre_get_posts', function ($query) {
         $query->set('orderby', ['menu_order' => 'ASC', 'ID' => 'ASC']);
         $query->set('posts_per_page', 50);
     }
-    if (!is_admin() && $query->is_main_query() && ($query->is_post_type_archive('sy3_case') || $query->is_tax('sy3_case_topic'))) {
+    if (!is_admin() && $query->is_main_query() && ($query->is_post_type_archive('sy3_case') || $query->is_tax(['sy3_case_topic', 'sy3_case_tag']))) {
         $query->set('orderby', ['menu_order' => 'ASC', 'ID' => 'ASC']);
     }
 });
