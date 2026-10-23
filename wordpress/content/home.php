@@ -17,9 +17,9 @@ function sy3_home_content(): string {
         ], 'hero-bottom') .
         sy3_g(
             sy3_p('<strong>Битрикс24</strong><br>Бизнес-партнёр') .
-            sy3_p('<strong>Кейсы с примерами</strong><br>Что сделал и как проверил') .
+            sy3_p('<strong>Лично веду проект</strong><br>От разбора задачи до запуска и проверки результата.') .
             sy3_p('<strong>Разработка и аналитика</strong><br>Самостоятельно и с командой') .
-            sy3_p('<strong>Личный контакт</strong><br>Лично веду проект'),
+            sy3_p('<strong>Личный контакт</strong><br>Telegram, MAX или почта'),
             'trust-strip'
         );
     $cases = sy3_p('01 / Работа в деталях', 'eyebrow') . sy3_g(sy3_h('<span id="selected-cases">Что уже сделано<br>для клиентов.</span>') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/cases/')) . '">Все кейсы</a>'), 'section-heading') . sy3_shortcode('[sy3_featured_cases]');

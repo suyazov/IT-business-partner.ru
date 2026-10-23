@@ -1,5 +1,13 @@
 # IT-business-partner.ru — Project Context
 
+## Первый экран: личное ведение проекта — 23 октября 2026
+
+Result: владелец выбрал «Лично веду проект» / «От разбора задачи до запуска и проверки результата.» вместо счётчика кейсов. После редакционного переноса этот пункт назывался «Кейсы с примерами»; заменяется именно он. В соседнем «Личный контакт» подпись — «Telegram, MAX или почта», чтобы не повторять обещание личного ведения в одной строке преимуществ.
+
+Current state: canonical factory wordpress/content/home.php содержит две точные замены только в sy3_home_content; personal-функция и остальные блоки сохранены. Production-операция ограничена post_content главной ID4, home/publish, исходный SHA b642f15239c20e68e45d5f5c44b53c9cda2b152adac9550f7103a0ef2b84f783, результат d39805e4b5dd72cabfc9a9c2d7a83a6e6794536fe11aa6020d73f4c36bfeef2d. CAS/транзакция сохраняет все остальные поля и metadata; новые backup не нужны, before-state воспроизводится из принятого pilot/commercial.json.
+
+Next action: сохранять выбранную формулировку при следующих правках первого экрана. Exact-head review, фактический apply/read-back и Chrome DevTools320/390/1440 фиксируются в private/editorial-refactor-20261023/home-project-*.json. Статьи, очереди, даты, формы и второй сайт в эту правку не входят. Приватные receipts и точный операционный скрипт удерживаются для проверки до24.10.2026 18:00МСК; временная очистка — только под общим storage lock.
+
 ## Редакционная переработка sy3.ru — 23 октября 2026
 
 Result: принятая редакция перенесена в существующие записи sy3.ru: 3 страницы, 16 услуг, 27 кейсов и все311 статей;155 metadata-комплектов,33 alt и1support JSON. Новых записей и изображений нет. Тела приняты в PR38–59, metadata/support в PR60, инструмент переноса в PR62. Итог — wordpress/docs/editorial/CORPUS_REPORT.md; процедура и фактические проверки — TRANSFER.md; body hashes — BATCH_INDEX.json, поля — SURFACE_INDEX.json и surfaces/*/manifest.json.
