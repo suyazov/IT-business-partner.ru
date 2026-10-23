@@ -1,0 +1,163 @@
+[
+  {
+    "url": "https://apidocs.bitrix24.ru/api-reference/user/user-get.html",
+    "status": 200,
+    "resolved": "https://apidocs.bitrix24.ru/api-reference/user/user-get.html",
+    "title": "Получить список пользователей по фильтру user.get | REST API Битрикс24 и приложения для Маркет"
+  },
+  {
+    "url": "https://asvs.owasp.org/",
+    "status": 200,
+    "resolved": "https://asvs.owasp.org/",
+    "title": "Overview | OWASP Application Security Verification Standard"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/nastrojki-akkaunta",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/nastrojki-akkaunta",
+    "title": "Управление настройками аккаунта – Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka",
+    "title": "Помощь и поддержка. Панель управления Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/sajty",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/sajty",
+    "title": "Управление сайтами – Beget"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+    "title": "Authorization - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html",
+    "title": "File Upload - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+    "title": "Input Validation - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/video/video-gen-prompt-guide",
+    "status": 200,
+    "resolved": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+    "title": "Video generation prompt guide  |  Gemini Enterprise Agent Platform  |  Google Cloud Documentation"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Retry-After",
+    "status": 200,
+    "resolved": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Retry-After",
+    "title": "Retry-After header - HTTP | MDN"
+  },
+  {
+    "url": "https://developer.wordpress.org/themes/templates/introduction-to-templates/",
+    "status": 200,
+    "resolved": "https://developer.wordpress.org/themes/templates/introduction-to-templates/",
+    "title": "Introduction to Templates – Theme Handbook | Developer.WordPress.org"
+  },
+  {
+    "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "status": 200,
+    "resolved": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "title": "How to Specify a Canonical with rel=\"canonical\" and Other Methods | Google Search Central  |  Documentation  |  Google for Developers"
+  },
+  {
+    "url": "https://developers.google.com/search/docs/essentials/technical",
+    "status": 200,
+    "resolved": "https://developers.google.com/search/docs/essentials/technical",
+    "title": "Google Search Technical Requirements | Google Search Central  |  Documentation  |  Google for Developers"
+  },
+  {
+    "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+    "status": 200,
+    "resolved": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+    "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central  |  Documentation  |  Google for Developers"
+  },
+  {
+    "url": "https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments",
+    "status": 200,
+    "resolved": "https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments",
+    "title": "Deployments and environments - GitHub Docs"
+  },
+  {
+    "url": "https://docs.modx.com/current/en/building-sites/resources",
+    "error": "HTTP Error 403: Forbidden",
+    "browser_read_status": "WEB_EXTRACTOR_READ_SUCCEEDED; direct urllib returned403"
+  },
+  {
+    "url": "https://docs.python.org/3/library/decimal.html",
+    "status": 200,
+    "resolved": "https://docs.python.org/3/library/decimal.html",
+    "title": "decimal — Decimal fixed-point and floating-point arithmetic — Python 3.15.1 documentation"
+  },
+  {
+    "url": "https://google.aip.dev/180",
+    "status": 200,
+    "resolved": "https://google.aip.dev/180",
+    "title": "AIP-180: Backwards compatibility"
+  },
+  {
+    "url": "https://helpdesk.bitrix24.ru/open/23240636/",
+    "status": 200,
+    "resolved": "https://helpdesk.bitrix24.ru/open/23240636/",
+    "title": "Ролевая модель прав в CRM: как настроить права доступа"
+  },
+  {
+    "url": "https://helpdesk.bitrix24.ru/open/27844326/",
+    "status": 200,
+    "resolved": "https://helpdesk.bitrix24.ru/open/27844326/",
+    "title": "Как настроить права доступа к делам в CRM"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry",
+    "status": 200,
+    "resolved": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry",
+    "title": "Retry pattern - Azure Architecture Center | Microsoft Learn"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-accounting-periods-and-fiscal-years",
+    "status": 200,
+    "resolved": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-accounting-periods-and-fiscal-years",
+    "title": "Working with accounting periods and fiscal years - Business Central | Microsoft Learn"
+  },
+  {
+    "url": "https://prometheus.io/docs/guides/multi-target-exporter/",
+    "status": 200,
+    "resolved": "https://prometheus.io/docs/guides/multi-target-exporter/",
+    "title": "Understanding and using the multi-target exporter pattern | Prometheus"
+  },
+  {
+    "url": "https://semver.org/",
+    "status": 200,
+    "resolved": "https://semver.org/",
+    "title": "Semantic Versioning 2.0.0 | Semantic Versioning"
+  },
+  {
+    "url": "https://spec.openapis.org/oas/latest.html",
+    "status": 200,
+    "resolved": "https://spec.openapis.org/oas/latest.html",
+    "title": "OpenAPI Specification v3.2.1"
+  },
+  {
+    "url": "https://www.iiba.org/knowledgehub/the-business-analysis-standard/2-understanding-business-analysis/2-2-a-model-for-effective-analysis-baccm/",
+    "status": 200,
+    "resolved": "https://www.iiba.org/knowledgehub/the-business-analysis-standard/2-understanding-business-analysis/2-2-a-model-for-effective-analysis-baccm/",
+    "title": "2.2 A Model for Effective Analysis - BACCM™ | The International Institute of Business Analysis™"
+  },
+  {
+    "url": "https://yookassa.ru/developers/using-api/webhooks",
+    "status": 200,
+    "resolved": "https://yookassa.ru/developers/using-api/webhooks",
+    "title": "Входящие уведомления — Прием оплаты API ЮKassa"
+  }
+]
