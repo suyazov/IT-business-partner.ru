@@ -1,0 +1,156 @@
+[
+  {
+    "url": "https://beget.com/ru/kb/faq/cloud/terraform",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/cloud/terraform",
+    "title": "Terraform для управления облаком"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/how-to-install-moodle-virtual",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/how-to-install-moodle-virtual",
+    "title": "Как установить Moodle на shared hosting или VPS"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/moodle-review",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/moodle-review",
+    "title": "Что такое Moodle: обзор системы дистанционного образования – Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/online-courses-platform",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/online-courses-platform",
+    "title": "Как создать дистанционный курс в Moodle – Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/fail2ban-ustanovka-i-nastrojka-instrumenta",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/fail2ban-ustanovka-i-nastrojka-instrumenta",
+    "title": "Fail2Ban – установка и настройка защиты от брутфорса"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/gitea-actions",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/gitea-actions",
+    "title": "Gitea Actions: установка и настройка встроенного CI/CD для автоматизации"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/harbor-sobstvennyy-reestr-konteynerov",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/harbor-sobstvennyy-reestr-konteynerov",
+    "title": "Harbor – установка собственного реестра контейнеров"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-balansirovku-nagruzki-na-servere-pri-pomoshchi-nginx",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/kak-nastroit-balansirovku-nagruzki-na-servere-pri-pomoshchi-nginx",
+    "title": "Как самостоятельно настроить балансировку нагрузки при помощи Nginx?"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/kak-rabotat-s-docker-cherez-portainer",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/kak-rabotat-s-docker-cherez-portainer",
+    "title": "VPS-сервер c Docker: Основы работы в Portainer"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/kontejnerizaciya-python-prilozheniya-s-docker",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/kontejnerizaciya-python-prilozheniya-s-docker",
+    "title": "Контейнеризация Python-приложения с Docker"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/nastrojka-i-ustanovka-fajrvola-brandmauera-v-ubuntu-s-pomoshhyu-utility-ufw",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/nastrojka-i-ustanovka-fajrvola-brandmauera-v-ubuntu-s-pomoshhyu-utility-ufw",
+    "title": "Установка и настройка файрвола в Ubuntu с помощью утилиты UFW"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/ochistka-obrazov-kontejnerov-i-tomov-v-docker",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/ochistka-obrazov-kontejnerov-i-tomov-v-docker",
+    "title": "Как очистить образы, контейнеры и тома Docker"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-ipv6-k-sajtu-i-api-c-dostupom-ipv4",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-ipv6-k-sajtu-i-api-c-dostupom-ipv4",
+    "title": "Подключение IPv6 к сайту и API"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/rootless-kontejnery-v-podman-kak-systemd",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/rootless-kontejnery-v-podman-kak-systemd",
+    "title": "Запуск rootless-контейнеров в podman"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/private-network",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/private-network",
+    "title": "Настройка приватной сети для пользователей VPS – Beget"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html",
+    "title": "AI Agent Security - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+    "title": "Authorization - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://datatracker.ietf.org/doc/html/rfc7643",
+    "status": 200,
+    "resolved": "https://datatracker.ietf.org/doc/html/rfc7643",
+    "title": "\n            \n                RFC 7643 - System for Cross-domain Identity Management: Core Schema\n            \n        "
+  },
+  {
+    "url": "https://developer.hashicorp.com/terraform/cli/commands/plan",
+    "status": 200,
+    "resolved": "https://developer.hashicorp.com/terraform/cli/commands/plan",
+    "title": "terraform plan command reference | Terraform | HashiCorp Developer"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation",
+    "status": 200,
+    "resolved": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation",
+    "title": "Offline and background operation - Progressive web apps | MDN"
+  },
+  {
+    "url": "https://developer.wordpress.org/reference/functions/wp_get_attachment_image_srcset/",
+    "status": 200,
+    "resolved": "https://developer.wordpress.org/reference/functions/wp_get_attachment_image_srcset/",
+    "title": "wp_get_attachment_image_srcset() – Function | Developer.WordPress.org"
+  },
+  {
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html",
+    "status": 200,
+    "resolved": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html",
+    "title": "Checking object integrity in Amazon S3 - Amazon Simple Storage Service"
+  },
+  {
+    "url": "https://docs.docker.com/engine/storage/volumes/",
+    "status": 200,
+    "resolved": "https://docs.docker.com/engine/storage/volumes/",
+    "title": "Volumes | Docker Docs"
+  },
+  {
+    "url": "https://docs.docker.com/reference/cli/docker/image/pull/",
+    "status": 200,
+    "resolved": "https://docs.docker.com/reference/cli/docker/image/pull/",
+    "title": "docker image pull | Docker Docs"
+  },
+  {
+    "url": "https://docs.moodle.org/405/en/Activity_completion",
+    "error": "HTTP Error 403: Forbidden",
+    "browser_read_status": "WEB_EXTRACTOR_READ_SUCCEEDED; direct urllib returned 403"
+  },
+  {
+    "url": "https://docs.moodle.org/405/en/Enrolments",
+    "error": "HTTP Error 403: Forbidden",
+    "browser_read_status": "WEB_EXTRACTOR_READ_SUCCEEDED; direct urllib returned 403"
+  }
+]

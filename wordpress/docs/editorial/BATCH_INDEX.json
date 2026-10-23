@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "3a10f44e57184dff34d84e4afe3e5cbba387f572",
+  "source_git_commit": "467699c3554410e38449e9b387a18c0e9c4fcbfa",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 259,
+  "prepared_objects": 279,
   "prepared_by_type": {
     "page": 3,
-    "post": 213,
+    "post": 233,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -566,6 +566,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 145,
+      "type": "post",
+      "slug": "prodazhi-i-servis-v-crm",
+      "baseline_hash": "8d5b1bdb6a1118d91398f74a6b277c2afb8f77121bf821e5a153c2df449166ef",
+      "candidate_hash": "62d81cccf6aa93712f211f3682234e98bd2236874d7a609b35bee16cd3055234",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/prodazhi-i-servis-v-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11985,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 150,
       "type": "post",
       "slug": "forma-otpravlena-no-zayavki-net",
@@ -622,6 +634,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-09/povtornaya-otpravka-bez-dubley.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
       "content_characters_declared": 11920,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 155,
+      "type": "post",
+      "slug": "glavnaya-sistema-dlya-kazhdogo-polya",
+      "baseline_hash": "b07162303b6fb149e9857b871a2653c639edc058613e3c4a20aaf9fc5bb306cc",
+      "candidate_hash": "6899efb4b42cf7f55fbc1ffb26864d96025bc096476ad4a14394e014666a0d20",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/glavnaya-sistema-dlya-kazhdogo-polya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11644,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -686,6 +710,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 166,
+      "type": "post",
+      "slug": "golosovoe-soobshchenie-v-zadachu",
+      "baseline_hash": "9ef116d82287a4c9d9e52627b12726463a2f05eeb83ac78e4cc1de225f017ee0",
+      "candidate_hash": "84ceadad7cc06ef7021c10a8f71b8c7faf8be256e018550fe95131bfc5ba299a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/golosovoe-soobshchenie-v-zadachu.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11426,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 171,
       "type": "post",
       "slug": "odin-obekt-odin-list-a4",
@@ -746,6 +782,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 176,
+      "type": "post",
+      "slug": "dinamicheskie-polya-i-roli",
+      "baseline_hash": "db50c071527284e121bbf79df6be255d42caea44fdfeae3725d4ace4a1a8c10b",
+      "candidate_hash": "2bb261824811bd7d402f444c5827e7906f7eb769c590d678f6ba4182be37f319",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/dinamicheskie-polya-i-roli.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11298,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 182,
       "type": "post",
       "slug": "dvoinoe-bronirovanie-resursa",
@@ -802,6 +850,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-09/dostup-k-kalendaryu-i-dannym-klienta.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
       "content_characters_declared": 14029,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 187,
+      "type": "post",
+      "slug": "otmena-broni-bez-potery-istorii",
+      "baseline_hash": "c439ea25c1a3489724cbd03f976dffefc5e0639f147d9c120bb9368fe99dad4b",
+      "candidate_hash": "f23f574433f39c3c1e90c635208a40bfcc7bda07cb60946b13610ebbf368bd2e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/otmena-broni-bez-potery-istorii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 13935,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2786,6 +2846,54 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 501,
+      "type": "post",
+      "slug": "beget-statistika-pik-zaprosov",
+      "baseline_hash": "5c0363d088f9c0dc9b0bcd1fa12f0af196c28e618d4f443efa9587ead89e2c26",
+      "candidate_hash": "6104131c7b49b43b09a3b671730e058d8de7906eecee6c827dbfcd01eb33864c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-statistika-pik-zaprosov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 12490,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 502,
+      "type": "post",
+      "slug": "beget-2fa-dostup-vladelca",
+      "baseline_hash": "9c5426c7caebe883df92f90d9398818a7b9eaf09aabbdbd5e72bb6005be982c0",
+      "candidate_hash": "1143a9322b04c550988c7a8d8da31b02e9b585ff3094637523f2ee896bdc37f6",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-2fa-dostup-vladelca.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 13687,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 503,
+      "type": "post",
+      "slug": "beget-ftp-podryadchik-dostup",
+      "baseline_hash": "f0a362a2bac60273f54c9e205887d6421d1a3310882b57289387d27858bc6023",
+      "candidate_hash": "1a4440525a377d8c460235712028075ee4d843d725437e0aff59a1cd00844fd3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-ftp-podryadchik-dostup.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 13632,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 504,
+      "type": "post",
+      "slug": "beget-vps-pervaya-priemka",
+      "baseline_hash": "b6e8fe3fee1a2ddf283dd50c28f7e407141d987898cb48159b569c3cb54ddfe9",
+      "candidate_hash": "7292b303d8046334da9a2c494400c8d973efe2679bc7945f0ecb03367e7d274c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-vps-pervaya-priemka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11542,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 515,
       "type": "post",
       "slug": "beget-pereezd-proverka-do-dns",
@@ -3002,6 +3110,42 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 533,
+      "type": "post",
+      "slug": "beget-logs-edinaya-kartina",
+      "baseline_hash": "b10d044a989e1c983c1529d5ab34a442867264d99693e5280f6895f5b3063caf",
+      "candidate_hash": "18bc393902fb9907853a5200410efc5e62bbe336cd0ff2db179c953c4f936100",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-logs-edinaya-kartina.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 12353,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 534,
+      "type": "post",
+      "slug": "beget-nginx-logs-forma",
+      "baseline_hash": "4f94254746b16512f7be427ab0d3d52a8560a96aa844a9096eb9148dfce73e6e",
+      "candidate_hash": "fe74766bc5aba4fb8f09c9007feb3f9edbe0afffc5a9405901cc310e10f7854f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-nginx-logs-forma.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 12200,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 535,
+      "type": "post",
+      "slug": "beget-log-rotation-hranenie",
+      "baseline_hash": "97056e272c9eecc2f2add588f2dc3e8c9cea132b60aaa095bd06c16eb818b269",
+      "candidate_hash": "b9355aca00f9cff3b01c365ca22ac0adc70f10daac43deee25493a68ccef60af",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-log-rotation-hranenie.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 13034,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 546,
       "type": "post",
       "slug": "beget-pochta-smena-sotrudnika",
@@ -3098,6 +3242,102 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 554,
+      "type": "post",
+      "slug": "beget-n8n-dostupy-peredacha",
+      "baseline_hash": "61ddbf4b8dc7eff4285daa25fe488b21f478393704369c1a419754d89c35ee04",
+      "candidate_hash": "0a17efaf4373c716f80180fa530ab534e2a16bf3f76a71df186c6ab2f72a1403",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-n8n-dostupy-peredacha.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 10843,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 555,
+      "type": "post",
+      "slug": "beget-node-obrabotchik-vebhukov",
+      "baseline_hash": "4eef55ee8af8bbb8170021941b4705f4cfd57bd00efe288482fddf6f9a883c74",
+      "candidate_hash": "e78e4c5d24593f0e8a065914c0626ddad378c0c5cba60488604242f470b9ea54",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-node-obrabotchik-vebhukov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 10908,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 556,
+      "type": "post",
+      "slug": "beget-python-import-kataloga",
+      "baseline_hash": "64bbb6b5d7918a0816cb375c61d17352f850ee58e4b19f0a8d7e1bb489441103",
+      "candidate_hash": "16ec538d9d4254f8f13dd4660375058125e7d7becc72be8d0f8da20b23366c64",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-python-import-kataloga.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11116,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 557,
+      "type": "post",
+      "slug": "beget-redis-spravochik-crm",
+      "baseline_hash": "6cb752e0e0e3896eafce037033bfdc90474158dc521281303e96ea8105003045",
+      "candidate_hash": "4899860afd3f16ea938d4fb141a782b86a051e6867674b12343245ef97f39251",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-redis-spravochik-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 11416,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 558,
+      "type": "post",
+      "slug": "beget-redis-seansy-sayta",
+      "baseline_hash": "1a9c78fb394c3b85a030014e98ce1f940cee6011407dfaa0b0ba0d68f8db0c36",
+      "candidate_hash": "a1aa9e4b13d892057632814e5d2429a4ae5618836e73c1c9b35e8784c224a61c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-redis-seansy-sayta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 12535,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 559,
+      "type": "post",
+      "slug": "beget-cron-otchet-analitika",
+      "baseline_hash": "013d4754c9749cadce1896b54259fe585465403f1c43e38b7792c8ba0cf9c2cd",
+      "candidate_hash": "d5b4c248e5a996f4a4d8818f9530ddda2b51d172b5614fa7da95013a763db63f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-cron-otchet-analitika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 12242,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 560,
+      "type": "post",
+      "slug": "beget-fonovaya-zadacha-otmena",
+      "baseline_hash": "d7ede53cf211eb8e6636836c7efb5c1f0506f545e2f33b1802473ef08c48f272",
+      "candidate_hash": "d5c95247a131a9ec7e13135a88ebc1f4858c38bb2d332bcae63b70c076e429f0",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-fonovaya-zadacha-otmena.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 12346,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 561,
+      "type": "post",
+      "slug": "beget-sentry-oshibka-zayavki",
+      "baseline_hash": "7e6c52d5f25660912c1ee14bab51d932ea41ae75f2439132bd3d413afb01faa5",
+      "candidate_hash": "8d5b05ee36eaa277c99f78969b763e976e5009b1f3b1b2f186fcb99a6225742f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-11/beget-sentry-oshibka-zayavki.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-11/manifest.json",
+      "content_characters_declared": 13872,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 574,
       "type": "sy3_case",
       "slug": "hiring-funnel-dashboard",
@@ -3139,11 +3379,6 @@
       "slug": "journal"
     },
     {
-      "id": 145,
-      "type": "post",
-      "slug": "prodazhi-i-servis-v-crm"
-    },
-    {
       "id": 146,
       "type": "post",
       "slug": "edinaya-forma-zayavok-na-obuchenie"
@@ -3162,11 +3397,6 @@
       "id": 149,
       "type": "post",
       "slug": "crm-kontrolnye-scenarii-kanalov"
-    },
-    {
-      "id": 155,
-      "type": "post",
-      "slug": "glavnaya-sistema-dlya-kazhdogo-polya"
     },
     {
       "id": 156,
@@ -3189,11 +3419,6 @@
       "slug": "integraciya-chtenie-ili-zapis"
     },
     {
-      "id": 166,
-      "type": "post",
-      "slug": "golosovoe-soobshchenie-v-zadachu"
-    },
-    {
       "id": 167,
       "type": "post",
       "slug": "ai-gotovit-chelovek-podtverzhdaet"
@@ -3214,11 +3439,6 @@
       "slug": "granicy-ai-pomoshchnika"
     },
     {
-      "id": 176,
-      "type": "post",
-      "slug": "dinamicheskie-polya-i-roli"
-    },
-    {
       "id": 177,
       "type": "post",
       "slug": "istoriya-pravok-dokumenta"
@@ -3237,11 +3457,6 @@
       "id": 180,
       "type": "post",
       "slug": "poshagovyy-konstruktor-dokumentov"
-    },
-    {
-      "id": 187,
-      "type": "post",
-      "slug": "otmena-broni-bez-potery-istorii"
     },
     {
       "id": 188,
@@ -3394,26 +3609,6 @@
       "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
     },
     {
-      "id": 501,
-      "type": "post",
-      "slug": "beget-statistika-pik-zaprosov"
-    },
-    {
-      "id": 502,
-      "type": "post",
-      "slug": "beget-2fa-dostup-vladelca"
-    },
-    {
-      "id": 503,
-      "type": "post",
-      "slug": "beget-ftp-podryadchik-dostup"
-    },
-    {
-      "id": 504,
-      "type": "post",
-      "slug": "beget-vps-pervaya-priemka"
-    },
-    {
       "id": 505,
       "type": "post",
       "slug": "beget-ufw-webhook-dostup"
@@ -3464,21 +3659,6 @@
       "slug": "beget-ekspluatacionnyy-pasport"
     },
     {
-      "id": 533,
-      "type": "post",
-      "slug": "beget-logs-edinaya-kartina"
-    },
-    {
-      "id": 534,
-      "type": "post",
-      "slug": "beget-nginx-logs-forma"
-    },
-    {
-      "id": 535,
-      "type": "post",
-      "slug": "beget-log-rotation-hranenie"
-    },
-    {
       "id": 536,
       "type": "post",
       "slug": "beget-container-registry-postavka"
@@ -3527,46 +3707,6 @@
       "id": 545,
       "type": "post",
       "slug": "beget-authelia-vnutrennie-instrumenty"
-    },
-    {
-      "id": 554,
-      "type": "post",
-      "slug": "beget-n8n-dostupy-peredacha"
-    },
-    {
-      "id": 555,
-      "type": "post",
-      "slug": "beget-node-obrabotchik-vebhukov"
-    },
-    {
-      "id": 556,
-      "type": "post",
-      "slug": "beget-python-import-kataloga"
-    },
-    {
-      "id": 557,
-      "type": "post",
-      "slug": "beget-redis-spravochik-crm"
-    },
-    {
-      "id": 558,
-      "type": "post",
-      "slug": "beget-redis-seansy-sayta"
-    },
-    {
-      "id": 559,
-      "type": "post",
-      "slug": "beget-cron-otchet-analitika"
-    },
-    {
-      "id": 560,
-      "type": "post",
-      "slug": "beget-fonovaya-zadacha-otmena"
-    },
-    {
-      "id": 561,
-      "type": "post",
-      "slug": "beget-sentry-oshibka-zayavki"
     },
     {
       "id": 562,
