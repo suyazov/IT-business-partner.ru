@@ -3,7 +3,7 @@
 <footer class="site-footer footer-sy3">
     <div class="wrap footer-main">
         <div class="footer-intro"><a class="footer-brand" href="<?php echo esc_url(home_url('/')); ?>">сутри</a><p>Сайты, CRM и автоматизация<br>под задачи бизнеса.</p></div>
-        <div class="footer-contact"><h2>Начнём с вашей задачи.</h2><p>Расскажите, что хотите запустить или улучшить.</p><div class="footer-messengers"><a class="footer-messenger" href="https://t.me/sy3_support_bot?start=site_sy3">Написать в Telegram</a><a class="footer-messenger" href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a><a class="footer-messenger" href="mailto:help@sy3.ru">Написать на почту</a></div></div>
+        <div class="footer-contact"><h2>Начнём с вашей задачи.</h2><p>Расскажите, что хотите запустить или улучшить.</p><div class="footer-messengers"><?php echo sy3_messenger_choice('footer-messenger-choice'); ?><a class="footer-messenger" href="mailto:help@sy3.ru">Написать на почту</a></div></div>
     </div>
     <nav class="wrap footer-services" aria-label="Основные услуги"><a href="<?php echo esc_url(home_url('/services/web-development/')); ?>">Создание сайтов</a><a href="<?php echo esc_url(home_url('/services/website-support/')); ?>">Поддержка сайтов</a><a href="<?php echo esc_url(home_url('/services/business-analysis/')); ?>">Бизнес-анализ</a><a href="<?php echo esc_url(home_url('/services/bitrix24/')); ?>">Внедрение Битрикс24</a></nav>
     <div class="wrap footer-legal"><div class="footer-identity"><p>ИП Суязов Артем Анатольевич</p><p>ИНН 263514840335 · ОГРНИП 320265100039682</p></div>
