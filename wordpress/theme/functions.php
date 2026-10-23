@@ -106,7 +106,7 @@ function sy3_post_card(WP_Post $item): void {
     <article class="entry-card <?php echo esc_attr($item->post_type); ?>">
         <?php if ($article): ?><div class="card-media"><?php sy3_article_tags($item->ID); ?><?php endif; ?>
         <?php if (has_post_thumbnail($item)): ?><a class="card-art portfolio-cover" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo get_the_post_thumbnail($item, 'large', ['alt' => '', 'loading' => 'lazy']); ?></a>
-        <?php elseif ($safe_art): ?><a class="card-art art-<?php echo esc_attr($safe_art); ?>" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><img loading="lazy" width="640" height="360" src="<?php echo esc_url(get_theme_file_uri('assets/' . $safe_art . '.svg')); ?>" alt=""></a><?php endif; ?>
+        <?php elseif ($safe_art): ?><a class="card-art art-<?php echo esc_attr($safe_art); ?>" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><img loading="lazy" width="640" height="360" src="<?php echo esc_url(add_query_arg('ver', wp_get_theme()->get('Version'), get_theme_file_uri('assets/' . $safe_art . '.svg'))); ?>" alt=""></a><?php endif; ?>
         <?php if ($article): ?></div><?php endif; ?>
         <div class="card-copy"><?php if (!$article): ?><p class="eyebrow"><?php echo esc_html($topic); ?></p><?php endif; ?>
         <h3><a href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo esc_html(get_the_title($item)); ?></a></h3>
