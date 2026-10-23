@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "id": 60,
+      "slug": "crm-est-zayavki-teryayutsya",
+      "baseline_hash": "dec80abe41fccd0f4d777ababb0de958c7b2defec7b8941ea5059f32a10d6346",
+      "file": "crm-est-zayavki-teryayutsya.html",
+      "candidate_hash": "0668296361e87d2ffb0c5a95d14ec43a0500ffe7cc5ea2e6abcd29da85fb48fe",
+      "visible_chars": 11421,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 262,
+      "slug": "xml-i-html-karta-sayta",
+      "baseline_hash": "7a198f8040c55247955a9ea3d1f666bd035ff46c41814cc80f4e8e3ce6255610",
+      "file": "xml-i-html-karta-sayta.html",
+      "candidate_hash": "c03663933ff8abe26a6b9fbb36e6d5d227b1f5cea3d43cf752dccb1a773cfc04",
+      "visible_chars": 11170,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 281,
+      "slug": "chto-vhodit-v-backup-wordpress",
+      "baseline_hash": "d8c014f3feec4affe99d719b2955287c30f00b054c7e7a25c2ece54888cafd56",
+      "file": "chto-vhodit-v-backup-wordpress.html",
+      "candidate_hash": "26242087a69e86fcb9195ad176bf40316636ccf5e38f2b9668ce3e820f006ff3",
+      "visible_chars": 11030,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    }
+  ]
+}

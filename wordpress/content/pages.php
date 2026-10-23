@@ -27,10 +27,8 @@ function sy3_page_definitions(): array {
         $definitions['privacy'] = sy3_lead_privacy_definition();
         require_once __DIR__ . '/work-process.php';
         $definitions['about']['content'] = sy3_work_process_content();
-        $definitions['contacts']['content'] = sy3_g(
-            sy3_image('artem-suyazov.jpg', 'Артём Суязов.', 'contact-portrait') . sy3_p('Артём Суязов<br><span>Вы пишете мне напрямую. Расскажите о задаче — вместе определим первый шаг.</span>'),
-            'contact-person'
-        ) . $definitions['contacts']['content'];
+        require_once __DIR__ . '/contact-copy.php';
+        $definitions['contacts']['content'] = sy3_main_contact_content();
     }
     return $definitions;
 }
