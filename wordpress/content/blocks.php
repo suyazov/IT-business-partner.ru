@@ -25,8 +25,8 @@ function sy3_buttons(array $items): string {
     }
     return sy3_b('buttons', '<div class="wp-block-buttons">' . $html . '</div>');
 }
-function sy3_image(string $file, string $alt, string $class = ''): string {
-    return sy3_b('image', '<figure class="wp-block-image size-full ' . esc_attr($class) . '"><img src="' . esc_url(get_theme_file_uri('assets/' . $file)) . '" alt="' . esc_attr($alt) . '"/></figure>', ['sizeSlug' => 'full', 'className' => $class]);
+function sy3_image(string $file, string $alt, string $class = '', string $caption = ''): string {
+    return sy3_b('image', '<figure class="wp-block-image size-full ' . esc_attr($class) . '"><img src="' . esc_url(get_theme_file_uri('assets/' . $file)) . '" alt="' . esc_attr($alt) . '"/>' . ($caption !== '' ? '<figcaption class="wp-element-caption">' . esc_html($caption) . '</figcaption>' : '') . '</figure>', ['sizeSlug' => 'full', 'className' => $class]);
 }
 function sy3_list(array $items, bool $ordered = false): string {
     $tag = $ordered ? 'ol' : 'ul'; $html = '';
@@ -41,6 +41,7 @@ function sy3_sections(array $sections): string {
     $html = '';
     foreach ($sections as $s) {
         if (!empty($s['heading'])) $html .= sy3_h(esc_html($s['heading']));
+        if (!empty($s['image'])) $html .= sy3_image(basename($s['image']), $s['image_alt'] ?? '', '', $s['image_caption'] ?? '');
         foreach ($s['paragraphs'] ?? [] as $p) $html .= sy3_p(wp_kses_post($p));
         if (!empty($s['items'])) $html .= sy3_list($s['items'], !empty($s['ordered']));
         if (!empty($s['callout'])) $html .= sy3_g(sy3_p(wp_kses_post($s['callout'])), 'callout');
