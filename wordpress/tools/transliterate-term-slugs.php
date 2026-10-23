@@ -5,7 +5,11 @@ $production = wp_get_environment_type() === 'production' && realpath(ABSPATH) ==
 $preview = wp_get_environment_type() !== 'production' && realpath(ABSPATH) === '/root/preview/sy3-wordpress-20261022/public' && home_url('/') === 'http://127.0.0.1:8186/';
 if (get_option('sy3_site_mode') !== 'expertise' || (!$production && !$preview)) WP_CLI::error('Unexpected site identity.');
 if ($production && (getenv('SY3_ALLOW_PRODUCTION_IMPORT') !== '1' || !is_ssl())) WP_CLI::error('Production authority and HTTPS required.');
-require_once dirname(__DIR__) . '/plugin/sy3-latin-slugs.php';
+$module = dirname(__DIR__) . '/plugin/sy3-latin-slugs.php';
+if (function_exists('sy3_latin_text')) {
+    $loaded = (new ReflectionFunction('sy3_latin_text'))->getFileName();
+    if (!$loaded || !is_file($loaded) || !hash_equals(hash_file('sha256', $module), hash_file('sha256', $loaded))) WP_CLI::error('Loaded URL module differs from reviewed source.');
+} else require_once $module;
 global $wpdb;
 $transaction = false;
 try {
