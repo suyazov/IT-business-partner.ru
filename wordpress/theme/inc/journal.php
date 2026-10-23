@@ -53,10 +53,10 @@ add_filter('query_vars', function ($vars) { $vars[] = 'journal_topic'; return $v
 
 add_action('pre_get_posts', function (WP_Query $query) {
     if (is_admin() || !$query->is_main_query() || sy3_personal()) return;
-    if (!$query->is_home() && !$query->is_category() && !($query->is_search() && $query->get('post_type') === 'post')) return;
+    if (!$query->is_home() && !$query->is_category() && !$query->is_tag() && !($query->is_search() && $query->get('post_type') === 'post')) return;
     $query->set('has_password', false);
     // Existing category URLs retain their original category selection.
-    if ($query->is_category()) return;
+    if ($query->is_category() || $query->is_tag()) return;
     $key = sy3_journal_topic($query->get('journal_topic'));
     if ($key === 'all') return;
     $ids = sy3_journal_topics()[$key]['ids'];
@@ -65,7 +65,7 @@ add_action('pre_get_posts', function (WP_Query $query) {
 });
 
 function sy3_journal_context(): bool {
-    return !sy3_personal() && (is_home() || is_category() || (is_search() && get_query_var('post_type') === 'post'));
+    return !sy3_personal() && (is_home() || is_category() || is_tag() || (is_search() && get_query_var('post_type') === 'post'));
 }
 
 function sy3_journal_url(string $key = 'all', string $search = ''): string {
@@ -73,4 +73,21 @@ function sy3_journal_url(string $key = 'all', string $search = ''): string {
     if ($key !== 'all') $args['journal_topic'] = $key;
     if ($search !== '') $args += ['s' => $search, 'post_type' => 'post'];
     return add_query_arg($args, home_url($search === '' ? '/journal/' : '/'));
+}
+
+/** Prefer editor-owned tags; until assigned, show the article's actual categories. */
+function sy3_article_tags(int $post_id): void {
+    if (sy3_personal() || get_post_type($post_id) !== 'post') return;
+    $terms = get_the_terms($post_id, 'post_tag');
+    if (!$terms || is_wp_error($terms)) {
+        $terms = get_the_terms($post_id, 'category');
+        if (is_array($terms)) $terms = array_filter($terms, fn($term) => $term->slug !== 'uncategorized');
+    }
+    if (!$terms || is_wp_error($terms)) return;
+    $links = [];
+    foreach ($terms as $term) {
+        $url = get_term_link($term);
+        if (!is_wp_error($url)) $links[] = '<li><a href="' . esc_url($url) . '" rel="tag">' . esc_html($term->name) . '</a></li>';
+    }
+    if ($links) echo '<ul class="article-tags" aria-label="Темы статьи">' . implode('', $links) . '</ul>';
 }

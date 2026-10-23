@@ -11,9 +11,9 @@ global $wp_query;
 <header class="wrap journal-heading">
     <div class="journal-heading-top">
         <div class="journal-heading-copy">
-            <p class="eyebrow">Практика автоматизации</p>
-            <h1><?php echo esc_html(is_category() ? single_cat_title('', false) : 'Журнал'); ?></h1>
-            <p class="journal-intro">CRM, сайты и автоматизация бизнеса: опыт проектов и практические инструкции.</p>
+            <p class="eyebrow">Журнал Сутри</p>
+            <h1><?php echo esc_html((is_category() || is_tag()) ? single_term_title('', false) : 'Автоматизация бизнеса'); ?></h1>
+            <p class="journal-intro">Разборы проектов, рабочие процессы и практические инструкции.</p>
         </div>
         <form role="search" aria-label="Поиск по журналу" class="journal-search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
             <label for="journal-search-input">Поиск по статьям</label>
@@ -31,7 +31,7 @@ global $wp_query;
             <li><a href="<?php echo esc_url(sy3_journal_url($key, $search)); ?>"<?php if ($active === $key) echo ' aria-current="page"'; ?>><?php echo esc_html($topic['label']); ?><span class="journal-topic-count"><?php echo (int) $topic['count']; ?></span></a></li>
         <?php endforeach; ?></ul>
     </nav>
-    <?php if ($search !== '' || $active !== 'all' || is_category()): ?>
+    <?php if ($search !== '' || $active !== 'all' || is_category() || is_tag()): ?>
         <div class="journal-results"><p><?php if ($search !== ''): ?>По запросу «<?php echo esc_html($search); ?>»: <?php else: ?>Статей в подборке: <?php endif; ?><strong><?php echo (int) $wp_query->found_posts; ?></strong></p>
         <?php if ($search !== ''): ?><a href="<?php echo esc_url(sy3_journal_url($active)); ?>">Сбросить поиск</a><?php endif; ?></div>
     <?php endif; ?>
