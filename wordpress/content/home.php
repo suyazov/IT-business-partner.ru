@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/blocks.php';
+require_once __DIR__ . '/home-faq.php';
 function sy3_home_content(): string {
     $contact = 'https://t.me/sy3_support_bot?start=site_sy3';
     $hero = sy3_p('СУТРИ / ЦИФРОВЫЕ РЕШЕНИЯ ДЛЯ БИЗНЕСА', 'eyebrow hero-kicker') .
@@ -41,16 +42,12 @@ function sy3_home_content(): string {
         sy3_buttons([['Написать Артёму', $contact]]) . sy3_p('<a class="text-link" href="' . esc_url(home_url('/about/')) . '">Обо мне и подходе</a>')
     ], 'author-grid');
     $journal = sy3_p('05 / Практика и знания', 'eyebrow') . sy3_g(sy3_h('Понимать технологии.<br>Принимать решения.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/journal/')) . '">Читать журнал</a>'), 'section-heading') . sy3_p('Разборы для собственника и команды: что проверить, с чего начать и как принять работу.', 'section-intro') . sy3_shortcode('[sy3_cards type="post" count="3"]');
-    $faq = sy3_p('06 / До начала работы', 'eyebrow') . sy3_h('Вопросы по делу') . sy3_g(
-        sy3_faq('Можно начать с небольшой задачи?', 'Да. Например, проверить путь заявки с сайта до CRM, исправить интеграцию или разобрать один бизнес-процесс. У первого этапа будут конкретные границы и критерий готовности.') .
-        sy3_faq('У нас уже есть сайт и CRM. Нужно всё менять?', 'Сначала разбираем текущую систему. Часто можно исправить отдельный участок: форму, передачу заявки, обмен данными или работу менеджеров. Замену обсуждаем при понятных причинах.') .
-        sy3_faq('Сколько стоит проект?', 'После разбора задачи согласуем состав первого этапа и стоимость. Цена зависит от процессов, интеграций, состояния данных и объёма разработки. Лицензии и платные сервисы обсуждаем отдельно.') .
-        sy3_faq('Кто будет работать над задачами по 1С и аналитике?', 'Подключаем профильных подрядчиков по 1С и специалистов по аналитике данных. Артём ведёт постановку задачи, согласование участников и проверку решения в общем процессе.'), 'faq-list');
+    $faq = sy3_home_faq_section();
     $cta = sy3_cols([
         sy3_p('Начнём с вашей задачи', 'eyebrow') . sy3_h('Есть задача?<br><em>Давайте разберёмся.</em>'),
         sy3_p('Расскажите, что хотите запустить или улучшить. Обсудим, с чего начать, какой результат нужен и как его проверить.') . sy3_buttons([['Обсудить проект с Артёмом', $contact]]) . sy3_p('<a href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a>', 'contact-alternative')
     ], 'cta-panel');
-    return sy3_g(sy3_g($hero, 'section-inner'), 'hero hero-redesign hero-editorial', 'section') . sy3_section($cases, 'work-section') . sy3_section($services, 'services-section') . sy3_section($process, 'section-dark') . sy3_section($author, 'author-section') . sy3_section($journal, 'journal-section') . sy3_section($faq) . sy3_section($cta, 'contact-section');
+    return sy3_g(sy3_g($hero, 'section-inner'), 'hero hero-redesign hero-editorial', 'section') . sy3_section($cases, 'work-section') . sy3_section($services, 'services-section') . sy3_section($process, 'section-dark') . sy3_section($author, 'author-section') . sy3_section($journal, 'journal-section') . $faq . sy3_section($cta, 'contact-section');
 }
 
 function sy3_personal_home(): string {
