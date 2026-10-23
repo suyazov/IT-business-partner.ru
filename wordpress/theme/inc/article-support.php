@@ -87,8 +87,7 @@ function sy3_article_inline_cta(WP_Post $post, int $slot): string {
         . '<h3 id="article-cta-' . $post->ID . '-' . $slot . '">' . esc_html($copy['title']) . '</h3>'
         . '<p>' . esc_html($copy['text']) . '</p><div class="article-cta-actions">'
         . '<a class="button" href="https://t.me/sy3_support_bot?start=site_sy3">' . esc_html($copy['label']) . '<span class="screen-reader-text"> в Telegram</span></a>'
-        . '<a class="article-cta-alt" href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a></div>'
-        . '<p class="article-cta-note">Сообщением, без звонка. Пароли и доступы присылать не нужно.</p></aside>';
+        . '<a class="article-cta-alt" href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a></div></aside>';
 }
 
 function sy3_article_faq(WP_Post $post, array $items): string {
