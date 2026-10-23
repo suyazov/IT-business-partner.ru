@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "54e81b4c11b7b7fe9db3a5dadabf346aa56e3cac",
+  "source_git_commit": "b7c53ab7eac9174f7697edb74a36b613f7ca664d",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 319,
+  "prepared_objects": 339,
   "prepared_by_type": {
     "page": 3,
-    "post": 273,
+    "post": 293,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -590,6 +590,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 147,
+      "type": "post",
+      "slug": "identifikator-vmesto-imeni",
+      "baseline_hash": "a6852491c9c0b61c9070fa61e865e2c28bde3b158669b1d3f14a40ee4c612b7e",
+      "candidate_hash": "9bc4abf5dc863126f7f45c69833a0fd6f3d071cdf9d7b45d39fdecfeb1cc661d",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/identifikator-vmesto-imeni.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11107,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 148,
+      "type": "post",
+      "slug": "prava-menedzhera-priemka-crm",
+      "baseline_hash": "a9600afacba79a6b1d8faf66a4e7520ac6e16b779a5e9c508af89efae46036f1",
+      "candidate_hash": "f54e4be1c92468f9d1cbbdda0d034f20a9c8f9599faa5c479d824291c5940fec",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/prava-menedzhera-priemka-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11430,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 150,
       "type": "post",
       "slug": "forma-otpravlena-no-zayavki-net",
@@ -670,6 +694,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-13/zhurnal-integracii-dlya-biznesa.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-13/manifest.json",
       "content_characters_declared": 12284,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 157,
+      "type": "post",
+      "slug": "oshibki-vneshnego-api",
+      "baseline_hash": "c19805f99c5fc3ba5295f5d7d3b5dc656dedd8544fbd8acb0dd39f2bcf49cc2c",
+      "candidate_hash": "d30da3fc531d205d4b96bf1a7e5a1d7dfd97158f454ad6cad214792d5a709a20",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/oshibki-vneshnego-api.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 12138,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 158,
+      "type": "post",
+      "slug": "izmenenie-formata-integracii",
+      "baseline_hash": "7d247ec15d2cbfb6d8edd06d09fa99d467f9be729ec9b3df1b4dcd4f0b274bc4",
+      "candidate_hash": "53cde4d03964c8ae53e9a25d90adcdfd4979fa4b5be2fcc9301dcaa60a14bf4e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/izmenenie-formata-integracii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11066,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -758,6 +806,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 168,
+      "type": "post",
+      "slug": "fayly-dlya-ai-proverka-na-vhode",
+      "baseline_hash": "935310033d317f760decf0788aea3ede8dc3bbcc247b0a6344807194f31b9c22",
+      "candidate_hash": "d6fa1a1f00afeddd876e31e348c1b131c404d7d9d3c657523a2606b0a5fd737f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/fayly-dlya-ai-proverka-na-vhode.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 10951,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 169,
+      "type": "post",
+      "slug": "sravnenie-ai-video-modeley",
+      "baseline_hash": "6e8c3cfcc5a4f48c28ff50a1fbb69941ea1d2ffc1b32b52a1637b03d1b96acf1",
+      "candidate_hash": "446722bc433de5421e2b697851ef2fe320ae8fcfcef290e5bba8e45e71ba78b5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/sravnenie-ai-video-modeley.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 10726,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 171,
       "type": "post",
       "slug": "odin-obekt-odin-list-a4",
@@ -838,6 +910,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-13/istoriya-pravok-dokumenta.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-13/manifest.json",
       "content_characters_declared": 11794,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 178,
+      "type": "post",
+      "slug": "prototip-dokumentnogo-servisa",
+      "baseline_hash": "f84bad5e42b5d7f419cb337c7d14e2ba75e053e33be0eae1babf0260ff786d8a",
+      "candidate_hash": "36e6543008ff842e0f198ddf0f30c03ea2449f3a56be48f1257666e8d7d893cf",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/prototip-dokumentnogo-servisa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11053,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -926,6 +1010,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 189,
+      "type": "post",
+      "slug": "perehod-ot-prototipa-k-kalendaryu",
+      "baseline_hash": "7cc93371ac322333523a805fe1a35d8037682e217d1696c3394831af0f0c411a",
+      "candidate_hash": "17e36b7631ccd78e47cd395006f79bd79b0c07fe20ab155bd4f9e99c4762db72",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/perehod-ot-prototipa-k-kalendaryu.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11925,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 192,
       "type": "post",
       "slug": "semya-kak-model-klienta",
@@ -994,6 +1090,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-12/offline-dannye-nuzhno-podtverzhdat.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-12/manifest.json",
       "content_characters_declared": 12747,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 198,
+      "type": "post",
+      "slug": "abonement-ne-raven-vyruchke",
+      "baseline_hash": "59369ef106e5bdeaa29bc311b1a06d350b0fab77702712c6ef6db7b32934d6c4",
+      "candidate_hash": "c7999e4ccdc7b53d49bf0d749cda2c3b0cd3275092204e59e11da0ca22041f6f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/abonement-ne-raven-vyruchke.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 13089,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 199,
+      "type": "post",
+      "slug": "filialy-v-odnoy-crm",
+      "baseline_hash": "afc966434c3dd11df7e81ab68d82388b81923da09188fe562fe8d46f2cc6e32a",
+      "candidate_hash": "a4dbe45dd51129f7c1da367c4f277cf18212cf3926258104c2a9146a9514804c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/filialy-v-odnoy-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 12329,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1070,6 +1190,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 208,
+      "type": "post",
+      "slug": "seo-audit-prevratit-v-priemku",
+      "baseline_hash": "aab613e1e2c46c6d47c199b762ee52ec635a5db2af395a156264179037870862",
+      "candidate_hash": "4ac63d7c5837b66b90ef079d464da64a30e77b1772c18d1c47bd6bc64e6f367f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/seo-audit-prevratit-v-priemku.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 12382,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 209,
+      "type": "post",
+      "slug": "shablon-stati-v-deystvuyushchey-cms",
+      "baseline_hash": "5be5882549299c9e2aab45b11e648e9075249350f771360d1e2b16999fe35eba",
+      "candidate_hash": "14d0368b860f426a278252c07f521cf60b0851b491654e7b180ed157c23862e9",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/shablon-stati-v-deystvuyushchey-cms.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 12112,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 212,
       "type": "post",
       "slug": "edinaya-tochka-priema-rabochih-zaprosov",
@@ -1138,6 +1282,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-12/prava-ai-na-deystviya.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-12/manifest.json",
       "content_characters_declared": 12307,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 218,
+      "type": "post",
+      "slug": "servis-rabotaet-a-zadacha-ne-vypolnyaetsya",
+      "baseline_hash": "37fd01951dd0a146797baed1f0175d34321112350f0343cfe59b75f3ddef21d0",
+      "candidate_hash": "dd3a2d3be7ae02d14fccc716ee8ad4cfed373d4914b5148b4d03c943d9f86c24",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/servis-rabotaet-a-zadacha-ne-vypolnyaetsya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11844,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 219,
+      "type": "post",
+      "slug": "predprosmotr-i-publikaciya-raznye-etapy",
+      "baseline_hash": "383d608383f931d8292a3064fe51cf3c23fdc9c3718b558ba169df1893d7b6bf",
+      "candidate_hash": "b55472b18ae3846141c92be635a20614ff1240cbe81121763e0e8c4ad9d70b3e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/predprosmotr-i-publikaciya-raznye-etapy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 12033,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1214,6 +1382,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 228,
+      "type": "post",
+      "slug": "testy-nastraivaemyh-kpi-formul",
+      "baseline_hash": "352f35af3b200269fcdd2788e3fd0c97ff9fd35f8cdfb68b3c76b91443067651",
+      "candidate_hash": "8479fcaf38cbcd51a2d144c383d930a96a9d492ff60af8ab4307204d4902792a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/testy-nastraivaemyh-kpi-formul.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11779,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 229,
+      "type": "post",
+      "slug": "zakrytie-perioda-v-avtomatizatsii",
+      "baseline_hash": "597c52b63ca90a62b9c100994f97f25b4b1801628ced5a1103cc97fea9d1709a",
+      "candidate_hash": "84dc5312c35a71acada762ff7740535cc87b1e527d1078288d7273ac9fbc52f4",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/zakrytie-perioda-v-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11959,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 232,
       "type": "post",
       "slug": "granitsy-mvp-avtomatizatsii",
@@ -1282,6 +1474,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-12/dostup-podderzhki-po-soglasiyu.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-12/manifest.json",
       "content_characters_declared": 12150,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 238,
+      "type": "post",
+      "slug": "obshchaya-platforma-i-otraslevye-moduli",
+      "baseline_hash": "ad2ab056082bc6461ae85e4dfff789d28316f11c294eb860601c8f66b043293f",
+      "candidate_hash": "c103af322af29a780fc334116a6860f3d152c75caee00a865725f01674e7cb78",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/obshchaya-platforma-i-otraslevye-moduli.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 11924,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 239,
+      "type": "post",
+      "slug": "redaktsionnyy-konveyer-s-ii",
+      "baseline_hash": "d190947de05ca1a807bc7490d32a5f0fc1a0cb82ed16c49e05a635f03afa0cba",
+      "candidate_hash": "358e0a2a305fc2a2d3224dbe15cc60dc78b1db4482e00f6d1404e192065989ca",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/redaktsionnyy-konveyer-s-ii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 12279,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -3110,6 +3326,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 513,
+      "type": "post",
+      "slug": "beget-sla-granicy-otvetstvennosti",
+      "baseline_hash": "440fda3a7a22d2df4727116239d2d4569c4677ead5b3380a6ec52df60b43fa96",
+      "candidate_hash": "01773059f5834b18b215d2deb1684527b80cd75a608b4558deccdb66fe9aeb0b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/beget-sla-granicy-otvetstvennosti.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 13112,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 514,
+      "type": "post",
+      "slug": "beget-ekspluatacionnyy-pasport",
+      "baseline_hash": "f808935f1a7f14079925af921aad98bd83c97cdbeecea410d81d90ba883f8eee",
+      "candidate_hash": "48a6ea06394f06e684424b80d92f255b00dc1bc539659148b5385c4537e6442c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-14/beget-ekspluatacionnyy-pasport.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
+      "content_characters_declared": 13628,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 515,
       "type": "post",
       "slug": "beget-pereezd-proverka-do-dns",
@@ -3859,29 +4099,9 @@
       "slug": "journal"
     },
     {
-      "id": 147,
-      "type": "post",
-      "slug": "identifikator-vmesto-imeni"
-    },
-    {
-      "id": 148,
-      "type": "post",
-      "slug": "prava-menedzhera-priemka-crm"
-    },
-    {
       "id": 149,
       "type": "post",
       "slug": "crm-kontrolnye-scenarii-kanalov"
-    },
-    {
-      "id": 157,
-      "type": "post",
-      "slug": "oshibki-vneshnego-api"
-    },
-    {
-      "id": 158,
-      "type": "post",
-      "slug": "izmenenie-formata-integracii"
     },
     {
       "id": 159,
@@ -3889,24 +4109,9 @@
       "slug": "integraciya-chtenie-ili-zapis"
     },
     {
-      "id": 168,
-      "type": "post",
-      "slug": "fayly-dlya-ai-proverka-na-vhode"
-    },
-    {
-      "id": 169,
-      "type": "post",
-      "slug": "sravnenie-ai-video-modeley"
-    },
-    {
       "id": 170,
       "type": "post",
       "slug": "granicy-ai-pomoshchnika"
-    },
-    {
-      "id": 178,
-      "type": "post",
-      "slug": "prototip-dokumentnogo-servisa"
     },
     {
       "id": 179,
@@ -3919,11 +4124,6 @@
       "slug": "poshagovyy-konstruktor-dokumentov"
     },
     {
-      "id": 189,
-      "type": "post",
-      "slug": "perehod-ot-prototipa-k-kalendaryu"
-    },
-    {
       "id": 190,
       "type": "post",
       "slug": "obshchie-resursy-v-raspisanii"
@@ -3932,16 +4132,6 @@
       "id": 191,
       "type": "post",
       "slug": "bron-i-oplata-raznye-sobytiya"
-    },
-    {
-      "id": 198,
-      "type": "post",
-      "slug": "abonement-ne-raven-vyruchke"
-    },
-    {
-      "id": 199,
-      "type": "post",
-      "slug": "filialy-v-odnoy-crm"
     },
     {
       "id": 200,
@@ -3954,16 +4144,6 @@
       "slug": "ot-zayavki-do-zachisleniya"
     },
     {
-      "id": 208,
-      "type": "post",
-      "slug": "seo-audit-prevratit-v-priemku"
-    },
-    {
-      "id": 209,
-      "type": "post",
-      "slug": "shablon-stati-v-deystvuyushchey-cms"
-    },
-    {
       "id": 210,
       "type": "post",
       "slug": "karta-obektov-s-upravleniem-iz-cms"
@@ -3972,16 +4152,6 @@
       "id": 211,
       "type": "post",
       "slug": "lending-s-oplatoy-bez-bolshogo-magazina"
-    },
-    {
-      "id": 218,
-      "type": "post",
-      "slug": "servis-rabotaet-a-zadacha-ne-vypolnyaetsya"
-    },
-    {
-      "id": 219,
-      "type": "post",
-      "slug": "predprosmotr-i-publikaciya-raznye-etapy"
     },
     {
       "id": 220,
@@ -3994,16 +4164,6 @@
       "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai"
     },
     {
-      "id": 228,
-      "type": "post",
-      "slug": "testy-nastraivaemyh-kpi-formul"
-    },
-    {
-      "id": 229,
-      "type": "post",
-      "slug": "zakrytie-perioda-v-avtomatizatsii"
-    },
-    {
       "id": 230,
       "type": "post",
       "slug": "ochered-isklyucheniy-byudzheta"
@@ -4012,16 +4172,6 @@
       "id": 231,
       "type": "post",
       "slug": "audit-pered-perenosom-sistemy"
-    },
-    {
-      "id": 238,
-      "type": "post",
-      "slug": "obshchaya-platforma-i-otraslevye-moduli"
-    },
-    {
-      "id": 239,
-      "type": "post",
-      "slug": "redaktsionnyy-konveyer-s-ii"
     },
     {
       "id": 240,
@@ -4037,16 +4187,6 @@
       "id": 391,
       "type": "post",
       "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
-    },
-    {
-      "id": 513,
-      "type": "post",
-      "slug": "beget-sla-granicy-otvetstvennosti"
-    },
-    {
-      "id": 514,
-      "type": "post",
-      "slug": "beget-ekspluatacionnyy-pasport"
     }
   ]
 }

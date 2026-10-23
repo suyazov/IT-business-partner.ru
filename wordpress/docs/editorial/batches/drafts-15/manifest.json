@@ -1,0 +1,423 @@
+{
+  "candidates": [
+    {
+      "id": 179,
+      "slug": "rekvizity-bez-ruchnogo-kopirovaniya",
+      "type": "post",
+      "baseline_hash": "6d373ad1f61216b7e1d2f69adfa54b29fe31d41a7b48cfd2742735224057acbc",
+      "file": "rekvizity-bez-ruchnogo-kopirovaniya.html",
+      "candidate_hash": "18011a08d06e9413cbb79873cd2666d87d071843ceea738920148fbc63fdc4ac",
+      "visible_chars": 12261,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=39",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-39.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform39/runtime; удалены три кратких повтора, сохранены карты источников/снимков и матрицы.",
+        "cases.json bitrix24-doors ранее сверено:4DOCX/поля/подтверждённоеимяпокупателя. Снимкиархива/универсальныеконфликтынеприписаныреальномукейсy.",
+        "Добавлен предметный walkthrough имя→контакт→поле→файл и граница скачатьэкземплярvsперегенерироватьрецепт.",
+        "OWASPInputValidation первичка прочитана в этом редакторском этапе; нетюридическойдостаточности/придуманныхметрик."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 190,
+      "slug": "obshchie-resursy-v-raspisanii",
+      "type": "post",
+      "baseline_hash": "e8fc19f4dc88a31b4aa53dbc0413bd67ad1215b84a9d13c8feca60e9fcb0ee8b",
+      "file": "obshchie-resursy-v-raspisanii.html",
+      "candidate_hash": "df651fc3481d09fc3abe3be0140e2f47039ab19b2d9a93a8439fb97bad0782c7",
+      "visible_chars": 13306,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=49",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-49.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полный longform49/runtime; удалены краткие повторы и неподтверждённые личные утверждения про действующую разработку детскогоцентра/календаряплощадок.",
+        "Добавлены предметные конкуренциязаобщийкомплект/экземплярvsколичество/сохранениепрежнегосостава; методика не клиентскийрезультат.",
+        "GoogleCalendarFreebusyquery открыт23.10.2026: сведенияоbusyинтервалахнеравнысовместимостиуслуги или резервированиюнабора.",
+        "Сохранены все таблицы/схема/документальныеhref, исключенывыдуманныефункции/метрики; личныйCTAоднауслуга."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 200,
+      "slug": "konflikty-pedagoga-i-kabineta",
+      "type": "post",
+      "baseline_hash": "7982d35317861a0efc05500d5fa4aa19949cef3e5f4100008ded81baa7d79038",
+      "file": "konflikty-pedagoga-i-kabineta.html",
+      "candidate_hash": "fc188a2bbb2c53401ef506c8f70501d3644be9353063248a6abc9feb99c3eb3e",
+      "visible_chars": 11086,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/06-education.md#id=59",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-59.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform59/runtime; убраны три ранних дублирующих раздела с неподтверждённой личной реализацией расписания детскогоцентра.",
+        "Основной текст уже содержит последовательный пример пятницы17:00/17:30,серии/исключения и матрицу10сценариев. Эти сильныеподробности сохранены без дописывания общих глав.",
+        "RFC5545первичкапроверена23.10.2026,форматповторовнеприписанисходнойCRM. Всёпредставленометодикой/учебнымипримерaми.",
+        "Интент/артефакты/hrefсохранены,личныйCTAнаодинреальныйперенос,нетвыдуманныхклиентов/функций/метрик."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 210,
+      "slug": "karta-obektov-s-upravleniem-iz-cms",
+      "type": "post",
+      "baseline_hash": "b29d83143f7bdf927845a829ed5bad9482be07245ff9e59d5351f7d948481a9b",
+      "file": "karta-obektov-s-upravleniem-iz-cms.html",
+      "candidate_hash": "ddb29ddff713b358f5c4cf68f3f26230014f347b89c95e7aa842bea11c810819",
+      "visible_chars": 12130,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/07-web.md#id=69",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-69.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform69/runtime и publiccase star26. Удалены три краткихповтора; полныйразборкаталога/геометрии/статусов/мобильногопути/CRMсохранён.",
+        "cases.jsonstar26подтверждаетWordPressкаталог/редактируемуюкарту/админуправлениеобъектами/характеристиками/планировками, без измеренногоувеличенияпродаж.",
+        "ACFGoogleMapпервоисточник открыт23.10.2026; поле положениянеприравненокготовымконтурам/статусам/CRM и неприсвоено кактехнологиякейса.",
+        "Дополнительные сценарии статьи проектные; не добавлены неподтверждённые функции клиента. Всеартефакты/значимыеhrefсохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 220,
+      "slug": "kontekst-proekta-dlya-komandy-i-ai",
+      "type": "post",
+      "baseline_hash": "21a1b31dd94c305ff67e67db1fb3e31f1fe5ac400a1f7bc8c83a5953f0e12cf2",
+      "file": "kontekst-proekta-dlya-komandy-i-ai.html",
+      "candidate_hash": "1fd811d50e13007fb0990bb75c539dfec78d2d3ebecace53449b3f8a8e6d5d8a",
+      "visible_chars": 11481,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/08-operations.md#id=79",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-79.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform79/runtime; удалены три ранних краткихповтора, основной подробныйразборконтекста/карточкирешений/передачисохранён.",
+        "Diátaxisофициальныйавторскийисточник открыт23.10.2026: tutorial/how-to/reference/explanationиспользованыкакориентир, немеханическоетребование4документов.",
+        "Личнаяметодика соответствует принятомурабочемупроцессу, но клиентскиеэффекты/экономияневводятся. Примеринтеграциисочередьюявноучебный.",
+        "Всеартефакты/hrefсохранены; CTAпервое лицоодназадача/проверкатекущегорешения."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 230,
+      "slug": "ochered-isklyucheniy-byudzheta",
+      "type": "post",
+      "baseline_hash": "adc1f3ab191fb87d3eddcf8654816fb2a5d2202f8f8387377e67ae2864cc9038",
+      "file": "ochered-isklyucheniy-byudzheta.html",
+      "candidate_hash": "89c8e51ef273550ff1b963a5524cacdddd4dcdf43bf9b58ee6c20bc9b3d984af",
+      "visible_chars": 11493,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/09-finance.md#id=89",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-89.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform89/runtime; убраны три ранних краткихповтора, сохраненысемьклассовпричин,паспортконтроля,повторныйразбор и9сценариевприёмки.",
+        "MicrosoftModernApprovals открыт23.10.2026 как пример инструмента, не обещаниеуниверсальнойполитики/доступности/автосогласования.",
+        "Текст ограниченпроектированиеминформационногопроцесса; нет финансовыхпорогов/советов/заявленияореальновнедрённомконтроле/экономии.",
+        "Условныепокупка/дубль/периодразличены; артефакты/источникипобайтносохранены,личныйCTA."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 240,
+      "slug": "izmereniya-posle-zapuska-avtomatizatsii",
+      "type": "post",
+      "baseline_hash": "8eeee68270e4fde3c922d4f75d89fea02bf0b02958b48f21b7ed0fe496d1bf04",
+      "file": "izmereniya-posle-zapuska-avtomatizatsii.html",
+      "candidate_hash": "ae7d7f02dfc028ceade389f254ae12453db26893568cef5d282628f9c055d6d7",
+      "visible_chars": 11884,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/10-strategy.md#id=99",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-99.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform99/runtime; удалены три ранних повторяющихрезюме, сохранёнполныйразборсобытий/открытогоостатка/сопоставимости/качества.",
+        "GOV.UKperformance metrics открыт23.10.2026: метрикиотцели,требованиягоссервисовневыданыобязательнымикоммерческомупроекту.",
+        "Учебныйпримерсреднеговременивыявляетsurvivorship/openqueueбезвымышленныхпроцентов/достигнутогоэффекта; финансовыерезультатыотделены.",
+        "Обобщённое мызамененоописаниемподхода, личныйCTAспаспортомизмерения; артефакты/hrefсохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 149,
+      "slug": "crm-kontrolnye-scenarii-kanalov",
+      "type": "post",
+      "baseline_hash": "e88291200aa50b2a7d166e1990bbec6df6f53766e28f28383551cf5a900e26fb",
+      "file": "crm-kontrolnye-scenarii-kanalov.html",
+      "candidate_hash": "e84d39f75188a2e64303c167b09ddfe22593d02e75d648d1c8e6966239db27d7",
+      "visible_chars": 11067,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=10",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-10.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform10/runtime; удалены три кратких повтора, сохраненыподробныеклассысценариев/исключения/повтор/рольменеджера.",
+        "cases.jsonmatklassподтверждёнвэтомэтапе:12тестовыхсделокamoCRMнастольный/мобильныйсценарии, не12клиентов/ростконверсии,оплатаикорзинавнезаявленногорезультата.",
+        "amoCRMduplicationcontrol и MDNWebForms открыты23.10.2026; существующийконтактнеравензапретуновогообращения, HTTPстатуснедоказываетделовойисход.",
+        "Числоконтрольныхотправокнепревращеновуниверсальныйнорматив, все значимыеhref/кейсы/схемысохранены.",
+        "Восстановлен точный предметный пример Маткласса в отдельном разделе с реестром покрытия/непроверенным участком; самостоятельный текст≥10500 без наполнителя."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 159,
+      "slug": "integraciya-chtenie-ili-zapis",
+      "type": "post",
+      "baseline_hash": "aca168193c6bc8732b656e14aeb36562bddce5ea240367c5302447c9644ad63f",
+      "file": "integraciya-chtenie-ili-zapis.html",
+      "candidate_hash": "a422dba610fe43adfc3db06e7318af7bdc2ab2d2ea6a09c7c94e4dc4280ae3b8",
+      "visible_chars": 11218,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=20",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-20.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform20/runtime; убраны три ранних краткихповтора,включаясылкунанепубличныйпроектныйкалендарь.",
+        "Основнойтекстужесодержитполныймаршрутчтения,свежесть,права,недоступность и расширениезаписи,безобщихдобавокдляобъёма.",
+        "Официальный MicrosoftCQRS открыт23.10.2026; разделениеquery/commandнеобязываетотдельныеБД/сложнуюархитектуру. Б24рольдоступапроверенавэтомэтапе.",
+        "Демонстрационныйкалендарьявноучебный,нетвыдуманноговнедрения. Артефакты/hrefсохранены, CTAличный."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 170,
+      "slug": "granicy-ai-pomoshchnika",
+      "type": "post",
+      "baseline_hash": "68a9f3bee628c331c69b6a5663c959534543aac92d642677bb2c50472074ae45",
+      "file": "granicy-ai-pomoshchnika.html",
+      "candidate_hash": "0ba77ad38d6ac07c360fd9f3d4fed1e9a9ab0374e9c9f083efebf83b718a2283",
+      "visible_chars": 10995,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=30",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-30.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform30/runtime+cases.json glosscheck; удалены краткие повторы. Медицинская оговорка названа в задачах кейса, но отдельного подтверждения её реализации в перечне результата нет; в статье оставлены подтверждённые функции чата/OCR.",
+        "СохраненыточныеподтверждённыефункцииGlossCheck:WPчат/история/фото-документыOCR; онинеобъявленыпроверкойисточников/полномочий.",
+        "Добавлена предметная пара справкаоподачеvsфактодобрения; методика не внедрение. OWASPLLM/evals первичкапрочитана в текущемредакторскомэтапе.",
+        "Нетмедицинскихсоветов/обещаниябезошибочности/тарифов, всеартефактыиофициальныеhrefсохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 180,
+      "slug": "poshagovyy-konstruktor-dokumentov",
+      "type": "post",
+      "baseline_hash": "8f67585f3a924a095e0a1a42f2a5d452b717e91923bdb9298359bcdfb80d8e42",
+      "file": "poshagovyy-konstruktor-dokumentov.html",
+      "candidate_hash": "2b08a959cf76f4279dd715256567473c34b7a6f06da804f385686e4042b55f84",
+      "visible_chars": 11326,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=40",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-40.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полный longform40/runtime; убраны ранние повторы и неподтверждённая личная реализация конструктора, сохранены7приёмочныхсценариев/матрицазависимостей.",
+        "Добавлен предметный контрпример двухвкладок: исправлениекомментариянедолжновернутьстарогоучастника. Эторазборсостояния,необъёмныйнаполнитель.",
+        "W3CWAI multi-page первичка открыта23.10.2026: логическиешаги/прогресс/понятность, без заявлениясертификации/полнойWCAGсовместимости.",
+        "Нет клиентскихфункций/результатовбезисточника; всеартефакты/ссылкисохранены, CTAличный."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 191,
+      "slug": "bron-i-oplata-raznye-sobytiya",
+      "type": "post",
+      "baseline_hash": "cebbd70beec3ba2467dac1292ccae6c0019bebc31199a7d6b5a2cede0b97c7f5",
+      "file": "bron-i-oplata-raznye-sobytiya.html",
+      "candidate_hash": "c68f22b4ea2f2e7553ce5c1b0f01f2a94a0cfa8a4c5e95db4a2667e90b38f2ab",
+      "visible_chars": 12926,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=50",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-50.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform50/runtime; удалены ранние резюме,сохраненытаблицасочетаний/позднийплатёж/9сценариев.",
+        "Подтверждённый shumakova-yookassaограниченсобственнойБДзаявок/связьюплатежа/вебхуком+сервернойпроверкой/уведомлениемпослеоплаты,непроизвольнымиресурснымиправилами.",
+        "Официальная ЮKassawebhooks открыта23.10.2026; browserreturnнеисточникусспеха,подлинность/повторсверяютсясконтрактом,безвыдуманногоHMAC.",
+        "Финансовая/договорнаяполитиканеназначаетсястатьёй, примерысинтетические, всеартефакты/hrefсохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 201,
+      "slug": "ot-zayavki-do-zachisleniya",
+      "type": "post",
+      "baseline_hash": "030d56ff6cedef359d2e919b3b2d724a0be0e7d99fe247c021e2ec9f42a4abd3",
+      "file": "ot-zayavki-do-zachisleniya.html",
+      "candidate_hash": "5c355980dc42d36b01bb59e76399c823ab281177189a173aca78aa15af63aa55",
+      "visible_chars": 13098,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/06-education.md#id=60",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-60.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform60/runtime; удалены три ранних повтора и неподтверждённое личное внедрение детскойCRM.",
+        "Основной подробныйразборзаинтересованности/зачисления/последнегоместа/серий/отказовсохранён. Publiccasebitrix24-trainingдобавленстроговграницахформы/потока/ID,неLMSрегистрации.",
+        "Официальный MoodleEnrolments открыт23.10.2026: аккаунт/рольучастиявкурсе различаются, интеграцияконкретногоклиентанезаявлена.",
+        "Нетустановленияправовых/финансовыхоснованийзаказчика, всеартефакты/ссылкисохранены, CTAличный."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 211,
+      "slug": "lending-s-oplatoy-bez-bolshogo-magazina",
+      "type": "post",
+      "baseline_hash": "42109c341c45995aeb7d508e3e2db270ccfd9f3b03912da8576909b2bd9dad6c",
+      "file": "lending-s-oplatoy-bez-bolshogo-magazina.html",
+      "candidate_hash": "88f5a88303ffcf81b8b571b8b5fe7b9b3c6c7dfffb2ee23344d4ebf29f9eda4e",
+      "visible_chars": 12810,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/07-web.md#id=70",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-70.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform70/runtime; удалены ранние повторы, реальныйкейсвосстановленточнойсводкойвразделеопыта.",
+        "cases.jsonshumakova-yookassaподтверждает4направления/собственнуюБД/прямуюинтеграциюбезWoo/webhook+сервернуюпроверку/уведомлениепослеоплаты; конверсиянеприписана.",
+        "ЮKassawebhooks первичка проверена23.10.2026; browserreturnнеподтверждениеплатежа, источники/повторыследуютконтракту. Финансоваяполитикасогласуетсяотдельно.",
+        "Примерывыдачи/частичныхуслугнеобъявленыфункциямикейса; таблицы/схема/hrefсохранены, CTAличный."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 221,
+      "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai",
+      "type": "post",
+      "baseline_hash": "dfadbb4f9ec9b6cab53ed239c8cf31ade2c5f22b87fc98cc253f10487f1f9481",
+      "file": "kak-prinimat-razrabotku-s-pomoshchyu-ai.html",
+      "candidate_hash": "2267c14cf49bcfd87208832f440a0f40e6ff2ed077a3748b6f3d45b2506ab3f8",
+      "visible_chars": 11883,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/08-operations.md#id=80",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-80.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны runtime221 и article-80.md. Удалены ранние краткие повторы; сохранены карточка сценария, матрицы, независимый технический разбор и границы проверки заказчиком. OWASP ASVS — ориентир, не сертификат проекта."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 231,
+      "slug": "audit-pered-perenosom-sistemy",
+      "type": "post",
+      "baseline_hash": "da3a6790fa5affe6fc6cd0417f3f69f62ee7a52fd94ba6c577ec6fbe5ea97b50",
+      "file": "audit-pered-perenosom-sistemy.html",
+      "candidate_hash": "408983bca6a936f71233b139279a2d32c7a4a3b6238375e39840bce9fa5a2c63",
+      "visible_chars": 11822,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/09-finance.md#id=90",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-90.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны runtime231 и article-90.md. Сохранены три карты, реестр потребителей, незавершённые операции и матрица приёмки аудита. Убран неподкреплённый отдельным публичным кейсом рассказ о выполненном обследовании; C4 используется как методика."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 241,
+      "slug": "biznes-brif-na-avtomatizatsiyu",
+      "type": "post",
+      "baseline_hash": "2026037e11557305bff9c637562bc28e31779d6846e80a501d1a3fbd91da3af4",
+      "file": "biznes-brif-na-avtomatizatsiyu.html",
+      "candidate_hash": "b099398a798b508437d2103b259505db740130db4b60873cefb20874e0469ab4",
+      "visible_chars": 11606,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/10-strategy.md#id=100",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-100.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны runtime241 и article-100.md. Сохранены заполняемый каркас, учебный пример, карта данных, реестр неизвестного и матрица приёмки. BPMN не объявлен обязательным знанием заказчика; пример не выдан за внедрение."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 391,
+      "slug": "kompleksnaya-avtomatizaciya-biznesa-plan",
+      "type": "post",
+      "baseline_hash": "3ba95571bacfc409172493f29b298ce584e42c2e0536694572db77415ea48868",
+      "file": "kompleksnaya-avtomatizaciya-biznesa-plan.html",
+      "candidate_hash": "b95f01388120fc539cbd8b1c73c5e8e2a041cc8943749bbd604801495fe0d1b4",
+      "visible_chars": 12988,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/101-kompleksnaya-avtomatizaciya-biznesa-plan.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны runtime391 и search-content101; публичные факты сверены с cases.json: matklass, bitrix24-doors, libertygas. Убраны восемь ранних кратких повторов, значимые ссылки на три кейса перенесены в отдельный раздел. Сохранены карты данных, контракт события, изменение версии заказа и сквозная приёмка."
+      ],
+      "action": "REWRITE"
+    }
+  ]
+}
