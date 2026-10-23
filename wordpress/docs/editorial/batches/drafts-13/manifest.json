@@ -1,0 +1,454 @@
+{
+  "candidates": [
+    {
+      "id": 146,
+      "slug": "edinaya-forma-zayavok-na-obuchenie",
+      "type": "post",
+      "baseline_hash": "89355cd54b42418b413c86c6d7fe9971de86adfa3da560a8611547516d6121d0",
+      "file": "edinaya-forma-zayavok-na-obuchenie.html",
+      "candidate_hash": "41eda4bd8ec4e774a8b0fcdac9e8989cd770dbbfde7f2262be91abda1697b825",
+      "visible_chars": 12095,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=7",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-7.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform7/runtime+cases.json bitrix24-training. Удалены ранние краткие повторы; факты внедрения сохранены отдельным точным разделом.",
+        "Подтверждены две ветки, отдельные поля CRM, задача в нужномпотоке,IDсотрудника и ручноеназваниекурса; экономия/эффектнеизмерялись.",
+        "Дополнительные тесты авторvsучастник,сменаветки,уточнениеvsновыйзапрос явно методические, не новые результаты кейса.",
+        "Б24user.get/tasks.task.add открыты23.10.2026; описание методаAPIнеявляетсядоказательствомготовности конкретного процесса/прав."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 544,
+      "slug": "beget-moodle-vebinar-dostupy",
+      "type": "post",
+      "baseline_hash": "0ee2bc133e43956a790a565478c9ad9f8d73e73fa03becc0fbfddc40fe346195",
+      "file": "beget-moodle-vebinar-dostupy.html",
+      "candidate_hash": "197c9277cc45f884a51ac245eaa9d29cb22ca735061bbdfb78d279518354036f",
+      "visible_chars": 11869,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/285-beget-moodle-vebinar-dostupy.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source285/runtime содержит две учебные диагностики,картуролей,матрицу и триприкладныхартефакта, не обзор продукта.",
+        "Точная BegetMoodle/BigBlueButtonинструкция открыта23.10.2026; совместимость/запись/вместимостьнеобещаныбезпроверкисвоейконфигурации.",
+        "Входадминистратораневыданзаприёмкуучастника; завершениевстречинеравнодоступностизаписи, примерынеклиентскийрезультат.",
+        "Убраны обобщённое «мы» и отрицательное коммерческое обещание; affiliateпрозрачен, CTAличныйспредметнымпервымшагом."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 545,
+      "slug": "beget-authelia-vnutrennie-instrumenty",
+      "type": "post",
+      "baseline_hash": "e94f64f1408c4f62d503fe7f6774ad2902c5be8b5ec09e9c26ca58be441df345",
+      "file": "beget-authelia-vnutrennie-instrumenty.html",
+      "candidate_hash": "61fade4f6690637bdf47dc685ac8b6e49d5f4c463c247cf13e99bcaf58ea8e26",
+      "visible_chars": 11569,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/286-beget-authelia-vnutrennie-instrumenty.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source286/runtime; уже различены authentication/authorization, proxy/OIDC,локальныероли,машинныйдоступ и активныесеансы, с двумяпредметнымиконтрпримерами.",
+        "BegetAuthelia и официальный OpenIDConnectProvider открыты23.10.2026. Совместимостькаждогопотребителя/немедленныйотзывнеобещаныбезпроверки.",
+        "Нет заявления о внедрении всемклиентам/универсальнойгранулярности; примерыусловные.",
+        "Убраны обобщённое мы/маппинг, affiliateотпервоголица с участвующимиуслугами; CTAпервыйограниченныйконтур."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 562,
+      "slug": "beget-seafile-peredacha-dokumentov",
+      "type": "post",
+      "baseline_hash": "e6e399ce0acbc61e509e0f2db42d32469ff1bbc769a57dea35a44024bcf9e43a",
+      "file": "beget-seafile-peredacha-dokumentov.html",
+      "candidate_hash": "8eff7fef3e92b294aee0c80550a81dbf8aa76b29f3943debb6703f19125d3646",
+      "visible_chars": 12193,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/287-beget-seafile-peredacha-dokumentov.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: source287/runtime полностью прочитаны; реестр,комплектность,принятаяредакция,доступ и замечания подробноразобраны, сохраняетсяметодическаяценность.",
+        "BegetSeafile открыт23.10.2026; установка/синхронизациянеприравненыкделовомупринятию, свойствассылки/историипроверяютсянасвоейконфигурации.",
+        "Учебныестарыйфайл/чужойпроект не названы клиентскими фактами. Убрана служебная редакторская фраза «безвыдуманногоотнесения» из публичногорассказа.",
+        "Affiliateуточнён, личныйCTAведёткреестру и конкретному действию, исходныеартефакты/ссылкинеизменны."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 156,
+      "slug": "zhurnal-integracii-dlya-biznesa",
+      "type": "post",
+      "baseline_hash": "e7ad2e446f63664716e5b30b8b88d1f13ec66909c8063faa0dfaeff88fe493e6",
+      "file": "zhurnal-integracii-dlya-biznesa.html",
+      "candidate_hash": "f8d6a999f6f46f4e346c428e8cae45c4e3a087151e3bde06977b1a096af4051f",
+      "visible_chars": 12284,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=17",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-17.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform17/runtime, удалены три ранних кратких повтора с общей личной формулировкой, сохранён основной управленческий разбор.",
+        "Добавлена отдельная последовательность: неизвестныйисход→ручнаясверка→подтверждение либо похожийчужойобъект; техническаяисториянепереписывается.",
+        "OWASPLogging/CloudEvents первичка прочитана23.10.2026; событиясвязываютсясоперацией,попыткинеприравненыкобязательствам.",
+        "Нет заявления о клиентскомвнедрении/измеренномсокращении времени; личныйCTAнаконкретныйуправленческийвопрос."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 563,
+      "slug": "beget-vikunja-obrashcheniya-podderzhki",
+      "type": "post",
+      "baseline_hash": "f16db8c789d3268170161eabd656a82c5838a9be58f533d0286696d6d31284a0",
+      "file": "beget-vikunja-obrashcheniya-podderzhki.html",
+      "candidate_hash": "4f6bd11fb00baa2abb1f0fee688831f25c916a6eb03ded6701d3f65fdc989845",
+      "visible_chars": 11465,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/288-beget-vikunja-obrashcheniya-podderzhki.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source288/runtime ужесодержатпаспортзаявки,дваразборапровала,приоритет,шаблонрезультатаиматрицу; дополнительныеобщиеглавыненужны.",
+        "BegetVikunja открыт23.10.2026; предлагаемыестатусы/приёмканеобъявленыгарантированнымифункциямикаждойверсии.",
+        "Заявительненужентехническийдиагноз,пометкаисполнителянеприравненакрезультату,универсальныеSLAненазначены.",
+        "Affiliateотпервоголица/участвующиеуслуги и предметныйCTA; таблицы/процесс/документальныеhrefсохранены."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 564,
+      "slug": "beget-markdown-baza-reglamentov",
+      "type": "post",
+      "baseline_hash": "c378ff9d9efbdc518a152b21d139c0c7be90577706bb2de62abd74db2d927eef",
+      "file": "beget-markdown-baza-reglamentov.html",
+      "candidate_hash": "bff315e2721b793550809fbd68a563ceb9fd5b330abcef5550fd29f7a40ff138",
+      "visible_chars": 11910,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/289-beget-markdown-baza-reglamentov.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source289/runtime. Текст ужедаётпаспорт,каркас,дваконтрпримера,матрицу и связьзадача→инструкция→выход; наполнениевместообщихглав.",
+        "BegetMarkdown и CommonMark0.31.2 открыты23.10.2026. Возможноститаблиц/расширенийнеприписанылюбомурендереру; форматнезаменяетактуальность/полномочие.",
+        "Не раскрытывнутренниерегламенты/проекты, прикладныеситуацииусловные; рольGitreviewневыданазапредметноепринятие.",
+        "Вступление очищеноотненужнойдисклеймернойформы, affiliateуточнён/первое лицо, CTAпредлагаетоднупроцедуру."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 565,
+      "slug": "beget-lms-vybor-shared-vps",
+      "type": "post",
+      "baseline_hash": "447ac74f5e121d008ca332235f3faf639a351ecf4454bd8b06924dfa05ede1ed",
+      "file": "beget-lms-vybor-shared-vps.html",
+      "candidate_hash": "36a06e830f9d5e1b6368b3931502cb667f40a78c1f0a89564c593c9c084cdc9b",
+      "visible_chars": 11023,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/290-beget-lms-vybor-shared-vps.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source290/runtime ужесодержитпрофильсемисценариев,данные,обязанности,двеучебныедиагностики и матрицу, без универсального users-per-server.",
+        "Точные BegetMoodle/sharedVPS и ограниченияхостинга открыты23.10.2026; параметрытарифов/версийнекопировались, возможностьвсехплагиновнеобещана.",
+        "Во вступлении служебнаяфраза «нетвыдуманных...» замененапредметнымвыходом, обобщённое «мы» убрано.",
+        "Affiliateотпервоголицаиучаствующихуслуг, CTAобозначаетпрофильзанятия и проверку; примерыневнедрения."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 167,
+      "slug": "ai-gotovit-chelovek-podtverzhdaet",
+      "type": "post",
+      "baseline_hash": "c7a3c8dfc465576ea2604ed7c6fb66f05ee43a7b8bdc1a363de32c648f409514",
+      "file": "ai-gotovit-chelovek-podtverzhdaet.html",
+      "candidate_hash": "d4d1106ce14990869a817260e076006ef43fe1a2e8fae3ef95c37a39c9a466e1",
+      "visible_chars": 11479,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=27",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-27.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform27/runtime; убраны ранние резюме и недостаточно подтверждённое личное заявление о реализации привязки подтверждения.",
+        "Добавлены конкретные проверки адресата/вложения/безвредногооформления,инструкциивисточнике,двойногосогласия; не дублируют общий обзор Human-in-loop.",
+        "OWASPLLMprimary открыт23.10.2026: promptinjection/excessiveagency рассматриваются как основания негативныхтестов, не сертификатзащиты.",
+        "НетAPIкодовыхрецептов/придуманныхкейсов/обещанийбезошибочности. Сохранены матрицы,схема,источники."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 566,
+      "slug": "beget-obuchenie-dashbord-pokazateli",
+      "type": "post",
+      "baseline_hash": "a604731d69abe0c79157f7038994985ab161848090e63fe9142f47184a5a5faf",
+      "file": "beget-obuchenie-dashbord-pokazateli.html",
+      "candidate_hash": "5620273ca7ddfc86ef4c6d386a91fa2efaf36d8ebb9492002e990d0b2632954b",
+      "visible_chars": 11508,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/291-beget-obuchenie-dashbord-pokazateli.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source291/runtime; содержательнызнаменатель,состояния,версиикурса,очередьпроверяющих,контрактвыгрузки, не обзордашбордов.",
+        "Официальный Moodle4.05ActivityCompletion и BegetMoodleReview открыты23.10.2026; просмотр/оценкаразличены, завершениенеравнодоказанномунавыку.",
+        "Двадиагностическихпримераучебные, эффектперераспределенияпроверяющихусловный и требуетизмерений, не результатыклиента.",
+        "Убраны служебныйдисклеймеросcылке/обобщённоемы, affiliateсусловием, CTAотпервоголица."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 567,
+      "slug": "beget-multiakkaunt-klienty",
+      "type": "post",
+      "baseline_hash": "4f87fc26e1dbf01098e67438747ff6fa0725337a60bc59affa7a331a13140120",
+      "file": "beget-multiakkaunt-klienty.html",
+      "candidate_hash": "e891117a0ba75f82959a0c9ae7a878979eb4178945d764439ade261969b65a85",
+      "visible_chars": 11550,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/292-beget-multiakkaunt-klienty.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source292/runtime. Деловое управление,оплата,техническиеполномочия и связанныересурсы разведены,естьдваприкладныхпримераиматрица.",
+        "BegetМультиаккаунты/Настройкиаккаунтапроверены23.10.2026: переключениенеобъявленоизолированнойделегацией,изменениерегистрации/доменаотдельныерешения.",
+        "Нет юридического выводаособственностиифактовклиентскихпереездов; примерыне реальное внедрение.",
+        "Вступлениеупрощено, партнёрскоераскрытиеуточнено и личныйCTAописываетодинпроект."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 568,
+      "slug": "beget-dostupy-karta-proekta",
+      "type": "post",
+      "baseline_hash": "63f477bd2adabd0f86101450c5ba95c40e53910534035258a98c3e45d99bb947",
+      "file": "beget-dostupy-karta-proekta.html",
+      "candidate_hash": "be094ff2515371a5eafa7e91fc64eb38cc54dd962011b0ed5b9a75ce3f2e0431",
+      "visible_chars": 11969,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/293-beget-dostupy-karta-proekta.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source293/runtime содержит8-польныйреестр,жизненныйциклчеловеческих/машинныхролей,ротациюпотребителей и двеконкретныедиагностики.",
+        "BegetНастройкиаккаунта открыт23.10.2026; наличиекартыподтверждаетсябезопаснымсценарием,анестрокойвдокументе.",
+        "Нет поиска неизвестныхсекретов,необоснованногоизменениявладения,обещаниянемедленногоотзывавсехсеансов; все примерыусловные.",
+        "Извступленияубранылишниеотрицательныепредупреждения, смыслзащищённогохранениясохранён; affiliateусловный, CTAличный."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 177,
+      "slug": "istoriya-pravok-dokumenta",
+      "type": "post",
+      "baseline_hash": "84d0f8e565c3a59dd2fa767cc734d34e28229174cd6edc88f1b744600263ebee",
+      "file": "istoriya-pravok-dokumenta.html",
+      "candidate_hash": "2406d547735a3518500c24848cdf71ad24bf10c55d3ae66d85b08586a9a3db6f",
+      "visible_chars": 11794,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=37",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-37.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полное чтение longform37/runtime; удалено неподтверждённое личное утверждение о юридическом прототипе и три ранних кратких повторения.",
+        "В cases.json нет подтверждения этого прототипа; текст оформлен как методика, не внедрение/юридическаяуслуга.",
+        "Добавлены связанныепункты и различие принятоготекста/изменившихсяподстановочныхданных — конкретные тесты содержания, неводадляобъёма.",
+        "IIBARequirementsDesigns первичка открыта23.10.2026: прослеживаемостьрешенийнеравнапубликации/отправке. Сохранены матрицы/источник/схема."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 569,
+      "slug": "beget-dokumenty-zakryvayushchie",
+      "type": "post",
+      "baseline_hash": "3df8e5a0585982efc5f39ad93c896f6cd4abd5e25d31f83454581dc70872f4c2",
+      "file": "beget-dokumenty-zakryvayushchie.html",
+      "candidate_hash": "b172a8af69e61cbc501d2da60dc29027a3e1c3a2287bbbf70b2bc1e8287f8197",
+      "visible_chars": 11893,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/294-beget-dokumenty-zakryvayushchie.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source294/runtime. Реестр/период/плательщик/профильныйспециалистразличены,естьдвеучебныедиагностики и картырешений.",
+        "Точный BegetДокументы открыт23.10.2026; состав/периодпроверяютсяваккаунте,текущиецены/срокинеперенесены. Нетбухгалтерских/юридическихрекомендаций.",
+        "Вступление и служебнаяфразапроэкспертнуюстатью приведеныкчитателю/личнойроли. Теханалитикнепринимаетфинансовыерешения.",
+        "Affiliateусловный/первое лицо,безобещанийэкономии; существующиеартефактыпобайтносохранены."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 570,
+      "slug": "beget-support-zapros-diagnostika",
+      "type": "post",
+      "baseline_hash": "a944610b4ea438e45fdf24b283631065b320baa4de9d1a0c5e0ee12cdc79cca0",
+      "file": "beget-support-zapros-diagnostika.html",
+      "candidate_hash": "1e6df0c502327bea1ef9dc1d7d20b0129d578aa55f88bbc8fd4c144633e2c03b",
+      "visible_chars": 12856,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/295-beget-support-zapros-diagnostika.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source295/runtime; карточкадиагностики,хронология,последняяподтверждённаяграницаидваразборауже предметны.",
+        "Точная BegetПомощьподдержкаоткрыта23.10.2026; канал/историяневыписаныкакгарантированныйSLAилиполномочиеисполнятьсоветнаобщемресурсе.",
+        "Служебнаяфраза «мы неотправляемврамкахстатьи» замененаполезнымправиломобращениясданными; реальныеинцидентыневымышлены.",
+        "Affiliateусловный/первое лицо, CTAпомогаетподготовитьодинвоспроизводимыйэпизод, безбесплатныхработ/сроков."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 571,
+      "slug": "beget-api-inventarizaciya",
+      "type": "post",
+      "baseline_hash": "8064d816ca13f4a1af6ec9f7f323a4949f02a35c3ac82b12be885b7242452314",
+      "file": "beget-api-inventarizaciya.html",
+      "candidate_hash": "f1f9c2e50f87997ed26eedf63bb795663c0476e0d94ec00a30d745ec1afc404b",
+      "visible_chars": 11978,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/296-beget-api-inventarizaciya.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: source296/runtimeполностьюпрочитаны; сильныпродуктовыйконтракт,полнота,составнойключ,подтверждённоеотсутствие и очередьрасхождений.",
+        "Beget.APIХостинга открыт23.10.2026: хостингиоблачныйAPIразделены, отдельнаяcloudJWTдокументациясуществует. НебылоаутентифицированныхAPIвызовов.",
+        "Read-onlyмеханизмнеобещанкакреальныйограниченныйтокенпоставщика,широкиеправаобозначеныограничением; примерыусловные.",
+        "Убран службныйдисклеймерпроисполнениестатьёй,техническаяграницачтениясохранена; affiliateусловный/первое лицо."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 188,
+      "slug": "shag-kalendarya-i-dlitelnost-broni",
+      "type": "post",
+      "baseline_hash": "11f3253335c71d49f6dbf2c9cf70989a0997d332e2a5034b6fba59b34e571ce3",
+      "file": "shag-kalendarya-i-dlitelnost-broni.html",
+      "candidate_hash": "2ca66d718f38361f5b20e3cf58fe3c6ec87226ed0f69efda60069d61ca6a0a8e",
+      "visible_chars": 13248,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=47",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-47.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform47/runtime; удалены краткие повторы и неподтверждённое заявление о параметрах календарного прототипа.",
+        "Добавлен рассчитанный контрпример следующейподготовки: после15:15освобождения,10минподготовки →нераньше15:25приучебныхусловиях; отдельноучтенакратностьначала.",
+        "RFC5545 первичка открыта23.10.2026: DTSTART/DTEND/DURATION/timezoneотносятсякданным,анексеткеUI. Экспортнезаявленготовойфункцией.",
+        "Нет клиентского внедрения/универсального норматива. Все таблицы,точныеисходныечисла и схема сохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 572,
+      "slug": "beget-plavayushchiy-ip-pereezd",
+      "type": "post",
+      "baseline_hash": "cd48efb76d08760fbd867f8af1a53c7a8298cc4992b049f624d88e0aa77c7979",
+      "file": "beget-plavayushchiy-ip-pereezd.html",
+      "candidate_hash": "db02643330a118e9255bf6ce3de5cb27b4e5f9a4b274b38dc7a4e3b52d0cac28",
+      "visible_chars": 12455,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/297-beget-plavayushchiy-ip-pereezd.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source297/runtime содержиткартусостояния,дваразбораграницыданных/двойногоисполнения и возвратпосленовыхзаписей, сильныйприкладнойтекст.",
+        "BegetFloatingIPv4 открыт23.10.2026: переносвтойжелокации,неразныелокации; сохранённыйIPv4необъявленпереносомданных/исходящихмаршрутов.",
+        "Все диагностическиеситуацииусловные, небылооперацийнадIP/серверами. Простои/скорость/автовозвратнеобещаны.",
+        "Служебнаяфразавступлениязамененапредпосылками, affiliateотпервоголица/участвующиеуслуги, CTAпредметный."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 573,
+      "slug": "beget-uslugi-nenuzhnyy-resurs",
+      "type": "post",
+      "baseline_hash": "cc4e110fe2beac4328a1289d4eb040613566c78c6ddace914d982423380b8971",
+      "file": "beget-uslugi-nenuzhnyy-resurs.html",
+      "candidate_hash": "8cbdb1d2d18037ada69104d95f3160e1800536b0f362d8b53ee37b5fbfc20319",
+      "visible_chars": 13723,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/298-beget-uslugi-nenuzhnyy-resurs.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source298/runtime содержитпаспорт,картузависимостей,двеучебныедиагностики,матрицудоказательств и условияудержания — предметнаяметодика.",
+        "BegetУправлениеуслугами открыт23.10.2026: sharedквотынеприравненыкудалениюVPS,текущиецены/кнопкинеперенесены.",
+        "НизкийCPU/названиетестнедоказательствоненужности,экономиянеобещана,фактическогоудаления/расходовнебыло.",
+        "Убраны служебныеупоминанияотсутствиякоманд/созданиякопийстатьёй; affiliateусловный и личный CTA."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 512,
+      "slug": "beget-systemd-fonovyy-servis",
+      "type": "post",
+      "baseline_hash": "2659e98d2cf6f0460f397da6943095bef20ff64add4f8696ac000ce7c6d53e7d",
+      "file": "beget-systemd-fonovyy-servis.html",
+      "candidate_hash": "0011bec7e05a3da7fa2bd3ed421f91ac58a715f3df8d5bba48e4ca4df984c2d1",
+      "visible_chars": 11995,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/299-beget-systemd-fonovyy-servis.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source299/runtime; триуровнясостояния,версия,путьзадания,неизвестныйвнешнийисход и последствиявосстановленияуже подробноразобраны.",
+        "Официальный systemd.service открыт23.10.2026: lifecycle/Typeразличаются,activeневсегдаправильныйэталонразовойслужбы. Реальныеunit/serviceнеизменялись.",
+        "Техническиепоказателинеобъявленыполучениемзаказа,примерыусловные,универсальныерестарты/интеграционныегарантиинепредлагаются.",
+        "Heartbeat/scope/production замененыпростымрусскимвнеprotectedартефактов, affiliateусловный/CTAличный."
+      ],
+      "action": "KEEP"
+    }
+  ]
+}
