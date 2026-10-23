@@ -1,0 +1,336 @@
+{
+  "candidates": [
+    {
+      "id": 574,
+      "slug": "hiring-funnel-dashboard",
+      "type": "sy3_case",
+      "baseline_hash": "23e27546858edd0192d8f565cfa6b751b5baa9c90af5843cb21547904e3ff2d1",
+      "file": "hiring-funnel-dashboard.html",
+      "candidate_hash": "9ea054d25697d8d0572d308cad4aaa0d4a764d65802d3e46bcf70260f99c45fe",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Вместо общих рассуждений о пользе воронки оставить подтверждённую работу и вопрос о составе данных. Не выдумывать интерфейс или этапы найма.",
+      "needs_facts": [
+        "Для подробного разбора нужны разрешённые скриншоты, состав этапов и подтверждение источников данных. Текущая иллюстрация редакционная."
+      ],
+      "excerpt": "Собрал дашборд найма с представлением подбора сотрудников в виде воронки. Публичный кейс — без названия компании и данных кандидатов.",
+      "baseline_excerpt": "Дашборд подбора сотрудников с представлением процесса в виде воронки. Выполненный проект по HR-аналитике.",
+      "status": "publish",
+      "date": "2026-10-23 05:55:49"
+    },
+    {
+      "id": 576,
+      "slug": "crm-hr-requirements",
+      "type": "sy3_case",
+      "baseline_hash": "f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468",
+      "file": "crm-hr-requirements.html",
+      "candidate_hash": "13394badfb8a06cfba86875880af67c04d82d33b7b98f3906bdff635e778d66c",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сохранить конкретные аналитические действия, объяснить результат ТЗ без выдачи его за внедрение.",
+      "needs_facts": [],
+      "excerpt": "Подготовил ТЗ для связи анкеты CRM с кадровым процессом: источники данных, сопоставление записей, статусы, права и ошибки. Результат этапа — требования для разработки.",
+      "baseline_excerpt": "Подготовил ТЗ для связи анкеты CRM с кадровым процессом: источники данных, сопоставление записей, статусы, права и ошибки. Результат этапа — требования для разработки.",
+      "status": "publish",
+      "date": "2026-10-23 05:55:49"
+    },
+    {
+      "id": 12,
+      "slug": "bitrix24-doors",
+      "type": "sy3_case",
+      "baseline_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80",
+      "file": "bitrix24-doors.html",
+      "candidate_hash": "ecb5ad93d8ffd156031d37080d51628cd95837c095a3f4b5d50ccd0f06e9c134",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сначала показать задачу продаж и личную работу; отделить выполненные настройки от исходного списка пожеланий.",
+      "needs_facts": [],
+      "excerpt": "Обращения из мессенджеров, почты и сайта — в Битрикс24. Распределение между менеджерами и договоры из данных сделки.",
+      "baseline_excerpt": "Обращения из мессенджеров, почты и сайта — в Битрикс24. Распределение между менеджерами и договоры из данных сделки.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 14,
+      "slug": "bitrix24-training",
+      "type": "sy3_case",
+      "baseline_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d",
+      "file": "bitrix24-training.html",
+      "candidate_hash": "868303c7f818211de6902609930feacaf4bf778fd70ec1395fd0b64148b53548",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Показать два реальных пользовательских сценария и свою реализацию, не публикуя название клиента.",
+      "needs_facts": [],
+      "excerpt": "Одна форма для курсов и мероприятий: данные сохраняются в CRM, а задача автоматически поступает в поток отдела обучения.",
+      "baseline_excerpt": "Одна форма для курсов и мероприятий: данные сохраняются в CRM, а задача автоматически поступает в поток отдела обучения.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 16,
+      "slug": "glosscheck",
+      "type": "sy3_case",
+      "baseline_hash": "2fae148aefd14ef278d2aafa3fb847ccf40034148e2fddba5e79f72f31bf4406",
+      "file": "glosscheck.html",
+      "candidate_hash": "245818588f0de8e7d5252a22dc5cab92951411490129e096edada193320eca16",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Убрать усилитель про полноценное приложение и неподкреплённую похвалу. Сгруппировать функции по пользователю и администратору, сохранить информационный характер сервиса.",
+      "needs_facts": [],
+      "excerpt": "Разработал ИИ-чат на WordPress: вопросы, фото и документы, распознавание текста, история диалогов и настройки лимитов для администратора.",
+      "baseline_excerpt": "От идеи к ИИ-сервису: чат, распознавание текста с фотографий и документов, история диалогов и управление лимитами.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 18,
+      "slug": "antispam-24-sites",
+      "type": "sy3_case",
+      "baseline_hash": "71614c1bae1f87dc685ff5572711b6c5b4d5d8903211d3b87a3bd2fc64ffe7d7",
+      "file": "antispam-24-sites.html",
+      "candidate_hash": "490ce69a86243e9430951f382e66155af1543dae2a122e827173880e46e99fba",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сильные проверочные данные оставить, уточнить личную роль и техническую границу HTTP200 без обещания нулевого спама.",
+      "needs_facts": [],
+      "excerpt": "Добавил защиту без CAPTCHA на 24 лендинга с 91 формой. Проверил обычные, всплывающие и динамические формы; доставка писем оценивается отдельно.",
+      "baseline_excerpt": "На одном хостинге работали 24 лендинга с разными шаблонами и несколькими вариантами PHP-обработчиков.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 19,
+      "slug": "matklass",
+      "type": "sy3_case",
+      "baseline_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315",
+      "file": "matklass.html",
+      "candidate_hash": "22ed025da726ba976e6b36f6cd18c1905c4545c66baf7ccc108ae69c4d604bb2",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Кейс уже предметный: сохранить все границы и факты, добавить явную личную роль и результат в анонсе.",
+      "needs_facts": [],
+      "excerpt": "Проверил обращения с сайта, блогов и лендингов до amoCRM, исправил переходы и зависание формы. В проверках созданы 12 тестовых сделок.",
+      "baseline_excerpt": "Проверить, что обращения с основного сайта, блогов и отдельных лендингов доходят до CRM.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 23,
+      "slug": "postavki26",
+      "type": "sy3_case",
+      "baseline_hash": "56919fb0c29bcd356e527b480b6f2e075f68b32dbfc6ae04c3f66125d181e3fd",
+      "file": "postavki26.html",
+      "candidate_hash": "aa9cc60d99b36957353a86a730e43e24430daf68560b3a623e19a3e413c67713",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Убрать неподтверждённую скорость поиска партнёров и социально-экономические обобщения. Показать функции поставщика и результат разработки.",
+      "needs_facts": [],
+      "excerpt": "Разработал площадку поставщиков: регистрация, личные кабинеты, самостоятельное добавление товаров и общий каталог с поиском.",
+      "baseline_excerpt": "Postavki26 — это городской портал поставщиков, созданный для того, чтобы предприниматели Ставрополя могли размещать свои товары и услуги, находить новых партнёров, покупателей и поставщиков.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 25,
+      "slug": "shumakova-yookassa",
+      "type": "sy3_case",
+      "baseline_hash": "b4a5211e52b290c06386409ccad4faa3e158c2a15672478ebbed5afa6b6cade0",
+      "file": "shumakova-yookassa.html",
+      "candidate_hash": "ed032823093c848ccabb43ccf92fec0fe39f0ff6ba6af94c5b502bb5aa338980",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Вывести в начало связку заявки и платежа, убрать повтор списка реализованных функций. Не добавлять обещаний соответствия законодательству.",
+      "needs_facts": [],
+      "excerpt": "Собрал лендинг и бронирование, подключил ЮKassa. Подтверждённый платёж связывается с заявкой, после чего владелец получает уведомление в Telegram.",
+      "baseline_excerpt": "Анастасия Шумакова работает в направлениях татуировки, пирсинга и обучения пирсингу в Москве.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 27,
+      "slug": "stilspace",
+      "type": "sy3_case",
+      "baseline_hash": "9cdb293b3434401cbedf78978ed85051d224ad6bb488f4ac94b0d9433b5001aa",
+      "file": "stilspace.html",
+      "candidate_hash": "b3019cf208690004d5c4b1d6880f73375a5d70b0eb70d681f0a0d818892c311b",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Ясно отделить полученную готовую вёрстку от моей интеграции в CMS. Снять неподкреплённое обещание скорости.",
+      "needs_facts": [],
+      "excerpt": "Интегрировал готовую вёрстку корпоративного сайта в 1С-Битрикс. Тексты, изображения и данные блоков редакторы обновляют через поля CMS.",
+      "baseline_excerpt": "СТИЛСПЭЙС — российский оператор спутников дистанционного зондирования Земли.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 29,
+      "slug": "star26",
+      "type": "sy3_case",
+      "baseline_hash": "13c3544dd4ae264c76eac30f15abeae6663982ee75aa295a968a0aebc4e4964b",
+      "file": "star26.html",
+      "candidate_hash": "6b45f84f958dd94d477b21ea26d2ff7c27925879f2030efbbc2da511d4ae0bb3",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Назвать ключевой рабочий инструмент — редактируемую карту. Не выдавать историю публикации за свежую проверку доступности.",
+      "needs_facts": [],
+      "excerpt": "Разработал WordPress-сайт по Figma с каталогом объектов и интерактивной картой посёлка. Данные карты и контент меняются в административной части.",
+      "baseline_excerpt": "«Звёздный» — коттеджный посёлок в Ставрополе, в котором продаются земельные участки ИЖС, таунхаусы и отдельно стоящие дома.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 31,
+      "slug": "trimed",
+      "type": "sy3_case",
+      "baseline_hash": "8e1c23cbc0b65239f0424cd9771a820f25d52241bb603366db38f596c15fcb26",
+      "file": "trimed.html",
+      "candidate_hash": "370eb33ec15db239d22533e60d1d0f092bb415d248c79a37498b32dea9e5a995",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сократить повтор требований и результата, связать структуру с разными аудиториями. Не заявлять медицинских или коммерческих эффектов.",
+      "needs_facts": [],
+      "excerpt": "Разработал многостраничную WordPress-тему по Figma: главная, четыре направления, формы и FAQ. Ключевые секции редактируются через ACF.",
+      "baseline_excerpt": "«ТриМед» занимается комплексным оснащением медицинских учреждений: клиник, стоматологий, лабораторий и медицинских центров.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 33,
+      "slug": "formula-lead",
+      "type": "sy3_case",
+      "baseline_hash": "c3e569a4990ca5a4e2341c525cb78a9454dec8da2cb4afe1e9566b102c2cff1f",
+      "file": "formula-lead.html",
+      "candidate_hash": "80b0ee957969838c07b46b0fb6934b237b51a0781ff09977182ae842d37c0266",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сохранить конкретное ТЗ и результаты приёмки, привязать Lighthouse к измерению из отчёта, убрать усилители.",
+      "needs_facts": [],
+      "excerpt": "Собрал WordPress-сайт по ТЗ заказчика: услуги, три тарифа, кейсы, видео и блог. Адаптив проверен для компьютеров, планшетов и телефонов.",
+      "baseline_excerpt": "«Формула лидов» — проект авитолога Владимира Кочина, ориентированный на компании, которые хотят использовать Авито как системный канал привлечения клиентов.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 34,
+      "slug": "chitayka",
+      "type": "sy3_case",
+      "baseline_hash": "7d32027e34b32f51859970b9a122dc020987bf442a6b2e960dcd8ee36c70e982",
+      "file": "chitayka.html",
+      "candidate_hash": "eba2dea80f626eb43265c7ec5a1460d5f532afc9835427340668d637e58d6425",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Кейс уже конкретный: добавить личную роль, сохранить три сценария, 14 фото, 10 секций и отсутствие бизнес-измерений.",
+      "needs_facts": [],
+      "excerpt": "Собрал сайт детского центра на WordPress: три сценария записи, галерея из 14 фотографий и редактирование десяти секций главной и контактов.",
+      "baseline_excerpt": "«Читай-ка» — детский центр в Калининграде с программами обучения чтению, подготовки к школе, развития и продлёнки для школьников.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 36,
+      "slug": "barella",
+      "type": "sy3_case",
+      "baseline_hash": "25b1103ae0b50f6ada2975a7e9ed35c118d7264527ea25b028ae2dd6666791c2",
+      "file": "barella.html",
+      "candidate_hash": "17cc73bda61ae1340903b200fecffb3f779ef26a2ee1f319c8eb4fa1a5a64a82",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Показать доработку действующего сайта и 10 страниц объектов, без присвоения разработки всего исходного сайта.",
+      "needs_facts": [],
+      "excerpt": "Доработал существующий WordPress-сайт: корпоративные разделы, каталог и десять страниц объектов. Новые CTA связаны с формами обращения.",
+      "baseline_excerpt": "Barella занимается проектированием, монтажом и обслуживанием систем вентиляции, кондиционирования и отопления.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    }
+  ]
+}
