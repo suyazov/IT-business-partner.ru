@@ -134,7 +134,7 @@ function sy3_transfer_write(array &$changes): void {
     }
 }
 
-$transaction=false; $fileChanged=false; $temporary=null; $advisory=false; $storage=null;
+$transaction=false; $fileChanged=false; $temporary=null; $advisory=false; $contentLock=null;
 try {
     $intentPath = getenv('SY3_EDITORIAL_INTENT') ?: $sy3TransferPrivate.'transfer-intent.json';
     $intent = sy3_transfer_json($intentPath);
@@ -219,8 +219,8 @@ try {
             }
         }
         if (count($held)!==2) throw new RuntimeException('Exact project locks are not held.');
-        $storage=fopen('/var/lock/kimi-projects/bridge-sy9-storage-mutation.lock','c');
-        if (!$storage || !flock($storage,LOCK_EX|LOCK_NB)) throw new RuntimeException('Storage mutation lock busy; no writes.');
+        $contentLock=fopen('/var/lock/kimi-projects/sy3-wordpress-content.lock','c');
+        if (!$contentLock || !flock($contentLock,LOCK_EX|LOCK_NB)) throw new RuntimeException('Project content lock busy; no writes.');
         $lock='sy3-editorial-'.md5(DB_NAME.':'.$wpdb->prefix);
         $advisory=(int)$wpdb->get_var($wpdb->prepare('SELECT GET_LOCK(%s,0)',$lock))===1;
         if (!$advisory) throw new RuntimeException('Publisher lock busy; no writes.');
@@ -290,9 +290,14 @@ try {
             if (!$ok) $error=new RuntimeException('Database rollback attempted; support recovery needs inspection.');
         }
     }
-    if ($temporary && is_file($temporary)) unlink($temporary);
+    if ($temporary && is_file($temporary)) {
+        $cleanupLock=fopen('/var/lock/kimi-projects/bridge-sy9-storage-mutation.lock','c');
+        if ($cleanupLock && flock($cleanupLock,LOCK_EX|LOCK_NB)) { unlink($temporary); flock($cleanupLock,LOCK_UN); }
+        else $error=new RuntimeException($error->getMessage().' Owned staging file retained: '.$temporary.'; cleanup review due '.gmdate('c',time()+DAY_IN_SECONDS));
+        if (is_resource($cleanupLock)) fclose($cleanupLock);
+    }
     WP_CLI::error($error->getMessage());
 } finally {
     if ($advisory) $wpdb->get_var($wpdb->prepare('SELECT RELEASE_LOCK(%s)',$lock));
-    if (is_resource($storage)) { flock($storage,LOCK_UN); fclose($storage); }
+    if (is_resource($contentLock)) { flock($contentLock,LOCK_UN); fclose($contentLock); }
 }
