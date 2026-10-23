@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "4dab6c961c28fc6370a7addda32cfb1c8aabd133",
+  "source_git_commit": "b540576d25beffb4a9d04fe21ca61404290dc1e7",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 159,
+  "prepared_objects": 179,
   "prepared_by_type": {
     "page": 3,
-    "post": 113,
+    "post": 133,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -710,6 +710,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 194,
+      "type": "post",
+      "slug": "list-ozhidaniya-po-vmestimosti",
+      "baseline_hash": "efe0006658ed82786a4a7e83b2cc21014b9f7cdbe691d8d8f2851b3d0071df58",
+      "candidate_hash": "f25c54bf0af2b843d23e3ba371bcebdf250a7a4f8fa37993c69726990c073c98",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/list-ozhidaniya-po-vmestimosti.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 12982,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 202,
       "type": "post",
       "slug": "cms-dlya-redaktora-a-ne-razrabotchika",
@@ -730,6 +742,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-04/zayavka-sayta-dolzhna-sohranyatsya.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
       "content_characters_declared": 13413,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 204,
+      "type": "post",
+      "slug": "filtr-kataloga-nachinaetsya-s-dannyh",
+      "baseline_hash": "9b88e02123aae1ac89361800e507f62ff26ab500a49b5cde39b990efe25a9c5c",
+      "candidate_hash": "ca325af1bd5badc3ed4fbc8dd80289c56621bcc2df79c4672904ac04a246f9f5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/filtr-kataloga-nachinaetsya-s-dannyh.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 12596,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -758,6 +782,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 214,
+      "type": "post",
+      "slug": "aktualnyy-istochnik-dlya-raboty-ai",
+      "baseline_hash": "3352b5a36e5d7a587c54261be784f60e7737a3ea1eb02b2bf60431e59df22630",
+      "candidate_hash": "60dbf9558b64c894201326841c5d5b910361a0125a3e2727ce30be594a7cba8b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/aktualnyy-istochnik-dlya-raboty-ai.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 12059,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 222,
       "type": "post",
       "slug": "spravochnik-statey-operatsiy",
@@ -782,6 +818,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 224,
+      "type": "post",
+      "slug": "pravila-avtozapolneniya-operatsiy",
+      "baseline_hash": "85def6ba2a0156b486a853fa8337291e37dfb7bfe75b755fc77566980a04f9fb",
+      "candidate_hash": "d0e1c24cf6c0ce749a4e5aaad02cea507e1582326565a3f794e4ddaf6f66d33e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/pravila-avtozapolneniya-operatsiy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11780,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 232,
       "type": "post",
       "slug": "granitsy-mvp-avtomatizatsii",
@@ -802,6 +850,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-04/gotovaya-sistema-ili-razrabotka.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
       "content_characters_declared": 13290,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 234,
+      "type": "post",
+      "slug": "prioritety-avtomatizatsii-biznesa",
+      "baseline_hash": "573d2959abdba78b9315e11fd503271aa8ec3e7d9e55eff3b597c28b78e2bba5",
+      "candidate_hash": "8de92e65fea60217e1435f9ad85f4d64d5f23c4e9d0fafc6b67ddd5f747c9747",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/prioritety-avtomatizatsii-biznesa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 12218,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1142,6 +1202,54 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 277,
+      "type": "post",
+      "slug": "karta-staryh-novyh-url",
+      "baseline_hash": "8dacf70d4338283b09a0624e80cd8cdb74f1e00d82346d0b176ba88b172ea9cc",
+      "candidate_hash": "d17ce048094f94bac592467946a6870d2965e4934e617770b5dcada21bfa899b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/karta-staryh-novyh-url.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11111,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 278,
+      "type": "post",
+      "slug": "zakryt-stend-ot-indeksacii",
+      "baseline_hash": "591e0b56ecab53e95eb1c1aa6fa67d529b301ee8f6ccff63c31069eb6bf54bcf",
+      "candidate_hash": "a6b1e87e4da7e54292f725a40a6fa66b28fe94940d6d2808d68ef3b0685778d2",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/zakryt-stend-ot-indeksacii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 10627,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 279,
+      "type": "post",
+      "slug": "title-description-kak-proverit",
+      "baseline_hash": "0ebf9c4bb61a1cbfe054acc3ece186188160a8c73fc6f3da412a160309f8392a",
+      "candidate_hash": "a050d645b6809a89538bd388199b11633618c0720066333147489bc87ef63974",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/title-description-kak-proverit.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 10501,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 280,
+      "type": "post",
+      "slug": "paginaciya-indeksaciya-canonical",
+      "baseline_hash": "a1e143f0eac4b777806a2d5e7685ceba85f46d00973467921f50abc1fc3b7fc1",
+      "candidate_hash": "c1d1ab3298bd1db5624b37120cd5c2e4eedd3964dd8ab55a082c824c4429496a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/paginaciya-indeksaciya-canonical.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 10694,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 281,
       "type": "post",
       "slug": "chto-vhodit-v-backup-wordpress",
@@ -1382,6 +1490,42 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 301,
+      "type": "post",
+      "slug": "ne-rabotaet-robot-bitrix24",
+      "baseline_hash": "bd46dd67907aa6e1e7fadc93be30d8e155116b85735f2a47f6a54d7fc6cab6cb",
+      "candidate_hash": "c45aa3c94aa3c7ca9b544ecc10756b2ccf5fdff9727dff8e6b3d774f65aee7ff",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/ne-rabotaet-robot-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 10987,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 302,
+      "type": "post",
+      "slug": "audit-nastroek-crm-bitrix24",
+      "baseline_hash": "007d4c4aa0109b623d4bbbd5aae9d075686eb7e893862ac2c3ac1dea92f0f870",
+      "candidate_hash": "4f13448cfe990e254199e4ee6f4505c29ea0f7a51c59fb53753fa0c8997ac4be",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/audit-nastroek-crm-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11427,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 303,
+      "type": "post",
+      "slug": "soprovozhdenie-bitrix24-chto-vhodit",
+      "baseline_hash": "2994196fb9ee363bd26c930fffd0af9665363072aa41db433ce98e5a514dc8d9",
+      "candidate_hash": "e8f3824ed89422ca2895de90ffd18b7092949d7df6e07eca4f49d7b961f56467",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/soprovozhdenie-bitrix24-chto-vhodit.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11236,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 305,
       "type": "post",
       "slug": "kak-opisat-biznes-process",
@@ -1522,6 +1666,54 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-05/logirovanie-form-zayavok.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
       "content_characters_declared": 11380,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 338,
+      "type": "post",
+      "slug": "core-web-vitals-chto-ispravlyat",
+      "baseline_hash": "fb322b731dce9ffe9ff847127e6476528b75a9aae5664c7c8bf475e6446cbb05",
+      "candidate_hash": "fcc74e4c3bac0f3d819020135607007a81d83784806e3deeac869a6f517c8460",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/core-web-vitals-chto-ispravlyat.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11007,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 339,
+      "type": "post",
+      "slug": "optimizaciya-izobrazheniy-sayta",
+      "baseline_hash": "ff8ab9a3ff99ee4d1ca2ac7ae8fc49fde7e8926859a6f158026d957d77ecea3b",
+      "candidate_hash": "1390951f01f421dda759f5b1c840ed5296904011dcbc66e721494d6485c3fca2",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/optimizaciya-izobrazheniy-sayta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11048,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 340,
+      "type": "post",
+      "slug": "kesh-sayta-starye-izmeneniya",
+      "baseline_hash": "fc2e200f87f6b8e36e12204cb036f6ccddccb70d007d428b7922486ed9734bb2",
+      "candidate_hash": "98d9230898f05671f7438afdc13abb01226918fae2f6475f8c76df17b176e5f0",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/kesh-sayta-starye-izmeneniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11038,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 341,
+      "type": "post",
+      "slug": "mobilnaya-verstka-proverka",
+      "baseline_hash": "9d50aecdd4583fad15ea9917b4a558b03d131a82ad2f802e7a8ca17dabf338a7",
+      "candidate_hash": "31eb70afe7e4089e5d96924694c153c38acbe43530bcf4f9a2b8bdbf5e4c3e21",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/mobilnaya-verstka-proverka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11919,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1678,6 +1870,54 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-05/tehnicheskoe-zadanie-na-avtomatizatsiyu.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
       "content_characters_declared": 11895,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 357,
+      "type": "post",
+      "slug": "kriterii-priemki-avtomatizatsii",
+      "baseline_hash": "d3abf8fa0408843e32f5fca4ff728ada1581d5c494fb2ce9752b314d563b6cc1",
+      "candidate_hash": "be61926a0eb6c45c28b8f92acbf178f887bbd0520106ac4fe629383ee0a919d1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/kriterii-priemki-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11721,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 358,
+      "type": "post",
+      "slug": "avtomatizatsiya-zakupok-process",
+      "baseline_hash": "37b4a35ea43a92aabc76a00ddfd0af748e6738e5585caa29eff2a51a12413aaa",
+      "candidate_hash": "4b8f762df1aa40e5787cf9f27c039f73731a2258ca97daa483e596ae648a7b62",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/avtomatizatsiya-zakupok-process.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11141,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 359,
+      "type": "post",
+      "slug": "avtomatizatsiya-zayavok-sotrudnikov",
+      "baseline_hash": "ea06bc8c80233a6899dde4bd6b62da84d649d419855d79b0a68b47d95b6115a1",
+      "candidate_hash": "8b828b7d4b0f0e38b9a68a782aa627be338d5e7f2b9f99b65d9c068f8aa94bc2",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/avtomatizatsiya-zayavok-sotrudnikov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 11146,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 360,
+      "type": "post",
+      "slug": "upravlenie-izmeneniyami-trebovaniy",
+      "baseline_hash": "1ef71ab990cc77283dca5e4b5f1456668ce9f47b1f2cafae148c6a4a28191ba0",
+      "candidate_hash": "75fa1449f9e03fdee366cddb003484a4715bb84d31a196b37ca4407de124646a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-06/upravlenie-izmeneniyami-trebovaniy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
+      "content_characters_declared": 10929,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2114,11 +2354,6 @@
       "slug": "bron-i-oplata-raznye-sobytiya"
     },
     {
-      "id": 194,
-      "type": "post",
-      "slug": "list-ozhidaniya-po-vmestimosti"
-    },
-    {
       "id": 195,
       "type": "post",
       "slug": "poslednee-mesto-v-gruppe"
@@ -2152,11 +2387,6 @@
       "id": 201,
       "type": "post",
       "slug": "ot-zayavki-do-zachisleniya"
-    },
-    {
-      "id": 204,
-      "type": "post",
-      "slug": "filtr-kataloga-nachinaetsya-s-dannyh"
     },
     {
       "id": 205,
@@ -2194,11 +2424,6 @@
       "slug": "lending-s-oplatoy-bez-bolshogo-magazina"
     },
     {
-      "id": 214,
-      "type": "post",
-      "slug": "aktualnyy-istochnik-dlya-raboty-ai"
-    },
-    {
       "id": 215,
       "type": "post",
       "slug": "nezavisimaya-proverka-izmeneniy"
@@ -2232,11 +2457,6 @@
       "id": 221,
       "type": "post",
       "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai"
-    },
-    {
-      "id": 224,
-      "type": "post",
-      "slug": "pravila-avtozapolneniya-operatsiy"
     },
     {
       "id": 225,
@@ -2274,11 +2494,6 @@
       "slug": "audit-pered-perenosom-sistemy"
     },
     {
-      "id": 234,
-      "type": "post",
-      "slug": "prioritety-avtomatizatsii-biznesa"
-    },
-    {
       "id": 235,
       "type": "post",
       "slug": "vygruzki-i-perenosimost-dannyh"
@@ -2314,64 +2529,9 @@
       "slug": "biznes-brif-na-avtomatizatsiyu"
     },
     {
-      "id": 277,
-      "type": "post",
-      "slug": "karta-staryh-novyh-url"
-    },
-    {
-      "id": 278,
-      "type": "post",
-      "slug": "zakryt-stend-ot-indeksacii"
-    },
-    {
-      "id": 279,
-      "type": "post",
-      "slug": "title-description-kak-proverit"
-    },
-    {
-      "id": 280,
-      "type": "post",
-      "slug": "paginaciya-indeksaciya-canonical"
-    },
-    {
-      "id": 301,
-      "type": "post",
-      "slug": "ne-rabotaet-robot-bitrix24"
-    },
-    {
-      "id": 302,
-      "type": "post",
-      "slug": "audit-nastroek-crm-bitrix24"
-    },
-    {
-      "id": 303,
-      "type": "post",
-      "slug": "soprovozhdenie-bitrix24-chto-vhodit"
-    },
-    {
       "id": 304,
       "type": "post",
       "slug": "obuchenie-i-priemka-crm"
-    },
-    {
-      "id": 338,
-      "type": "post",
-      "slug": "core-web-vitals-chto-ispravlyat"
-    },
-    {
-      "id": 339,
-      "type": "post",
-      "slug": "optimizaciya-izobrazheniy-sayta"
-    },
-    {
-      "id": 340,
-      "type": "post",
-      "slug": "kesh-sayta-starye-izmeneniya"
-    },
-    {
-      "id": 341,
-      "type": "post",
-      "slug": "mobilnaya-verstka-proverka"
     },
     {
       "id": 342,
@@ -2382,26 +2542,6 @@
       "id": 343,
       "type": "post",
       "slug": "priemka-sayta-prakticheskiy-cheklist"
-    },
-    {
-      "id": 357,
-      "type": "post",
-      "slug": "kriterii-priemki-avtomatizatsii"
-    },
-    {
-      "id": 358,
-      "type": "post",
-      "slug": "avtomatizatsiya-zakupok-process"
-    },
-    {
-      "id": 359,
-      "type": "post",
-      "slug": "avtomatizatsiya-zayavok-sotrudnikov"
-    },
-    {
-      "id": 360,
-      "type": "post",
-      "slug": "upravlenie-izmeneniyami-trebovaniy"
     },
     {
       "id": 361,

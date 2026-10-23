@@ -1,0 +1,461 @@
+{
+  "candidates": [
+    {
+      "id": 142,
+      "slug": "neaktivnye-sotrudniki-v-crm",
+      "type": "post",
+      "baseline_hash": "61a9997c2c5721df6d282ed268e825f856a389b7a93d4c755b64921ccf16bbf0",
+      "file": "neaktivnye-sotrudniki-v-crm.html",
+      "candidate_hash": "5f6f9b2d1e2547c0eec40f075795c334ff37b633ea9fb12834222dd9dece02b5",
+      "visible_chars": 11860,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=4",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-4.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform4 иruntimeдополнения; сохранены все таблица/схема/sourceпанель/кейсhref.",
+        "ОфициальныйБитрикс24материал18001440 оCRMуволенногосотрудника проверен23.10.2026; точныекаскадныепоследствия непредполагаются.",
+        "Подтверждённыйдвернойкейс ограничен почтовымдубликатом/доступомвладельцаитрёхменеджеров; массоваяпередачаисторическихсделокневымышлена.",
+        "Удалены ранние повторы и неподтверждённое «дешевле»; добавлен учебный разбор техническойзависимостиотстарого пользователя."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 304,
+      "slug": "obuchenie-i-priemka-crm",
+      "type": "post",
+      "baseline_hash": "b1c9605aaa2ca4429687133f25dabe9fa66320828cc4900b3c7f8a3da71b9adc",
+      "file": "obuchenie-i-priemka-crm.html",
+      "candidate_hash": "788c9ec1246bd8ec5fbcc00d9a47f72eb69bb810090daf476fde989a6420e0cf",
+      "visible_chars": 11264,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/160-obuchenie-i-priemka-crm.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource160 иruntimeдополнения; все таблицы/схема/источники сохранены.",
+        "ОфициальнаяБитрикс24ролеваямодель23240636 сверена вdrafts03; обучениеподадминистраторомневыданозапроверкурабочейроли.",
+        "Удалены пять ранних пересказов подробныхучебныхразделов; добавлен контрольпереносанавыкасидеальногообразцанаповторного клиента.",
+        "Новыхметрикэффективностиобучения/реальныхклиентскихрезультатовнет; примерявноучебный."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 361,
+      "slug": "karta-integratsiy-biznes-sistem",
+      "type": "post",
+      "baseline_hash": "cbe4d5f06ed2016aadf5483e54745c31b420622a3109432749693a20b5780605",
+      "file": "karta-integratsiy-biznes-sistem.html",
+      "candidate_hash": "0300125202c2acd3f4036f5c25e0e88ce341bafd213dc6ddf9d95392d1c4ee88",
+      "visible_chars": 11001,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/179-karta-integratsiy-biznes-sistem.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource179 иruntimeдополнения; все исходные таблицы/схема/sourceпанель сохранены.",
+        "ОфициальныйсправочникRESTБитрикс24 открыт23.10.2026; универсальнаясемантикаполейилидоступностьметодов не утверждаются.",
+        "Удалены пять ранних пересказов подробной карты; добавлена авторская проверка отсутствующее/пустое/явноочищаемоеполе.",
+        "Учебныйобмен невыдан заклиентскоевнедрение; секреты/платежи/частныеURLневключались."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 342,
+      "slug": "dostupnost-form-cheklist",
+      "type": "post",
+      "baseline_hash": "5ccc68bad1b2e01c15707b5945ce9903577d8a3b7572e8a05319125e16ed8cce",
+      "file": "dostupnost-form-cheklist.html",
+      "candidate_hash": "6a527557d54ee8ff4b0475f53bd42572c8c90a0e41bfb57cb28298dbb04724a7",
+      "visible_chars": 12858,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/140-dostupnost-form-cheklist.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource140 иruntimeдополнения; все таблицы/схема/источники сохранены.",
+        "W3CWAIForms первичныйисточник открыт23.10.2026;полнаяWCAGсертификацияилиуниверсальнаядоступностьнеобещаются.",
+        "cases.json realflacon подтверждаетроссийскуюмаску+servervalidation; кейсу не приписанынеизмереннаядоступностьиростконверсии.",
+        "Удалены четыре ранних повтора; добавлен конкретный разбор ограниченного телефонногоформата и пользовательскихисправлений."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 153,
+      "slug": "kak-izmerit-rabotu-antispama",
+      "type": "post",
+      "baseline_hash": "5e6c23534c0de96e46519fc999df57da69d03ea4f9bfc659e8d0157a1483b8da",
+      "file": "kak-izmerit-rabotu-antispama.html",
+      "candidate_hash": "4198141a83b287a3b754f0b4b44b087ed0cd96ecc764d785b9df36266cb083c5",
+      "visible_chars": 12574,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=14",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-14.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform14 иruntimeдополнения; таблица/схема/sourceпанель/кейсhref сохранены.",
+        "OWASPLogging первичныйисточникпроверен23.10.2026;подробныетелазаявок/секретынепредлагаетсякопироватьвжурнал.",
+        "Сохранёноподтверждение91контрольнойформы безприписанногодолгосрочногопроцента;метафразаопоказеэкспертизызамененапрактическимсоставомотчёта.",
+        "Удалены два ранних повтора; добавлен конкретный контрпример сменыклассификациивместоизмененияфильтра."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 362,
+      "slug": "podderzhka-posle-vnedreniya-crm",
+      "type": "post",
+      "baseline_hash": "4f95c8146fca1e9dc90edcc676c7dcb3b199a2791d3967ea330c396d36296d1b",
+      "file": "podderzhka-posle-vnedreniya-crm.html",
+      "candidate_hash": "924b01af23cc38e33eead067a2ef1d923c84312e6bdc7db0e3b128848a9f7b0d",
+      "visible_chars": 11018,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/180-podderzhka-posle-vnedreniya-crm.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource180 иruntimeдополнения; все таблицы/схема/sourceпанель сохранены.",
+        "PMI Rolesresponsibilitiesresources первичныйматериалпрочитанвdrafts03;общийпринциппередачиневыданзаSLA24/7.",
+        "Удалены пять ранних пересказов подробнойстабилизации; добавлен разбор дефектапринятойформы и нового канала.",
+        "Нетвыдуманныхсроковсопровождения/результатовклиента;приоритетновогообъёмаостаётсярешениемвладельца."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 343,
+      "slug": "priemka-sayta-prakticheskiy-cheklist",
+      "type": "post",
+      "baseline_hash": "db084f4194558e9742fe60945d72dee66a4511b4be47ef610aa3bc6b05a82330",
+      "file": "priemka-sayta-prakticheskiy-cheklist.html",
+      "candidate_hash": "ccff546237344d444fae57e423db74bd8e4ff66dcec3504a24844eaf12f06b01",
+      "visible_chars": 12431,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/141-priemka-sayta-prakticheskiy-cheklist.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource141 иruntimeдополнения; все исходные таблицы/процесс/источники сохранены.",
+        "W3CWAIForms проверен вэтойредактуре; web.devVitals первичныйисточник открыт23.10.2026,баллневыданзавеськлиентскийпуть.",
+        "cases.json saneqtechnology подтверждает53/53technical,41equipment,14desktop/mobile; числаразныхработнеобъединенывметрикуэффекта.",
+        "Удалены пять ранних повторныхразделов; добавлен предметный разборохватаадресов/шаблонов/действий."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 363,
+      "slug": "kak-vybrat-biznes-analitika",
+      "type": "post",
+      "baseline_hash": "09f38087c56669f8f4a7a8a96f97dcc54cc7ea99882f5f29402063608c93ece9",
+      "file": "kak-vybrat-biznes-analitika.html",
+      "candidate_hash": "428668594168f9a642ddb1f38066258112e43fd17d4138387e9dcf4517bb38c5",
+      "visible_chars": 10923,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/181-kak-vybrat-biznes-analitika.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource181 иruntimeдополнения; все таблицы/схема/sourceпанель сохранены.",
+        "IIBABACCM первичныйтекстсверен23.10.2026 вdrafts05; выдуманныесертификаты/команда/личныедостижениянепривнесены.",
+        "Удалены пять ранних пересказов подробноговыбора; добавлена предметная проверка двухнесовпадающихграницсрока.",
+        "Пример учебный:необещанфиксированныйсрок/бесплатностьанализа,решениебизнесаприпротиворечиинеузурпируется."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 164,
+      "slug": "gostevoy-ai-chat",
+      "type": "post",
+      "baseline_hash": "1dc2e8e1e78cb12b0c841ba2e180c287492b03d75a6033b1353e4a118b4fd8ad",
+      "file": "gostevoy-ai-chat.html",
+      "candidate_hash": "46afb8612eaa76b8f7b90c347c586d6aa7ddbcbfd6f6cbadac5b97d16f309b6b",
+      "visible_chars": 11409,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=24",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-24.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform24 иruntimeдополнения; все исходные таблицы/схема/sourceпанель/GlossCheckhref сохранены.",
+        "АтрибуцияGlossCheckсужена до подтверждённыхhistory/guest/auth/сообщений/токенов/частоты;неприписанточныйадминскийконтрольпроизвольнойдлиныконтекста.",
+        "OWASPAuthorization/OpenAIproductionпервичныедокументыпрочитанывэтойредактуре;платныевызовыневыполнялись.",
+        "Удалены ранние повторные регистрация/чеклист; добавлен конкретный контрпримерлимитовипродолженияпри двухвкладках."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 368,
+      "slug": "wordpress-ne-otpravlyaet-pisma",
+      "type": "post",
+      "baseline_hash": "757dd20a040b3510a37b543272bc7c3e3dc8f353ad817e2771c3b1c9be8b122c",
+      "file": "wordpress-ne-otpravlyaet-pisma.html",
+      "candidate_hash": "32098ee2619caca3c5582c814a8176d410a79840654457f388330ee13575b7e0",
+      "visible_chars": 11541,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/186-wordpress-ne-otpravlyaet-pisma.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource186 иruntimeдополнения; таблица/процесс/sourceпанель/значимыеhref сохранены.",
+        "WordPresswp_mail/wp_mail_failed иGoogleSenderGuidelines первичныеисточникипроверены23.10.2026;trueнеобъявленгарантиейвходящих.",
+        "Удалены пять ранних пересказов подробнойцепочки; добавлена конкретная развилка общийящик→пересылка→менеджер.",
+        "Не предлагаютсяготовыеDNSзначения/пароли/публичныежурналы; реальныхписемвэтойработенет."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 369,
+      "slug": "antispam-form-server-check",
+      "type": "post",
+      "baseline_hash": "27273ba05140e4e64b0b1fbafed7d37f08988b1003bea83c50b7ddbb2364e4b0",
+      "file": "antispam-form-server-check.html",
+      "candidate_hash": "fb63bbaab223050e183b01a8cad4cea7f49fb165a3ec7f54834166d662f146ac",
+      "visible_chars": 11529,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/187-antispam-form-server-check.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource187 иruntimeдополнения; таблица/схема/sourceпанель/кейсhref сохранены.",
+        "OWASPInputValidation первичныйтекстпрочитан23.10.2026;проверкаподлинностипризнакаразделенаотналичияполя,безкодаобходачужойзащиты.",
+        "Удалены пять ранних пересказов полногоразбора; добавлены различающие отрицательныепроверки признака/контекста.",
+        "24сайта/91форма остаются подтверждённымохватомдругогокейса, неперенесены автоматическинаформу читателя."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 475,
+      "slug": "beget-ai-gateway-responses-404",
+      "type": "post",
+      "baseline_hash": "870deca93f507c4d93f98bd501e986c8b42c4150826de1ea77293e77f34e228a",
+      "file": "beget-ai-gateway-responses-404.html",
+      "candidate_hash": "792c314dcefff67b04a79edd3d32b2daa295f18052054dbee4e328faa44d39e3",
+      "visible_chars": 12387,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/203-beget-ai-gateway-responses-404.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget203 ивсеruntimeдополнения. Основной разбор уже последовательный и предметный; KEEP без добавления главы ради объёма.",
+        "Begetai-gateway официально перепроверен23.10.2026:ResponsesAPIнеподдерживается,404можетотноситьсякмаршруту/модели/разрешениюключа;это неуниверсальныйдиагноз.",
+        "Исходныйучебныйредакторневыданзаклиентскоевнедрение; сохраненытаблица/схема/источники иединственнаяпартнёрскаяссылка сраскрытием.",
+        "ИзменёнтолькоконтактныйCTAнаконкретныйпервыйшагипринятыеsupportbots; платныхвызовов/реальныхотправокнет.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 174,
+      "slug": "versii-shablonov-dokumentov",
+      "type": "post",
+      "baseline_hash": "1f1565ae4b774b82d1a30bb3f5a22f0da70ffde93a00991b5743e05b00026c94",
+      "file": "versii-shablonov-dokumentov.html",
+      "candidate_hash": "9aa4a56b94adaabb284715c4b81c7b03563cafb68af367d59bdc2cdcc783e664",
+      "visible_chars": 11401,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=34",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-34.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform34 иruntimeдополнения; все исходные таблицы/схема/sourceпанель/кейсhref сохранены.",
+        "Неподтверждённаяатрибуция реализованногоконструктораверсий заменена требованиямипроектирования;вступлениеотделеноотправовогоутверждения.",
+        "cases.json bitrix24doors подтверждает4DOCXшаблона,нонеавтоматическийархивверсий;этиграницыпряморазделены.",
+        "IIBAtraceability сверено23.10.2026; удалены ранние повторы, добавлена конкретная пара скачиваниеистории/новыйвыпуск."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 476,
+      "slug": "ai-beget-byudzhet-pilota",
+      "type": "post",
+      "baseline_hash": "08901dc02948d3b4e46d050f4e410ada786133bb22d68ac1c2afa9580573b7e6",
+      "file": "ai-beget-byudzhet-pilota.html",
+      "candidate_hash": "d1c4747374c0da3fa1ba9301164de688a0e9ac6e1602f6e17b384d5b5e30055f",
+      "visible_chars": 12721,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/204-ai-beget-byudzhet-pilota.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget204 иruntimeдополнения. KEEP:полныйпоследовательныйразборужеразделяетвызов/полезныйрезультат/проверку/эксплуатацию,безраннегодублирующегорезюме.",
+        "Begetai-gatewaymanual иофициальнаястраницауслугиоткрыты23.10.2026:расходзависитотмоделиииспользования;текущиецены/бесплатность/фиктивнаяэкономиянедобавлялись.",
+        "Сохранены исходнаятаблица/схема/sourceпанель ировнооднапартнёрскаяссылкаскороткимраскрытием.",
+        "ИзменёнтолькоконтактныйCTAнапервыйконкретныйшагисupportbots;финансовыйрезультатневыдуман,платныхвызововнет.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 477,
+      "slug": "beget-ai-gateway-kluch-server",
+      "type": "post",
+      "baseline_hash": "7851c35c16f943f19db0d61d85c6db03647cc524b0d55cc4b5a9329c247ab23b",
+      "file": "beget-ai-gateway-kluch-server.html",
+      "candidate_hash": "640cfeed8d57b794406560baf6860a79fe2bd8feb948cecbe08222a1fa511fe8",
+      "visible_chars": 12763,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/205-beget-ai-gateway-kluch-server.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget205 иruntimeдополнения. KEEP:основнойматериалпредметноразделяетвнешнийключ/правапользователя/хранение/замену/диагностику.",
+        "BegetAIруководствопроверено23.10.2026,OWASPSecretsManagement первичныйисточник открыт; сервису не приписаны неизвестныеузкиеправапроектов.",
+        "УпрощёнанглийскийзаголовокSharedhosting,конкретизированCTA;общиедублирующиеглавынедобавлялись.",
+        "Таблица/схема/sourceпанель/партнёрскаяссылкаскороткимраскрытиемсохранены;реальныеключи/пути/доступынечитались.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 478,
+      "slug": "beget-ai-gateway-test-modeli",
+      "type": "post",
+      "baseline_hash": "efcf271e147e81f5167bacc04924d8e7fc8360d268c436f064685fc27e7ef50a",
+      "file": "beget-ai-gateway-test-modeli.html",
+      "candidate_hash": "bd2124e9acd5c953b745214f73f1f70912b2e709fdf24e1dc0ac9bf2c2d946c1",
+      "visible_chars": 12033,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/206-beget-ai-gateway-test-modeli.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget206 иruntimeдополнения. KEEP:полнаяметодикасравненияужевключаетобычный/неполный/противоречивыйвход,совместимость,возврат.",
+        "BegetAIофициальноеруководствопроверено23.10.2026:моделииподдерживаемыевозможностипроверяютсяпосценарию;текущийрейтинг/ценынедобавлены.",
+        "Финальнаянеподтверждённаяформулировкауменьшенияслучайныхизмененийзамененапроверяемымсоставомрешения;CTAпервоголица.",
+        "Исходныетаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;платныхэкспериментовнет.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 185,
+      "slug": "kalendar-vnutri-sdelki-crm",
+      "type": "post",
+      "baseline_hash": "26db7defb7ddec0e0a24b9dd683a1748bf70bf110135027c14ba0b1df1618f28",
+      "file": "kalendar-vnutri-sdelki-crm.html",
+      "candidate_hash": "5dfc76eba50a39749a316cf6ffafa054448379564904e891224760c1dbca4725",
+      "visible_chars": 13041,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=44",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-44.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform44 иruntimeдополнения; все таблицы/схема/sourceпанель сохранены.",
+        "Неподтверждённаяатрибуциякалендарногоклиентскогопроектазамененаявнойпроектноймоделью;снятобезусловноезаявлениеуменьшенияручныхдействий.",
+        "OWASPAuthorizationпервичныйтекстсверен23.10.2026;сервернаяпроверкаотделенаотпоказаокна.",
+        "Удалены два ранних повторныхраздела;добавлен конкретный разборизмененияправмеждуоткрытиемисохранением."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 479,
+      "slug": "beget-ai-gateway-ochered-zayavok",
+      "type": "post",
+      "baseline_hash": "6da29e9c4a7e112dd87851ca591ebaa5b6d8cbef385fcbac4a5a867b1ad9ee18",
+      "file": "beget-ai-gateway-ochered-zayavok.html",
+      "candidate_hash": "92c9f502df976a2ee927d30bccf82a68d67871b57296f5f30c6911b0d634aa46",
+      "visible_chars": 12091,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/207-beget-ai-gateway-ochered-zayavok.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget207 иruntimeдополнения. KEEP:полныйразборужеразличаетзаявку/задание/попытку,частичноесостояние,старуюочередьиактуальность.",
+        "BegetAIруководство иMicrosoftAzureRetry первичныеисточникипроверены23.10.2026;идемпотентность/очередьнеприписаныпровайдерупоумолчанию.",
+        "Неподтверждённаякоммерческаяформулировка «сохраняетпродажи» суженадомаршрутаприёмаиучётазатрат;CTAпервоголица.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;реальныесообщения/заданияневыполнялись.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 480,
+      "slug": "beget-ai-gateway-kontekst-dannyh",
+      "type": "post",
+      "baseline_hash": "7372857722e3951c89d4b593d5a769bc4fbb096dbf3130466d058c9cf63382fa",
+      "file": "beget-ai-gateway-kontekst-dannyh.html",
+      "candidate_hash": "9ae907b5d61deedc809f880cf52d903410869a18bc3f2ce4fe4f2030a29e9aae",
+      "visible_chars": 13206,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/208-beget-ai-gateway-kontekst-dannyh.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget208 иruntimeдополнения; основные разделы ужесильные,сохранены таблица/схема/sourceпанель/партнёрскаяссылка.",
+        "REWRITEточечногофакта:Begetруководство23.10.2026 прямоограничиваетPII/payment/credentials/tradesecrets,внутреннееразрешениевладельцанедостаточно.",
+        "Добавлен предметный раздел о применимости картыданныхкправиламсервиса;PIIвтаблиценеобъявленаразрешённойпередачейчерезBeget.",
+        "OWASPPromptInjectionпервичныйисточникпроверен23.10.2026;модельныйответнеприравненкпроверкефактическихдействий.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 481,
+      "slug": "beget-embeddings-baza-znaniy",
+      "type": "post",
+      "baseline_hash": "ec4fe2a54fd16c243bfeefb78a1c26859a07af2fc6017495e3ca585fcfa2532f",
+      "file": "beget-embeddings-baza-znaniy.html",
+      "candidate_hash": "1e48fe93b9e857b9d39ef425f96a856943d699a2dc8cc9baed12da43d8ed4695",
+      "visible_chars": 13234,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/209-beget-embeddings-baza-znaniy.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget209 иruntimeдополнения;сильнаяметодикакорпуса/версий/прав/фрагментов/переиндексациисохранена.",
+        "Begetруководство23.10.2026 подтверждаетembeddingsиограниченияпередаваемыхданных;добавленконкретныйразборвнешнегоэтапаиндексации.",
+        "ОфициальныеQdrantFilteringиpgvectorREADMEпроверены23.10.2026;поддержкаметаданных/векторовнеобъявленаавтоматическойавторизацией.",
+        "REWRITEуточненияграницданных;исходныетаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
+      ],
+      "action": "REWRITE"
+    }
+  ]
+}

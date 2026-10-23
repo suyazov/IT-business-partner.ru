@@ -637,8 +637,8 @@
       "slug": "ai-shlyuz-beget-crm-sayt-processy",
       "baseline_hash": "871ad305df7e15c1f31a8d27687ecd7c4d457262d4bf20a06daa1fb77801d8d9",
       "file": "ai-shlyuz-beget-crm-sayt-processy.html",
-      "candidate_hash": "cb41031ce69a8cf15237aadc967824a396acb2b43f7364946738f0d0aa436dfe",
-      "visible_chars": 19472,
+      "candidate_hash": "07c3bd2d475b1369b7101ade94fce972d18c66aba068b97d9952dff221f033fd",
+      "visible_chars": 19443,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -701,6 +701,14 @@
           "url": "https://beget.com/ru/kb/manual/ai-gateway",
           "claim": "Chat Completions/embeddings/models; Responses не поддерживается и возвращает404",
           "checked_on": "2026-10-23"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://beget.com/ru/kb/manual/ai-gateway",
+          "claim": "AI gateway excluded from affiliate program; commissions only for participating services. Disclosure first person, URL and sponsored/nofollow retained.",
+          "checked_on": "2026-10-23",
+          "method": "raw HTTP200; private source receipt retained",
+          "limit": "Documented program scope, no payout measured."
         }
       ],
       "audience": "Руководитель/владелец CRM и разработчик",
