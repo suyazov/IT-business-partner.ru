@@ -1,0 +1,713 @@
+{
+  "baseline_sha256": "0d68d6544efd1bdb3ed0a4e801b3b9f329277674f2726ec7b09c5f8c6a62e50b",
+  "production_authority": false,
+  "reader_test": "NOT_RUN",
+  "candidates": [
+    {
+      "id": 61,
+      "type": "post",
+      "slug": "proverka-form-do-crm",
+      "baseline_hash": "17d8ed4abee28ba3176269175079a2ad272784cf936235503c6d7041fb99a84e",
+      "file": "proverka-form-do-crm.html",
+      "candidate_hash": "06561723573999a00b1322af94d170ad651c7d887c3b1a8839f5ea61db7e658f",
+      "visible_chars": 13329,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-proverka-form-do-crm.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "41b047a07f66452d00b0c6c664059915e4e34819392b06e91b05853705f04f24"
+            },
+            {
+              "type": "group",
+              "sha256": "2c9f59965cb18616d4640c3580455d5454da6fab938bfb88acec91ea4e88bd20"
+            },
+            {
+              "type": "group",
+              "sha256": "91deb4455a85906d923b5ddcacc21e69da2a8c59130cec4dd564d99c8d6a5f1f"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=matklass",
+          "claim": "12 контрольных сделок в amoCRM; не продажи и не доказательство всех механизмов повторов",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://apidocs.bitrix24.ru/api-reference/crm/leads/crm-lead-add.html",
+          "claim": "Метод создаёт лид; развитие остановлено, указан crm.item.add",
+          "checked_on": "2026-10-23"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://www.amocrm.ru/developers/content/crm_platform/duplication-control",
+          "claim": "Контроль дублей через API связан с /api/v4/leads/complex и настройками",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Маркетолог/руководитель и разработчик",
+      "purpose": "Подтвердить путь одной формы до доступной записи CRM",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 62,
+      "type": "post",
+      "slug": "do-vnedreniya-bitrix24",
+      "baseline_hash": "35293d495236fde1d4ffdbb36f9c320fdc488ded6248a3bdf630f3fcf81e8cb8",
+      "file": "do-vnedreniya-bitrix24.html",
+      "candidate_hash": "beb052df39ae7d71bd239657628375e2b272fa393ca8c906852f80474fa85eda",
+      "visible_chars": 14167,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-do-vnedreniya-bitrix24.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "ec940baf7006a823f3ce0f76de5df8b57264ef954568b8fcdf6ba134975ee8cc"
+            },
+            {
+              "type": "group",
+              "sha256": "09cf62c63e6a418d7daa82a3b043f27b692586f68c1aef1f5f8d351e6dade4bb"
+            },
+            {
+              "type": "group",
+              "sha256": "f3c0a9fc0390b20969c4da51fdfd2ad71ce29eee96edac2d7aeb107012b64c07"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=bitrix24-doors",
+          "claim": "Входящие обращения, распределение, пять сотрудников и четыре шаблона; без ROI",
+          "limit": "Accepted source only; no new live client verification"
+        }
+      ],
+      "audience": "Руководитель компании/продаж",
+      "purpose": "Подготовить первый этап Битрикс24 до выбора настроек",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 63,
+      "type": "post",
+      "slug": "pervyy-ai-pilot",
+      "baseline_hash": "0f04e5b071f7d4f9257c9450e3740476147b3740f466b3c844c3e0ce47a69df3",
+      "file": "pervyy-ai-pilot.html",
+      "candidate_hash": "5b57db4c7da0bd65d94cf333cdb2a0720d23e8fe3ea78ea60923f8cc68b09b8a",
+      "visible_chars": 12450,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-pervyy-ai-pilot.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "fd9da711aa4a54c56993f7731f3b19a413030f097f991c3b3968506e2cd2fe91"
+            },
+            {
+              "type": "group",
+              "sha256": "53d53dbf48ee99b9f6fcd7760174acaccd7a4f3beb2e73a05056075a1ba8ac03"
+            },
+            {
+              "type": "table",
+              "sha256": "c6dda072c771dbe09e217ff416a0d5d12db39b2c9b479ed3286f30e7e3ce16ef"
+            },
+            {
+              "type": "table",
+              "sha256": "2df7d6726cfc0b0d2d75c51670d19c52cc9927a104a089a111a0640b34e797a6"
+            },
+            {
+              "type": "group",
+              "sha256": "36c1a4bb1fc3043895bb3da9c21b25a8c60f68c5c82d1f9a028dbc7b55195307"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=glosscheck",
+          "claim": "ИИ-сервис с чатом/файлами/историей/настройками; не доказательство Beget или полезности любого пилота",
+          "limit": "Accepted source only; no new live client verification"
+        }
+      ],
+      "audience": "Владелец операции/руководитель",
+      "purpose": "Выбрать проверяемую задачу для первого ИИ-пилота",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 64,
+      "type": "post",
+      "slug": "ai-chelovek-proverka",
+      "baseline_hash": "7048ea2c719645f1aba9b942ef2672a5d6dc14b252d480c2d71e11e4c5d47c35",
+      "file": "ai-chelovek-proverka.html",
+      "candidate_hash": "12cd01709b5fc6fd367bdc79bfd87741a9462e36c6cbbf666410b0ffb1bccc7a",
+      "visible_chars": 12867,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-ai-chelovek-proverka.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "230ec62ce0a2cb0d0b5f0c5a4adba2912b90eaa3e23f99c64a4de1bf68b0c0e2"
+            },
+            {
+              "type": "group",
+              "sha256": "dc1897be7c85a4e170c5cdc34620a34d5531b65d46ad8b65e2286b078cb34843"
+            },
+            {
+              "type": "table",
+              "sha256": "0aad42d85127620a943f93c9cc2a463f0e4fae366802cf4b880280678308d64c"
+            },
+            {
+              "type": "table",
+              "sha256": "c44641bdcbc809bfcd372fa40f0a0fd9da1e98276532564df4258c56e5198b2e"
+            },
+            {
+              "type": "table",
+              "sha256": "5fa4ebbb03c2ec216cf7cd8e84d682e04f19dbf62f59ca68558e40cfe7ae8e84"
+            },
+            {
+              "type": "group",
+              "sha256": "94dda6bc35905c3ba34ae3f48e8f54e986b906712a690f8394a4101d1d169239"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://owasp.org/projects/top-10-for-large-language-model-applications",
+          "claim": "Проект рисков LLM; индекс просмотрен, не заявлено тестирование приложения",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Владелец процесса/аналитик",
+      "purpose": "Спроектировать содержательное подтверждение до действия ИИ",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 65,
+      "type": "post",
+      "slug": "priemka-avtomatizatsii",
+      "baseline_hash": "757f7f51c06a01416670a56212bccf807478aae4b0929d15c6ef69c3e4aa8c8e",
+      "file": "priemka-avtomatizatsii.html",
+      "candidate_hash": "106ce79f7b24e529daefae19f651a87996f13fac698c5e5aeed00136141d6411",
+      "visible_chars": 13856,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-priemka-avtomatizatsii.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "c970aea8ac366280d812534baa6d63769e8d6c7129edbf8a48af7e816dfe21b2"
+            },
+            {
+              "type": "table",
+              "sha256": "833825b67691c5b0022ca87d222a7b774f63e75612a6d64cf50bd2b660b247d6"
+            },
+            {
+              "type": "group",
+              "sha256": "468fa75583c16e93d983829adf663d22f3e6cbbcd95d6eb33482c2997ab26000"
+            },
+            {
+              "type": "table",
+              "sha256": "c8895d3bdd3f37f0f74e5124e09e0d6e416fac7df551b17802972889931aab76"
+            },
+            {
+              "type": "table",
+              "sha256": "edc0b1a40775300d771b0706a4b9a25e47a084127f627adbd866f16ec62e96ac"
+            },
+            {
+              "type": "group",
+              "sha256": "004fe83c81a5de43eb3cea59eea006c6c09685e291c874a39e97829f123ebeee"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=libertygas",
+          "claim": "Редактор, один объект на A4, проверка повторного экспорта; без конверсии",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://www.iiba.org/knowledgehub/the-business-analysis-standard/4-implementing-business-analysis/4-4-understanding-requirements-and-designs/",
+          "claim": "Прослеживаемость от потребности к требованиям и решению",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Заказчик/принимающий руководитель",
+      "purpose": "Принять результат автоматизации по рабочему сценарию",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 66,
+      "type": "post",
+      "slug": "integratsiya-dubli-i-povtory",
+      "baseline_hash": "fd33433faf284f733d5b93b1c1f2b36479d56b585d2e0e9432386109658cf243",
+      "file": "integratsiya-dubli-i-povtory.html",
+      "candidate_hash": "70149b89493015e11f33a024b94e12864c775bae0debd0af7d23580dc714b254",
+      "visible_chars": 14261,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-integratsiya-dubli-i-povtory.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "176790750fa162b4fe71ad9a2cf0533d855046ea769997037df7be9f4452cfae"
+            },
+            {
+              "type": "table",
+              "sha256": "67d3f3904ee0df5342d827b19745fd74eaaabf807eadf4a6ff52bd17efd7fda3"
+            },
+            {
+              "type": "group",
+              "sha256": "5ed6bc428ac810e025f08ab83f23915c1d94d5a5f9bac4caff1ae6f39c999b13"
+            },
+            {
+              "type": "table",
+              "sha256": "2c17c30a22d3ff360d66f75dba51e96c8ada298239ba546bc7a5b5ff847f407b"
+            },
+            {
+              "type": "group",
+              "sha256": "558b1dfcbbaa637e68e7a8b0764036ddf930939f639ccd679818e9744024756b"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=matklass",
+          "claim": "12 контрольных сделок в amoCRM; не продажи и не доказательство всех механизмов повторов",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://docs.stripe.com/api/idempotent_requests",
+          "claim": "Ключи и повторы: контракт конкретного API",
+          "checked_on": "2026-10-23"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://docs.github.com/en/webhooks/using-webhooks/best-practices-for-using-webhooks",
+          "claim": "Идентификатор X-GitHub-Delivery сохраняется при повторной доставке",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Руководитель продаж/интегратор",
+      "purpose": "Отличить технический повтор от новой потребности",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 67,
+      "type": "post",
+      "slug": "karta-ruchnyh-operatsiy",
+      "baseline_hash": "c7eb79bb7a1d0c838b6b3e606855b60647fd8123e3f1201c0adbff6b09d4382c",
+      "file": "karta-ruchnyh-operatsiy.html",
+      "candidate_hash": "e4a6079d1427c2688c252722e72e71574d12b865d50eef0fda734ca45c42ddba",
+      "visible_chars": 15197,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-karta-ruchnyh-operatsiy.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "31193b85426440cff124fd154d368d6fcfe39b7c5f14b6780b4d4cbf5afe6759"
+            },
+            {
+              "type": "table",
+              "sha256": "4d46830aba55cf6f1f134273563c71a65cbf8143e567087db7fceceb455eab05"
+            },
+            {
+              "type": "group",
+              "sha256": "30b19dfb25f96315da765fb37ef4cc0d9e03e2837e2604ab2c2869eaa9937e21"
+            },
+            {
+              "type": "table",
+              "sha256": "8a94745620a058befe1497fc6a2a9023f14a5a4b5019877e9e1fe936c6782298"
+            },
+            {
+              "type": "table",
+              "sha256": "e3c2c81c57ae6f8e3bfad23b271c04f6d964d13467c5862b6975e59de35170f0"
+            },
+            {
+              "type": "group",
+              "sha256": "34c0e1086e781ad858d6ea0473985b525ce631221f4645fa89ce119d2107ee5a"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=bitrix24-doors",
+          "claim": "Входящие обращения, распределение, пять сотрудников и четыре шаблона; без ROI",
+          "limit": "Accepted source only; no new live client verification"
+        }
+      ],
+      "audience": "Операционный руководитель/аналитик",
+      "purpose": "Выбрать первую ручную операцию по наблюдаемой работе",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 68,
+      "type": "post",
+      "slug": "ai-kontent-redaktor",
+      "baseline_hash": "00f911d512ba175f7d4716e25fb96a2017903898a838f434fd5607f614e586c3",
+      "file": "ai-kontent-redaktor.html",
+      "candidate_hash": "6cb38b0c17a3d9e371dae406d5e31f3107d0eff16d88cf81f4df4b706f21c3d7",
+      "visible_chars": 15317,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-ai-kontent-redaktor.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "e8bb68b8009c7dc99ef6f4ed1535f3605fe331897fd27114ce4a22798ae19158"
+            },
+            {
+              "type": "table",
+              "sha256": "1bf8e732737b38d9e9848bd7a2f9df1d7b6233f9b79c463adea8595089325018"
+            },
+            {
+              "type": "group",
+              "sha256": "3996af762b8232f6f0b04402957b7f4b5819b1c41401ae54b1b3fa8ea3285abd"
+            },
+            {
+              "type": "table",
+              "sha256": "cdaa2c9f1a1fd0a97ace41ab823c6df0383fea8db852f793dfcddd20c7455282"
+            },
+            {
+              "type": "group",
+              "sha256": "37ad3ed44af5c5c4b131e689e3c869187ae2c1908f19e3e749f265dc91840052"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=matklass",
+          "claim": "12 контрольных сделок в amoCRM; не продажи и не доказательство всех механизмов повторов",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=glosscheck",
+          "claim": "ИИ-сервис с чатом/файлами/историей/настройками; не доказательство Beget или полезности любого пилота",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+          "claim": "Массовые страницы без пользовательской ценности могут нарушать spam policy",
+          "checked_on": "2026-10-23"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://wordpress.org/documentation/article/post-status/",
+          "claim": "Различаются draft/pending/publish и полномочия публикации",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Владелец сайта/редактор",
+      "purpose": "Организовать ИИ-черновики с проверкой фактов и отдельным выпуском",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 69,
+      "type": "post",
+      "slug": "crm-lms-integratsiya",
+      "baseline_hash": "b58f7a0091bab31cfbf2a46e4ef0bd1a4c68285ca5b4a796df4a14e47be21d5c",
+      "file": "crm-lms-integratsiya.html",
+      "candidate_hash": "f87465c423d58fb04dac7ae28c7f581abcdb413f6d5062276d6fb857b7e02e87",
+      "visible_chars": 18427,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/content/articles.json",
+        "wordpress/longform/articles/published-crm-lms-integratsiya.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "a0b92634edd5aadcfb108e6ee0140317f72172945ee119e5eb34c6745166e027"
+            },
+            {
+              "type": "table",
+              "sha256": "e207a8afb9cc34637c28ac66ed8937e6c1c02cf6fe05a1528319812ed6ff3267"
+            },
+            {
+              "type": "group",
+              "sha256": "bdc93aaf25a2a87232b7ad8fb7d37e500387720a4cea8815a3598b793f527822"
+            },
+            {
+              "type": "table",
+              "sha256": "f8e5cf2057cf2deed0b0995ecc3b600c1cfb5d3ab285301a1e19eb96f2fbe75e"
+            },
+            {
+              "type": "group",
+              "sha256": "76228016cd20df693546c95878219de201b4843ce01b57132d8b3bd1f4fb272c"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=bitrix24-training",
+          "claim": "Внутренняя форма курсов/мероприятий и задача отделу; не Moodle/оплата/выдача LMS",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://moodledev.io/docs/apis/plugintypes/enrol/",
+          "claim": "Enrolment и назначение роли — разные понятия",
+          "checked_on": "2026-10-23"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://docs.stripe.com/webhooks",
+          "claim": "Порядок событий не гарантируется, нужно различать повторы",
+          "checked_on": "2026-10-23"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction",
+          "claim": "Компенсация зависит от бизнес-правил и не всегда возвращает исходное состояние",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Руководитель обучения/продаж",
+      "purpose": "Описать право на обучение и принять доступ через CRM/LMS",
+      "source_status": "publish",
+      "source_date": "2026-10-22 19:54:53",
+      "source_date_gmt": "2026-10-22 16:54:53"
+    },
+    {
+      "id": 326,
+      "type": "post",
+      "slug": "ai-shlyuz-beget-crm-sayt-processy",
+      "baseline_hash": "871ad305df7e15c1f31a8d27687ecd7c4d457262d4bf20a06daa1fb77801d8d9",
+      "file": "ai-shlyuz-beget-crm-sayt-processy.html",
+      "candidate_hash": "cb41031ce69a8cf15237aadc967824a396acb2b43f7364946738f0d0aa436dfe",
+      "visible_chars": 19472,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/202-ai-shlyuz-beget-crm-sayt-processy.md",
+        "wordpress/beget-content/manifest.json",
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        {
+          "kind": "CONTENT_IDENTITY_VERIFIED",
+          "basis": "Captured published body; original source read in full; no runtime application"
+        },
+        {
+          "kind": "PROTECTED_BLOCKS_BYTE_IDENTICAL",
+          "blocks": [
+            {
+              "type": "table",
+              "sha256": "b8173a8d5a39d823a7ce96d0557d743e8e4dd053bff8974809e0a5a2045bb05f"
+            },
+            {
+              "type": "group",
+              "sha256": "909ac6189627b6d6a3db80d80d02f4e97c2d436deb3b26dbe93ebe12c8523e9d"
+            },
+            {
+              "type": "table",
+              "sha256": "25457045ee8692f0fe4a30365bfc6c87555d39a2d8ae4218d15a7b5a71c3aad6"
+            },
+            {
+              "type": "table",
+              "sha256": "6eb3252e03709bf0f77ca3fa6ed23d8b2243fd086246f39aceaba06266df1883"
+            },
+            {
+              "type": "table",
+              "sha256": "1b92611d432a32af9581d9106a39459a3b375a5a6a4c7d24f84712e3f4c808ae"
+            },
+            {
+              "type": "group",
+              "sha256": "c472ba01341a930fe2dfbe35a63954574cac6435642687d46c6c3abdc618ba0e"
+            }
+          ]
+        },
+        {
+          "kind": "EDITORIAL_KEEP",
+          "basis": "Detailed diagnostic procedures, matrices and exception handling retained; duplicated introductory summaries removed where they repeated the full treatment"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=glosscheck",
+          "claim": "ИИ-сервис с чатом/файлами/историей/настройками; не доказательство Beget или полезности любого пилота",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "ACCEPTED_PORTFOLIO_CASE",
+          "source": "wordpress/content/cases.json#slug=matklass",
+          "claim": "12 контрольных сделок в amoCRM; не продажи и не доказательство всех механизмов повторов",
+          "limit": "Accepted source only; no new live client verification"
+        },
+        {
+          "kind": "PRIMARY_DOCUMENTATION_CHECK",
+          "url": "https://beget.com/ru/kb/manual/ai-gateway",
+          "claim": "Chat Completions/embeddings/models; Responses не поддерживается и возвращает404",
+          "checked_on": "2026-10-23"
+        }
+      ],
+      "audience": "Руководитель/владелец CRM и разработчик",
+      "purpose": "Оценить подключение шлюза Beget как часть рабочего процесса",
+      "source_status": "publish",
+      "source_date": "2026-10-23 00:07:41",
+      "source_date_gmt": "2026-10-22 21:07:41"
+    }
+  ]
+}
