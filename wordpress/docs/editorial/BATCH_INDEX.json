@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "633bf5b289b6cb31355ee6121945d49900ac7c22",
+  "source_git_commit": "b20c6d5867852eb866dda9f6642436f53c9fe162",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 199,
+  "prepared_objects": 219,
   "prepared_by_type": {
     "page": 3,
-    "post": 153,
+    "post": 173,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -782,6 +782,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 195,
+      "type": "post",
+      "slug": "poslednee-mesto-v-gruppe",
+      "baseline_hash": "57a071c9f6248069eb6ee410fed7fb394bb4851fc6b42d3a94f02e7a98c36227",
+      "candidate_hash": "85651b44be784df74f35ae760dd33ba6a8d58a7e2c657bff86c7e587ca29cadb",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/poslednee-mesto-v-gruppe.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12529,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 202,
       "type": "post",
       "slug": "cms-dlya-redaktora-a-ne-razrabotchika",
@@ -814,6 +826,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-06/filtr-kataloga-nachinaetsya-s-dannyh.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
       "content_characters_declared": 12596,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 205,
+      "type": "post",
+      "slug": "korzina-i-checkout-odin-scenariy",
+      "baseline_hash": "d1f2746b0e2868280d40b4e1e8468fb6ee5084e208743050ddd2e75e8237eea3",
+      "candidate_hash": "c715247970c6c3fbf60a9f9592b529992a2f8c3287a91d739df39fe3fe72562e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/korzina-i-checkout-odin-scenariy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12191,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -854,6 +878,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 215,
+      "type": "post",
+      "slug": "nezavisimaya-proverka-izmeneniy",
+      "baseline_hash": "247a4bb6eb6bb8a410383635271a45a318f97b5c68ee68f8d73bc84b95d5aa2c",
+      "candidate_hash": "7fc1b698b8e5aab68bc027537dd8c18ade1b5981bc61cb25a88a208101e9b02e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/nezavisimaya-proverka-izmeneniy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 11656,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 222,
       "type": "post",
       "slug": "spravochnik-statey-operatsiy",
@@ -890,6 +926,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 225,
+      "type": "post",
+      "slug": "zayavka-na-rashod-i-soglasovanie",
+      "baseline_hash": "fba1b10e83080edd6b25e7591bf52b9058cf6564eda85cfe50b74faf0777bef2",
+      "candidate_hash": "d6cb48ec056d2ba5482318996c6982a77e1ba42a34864e4803df261f354633d2",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/zayavka-na-rashod-i-soglasovanie.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12441,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 232,
       "type": "post",
       "slug": "granitsy-mvp-avtomatizatsii",
@@ -922,6 +970,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-06/prioritety-avtomatizatsii-biznesa.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
       "content_characters_declared": 12218,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 235,
+      "type": "post",
+      "slug": "vygruzki-i-perenosimost-dannyh",
+      "baseline_hash": "1ab6651bb6318a24872eca601ecb0dc3ed184dc9951b4dc8ebe9546899f8ab8b",
+      "candidate_hash": "ec2af6e188ffd6ca117c7b9a6854cf8fe5723f7d20dae9daafd5fcb9348a66a0",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/vygruzki-i-perenosimost-dannyh.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 13393,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2378,6 +2438,186 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 482,
+      "type": "post",
+      "slug": "beget-ai-vnutrenniy-redaktor",
+      "baseline_hash": "4ebd3df5c0df7c4d016ace53b729e1f51fe7c97a534675c74bc2b34078a5f5c0",
+      "candidate_hash": "65251144c9b4ec13cff6d1d2d99cb452355d04326182aa7c8191b402ebddf696",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-ai-vnutrenniy-redaktor.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12486,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 483,
+      "type": "post",
+      "slug": "beget-ai-instrumenty-prava",
+      "baseline_hash": "b7f5a27bebc4677484f9d26b2e78f3d8aae2c9c77a2a4ef3a83acfe3a0b372ab",
+      "candidate_hash": "783dcfd2b044f86160fda71eaeb9595b8a40a2e2bebd5f76fb26c1af4e49e51c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-ai-instrumenty-prava.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12504,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 484,
+      "type": "post",
+      "slug": "beget-shared-ili-vps-forma",
+      "baseline_hash": "12f16fdd7f53246a2d4596ea0aea93c469fba264f768ff97808902f6371c1cbe",
+      "candidate_hash": "db9d964aab78ba8e7e2314e26a4518d38a3073286c9f6637adcdffdfbab19843",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-shared-ili-vps-forma.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12063,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 485,
+      "type": "post",
+      "slug": "beget-wordpress-zapusk-priemka",
+      "baseline_hash": "0dd4ab6fd3bc7c758bca8f20c6ad96d999e4f48d6b5410e46b48079f64b958c7",
+      "candidate_hash": "7c278194a747c85176e6f1188033e7963bd72e3aaf720e06cd00d118ab46fa45",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-wordpress-zapusk-priemka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12137,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 486,
+      "type": "post",
+      "slug": "beget-katalogi-neskolko-saytov",
+      "baseline_hash": "e9430f47a5f591afe073d2bd94264122b5079931156c18c946673d34e200b33f",
+      "candidate_hash": "37031941d1ba29bc2278e5b9e50f89094ff9b7a91d691d28cc18762fcd1770ce",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-katalogi-neskolko-saytov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12114,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 487,
+      "type": "post",
+      "slug": "beget-perenos-kontrol-platezhey",
+      "baseline_hash": "b71f5ae82877ee7c00fe6c060d59f660d52199ae423196b11cf448d419e6ebb6",
+      "candidate_hash": "4584524cef0f0483a29c9b86c410b0857b79275946173fd48bf5e1ab5851e2af",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-perenos-kontrol-platezhey.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12288,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 488,
+      "type": "post",
+      "slug": "beget-php-smena-diagnostika",
+      "baseline_hash": "a76efe4ddd748ff1828484135a4cd745284b425fbe6b921f2e0ac505c82abf2b",
+      "candidate_hash": "f17f9e3b4da9301f0821535d831b9033e097a2fa38421709cdaa25ce054c6399",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-php-smena-diagnostika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12292,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 489,
+      "type": "post",
+      "slug": "beget-php-session-zavisanie",
+      "baseline_hash": "894e3f19bc378fa11bfb95c84c8a7d0eb03b0dc210d2ffeba68d270b52df49fb",
+      "candidate_hash": "fbcd434b38667a198208eb2b9c255f8ed173eed7e6879b1b6d01bd39d1a1076f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-php-session-zavisanie.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12374,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 490,
+      "type": "post",
+      "slug": "beget-migraciya-bez-pochty",
+      "baseline_hash": "e51353310b6816b7893a3945cb2a656b0ec981f2c89c115ad822165963041f80",
+      "candidate_hash": "814bd2591855c010fe04d7c71fe37e1a139a1f3658ab8b6c020a6db84cf53639",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-migraciya-bez-pochty.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12308,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 491,
+      "type": "post",
+      "slug": "beget-vosstanovlenie-odin-fayl",
+      "baseline_hash": "08d9397ec5f7b8c92a31f8f06e2e253f40b5de163c343eb5f8fe28ade809a834",
+      "candidate_hash": "31d66eb4583b9aae3b6802ad7d62f4ab64e272d9ede767996940c4229a8e02b3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-vosstanovlenie-odin-fayl.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12099,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 492,
+      "type": "post",
+      "slug": "beget-snapshot-baza-zakazov",
+      "baseline_hash": "eb159a0a26d451161cdae5bb2b3860f7ba113967bc2cc4f0e1cd7b81f306dd28",
+      "candidate_hash": "835e5cfa3586974e81efc1ab0647ba8bbdbdc543392d46093a6f18b9182f4278",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-snapshot-baza-zakazov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12612,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 515,
+      "type": "post",
+      "slug": "beget-pereezd-proverka-do-dns",
+      "baseline_hash": "90794255050e58550b9528ea7e44d76e4428e902a011fa79393453a506293069",
+      "candidate_hash": "7c0e8f14f712658ed0b52fb24841d14c64b8d85104760a63f470b0dd41b5ac05",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-pereezd-proverka-do-dns.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12107,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 516,
+      "type": "post",
+      "slug": "beget-dns-webhook-perekluchenie",
+      "baseline_hash": "d94553edae4e06139c0ac5dde524f0abd703adc04998f0d4186576cf00e46229",
+      "candidate_hash": "777cd9f13232c1fc7899534d0c83702ceb9213eb94435f784659cef064fbf57d",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-dns-webhook-perekluchenie.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12051,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 517,
+      "type": "post",
+      "slug": "beget-domen-prodlenie-process",
+      "baseline_hash": "b4acc33ecb703c60a12ee48f6d477f6764abb3f580babc12f77ddf4d1587eecb",
+      "candidate_hash": "3a9150a55936ebdf028a90b35c6c9e370ce0fade662f005780ac7ba2fa8122d7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-domen-prodlenie-process.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 11874,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 518,
+      "type": "post",
+      "slug": "beget-poddomen-lichnyy-kabinet",
+      "baseline_hash": "f934691075a489e3c400d7e48bada8fa5d2a025803e407e190a563d1d18463c1",
+      "candidate_hash": "348c352c2b0a59ef05fe165203943d94fc26ccb8400dcd53765dbe25ad4d1df1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-08/beget-poddomen-lichnyy-kabinet.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
+      "content_characters_declared": 12076,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 574,
       "type": "sy3_case",
       "slug": "hiring-funnel-dashboard",
@@ -2569,11 +2809,6 @@
       "slug": "bron-i-oplata-raznye-sobytiya"
     },
     {
-      "id": 195,
-      "type": "post",
-      "slug": "poslednee-mesto-v-gruppe"
-    },
-    {
       "id": 196,
       "type": "post",
       "slug": "istoriyu-poseshcheniy-nelzya-perepisyvat"
@@ -2602,11 +2837,6 @@
       "id": 201,
       "type": "post",
       "slug": "ot-zayavki-do-zachisleniya"
-    },
-    {
-      "id": 205,
-      "type": "post",
-      "slug": "korzina-i-checkout-odin-scenariy"
     },
     {
       "id": 206,
@@ -2639,11 +2869,6 @@
       "slug": "lending-s-oplatoy-bez-bolshogo-magazina"
     },
     {
-      "id": 215,
-      "type": "post",
-      "slug": "nezavisimaya-proverka-izmeneniy"
-    },
-    {
       "id": 216,
       "type": "post",
       "slug": "izmeneniya-kotorye-mozhno-otmenit"
@@ -2674,11 +2899,6 @@
       "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai"
     },
     {
-      "id": 225,
-      "type": "post",
-      "slug": "zayavka-na-rashod-i-soglasovanie"
-    },
-    {
       "id": 226,
       "type": "post",
       "slug": "versii-premialnyh-shem"
@@ -2707,11 +2927,6 @@
       "id": 231,
       "type": "post",
       "slug": "audit-pered-perenosom-sistemy"
-    },
-    {
-      "id": 235,
-      "type": "post",
-      "slug": "vygruzki-i-perenosimost-dannyh"
     },
     {
       "id": 236,
@@ -2747,61 +2962,6 @@
       "id": 391,
       "type": "post",
       "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
-    },
-    {
-      "id": 482,
-      "type": "post",
-      "slug": "beget-ai-vnutrenniy-redaktor"
-    },
-    {
-      "id": 483,
-      "type": "post",
-      "slug": "beget-ai-instrumenty-prava"
-    },
-    {
-      "id": 484,
-      "type": "post",
-      "slug": "beget-shared-ili-vps-forma"
-    },
-    {
-      "id": 485,
-      "type": "post",
-      "slug": "beget-wordpress-zapusk-priemka"
-    },
-    {
-      "id": 486,
-      "type": "post",
-      "slug": "beget-katalogi-neskolko-saytov"
-    },
-    {
-      "id": 487,
-      "type": "post",
-      "slug": "beget-perenos-kontrol-platezhey"
-    },
-    {
-      "id": 488,
-      "type": "post",
-      "slug": "beget-php-smena-diagnostika"
-    },
-    {
-      "id": 489,
-      "type": "post",
-      "slug": "beget-php-session-zavisanie"
-    },
-    {
-      "id": 490,
-      "type": "post",
-      "slug": "beget-migraciya-bez-pochty"
-    },
-    {
-      "id": 491,
-      "type": "post",
-      "slug": "beget-vosstanovlenie-odin-fayl"
-    },
-    {
-      "id": 492,
-      "type": "post",
-      "slug": "beget-snapshot-baza-zakazov"
     },
     {
       "id": 493,
@@ -2912,26 +3072,6 @@
       "id": 514,
       "type": "post",
       "slug": "beget-ekspluatacionnyy-pasport"
-    },
-    {
-      "id": 515,
-      "type": "post",
-      "slug": "beget-pereezd-proverka-do-dns"
-    },
-    {
-      "id": 516,
-      "type": "post",
-      "slug": "beget-dns-webhook-perekluchenie"
-    },
-    {
-      "id": 517,
-      "type": "post",
-      "slug": "beget-domen-prodlenie-process"
-    },
-    {
-      "id": 518,
-      "type": "post",
-      "slug": "beget-poddomen-lichnyy-kabinet"
     },
     {
       "id": 519,
