@@ -1,0 +1,2154 @@
+{
+  "batch": "drafts-14",
+  "source_base": "273d8b4",
+  "production_authority": false,
+  "database_changed": false,
+  "article_policy_changed": false,
+  "candidates": [
+    {
+      "id": 198,
+      "slug": "abonement-ne-raven-vyruchke",
+      "type": "post",
+      "baseline_hash": "59369ef106e5bdeaa29bc311b1a06d350b0fab77702712c6ef6db7b32934d6c4",
+      "file": "abonement-ne-raven-vyruchke.html",
+      "candidate_hash": "c7999e4ccdc7b53d49bf0d749cda2c3b0cd3275092204e59e11da0ca22041f6f",
+      "visible_chars": 13089,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрана неподтверждённая атрибуция разработки детской CRM. KEEP трёх фактов, версий условий, заморозки/переноса/повторов и границ финансовой методики. Учебный пакет не выдан за внедрение.",
+      "source_files": [
+        "wordpress/editorial/articles/06-education.md#id=57",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-57.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://yookassa.ru/developers/using-api/webhooks"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Абонемент, посещение и оплата: зачем CRM различать эти сущности",
+        "post_excerpt": "Сотрудник продал пакет занятий, ребёнок посетил урок, родитель внёс деньги. Эти события связаны, но происходят в разное время и отвечают на разные вопросы. Одна отметка «активный клиент» не заменяет их учёт.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:23",
+        "post_modified_gmt": "2026-10-22 21:30:23",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=198",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "057",
+          "_sy3_editorial_at": "1809759600",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Сотрудник продал пакет занятий, ребёнок посетил урок, родитель внёс деньги. Эти события связаны, но происходят в разное время и отвечают на разные вопросы. Одна отметка «активный клиент» не заменяет их учёт.",
+          "_sy3_label": "CRM",
+          "_sy3_related": "",
+          "_thumbnail_id": "161"
+        },
+        "terms": [
+          {
+            "term_id": 6,
+            "name": "CRM",
+            "slug": "crm",
+            "term_group": 0,
+            "term_taxonomy_id": 6,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 161,
+          "alt": "Согласованные данные управленческого учёта",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-finance.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-57.csv",
+          "file": "wordpress/theme/assets/infographics/article-57.csv",
+          "sha256": "ca134ff42f43e11814b7a4f9790fe4506a4cb480c9c0efea66d2d3bce154ea91"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-57.svg",
+          "file": "wordpress/theme/assets/infographics/article-57.svg",
+          "sha256": "8989c63c8b82ff32c96c30baaee6b7146d4ccb0a39eca0f71e8ee689e259d5e1"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1578,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 13089,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 513,
+      "slug": "beget-sla-granicy-otvetstvennosti",
+      "type": "post",
+      "baseline_hash": "440fda3a7a22d2df4727116239d2d4569c4677ead5b3380a6ec52df60b43fa96",
+      "file": "beget-sla-granicy-otvetstvennosti.html",
+      "candidate_hash": "01773059f5834b18b215d2deb1684527b80cd75a608b4558deccdb66fe9aeb0b",
+      "visible_chars": 13112,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "KEEP критичности, границ подтверждения, точной передачи, одного writer, последствий и договорённого режима. Первое лицо и честная координация профильных 1С/BI, без чужого SLA.",
+      "source_files": [
+        "wordpress/beget-content/articles/300-beget-sla-granicy-otvetstvennosti.md",
+        "wordpress/beget-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "AFFILIATE_DISCLOSURE_FACT_CORRECTED",
+          "url": "https://beget.com/p133852",
+          "scope": "Destination and rel=sponsored nofollow preserved. First-person disclosure limits commission to eligible services; AI Gateway explicitly excluded in AI articles. Authorized exception to old disclosure paragraph byte preservation."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://beget.com/ru/kb/manual/pomoshh-i-podderzhka"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Хостинг, разработчик и интегратор: кто отвечает за какой сбой",
+        "post_excerpt": "Как распределить инцидент между хостингом, разработчиком и интегратором: собрать факты, назначить следующее действие и принять восстановленный бизнесовый маршрут.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 01:21:03",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:21:03",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=513",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "300",
+          "_sy3_editorial_at": "1809759600",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как распределить инцидент между хостингом, разработчиком и интегратором: собрать факты, назначить следующее действие и принять восстановленный бизнесовый маршрут.",
+          "_sy3_label": "Владение инфраструктурой",
+          "_sy3_related": "249",
+          "_thumbnail_id": "144"
+        },
+        "terms": [
+          {
+            "term_id": 35,
+            "name": "Владение инфраструктурой",
+            "slug": "vladenie-infrastrukturoy",
+            "term_group": 0,
+            "term_taxonomy_id": 35,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 144,
+          "alt": "Связь участников процесса",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-team.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-300.csv",
+          "file": "wordpress/theme/assets/infographics/article-300.csv",
+          "sha256": "9e817a92dce2014f54a55204dc6c656856cd035cf283440c3e78ba051086591f"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-300.svg",
+          "file": "wordpress/theme/assets/infographics/article-300.svg",
+          "sha256": "4718e865a24baf66a4be4dd3ff3ef9b20978c599b070ade9b3b18559225b2bdb"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 824,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 13112,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 514,
+      "slug": "beget-ekspluatacionnyy-pasport",
+      "type": "post",
+      "baseline_hash": "f808935f1a7f14079925af921aad98bd83c97cdbeecea410d81d90ba883f8eee",
+      "file": "beget-ekspluatacionnyy-pasport.html",
+      "candidate_hash": "48a6ea06394f06e684424b80d92f255b00dc1bc539659148b5385c4537e6442c",
+      "visible_chars": 13628,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "KEEP актуальности одного документа, источников/данных, safe access map, критичных маршрутов и приёмки передачи. Первое лицо вместо общего агентского тона; protected table-подписи сохранены.",
+      "source_files": [
+        "wordpress/beget-content/articles/301-beget-ekspluatacionnyy-pasport.md",
+        "wordpress/beget-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "AFFILIATE_DISCLOSURE_FACT_CORRECTED",
+          "url": "https://beget.com/p133852",
+          "scope": "Destination and rel=sponsored nofollow preserved. First-person disclosure limits commission to eligible services; AI Gateway explicitly excluded in AI articles. Authorized exception to old disclosure paragraph byte preservation."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://beget.com/ru/kb/manual/nastrojki-akkaunta",
+            "https://beget.com/ru/kb/manual/sajty"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Паспорт сайта на Beget: артефакты, которые остаются владельцу после проекта",
+        "post_excerpt": "Что передать владельцу сайта после проекта: карту сервисов, источники, роли, маршруты данных и проверенные сценарии поддержки, сохранив секреты отдельно.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 01:21:04",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:21:04",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=514",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "301",
+          "_sy3_editorial_at": "1809846000",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Что передать владельцу сайта после проекта: карту сервисов, источники, роли, маршруты данных и проверенные сценарии поддержки, сохранив секреты отдельно.",
+          "_sy3_label": "Владение инфраструктурой",
+          "_sy3_related": "249",
+          "_thumbnail_id": "129"
+        },
+        "terms": [
+          {
+            "term_id": 35,
+            "name": "Владение инфраструктурой",
+            "slug": "vladenie-infrastrukturoy",
+            "term_group": 0,
+            "term_taxonomy_id": 35,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 129,
+          "alt": "Иллюстрация к статье «Как принять автоматизацию: сценарий вместо списка настроек»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-acceptance.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-301.csv",
+          "file": "wordpress/theme/assets/infographics/article-301.csv",
+          "sha256": "924a143c875ebfb629858d1696f8ebc20c039bb6a8293cc76229c6dfd0f12c26"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-301.svg",
+          "file": "wordpress/theme/assets/infographics/article-301.svg",
+          "sha256": "fd39d87c5a1de68271920a5c40adebe297e461de6a4725bcabeb6c07a7f318e2"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 855,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 13628,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 208,
+      "slug": "seo-audit-prevratit-v-priemku",
+      "type": "post",
+      "baseline_hash": "aab613e1e2c46c6d47c199b762ee52ec635a5db2af395a156264179037870862",
+      "file": "seo-audit-prevratit-v-priemku.html",
+      "candidate_hash": "4ac63d7c5837b66b90ef079d464da64a30e77b1772c18d1c47bd6bc64e6f367f",
+      "visible_chars": 12382,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сохранён подтверждённый SANEQ со ссылкой и границей 53/41 вместо повторного обзора. KEEP наблюдения/решения, типов страниц, canonical, CMS-будущего маршрута и соразмерных доказательств; роста не обещано.",
+      "source_files": [
+        "wordpress/editorial/articles/07-web.md#id=67",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-67.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "saneq-technology",
+          "id": 44,
+          "url": "https://sy3.ru/cases/saneq-technology/",
+          "body_hash": "4ccd2378ce3da2002063ddab42d316f5f9b970046e51f92b0df64828f04fa400",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+            "https://developers.google.com/search/docs/essentials/technical"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Как превратить SEO-аудит из списка замечаний в проверяемую работу",
+        "post_excerpt": "Компания получает большой отчёт: исправить заголовки, настроить canonical, убрать ошибки ссылок. Подрядчик отвечает «всё сделано», но непонятно, какие страницы проверены и что изменилось. Список рекомендаций ещ",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:23",
+        "post_modified_gmt": "2026-10-22 21:30:23",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=208",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "067",
+          "_sy3_editorial_at": "1810018800",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Компания получает большой отчёт: исправить заголовки, настроить canonical, убрать ошибки ссылок. Подрядчик отвечает «всё сделано», но непонятно, какие страницы проверены и что изменилось. Список рекомендаций ещ",
+          "_sy3_label": "Сайты",
+          "_sy3_related": "242",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 15,
+            "name": "Сайты",
+            "slug": "sayty",
+            "term_group": 0,
+            "term_taxonomy_id": 15,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-67.csv",
+          "file": "wordpress/theme/assets/infographics/article-67.csv",
+          "sha256": "444e5788e3d0e2cfc8017585070593da5f3e12623a497faadf748b3a5829c8d0"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-67.svg",
+          "file": "wordpress/theme/assets/infographics/article-67.svg",
+          "sha256": "f513c271d0a4cfa99f1a332d056460ff0b1b3f5ecac1d39a546a233579080871"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1826,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 12382,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 218,
+      "slug": "servis-rabotaet-a-zadacha-ne-vypolnyaetsya",
+      "type": "post",
+      "baseline_hash": "37fd01951dd0a146797baed1f0175d34321112350f0343cfe59b75f3ddef21d0",
+      "file": "servis-rabotaet-a-zadacha-ne-vypolnyaetsya.html",
+      "candidate_hash": "dd3a2d3be7ae02d14fccc716ee8ad4cfed373d4914b5148b4d03c943d9f86c24",
+      "visible_chars": 11844,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убраны неподтверждённые заявления о собственном помощнике/системах. KEEP четырёх уровней, интервалов, сквозных ID, classes очереди, безопасного synthetic и контроля самого наблюдения.",
+      "source_files": [
+        "wordpress/editorial/articles/08-operations.md#id=77",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-77.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://prometheus.io/docs/guides/multi-target-exporter/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Сервис работает, а заявки не обрабатываются: почему зелёного индикатора недостаточно",
+        "post_excerpt": "В панели мониторинга всё зелёное. Процесс запущен, сервер отвечает, место на диске есть. При этом новые обращения не попадают в работу. Техническая доступность и полезность для бизнеса оказались разными величин",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=218",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "077",
+          "_sy3_editorial_at": "1810278000",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "В панели мониторинга всё зелёное. Процесс запущен, сервер отвечает, место на диске есть. При этом новые обращения не попадают в работу. Техническая доступность и полезность для бизнеса оказались разными величин",
+          "_sy3_label": "Процессы",
+          "_sy3_related": "",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 9,
+            "name": "Процессы",
+            "slug": "protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 9,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-77.csv",
+          "file": "wordpress/theme/assets/infographics/article-77.csv",
+          "sha256": "230c0d98cd7d119fbf7db56208beb48c4e54dd6cb022a144ef05aec85be2e10c"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-77.svg",
+          "file": "wordpress/theme/assets/infographics/article-77.svg",
+          "sha256": "c0fcf87a81cd4ef685be214ee333487c1f343470b22c5e6009d2b911306fb9ab"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1777,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11844,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 228,
+      "slug": "testy-nastraivaemyh-kpi-formul",
+      "type": "post",
+      "baseline_hash": "352f35af3b200269fcdd2788e3fd0c97ff9fd35f8cdfb68b3c76b91443067651",
+      "file": "testy-nastraivaemyh-kpi-formul.html",
+      "candidate_hash": "8479fcaf38cbcd51a2d144c383d930a96a9d492ff60af8ab4307204d4902792a",
+      "visible_chars": 11779,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сокращён повтор и неоднозначная атрибуция анализа премиального контура. KEEP трёх уровней, единиц/пустоты, Decimal/округления, языка, версий и независимого эталона. Нет совета о справедливости KPI.",
+      "source_files": [
+        "wordpress/editorial/articles/09-finance.md#id=87",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-87.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+            "https://docs.python.org/3/library/decimal.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Настраиваемые KPI: как проверить формулу до того, как она начнёт влиять на расчёты",
+        "post_excerpt": "Бизнесу нужен конструктор показателей: менять веса, пороги и ограничения без очереди к разработчику. Но свободное редактирование формул переносит часть ответственности в интерфейс. Если проверка ограничена кноп",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=228",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "087",
+          "_sy3_editorial_at": "1810537200",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Бизнесу нужен конструктор показателей: менять веса, пороги и ограничения без очереди к разработчику. Но свободное редактирование формул переносит часть ответственности в интерфейс. Если проверка ограничена кноп",
+          "_sy3_label": "Управление",
+          "_sy3_related": "",
+          "_thumbnail_id": "129"
+        },
+        "terms": [
+          {
+            "term_id": 17,
+            "name": "Управление",
+            "slug": "upravlenie",
+            "term_group": 0,
+            "term_taxonomy_id": 17,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 129,
+          "alt": "Иллюстрация к статье «Как принять автоматизацию: сценарий вместо списка настроек»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-acceptance.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-87.csv",
+          "file": "wordpress/theme/assets/infographics/article-87.csv",
+          "sha256": "e5dd264f4146489d666d5dc5b3890c37eb61de81627acdb89864bc89d9e9d84c"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-87.svg",
+          "file": "wordpress/theme/assets/infographics/article-87.svg",
+          "sha256": "82915957fb6c0920d02e9cc6ee26adfe8a9426508ceb2e5a834b7f7012786129"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1878,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11779,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 238,
+      "slug": "obshchaya-platforma-i-otraslevye-moduli",
+      "type": "post",
+      "baseline_hash": "ad2ab056082bc6461ae85e4dfff789d28316f11c294eb860601c8f66b043293f",
+      "file": "obshchaya-platforma-i-otraslevye-moduli.html",
+      "candidate_hash": "c103af322af29a780fc334116a6860f3d152c75caee00a865725f01674e7cb78",
+      "visible_chars": 11924,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрано неподтверждённое описание собственной платформы. KEEP двух потребителей, контрактов, предметного владения, SemVer и экономики без обещанной экономии.",
+      "source_files": [
+        "wordpress/editorial/articles/10-strategy.md#id=97",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-97.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://semver.org/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Общая платформа и отраслевые модули: что действительно стоит переиспользовать",
+        "post_excerpt": "У двух компаний есть клиенты, сотрудники и задачи. Возникает желание сделать одну универсальную систему. Затем обнаруживается, что запись на занятие, обработка обращения и расчёт услуги живут по разным правилам",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=238",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "097",
+          "_sy3_editorial_at": "1810796400",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "У двух компаний есть клиенты, сотрудники и задачи. Возникает желание сделать одну универсальную систему. Затем обнаруживается, что запись на занятие, обработка обращения и расчёт услуги живут по разным правилам",
+          "_sy3_label": "Стратегия",
+          "_sy3_related": "",
+          "_thumbnail_id": "131"
+        },
+        "terms": [
+          {
+            "term_id": 19,
+            "name": "Стратегия",
+            "slug": "strategiya",
+            "term_group": 0,
+            "term_taxonomy_id": 19,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 131,
+          "alt": "Иллюстрация к статье «Как найти ручные операции, с которых стоит начать автоматизацию»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-workflow.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-97.csv",
+          "file": "wordpress/theme/assets/infographics/article-97.csv",
+          "sha256": "b5d972430a8a2a5496107d740d39e269a8918d23453483cab4739942b2833da1"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-97.svg",
+          "file": "wordpress/theme/assets/infographics/article-97.svg",
+          "sha256": "cade324491779132fb87c27e9622c1c5eb2a0e31537e66ed7b7f023a5de77fe6"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1990,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11924,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 147,
+      "slug": "identifikator-vmesto-imeni",
+      "type": "post",
+      "baseline_hash": "a6852491c9c0b61c9070fa61e865e2c28bde3b158669b1d3f14a40ee4c612b7e",
+      "file": "identifikator-vmesto-imeni.html",
+      "candidate_hash": "9bc4abf5dc863126f7f45c69833a0fd6f3d071cdf9d7b45d39fdecfeb1cc661d",
+      "visible_chars": 11107,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сохранён подтверждённый выбранный employee ID, без приписывания будущего общего HR-учёта. KEEP пространств, снимка имени, статуса, исправления связи и миграции.",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=8",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-8.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "bitrix24-training",
+          "id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://apidocs.bitrix24.ru/api-reference/user/user-get.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Почему интеграции нужен идентификатор сотрудника, а не только его имя",
+        "post_excerpt": "В таблице записан «Алексей», в CRM — «Алексей Петров», в кадровой системе — полное имя с отчеством. Пока данные смотрит человек, различие кажется терпимым. Когда начинается автоматическая передача, оно превраща",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=147",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "008",
+          "_sy3_editorial_at": "1811055600",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "В таблице записан «Алексей», в CRM — «Алексей Петров», в кадровой системе — полное имя с отчеством. Пока данные смотрит человек, различие кажется терпимым. Когда начинается автоматическая передача, оно превраща",
+          "_sy3_label": "Интеграции",
+          "_sy3_related": "14",
+          "_thumbnail_id": "140"
+        },
+        "terms": [
+          {
+            "term_id": 7,
+            "name": "Интеграции",
+            "slug": "integratsii",
+            "term_group": 0,
+            "term_taxonomy_id": 7,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 3,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 140,
+          "alt": "Связанные системы",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-integration.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-8.csv",
+          "file": "wordpress/theme/assets/infographics/article-8.csv",
+          "sha256": "7ef478a3fff946391e8059a29edcf8f205f948c1d8e7e6a6e206e8166bdade00"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-8.svg",
+          "file": "wordpress/theme/assets/infographics/article-8.svg",
+          "sha256": "5127b26d7f814af374845343b813ab0009d8001982c75a505c16352bcb87201d"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1806,
+        "protected_blocks": 3,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11107,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 157,
+      "slug": "oshibki-vneshnego-api",
+      "type": "post",
+      "baseline_hash": "c19805f99c5fc3ba5295f5d7d3b5dc656dedd8544fbd8acb0dd39f2bcf49cc2c",
+      "file": "oshibki-vneshnego-api.html",
+      "candidate_hash": "d30da3fc531d205d4b96bf1a7e5a1d7dfd97158f454ad6cad214792d5a709a20",
+      "visible_chars": 12138,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "KEEP приёма/обещания, классов ошибок, Retry-After, старого остатка и внешнего эффекта. Ссылка GlossCheck сохранена как тематическая, но непроверенные retry-функции проекту не приписаны.",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=18",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-18.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Retry-After",
+            "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Внешний сервис недоступен: как должна вести себя ваша автоматизация",
+        "post_excerpt": "CRM, сервис распознавания или мессенджер может временно не отвечать. Ошибка внешнего API нормальна как техническое событие. Потеря обращения или бесконтрольные повторы — уже проблема устройства вашего процесса.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=157",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "018",
+          "_sy3_editorial_at": "1811314800",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "CRM, сервис распознавания или мессенджер может временно не отвечать. Ошибка внешнего API нормальна как техническое событие. Потеря обращения или бесконтрольные повторы — уже проблема устройства вашего процесса.",
+          "_sy3_label": "Интеграции",
+          "_sy3_related": "16",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 7,
+            "name": "Интеграции",
+            "slug": "integratsii",
+            "term_group": 0,
+            "term_taxonomy_id": 7,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 3,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-18.csv",
+          "file": "wordpress/theme/assets/infographics/article-18.csv",
+          "sha256": "678c6554b1ab368d837c0781a14855d65c03216b75d7ad5ce42498bf96205cb7"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-18.svg",
+          "file": "wordpress/theme/assets/infographics/article-18.svg",
+          "sha256": "a12eb26a7e86a761cd15762be53913cf109190cf8907b82201555ae1deb163c7"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1647,
+        "protected_blocks": 3,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 12138,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 168,
+      "slug": "fayly-dlya-ai-proverka-na-vhode",
+      "type": "post",
+      "baseline_hash": "935310033d317f760decf0788aea3ede8dc3bbcc247b0a6344807194f31b9c22",
+      "file": "fayly-dlya-ai-proverka-na-vhode.html",
+      "candidate_hash": "d6fa1a1f00afeddd876e31e348c1b131c404d7d9d3c657523a2606b0a5fd737f",
+      "visible_chars": 10951,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сохранена базовая связь GlossCheck чат/файлы/OCR; контрольные исключения отделены как методика. KEEP server checks, принадлежности, полноты, prompt injection, версий и lifecycle. Добавлен конкретный контроль столбцов улучшенного приложения и версии входа.",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=28",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-28.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "glosscheck",
+          "id": 16,
+          "url": "https://sy3.ru/cases/glosscheck/",
+          "body_hash": "2fae148aefd14ef278d2aafa3fb847ccf40034148e2fddba5e79f72f31bf4406",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Файл для ИИ: почему проверка загрузки важна раньше качества ответа",
+        "post_excerpt": "Посетитель прикрепляет PDF или фотографию, а команда обсуждает только то, насколько умно отвечает модель. Между тем файл может оказаться слишком большим, повреждённым или не соответствовать заявленному формату.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=168",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "028",
+          "_sy3_editorial_at": "1811574000",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Посетитель прикрепляет PDF или фотографию, а команда обсуждает только то, насколько умно отвечает модель. Между тем файл может оказаться слишком большим, повреждённым или не соответствовать заявленному формату.",
+          "_sy3_label": "ИИ",
+          "_sy3_related": "16",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 8,
+            "name": "ИИ",
+            "slug": "ii",
+            "term_group": 0,
+            "term_taxonomy_id": 8,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 3,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-28.csv",
+          "file": "wordpress/theme/assets/infographics/article-28.csv",
+          "sha256": "2b5bd121c4b6e5ed2f01f773545c243c1604841adffc436c77f2179209ad62c8"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-28.svg",
+          "file": "wordpress/theme/assets/infographics/article-28.svg",
+          "sha256": "b664f7562582bd4f5adc6af1d3ffe2663427f8ef0d80f9786259e46fca7a4553"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1636,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 10951,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 178,
+      "slug": "prototip-dokumentnogo-servisa",
+      "type": "post",
+      "baseline_hash": "f84bad5e42b5d7f419cb337c7d14e2ba75e053e33be0eae1babf0260ff786d8a",
+      "file": "prototip-dokumentnogo-servisa.html",
+      "candidate_hash": "36e6543008ff842e0f198ddf0f30c03ea2449f3a56be48f1257666e8d7d893cf",
+      "visible_chars": 11053,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Непроверенная атрибуция юридической мини-CRM заменена явным методическим экспериментом. KEEP границ local prototype, заданий без подсказки, модели клиента/дела, IIBA и следующей приёмки.",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=38",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-38.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://www.iiba.org/knowledgehub/the-business-analysis-standard/2-understanding-business-analysis/2-2-a-model-for-effective-analysis-baccm/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Как прототип помогает проверить документный сервис до сложной разработки",
+        "post_excerpt": "Команда может долго обсуждать список функций: клиенты, документы, согласования, история, ИИ. Пока не виден путь пользователя, сложно понять, какие из них нужны для первого рабочего сценария.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=178",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "038",
+          "_sy3_editorial_at": "1811833200",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Команда может долго обсуждать список функций: клиенты, документы, согласования, история, ИИ. Пока не виден путь пользователя, сложно понять, какие из них нужны для первого рабочего сценария.",
+          "_sy3_label": "Документы",
+          "_sy3_related": "",
+          "_thumbnail_id": "127"
+        },
+        "terms": [
+          {
+            "term_id": 13,
+            "name": "Документы",
+            "slug": "dokumenty",
+            "term_group": 0,
+            "term_taxonomy_id": 13,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 127,
+          "alt": "Иллюстрация к статье «Как выбрать первый процесс для ИИ-автоматизации»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-launch.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-38.csv",
+          "file": "wordpress/theme/assets/infographics/article-38.csv",
+          "sha256": "b4a26a072b363e3cef040b0e4c734c53f9c8d7660d0e3209a4ea4bf6fb0a57f0"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-38.svg",
+          "file": "wordpress/theme/assets/infographics/article-38.svg",
+          "sha256": "a56bf3773058097467adfa5bba871cea672fe1ef20b20e5161b89f4fbb4d6c03"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1537,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11053,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 189,
+      "slug": "perehod-ot-prototipa-k-kalendaryu",
+      "type": "post",
+      "baseline_hash": "7cc93371ac322333523a805fe1a35d8037682e217d1696c3394831af0f0c411a",
+      "file": "perehod-ot-prototipa-k-kalendaryu.html",
+      "candidate_hash": "17e36b7631ccd78e47cd395006f79bd79b0c07fe20ab155bd4f9e99c4762db72",
+      "visible_chars": 11925,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "KEEP прототипа/пилота/эксплуатации, реестра, прав, старых входов и ASVS-границы. Убрана неоднозначная атрибуция календарного опыта, этапы явно проектируемые.",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=48",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-48.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://asvs.owasp.org/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Как перейти от отдельного календарного прототипа к модулю рабочей системы",
+        "post_excerpt": "Прототип помог проверить механику, но теперь нужен общий доступ, связь с CRM и единые правила. Переносить его как есть рискованно: решения, удобные для демонстрации, не всегда подходят для рабочей эксплуатации.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:52:17",
+        "post_modified_gmt": "2026-10-22 20:52:17",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=189",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "048",
+          "_sy3_editorial_at": "1812092400",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Прототип помог проверить механику, но теперь нужен общий доступ, связь с CRM и единые правила. Переносить его как есть рискованно: решения, удобные для демонстрации, не всегда подходят для рабочей эксплуатации.",
+          "_sy3_label": "Бронирование",
+          "_sy3_related": "",
+          "_thumbnail_id": "126"
+        },
+        "terms": [
+          {
+            "term_id": 14,
+            "name": "Бронирование",
+            "slug": "bronirovanie",
+            "term_group": 0,
+            "term_taxonomy_id": 14,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 126,
+          "alt": "Иллюстрация к статье «Что выяснить до внедрения Битрикс24»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-planning.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-48.csv",
+          "file": "wordpress/theme/assets/infographics/article-48.csv",
+          "sha256": "a6153c76e9c2c14fc6c89dbf654a9d73717407618dea5bb8b8481bcd9d492a52"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-48.svg",
+          "file": "wordpress/theme/assets/infographics/article-48.svg",
+          "sha256": "431352800faa16032a4c74dd2bf668a05ca9f15c70910142d3674902156cf344"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1564,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11925,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 199,
+      "slug": "filialy-v-odnoy-crm",
+      "type": "post",
+      "baseline_hash": "afc966434c3dd11df7e81ab68d82388b81923da09188fe562fe8d46f2cc6e32a",
+      "file": "filialy-v-odnoy-crm.html",
+      "candidate_hash": "a4dbe45dd51129f7c1da367c4f277cf18212cf3926258104c2a9146a9514804c",
+      "visible_chars": 12329,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрано неподтверждённое описание собственной CRM. KEEP company/branch/role, общих полей, производных путей, временных назначений и ограничений экспорта.",
+      "source_files": [
+        "wordpress/editorial/articles/06-education.md#id=58",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-58.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Несколько филиалов в одной CRM: общий обзор без случайного доступа к чужим данным",
+        "post_excerpt": "Владелец хочет видеть всю сеть, администратор работает в своём филиале, отдельные сотрудники помогают сразу нескольким точкам. Простое поле «филиал» в карточке не решает вопрос полномочий.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:23",
+        "post_modified_gmt": "2026-10-22 21:30:23",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=199",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "058",
+          "_sy3_editorial_at": "1812351600",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Владелец хочет видеть всю сеть, администратор работает в своём филиале, отдельные сотрудники помогают сразу нескольким точкам. Простое поле «филиал» в карточке не решает вопрос полномочий.",
+          "_sy3_label": "CRM",
+          "_sy3_related": "",
+          "_thumbnail_id": "144"
+        },
+        "terms": [
+          {
+            "term_id": 6,
+            "name": "CRM",
+            "slug": "crm",
+            "term_group": 0,
+            "term_taxonomy_id": 6,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 144,
+          "alt": "Связь участников процесса",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-team.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-58.csv",
+          "file": "wordpress/theme/assets/infographics/article-58.csv",
+          "sha256": "b1350b0b3716c7bee7ac6326e61b98eed2e2d3d629f65158b66adc918ca2ea17"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-58.svg",
+          "file": "wordpress/theme/assets/infographics/article-58.svg",
+          "sha256": "7b99f790fa50576f4319437bad4d98f46b1532c58ce763fe5a5d899abeeb642e"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1565,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 12329,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 209,
+      "slug": "shablon-stati-v-deystvuyushchey-cms",
+      "type": "post",
+      "baseline_hash": "5be5882549299c9e2aab45b11e648e9075249350f771360d1e2b16999fe35eba",
+      "file": "shablon-stati-v-deystvuyushchey-cms.html",
+      "candidate_hash": "14d0368b860f426a278252c07f521cf60b0851b491654e7b180ed157c23862e9",
+      "visible_chars": 12112,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сохранён подтверждённый Asia Shadrin: одна опубликованная адаптивная MODX-статья и две формы. KEEP модели, nativeблоков, типографики, второй проверки, CMS и архивов; будущий блог не объявлен внедрённым.",
+      "source_files": [
+        "wordpress/editorial/articles/07-web.md#id=68",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-68.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "asia-shadrin",
+          "id": 58,
+          "url": "https://sy3.ru/cases/asia-shadrin/",
+          "body_hash": "8b1bb693c3c9371c2bac57c9f0b0ce1a20c78b8a58e3f384c2318630e6809088",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.wordpress.org/themes/templates/introduction-to-templates/",
+            "https://docs.modx.com/current/en/building-sites/resources"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Одна статья может стать основой блога, если правильно спроектировать шаблон",
+        "post_excerpt": "Бизнес согласовал макет первой статьи и хочет опубликовать её в действующей CMS. Если просто сверстать одну страницу, следующий материал снова потребует разработчика. Нужно одновременно решить задачу публикации",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:23",
+        "post_modified_gmt": "2026-10-22 21:30:23",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=209",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "068",
+          "_sy3_editorial_at": "1812610800",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Бизнес согласовал макет первой статьи и хочет опубликовать её в действующей CMS. Если просто сверстать одну страницу, следующий материал снова потребует разработчика. Нужно одновременно решить задачу публикации",
+          "_sy3_label": "Сайты",
+          "_sy3_related": "242,58",
+          "_thumbnail_id": "132"
+        },
+        "terms": [
+          {
+            "term_id": 15,
+            "name": "Сайты",
+            "slug": "sayty",
+            "term_group": 0,
+            "term_taxonomy_id": 15,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 132,
+          "alt": "Иллюстрация к статье «ИИ для подготовки контента: процесс с редактором»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-editor.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-68.csv",
+          "file": "wordpress/theme/assets/infographics/article-68.csv",
+          "sha256": "c13bf8d4b395df21509921aa756c37a4a367265aa494616ea27b4642162a61ec"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-68.svg",
+          "file": "wordpress/theme/assets/infographics/article-68.svg",
+          "sha256": "e7683f0b221a445f72f5433a4c2fa02cb942392a41548bb4693c13242befaf99"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1875,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 12112,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 219,
+      "slug": "predprosmotr-i-publikaciya-raznye-etapy",
+      "type": "post",
+      "baseline_hash": "383d608383f931d8292a3064fe51cf3c23fdc9c3718b558ba169df1893d7b6bf",
+      "file": "predprosmotr-i-publikaciya-raznye-etapy.html",
+      "candidate_hash": "b55472b18ae3846141c92be635a20614ff1240cbe81121763e0e8c4ad9d70b3e",
+      "visible_chars": 12033,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрано неподтверждённое описание собственной системы доставки. KEEP версии/состава, freshданных, кэша, прав, live-boundary и соразмерной проверки без повторных ритуалов.",
+      "source_files": [
+        "wordpress/editorial/articles/08-operations.md#id=78",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-78.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Предпросмотр сайта и публикация: как избежать сюрпризов на основном домене",
+        "post_excerpt": "На тестовом адресе всё выглядит правильно. После публикации пропадают изображения, формы используют старую настройку, а редактор видит другое содержимое. Проверка макета прошла, но условия рабочего сайта в ней ",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=219",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "078",
+          "_sy3_editorial_at": "1812870000",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "На тестовом адресе всё выглядит правильно. После публикации пропадают изображения, формы используют старую настройку, а редактор видит другое содержимое. Проверка макета прошла, но условия рабочего сайта в ней",
+          "_sy3_label": "Процессы",
+          "_sy3_related": "",
+          "_thumbnail_id": "127"
+        },
+        "terms": [
+          {
+            "term_id": 9,
+            "name": "Процессы",
+            "slug": "protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 9,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 127,
+          "alt": "Иллюстрация к статье «Как выбрать первый процесс для ИИ-автоматизации»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-launch.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-78.csv",
+          "file": "wordpress/theme/assets/infographics/article-78.csv",
+          "sha256": "bc49400a3ad329ef262a9c16eaab1f993ea047ced0ad804b490104db6403cb7a"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-78.svg",
+          "file": "wordpress/theme/assets/infographics/article-78.svg",
+          "sha256": "6e6c71a6ac64fe81ef8fa7bd336595edf0bf6b019c2b6c3d6bcc0e75daa19212"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1796,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 12033,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 229,
+      "slug": "zakrytie-perioda-v-avtomatizatsii",
+      "type": "post",
+      "baseline_hash": "597c52b63ca90a62b9c100994f97f25b4b1801628ced5a1103cc97fea9d1709a",
+      "file": "zakrytie-perioda-v-avtomatizatsii.html",
+      "candidate_hash": "84dc5312c35a71acada762ff7740535cc87b1e527d1078288d7273ac9fbc52f4",
+      "visible_chars": 11959,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "KEEP точного смысла closed, version/input/dependencies, всех путей записи, поздних событий и экспорта. Учебная инженерная модель без финансовых/правовых рекомендаций.",
+      "source_files": [
+        "wordpress/editorial/articles/09-finance.md#id=88",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-88.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-accounting-periods-and-fiscal-years"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Закрытие периода: как остановить незаметное изменение уже согласованных данных",
+        "post_excerpt": "Отчёт согласовали в понедельник. Во вторник обновился источник, в среду сотрудник исправил запись, а в пятницу итоговая сумма стала другой. Непонятно, какая версия считалась окончательной. Кнопка выгрузки не ре",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=229",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "088",
+          "_sy3_editorial_at": "1813129200",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Отчёт согласовали в понедельник. Во вторник обновился источник, в среду сотрудник исправил запись, а в пятницу итоговая сумма стала другой. Непонятно, какая версия считалась окончательной. Кнопка выгрузки не ре",
+          "_sy3_label": "Управление",
+          "_sy3_related": "",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 17,
+            "name": "Управление",
+            "slug": "upravlenie",
+            "term_group": 0,
+            "term_taxonomy_id": 17,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-88.csv",
+          "file": "wordpress/theme/assets/infographics/article-88.csv",
+          "sha256": "7829eeb88b4535d1fa6e1efe07227039a83f297dd4b2999a2e8546d5634c577a"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-88.svg",
+          "file": "wordpress/theme/assets/infographics/article-88.svg",
+          "sha256": "66526e0bcd2d6a01279b5686ede7d4beab20e29753fbf2afb92113ebcacf5cc5"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1886,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11959,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 239,
+      "slug": "redaktsionnyy-konveyer-s-ii",
+      "type": "post",
+      "baseline_hash": "d190947de05ca1a807bc7490d32a5f0fc1a0cb82ed16c49e05a635f03afa0cba",
+      "file": "redaktsionnyy-konveyer-s-ii.html",
+      "candidate_hash": "358e0a2a305fc2a2d3224dbe15cc60dc78b1db4482e00f6d1404e192065989ca",
+      "visible_chars": 12279,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "KEEP редакционного паспорта, source/claim, версии медиа, индивидуального review, semanticvalue и CMS-repeat. Неподтверждённая собственная платформа не заявлена; генератор не подменяет принятие.",
+      "source_files": [
+        "wordpress/editorial/articles/10-strategy.md#id=98",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-98.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Редакционный конвейер с ИИ: почему генератор текста — только один этап",
+        "post_excerpt": "Сгенерировать статью легко. Сложнее выбрать полезную тему, проверить утверждения, подготовить изображения и убедиться, что на сайте опубликована нужная версия. Если связать всё одной командой без промежуточного",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=239",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "098",
+          "_sy3_editorial_at": "1813388400",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Сгенерировать статью легко. Сложнее выбрать полезную тему, проверить утверждения, подготовить изображения и убедиться, что на сайте опубликована нужная версия. Если связать всё одной командой без промежуточного",
+          "_sy3_label": "ИИ",
+          "_sy3_related": "",
+          "_thumbnail_id": "132"
+        },
+        "terms": [
+          {
+            "term_id": 8,
+            "name": "ИИ",
+            "slug": "ii",
+            "term_group": 0,
+            "term_taxonomy_id": 8,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 3,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 132,
+          "alt": "Иллюстрация к статье «ИИ для подготовки контента: процесс с редактором»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-editor.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-98.csv",
+          "file": "wordpress/theme/assets/infographics/article-98.csv",
+          "sha256": "aa1c896d30b00f4052f6b91b2357d7a47ec746ada582f231f07bc0c2e15f35d6"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-98.svg",
+          "file": "wordpress/theme/assets/infographics/article-98.svg",
+          "sha256": "cad49b44d3daf99c3e416be877546c1e89c491f1e49b5f888d105c6c3b0441b9"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1953,
+        "protected_blocks": 4,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 12279,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 148,
+      "slug": "prava-menedzhera-priemka-crm",
+      "type": "post",
+      "baseline_hash": "a9600afacba79a6b1d8faf66a4e7520ac6e16b779a5e9c508af89efae46036f1",
+      "file": "prava-menedzhera-priemka-crm.html",
+      "candidate_hash": "f54e4be1c92468f9d1cbbdda0d034f20a9c8f9599faa5c479d824291c5940fec",
+      "visible_chars": 11430,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрано неподтверждённое описание своей CRM-платформы. KEEP фактических источников прав, связанных дел, API, временной передачи и server check. Ссылка дверного кейса не выдаётся за доказательство всех отрицательных тестов.",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=9",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-9.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://helpdesk.bitrix24.ru/open/23240636/",
+            "https://helpdesk.bitrix24.ru/open/27844326/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Проверка CRM под администратором не показывает, сможет ли работать менеджер",
+        "post_excerpt": "Администратор открывает сделку, видит переписку и формирует документ. На демонстрации всё работает. После запуска обычный сотрудник получает отказ в доступе или пустой список. Функция готова, но рабочий сценари",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=148",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "009",
+          "_sy3_editorial_at": "1813647600",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Администратор открывает сделку, видит переписку и формирует документ. На демонстрации всё работает. После запуска обычный сотрудник получает отказ в доступе или пустой список. Функция готова, но рабочий сценари",
+          "_sy3_label": "CRM",
+          "_sy3_related": "12",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 6,
+            "name": "CRM",
+            "slug": "crm",
+            "term_group": 0,
+            "term_taxonomy_id": 6,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-9.csv",
+          "file": "wordpress/theme/assets/infographics/article-9.csv",
+          "sha256": "0383f3a19c3010982f77ff1b4dfd7c9abce7708203e3ede0fda958f318252365"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-9.svg",
+          "file": "wordpress/theme/assets/infographics/article-9.svg",
+          "sha256": "f69857d83f0d003d9bfebaf053528846bcc5544d1b17c3e691f011878f33e635"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1713,
+        "protected_blocks": 3,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11430,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 158,
+      "slug": "izmenenie-formata-integracii",
+      "type": "post",
+      "baseline_hash": "7d247ec15d2cbfb6d8edd06d09fa99d467f9be729ec9b3df1b4dcd4f0b274bc4",
+      "file": "izmenenie-formata-integracii.html",
+      "candidate_hash": "53cde4d03964c8ae53e9a25d90adcdfd4979fa4b5be2fcc9301dcaa60a14bf4e",
+      "visible_chars": 11066,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрано неподтверждённое описание своей модульной CRM. KEEP структуры/семантики/эффекта, старых потребителей, unknownvalues, версий и окончания адаптера.",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=19",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-19.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://google.aip.dev/180",
+            "https://spec.openapis.org/oas/latest.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Поменяли поле в одной системе — сломали процесс в другой: как управлять контрактом интеграции",
+        "post_excerpt": "Администратор переименовал статус, добавил обязательное поле или заменил справочник. Внутри одного сервиса изменение выглядит небольшим. Для другой системы это может означать, что привычная операция больше не и",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=158",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "019",
+          "_sy3_editorial_at": "1813906800",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Администратор переименовал статус, добавил обязательное поле или заменил справочник. Внутри одного сервиса изменение выглядит небольшим. Для другой системы это может означать, что привычная операция больше не и",
+          "_sy3_label": "Интеграции",
+          "_sy3_related": "",
+          "_thumbnail_id": "126"
+        },
+        "terms": [
+          {
+            "term_id": 7,
+            "name": "Интеграции",
+            "slug": "integratsii",
+            "term_group": 0,
+            "term_taxonomy_id": 7,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 3,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 126,
+          "alt": "Иллюстрация к статье «Что выяснить до внедрения Битрикс24»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-planning.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-19.csv",
+          "file": "wordpress/theme/assets/infographics/article-19.csv",
+          "sha256": "61beae46064d87aba14a272cdf643ed08ee0800ac64da48036b803cd86f5a339"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-19.svg",
+          "file": "wordpress/theme/assets/infographics/article-19.svg",
+          "sha256": "7f16b58e271d811cc27a1a4cf24e3e31925728a2a74ef02e4829df8c7bac81b3"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1679,
+        "protected_blocks": 3,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 11066,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 169,
+      "slug": "sravnenie-ai-video-modeley",
+      "type": "post",
+      "baseline_hash": "6e8c3cfcc5a4f48c28ff50a1fbb69941ea1d2ffc1b32b52a1637b03d1b96acf1",
+      "file": "sravnenie-ai-video-modeley.html",
+      "candidate_hash": "446722bc433de5421e2b697851ef2fe320ae8fcfcef290e5bba8e45e71ba78b5",
+      "visible_chars": 10726,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Непроверенная атрибуция проекта сравнения заменена методикой. KEEP общего брифа, всех исходов, обязательной пригодности, полного расхода и вероятностных ограничений; реклама/эффект не выдуманы. Добавлена конкретная карточка дефекта с временем и границей монтажного исправления.",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=29",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-29.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://cloud.google.com/vertex-ai/generative-ai/docs/video/video-gen-prompt-guide"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Как сравнивать ИИ-видео для бизнеса: один референс, одинаковые критерии",
+        "post_excerpt": "Два эффектных ролика не помогают выбрать инструмент, если у них разные исходники, длительность и задача. Для бизнес-решения нужен воспроизводимый способ сравнения, а не конкурс красивых примеров.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:15",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=169",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "029",
+          "_sy3_editorial_at": "1814166000",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Два эффектных ролика не помогают выбрать инструмент, если у них разные исходники, длительность и задача. Для бизнес-решения нужен воспроизводимый способ сравнения, а не конкурс красивых примеров.",
+          "_sy3_label": "ИИ",
+          "_sy3_related": "",
+          "_thumbnail_id": "127"
+        },
+        "terms": [
+          {
+            "term_id": 8,
+            "name": "ИИ",
+            "slug": "ii",
+            "term_group": 0,
+            "term_taxonomy_id": 8,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 3,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 127,
+          "alt": "Иллюстрация к статье «Как выбрать первый процесс для ИИ-автоматизации»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-launch.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-29.csv",
+          "file": "wordpress/theme/assets/infographics/article-29.csv",
+          "sha256": "4846d3e7e4f74504e084a319bf469d2558c2952bd4c40a96d7b33ea77b6a657d"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-29.svg",
+          "file": "wordpress/theme/assets/infographics/article-29.svg",
+          "sha256": "9000267fe576f435c8543f3536ae9be61241feeb4496ad35da7d5182362b2150"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1638,
+        "protected_blocks": 5,
+        "carried_prefix_artifacts": 0
+      },
+      "quality": {
+        "characters": 10726,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    }
+  ]
+}

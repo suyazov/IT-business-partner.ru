@@ -1,0 +1,330 @@
+[
+  {
+    "id": 147,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/01-crm.md#id=8",
+        "paragraph_blocks": 9,
+        "unmatched": 0,
+        "sha256": "78811f19857c811f0dda70fdfa213b0003473432b803b98d85e51d74e11eabe7"
+      },
+      {
+        "file": "wordpress/longform/articles/article-8.md",
+        "paragraph_blocks": 26,
+        "unmatched": 0,
+        "sha256": "ddbc33a83c679962db3ba0fcd6d3a169a42956c3127d8d44fcd668cbc4982039"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/01-crm.md#id=9",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "015f025e6a4579c7529aaa093d81da681b1d2205cd86e227e43e61e559c7261f"
+      },
+      {
+        "file": "wordpress/longform/articles/article-9.md",
+        "paragraph_blocks": 27,
+        "unmatched": 0,
+        "sha256": "49bfd446db8829e3c8b8003c7fea72f5cb8f4205d5049eee438d5bebf44d0ebe"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/02-integrations.md#id=18",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "49fde9a0694438c328ab3061d5175887a4bf668e4b64389d45da673d1fc9d0cb"
+      },
+      {
+        "file": "wordpress/longform/articles/article-18.md",
+        "paragraph_blocks": 29,
+        "unmatched": 0,
+        "sha256": "ba7122c0e9a30081f6e8edec6586fece648096e7928618ba3fc437245ef5408d"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/02-integrations.md#id=19",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "c1a6656aa7122383d79a022b0e97e8fa46ec1dae9471337102f71f9bca75028b"
+      },
+      {
+        "file": "wordpress/longform/articles/article-19.md",
+        "paragraph_blocks": 28,
+        "unmatched": 0,
+        "sha256": "bc444b52c45f0e822c95340d65858bb3e58a28f4a846d7b770de8a8d78c73321"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/03-ai.md#id=28",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "0fe9f28a6b4a9dbd13ad7f5e9c14a74bbafbb260382f0df1cc684cd3c1b64471"
+      },
+      {
+        "file": "wordpress/longform/articles/article-28.md",
+        "paragraph_blocks": 23,
+        "unmatched": 0,
+        "sha256": "b2c35d28645297f3dfccb8016613a5e6215d5e619e6c07362e53cd9ae6eb79fd"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/03-ai.md#id=29",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "31349cdcb6c686769291704cc394cd85e79835c38160090ecb9de2719982e488"
+      },
+      {
+        "file": "wordpress/longform/articles/article-29.md",
+        "paragraph_blocks": 24,
+        "unmatched": 0,
+        "sha256": "606c4c9975498ab9a7de6c5c2dfeae201563b6948bd4a6bd1f039f20bfb98dfd"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/04-documents.md#id=38",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "ab5de6389a081fdfe7b64b11a911b9fb2b3d5fda04691a794b6869c03dbf0920"
+      },
+      {
+        "file": "wordpress/longform/articles/article-38.md",
+        "paragraph_blocks": 24,
+        "unmatched": 0,
+        "sha256": "5666f4ce1af77dee5643d68e0771c8ee5c89a408c5d2a60e14e666db4e5daca0"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/05-booking.md#id=48",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "8e8ff1ab188d6a4bb7e720a5aa396d8825a075dc8eb71642204100eb4f267e43"
+      },
+      {
+        "file": "wordpress/longform/articles/article-48.md",
+        "paragraph_blocks": 30,
+        "unmatched": 0,
+        "sha256": "c4c5503b822e89b0f014cef61e4632c599c4f348a88382d034de0211910e86b3"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/06-education.md#id=57",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "70b8c5f9fe0d875694865f9e6fb63d642c103637f61c31bcedefc13af08675d4"
+      },
+      {
+        "file": "wordpress/longform/articles/article-57.md",
+        "paragraph_blocks": 36,
+        "unmatched": 0,
+        "sha256": "6fd8132df158744322052dd301e74235025b61c4460f486ca96cc0d1fa3ac08e"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/06-education.md#id=58",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "66c297d387bcafcb2773828b687513d82ea6efbcd14ccaab9261efc7e952b052"
+      },
+      {
+        "file": "wordpress/longform/articles/article-58.md",
+        "paragraph_blocks": 33,
+        "unmatched": 0,
+        "sha256": "9bbeaa1d7ef6d9814d3bc921900cb477428a0450986f6f5fe834ce6f30812b78"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/07-web.md#id=67",
+        "paragraph_blocks": 8,
+        "unmatched": 0,
+        "sha256": "e539fb2c3cadf6930b08a3152d0eefb2d0bd9527c0f056d4267609d6f1df1d2a"
+      },
+      {
+        "file": "wordpress/longform/articles/article-67.md",
+        "paragraph_blocks": 34,
+        "unmatched": 0,
+        "sha256": "9eac6145e01454f6a7b8fddb08798e39e410166839b3abc751cd48f58ceb5c00"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/07-web.md#id=68",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "d6c1776a4c9cf943c514fe0a0fac9ac995cf832a61c5050a0decbef143da9b75"
+      },
+      {
+        "file": "wordpress/longform/articles/article-68.md",
+        "paragraph_blocks": 32,
+        "unmatched": 0,
+        "sha256": "21830ea1c5876ba0b25bc0ab16f7e3b4c32722590745b78c407b00e6475bd455"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/08-operations.md#id=77",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "a48bb8bcf04096cb3aa1f7c35b3b830edcdef4d269c66a853389cd027379b5f7"
+      },
+      {
+        "file": "wordpress/longform/articles/article-77.md",
+        "paragraph_blocks": 32,
+        "unmatched": 0,
+        "sha256": "8c91f6bb1a60f50aa56d281d534d2a6fc8c6d1a25c26579889a848186abacb5e"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/08-operations.md#id=78",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "7701a7a651875d0ac74873a1dfdbdb243676c00a2b9b91ff8e818622e8d52cef"
+      },
+      {
+        "file": "wordpress/longform/articles/article-78.md",
+        "paragraph_blocks": 34,
+        "unmatched": 0,
+        "sha256": "7236d0e667180b4d18197ea5e8cd555f051dacd930d4a0d5b88dfd90d4311cb7"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/09-finance.md#id=87",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "17f50b2f032cc573a8848a1789a9753f76c6ceca4c919b245dd1bb11d97810d2"
+      },
+      {
+        "file": "wordpress/longform/articles/article-87.md",
+        "paragraph_blocks": 33,
+        "unmatched": 0,
+        "sha256": "4d2e3a4532f4dec35cd33c9ad285583f3b2c1cd3a1af9406cf59fc5879e6e602"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/09-finance.md#id=88",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "6faa4f965a97d3032f34e555193fc629df635a2884a71c6e49c31ae69cea5ef8"
+      },
+      {
+        "file": "wordpress/longform/articles/article-88.md",
+        "paragraph_blocks": 33,
+        "unmatched": 0,
+        "sha256": "a87278f38ce1cfb7631dfa99b5b70d4a3828b077ffad099ec32d85717a224be4"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/10-strategy.md#id=97",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "ae6f66e907f3a29596be2283f6c022b6d4c9dadb536916aeef06716ddcdde310"
+      },
+      {
+        "file": "wordpress/longform/articles/article-97.md",
+        "paragraph_blocks": 29,
+        "unmatched": 0,
+        "sha256": "5fda6c3a145879bfb96ec01b24142ed263f6f6964934faf54c6d52c4187a9381"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "sources": [
+      {
+        "file": "wordpress/editorial/articles/10-strategy.md#id=98",
+        "paragraph_blocks": 7,
+        "unmatched": 0,
+        "sha256": "707c17f7bb7f3358e36de7d3098688023fcfb1ed09605c87b78565a262ddfac7"
+      },
+      {
+        "file": "wordpress/longform/articles/article-98.md",
+        "paragraph_blocks": 32,
+        "unmatched": 0,
+        "sha256": "90f675efc666f14fad98632a3ab23731a9fe785d695d20eb2128ff821cf0e981"
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "sources": [
+      {
+        "file": "wordpress/beget-content/articles/300-beget-sla-granicy-otvetstvennosti.md",
+        "paragraph_blocks": 34,
+        "unmatched": 0,
+        "sha256": "16da6b04bf91304d7f95c75004ef42e12d95dd3350fd919604b8defc31ba02d4"
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "sources": [
+      {
+        "file": "wordpress/beget-content/articles/301-beget-ekspluatacionnyy-pasport.md",
+        "paragraph_blocks": 37,
+        "unmatched": 0,
+        "sha256": "dce8be908dac3b190702e9c56f171be5d85963d1d92f7de69b3bab171f8c4b6f"
+      }
+    ]
+  }
+]
