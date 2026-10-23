@@ -23,13 +23,23 @@ add_filter('sanitize_file_name', function ($name) {
     return get_option('sy3_site_mode') === 'expertise' ? sy3_latin_text($name) : $name;
 });
 
+function sy3_valid_legacy_term_route($entry): bool {
+    if (!is_array($entry) || count($entry) !== 5) return false;
+    foreach (['path','taxonomy','old','new'] as $key) if (!isset($entry[$key]) || !is_string($entry[$key]) || $entry[$key] === '') return false;
+    if (!isset($entry['term_id']) || !is_int($entry['term_id']) || $entry['term_id'] < 1) return false;
+    if (!in_array($entry['taxonomy'], ['category','post_tag','sy3_case_topic'], true)) return false;
+    if (!preg_match('#^/(?!/)[^\x00-\x20?\#\\\\]*$#uD', $entry['path']) || !preg_match('/^[a-z0-9_-]+$/D', $entry['new'])) return false;
+    $base = rtrim($entry['path'], '/');
+    return substr($base, strrpos($base, '/') + 1) === rawurldecode($entry['old']);
+}
+
 add_action('template_redirect', function () {
     if (get_option('sy3_site_mode') !== 'expertise' || is_admin() || !in_array($_SERVER['REQUEST_METHOD'] ?? '', ['GET','HEAD'], true)) return;
     $path = rawurldecode((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI'] ?? ''), PHP_URL_PATH));
     $map = get_option('sy3_legacy_term_urls', []);
     if (!is_array($map)) return;
     foreach ($map as $entry) {
-        if (!is_array($entry) || !isset($entry['path'], $entry['term_id'], $entry['taxonomy']) || !in_array($entry['taxonomy'], ['category','post_tag','sy3_case_topic'], true)) continue;
+        if (!sy3_valid_legacy_term_route($entry)) continue;
         $base = rtrim($entry['path'], '/');
         if (rtrim($path, '/') === $base) $suffix = '';
         elseif (str_starts_with($path, $base . '/')) {

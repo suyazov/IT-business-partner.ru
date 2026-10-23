@@ -17,6 +17,13 @@ try {
     $prior = $wpdb->get_var($wpdb->prepare("SELECT option_value FROM {$wpdb->options} WHERE option_name=%s", $option));
     $map = $prior === null ? [] : maybe_unserialize($prior);
     if (!is_array($map)) throw new RuntimeException('Unknown redirect map preserved.');
+    $paths = [];
+    foreach ($map as $entry) {
+        if (!sy3_valid_legacy_term_route($entry) || isset($paths[rtrim($entry['path'], '/')])) throw new RuntimeException('Invalid or duplicate legacy route preserved.');
+        $target = get_term($entry['term_id'], $entry['taxonomy']);
+        if (!$target || is_wp_error($target)) throw new RuntimeException('Legacy route target missing.');
+        $paths[rtrim($entry['path'], '/')] = true;
+    }
     $terms = get_terms(['taxonomy' => ['category','post_tag','sy3_case_topic'], 'hide_empty' => false]);
     if (is_wp_error($terms)) throw new RuntimeException('Cannot read taxonomy.');
     $plan = []; $claimed = [];
@@ -32,6 +39,8 @@ try {
         $old_url = get_term_link($term);
         if (is_wp_error($old_url)) throw new RuntimeException('Cannot derive legacy URL.');
         $entry = ['term_id' => (int) $term->term_id, 'taxonomy' => $term->taxonomy, 'old' => $term->slug, 'new' => $new, 'path' => rawurldecode((string) wp_parse_url($old_url, PHP_URL_PATH))];
+        if (!sy3_valid_legacy_term_route($entry) || isset($paths[rtrim($entry['path'], '/')])) throw new RuntimeException('Invalid or conflicting legacy route.');
+        $paths[rtrim($entry['path'], '/')] = true;
         $plan[] = $entry;
     }
     if (count(array_unique(array_column($plan, 'term_id'))) !== count($plan)) throw new RuntimeException('Shared term identity needs separate handling.');
