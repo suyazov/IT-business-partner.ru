@@ -7,12 +7,12 @@ $private = '/root/preview/sy3-wordpress-20261022/private/editorial-refactor-2026
 $manifest = json_decode(file_get_contents(dirname(__DIR__) . '/content/case-tags.json'), true, 512, JSON_THROW_ON_ERROR);
 $taxonomy = 'sy3_case_tag';
 if ($manifest['taxonomy'] !== $taxonomy || count($manifest['cases']) !== 27 || count($manifest['terms']) !== 26) throw new RuntimeException('Unexpected manifest.');
-$expected = [];
+$expected = []; $caseSlugs = [];
 foreach ($manifest['terms'] as $slug => $name) if (!preg_match('/^[a-z0-9-]+$/D', $slug) || !is_string($name) || $name === '') throw new RuntimeException('Invalid tag.');
 foreach ($manifest['cases'] as $slug => $tags) {
     $post = get_page_by_path($slug, OBJECT, 'sy3_case');
     if (!$post || $post->post_status !== 'publish' || !$tags || array_diff($tags, array_keys($manifest['terms'])) || count(array_unique($tags)) !== count($tags)) throw new RuntimeException('Invalid case mapping.');
-    sort($tags); $expected[(int) $post->ID] = $tags;
+    sort($tags); $expected[(int) $post->ID] = $tags; $caseSlugs[(int) $post->ID] = $slug;
 }
 ksort($expected);
 $state = static function () use ($wpdb, $taxonomy): array {
@@ -68,13 +68,18 @@ $audit = static function () use ($wpdb, $taxonomy, $oldTermIds): array {
 };
 $before = $audit(); $tx = false; $committed = false; $createdTerms = [];
 $receipt = ['status' => 'PREFLIGHT_PASS', 'head' => $head, 'cases' => count($expected), 'terms' => count($plannedNames), 'protected_before' => $before, 'backups_created' => false];
-$save = static function () use ($private, &$receipt): void {
-    $p = $private . 'case-tags-apply.json'; if (file_put_contents($p, wp_json_encode($receipt, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)) === false || !chmod($p, 0600)) throw new RuntimeException('Receipt write failed.');
+$receiptPath = $private . 'case-tags-apply.json';
+if (file_exists($receiptPath)) $receiptPath = $private . 'case-tags-apply-' . gmdate('YmdHis') . '-' . getmypid() . '.json';
+$save = static function () use ($receiptPath, &$receipt): void {
+    if (file_put_contents($receiptPath, wp_json_encode($receipt, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)) === false || !chmod($receiptPath, 0600)) throw new RuntimeException('Receipt write failed.');
 };
 $save();
 try {
     if ($wpdb->query('START TRANSACTION') === false) throw new RuntimeException('Cannot start transaction.'); $tx = true;
-    if ($wpdb->get_col("SELECT ID FROM {$wpdb->posts} WHERE ID IN (" . implode(',', array_keys($expected)) . ') ORDER BY ID FOR UPDATE') === null || $wpdb->last_error || $state() !== $initial || $audit() !== $before) throw new RuntimeException('Concurrent change preserved.');
+    $locked = $wpdb->get_results("SELECT ID,post_name,post_type,post_status FROM {$wpdb->posts} WHERE ID IN (" . implode(',', array_keys($expected)) . ') ORDER BY ID FOR UPDATE', ARRAY_A);
+    if ($wpdb->last_error || !is_array($locked) || array_map('intval', array_column($locked, 'ID')) !== array_keys($expected)) throw new RuntimeException('Case set changed; preserved.');
+    foreach ($locked as $post) if ($post['post_name'] !== $caseSlugs[(int) $post['ID']] || $post['post_type'] !== 'sy3_case' || $post['post_status'] !== 'publish') throw new RuntimeException('Case identity changed; preserved.');
+    if ($state() !== $initial || $audit() !== $before) throw new RuntimeException('Concurrent change preserved.');
     if (!$already) {
         $ids = [];
         foreach ($manifest['terms'] as $slug => $name) {
@@ -83,7 +88,7 @@ try {
             $ids[$slug] = (int) $term['term_id'];
             $createdTerms[] = $ids[$slug];
         }
-        foreach ($expected as $id => $tags) if (is_wp_error(wp_set_object_terms($id, array_map(static fn($s) => $ids[$s], $tags), $taxonomy, false))) throw new RuntimeException('Cannot assign reviewed tags.');
+        foreach ($expected as $id => $tags) if (is_wp_error(wp_set_object_terms($id, array_map(static fn($s) => $ids[$s], $tags), $taxonomy, true))) throw new RuntimeException('Cannot assign reviewed tags.');
     }
     $after = $state(); $links = [];
     foreach ($after['links'] as $link) $links[(int) $link['object_id']][] = $link['slug']; ksort($links);
