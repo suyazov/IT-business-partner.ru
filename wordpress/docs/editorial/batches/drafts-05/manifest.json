@@ -1,0 +1,454 @@
+{
+  "candidates": [
+    {
+      "id": 141,
+      "slug": "pisma-s-sayta-v-crm",
+      "type": "post",
+      "baseline_hash": "4a017f6ea2d88adbf4284597256b852704300551ba943c475b97afa49ea1b2d5",
+      "file": "pisma-s-sayta-v-crm.html",
+      "candidate_hash": "efe865c796b0213d19a382d1ea96cc6c8a3c7632bd35cbeee61ad2019e294597",
+      "visible_chars": 11502,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=3",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-3.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан source longform3 и все runtimeдополнения; исходные таблица/схема/источники/кейсы сохранены.",
+        "Битрикс24FAQпочтыCRM открыт23.10.2026: связьписьма/объекта/прав различается; новыхуниверсальныхнастроек не обещано.",
+        "cases.json matklass подтверждает12тестовыхсделок иdesktop/mobile проверки; это не результат привлечения12клиентов.",
+        "Удалены два ранних пересказа идентификаторов/приёмки, добавлена предметная граница проверкиCRM и рабочего доступа."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 273,
+      "slug": "www-bez-www-osnovnoy-domen",
+      "type": "post",
+      "baseline_hash": "7f64fd4ee99a84a0ee28ef1167ada6afbde2aecbb8f25b6b5d1a2376a8829af4",
+      "file": "www-bez-www-osnovnoy-domen.html",
+      "candidate_hash": "7e6e6514e98ad058b30e580becbada4eaa387b1408a3c1a7a5f29ee8c30f9aae",
+      "visible_chars": 11173,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/113-www-bez-www-osnovnoy-domen.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source113 и runtime схема/дополнения; все исходные значимые href/таблица/источники сохранены.",
+        "Google canonical официальный документ открыт23.10.2026: согласование canonical/redirect/sitemap — сигналы, не гарантияSEOрезультата; Nginxreturn док сверялся вdrafts03.",
+        "Удалены четыре ранних повторных раздела, оставлен полный технический процесс выбораимени/TLS/форм/сессии.",
+        "Добавлен учебный контрпример одновременной смены имени и структурыURL, без выдуманного клиентского переезда."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 334,
+      "slug": "oshibki-502-504-chto-proveryat",
+      "type": "post",
+      "baseline_hash": "ada5e2b3b556e1beb8e017f41ec3b33c3fd8bfd4e1fddd18e853f894bdc2d7fc",
+      "file": "oshibki-502-504-chto-proveryat.html",
+      "candidate_hash": "3768b0257e497e4afc093874277264cb948e915a27e9b610de7e730e94baeb8e",
+      "visible_chars": 11769,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/132-oshibki-502-504-chto-proveryat.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source132 и runtimeдополнения; схема/таблица/источники сохранены.",
+        "MDN502/504 первичные страницы открыты23.10.2026; код отделён от конкретной причины и фактического результата записи.",
+        "Удалены ранние повторные диагностические разделы; подробные длительныеоперации/upstream/фон/приёмка оставлены.",
+        "Добавлен учебный контрпример внешнего504 против собственного таймаута; реальные инциденты/результаты не придуманы."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 297,
+      "slug": "utm-metki-v-crm-bitrix24",
+      "type": "post",
+      "baseline_hash": "1d9a3b14a76fcbbbcf733cecf288039f9c41168f42159ac1e8f7fd84080959d6",
+      "file": "utm-metki-v-crm-bitrix24.html",
+      "candidate_hash": "68200a51b1883bbce2798e57c8c126a84fc6c7e9db1c57c9116447864e1cdbc8",
+      "visible_chars": 10577,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/153-utm-metki-v-crm-bitrix24.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source153 и runtime дополнения; таблицы словаря/маршрута/ошибок и источники сохранены.",
+        "Битрикс24 UTM6266591 открыт23.10.2026; универсальное автоматическое поведение произвольной формы не обещается.",
+        "Удалены пять ранних пересказов полного последовательного материала, без изменения slug/аналитическогоинтента.",
+        "Добавлен учебный контрпример контакта и двух сделок; коммерческая атрибуция и исторические источники не выдуманы."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 152,
+      "slug": "antispam-bez-kapchi",
+      "type": "post",
+      "baseline_hash": "18573f1da9736e0e62164a9b645508616d1499cf0524153fa255a0e34a6a2fab",
+      "file": "antispam-bez-kapchi.html",
+      "candidate_hash": "3d2e2d5596d7c1834338d7dc37184e0a54848429b044f8e0c71360d955d29e3c",
+      "visible_chars": 11988,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=13",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-13.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform13 и runtimeдополнения; актуальныйcase antispam24 перечитан целиком.",
+        "Исходные подпись/время/повторы/частота/формат подтверждены cases.json;91acceptedHTTP200 не расширен до доставки писем или измеренной конверсии.",
+        "OWASP InputValidation иW3CWAIформы — первичные источники; OWASP открыт23.10.2026, WAI ранее вэтойредактуре.",
+        "Удалены ранние серверный/приёмочный пересказы; неподтверждённое уменьшение ошибочных отказов заменено целью с отдельным наблюдением."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 354,
+      "slug": "otsenka-effekta-avtomatizatsii",
+      "type": "post",
+      "baseline_hash": "6735dc04a792c1d6f82c6458824eccfc5da3263b18c800fef511c7b4aa115179",
+      "file": "otsenka-effekta-avtomatizatsii.html",
+      "candidate_hash": "c5f062ac4a20da06435d429c4bd1583cfd6d1d3166bb32a3d604c358579a18ef",
+      "visible_chars": 11464,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/172-otsenka-effekta-avtomatizatsii.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource172 и runtimeдополнения; все таблицы, схема иIIBAисточник сохранены.",
+        "IIBABACCM первичныйисточник открыт23.10.2026:need/value/context; конкретнаямодельручноговремени авторская.",
+        "Удалены пять ранних пересказов подробного процесса; добавлен прозрачный учебный расчёт100*6 против80*2+20*12.",
+        "Учебные600/400минут не выданы за клиентскуюэкономию и не переведены в прибыль или прогнозрасходов."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 274,
+      "slug": "stranica-404-pravilnyy-otvet",
+      "type": "post",
+      "baseline_hash": "b5e127e2b85bebdaac185154f8f1554217cab55bdcd191826bc3c8768b2575ae",
+      "file": "stranica-404-pravilnyy-otvet.html",
+      "candidate_hash": "725926befde9d55130201f69c0e5d01feaf7cd46ea7cf8c066f28c0ca8645c3d",
+      "visible_chars": 11123,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/114-stranica-404-pravilnyy-otvet.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource114 и runtime схема/дополнения, все таблицы/process/sourceблоки сохранены.",
+        "Google HTTPstatuscodes первичныйисточник проверен23.10.2026: soft404/реальныйстатус; настройкипоиска представлены как учебнаяпроверка.",
+        "cases.json saneqtechnology подтверждаеттехническуюпроверку404/URL/redirect, безгарантии отсутствиябудущихошибок.",
+        "Удалены ранние повторы кода/навигации/чеклиста; добавлена конкретная приёмка поискового действия и пустойвыборки."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 335,
+      "slug": "belyy-ekran-wordpress",
+      "type": "post",
+      "baseline_hash": "8204933da66ae007a03369488d5bd1488754c3f8e15230477f8ef9f8b13c8e6c",
+      "file": "belyy-ekran-wordpress.html",
+      "candidate_hash": "9cd7b6fcaa69f508021c0620e81e9f15fc1656b874122108ca8a6002b0311382",
+      "visible_chars": 12412,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/133-belyy-ekran-wordpress.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource133 и runtimeдополнения; таблица/процесс/источники сохранены.",
+        "WordPress commonerrors иdebugging официальнаядокументация проверены23.10.2026; не добавлены публичные режимыотладки или командыизмененияproduction.",
+        "Удалены ранние пересказы полного разбора, терминscoped заменён простым ограничениемпричиной.",
+        "Добавлена учебная проверка повторногосозданияошибки через редакторскийцикл; реальныеинциденты не придуманы."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 163,
+      "slug": "upravlenie-promptom-iz-adminki",
+      "type": "post",
+      "baseline_hash": "3074b9c98f442a74be602631733f9ec35f6fad5a6de0c633a399ce9210d6c09c",
+      "file": "upravlenie-promptom-iz-adminki.html",
+      "candidate_hash": "f6031d99555624a4d0d558abe6c08590a7553a1e85a761b9ed547520370fc713",
+      "visible_chars": 11472,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=23",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-23.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform23 иruntimeдополнения; все исходные таблицы/схема/sourceблоки сохранены.",
+        "АтрибуцияGlossCheck сужена до подтверждённого WordPressprompt/history/лимитов; точный набор админскихполей не выдан за установленныйрезультат.",
+        "OpenAI evals иOWASP Authorization первичные источники открыты23.10.2026, технические вызовы/расходы не выполнялись.",
+        "Удалены ранние повторные версия/границы; добавлен учебный контрпример стилевойправки, меняющей решениепри неполныхданных."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 298,
+      "slug": "roboty-ili-biznes-processy-bitrix24",
+      "type": "post",
+      "baseline_hash": "d4ccc3b680200f7570fb045a68cb5c0ee8ed2c1187070ec3b5a993fae3aff957",
+      "file": "roboty-ili-biznes-processy-bitrix24.html",
+      "candidate_hash": "353e99e73bd9642bbbfd05e2641b51b2a808123eed1e7110a089b855f798d8fa",
+      "visible_chars": 11569,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/154-roboty-ili-biznes-processy-bitrix24.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource154 иruntimeдополнения; все таблицы и process/source блоки сохранены.",
+        "Официальная справка Битрикс24 бизнес-процессов21290220 открыта23.10.2026; конкретные действия/тарифы/интерфейсы не обещаются.",
+        "Удалены пять ранних пересказов полного процесса; добавлен контрпример двух возвращений с разным смыслом изменения.",
+        "Повторное согласование связано с предметом решения, а неуниверсальным правилом любойстадии; пример не выдан за клиентскоевнедрение."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 355,
+      "slug": "prioritizatsiya-zadach-avtomatizatsii",
+      "type": "post",
+      "baseline_hash": "8e0599633ac933715ca2c1c8161c178f18abf9771ab0d3ad5b38f9a5a1d0fd19",
+      "file": "prioritizatsiya-zadach-avtomatizatsii.html",
+      "candidate_hash": "de11b4ce483228c2fefaf092813d1803a940150fbfa44ad4a23fee18d959d9eb",
+      "visible_chars": 11043,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/173-prioritizatsiya-zadach-avtomatizatsii.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource173 иruntimeдополнения; исходные таблицы/схема/источники сохранены.",
+        "IIBABACCM первичныйтекст проверен23.10.2026:связьneed/solution/value/context; метод сравнения не выдан заобязательныйстандарт.",
+        "Удалены пять ранних повторов дальнейших подробных разделов; добавлена предметная разница условийдопуска ивзвешенногорейтинга.",
+        "ПримерИИпоисточникам учебный, без заявления внедренияRAG/доступовуклиентов."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 275,
+      "slug": "massovye-404-posle-perenosa",
+      "type": "post",
+      "baseline_hash": "af4005da767204b90bffd153afd12aed17f658b5f8f16af60dc27aeea580780a",
+      "file": "massovye-404-posle-perenosa.html",
+      "candidate_hash": "82b5fcc5820cead628492131595f65774f4d2b92ecac72eee49dab1fe38b73e7",
+      "visible_chars": 10617,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/115-massovye-404-posle-perenosa.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource115 иruntimeдополнения; сохранены таблица проявлений, process/sourceблоки ивсезначимыеhref.",
+        "Google moveURL иHTTPcodes первичныеисточники открыты23.10.2026;Nginx/Apache различие сверено документациейпредыдущегопакета.",
+        "Удалены пять ранних пересказов полноценного процесса восстановления; добавлен конкретный контрпример временнойзависимости вложения отстарогосервера.",
+        "Наличие работающейглавной/статьи невыдано задоказательствополного переноса, права файлов отдельны."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 173,
+      "slug": "mnogostranichnyy-pdf-iz-dannyh",
+      "type": "post",
+      "baseline_hash": "d7de385ce2dc51d7fd62b293faf3cdce9deb0ac3a0dc5b9aa956789b01a3a591",
+      "file": "mnogostranichnyy-pdf-iz-dannyh.html",
+      "candidate_hash": "87f167a62f3b3ebbda61649e4a39b0b08116c809aef9a1575a5554582a5fa350",
+      "visible_chars": 11836,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=33",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-33.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform33 иruntimeдополнения; исходные таблицы/схема/MDNисточники/ссылкакейса сохранены.",
+        "cases.json libertygas подтверждаетA4/3фото/1–3объекта/longdescription/offline/reexport; централизованныйархиввыпусковнеприписан.",
+        "MDNPagedMedia открыт23.10.2026;печатныйконтракт и проверкадлинноготекста авторскаяметодика, безуниверсальнойсовместимости.",
+        "Удалены ранние повторные проверочныеразделы и неподтверждённый выводобэкономии; добавлена предметная границаданных иPDF."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 336,
+      "slug": "monitoring-dostupnosti-sayta",
+      "type": "post",
+      "baseline_hash": "183dce256e5af2d7d0369f322396fd5e7d10e0b46b71a0ba82222d4c450fa0db",
+      "file": "monitoring-dostupnosti-sayta.html",
+      "candidate_hash": "9f86ba49920a91a249aedc16eb0928d140c1b423f001d4768e6d5d58c3d4cbd6",
+      "visible_chars": 12094,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/134-monitoring-dostupnosti-sayta.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource134 иruntimeдополнения; таблицауровней/схема/источники сохранены.",
+        "GoogleHTTPcodes проверен23.10.2026:200 не является доказательством полезнойоперации; WordPresshardening первичныйисточник открыт.",
+        "Удалены четыре ранних повтора полного разбора; добавлен контрпример смешениясинтетическогоиреальногопотока.",
+        "Не заявляется установленный мониторингклиента или круглосуточнаяреакция; методпроверкибезреальных отправок вэтойзадаче."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 299,
+      "slug": "smart-processy-bitrix24-kogda-nuzhny",
+      "type": "post",
+      "baseline_hash": "50941e379624f852b41238e145da71ef0aaa2679301613329b178f2837c53cbd",
+      "file": "smart-processy-bitrix24-kogda-nuzhny.html",
+      "candidate_hash": "bb1ac3fec60f974d163c98f49b5c61181edd507b790f0f83d2ce358d0a0cae93",
+      "visible_chars": 11291,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/155-smart-processy-bitrix24-kogda-nuzhny.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource155 иruntimeдополнения; все матрицы/паспорт/схема/источники сохранены.",
+        "ОфициальнаяинструкцияБитрикс24 смартпроцессов18913884 проверена23.10.2026; конкретнаядоступностьфункцийоговорена порталом.",
+        "Удалены пять ранних пересказов полного проектирования; добавлен контрпример разныхжизненныхциклов сделкиисервиса.",
+        "Не заявлено готовое внедрение сервисногосмартпроцесса вреальномклиентскомпроекте."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 356,
+      "slug": "tehnicheskoe-zadanie-na-avtomatizatsiyu",
+      "type": "post",
+      "baseline_hash": "4adf62486e170c7d1ff09db2d5ebb8b39b76e91ae10e816ba82ae1e835b05b73",
+      "file": "tehnicheskoe-zadanie-na-avtomatizatsiyu.html",
+      "candidate_hash": "ddf3da29f7aac37bf98f2fb4ef6ac00744760100df25b260c8b5a6f78f1cbbf8",
+      "visible_chars": 11895,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/174-tehnicheskoe-zadanie-na-avtomatizatsiyu.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource174 иruntimeдополнения; все исходные таблицы/процесс/источники сохранены.",
+        "IIBA4.4.3traceability первичныйтекстпроверен23.10.2026; версияТЗнеобъявляетсясертифицированной.",
+        "cases.json crmhrrequirements подтверждаетподготовленноеТЗ READYFORDECOMPOSITION; прямоотделеноотвнедренияобмена, беззакрытыхимён/ID.",
+        "Удалены пять ранних повторных разделов; добавлен реальный аналитическийрезультат и предметнаяпроверка идентичности/неоднозначности."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 184,
+      "slug": "statusy-broni-i-zanyatost",
+      "type": "post",
+      "baseline_hash": "051d66f104b737bbc7af0a7fbbc07a2a54ebbf585fbdbcfb06501c88d063cdd6",
+      "file": "statusy-broni-i-zanyatost.html",
+      "candidate_hash": "2b12c8099fb76c00ac88b9ea8d3f34e056262c963b9582ae84fa62ab872fccd3",
+      "visible_chars": 14366,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=43",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-43.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан longform43 иruntimeдополнения; все исходные таблицы/схема/источники сохранены.",
+        "Неподтверждённая атрибуция календарного прототипа заменена явной моделью требований; невыдано завнедрение.",
+        "GoogleCalendarEvents первичныйисточник проверен23.10.2026:status/transparencyразличны; собственные удержания не приписаныGoogleавтоматически.",
+        "Удалены два ранних повторных раздела; добавлена конкретная граница позднегоподтверждения послеистечения и новойброни."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 276,
+      "slug": "smena-domena-sohranenie-url",
+      "type": "post",
+      "baseline_hash": "9b60b85e0189096d2c45f48134c74c8fc3f921043a60f4dd45c69948731c10cc",
+      "file": "smena-domena-sohranenie-url.html",
+      "candidate_hash": "ba52b0051bb634707eabd85f5b9d795030e71621080932a58ce17b097947bbd3",
+      "visible_chars": 10618,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/116-smena-domena-sohranenie-url.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource116 иruntimeдополнения; исходные таблица/схема/источники сохранены.",
+        "GoogleSiteMove первичныйисточник прочитан23.10.2026:URLmapping/redirects/медиа/разделениеизменений,безгарантиипоисковоготрафика.",
+        "cases.json shumakovayookassa подтверждаетзаявку/payment/webhook/servercheck; явноневыдано закейсдоменноймиграции.",
+        "Удалены пять ранних пересказов процесса; добавлена конкретная разница browserreturn и servernotification, безреальныхплатежей."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 337,
+      "slug": "logirovanie-form-zayavok",
+      "type": "post",
+      "baseline_hash": "c232997d4f29e3c15011a3404b38abbfa8140f732087830c714dc39eeea6c739",
+      "file": "logirovanie-form-zayavok.html",
+      "candidate_hash": "a8f21c8b0e2a9d130a53b9bf5c935abb36a8057d1d766115653871d3d42c9320",
+      "visible_chars": 11380,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/135-logirovanie-form-zayavok.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource135 иruntimeдополнения; все таблицы/схема/sourceблоки/кейсhref сохранены.",
+        "Nginx logmodule первичныйисточникпроверен23.10.2026; WordPresshardening ранее вэтомпакете. Новые строкиконфигурации/секреты не добавлялись.",
+        "Удалены пять ранних повторов полногоразбора;Scopeзаменён простым ограничениемнужнымсайтом.",
+        "Новый учебный пример различает временныеотметки/часовыепояса/идентичностьоперации, безюридическихобещаний иложнойатрибуцииклиенту."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 300,
+      "slug": "prosrochennye-dela-crm-napominaniya",
+      "type": "post",
+      "baseline_hash": "9bfe5f0c7e00b805973b8baedbcd6d3b8f79c83fe26665f07b89d198040234c0",
+      "file": "prosrochennye-dela-crm-napominaniya.html",
+      "candidate_hash": "d1922aa1346a8382b8b61f24d1a46ba124ece8c46c5f27b6b4dc877086fdea4e",
+      "visible_chars": 11478,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/156-prosrochennye-dela-crm-napominaniya.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedsource156 иruntimeдополнения; все таблицы/схема/sourceпанель сохранены.",
+        "Официальная Битрикс24инструкция18942844 проверена23.10.2026:персональныенапоминанияневыданызаавтоматическуюуправленческуюэскалацию.",
+        "Удалены пять ранних повторов полногоразбора; добавлен учебныйконтрпримерустаревшегосигналапри ужеизменённомделе.",
+        "Отправкауведомлениянеприравненакпринятиюпоручения; круглосуточнаяреакция/ростпродажнеобещаются."
+      ],
+      "action": "REWRITE"
+    }
+  ]
+}
