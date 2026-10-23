@@ -32,6 +32,16 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
 .brand-sy3 .button:hover,.brand-sy3 .wp-block-button__link:hover{background:#3b4436;color:#fff;transform:translateY(-3px)}
 .home.brand-sy3 .header-cta{min-height:48px;font-size:15px;background:var(--ink);color:#fff;border-color:var(--ink)}
 .home.brand-sy3 .header-cta:hover{background:#3b4436;color:white}
+.brand-sy3 .messenger-choice{display:inline-flex;align-items:stretch;border:1px solid var(--ink);border-radius:100px;background:var(--ink);color:#fff;max-width:100%}
+.brand-sy3 .messenger-choice>a{display:flex;flex:1 1 0;align-items:center;justify-content:center;min-width:0;min-height:48px;padding:12px 20px;color:#fff;font-size:15px;line-height:1.4;text-align:center;white-space:nowrap;text-decoration:none;transition:background .2s}
+.brand-sy3 .messenger-choice>a:first-child{border-radius:100px 0 0 100px}
+.brand-sy3 .messenger-choice>a+a{border-left:1px solid #ffffff45;border-radius:0 100px 100px 0}
+.brand-sy3 .messenger-choice>a:hover{background:#3b4436;color:#fff;text-decoration:none}
+.brand-sy3 .messenger-choice>a:focus-visible{outline:3px solid #14758b;outline-offset:3px;position:relative;z-index:1}
+.brand-sy3 .header-messengers{flex-shrink:0}
+.brand-sy3 .mobile-messengers{display:none}
+.brand-sy3 .aside-messengers{display:flex;width:100%}
+.brand-sy3 .aside-messengers>a{padding-inline:12px}
 .brand-sy3 .is-style-outline .wp-block-button__link{background:transparent;color:var(--ink);border-color:#9ea69a}
 .brand-sy3 .is-style-outline .wp-block-button__link:hover{background:#ebf1df}
 .brand-sy3 h2{font-size:clamp(43px,5.1vw,76px);font-weight:500;line-height:1.08;letter-spacing:-.06em}
@@ -172,6 +182,8 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
  .brand-sy3 .cta-panel{gap:45px!important}
 }
 @media(max-width:850px){
+ .brand-sy3 .header-messengers{display:none}
+ .brand-sy3 .site-header nav .mobile-messengers{display:inline-flex;margin-top:18px}
  .brand-sy3 .wrap,.brand-sy3 .section-inner,.brand-sy3 .header-inner{width:calc(100% - 48px)}
  .brand-sy3 .site-header,.home.brand-sy3 .site-header{height:84px}
  .home.brand-sy3 .site-header nav{background:var(--paper);color:var(--ink);border-color:var(--line)}

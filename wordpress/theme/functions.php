@@ -73,6 +73,12 @@ function sy3_main_url(string $path = ''): string {
 function sy3_label(): string { return sy3_personal() ? 'Артём Суязов' : 'сутри'; }
 function sy3_contact_url(): string { return sy3_personal() ? home_url('/contacts/') : (function_exists('sy3_leads_form') ? '#request-form' : 'https://t.me/sy3_support_bot?start=site_sy3'); }
 
+function sy3_messenger_choice(string $class = ''): string {
+    return '<div class="messenger-choice ' . esc_attr($class) . '" role="group" aria-label="Обсудить задачу — выбрать мессенджер">'
+        . '<a href="https://t.me/sy3_support_bot?start=site_sy3"><span class="screen-reader-text">Написать в </span>Telegram</a>'
+        . '<a href="https://max.ru/id263514840335_1_bot?start=site_sy3"><span class="screen-reader-text">Написать в </span>MAX</a></div>';
+}
+
 // Normalize legacy first-person copy and contacts without rewriting reviewed article bodies.
 function sy3_main_copy(string $content): string {
     if (sy3_personal()) return $content;
