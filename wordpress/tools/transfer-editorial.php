@@ -206,7 +206,6 @@ try {
         $plan=sy3_transfer_json($planPath);
         if (!hash_equals(hash_file('sha256',$planPath),(string)getenv('SY3_EDITORIAL_APPROVED_PLAN_SHA256')) || $plan['intent_sha256']!==hash_file('sha256',$intentPath) || $plan['updater_sha256']!==hash_file('sha256',__FILE__) || $plan['options_hash']!==$optionsHash) throw new RuntimeException('Approved plan/input/options changed.');
         $state=sy3_transfer_state(sy3_transfer_fingerprints($records),$plan,hash_file('sha256',$target),$support);
-        if ($state==='AFTER') { WP_CLI::line('{"status":"ALREADY_APPLIED","writes":0}'); return; }
         if ($state==='CONFLICT') throw new RuntimeException('Plan concurrency conflict.');
         // The operator owns the two project locks. Their holder PID is bound to this invocation.
         $pid=(int)getenv('SY3_EDITORIAL_PROJECT_LOCK_PID');
@@ -241,6 +240,13 @@ try {
     if (sy3_transfer_fingerprints($locked)!==sy3_transfer_fingerprints($records) || sy3_transfer_hash($lockedOptions)!==$optionsHash) throw new RuntimeException('State changed while locking.');
     if ($production) {
         $state=sy3_transfer_state(sy3_transfer_fingerprints($locked),$plan,hash_file('sha256',$target),$support);
+        if ($state==='AFTER') {
+            sy3_transfer_query('COMMIT'); $transaction=false;
+            // A prior process may have died just after COMMIT but before cache invalidation.
+            foreach ($ids as $id) clean_post_cache($id);
+            if (sy3_transfer_fingerprints(sy3_transfer_read($ids,false))!==$plan['after'] || sy3_transfer_options(false)!==$options || hash_file('sha256',$target)!==$support['after_sha256']) throw new RuntimeException('Already-applied state changed; inspect without overwriting.');
+            WP_CLI::line(json_encode(['status'=>'ALREADY_APPLIED','writes'=>0,'cleared_post_caches'=>count($ids)])); return;
+        }
         if (!in_array($state,['BEFORE','DB_BEFORE_FILE_AFTER'],true)) throw new RuntimeException('Locked file/state conflict.');
         $stat=stat($target);
         // A previous process may have died after rename but before COMMIT. The immutable plan
