@@ -13,7 +13,7 @@
       "date": "2026-10-22 19:54:52",
       "baseline_hash": "5d4535fc03f8dec3eba29a02f27d4f2cbbd005abda8583a4af1413f36942cab8",
       "candidate_hash": "b642f15239c20e68e45d5f5c44b53c9cda2b152adac9550f7103a0ef2b84f783",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     },
     {
       "type": "page",
@@ -26,7 +26,7 @@
       "date": "2026-10-22 19:54:52",
       "baseline_hash": "767433e8e3efec0337ca321078bcc515665f692a29bd2349131e6dfa50912d6e",
       "candidate_hash": "7d7a8479834f31d9d4ec5700e401b4802bfc35870e3ca2f0266d3e3e1727dc9d",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     },
     {
       "type": "page",
@@ -39,7 +39,7 @@
       "date": "2026-10-22 19:54:52",
       "baseline_hash": "fb66406983c71066aea5b2e35a0111706036e7bee37a207770b9f40997411293",
       "candidate_hash": "d617bf37f0b5550de72cb954e63197ed8547be0848eb7ba0d0e9c3e810fd1c59",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     },
     {
       "type": "sy3_service",
@@ -53,7 +53,7 @@
       "date": "2026-10-22 19:54:52",
       "baseline_hash": "5e641940af8c0867e525eddbdf5f0e521fc0a7c84486e28420998d7426be400e",
       "candidate_hash": "fe99fc6f4a0b1528e837664db44a530911356c56362ff9e5adfab3f2cc757d63",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     },
     {
       "type": "sy3_service",
@@ -67,7 +67,7 @@
       "date": "2026-10-22 19:54:52",
       "baseline_hash": "c2be56f7c8c5c29b3479b4af0b88db0625f22646fd40a11a7e78321371985724",
       "candidate_hash": "b9c89a5c8e87387ab5b3b7c1629355036a2e8c33987c75c74e59d39f99fd8447",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     },
     {
       "type": "sy3_service",
@@ -81,7 +81,7 @@
       "date": "2026-10-22 19:54:52",
       "baseline_hash": "099aa65f3b56f8acee437118bbdbeb8cc43454ef45352159ea483a9a738d9bec",
       "candidate_hash": "5bdc9d82438c603ef8a3c2d597691f0e48a4de4773c70f9f5b41c29338b4474d",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     },
     {
       "type": "sy3_case",
@@ -94,7 +94,7 @@
       "date": "2026-10-22 19:54:53",
       "baseline_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d",
       "candidate_hash": "80fae79ec8950360d6c9343b8d05ca74b1ad377b7635b1199ea15d5b41cfee21",
-      "review_state": "AWAITING_OWNER_EDITORIAL_REVIEW"
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
     }
   ]
 }

@@ -200,11 +200,11 @@ def pilot_overlay(root: Path | None, captured: list[dict]) -> dict[str, dict]:
         if (c["source"] != expected_commercial[key]
                 or safe_file(c["source"].removeprefix("wordpress/")) != c["source"]
                 or c["url"] != row["url"] or c["status"] != row["post_status"] or c["date"] != row["post_date"]
-                or c.get("review_state") != "AWAITING_OWNER_EDITORIAL_REVIEW"
+                or c.get("review_state") != "NEEDS_EDITORIAL_REVIEW"
                 or not isinstance(c.get("content"), str) or sha(c["content"]) != c["candidate_hash"]):
             raise ValueError("Commercial candidate metadata/content hash mismatch: " + key)
         prepared[key] = {"path": "wordpress/docs/editorial/pilot/commercial.json#/candidates/" + str(index) + "/content",
-                         "state": "AWAITING_OWNER_EDITORIAL_REVIEW", "hash": c["candidate_hash"]}
+                         "state": "NEEDS_EDITORIAL_REVIEW", "hash": c["candidate_hash"]}
     articles = json.loads(exact("articles/manifest.json").read_text())
     if {str(c["id"]) for c in articles["candidates"]} != {"60", "262", "281"} or len(articles["candidates"]) != 3:
         raise ValueError("Expected the three scoped article pilot candidates")
@@ -213,12 +213,17 @@ def pilot_overlay(root: Path | None, captured: list[dict]) -> dict[str, dict]:
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", c["slug"]) or c["file"] != c["slug"] + ".html":
             raise ValueError("Unsafe article candidate filename")
         path = exact("articles/" + c["file"])
-        if (sha(path.read_text()) != c["candidate_hash"] or c.get("policy_state") != "POLICY_CONFLICT"
-                or c.get("review_state") != "NEEDS_EDITORIAL_REVIEW"
-                or not isinstance(c.get("visible_chars"), int) or not 0 < c["visible_chars"] < 10000):
+        chars = c.get("visible_chars")
+        policy = c.get("policy_state")
+        valid_length = type(chars) is int and (
+            (policy == "POLICY_CONFLICT" and 0 < chars < 10000)
+            or (policy == "LENGTH_REQUIREMENT_MET" and chars >= 10000))
+        if (sha(path.read_text()) != c["candidate_hash"]
+                or c.get("review_state") != "NEEDS_EDITORIAL_REVIEW" or not valid_length):
             raise ValueError("Article candidate hash/policy mismatch: " + key)
         prepared[key] = {"path": "wordpress/" + path.relative_to(WP).as_posix(),
-                         "state": "POLICY_CONFLICT_NEEDS_EDITORIAL_DECISION", "hash": c["candidate_hash"]}
+                         "state": "POLICY_CONFLICT_NEEDS_EDITORIAL_DECISION" if policy == "POLICY_CONFLICT" else "LENGTH_REQUIREMENT_MET_NEEDS_EDITORIAL_REVIEW",
+                         "hash": c["candidate_hash"]}
     return prepared
 
 
