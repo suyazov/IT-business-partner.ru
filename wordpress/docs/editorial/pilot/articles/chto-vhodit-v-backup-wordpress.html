@@ -1,0 +1,150 @@
+<!-- wp:paragraph -->
+<p>Вам передали архив WordPress. Прежде чем считать сайт сохранённым, выясните, что можно вернуть из этого набора: тексты, изображения, заказы, настройки или только оформление. Папка темы, выгрузка базы и копия пользовательских файлов решают разные задачи.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Начните с цели восстановления. Вернуть один шаблон и восстановить магазин со связанными заказами — разный объём. Для выбранной цели составьте перечень компонентов и проверьте его на изолированном окружении. Название «полный бэкап» такой проверки не заменяет.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Разделите базу, файлы и окружение</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>В базе WordPress находятся записи, настройки, пользователи и данные расширений. В файлах — код CMS, темы, плагины и пользовательские загрузки. Скачивание каталога сайта обычно не сохраняет базу, а выгрузка базы не содержит сами фотографии. В официальном руководстве WordPress это две части восстановления сайта.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table --><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Компонент</th><th>Типичное содержимое</th><th>Что не следует предполагать</th><th>Контроль покрытия</th></tr></thead><tbody><tr><td>База WordPress</td><td>Записи, параметры, пользователи и данные расширений</td><td>Что любой экспорт записей заменяет всю базу</td><td>Состав таблиц и проверка нужной сущности</td></tr><tr><td>Пользовательские файлы</td><td>Изображения, документы, загрузки</td><td>Что они находятся в репозитории темы</td><td>Наличие объектов и используемых размеров</td></tr><tr><td>Тема и плагины</td><td>Код интерфейса и обработчиков</td><td>Что опубликованный код содержит секреты и данные</td><td>Версии, источник и совместимость</td></tr><tr><td>Окружение</td><td>PHP, модули, маршрутизация и задачи</td><td>Что архив webroot воспроизводит сервер</td><td>Безопасная карта требований</td></tr><tr><td>Внешние сервисы</td><td>Медиа, CRM, почта, платежные состояния</td><td>Что архив сайта автоматически их включает</td><td>Отдельное описанное покрытие и сверка</td></tr></tbody></table></figure><!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Опубликованный код может быть доступен в принятом Git-репозитории. Рабочие заказы, новые статьи и загрузки оттуда не появятся, если их туда не сохраняли. Для каждого компонента назовите пригодный источник восстановления и то, что остаётся уникальным рабочим состоянием.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Установите границу внешних данных</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Медиатека может находиться в объектном хранилище, обращения — в CRM, документы — в другом сервисе. Архив WordPress не обязан включать эти данные. В карте покрытия укажите, какие части находятся вне сайта, у кого они хранятся и как связаны с выбранной точкой восстановления.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Нужны и требования к окружению: версия PHP, расширения, маршрутизация, фоновые задачи и внешние подключения. Необязательно копировать сервер целиком, но без этих сведений код и база могут не вернуть требуемую функцию. Отметьте условия, которые нужно воспроизвести отдельно.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"tagName":"div","className":"process-map"} --><div class="wp-block-group process-map"><!-- wp:paragraph {"className":"eyebrow"} --><p class="eyebrow">Рабочий сценарий</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Состав копии: покрытие вместо названия архива</h2><!-- /wp:heading -->
+<!-- wp:paragraph {"className":"process-map-intro"} --><p class="process-map-intro">Код, база, файлы, окружение и внешние данные восстанавливаются по-разному</p><!-- /wp:paragraph -->
+<!-- wp:group {"tagName":"div","className":"process-map-steps"} --><div class="wp-block-group process-map-steps"><!-- wp:group {"tagName":"div","className":"process-map-node"} --><div class="wp-block-group process-map-node"><!-- wp:paragraph {"className":"process-map-number"} --><p class="process-map-number">01</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Ценность</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Определить существенные рабочие данные и допустимые потери</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-node"} --><div class="wp-block-group process-map-node"><!-- wp:paragraph {"className":"process-map-number"} --><p class="process-map-number">02</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Компоненты</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Разделить базу, пользовательские файлы и опубликованный код</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-node"} --><div class="wp-block-group process-map-node"><!-- wp:paragraph {"className":"process-map-number"} --><p class="process-map-number">03</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Зависимости</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Описать окружение и внешние сервисы</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-node"} --><div class="wp-block-group process-map-node"><!-- wp:paragraph {"className":"process-map-number"} --><p class="process-map-number">04</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Набор</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Установить время, включения, исключения и доступ</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-node"} --><div class="wp-block-group process-map-node"><!-- wp:paragraph {"className":"process-map-number"} --><p class="process-map-number">05</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Испытание</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Восстановить характерные сущности изолированным способом</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-node"} --><div class="wp-block-group process-map-node"><!-- wp:paragraph {"className":"process-map-number"} --><p class="process-map-number">06</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Политика</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Закрепить владельца, сроки и обоснованное покрытие без лишних дублей</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-decision"} --><div class="wp-block-group process-map-decision"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Набор покрывает нужный бизнес-сценарий восстановления?</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p><strong>Условие выполнено:</strong> Зафиксировать проверенные компоненты и ограничения</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p><strong>Условие не выполнено:</strong> Найти отсутствующие источники или ограничить заявленную цель</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:group {"tagName":"div","className":"process-map-control"} --><div class="wp-block-group process-map-control"><!-- wp:paragraph --><p><strong>Ответственный</strong><br>Владелец данных и ответственный за восстановление</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p><strong>Подтверждение</strong><br>Карта покрытия и результат изолированной проверки конкретных объектов</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p><strong>Что измеряем</strong><br>Доля необходимых компонентов с подтверждённым способом восстановления</p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+<!-- wp:paragraph {"className":"process-map-download"} --><p class="process-map-download"><a href="https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-121.svg" download>Скачать схему процесса в SVG</a> · <a href="https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-121.csv" download>Скачать рабочую таблицу CSV</a></p><!-- /wp:paragraph -->
+</div><!-- /wp:group -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Опишите состав набора до восстановления</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Для набора нужны проект, время получения компонентов, включения, исключения и владелец доступа. Пример описания покрытия: база и пользовательские файлы включены; внешний сервис бронирований не включён; окружение собирается по отдельной инструкции. По такому описанию сразу видно, какую часть восстановления нужно проверять отдельно.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Размер и расширение архива не объясняют его полноту. Большой ZIP может состоять из кэша, а SQL-файл — содержать только часть таблиц. Сверяйте состав с нужной операцией: какие записи, файлы и настройки она использует.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Если подрядчик передал только тему и экспорт статей, из них можно вернуть часть оформления и текстов. Наличие пользователей, настроек плагинов и связей с файлами нужно установить отдельно. Сначала найдите отсутствующие части в других подтверждённых источниках; не обещайте полное восстановление до этой проверки.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Проверьте согласованность по времени</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>База и файлы должны позволять восстановить нужные связи. Например, если выгрузка базы сделана до публикации статьи, а файлы сняты после неё, одной новой фотографии недостаточно для возвращения материала. Обратное расхождение может оставить запись без вложения.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Выберите объекты около времени создания набора: статью с изображением, документ или заказ со связанными записями. Проверьте, представлены ли обе стороны связи. Если сайт продолжал принимать изменения во время копирования, уточните у администратора, как используемый способ обеспечивает согласованность и какие потери допустимы.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Допустимую потерю изменений и требуемое время возвращения работы определяет владелец. Из этих требований выбирают частоту и состав сохраняемого состояния. Расписание без сведений об успешных наборах не подтверждает, что данные можно восстановить.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Доступ к копии тоже входит в проверку</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Уполномоченный специалист должен получить набор и необходимые доступы, даже если исходный сервер недоступен. Для зашифрованного архива отдельно проверьте, где хранится ключ и доступен ли он владельцу в такой ситуации.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>В общей инструкции достаточно назвать сервис, владельца доступа и способ его получения. Пароли и токены не помещают в публичный Git или открытый архив. Требования к окружению и секретные значения — разные части подготовки; первая не должна раскрывать вторую.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Восстановите рабочий сценарий изолированно</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Успешная распаковка или открывшаяся главная не доказывают работу сайта. Перед запуском восстановленного экземпляра отключите реальные внешние действия либо направьте их в разрешённый тестовый режим: конфигурация может сохранить подключения к рабочим сервисам.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list --><ul class="wp-block-list"><!-- wp:list-item --><li><strong>Статья с изображением.</strong> Проверьте текст, статус, вложение и редактирование. Установите, откуда действительно загрузилась картинка: старый сервер может скрыть её отсутствие в наборе.</li><!-- /wp:list-item --><!-- wp:list-item --><li><strong>Рабочая запись.</strong> Для заказа или другой сущности сверяйте состав и связи на известный момент. Не запускайте реальные списания или уведомления ради проверки.</li><!-- /wp:list-item --><!-- wp:list-item --><li><strong>Закрытый документ.</strong> Файл открывается нужному пользователю и сохраняет ограничения доступа.</li><!-- /wp:list-item --><!-- wp:list-item --><li><strong>Окружение.</strong> Работают необходимые маршруты, расширения и редакторские действия. Импорт базы сам по себе этого не подтверждает.</li><!-- /wp:list-item --><!-- wp:list-item --><li><strong>Получение набора.</strong> Владелец может получить копию предусмотренным способом; для этого не нужен забытый личный аккаунт прежнего подрядчика.</li><!-- /wp:list-item --></ul><!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Запишите фактический результат, время данных и непроверенные части. Если испытали только файлы, не распространяйте этот результат на базу и внешние интеграции. Резервный набор также может сохранять уже повреждённое состояние — учитывайте, когда обнаружена исходная проблема и какие более ранние точки доступны.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Передайте карту покрытия и порядок пересмотра</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Итог проверки должен отвечать на вопросы: что можно вернуть, на какой момент, с какими зависимостями и каким проверенным способом. При изменении архитектуры, например выносе медиатеки наружу, карту обновляют.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>У временного набора должны быть назначение и срок пересмотра. Уникальные полезные данные не удаляют только по возрасту; ненужные дубли не хранят бессрочно. Если нужное состояние уже восстанавливается из проверенного источника, необходимость новой копии оценивают отдельно по требованиям владельца и принятому порядку хранения.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"editorial-contact"} --><div class="wp-block-group editorial-contact"><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Помогу разобраться в составе восстановления</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Опишите сайт, имеющийся набор и функцию, которую нужно вернуть. Я помогу определить, какие компоненты проверить и где не хватает сведений. Дальнейший объём работ обсудим после уточнения задачи — в рамках <a href="https://sy3.ru/services/wordpress-support/">поддержки WordPress</a>.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="https://t.me/sy3_support_bot?start=site_sy3">Написать в Telegram</a> · <a href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a></p><!-- /wp:paragraph --></div><!-- /wp:group -->
+
+<!-- wp:group {"tagName":"div","className":"editorial-sources"} --><div class="wp-block-group editorial-sources"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Документация и источники</h3><!-- /wp:heading -->
+<!-- wp:list --><ul class="wp-block-list"><!-- wp:list-item --><li><a href="https://developer.wordpress.org/advanced-administration/security/backup/">WordPress: резервное копирование</a></li><!-- /wp:list-item -->
+<!-- wp:list-item --><li><a href="https://developer.wordpress.org/advanced-administration/security/backup/database/">WordPress: копирование базы данных</a></li><!-- /wp:list-item -->
+</ul><!-- /wp:list -->
+</div><!-- /wp:group -->
