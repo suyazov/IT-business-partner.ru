@@ -1,0 +1,465 @@
+{
+  "candidates": [
+    {
+      "id": 143,
+      "slug": "dogovor-iz-sdelki-crm",
+      "type": "post",
+      "baseline_hash": "4ee2870d34aa6b6d8ddcac32fbba4b0de171db078a107c0b07b262b520b437b3",
+      "file": "dogovor-iz-sdelki-crm.html",
+      "candidate_hash": "3ebfae119e507aa0f878372fbf165c7f6d7a8250d9698089654477b01efa781a",
+      "visible_chars": 11875,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=5",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-5.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform5 иruntimeдополнения;currentcases.json bitrix24doorsдокументальныефактыперечитаны.",
+        "ЧетыреDOCXвариантаООО/ИПспечатьюибез,загрузкаполейиподстановкаименисподтверждениемзаказчикасоответствуютпубличномукейсу.",
+        "Битрикс24официальнаяинструкциясозданиядокументов19098306проверена23.10.2026;юридическаякорректностьнеобещается.",
+        "Удалены два ранних повторныхраздела;добавлен контрпримердвухконтактовиустойчивостивыборапри перестановке."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 519,
+      "slug": "beget-spf-neskolko-otpraviteley",
+      "type": "post",
+      "baseline_hash": "0b2cb70ff29aab51642dfff725698d436549d026ffb054d6c4b1ed2a5a13a7c5",
+      "file": "beget-spf-neskolko-otpraviteley.html",
+      "candidate_hash": "ba24d898e80d79dc6001ca3c1ecc7ca84030654db1b87ce83bc1e3c489a6bc72",
+      "visible_chars": 11882,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/225-beget-spf-neskolko-otpraviteley.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget225 иruntimeдополнения. KEEP:материалпоследовательноразделяетвидимыйFrom/техническуюидентичность/единственнуюSPFконфигурацию/реальнуюдоставку.",
+        "ПервичныеRFC7208/RFC9989проверены23.10.2026;несколькоконкурирующихSPFзаписейдляодногоименинеобъявленыкорректнойнастройкой.",
+        "ГотовыеDNSстроки/актуальныеincludeзначениянепридуманы,действиясреальнойзонойневыполнялись.",
+        "Сохраненытаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытием;контактныйCTAпервоголицаиконкретный.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 520,
+      "slug": "beget-dkim-smena-pochty",
+      "type": "post",
+      "baseline_hash": "fef870e1d0244b5a1c9ca001955cdf6a64ca0b6bd19b35c2653fd301e868468d",
+      "file": "beget-dkim-smena-pochty.html",
+      "candidate_hash": "71ec4e9e8d66e6a0d309537ba261dd64e920c3385a7d3b5a90d1ebc132446656",
+      "visible_chars": 12057,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/226-beget-dkim-smena-pochty.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget226 иruntimeдополнения. KEEP:ужеестьпоследовательныйразборподписанта/ключа/маршрутов/переходногопотока/приёмки.",
+        "ПервичныеRFC6376/RFC8301иBegetDKIMпроверены23.10.2026;старыеалгоритмы/закрытыеключи/универсальныезначениянеперенесенывпубличнуюинструкцию.",
+        "Терминscopeупрощён;конкретизированCTA. DKIMнеприравненкшифрованиюилигарантиидоставкиво входящие.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;DNS/почтовыемаршрутынеизменялись.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 521,
+      "slug": "beget-dmarc-otchety-process",
+      "type": "post",
+      "baseline_hash": "cbf308bf9e9cc9184a29948b087effc4faa1cfd6d89881d884378d6e35c9a33a",
+      "file": "beget-dmarc-otchety-process.html",
+      "candidate_hash": "72d61b30c71eb4bf7c27102215fd14d1bb41748019de7c433d11de84d9710cd0",
+      "visible_chars": 11997,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/227-beget-dmarc-otchety-process.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget227 иruntimeдополнения. KEEP:сильныйразборразделяетагрегированноенаблюдение/идентичность/владельцев/исправление/решениеполитики.",
+        "АктуальныепервичныеRFC9989/RFC9990иBegetDKIMпроверены23.10.2026;агрегатнеобъявленполнымжурналомилидоказательствомчтенияписем.",
+        "Исправленыуправлениесловом«инфраструктура»ижаргон«паттерн»,CTAсталпредметным;неподтверждённыхсроков/процентовнет.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;файлыотчётов/реальныеклиентскиеданныенечитались.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 154,
+      "slug": "povtornaya-otpravka-bez-dubley",
+      "type": "post",
+      "baseline_hash": "aad92e891abbd4f65eed6d379887d2328df8ee74753a051a0fc1d19521429f43",
+      "file": "povtornaya-otpravka-bez-dubley.html",
+      "candidate_hash": "fbf093496aca109bfb957b61e51481a220c7839491d93bc661d01f2c79c18b44",
+      "visible_chars": 11920,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=15",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-15.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform15 иruntimeдополнения; все таблица/схема/sourceблоки сохранены.",
+        "НеподтверждённаяатрибуцияготовойCRMдетцентровзамененапроектноймодельюи проверками.",
+        "StripeIdempotentRequests первичныйисточникпроверен23.10.2026:validationbeforeexecutionразличаетсяссохранённымрезультатом;невыданозауниверсальныйконтрактAPI.",
+        "Удалены два ранних повтора; добавлена предметная проверка исправлениявводадоэффектавотличиеотпотерянногоответапослеэффекта."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 522,
+      "slug": "beget-pochta-pereadresaciya-obrashcheniy",
+      "type": "post",
+      "baseline_hash": "dadc8d2d89f962bd28713d859deb3257521d21a57990b16db2b3a9601e94e847",
+      "file": "beget-pochta-pereadresaciya-obrashcheniy.html",
+      "candidate_hash": "94f9820cd260084ab6d14893f35fcc26cc363535625694c5dd2b68ebd7aed93b",
+      "visible_chars": 12022,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/228-beget-pochta-pereadresaciya-obrashcheniy.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget228 иruntimeдополнения. KEEP:полныйразборужеотличаетцельпересылки/исходник/конечнуюкопию/принятие/петли/временныйпереход.",
+        "BegetForward первичныйисточникпроверен23.10.2026:сохранениеисходногописьмазависитотнастройки;RFC9989прочитанранее вэтомпакете.",
+        "Новаяпереадресация/конкретныеадреса/данныеклиентовневыдуманы;доставленнаякопиянеприравненакобработаннойпотребности.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;CTAпервоголица,реальныхотправокнет.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 546,
+      "slug": "beget-pochta-smena-sotrudnika",
+      "type": "post",
+      "baseline_hash": "61330e57e24473c8bd9ff3e7415673f896850f08b795a17c55592abefc7877fb",
+      "file": "beget-pochta-smena-sotrudnika.html",
+      "candidate_hash": "23178246196fe8e735006777738a9e064889409ab0e18e5def1ce5eafa4b2361",
+      "visible_chars": 11914,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/229-beget-pochta-smena-sotrudnika.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget229 иruntimeдополнения. KEEP:последовательныйразборужеотличаетзакрытиедоступа/почтовыйканал/клиентскийостаток/уведомления/интеграции.",
+        "Begetпочтаинастройкиаккаунтапервичныеисточникипроверены23.10.2026;сменаодногопаролянеобъявленаполнымотзывомвсехспособовдоступа.",
+        "Исправленанепонятнаяфразаограницепередачи;CTAпервоголица,безюридическихгарантий/выдуманнойкадровойистории.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;корпоративныеящикиидоступынечитались.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 547,
+      "slug": "beget-imap-sinhronizaciya",
+      "type": "post",
+      "baseline_hash": "4edbafd8365a709b670a77372f29b2702707b241f4ab700c7e064da2443acb5c",
+      "file": "beget-imap-sinhronizaciya.html",
+      "candidate_hash": "7c1aac5d6de99ad51756805a17f5bae9805a219fb52e269f8e76efc2185fef8e",
+      "visible_chars": 12077,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/230-beget-imap-sinhronizaciya.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget230 иruntimeдополнения. KEEP:полнаядиагностикаужеотделяетсерверныйфакт/локальноепредставление/папки/индекс/отправку/ответственность.",
+        "BegetMailTroubleshootingиофициальнаяMozillaIMAPSynchronizationпроверены23.10.2026;локальныйархивневыданзадействующееподключение.",
+        "Порты/пароли/универсальныекомандыудалениянепредлагаются;единственныелокальныематериалыиполезнаяисториясохраняются.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;контактныйCTAконкретизирован.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 165,
+      "slug": "limity-ai-zaprosov",
+      "type": "post",
+      "baseline_hash": "3abbab0911c338070dde4c1c3babfbabbd6e9aec0f48171393e0d788fdded02f",
+      "file": "limity-ai-zaprosov.html",
+      "candidate_hash": "7935fb9f85341a1f56304dc267c97cbaa511b80da6ae706b5217326344b7f19b",
+      "visible_chars": 11365,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=25",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-25.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны longform25 иruntimeдополнения; все таблица/схема/sourceпанель/GlossCheckhref сохранены.",
+        "АтрибуцияGlossCheckсуженадоподтверждённыхистории/частоты/сообщений/токенов;точныеадминскиепараметрыдлиныконтекстаповторнонеприписаны.",
+        "OpenAIproductionbestpracticesпервичныйисточникпрочитанвэтойредактуре;актуальныелимиты/цены/моделинепридуманы.",
+        "Удалены два ранних повтора; добавлен предметный разбор освобожденияактивногослота послеошибки/перезапуска."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 548,
+      "slug": "beget-pochta-formy-nezavisimost",
+      "type": "post",
+      "baseline_hash": "29c81215c2809f6e48a63f54b7f27c2d563eb779a3d6e58c27275bda9c489ef4",
+      "file": "beget-pochta-formy-nezavisimost.html",
+      "candidate_hash": "562daca1ab84d5a9771c4faa4265f78b9a90094a811e4c683195af766b067558",
+      "visible_chars": 12576,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/231-beget-pochta-formy-nezavisimost.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mappedBeget231 иruntimeдополнения. KEEP:полныйматериалсодержитдверазличающиедиагностическиеветкизаявкаесть/письма нетиписьмоесть/CRMнет.",
+        "BegetпочтаипервичнаяWordPresswp_mailсверены23.10.2026;успехфункциинеобъявленконечнойдоставкойилиобработкойменеджером.",
+        "Новаяочередь/надёжноехранилищенеобъявленыужереализованными;предложеныметодикаипроверяемыеграницы.",
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;CTAконкретизирован,реальныхзаявокнет.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 549,
+      "slug": "beget-cloud-mysql-kogda-vynos",
+      "type": "post",
+      "baseline_hash": "b874bfee01fe33ac6025220e4f3028e7bac052e9943a4523026abb357b54555f",
+      "file": "beget-cloud-mysql-kogda-vynos.html",
+      "candidate_hash": "87893ecd5039c253bfbe2c980eee62adcbc0733dac19682df8801e9271eec4fa",
+      "visible_chars": 12885,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/232-beget-cloud-mysql-kogda-vynos.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP после полного чтения mapped Markdown и runtime-добавлений: разбор различает запросы, сетевую задержку и конкуренцию ресурсов; отдельная база не представлена универсальным ускорением.",
+        "Сохранены диагностический контрпример последовательных запросов, граница единственного источника записи, сверка свежих заказов и ограничения возврата.",
+        "Beget cloud-server/DBaaS и MySQL EXPLAIN открыты 23.10.2026; не перенесены изменяемые цены, версии или неподтверждённая конфигурация сети.",
+        "Изменён только личный контактный CTA; таблица, схема и панель источников сохранены.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 493,
+      "slug": "beget-wordpress-cloud-db-priemka",
+      "type": "post",
+      "baseline_hash": "0ac1e32be1225670754bc09caa7f0a476948f0e357d26917b0a330c310299239",
+      "file": "beget-wordpress-cloud-db-priemka.html",
+      "candidate_hash": "d2a5c22d7f4ef24e553a103d456a5fae276543a85e26626c7543cfb330bd987c",
+      "visible_chars": 13643,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/233-beget-wordpress-cloud-db-priemka.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный исходник содержит предметную карту операций, две таблицы, контроль новой записи и разных окружений фоновых процессов; повторного расширения не требуется.",
+        "Официальный WordPress WP-Cron подтверждает зависимость стандартного запуска от загрузок страниц; wp-config описывает параметры подключения. Не добавлены гарантии точного времени выполнения.",
+        "Сохранены безопасные тестовые сценарии повторных событий и отказа CRM, не приписанные реальному внедрению.",
+        "Обобщённое «мы» в заключении заменено личной ролью и согласованием исполнителя; личный Telegram заменён принятыми ботами.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 175,
+      "slug": "pustye-polya-v-dokumentah",
+      "type": "post",
+      "baseline_hash": "ce00a2b7f61ff14f9fd40f8bcfb5b00c4a81c2af03a887ad363fac75e6a27062",
+      "file": "pustye-polya-v-dokumentah.html",
+      "candidate_hash": "b54d9989bf074d3619638a070aad56f9b7d8f39999d094fea02fa425d2b1be36",
+      "visible_chars": 11845,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=35",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-35.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform35 и runtime-добавления; удалены три ранних кратких повтора, сохранён полный разбор правил/матриц.",
+        "Неподтверждённое личное заявление о реализованном конструкторе удалено вместе с кратким вступлением; проектирование блокировки выпуска описано как методика.",
+        "cases.json bitrix24-doors подтверждает четыре DOCX и исправленное имя покупателя. Добавленная проверка разных контактов прямо обозначена собственной методикой, не внедрённой функцией.",
+        "OWASP Input Validation 23.10.2026: синтаксическая и семантическая проверки, согласованность полей; юридическая достаточность не обещается."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 494,
+      "slug": "beget-bitrix-cloud-db-integracii",
+      "type": "post",
+      "baseline_hash": "779929e188c03c95f20c05018729b793f1551eba5ed16c2bf79f331d3245560d",
+      "file": "beget-bitrix-cloud-db-integracii.html",
+      "candidate_hash": "fb468d070cd8a87aa7693c3ab6a1984a823baa1fb47a17cdc917e8a8c13d71c9",
+      "visible_chars": 13928,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/234-beget-bitrix-cloud-db-integracii.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный исходник и runtime различают CMS, учётную 1С и Битрикс24; содержат три предметные таблицы и порядок сверки заказа/каталога/фоновых работ.",
+        "Роль автора приведена к подтверждённой владельцем: требования, сайт/CRM, подключение профильного подрядчика 1С; отсутствует заявление о владении всеми конфигурациями.",
+        "Beget: актуальная инструкция миграции Bitrix открыта по точному href исходной панели 23.10.2026; не добавлены команды или гарантии тарифных возможностей.",
+        "Убраны англицизм scope и обобщённое «мы»; учебный пример не выдан за внедрение.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 495,
+      "slug": "beget-mysql-private-network",
+      "type": "post",
+      "baseline_hash": "7f255d682a5c7444336a7e41376c3449dc27f5337ee9c59cd6e4a60ad8c208bb",
+      "file": "beget-mysql-private-network.html",
+      "candidate_hash": "7a55047491294af0e05d78d2eb42b82853cbd809c21fec92a3ea4ef28e83aad0",
+      "visible_chars": 13931,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/235-beget-mysql-private-network.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP после полного чтения источника235/runtime: три уровня сеть–учётная запись–полномочия разобраны отдельно, есть три рабочие таблицы и отрицательные проверки.",
+        "MySQL Account Names 8.4 подтверждает различие User/Host; Beget MySQL с приватной сетью открыта 23.10.2026. Схема VPS не распространена автоматически на shared/DBaaS.",
+        "Права BI не приравнены к доступу ко всей базе, приватный адрес не представлен заменой шифрования и аутентификации.",
+        "Исправлена личная роль автора в заключении и контактный CTA; protected таблицы, включая исходные обозначения scope, сохранены побайтно.",
+        "Разрешённый parent reopen09: intentional affiliate change — первое лицо и вознаграждение только за участвующие услуги; href/rel/target и остальное тело сохранены. ИИ-шлюз не предлагается."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 496,
+      "slug": "beget-postgresql-analitika-vitrina",
+      "type": "post",
+      "baseline_hash": "41eb48948d917d5ce6495470f22122953cfaec840c43d0155675293fb170f4bd",
+      "file": "beget-postgresql-analitika-vitrina.html",
+      "candidate_hash": "33964571acc6815a56c583177e1bfceb9823acc78e732351dc19ca270c0a91ef",
+      "visible_chars": 10953,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/236-beget-postgresql-analitika-vitrina.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: исходник236/runtime полностью прочитаны; самостоятельный разбор уже содержит зерно данных, паспорта показателей, частичные срезы и повтор загрузки, а не обзор продукта.",
+        "Beget manual cloud-postgresql 23.10.2026 подтверждает инфраструктурное создание/подключение. Не добавлены текущие версии, тарифы или обещание готовой аналитики.",
+        "Пример заказов/исполнений прямо учебный, правила финансовых показателей согласуются с уполномоченным владельцем, не подменяются советом.",
+        "Партнёрское раскрытие приведено к первому лицу и участвующим услугам; одна ссылка сохранена, CTA описывает личную аналитическую роль."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 186,
+      "slug": "dostup-k-kalendaryu-i-dannym-klienta",
+      "type": "post",
+      "baseline_hash": "effd87d3c49ca0533e18c439c4a016f3a604d503086727f759b8d9d7721d9025",
+      "file": "dostup-k-kalendaryu-i-dannym-klienta.html",
+      "candidate_hash": "fc46e25eeab6c317f144b0091cf73726ad801df55cceb44bab912916ee1fb71a",
+      "visible_chars": 14029,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=45",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-45.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform45/runtime; три ранних кратких повтора удалены, включая неподтверждённое заявление о реализованном прототипе.",
+        "Все предложения календарной модели трактуются как проектирование и тестовые примеры. Закрытые проекты не опубликованы, внедрение и эффект не заявлены.",
+        "Добавлен конкретный контрпример: скрытая клиентская карточка не должна скрывать занятость общего ресурса; отдельно проверены нераскрытие причины и невозможность двойного обещания.",
+        "OWASP Authorization 23.10.2026: минимальные права, отказ по умолчанию, проверка каждого запроса; таблицы, процесс и источник сохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 497,
+      "slug": "beget-postgresql-roli-otchetov",
+      "type": "post",
+      "baseline_hash": "f68d8ca665642543297f099d0af616534dd70408262dc9bdc2655ed58f29fa53",
+      "file": "beget-postgresql-roli-otchetov.html",
+      "candidate_hash": "4b7eb1661c2cdc93cf515b2b9211df8d70909ae3a5cb74896193494f8f00433b",
+      "visible_chars": 11086,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/237-beget-postgresql-roli-otchetov.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны источник237 и runtime; предметные паспорт подключения, матрицы ролей и приёмки уже объясняют отличие чтения, области полей и аудитории BI.",
+        "Официальный PostgreSQL GRANT и точная Beget-инструкция подключения открыты 23.10.2026; нет универсального SQL-рецепта, обещания тарифной гранулярности или ненужного административного доступа.",
+        "Сохранено важное ограничение: одна техническая роль БД не разделяет автоматически индивидуальные права пользователей BI.",
+        "Партнёрский текст приведён к первому лицу и участвующим услугам; CTA предлагает конкретную проверку, не бесплатный аудит и не обещание срока."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 498,
+      "slug": "beget-postgresql-restore-pilot",
+      "type": "post",
+      "baseline_hash": "9af98be35feb0069b3e61d35c2af297ad1f930d251e442696b7d0588bc30f18f",
+      "file": "beget-postgresql-restore-pilot.html",
+      "candidate_hash": "0aa297640ff7b498ec53aaabb9ec5a96a18606f6b14d6f8e3c8d3c4e92a3541b",
+      "visible_chars": 11075,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/238-beget-postgresql-restore-pilot.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитан источник238/runtime. Текст уже содержит состав покрытия, паспорт испытания, временную границу, прикладные инварианты и безопасный маршрут проверки.",
+        "Beget руководство восстановления и официальный PostgreSQL SQL Dump открыты 23.10.2026; наличие архива не представлено доказательством восстановления, данные/роли/файлы различаются.",
+        "Учебные заявки и операции обозначены как тестовые; никаких фактически выполненных восстановлений и гарантированных сроков не добавлено.",
+        "Сохранены условия завершения временного контура, одна affiliate-ссылка с уточнением участвующих услуг и конкретный личный CTA."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 499,
+      "slug": "beget-sql-join-dubli-dashbord",
+      "type": "post",
+      "baseline_hash": "b8b7ae895ae12eb4632a67853b5846c1796755b1792d9db3f5e2b82daaf37611",
+      "file": "beget-sql-join-dubli-dashbord.html",
+      "candidate_hash": "2ed1cfdb5ff91b3c83b7237faf2fdb55c4a36e77987eca052a41385e34b207c4",
+      "visible_chars": 10785,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/239-beget-sql-join-dubli-dashbord.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный источник239/runtime содержит последовательный разбор кратности, ручной эталон, контрпример SUM DISTINCT и матрицу регрессии; лишних общих глав не добавлено.",
+        "Учебная арифметика проверена: исходно3200, после позиций5400/7строк; два разных заказа по800 дают1600, а не SUM DISTINCT800.",
+        "Официальный PostgreSQL Tutorial JOIN и Beget обзор JOIN открыты 23.10.2026; SQL-семантика отделена от согласования определения выручки.",
+        "Платформа не объявлена решением неверной модели, примеры не приписаны клиенту; партнёрский текст и CTA приведены к личной роли."
+      ],
+      "action": "KEEP"
+    }
+  ]
+}
