@@ -73,12 +73,22 @@ function sy3_main_url(string $path = ''): string {
 function sy3_label(): string { return sy3_personal() ? 'Артём Суязов' : 'сутри'; }
 function sy3_contact_url(): string { return sy3_personal() ? home_url('/contacts/') : (function_exists('sy3_leads_form') ? '#request-form' : 'https://t.me/sy3_support_bot?start=site_sy3'); }
 
-// Keep editor-owned article bodies intact while routing public contact links to the inbox.
-add_filter('the_content', fn($content) => sy3_personal() ? $content : str_replace(
-    ['https://t.me/moi_imperator', 'Обсудить задачу с Артёмом', 'artem.suyazov@gmail.com'],
-    ['https://t.me/sy3_support_bot?start=site_sy3', 'Обсудить проект', 'help@sy3.ru'],
-    $content
-), 19);
+// Normalize legacy first-person copy and contacts without rewriting reviewed article bodies.
+function sy3_main_copy(string $content): string {
+    if (sy3_personal()) return $content;
+    return strtr($content, [
+        'https://t.me/moi_imperator' => 'https://t.me/sy3_support_bot?start=site_sy3',
+        'Обсудить задачу с Артёмом' => 'Обсудить проект',
+        'Обсудить проект с Артёмом' => 'Обсудить проект',
+        'Написать Артёму' => 'Написать мне',
+        'artem.suyazov@gmail.com' => 'help@sy3.ru',
+        'Проект ведёт Артём' => 'Лично веду проект',
+        'Для задач по 1С и BI подключаем профильных специалистов. Артём отвечает за постановку задачи, координацию и проверку общего результата.' => 'Для задач по 1С и BI подключаю профильных специалистов. Я отвечаю за постановку задачи, координацию и проверку общего результата.',
+        'Артём ведёт постановку задачи, согласование участников и проверку решения в общем процессе.' => 'Я веду постановку задачи, согласование участников и проверку решения в общем процессе.',
+        'Сообщения получает Артём Суязов.' => 'Сообщения получаю лично.',
+    ]);
+}
+add_filter('the_content', 'sy3_main_copy', 19);
 
 function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';

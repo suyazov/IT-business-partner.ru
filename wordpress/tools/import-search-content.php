@@ -61,7 +61,7 @@ foreach ($records as $record) {
     $source_links = array_map(fn($s)=>'<a href="'.esc_url($s['url']).'">'.esc_html($s['title']).'</a>',$record['sources']);
     $body .= sy3_g(sy3_h('Документация и источники',3).sy3_list($source_links),'editorial-sources');
     $service_id = $service_ids[$record['service']];
-    $body .= sy3_h('Если нужна помощь с этой задачей') . sy3_p('<a href="'.esc_url(get_permalink($service_id)).'">'.esc_html(get_the_title($service_id)).'</a> — обсудим исходную ситуацию, объём и способ проверки результата. <a href="https://t.me/moi_imperator">Написать Артёму</a>');
+    $body .= sy3_h('Если нужна помощь с этой задачей') . sy3_p('<a href="'.esc_url(get_permalink($service_id)).'">'.esc_html(get_the_title($service_id)).'</a> — обсудим исходную ситуацию, объём и способ проверки результата. <a href="https://t.me/sy3_support_bot?start=site_sy3">Написать мне</a>');
     if (!empty($record['case'])) $body .= sy3_p('Практика по теме: <a href="'.esc_url(get_permalink($case_ids[$record['case']])).'">'.esc_html(get_the_title($case_ids[$record['case']])).'</a>.');
     $term = term_exists($record['cluster'],'category') ?: wp_insert_term($record['cluster'],'category');
     if (is_wp_error($term)) WP_CLI::error($term->get_error_message());

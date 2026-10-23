@@ -19,14 +19,14 @@ function sy3_home_content(): string {
             sy3_p('<strong>Битрикс24</strong><br>Бизнес-партнёр') .
             sy3_p('<strong>25 кейсов</strong><br>Задачи и выполненная работа') .
             sy3_p('<strong>От сайта до данных</strong><br>Один понятный процесс') .
-            sy3_p('<strong>Личный контакт</strong><br>Проект ведёт Артём'),
+            sy3_p('<strong>Личный контакт</strong><br>Лично веду проект'),
             'trust-strip'
         );
     $cases = sy3_p('01 / Работа в деталях', 'eyebrow') . sy3_g(sy3_h('<span id="selected-cases">Реальные задачи.<br>Работающие решения.</span>') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/cases/')) . '">Все 25 кейсов</a>'), 'section-heading') . sy3_shortcode('[sy3_featured_cases]');
     $services = sy3_p('02 / Что делаем', 'eyebrow') . sy3_g(sy3_h('От первого экрана<br>до данных бизнеса.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/services/')) . '">Все направления</a>'), 'section-heading') .
         sy3_p('Сайт, CRM, учёт и аналитика должны помогать одному процессу. Подбираем состав работ под вашу задачу, а не под набор инструментов.', 'section-intro') .
         sy3_shortcode('[sy3_core_services]') .
-        sy3_p('Для задач по 1С и BI подключаем профильных специалистов. Артём отвечает за постановку задачи, координацию и проверку общего результата.', 'delivery-note');
+        sy3_p('Для задач по 1С и BI подключаю профильных специалистов. Я отвечаю за постановку задачи, координацию и проверку общего результата.', 'delivery-note');
     $process = sy3_p('03 / Как работаем', 'eyebrow') . sy3_h('Сначала — понять.<br>Потом — разработать.') . sy3_p('У каждого этапа есть задача, результат и понятный способ приёмки.', 'section-intro') . sy3_cols([
         sy3_p('01 / РАЗОБРАТЬСЯ', 'step-number') . sy3_h('Увидеть процесс', 3) . sy3_p('Разбираем путь клиента, участников и системы. Находим, где теряется заявка, время или информация.'),
         sy3_p('02 / СПРОЕКТИРОВАТЬ', 'step-number') . sy3_h('Выбрать решение', 3) . sy3_p('Согласуем первый этап: состав работ, стоимость, ограничения и сценарий проверки.'),
@@ -39,13 +39,13 @@ function sy3_home_content(): string {
         sy3_p('Привет, я Артём. Лично разбираю вашу задачу, предлагаю решение и согласовываю результат. Вы знаете, кому задать вопрос и с кем обсудить следующий шаг.') .
         sy3_p('В портфолио — сайты, сервисы и автоматизация для торговли, образования и сервисного бизнеса. В каждом кейсе описаны задача, выполненная работа и границы подтверждённого результата.') .
         sy3_p('Если проекту нужны специалисты по 1С или аналитике данных, собираю участников вокруг общей задачи. Постановка, координация и приёмка остаются в одном контуре.') .
-        sy3_buttons([['Написать Артёму', $contact]]) . sy3_p('<a class="text-link" href="' . esc_url(home_url('/about/')) . '">Обо мне и подходе</a>')
+        sy3_buttons([['Написать мне', $contact]]) . sy3_p('<a class="text-link" href="' . esc_url(home_url('/about/')) . '">Обо мне и подходе</a>')
     ], 'author-grid');
     $journal = sy3_p('05 / Практика и знания', 'eyebrow') . sy3_g(sy3_h('Понимать технологии.<br>Принимать решения.') . sy3_p('<a class="text-link" href="' . esc_url(home_url('/journal/')) . '">Читать журнал</a>'), 'section-heading') . sy3_p('Разборы для собственника и команды: что проверить, с чего начать и как принять работу.', 'section-intro') . sy3_shortcode('[sy3_cards type="post" count="3"]');
     $faq = sy3_home_faq_section();
     $cta = sy3_cols([
         sy3_p('Начнём с вашей задачи', 'eyebrow') . sy3_h('Есть задача?<br><em>Давайте разберёмся.</em>'),
-        sy3_p('Расскажите, что хотите запустить или улучшить. Обсудим, с чего начать, какой результат нужен и как его проверить.') . sy3_buttons([['Обсудить проект с Артёмом', $contact]]) . sy3_p('<a href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a>', 'contact-alternative')
+        sy3_p('Расскажите, что хотите запустить или улучшить. Обсудим, с чего начать, какой результат нужен и как его проверить.') . sy3_buttons([['Обсудить проект', $contact]]) . sy3_p('<a href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a>', 'contact-alternative')
     ], 'cta-panel');
     return sy3_g(sy3_g($hero, 'section-inner'), 'hero hero-redesign hero-editorial', 'section') . sy3_section($cases, 'work-section') . sy3_section($services, 'services-section') . sy3_section($process, 'section-dark') . sy3_section($author, 'author-section') . sy3_section($journal, 'journal-section') . $faq . sy3_section($cta, 'contact-section');
 }
