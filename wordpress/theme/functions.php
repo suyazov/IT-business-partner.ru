@@ -96,6 +96,15 @@ function sy3_main_copy(string $content): string {
 }
 add_filter('the_content', 'sy3_main_copy', 19);
 
+function sy3_cover_caption(int $attachment_id): string {
+    $caption = get_the_excerpt($attachment_id);
+    if (!sy3_personal() && in_array(trim(wp_strip_all_tags($caption)), [
+        'Редакционная иллюстрация проекта.',
+        'Редакционная иллюстрация Сутри.',
+    ], true)) return '';
+    return $caption;
+}
+
 function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';
     $topic = get_post_meta($item->ID, '_sy3_label', true) ?: $kind;
