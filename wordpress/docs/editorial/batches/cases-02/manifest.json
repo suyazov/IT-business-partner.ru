@@ -1,0 +1,246 @@
+{
+  "candidates": [
+    {
+      "id": 38,
+      "slug": "real-flacon",
+      "type": "sy3_case",
+      "baseline_hash": "23e84a30d2bdec68f7026ff26ba7648014e34a38a2f1103affe96e7c903d4cf7",
+      "file": "real-flacon.html",
+      "candidate_hash": "77ccd27778925b47a60a6fdb717c3151040f5852c63f2dbca4bbd48de3ec220c",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Уточнить личную роль в доработке существующего WooCommerce, убрать повторение требований в описании результата. Сохранить проверку телефона и серверный вызов DaData.",
+      "needs_facts": [],
+      "excerpt": "Доработал действующий WooCommerce-магазин: подборки и навигацию, корзину, поля заказа, проверку телефона и подсказки адреса через сервер.",
+      "baseline_excerpt": "Real Flacon — интернет-магазин селективной парфюмерии с большим каталогом товаров, категориями по типу парфюмерии и брендам, корзиной и оформлением заказа.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 40,
+      "slug": "digital-belka",
+      "type": "sy3_case",
+      "baseline_hash": "5038a272c5c218d3fbefeb2257062407b2fdd2d0566419d0d1b7f8c33b61db39",
+      "file": "digital-belka.html",
+      "candidate_hash": "82e27bf420a68f9cc1aa1463f54bb9c391dfca95d38cab1e621f0d166b9ee1d6",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Убрать общие слова про продукт и цельную систему. Назвать разные версии страниц, мобильную вёрстку и сохранённый контент.",
+      "needs_facts": [],
+      "excerpt": "Доработал существующий WordPress-сайт: единое оформление ключевых страниц, мобильная версия и удаление части лишних ресурсов с сохранением контента.",
+      "baseline_excerpt": "Digital Belka — персональный сайт эксперта по карьерному развитию и нейрокоучингу.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 42,
+      "slug": "lemesh-pro",
+      "type": "sy3_case",
+      "baseline_hash": "a8b6dd854a8a34cd459b2212f213bc14a164f63ab299c464f48993fe863cb3d9",
+      "file": "lemesh-pro.html",
+      "candidate_hash": "8b5c1b83d6cc0315605bda6ff2f8245d53980fcc99734736789f96be54a82e6f",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Отделить готовый проект от переноса, не называть продающим то, для чего нет измерений. Сохранить реальные исправления мобильных карточек и работу с фотографиями.",
+      "needs_facts": [],
+      "excerpt": "Разработал WordPress-сайт компании по остеклению: услуги, квиз, формы, управляемые кейсы и фотографии объектов. Проект подготовлен к переносу клиенту.",
+      "baseline_excerpt": "LEMESH PRO занимается остеклением квартир, балконов, частных домов, веранд, витрин и коммерческих объектов в Москве и Московской области.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 44,
+      "slug": "saneq-technology",
+      "type": "sy3_case",
+      "baseline_hash": "4ccd2378ce3da2002063ddab42d316f5f9b970046e51f92b0df64828f04fa400",
+      "file": "saneq-technology.html",
+      "candidate_hash": "910f0655ba37a17fc96fd7753f2daad62b3a2d42c8c851f851de1bed18739198",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сохранить проверяемые числа, объяснить объём технической приёмки. Не превращать SEO-контроль в рост трафика.",
+      "needs_facts": [],
+      "excerpt": "Исправил технические и контентные замечания на сайте оборудования. В приёмке проверены 53 страницы и содержимое 41 страницы оборудования.",
+      "baseline_excerpt": "SANEQ Technology — сайт поставщика промышленного оборудования для мойки, гигиены и пищевых производств.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 46,
+      "slug": "design-moskva",
+      "type": "sy3_case",
+      "baseline_hash": "53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8",
+      "file": "design-moskva.html",
+      "candidate_hash": "258e9023151e46858aca6d153171b8ff48ea56e5c9f3ac3fbe538f6d6a260158",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Разделить проверку SEO-ссылок и устранение ошибки админки; личная работа и результат без гарантий будущей скорости.",
+      "needs_facts": [],
+      "excerpt": "Исправил ссылки и замечания SEO-аудита WordPress. Разобрал ошибку админки из-за конфликта плагинов по памяти и сделал точечное исправление.",
+      "baseline_excerpt": "Design-Moskva — сайт архитектурной студии «Дизайн-Москва».",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 48,
+      "slug": "anfilada-design",
+      "type": "sy3_case",
+      "baseline_hash": "17d720f6444168b3e20de2b14b2c9dc74447806f1df9dc1a7031ce7245276538",
+      "file": "anfilada-design.html",
+      "candidate_hash": "feb5b6082853db18008e98e49781529e7fd30246192687e507a98be5f636ec87",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Показать исходный SEO-аудит и причины ошибок, сократить служебный перечень. Сохранить формы и согласия как проверенные сценарии, без юридических гарантий.",
+      "needs_facts": [],
+      "excerpt": "Нашёл и исправил старые ссылки, пустые кнопки и ошибки Elementor на действующем WordPress-сайте. Сохранил дизайн, popup-формы и структуру.",
+      "baseline_excerpt": "Anfilada Design — сайт архитектурно-дизайнерской студии, работающей с проектированием зданий и дизайном интерьеров в Москве и по России.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 50,
+      "slug": "avg-realestate",
+      "type": "sy3_case",
+      "baseline_hash": "cc33652f6ef956ebc456ecbc2ed93859a474cd7760f37f785600e2495b4743ee",
+      "file": "avg-realestate.html",
+      "candidate_hash": "e24f4192edeff3a005f741c3d5139e2a576ed88a4113e27a555baa9244618001",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Убрать неподтверждённое обещание юридической корректности и безопасности; ясно отделить исправленные формы от локализованной проблемы домена.",
+      "needs_facts": [],
+      "excerpt": "Добавил документы, реквизиты, согласия и honeypot в формы WordPress. Отдельно локализовал проблему домена и SSL и подготовил обращение хостингу.",
+      "baseline_excerpt": "AVG Real Estate — сайт агентства недвижимости Анны Гусевой.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 52,
+      "slug": "ocifrovkavideokasset",
+      "type": "sy3_case",
+      "baseline_hash": "42eaf07f68d48718f8e8d9d459fdbfa499cbd0de68079c588e28477639c9a7e7",
+      "file": "ocifrovkavideokasset.html",
+      "candidate_hash": "4c3893a5678354bea558736e1de4415bc23d8770b8136a3133153b72b683dc4c",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Сохранить восстановление MODX и факт заражения, убрать абсолютное обещание безопасной версии и полного отсутствия угроз.",
+      "needs_facts": [],
+      "excerpt": "Восстановил сайт услуги оцифровки на MODX после заражения: доступ в manager, отображение страниц, обновление CMS и совместимое окружение PHP.",
+      "baseline_excerpt": "ocifrovkavideokasset.ru — сайт услуги по оцифровке видеокассет.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 54,
+      "slug": "petlifeexpo",
+      "type": "sy3_case",
+      "baseline_hash": "b565c2dc8d2b22d416146f7be4a04ea54279af1b3ad8ca073416a872d4f7f129",
+      "file": "petlifeexpo.html",
+      "candidate_hash": "c144b12c2ef983d771332646a27be0f0263d37db99bfda660c6779d93ca089f9",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Назвать конкретную независимость от исходной платформы; не выдавать технический перенос за гарантию доступности во всех сетях.",
+      "needs_facts": [],
+      "excerpt": "Перенёс сайт из Gamma в статический HTML на собственном хостинге: локальные изображения, шрифты и стили, мобильная версия и анимация.",
+      "baseline_excerpt": "Pet Life Expo — сайт выставочного проекта для pet-индустрии.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 56,
+      "slug": "proffstroy",
+      "type": "sy3_case",
+      "baseline_hash": "73ec0c335d9945a384b1aad16acc8d89de93c1623599b68c70a9425a32fb5004",
+      "file": "proffstroy.html",
+      "candidate_hash": "3dbc809cf9962825909472502b8977968df3f792463a3e3a31537c02f385f955",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Показать вёрстку и подготовку к переносу без неподтверждённого запуска. Сохранить техническое условие PHP/mail.",
+      "needs_facts": [],
+      "excerpt": "Собрал строительный лендинг по Figma, внёс правки заказчика, добавил галерею и формы. Подготовил переносимый проект с условиями для PHP-обработчика.",
+      "baseline_excerpt": "ПроффСтрой — сайт строительной компании, которая занимается ремонтом квартир и домов, строительством капитальных и каркасных домов, а также достройкой и реконструкцией объектов в Кисловодске и окрестностях.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    },
+    {
+      "id": 58,
+      "slug": "asia-shadrin",
+      "type": "sy3_case",
+      "baseline_hash": "8b1bb693c3c9371c2bac57c9f0b0ce1a20c78b8a58e3f384c2318630e6809088",
+      "file": "asia-shadrin.html",
+      "candidate_hash": "77647812c228ee2a83d109d1a90f434fba7b5d35f260a1aa9ac9cf9f103d3c29",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "REWRITE",
+      "source_files": [
+        "wordpress/content/cases.json"
+      ],
+      "evidence": [
+        "Accepted public portfolio, source body matches captured WordPress SHA256; no fresh client-system measurement."
+      ],
+      "why": "Отделить новую статью/шаблон от разработки всего сайта и конкретно объяснить работу без мобильного макета.",
+      "needs_facts": [],
+      "excerpt": "Сверстал первую статью блога по Figma и встроил её в MODX. Адаптировал под телефон без отдельного мобильного макета, добавил две формы и опубликовал.",
+      "baseline_excerpt": "Для сайта Asia Shadrin нужно было сверстать и опубликовать новую страницу статьи для блога по макету из Figma.",
+      "status": "publish",
+      "date": "2026-10-22 19:54:53"
+    }
+  ]
+}

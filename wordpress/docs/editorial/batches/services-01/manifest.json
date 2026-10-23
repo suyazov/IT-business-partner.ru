@@ -1,0 +1,1001 @@
+{
+  "batch": "services-01",
+  "source_base": "273d8b4",
+  "production_authority": false,
+  "runtime_or_database_changed": false,
+  "article_minimum_policy_changed": false,
+  "candidates": [
+    {
+      "id": 242,
+      "slug": "web-development",
+      "type": "sy3_service",
+      "baseline_hash": "3d36de4b73012eb79735baa5c3624099508f1768a3c85cedb8c7bbb0d5988bbb",
+      "file": "web-development.html",
+      "candidate_hash": "21aa8e236f469cd05e665ef3e91d53d8f3794203c66a684edee755a876f04798",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Сохранены форматы разработки, CMS, стек и 6 примеров; подробнее раскрыт проверяемый инструмент LibertyGas.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "libertygas",
+          "case_id": 21,
+          "url": "https://sy3.ru/cases/libertygas/",
+          "body_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "chitayka",
+          "case_id": 34,
+          "url": "https://sy3.ru/cases/chitayka/",
+          "body_hash": "7d32027e34b32f51859970b9a122dc020987bf442a6b2e960dcd8ee36c70e982"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "stilspace",
+          "case_id": 27,
+          "url": "https://sy3.ru/cases/stilspace/",
+          "body_hash": "9cdb293b3434401cbedf78978ed85051d224ad6bb488f4ac94b0d9433b5001aa"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "postavki26",
+          "case_id": 23,
+          "url": "https://sy3.ru/cases/postavki26/",
+          "body_hash": "56919fb0c29bcd356e527b480b6f2e075f68b32dbfc6ae04c3f66125d181e3fd"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "glosscheck",
+          "case_id": 16,
+          "url": "https://sy3.ru/cases/glosscheck/",
+          "body_hash": "2fae148aefd14ef278d2aafa3fb847ccf40034148e2fddba5e79f72f31bf4406"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "shumakova-yookassa",
+          "case_id": 25,
+          "url": "https://sy3.ru/cases/shumakova-yookassa/",
+          "body_hash": "b4a5211e52b290c06386409ccad4faa3e158c2a15672478ebbed5afa6b6cade0"
+        }
+      ],
+      "source_files": [
+        "wordpress/content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 242",
+      "preserved": {
+        "post_title": "Создание сайтов и веб-сервисов",
+        "post_excerpt": "Лендинги, корпоративные сайты, каталоги и веб-приложения под задачи бизнеса. Проектирование, разработка, CMS и интеграции — до рабочего пользовательского сценария.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 22:05:55",
+        "post_date_gmt": "2026-10-22 19:05:55",
+        "post_modified": "2026-10-22 22:05:55",
+        "post_modified_gmt": "2026-10-22 19:05:55",
+        "post_author": "0",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/services/web-development/",
+        "meta": {
+          "_sy3_seed": "service:web-development",
+          "_sy3_seed_hash": "3d36de4b73012eb79735baa5c3624099508f1768a3c85cedb8c7bbb0d5988bbb",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Лендинги, корпоративные сайты, каталоги и веб-приложения под задачи бизнеса. Проектирование, разработка, CMS и интеграции — до рабочего пользовательского сценария.",
+          "_sy3_label": "Сайты и веб-сервисы",
+          "_sy3_related": "34,23,16",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3789
+    },
+    {
+      "id": 249,
+      "slug": "website-support",
+      "type": "sy3_service",
+      "baseline_hash": "c83caf3fba6903a619ae0c54200f84efd40b5e2271e9e24ebbc6225be1ca398c",
+      "file": "website-support.html",
+      "candidate_hash": "900ea9c95fbe6ecb468c461e4ae3c963f6e9372fe76adb24a8cd6efc29e5a263",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Сбой отделён от развития; есть воспроизводимый пример и кейс ошибки административной части; режим поддержки согласуется отдельно.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "design-moskva",
+          "case_id": 46,
+          "url": "https://sy3.ru/cases/design-moskva/",
+          "body_hash": "53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "avg-realestate",
+          "case_id": 50,
+          "url": "https://sy3.ru/cases/avg-realestate/",
+          "body_hash": "cc33652f6ef956ebc456ecbc2ed93859a474cd7760f37f785600e2495b4743ee"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "antispam-24-sites",
+          "case_id": 18,
+          "url": "https://sy3.ru/cases/antispam-24-sites/",
+          "body_hash": "71614c1bae1f87dc685ff5572711b6c5b4d5d8903211d3b87a3bd2fc64ffe7d7"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 249",
+      "preserved": {
+        "post_title": "Техническая поддержка сайта",
+        "post_excerpt": "Исправление ошибок, контроль заявок, обновления и развитие действующего сайта. Понятный список работ, приоритеты и проверка результата — с Артёмом на связи.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:29",
+        "post_date_gmt": "2026-10-22 20:16:29",
+        "post_modified": "2026-10-22 23:16:29",
+        "post_modified_gmt": "2026-10-22 20:16:29",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "10",
+        "url": "https://sy3.ru/services/website-support/",
+        "meta": {
+          "_sy3_seed": "service:website-support",
+          "_sy3_seed_hash": "c83caf3fba6903a619ae0c54200f84efd40b5e2271e9e24ebbc6225be1ca398c",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Исправление ошибок, контроль заявок, обновления и развитие действующего сайта. Понятный список работ, приоритеты и проверка результата — с Артёмом на связи.",
+          "_sy3_label": "Поддержка сайтов",
+          "_sy3_related": "46,50,18",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3133
+    },
+    {
+      "id": 250,
+      "slug": "website-modernization",
+      "type": "sy3_service",
+      "baseline_hash": "223ef5fe02a0ec052d612c24fd43e4eabf69931653c03c279f1d5fa601273dce",
+      "file": "website-modernization.html",
+      "candidate_hash": "b61b6779b7c21dfd869eb03d3ca9afddddc72f2b0e3b3547e9189dd4a3406156",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Первый этап привязан к действию пользователя; пример WooCommerce объясняет, что проверять вместе с изменением.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "real-flacon",
+          "case_id": 38,
+          "url": "https://sy3.ru/cases/real-flacon/",
+          "body_hash": "23e84a30d2bdec68f7026ff26ba7648014e34a38a2f1103affe96e7c903d4cf7"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "digital-belka",
+          "case_id": 40,
+          "url": "https://sy3.ru/cases/digital-belka/",
+          "body_hash": "5038a272c5c218d3fbefeb2257062407b2fdd2d0566419d0d1b7f8c33b61db39"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "asia-shadrin",
+          "case_id": 58,
+          "url": "https://sy3.ru/cases/asia-shadrin/",
+          "body_hash": "8b1bb693c3c9371c2bac57c9f0b0ce1a20c78b8a58e3f384c2318630e6809088"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 250",
+      "preserved": {
+        "post_title": "Модернизация и доработка сайта",
+        "post_excerpt": "Новые функции, удобная мобильная версия, управляемый контент и исправление пользовательских сценариев. Развиваем работающий сайт по приоритетам бизнеса.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:29",
+        "post_date_gmt": "2026-10-22 20:16:29",
+        "post_modified": "2026-10-22 23:16:29",
+        "post_modified_gmt": "2026-10-22 20:16:29",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "11",
+        "url": "https://sy3.ru/services/website-modernization/",
+        "meta": {
+          "_sy3_seed": "service:website-modernization",
+          "_sy3_seed_hash": "223ef5fe02a0ec052d612c24fd43e4eabf69931653c03c279f1d5fa601273dce",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Новые функции, удобная мобильная версия, управляемый контент и исправление пользовательских сценариев. Развиваем работающий сайт по приоритетам бизнеса.",
+          "_sy3_label": "Развитие сайта",
+          "_sy3_related": "38,40,58",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3357
+    },
+    {
+      "id": 251,
+      "slug": "website-audit",
+      "type": "sy3_service",
+      "baseline_hash": "d9cf5c030b5453568a3579fbdd46c8af690e03163d6b935ad1e483971647fb09",
+      "file": "website-audit.html",
+      "candidate_hash": "1cba620201ec841270003213df9268160c2f753fd197591d6f7899da24fe1d3f",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Разделены задачи SEO, поддержки и редизайна; наблюдение и гипотеза не смешиваются; исправления оцениваются отдельно.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "anfilada-design",
+          "case_id": 48,
+          "url": "https://sy3.ru/cases/anfilada-design/",
+          "body_hash": "17d720f6444168b3e20de2b14b2c9dc74447806f1df9dc1a7031ce7245276538"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "saneq-technology",
+          "case_id": 44,
+          "url": "https://sy3.ru/cases/saneq-technology/",
+          "body_hash": "4ccd2378ce3da2002063ddab42d316f5f9b970046e51f92b0df64828f04fa400"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "design-moskva",
+          "case_id": 46,
+          "url": "https://sy3.ru/cases/design-moskva/",
+          "body_hash": "53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 251",
+      "preserved": {
+        "post_title": "Технический аудит сайта",
+        "post_excerpt": "Проверка индексации, редиректов, скорости, форм и технического состояния сайта. На выходе — приоритеты, воспроизводимые ошибки и план исправлений.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:29",
+        "post_date_gmt": "2026-10-22 20:16:29",
+        "post_modified": "2026-10-22 23:16:29",
+        "post_modified_gmt": "2026-10-22 20:16:29",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "12",
+        "url": "https://sy3.ru/services/website-audit/",
+        "meta": {
+          "_sy3_seed": "service:website-audit",
+          "_sy3_seed_hash": "d9cf5c030b5453568a3579fbdd46c8af690e03163d6b935ad1e483971647fb09",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Проверка индексации, редиректов, скорости, форм и технического состояния сайта. На выходе — приоритеты, воспроизводимые ошибки и план исправлений.",
+          "_sy3_label": "Аудит сайта",
+          "_sy3_related": "48,44,46",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3359
+    },
+    {
+      "id": 252,
+      "slug": "wordpress-support",
+      "type": "sy3_service",
+      "baseline_hash": "634b984421f10c314013af692698db23a08c8f54c24ca23c4873f0be2fde8fb8",
+      "file": "wordpress-support.html",
+      "candidate_hash": "7197ec4ad70bbe5ee4c9cd522495dd7fa0f5641d8e3bc4164fb9230edb9de7ce",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Сохранены обновления и работа с актуальными заказами; управляемость показана через WordPress/ACF, без требования новой темы.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "star26",
+          "case_id": 29,
+          "url": "https://sy3.ru/cases/star26/",
+          "body_hash": "13c3544dd4ae264c76eac30f15abeae6663982ee75aa295a968a0aebc4e4964b"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "real-flacon",
+          "case_id": 38,
+          "url": "https://sy3.ru/cases/real-flacon/",
+          "body_hash": "23e84a30d2bdec68f7026ff26ba7648014e34a38a2f1103affe96e7c903d4cf7"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "anfilada-design",
+          "case_id": 48,
+          "url": "https://sy3.ru/cases/anfilada-design/",
+          "body_hash": "17d720f6444168b3e20de2b14b2c9dc74447806f1df9dc1a7031ce7245276538"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 252",
+      "preserved": {
+        "post_title": "Поддержка и доработка WordPress",
+        "post_excerpt": "Обновления, исправления, формы, шаблоны, WooCommerce и развитие административной части WordPress. Сохраняем контент и проверяем важные действия сайта.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:29",
+        "post_date_gmt": "2026-10-22 20:16:29",
+        "post_modified": "2026-10-22 23:16:29",
+        "post_modified_gmt": "2026-10-22 20:16:29",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "13",
+        "url": "https://sy3.ru/services/wordpress-support/",
+        "meta": {
+          "_sy3_seed": "service:wordpress-support",
+          "_sy3_seed_hash": "634b984421f10c314013af692698db23a08c8f54c24ca23c4873f0be2fde8fb8",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Обновления, исправления, формы, шаблоны, WooCommerce и развитие административной части WordPress. Сохраняем контент и проверяем важные действия сайта.",
+          "_sy3_label": "WordPress",
+          "_sy3_related": "38,29,48",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 2927
+    },
+    {
+      "id": 253,
+      "slug": "bitrix24-support",
+      "type": "sy3_service",
+      "baseline_hash": "6a795b04fc71190dbb3958891943c734ec7aef15f08fb7e2c2a0e4492043328e",
+      "file": "bitrix24-support.html",
+      "candidate_hash": "a3c62ecb73c7dd4d029b3b31b048a2c33439a5f935833414bcd196cc604c36bd",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Личная роль и рабочие права заменили обезличенный процесс; сохранены ограничения тарифа, зависимостей и часов поддержки.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-training",
+          "case_id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-doors",
+          "case_id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 253",
+      "preserved": {
+        "post_title": "Сопровождение и доработка Битрикс24",
+        "post_excerpt": "Развитие действующего Битрикс24: поля, воронки, роботы, доступы, интеграции и рабочие инструкции. Разбираем сбои и проверяем изменения на реальных сценариях.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "14",
+        "url": "https://sy3.ru/services/bitrix24-support/",
+        "meta": {
+          "_sy3_seed": "service:bitrix24-support",
+          "_sy3_seed_hash": "6a795b04fc71190dbb3958891943c734ec7aef15f08fb7e2c2a0e4492043328e",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Развитие действующего Битрикс24: поля, воронки, роботы, доступы, интеграции и рабочие инструкции. Разбираем сбои и проверяем изменения на реальных сценариях.",
+          "_sy3_label": "Сопровождение CRM",
+          "_sy3_related": "12,14",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 2966
+    },
+    {
+      "id": 254,
+      "slug": "business-analysis",
+      "type": "sy3_service",
+      "baseline_hash": "541e7c2433a7da7114520c79e66ad96bafb53105c070f973f2b10f783b634093",
+      "file": "business-analysis.html",
+      "candidate_hash": "676be9620dc8b039092ebc09bb8105f084ebb2cd32c1cd7a695dc84dd8830c6a",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Есть конкретный состав требований и проверенный аналитический этап; ТЗ не выдано за внедрённую интеграцию.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "crm-hr-requirements",
+          "case_id": 576,
+          "url": "https://sy3.ru/cases/crm-hr-requirements/",
+          "body_hash": "f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-doors",
+          "case_id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-training",
+          "case_id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "libertygas",
+          "case_id": 21,
+          "url": "https://sy3.ru/cases/libertygas/",
+          "body_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 254",
+      "preserved": {
+        "post_title": "Бизнес-анализ перед автоматизацией",
+        "post_excerpt": "Разбираем текущие процессы, данные и ограничения. На выходе — согласованная модель работы, приоритеты, требования и критерии приёмки будущей системы.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "15",
+        "url": "https://sy3.ru/services/business-analysis/",
+        "meta": {
+          "_sy3_seed": "service:business-analysis",
+          "_sy3_seed_hash": "541e7c2433a7da7114520c79e66ad96bafb53105c070f973f2b10f783b634093",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Разбираем текущие процессы, данные и ограничения. На выходе — согласованная модель работы, приоритеты, требования и критерии приёмки будущей системы.",
+          "_sy3_label": "Бизнес-анализ",
+          "_sy3_related": "12,14,21",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3403
+    },
+    {
+      "id": 255,
+      "slug": "business-process-automation",
+      "type": "sy3_service",
+      "baseline_hash": "7cfd179180e6b16221b4c01e6b3d161133202612086ac998b80a688cb314aa17",
+      "file": "business-process-automation.html",
+      "candidate_hash": "4be9eb856420fa5357ca2134b0c686542fbf593ccbba1b14cd14ce1fece649ab",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Один ручной участок и исключения вместо общего обещания; автоматизация и последующая оценка эффекта разделены.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-training",
+          "case_id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "libertygas",
+          "case_id": 21,
+          "url": "https://sy3.ru/cases/libertygas/",
+          "body_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-doors",
+          "case_id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 255",
+      "preserved": {
+        "post_title": "Автоматизация бизнес-процессов",
+        "post_excerpt": "Заявки, согласования, документы и межсистемный обмен. Связываем участников, правила и инструменты в рабочий процесс с понятными точками контроля.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "16",
+        "url": "https://sy3.ru/services/business-process-automation/",
+        "meta": {
+          "_sy3_seed": "service:business-process-automation",
+          "_sy3_seed_hash": "7cfd179180e6b16221b4c01e6b3d161133202612086ac998b80a688cb314aa17",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Заявки, согласования, документы и межсистемный обмен. Связываем участников, правила и инструменты в рабочий процесс с понятными точками контроля.",
+          "_sy3_label": "Автоматизация процессов",
+          "_sy3_related": "14,12,21",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3337
+    },
+    {
+      "id": 256,
+      "slug": "website-migration",
+      "type": "sy3_service",
+      "baseline_hash": "d2cff76a48be39db3684251dcff1721fcc699311b783f33359d6ce023a99afe7",
+      "file": "website-migration.html",
+      "candidate_hash": "8c3c0042ef58d28bf206490ff101deaac3a5ccedc80553c902982c5f47f974ed",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Статический перенос не выдан за WordPress; сохранены актуальные данные, DNS, внешние подключения и ограничения SEO.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "petlifeexpo",
+          "case_id": 54,
+          "url": "https://sy3.ru/cases/petlifeexpo/",
+          "body_hash": "b565c2dc8d2b22d416146f7be4a04ea54279af1b3ad8ca073416a872d4f7f129"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "star26",
+          "case_id": 29,
+          "url": "https://sy3.ru/cases/star26/",
+          "body_hash": "13c3544dd4ae264c76eac30f15abeae6663982ee75aa295a968a0aebc4e4964b"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "stilspace",
+          "case_id": 27,
+          "url": "https://sy3.ru/cases/stilspace/",
+          "body_hash": "9cdb293b3434401cbedf78978ed85051d224ad6bb488f4ac94b0d9433b5001aa"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 256",
+      "preserved": {
+        "post_title": "Перенос сайта на новую платформу или хостинг",
+        "post_excerpt": "Переносим контент, структуру и рабочие сценарии. Составляем карту адресов, проверяем формы, изображения, редиректы и административную часть после публикации.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "17",
+        "url": "https://sy3.ru/services/website-migration/",
+        "meta": {
+          "_sy3_seed": "service:website-migration",
+          "_sy3_seed_hash": "d2cff76a48be39db3684251dcff1721fcc699311b783f33359d6ce023a99afe7",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Переносим контент, структуру и рабочие сценарии. Составляем карту адресов, проверяем формы, изображения, редиректы и административную часть после публикации.",
+          "_sy3_label": "Перенос сайта",
+          "_sy3_related": "54,29,27",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3145
+    },
+    {
+      "id": 257,
+      "slug": "crm-audit",
+      "type": "sy3_service",
+      "baseline_hash": "c9696fefa3eac66a665fd7ac1b102bd104c89f93abe20afdd28cd69835f8fa1e",
+      "file": "crm-audit.html",
+      "candidate_hash": "d757e80110a6e1c8e44d3898d995dd58089839d1eed56968f48521145f13fee0",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Проверка построена на рабочем случае; контрольные сделки отделены от продаж, диагностика — от изменений данных.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "matklass",
+          "case_id": 19,
+          "url": "https://sy3.ru/cases/matklass/",
+          "body_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-doors",
+          "case_id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-training",
+          "case_id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 257",
+      "preserved": {
+        "post_title": "Аудит Битрикс24 и действующей CRM",
+        "post_excerpt": "Проверяем путь заявки, воронки, поля, права, автоматизацию и интеграции. Получаете список подтверждённых проблем и приоритетный план развития CRM.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "18",
+        "url": "https://sy3.ru/services/crm-audit/",
+        "meta": {
+          "_sy3_seed": "service:crm-audit",
+          "_sy3_seed_hash": "c9696fefa3eac66a665fd7ac1b102bd104c89f93abe20afdd28cd69835f8fa1e",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Проверяем путь заявки, воронки, поля, права, автоматизацию и интеграции. Получаете список подтверждённых проблем и приоритетный план развития CRM.",
+          "_sy3_label": "Аудит CRM",
+          "_sy3_related": "12,14,19",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 2997
+    },
+    {
+      "id": 258,
+      "slug": "website-crm-integration",
+      "type": "sy3_service",
+      "baseline_hash": "e60741b31adca662af57e5abf4a557c9888ac84808d5bfdb2236feed5eaef601",
+      "file": "website-crm-integration.html",
+      "candidate_hash": "116630e9179efab460c845bcb8213aa76af9e3b2bac12e7cfd44b059d4d0be12",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Маршруты форм, конечная карточка, повторы и сбои сохранены; безопасность объяснена в месте выбора подключения.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "matklass",
+          "case_id": 19,
+          "url": "https://sy3.ru/cases/matklass/",
+          "body_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "bitrix24-doors",
+          "case_id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80"
+        },
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "antispam-24-sites",
+          "case_id": 18,
+          "url": "https://sy3.ru/cases/antispam-24-sites/",
+          "body_hash": "71614c1bae1f87dc685ff5572711b6c5b4d5d8903211d3b87a3bd2fc64ffe7d7"
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 258",
+      "preserved": {
+        "post_title": "Интеграция сайта с CRM",
+        "post_excerpt": "Связываем формы сайта с Битрикс24 и другими CRM: поля, источники, ответственные, повторы и диагностика ошибок. Проверяем не уведомление, а полный путь обращения.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "19",
+        "url": "https://sy3.ru/services/website-crm-integration/",
+        "meta": {
+          "_sy3_seed": "service:website-crm-integration",
+          "_sy3_seed_hash": "e60741b31adca662af57e5abf4a557c9888ac84808d5bfdb2236feed5eaef601",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Связываем формы сайта с Битрикс24 и другими CRM: поля, источники, ответственные, повторы и диагностика ошибок. Проверяем не уведомление, а полный путь обращения.",
+          "_sy3_label": "Сайт и CRM",
+          "_sy3_related": "19,12,18",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3170
+    },
+    {
+      "id": 259,
+      "slug": "1c-integration",
+      "type": "sy3_service",
+      "baseline_hash": "dd6b17b499a1cd9adfd85e1b57a439a00171cb9ad524f6b9fae7ece37624754e",
+      "file": "1c-integration.html",
+      "candidate_hash": "44dc0fefb291d3f84ab6631c20bed2acf98077871b8febb42c7cd7e891aea041",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Явно названы подрядчики; аналитическая практика не выдана за реализацию 1С; методика учёта остаётся у заказчика.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "crm-hr-requirements",
+          "case_id": 576,
+          "url": "https://sy3.ru/cases/crm-hr-requirements/",
+          "body_hash": "f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468"
+        },
+        {
+          "status": "VERIFIED",
+          "claim": "Профильные подрядчики по 1С; личная роль — требования, координация, проверка.",
+          "source": "Owner instruction; wordpress/docs/WORK_PROCESS.md",
+          "limitation": "HR requirements case is not a 1C implementation case."
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/partner-services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 259",
+      "preserved": {
+        "post_title": "Доработка 1С и интеграции с бизнес-системами",
+        "post_excerpt": "Обмен между 1С, CRM, сайтом и рабочими сервисами. Я разбираю процесс и веду проект, профильные работы по 1С выполняют проверенные подрядчики.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "20",
+        "url": "https://sy3.ru/services/1c-integration/",
+        "meta": {
+          "_sy3_seed": "service:1c-integration",
+          "_sy3_seed_hash": "dd6b17b499a1cd9adfd85e1b57a439a00171cb9ad524f6b9fae7ece37624754e",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Обмен между 1С, CRM, сайтом и рабочими сервисами. Я разбираю процесс и веду проект, профильные работы по 1С выполняют проверенные подрядчики.",
+          "_sy3_label": "1С и обмен данными",
+          "_sy3_related": "",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3559
+    },
+    {
+      "id": 260,
+      "slug": "bi-dashboards",
+      "type": "sy3_service",
+      "baseline_hash": "6d3ee287305eef5810d358bd792133903e0c4cf4a634110f59fb11dd5881e666",
+      "file": "bi-dashboards.html",
+      "candidate_hash": "609ce28332ce25b2b82590c58cd725776db6043880dfcfb8da72ca8915567117",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "decision": "REWRITE",
+      "reason": "Добавлен подтверждённый обезличенный HR-дашборд без выдуманных функций; определения, качество и свежесть данных сохранены.",
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "scope": "Accepted public case text only; no new live client-system audit or business-effect measurement.",
+          "case_slug": "hiring-funnel-dashboard",
+          "case_id": 574,
+          "url": "https://sy3.ru/cases/hiring-funnel-dashboard/",
+          "body_hash": "23e27546858edd0192d8f565cfa6b751b5baa9c90af5843cb21547904e3ff2d1"
+        },
+        {
+          "status": "VERIFIED",
+          "claim": "Профильные дата-аналитики участвуют в моделях данных и дашбордах.",
+          "source": "Owner instruction; wordpress/docs/WORK_PROCESS.md",
+          "limitation": "No invented HR dashboard platform, filters, volumes or recruitment performance."
+        }
+      ],
+      "source_files": [
+        "wordpress/search-content/partner-services.json",
+        "wordpress/docs/PORTFOLIO_SOURCE.md",
+        "wordpress/docs/WORK_PROCESS.md",
+        "wordpress/docs/editorial/FACTS_AND_CLAIMS.md"
+      ],
+      "baseline_evidence": "runtime-baseline.json: sy3_service ID 260",
+      "preserved": {
+        "post_title": "BI-дашборды и управленческая аналитика",
+        "post_excerpt": "Дашборды по данным CRM, 1С, сайта и таблиц. Вместе с профильными дата-аналитиками связываем показатели с решениями руководителя и проверяем качество исходных данных.",
+        "post_status": "publish",
+        "post_date": "2026-10-22 23:16:30",
+        "post_date_gmt": "2026-10-22 20:16:30",
+        "post_modified": "2026-10-22 23:16:30",
+        "post_modified_gmt": "2026-10-22 20:16:30",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "21",
+        "url": "https://sy3.ru/services/bi-dashboards/",
+        "meta": {
+          "_sy3_seed": "service:bi-dashboards",
+          "_sy3_seed_hash": "6d3ee287305eef5810d358bd792133903e0c4cf4a634110f59fb11dd5881e666",
+          "_sy3_editorial_key": "",
+          "_sy3_editorial_at": "",
+          "_sy3_editorial_batch": "",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Дашборды по данным CRM, 1С, сайта и таблиц. Вместе с профильными дата-аналитиками связываем показатели с решениями руководителя и проверяем качество исходных данных.",
+          "_sy3_label": "Данные и дашборды",
+          "_sy3_related": "",
+          "_thumbnail_id": ""
+        },
+        "terms": [],
+        "cover": null
+      },
+      "body_only": true,
+      "review_hash_created": false,
+      "proposed_work_status": "PLANNED: scope, cost, limitations and acceptance agreed per project.",
+      "reader_test": "READER_TEST_NOT_RUN",
+      "visible_characters": 3275
+    }
+  ]
+}
