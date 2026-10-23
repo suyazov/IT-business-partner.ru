@@ -1,0 +1,454 @@
+{
+  "candidates": [
+    {
+      "id": 139,
+      "slug": "ravnomernaya-ochered-crm",
+      "type": "post",
+      "baseline_hash": "1aecd9ef7852e4c91e9f90a44100e3d5429b32ad7f71d08ef7e1c25815bc1cd8",
+      "file": "ravnomernaya-ochered-crm.html",
+      "candidate_hash": "98e24a6a09a15d81b8a6ab46d24f28684642b58133c019e00286c65c9e6e5e02",
+      "visible_chars": 11005,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=2",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-2.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime139 read; editorial ID2 plus longform article-2 mapped via inventory.",
+        "cases.json bitrix24-doors: active-manager queue, availability, same mail participants confirmed; no claim of equal revenue or workload.",
+        "Official queue/availability docs visited 2026-10-23 in earlier batch: https://helpdesk.bitrix24.ru/open/26228062/ ; https://helpdesk.bitrix24.ru/open/25115040/ .",
+        "REWRITE: repeated early exception/statistics summary removed; substantive flow table and allocation analysis retained; initial-versus-current-owner counterexample added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 399,
+      "slug": "stoimost-ii-stsenariya",
+      "type": "post",
+      "baseline_hash": "e3d40be88f8914b83f0dae32861ceadc1d6c4db6e1ec88f12c1a8f55574b4fe4",
+      "file": "stoimost-ii-stsenariya.html",
+      "candidate_hash": "7e9cac5464cb6fa22d4d1f3bd9575f9928512d628c0c2621accca816675fa1e1",
+      "visible_chars": 12402,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/196-stoimost-ii-stsenariya.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime399 read; source196 mapped. No price amounts or vendor billing assumptions introduced.",
+        "OpenAI Docs skill: topic search then official production-best-practices page fetched 2026-10-23; https://developers.openai.com/api/docs/guides/production-best-practices cost monitoring verified. No paid API used.",
+        "REWRITE: duplicate early formula/limits summaries removed; full formula, branch table, repeat accounting and quality comparison retained; transparent ten-request/twelve-attempt worked example added.",
+        "Calculation is illustrative engineering cost accounting, not claimed savings/client metrics or financial advice."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 266,
+      "slug": "canonical-kak-proverit",
+      "type": "post",
+      "baseline_hash": "ab3a0d897e0c0515baebec0d2d579157d4d84ee0a6c667d53853445e3f18c3bf",
+      "file": "canonical-kak-proverit.html",
+      "candidate_hash": "6ba1179c18c46592397261077a72e0e7930ded2840ad439f47bfe6cf93c10047",
+      "visible_chars": 11332,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/106-canonical-kak-proverit.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime266 read; source106 mapped.",
+        "Primary visited 2026-10-23: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls ; canonical signal strength/consistency and HTTP header concept verified.",
+        "cases.json saneq-technology inspected earlier: canonical technical control confirmed, no traffic/position effect or unrelated page merger asserted.",
+        "REWRITE: duplicate early URL/example/completion summary removed; detailed semantics, filter/pagination and template cases retained; sourced technical scope plus attribution-preservation counterexample added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 285,
+      "slug": "obnovlenie-wordpress-bez-polomki",
+      "type": "post",
+      "baseline_hash": "cd1db7086156d7f6c31b9946aeaecccfba0e035a9117b9b6c8f4faa0dd74ad6a",
+      "file": "obnovlenie-wordpress-bez-polomki.html",
+      "candidate_hash": "04b7663651ff1d0b78afc2eaaf934d088257e6afa99c9c51b094381d8be27725",
+      "visible_chars": 11038,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/125-obnovlenie-wordpress-bez-polomki.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime285 read; source125 mapped.",
+        "Primary visited 2026-10-23: https://developer.wordpress.org/advanced-administration/upgrade/upgrading/ ; restoration preparation and cross-version dependencies verified; no blanket destructive upgrade recipe copied.",
+        "REWRITE: four early summaries duplicated detailed release/compatibility and acceptance sections; kept concrete form test, DB-migration, anonymous-path and rare-job checks.",
+        "Added explicit hypothetical pre/post-change order preservation scenario; no live update, backup or DB restoration performed."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 151,
+      "slug": "inventarizaciya-form-na-neskolkih-saytah",
+      "type": "post",
+      "baseline_hash": "a8af07de4bdc7d7ea4367f1f8ebc7486d3fd260bfeb2f52abc7fdaa8e7a66b96",
+      "file": "inventarizaciya-form-na-neskolkih-saytah.html",
+      "candidate_hash": "cfed1e2d33bd75efa989b73ab766c1967114cfb076e16c12254fd43f6cbc2e1d",
+      "visible_chars": 11431,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=12",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-12.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime151 read; editorial ID12 and longform article-12 mapped.",
+        "cases.json antispam-24-sites confirms 24 landing pages/91 form states and handler acceptance, not mailbox delivery; original scope preserved.",
+        "Primary visited 2026-10-23: https://www.w3.org/WAI/tutorials/forms/ ; https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form . Inventory procedure is author's methodology.",
+        "REWRITE: early registry-fields/use summary removed; dynamic-state, dependency, incident and evidence sections retained; same-handler/different-browser-route counterexample added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 290,
+      "slug": "stadii-voronki-prodazh-crm",
+      "type": "post",
+      "baseline_hash": "6b643f4825219cacad19545afe374bc2181db42a7244edafa568e8e8366b6fcf",
+      "file": "stadii-voronki-prodazh-crm.html",
+      "candidate_hash": "41ce21ca274017a835849e7201b3496db544eb44a90d54ac3276de77a7b243a8",
+      "visible_chars": 12572,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/146-stadii-voronki-prodazh-crm.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime290 read; source146 mapped.",
+        "Primary visited 2026-10-23: https://helpdesk.bitrix24.ru/open/26161116/ ; deal/stage concepts checked; no UI path/tariff assumptions added.",
+        "Existing door-case link preserved; no exact deployed stage set inferred from that case.",
+        "REWRITE: four duplicate early setup/example/error/return summaries removed; full stage passports, transition table, required-field/robot/analytics checks retained; ambiguous-agreement stage example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 347,
+      "slug": "sipoc-opisanie-processa",
+      "type": "post",
+      "baseline_hash": "7fed3bc160d6366505d5640fc0c39fc5f569265e716737efc7c493e76b1e45d8",
+      "file": "sipoc-opisanie-processa.html",
+      "candidate_hash": "75a28bfdabbc27a3790d70544d101a5f17dcff817ffafcc8153f771d3f20f17e",
+      "visible_chars": 11279,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/165-sipoc-opisanie-processa.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime347 read; source165 mapped.",
+        "Primary visited 2026-10-23: https://asq.org/quality-resources/sipoc ; five core elements/high-level boundary and stakeholders verified, no third-party performance case reused.",
+        "REWRITE: four repetitive early example/check summaries removed; complete supplier/input/output/detail tables retained; circular/incomplete-input counterexample added.",
+        "No claimed own SIPOC implementation or client effect inferred from general analysis cases."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 400,
+      "slug": "aktualnost-bazy-znaniy-kompanii",
+      "type": "post",
+      "baseline_hash": "eb5d3d8c1aa53b7c07144855f7bd84fdc97d79892ba03dbe428b0b1c8ae9c39c",
+      "file": "aktualnost-bazy-znaniy-kompanii.html",
+      "candidate_hash": "845ec167eae12bab043d71f5a2149ec1003d8f7a04ccd3e0c1860701d2243e12",
+      "visible_chars": 12450,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/197-aktualnost-bazy-znaniy-kompanii.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime400 read; source197 mapped.",
+        "Primary visited 2026-10-23: https://www.iiba.org/knowledgehub/the-business-analysis-standard/4-implementing-business-analysis/4-4-understanding-requirements-and-designs/ ; requirements/design traceability section4.4.3 checked.",
+        "REWRITE: early lifecycle/example/base-quality summaries removed; detailed version/effective/review dates, transition, dependencies and feedback preserved; departed-author/current-authority example added.",
+        "No invented client knowledge-base deployment; update/index checks are acceptance requirements, not performed runtime actions."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 162,
+      "slug": "istoriya-ai-chata-i-stoimost",
+      "type": "post",
+      "baseline_hash": "7593de91f5c7076c6d06bbb9fded1b3dadd2037dfceb707500760f0edcc8bbeb",
+      "file": "istoriya-ai-chata-i-stoimost.html",
+      "candidate_hash": "72dccb0cd170d3fd4f0e6975640e7ded8c181048328811a59d23083c0035ce8c",
+      "visible_chars": 11036,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=22",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-22.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime162 read; editorial ID22/longform article-22 mapped.",
+        "cases.json glosscheck confirms history and message/token limits. Narrowed claim: UI control of arbitrary history length and code-free retuning not separately established by published result.",
+        "Official OpenAI production-best-practices searched/fetched 2026-10-23 in this batch; no pricing/model/API code introduced.",
+        "REWRITE: duplicate layer/measurement summary removed; full state/summary/evidence/privacy/quality matrix retained; revoked-send permission example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 267,
+      "slug": "301-ili-302-redirekt",
+      "type": "post",
+      "baseline_hash": "99c53c8dc79a3babb89b050548dd1b7fa08e2320dda06ddaa42d62419161b171",
+      "file": "301-ili-302-redirekt.html",
+      "candidate_hash": "435b39053ae9e6571ade57a17f23ef27f7da735828e58acf30f766c0a7e432d7",
+      "visible_chars": 11505,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/107-301-ili-302-redirekt.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime267 read; source107 mapped.",
+        "Primary visited 2026-10-23: https://developers.google.com/search/docs/crawling-indexing/301-redirects ; permanent/temporary canonical signals verified; no traffic guarantee.",
+        "cases.json anfilada-design confirms technical URL/redirect investigation and preserved forms, not universal replacement of temporary codes.",
+        "REWRITE: early chain/event/checklist summaries removed; detailed lifecycle, POST/client contract and parameter handling retained; sourced case and wrong-layer correction example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 328,
+      "slug": "obnovlenie-php-dlya-wordpress",
+      "type": "post",
+      "baseline_hash": "3ebe1ffbf5fad8a9b2ec4437dc932d6653d6fe69b72b68df75901121c12cb596",
+      "file": "obnovlenie-php-dlya-wordpress.html",
+      "candidate_hash": "42fc2314aef2c2964d9b31515afeb03c4d528ad39740bd89ad75bd0f270df32f",
+      "visible_chars": 10690,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/126-obnovlenie-php-dlya-wordpress.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime328 read; source126 mapped.",
+        "Primary visited 2026-10-23: https://wordpress.org/about/requirements/ ; https://www.php.net/supported-versions.php . No fixed latest-version numbers/lifetime promises copied into candidate.",
+        "REWRITE: four duplicated early module/staging/image/switch summaries removed; full web-vs-CLI, image, background, sharing and rollback analysis retained; safe dependency-to-operation passport added.",
+        "No live PHP/config/cron changes or diagnostic pages created."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 291,
+      "slug": "prava-dostupa-bitrix24-crm",
+      "type": "post",
+      "baseline_hash": "b03fea7e1ec31324a57b5549e7db96af5554ccd7a4afa988116fad5714f63de0",
+      "file": "prava-dostupa-bitrix24-crm.html",
+      "candidate_hash": "640f314b0fa4168b81ea32e485dd7b775b48f041c73d674ba1617c1a8f8d9d79",
+      "visible_chars": 11754,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/147-prava-dostupa-bitrix24-crm.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Full runtime291 read; source147 mapped.",
+        "Primary https://helpdesk.bitrix24.ru/open/23240636/ fetched/checked 2026-10-23, especially multi-role most-permissive intersection and per-element read/create/edit/export rules.",
+        "REWRITE: four repeated early setup/check/result/change summaries removed; detailed role tables, negative tests, кадровые events and external-service boundaries retained; overlapping-role counterexample added.",
+        "No client-specific role matrix inferred from generic door-case link and no permissions modified."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 172,
+      "slug": "avtonomnyy-redaktor-dokumentov",
+      "type": "post",
+      "baseline_hash": "5e6db5446d6d4da2800d4c534c766e0e70fc014ca4f54d94524dad00a68965a1",
+      "file": "avtonomnyy-redaktor-dokumentov.html",
+      "candidate_hash": "da034966cbf3e0a720d40849571a4c9a8caa294bdf86efd7840bef030e0fad2e",
+      "visible_chars": 11552,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=32",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-32.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны runtime172 и mapped longform article32; сохранены таблицы, процесс, MDN источники и ссылка кейса.",
+        "MDN localStorage: требования к file: неопределены; факт проверен 23.10.2026.",
+        "cases.json libertygas подтверждает автономный HTML/A4, 1–3объекта, длинное описание, повторный экспорт и offline; новых совместных функций не приписано.",
+        "Удалены ранние повторы ограничений и чек-листа; добавлен предметный подтверждённый цикл HTML→повторное открытие→PDF."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 348,
+      "slug": "raci-raspredelenie-otvetstvennosti",
+      "type": "post",
+      "baseline_hash": "8a225535235d02325e118184f7c62d942238337cb90c50f6f72d12f13c39bef0",
+      "file": "raci-raspredelenie-otvetstvennosti.html",
+      "candidate_hash": "ade7854427deaf8273a44d3e46e9a2c36f7efc6aab10c3db89b313ab62aab705",
+      "visible_chars": 12311,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/166-raci-raspredelenie-otvetstvennosti.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан runtime348; mapped source166 сверяется по разделам/таблицам и сохранённой панели источников.",
+        "PMI Roles responsibilities and resources: RACI означает Responsible Accountable Consulted Informed; первичный текст открыт 23.10.2026.",
+        "Удалены повторяющие подробный разбор ранние инструкции/пример/права; сохранены матрицы RACI, исключений и приёмки побайтно.",
+        "Новый учебный контрпример различает консультацию и фактическое право остановки; не представлен как внедрённый клиентский процесс."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 268,
+      "slug": "http-https-nginx-redirekt",
+      "type": "post",
+      "baseline_hash": "0a0590cb5212d1a299ca5ff1aac1ec9ad0132b25b9ecee3a17583508340e2ffc",
+      "file": "http-https-nginx-redirekt.html",
+      "candidate_hash": "940f51d2811617f559405595b6b33e9a1e1ff9a41869dac2487f58abf66e2c29",
+      "visible_chars": 12333,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/108-http-https-nginx-redirekt.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source108, runtime дополнения сопоставлены полностью; сохранён исходный блок nginx return301 и все таблицы/схема/источники.",
+        "Nginx converting_rewrite_rules официально показывает отдельный server + return с явным доменом и request_uri; открыт23.10.2026.",
+        "cases.json anfilada-design подтверждает контрольHTTP/www/HTTPS/редиректов, форм и SSL; без роста трафика и утверждения что все302 ошибочны.",
+        "Удалены три ранних повтора готовности/внедрения/чек-листа; оставлен полный последовательный процесс и диагностический разбор."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 329,
+      "slug": "konflikt-plaginov-wordpress",
+      "type": "post",
+      "baseline_hash": "1a139b7f770c3c0fd94ad579b21fc2217706dc135bf60bfb464c5fe84d5fd1d2",
+      "file": "konflikt-plaginov-wordpress.html",
+      "candidate_hash": "5c696ae4f2734a35ccc7e17bd60508757f743d37235341fa244408e3cad21494",
+      "visible_chars": 11578,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/127-konflikt-plaginov-wordpress.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source127; runtime дополнения и исходная схема сопоставлены; таблица наблюдений и источники сохранены побайтно.",
+        "Ранние вводные диагностические шаги удалены как повтор полного процесса, оставлены подробные примеры JavaScript/ресурсов/приёмки.",
+        "Новый учебный контрпример проверяет ошибочное причинное заключение при исчезновении самой функции; не приписан клиенту.",
+        "Первичный WordPress common-errors/debug источник указан в исходнике; повторный webfetch завершился transporterror, технические инструкции/новыеAPIутверждения не добавлялись."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 183,
+      "slug": "bronirovanie-neskolkih-ploshchadok",
+      "type": "post",
+      "baseline_hash": "28ebde0b084bda2398e315c4cf1b872d18e9029344922f7c724dc8d2112cb393",
+      "file": "bronirovanie-neskolkih-ploshchadok.html",
+      "candidate_hash": "3c1c79f77d0a4527708146f05a70eb75a06aeeba7db535b2fe6373312b8343d5",
+      "visible_chars": 13974,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=42",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-42.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитаны source longform42 и runtimeпрефикс/схема/дополнения; все исходные таблицы и process/sourceпанели сохранены.",
+        "Неподтверждённая личная атрибуция готового календарного прототипа заменена явной моделью требований и приёмочных проверок; не выдано за реализованный клиентский результат.",
+        "PostgreSQL constraints открыт23.10.2026: ограничения данных обсуждаются как возможный технический инструмент, не как готовая гарантия комплектной внешней операции.",
+        "Удалены краткие повторные создание/перенос чек-листы; добавлен предметный разбор потерянного ответа в отличие от фактического отказа."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 292,
+      "slug": "dubli-klientov-v-crm",
+      "type": "post",
+      "baseline_hash": "828218f398f7305eee04c594af398964bbca36f2e5fe37de4a457ed14614cdc8",
+      "file": "dubli-klientov-v-crm.html",
+      "candidate_hash": "634bc079bcfd1136112560e8a70edf34cfd9d66f5e9bd3f35111755d27191034",
+      "visible_chars": 11668,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/148-dubli-klientov-v-crm.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source148 и runtime дополнения; сохранены типология, противоречия, матрица связей и схема.",
+        "Официальный Битрикс24 control duplicates документ28033006 открыт23.10.2026; конкретные тарифы/автоматическое поведение не обещаются.",
+        "Удалены четыре ранних пересказа подробного процесса; добавлен контрпример смены адреса с тремя различающими проверками.",
+        "Объединение контактов не представлено как средство устранить технические повторы, новые заказы сохраняются самостоятельными."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 349,
+      "slug": "reglament-biznes-processa",
+      "type": "post",
+      "baseline_hash": "29ae3eb45cfa29fa1e1c8e09c9a289ebddd3a913478bbf112b60cd6b48964eca",
+      "file": "reglament-biznes-processa.html",
+      "candidate_hash": "766a76e19bbfade40f77188595ecf1b5423f333cd079bcac865e3ae3e065f912",
+      "visible_chars": 11433,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/167-reglament-biznes-processa.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source167 и runtimeдополнения; все таблицы/схема/sourceпанель сохранены.",
+        "ISO processapproach первичныйPDF открыт23.10.2026: входы/результаты/связанные действия; соответствие стандарту и сертификация не заявляются.",
+        "Удалены пять ранних пересказов дальнейших подробных разделов; добавлена предметная проверка возврата/ожидания/возобновления.",
+        "Учебный пример не представлен как клиентский внедрённый регламент; сроки и коммерческие обещания не выдуманы."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 269,
+      "slug": "http-https-apache-redirekt",
+      "type": "post",
+      "baseline_hash": "2b1999496249a821b996f2609cc157f79fb94d2c5725ca2b4c618cec7baa1f65",
+      "file": "http-https-apache-redirekt.html",
+      "candidate_hash": "4d198df1417ad01d8c5446c5fc78a5e9af07e88b09c05a4f3a351cef500bc62c",
+      "visible_chars": 11818,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/109-http-https-apache-redirekt.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Полностью прочитан mapped source109 и runtimeсхема/дополнения; исходный примерmod_rewrite и все значимые ссылки сохранены.",
+        "Apache official remapping открыт23.10.2026: отдельныйHTTPVirtualHost+Redirect предпочтён; mod_rewrite применим длядоступного.htaccess, TLStermination/proxytrust оговорены.",
+        "Удалены четыре ранних повтора последовательного процесса и повторяющийся рассказ о панели; добавлен разбор выбора места настройки и точного вопроса хостингу.",
+        "Никаких реальных конфигураций/серверов/сетевыхдоступов не менялось; локальная проверка не названа внешней доступностью."
+      ],
+      "action": "REWRITE"
+    }
+  ]
+}
