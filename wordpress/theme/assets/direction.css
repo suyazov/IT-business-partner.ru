@@ -1,4 +1,10 @@
 /* Load AFTER refinement.css. Main site only. No JavaScript required for visibility. */
+.brand-sy3 .pagination .nav-links{align-items:center;flex-wrap:wrap;gap:8px;font-size:16px}
+.brand-sy3 .pagination .page-numbers{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;line-height:1.25;text-decoration:none}
+.brand-sy3 .pagination .page-numbers.current{background:var(--ink);border-color:var(--ink);color:var(--paper);font-weight:700}
+.brand-sy3 .pagination a.page-numbers:hover{background:var(--accent);border-color:var(--accent);color:var(--ink)}
+.brand-sy3 .pagination a.page-numbers:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.brand-sy3 .pagination .page-numbers.dots{min-width:32px;padding-inline:6px;border-color:transparent}
 body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--accent:#d8f089;--dark:#202322;background:var(--paper);color:var(--ink)}
 .brand-sy3 .article-body .article-inline-cta{padding:28px;margin:40px 0;background:#edf2e3;border:1px solid #d5dfc6;border-radius:16px;min-width:0}
 .brand-sy3 .article-body .article-inline-cta:nth-of-type(even){background:#e8edf6;border-color:#d5deed}
