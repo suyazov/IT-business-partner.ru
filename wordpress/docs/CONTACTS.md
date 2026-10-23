@@ -9,7 +9,7 @@ Footer основного сайта не выводит номер телефо
 `wordpress/tools/update-bot-contacts.php` меняет только body и seed hash owned страниц 4 (`home`, фактическая `page_on_front`) и 6 (`contacts`). Exact before/after SHA256, ID/slug/status/seed и InnoDB защищают ручные правки; два CAS-запроса в общей транзакции, read-back и проверка прочих полей/metadata. Даты, заголовки, excerpt, статусы, revisions, остальные страницы и статьи сохраняются. Повторный запуск не пишет. Root/home/environment и production flag обязательны. Private preview SQLite adapter прошёл применение и повтор; production engine проверяется отдельно.
 
 ```sh
-SY3_IMPORT_DRY_RUN=1 SY3_ALLOW_PRODUCTION_IMPORT=1 wp --path=/var/www/sy3-wordpress --allow-root eval-file wordpress/tools/update-bot-contacts.php
+HTTPS=on SERVER_PORT=443 SY3_IMPORT_DRY_RUN=1 SY3_ALLOW_PRODUCTION_IMPORT=1 wp --path=/var/www/sy3-wordpress --allow-root eval-file wordpress/tools/update-bot-contacts.php
 ```
 
 Применение production допускается только в авторизованном rollout после независимого review. Новых backups не создавать: прежний код опубликован в Git, старые seed bodies восстанавливаются из принятого источника. Preview и evidence имеют прежний контрольный срок 23 октября 2026, 18:00 МСК; receipts, Git, доступы и полезные изменения не являются временными копиями.

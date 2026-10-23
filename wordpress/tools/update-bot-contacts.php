@@ -10,6 +10,7 @@ $production = $environment === 'production' && $root === '/var/www/sy3-wordpress
 $preview = $environment !== 'production' && $root === $previewRoot && in_array($home, ['http://127.0.0.1:8186/', 'http://localhost:8186/'], true);
 if (!$production && !$preview) WP_CLI::error('Unexpected site root, home URL or environment.');
 if ($production && getenv('SY3_ALLOW_PRODUCTION_IMPORT') !== '1') WP_CLI::error('Exact production authority flag is required.');
+if ($production && !is_ssl()) WP_CLI::error('Production page definitions require HTTPS=on SERVER_PORT=443.');
 $dry = getenv('SY3_IMPORT_DRY_RUN') === '1';
 
 $source = dirname(__DIR__).'/content/pages.php';
@@ -23,7 +24,7 @@ $max = 'https://max.ru/id263514840335_1_bot?start=site_sy3';
 $contacts = sy3_page_definitions()['contacts']['content'];
 $known = $production ? [
     4 => ['before'=>'82bc12cb9b6434f74f11afbfd29a75964f6a85afecb2b1ff6d6319e39c666770', 'after'=>'f15b168e4d014f2fd5b79887e870ad3e9e3a4ff1ffdcbd290efa54768060bccd'],
-    6 => ['before'=>'b35e5323f9e8032023fe8cd4f18b8b890eed25c02caa53134f10cdb5657966c8', 'after'=>'0d7dafdd9e1ed13cdf5c28a2972fa7af2857752add2ba506b25bc51550ebfce9'],
+    6 => ['before'=>'b35e5323f9e8032023fe8cd4f18b8b890eed25c02caa53134f10cdb5657966c8', 'after'=>'fb66406983c71066aea5b2e35a0111706036e7bee37a207770b9f40997411293'],
 ] : [
     4 => ['before'=>'8afd340d4468bd9427a879db1c121e10b5b7b1efb7f616bf6d32f2fc511bc10b', 'after'=>'687c10eb9505b1208b2e947493b2344931b58f8d9cb6d5b3e7f7ba649cdccc5a'],
     6 => ['before'=>'6998c0d5ee9e90c90676dffd72b9810b5201d7696555c2667850e20ef8a71092', 'after'=>'48f00d6ff0b89272a4cd83c20e4d3513567a015a5c6592b482b83fd9c25f3c87'],
