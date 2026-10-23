@@ -1,12 +1,12 @@
 <?php
-/** Two reviewed intro paragraphs; preserve all other fields and metadata. */
+/** Reviewed about page selection; preserve all other fields and metadata. */
 if (!defined('WP_CLI') || !WP_CLI || PHP_SAPI !== 'cli') exit(1);
 if (realpath(ABSPATH) !== '/var/www/sy3-wordpress' || home_url('/') !== 'https://sy3.ru/' || get_option('sy3_site_mode') !== 'expertise' || wp_get_environment_type() !== 'production' || !is_ssl()) WP_CLI::error('Unexpected site identity.');
 $dry = getenv('SY3_IMPORT_DRY_RUN') === '1';
 if (!$dry && getenv('SY3_ALLOW_ABOUT_EXPERIENCE_UPDATE') !== '1') WP_CLI::error('Explicit scoped apply required.');
 require_once dirname(__DIR__) . '/content/work-process.php';
-$before = '5fea617e79bce129a56b626fd6a1757db77cf4bcf18c39d9985d5ab661a6ebef';
-$after = '177c08838902d93942c5f059f2a5f8d9f26ff269d3a6d03abc9aea68a948bf49';
+$before = '177c08838902d93942c5f059f2a5f8d9f26ff269d3a6d03abc9aea68a948bf49';
+$after = 'c094863585a084c860f3df5e33763467d2db07946f78be619e1df2e3b8823972';
 $content = sy3_work_process_content();
 if (hash('sha256', $content) !== $after) WP_CLI::error('Unreviewed page definition.');
 global $wpdb;
