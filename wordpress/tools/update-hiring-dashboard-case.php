@@ -37,6 +37,8 @@ if ($record['post']['post_content'] === $body) {
     foreach ($values as $key => $value) if ($metaValue($record['meta'], $key) !== $value) throw new RuntimeException('Partial case metadata update.');
     $file = $attachment ? get_attached_file($attachment) : false;
     if ($record['post']['post_title'] !== $case['title'] || $record['post']['post_excerpt'] !== $case['excerpt'] || !$file || !is_file($file) || hash_file('sha256', $file) !== $cover['sha256'] || get_post_meta($attachment, '_sy3_media_hash', true) !== $cover['sha256']) throw new RuntimeException('Partial case or media update.');
+    clean_post_cache(574); clean_post_cache($attachment);
+    if ($read() !== $record || get_post_field('post_content', 574, 'raw') !== $body || (int) get_post_meta(574, '_thumbnail_id', true) !== $attachment) throw new RuntimeException('Idempotent cache/read-back failed.');
     WP_CLI::line(wp_json_encode(['status' => 'ALREADY_CURRENT', 'writes' => 0, 'id' => 574, 'attachment' => $attachment])); return;
 }
 if ($hash($record['post']) !== 'ef348072c797cff96d5e1674f678392d1a74744051c27dd17da0426fbc1f5557' || $hash($record['meta']) !== 'a2de43e632d740fb1ad97b72a7f8ad5d0c01cdf1a2fca80e50d4e15894db1c0d') throw new RuntimeException('Concurrent/editor changes preserved.');
@@ -46,6 +48,17 @@ if (getenv('SY3_HIRING_CASE_APPLY') !== '1') {
 $head = getenv('SY3_HIRING_REVIEWED_HEAD');
 $review = json_decode(file_get_contents($private . 'hiring-case-review.json'), true, 512, JSON_THROW_ON_ERROR);
 if (!$head || ($review['verdict'] ?? '') !== 'PASS' || ($review['exact_head'] ?? '') !== $head) throw new RuntimeException('Exact-head independent review required.');
+$git = static function (array $arguments): string {
+    $process = proc_open(array_merge(['git', '-C', dirname(__DIR__, 2)], $arguments), [0 => ['pipe','r'], 1 => ['pipe','w'], 2 => ['pipe','w']], $pipes);
+    if (!is_resource($process)) throw new RuntimeException('Cannot inspect reviewed checkout.');
+    fclose($pipes[0]); $output = stream_get_contents($pipes[1]); stream_get_contents($pipes[2]); fclose($pipes[1]); fclose($pipes[2]);
+    if (proc_close($process) !== 0 || $output === false) throw new RuntimeException('Git input inspection failed.');
+    return $output;
+};
+if (!preg_match('/^[a-f0-9]{40}$/D', $head) || trim($git(['rev-parse','HEAD'])) !== $head || trim($git(['status','--porcelain'])) !== '') throw new RuntimeException('Clean exact reviewed checkout required.');
+foreach (['content/cases.json','content/blocks.php','tools/update-hiring-dashboard-case.php','content/media/hiring-dashboard-overview.webp'] as $relative) {
+    if (file_get_contents(dirname(__DIR__) . '/' . $relative) !== $git(['show', $head . ':wordpress/' . $relative])) throw new RuntimeException('Reviewed input differs from Git.');
+}
 $pid = (int) getenv('SY3_HIRING_LOCK_PID'); $held = [];
 foreach (glob('/proc/' . $pid . '/fd/*') ?: [] as $fd) {
     $path = @readlink($fd);
@@ -75,7 +88,7 @@ $save = static function () use (&$receipt, $private): void {
     $path = $private . 'hiring-case-apply.json';
     if (file_put_contents($path, wp_json_encode($receipt, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT)) === false || !chmod($path, 0600)) throw new RuntimeException('Receipt write failed.');
 };
-$save(); $transaction = false; $attachment = 0;
+$save(); $transaction = false; $committed = false; $attachment = 0;
 try {
     if ($wpdb->query('START TRANSACTION') === false) throw new RuntimeException('Cannot start transaction.'); $transaction = true;
     if ($read(true) !== $record) throw new RuntimeException('Concurrent case change preserved.');
@@ -103,14 +116,15 @@ try {
     if ($saved['post']['post_title'] !== $case['title'] || $saved['post']['post_excerpt'] !== $case['excerpt'] || $saved['post']['post_content'] !== $body || (int) $metaValue($saved['meta'], '_thumbnail_id') !== $attachment) throw new RuntimeException('Case read-back mismatch.');
     foreach ($values as $key => $value) if ($metaValue($saved['meta'], $key) !== $value) throw new RuntimeException('Metadata read-back mismatch.');
     if ($audit($attachment) !== $beforeAudit || hash_file('sha256', get_attached_file($attachment)) !== $cover['sha256']) throw new RuntimeException('Protected audit or image mismatch.');
-    if ($wpdb->query('COMMIT') === false) throw new RuntimeException('Commit failed.'); $transaction = false;
+    if ($wpdb->query('COMMIT') === false) throw new RuntimeException('Commit failed.'); $transaction = false; $committed = true;
     clean_post_cache(574); clean_post_cache($attachment);
     $receipt['status'] = 'APPLIED_VERIFIED'; $receipt['protected_records_preserved'] = true; $save();
     WP_CLI::line(wp_json_encode($receipt));
 } catch (Throwable $error) {
-    if ($transaction) $wpdb->query('ROLLBACK');
+    $rolledBack = !$transaction || $wpdb->query('ROLLBACK') !== false;
     clean_post_cache(574); if ($attachment) clean_post_cache($attachment);
-    $receipt['status'] = 'ROLLED_BACK';
+    $receipt['status'] = $committed ? 'COMMITTED_NEEDS_INSPECTION' : ($rolledBack ? 'ROLLED_BACK' : 'ROLLBACK_UNCONFIRMED');
     $receipt['retention'] = 'Preserve any uploaded file outside Git for scoped recovery; inspect by 2026-10-24 18:00 Europe/Moscow under storage lock. Do not delete receipts.';
-    $save(); throw $error;
+    try { $save(); } catch (Throwable $receiptError) { WP_CLI::warning($committed ? 'Database commit succeeded; receipt requires inspection.' : 'Receipt could not be saved; inspect database before retry.'); }
+    throw $error;
 }
