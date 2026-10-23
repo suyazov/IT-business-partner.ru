@@ -2,10 +2,11 @@
 /**
  * Plugin Name: Сутри — контент и навигация
  * Description: Услуги, кейсы, связи материалов, SEO и фиды. Контент сохраняется при смене темы.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires PHP: 8.1
  */
 defined('ABSPATH') || exit;
+require_once __DIR__ . '/sy3-latin-slugs.php';
 
 function sy3_register_content(): void {
     foreach (['sy3_service' => ['Услуги', 'Услуга', 'services'], 'sy3_case' => ['Кейсы', 'Кейс', 'cases']] as $type => $args) {
