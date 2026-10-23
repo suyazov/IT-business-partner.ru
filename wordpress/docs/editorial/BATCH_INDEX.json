@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "b7c53ab7eac9174f7697edb74a36b613f7ca664d",
+  "source_git_commit": "a74fcd23af7f75ba784020b5067ddfa652a7ed50",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 339,
+  "prepared_objects": 357,
   "prepared_by_type": {
     "page": 3,
-    "post": 293,
+    "post": 311,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -614,6 +614,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 149,
+      "type": "post",
+      "slug": "crm-kontrolnye-scenarii-kanalov",
+      "baseline_hash": "e88291200aa50b2a7d166e1990bbec6df6f53766e28f28383551cf5a900e26fb",
+      "candidate_hash": "e84d39f75188a2e64303c167b09ddfe22593d02e75d648d1c8e6966239db27d7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/crm-kontrolnye-scenarii-kanalov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11067,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 150,
       "type": "post",
       "slug": "forma-otpravlena-no-zayavki-net",
@@ -718,6 +730,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-14/izmenenie-formata-integracii.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
       "content_characters_declared": 11066,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 159,
+      "type": "post",
+      "slug": "integraciya-chtenie-ili-zapis",
+      "baseline_hash": "aca168193c6bc8732b656e14aeb36562bddce5ea240367c5302447c9644ad63f",
+      "candidate_hash": "a422dba610fe43adfc3db06e7318af7bdc2ab2d2ea6a09c7c94e4dc4280ae3b8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/integraciya-chtenie-ili-zapis.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11218,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -830,6 +854,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 170,
+      "type": "post",
+      "slug": "granicy-ai-pomoshchnika",
+      "baseline_hash": "68a9f3bee628c331c69b6a5663c959534543aac92d642677bb2c50472074ae45",
+      "candidate_hash": "0ba77ad38d6ac07c360fd9f3d4fed1e9a9ab0374e9c9f083efebf83b718a2283",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/granicy-ai-pomoshchnika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 10995,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 171,
       "type": "post",
       "slug": "odin-obekt-odin-list-a4",
@@ -922,6 +958,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-14/prototip-dokumentnogo-servisa.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
       "content_characters_declared": 11053,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 179,
+      "type": "post",
+      "slug": "rekvizity-bez-ruchnogo-kopirovaniya",
+      "baseline_hash": "6d373ad1f61216b7e1d2f69adfa54b29fe31d41a7b48cfd2742735224057acbc",
+      "candidate_hash": "18011a08d06e9413cbb79873cd2666d87d071843ceea738920148fbc63fdc4ac",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/rekvizity-bez-ruchnogo-kopirovaniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 12261,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 180,
+      "type": "post",
+      "slug": "poshagovyy-konstruktor-dokumentov",
+      "baseline_hash": "8f67585f3a924a095e0a1a42f2a5d452b717e91923bdb9298359bcdfb80d8e42",
+      "candidate_hash": "2b08a959cf76f4279dd715256567473c34b7a6f06da804f385686e4042b55f84",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/poshagovyy-konstruktor-dokumentov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11326,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1022,6 +1082,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 190,
+      "type": "post",
+      "slug": "obshchie-resursy-v-raspisanii",
+      "baseline_hash": "e8fc19f4dc88a31b4aa53dbc0413bd67ad1215b84a9d13c8feca60e9fcb0ee8b",
+      "candidate_hash": "df651fc3481d09fc3abe3be0140e2f47039ab19b2d9a93a8439fb97bad0782c7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/obshchie-resursy-v-raspisanii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 13306,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 191,
+      "type": "post",
+      "slug": "bron-i-oplata-raznye-sobytiya",
+      "baseline_hash": "cebbd70beec3ba2467dac1292ccae6c0019bebc31199a7d6b5a2cede0b97c7f5",
+      "candidate_hash": "c68f22b4ea2f2e7553ce5c1b0f01f2a94a0cfa8a4c5e95db4a2667e90b38f2ab",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/bron-i-oplata-raznye-sobytiya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 12926,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 192,
       "type": "post",
       "slug": "semya-kak-model-klienta",
@@ -1114,6 +1198,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-14/filialy-v-odnoy-crm.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
       "content_characters_declared": 12329,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 200,
+      "type": "post",
+      "slug": "konflikty-pedagoga-i-kabineta",
+      "baseline_hash": "7982d35317861a0efc05500d5fa4aa19949cef3e5f4100008ded81baa7d79038",
+      "candidate_hash": "fc188a2bbb2c53401ef506c8f70501d3644be9353063248a6abc9feb99c3eb3e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/konflikty-pedagoga-i-kabineta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11086,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 201,
+      "type": "post",
+      "slug": "ot-zayavki-do-zachisleniya",
+      "baseline_hash": "030d56ff6cedef359d2e919b3b2d724a0be0e7d99fe247c021e2ec9f42a4abd3",
+      "candidate_hash": "5c355980dc42d36b01bb59e76399c823ab281177189a173aca78aa15af63aa55",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/ot-zayavki-do-zachisleniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 13098,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1214,6 +1322,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 210,
+      "type": "post",
+      "slug": "karta-obektov-s-upravleniem-iz-cms",
+      "baseline_hash": "b29d83143f7bdf927845a829ed5bad9482be07245ff9e59d5351f7d948481a9b",
+      "candidate_hash": "ddb29ddff713b358f5c4cf68f3f26230014f347b89c95e7aa842bea11c810819",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/karta-obektov-s-upravleniem-iz-cms.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 12130,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 211,
+      "type": "post",
+      "slug": "lending-s-oplatoy-bez-bolshogo-magazina",
+      "baseline_hash": "42109c341c45995aeb7d508e3e2db270ccfd9f3b03912da8576909b2bd9dad6c",
+      "candidate_hash": "88f5a88303ffcf81b8b571b8b5fe7b9b3c6c7dfffb2ee23344d4ebf29f9eda4e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/lending-s-oplatoy-bez-bolshogo-magazina.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 12810,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 212,
       "type": "post",
       "slug": "edinaya-tochka-priema-rabochih-zaprosov",
@@ -1306,6 +1438,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-14/predprosmotr-i-publikaciya-raznye-etapy.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
       "content_characters_declared": 12033,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 220,
+      "type": "post",
+      "slug": "kontekst-proekta-dlya-komandy-i-ai",
+      "baseline_hash": "21a1b31dd94c305ff67e67db1fb3e31f1fe5ac400a1f7bc8c83a5953f0e12cf2",
+      "candidate_hash": "1fd811d50e13007fb0990bb75c539dfec78d2d3ebecace53449b3f8a8e6d5d8a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/kontekst-proekta-dlya-komandy-i-ai.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11481,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 221,
+      "type": "post",
+      "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai",
+      "baseline_hash": "dfadbb4f9ec9b6cab53ed239c8cf31ade2c5f22b87fc98cc253f10487f1f9481",
+      "candidate_hash": "2267c14cf49bcfd87208832f440a0f40e6ff2ed077a3748b6f3d45b2506ab3f8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/kak-prinimat-razrabotku-s-pomoshchyu-ai.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11883,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1406,6 +1562,30 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 230,
+      "type": "post",
+      "slug": "ochered-isklyucheniy-byudzheta",
+      "baseline_hash": "adc1f3ab191fb87d3eddcf8654816fb2a5d2202f8f8387377e67ae2864cc9038",
+      "candidate_hash": "89c8e51ef273550ff1b963a5524cacdddd4dcdf43bf9b58ee6c20bc9b3d984af",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/ochered-isklyucheniy-byudzheta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11493,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 231,
+      "type": "post",
+      "slug": "audit-pered-perenosom-sistemy",
+      "baseline_hash": "da3a6790fa5affe6fc6cd0417f3f69f62ee7a52fd94ba6c577ec6fbe5ea97b50",
+      "candidate_hash": "408983bca6a936f71233b139279a2d32c7a4a3b6238375e39840bce9fa5a2c63",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/audit-pered-perenosom-sistemy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11822,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 232,
       "type": "post",
       "slug": "granitsy-mvp-avtomatizatsii",
@@ -1498,6 +1678,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-14/redaktsionnyy-konveyer-s-ii.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-14/manifest.json",
       "content_characters_declared": 12279,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 240,
+      "type": "post",
+      "slug": "izmereniya-posle-zapuska-avtomatizatsii",
+      "baseline_hash": "8eeee68270e4fde3c922d4f75d89fea02bf0b02958b48f21b7ed0fe496d1bf04",
+      "candidate_hash": "ae7d7f02dfc028ceade389f254ae12453db26893568cef5d282628f9c055d6d7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/izmereniya-posle-zapuska-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11884,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 241,
+      "type": "post",
+      "slug": "biznes-brif-na-avtomatizatsiyu",
+      "baseline_hash": "2026037e11557305bff9c637562bc28e31779d6846e80a501d1a3fbd91da3af4",
+      "candidate_hash": "b099398a798b508437d2103b259505db740130db4b60873cefb20874e0469ab4",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/biznes-brif-na-avtomatizatsiyu.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 11606,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2710,6 +2914,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-01/yookassa-oplata-status-zakaza.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
       "content_characters_declared": 12630,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 391,
+      "type": "post",
+      "slug": "kompleksnaya-avtomatizaciya-biznesa-plan",
+      "baseline_hash": "3ba95571bacfc409172493f29b298ce584e42c2e0536694572db77415ea48868",
+      "candidate_hash": "b95f01388120fc539cbd8b1c73c5e8e2a041cc8943749bbd604801495fe0d1b4",
+      "new_version": "wordpress/docs/editorial/batches/drafts-15/kompleksnaya-avtomatizaciya-biznesa-plan.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-15/manifest.json",
+      "content_characters_declared": 12988,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -4097,96 +4313,6 @@
       "id": 8,
       "type": "page",
       "slug": "journal"
-    },
-    {
-      "id": 149,
-      "type": "post",
-      "slug": "crm-kontrolnye-scenarii-kanalov"
-    },
-    {
-      "id": 159,
-      "type": "post",
-      "slug": "integraciya-chtenie-ili-zapis"
-    },
-    {
-      "id": 170,
-      "type": "post",
-      "slug": "granicy-ai-pomoshchnika"
-    },
-    {
-      "id": 179,
-      "type": "post",
-      "slug": "rekvizity-bez-ruchnogo-kopirovaniya"
-    },
-    {
-      "id": 180,
-      "type": "post",
-      "slug": "poshagovyy-konstruktor-dokumentov"
-    },
-    {
-      "id": 190,
-      "type": "post",
-      "slug": "obshchie-resursy-v-raspisanii"
-    },
-    {
-      "id": 191,
-      "type": "post",
-      "slug": "bron-i-oplata-raznye-sobytiya"
-    },
-    {
-      "id": 200,
-      "type": "post",
-      "slug": "konflikty-pedagoga-i-kabineta"
-    },
-    {
-      "id": 201,
-      "type": "post",
-      "slug": "ot-zayavki-do-zachisleniya"
-    },
-    {
-      "id": 210,
-      "type": "post",
-      "slug": "karta-obektov-s-upravleniem-iz-cms"
-    },
-    {
-      "id": 211,
-      "type": "post",
-      "slug": "lending-s-oplatoy-bez-bolshogo-magazina"
-    },
-    {
-      "id": 220,
-      "type": "post",
-      "slug": "kontekst-proekta-dlya-komandy-i-ai"
-    },
-    {
-      "id": 221,
-      "type": "post",
-      "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai"
-    },
-    {
-      "id": 230,
-      "type": "post",
-      "slug": "ochered-isklyucheniy-byudzheta"
-    },
-    {
-      "id": 231,
-      "type": "post",
-      "slug": "audit-pered-perenosom-sistemy"
-    },
-    {
-      "id": 240,
-      "type": "post",
-      "slug": "izmereniya-posle-zapuska-avtomatizatsii"
-    },
-    {
-      "id": 241,
-      "type": "post",
-      "slug": "biznes-brif-na-avtomatizatsiyu"
-    },
-    {
-      "id": 391,
-      "type": "post",
-      "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
     }
   ]
 }

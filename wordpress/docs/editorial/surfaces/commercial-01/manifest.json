@@ -1,0 +1,1279 @@
+{
+  "production_authority": false,
+  "candidates": [
+    {
+      "id": 3,
+      "type": "page",
+      "slug": "privacy-policy",
+      "baseline_body_hash": "41162548d84589be272cb6b33e2de377794edfc9ab9604b3d32bb52ac1d94e60",
+      "baseline_fields_hash": "2fb216da386185ff490413dc0f0305d6439e8a1bfbe9ef3c4dbb193c4388dfda",
+      "candidate_fields_hash": "2fb216da386185ff490413dc0f0305d6439e8a1bfbe9ef3c4dbb193c4388dfda",
+      "before": {
+        "post_title": "Privacy Policy",
+        "post_excerpt": "",
+        "_sy3_description": ""
+      },
+      "after": {
+        "post_title": "Privacy Policy",
+        "post_excerpt": "",
+        "_sy3_description": ""
+      },
+      "action": "KEEP",
+      "reason": "KEEP: юридические и технические утверждения страницы не пересматриваются этим metadata-проходом; новые правила обработки данных не добавлены.",
+      "evidence": [
+        "runtime-baseline.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 41162548d84589be272cb6b33e2de377794edfc9ab9604b3d32bb52ac1d94e60",
+        "Runtime baseline body SHA256 41162548d84589be272cb6b33e2de377794edfc9ab9604b3d32bb52ac1d94e60"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 4,
+      "type": "page",
+      "slug": "home",
+      "baseline_body_hash": "5d4535fc03f8dec3eba29a02f27d4f2cbbd005abda8583a4af1413f36942cab8",
+      "baseline_fields_hash": "c006c0077a8f635fe7101cce215deaee548fd20c0c1c8315218b28ca88cfbef9",
+      "candidate_fields_hash": "4864082a4d256c5aaa9caf697ba5ea23d37211e28671b58082ee6e458648ae65",
+      "before": {
+        "post_title": "Автоматизация бизнеса: CRM, интеграции и ИИ",
+        "post_excerpt": "Создание сайтов, веб-сервисов и автоматизация бизнеса: CRM, интеграции и ИИ.",
+        "_sy3_description": ""
+      },
+      "after": {
+        "post_title": "Сайты, CRM и автоматизация бизнеса",
+        "post_excerpt": "Создаю сайты и веб-сервисы, настраиваю Битрикс24 и обмен данными. Лично веду проект; для задач по 1С и BI подключаю профильных специалистов.",
+        "_sy3_description": "Создаю сайты и веб-сервисы, настраиваю Битрикс24 и обмен данными. Лично веду проект; для задач по 1С и BI подключаю профильных специалистов."
+      },
+      "action": "REWRITE",
+      "reason": "Главная объединяет разработку и автоматизацию; личная роль и состав команды соответствуют принятому пилоту.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 b642f15239c20e68e45d5f5c44b53c9cda2b152adac9550f7103a0ef2b84f783",
+        "Runtime baseline body SHA256 5d4535fc03f8dec3eba29a02f27d4f2cbbd005abda8583a4af1413f36942cab8"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 5,
+      "type": "page",
+      "slug": "about",
+      "baseline_body_hash": "767433e8e3efec0337ca321078bcc515665f692a29bd2349131e6dfa50912d6e",
+      "baseline_fields_hash": "9a46df04061763e0c89319772e48e008c6d86a5b2dde1fb660eb487d6812d12f",
+      "candidate_fields_hash": "cdbf1b2b78d01c378a49b5b582afb422cb25c1b90e750db9d9617fdd61162013",
+      "before": {
+        "post_title": "Артём Суязов. Бизнес и технологии.",
+        "post_excerpt": "Помогаю разобраться в процессах, выбрать следующий шаг и довести техническое решение до работы.",
+        "_sy3_description": ""
+      },
+      "after": {
+        "post_title": "Артём Суязов. Бизнес и технологии.",
+        "post_excerpt": "Я Артём Суязов. Разрабатываю сайты и интеграции, разбираю процессы с заказчиком и пользователями, готовлю требования и проверяю результат с командой.",
+        "_sy3_description": "Я Артём Суязов. Разрабатываю сайты и интеграции, разбираю процессы с заказчиком и пользователями, готовлю требования и проверяю результат с командой."
+      },
+      "action": "REWRITE",
+      "reason": "Вместо общего обещания помощи описаны конкретные действия из раздела о работе автора.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 7d7a8479834f31d9d4ec5700e401b4802bfc35870e3ca2f0266d3e3e1727dc9d",
+        "Runtime baseline body SHA256 767433e8e3efec0337ca321078bcc515665f692a29bd2349131e6dfa50912d6e"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 6,
+      "type": "page",
+      "slug": "contacts",
+      "baseline_body_hash": "fb66406983c71066aea5b2e35a0111706036e7bee37a207770b9f40997411293",
+      "baseline_fields_hash": "9e9de2460820d3ad220d0796ee184facbf425497eeebf96c7c6190a73b52fb26",
+      "candidate_fields_hash": "cf4a503673a95cdc39cbcc7fc7a4a94edf7d189a6f4e7e9512bbe1030d57278e",
+      "before": {
+        "post_title": "Расскажите о вашей задаче",
+        "post_excerpt": "Достаточно коротко описать бизнес, текущий процесс и то, что хотелось бы изменить.",
+        "_sy3_description": ""
+      },
+      "after": {
+        "post_title": "Расскажите о вашей задаче",
+        "post_excerpt": "Напишите мне в Telegram, MAX или на help@sy3.ru. Для начала хватит адреса сайта и примера задачи; готовое ТЗ, пароли и клиентские базы не нужны.",
+        "_sy3_description": "Напишите мне в Telegram, MAX или на help@sy3.ru. Для начала хватит адреса сайта и примера задачи; готовое ТЗ, пароли и клиентские базы не нужны."
+      },
+      "action": "REWRITE",
+      "reason": "Завершённое описание обращения соответствует принятому контактному пилоту; предпочтение переписки сохранено.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 d617bf37f0b5550de72cb954e63197ed8547be0848eb7ba0d0e9c3e810fd1c59",
+        "Runtime baseline body SHA256 fb66406983c71066aea5b2e35a0111706036e7bee37a207770b9f40997411293"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 7,
+      "type": "page",
+      "slug": "privacy",
+      "baseline_body_hash": "714e683a4cf7564b98b4408dc8895f61045fbc6ea03b5d13852bd937d1ebf021",
+      "baseline_fields_hash": "360b1a72c79c6302dfd5bf5712b92f2fcec107d6b02cda1e607ca243b1586409",
+      "candidate_fields_hash": "360b1a72c79c6302dfd5bf5712b92f2fcec107d6b02cda1e607ca243b1586409",
+      "before": {
+        "post_title": "О данных на сайте",
+        "post_excerpt": "Какие способы обращения предусмотрены в этой версии сайта.",
+        "_sy3_description": ""
+      },
+      "after": {
+        "post_title": "О данных на сайте",
+        "post_excerpt": "Какие способы обращения предусмотрены в этой версии сайта.",
+        "_sy3_description": ""
+      },
+      "action": "KEEP",
+      "reason": "KEEP: юридические и технические утверждения страницы не пересматриваются этим metadata-проходом; новые правила обработки данных не добавлены.",
+      "evidence": [
+        "runtime-baseline.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 714e683a4cf7564b98b4408dc8895f61045fbc6ea03b5d13852bd937d1ebf021",
+        "Runtime baseline body SHA256 714e683a4cf7564b98b4408dc8895f61045fbc6ea03b5d13852bd937d1ebf021"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 8,
+      "type": "page",
+      "slug": "journal",
+      "baseline_body_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "baseline_fields_hash": "109b1b0dbb9b02cd774b0f1b38944918a53bb4942b2383859c121d829809c216",
+      "candidate_fields_hash": "e5876f8dd47f1bfb4e727860d6f9488c4fec4d297aee377b32a3af0f0da2433f",
+      "before": {
+        "post_title": "Журнал",
+        "post_excerpt": "CRM, интеграции и ИИ через задачи бизнеса.",
+        "_sy3_description": ""
+      },
+      "after": {
+        "post_title": "Статьи о сайтах, CRM и автоматизации бизнеса",
+        "post_excerpt": "Разбираю разработку и поддержку сайтов, CRM, интеграции и ИИ: что проверить, как описать требования и принять работу. С примерами из моих проектов.",
+        "_sy3_description": "Разбираю разработку и поддержку сайтов, CRM, интеграции и ИИ: что проверить, как описать требования и принять работу. С примерами из моих проектов."
+      },
+      "action": "REWRITE",
+      "reason": "Описание раскрывает содержание журнала и аудиторию вместо перечня трёх технологий.",
+      "evidence": [
+        "runtime-baseline.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "Runtime baseline body SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 9,
+      "type": "sy3_service",
+      "slug": "bitrix24",
+      "baseline_body_hash": "5e641940af8c0867e525eddbdf5f0e521fc0a7c84486e28420998d7426be400e",
+      "baseline_fields_hash": "0ddaa485212be27e5d485de25dc31cf0e3d2b4e146d89cbc93b7a873292c7541",
+      "candidate_fields_hash": "326d5b5516d75ade744d40fcae87b160b876cced5f4b99d25a36e0e9f4d8df76",
+      "before": {
+        "post_title": "Битрикс24 под ваш процесс продаж",
+        "post_excerpt": "Настройка CRM, воронок и правил работы с обращениями. Чтобы у каждой заявки были ответственный, история и следующий шаг.",
+        "_sy3_description": "Настройка CRM, воронок и правил работы с обращениями. Чтобы у каждой заявки были ответственный, история и следующий шаг."
+      },
+      "after": {
+        "post_title": "Битрикс24 под ваш процесс продаж",
+        "post_excerpt": "Настрою Битрикс24 под путь обращения: воронку, поля, назначение менеджера и рабочие права. Проверю согласованные сценарии с командой и передам инструкцию.",
+        "_sy3_description": "Настрою Битрикс24 под путь обращения: воронку, поля, назначение менеджера и рабочие права. Проверю согласованные сценарии с командой и передам инструкцию."
+      },
+      "action": "REWRITE",
+      "reason": "Состав настройки и проверка взяты из принятого пилота; нет обещания роста продаж.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 fe99fc6f4a0b1528e837664db44a530911356c56362ff9e5adfab3f2cc757d63",
+        "Runtime baseline body SHA256 5e641940af8c0867e525eddbdf5f0e521fc0a7c84486e28420998d7426be400e"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 10,
+      "type": "sy3_service",
+      "slug": "integrations",
+      "baseline_body_hash": "c2be56f7c8c5c29b3479b4af0b88db0625f22646fd40a11a7e78321371985724",
+      "baseline_fields_hash": "00034a041f7ba33e50a5507f461c79160381a5da0dd324ff65a39b284588007b",
+      "candidate_fields_hash": "6ba696a5ef0c5423e830ae946bbf97e0e15b5a34efe6a930764f8398335b8455",
+      "before": {
+        "post_title": "Интеграции без ручного переноса данных",
+        "post_excerpt": "Связь сайта, CRM, мессенджеров и рабочих сервисов. С проверкой полного пути заявки, дублей и ошибок передачи.",
+        "_sy3_description": "Связь сайта, CRM, мессенджеров и рабочих сервисов. С проверкой полного пути заявки, дублей и ошибок передачи."
+      },
+      "after": {
+        "post_title": "Интеграции без ручного переноса данных",
+        "post_excerpt": "Свяжу сайт, CRM и рабочие сервисы. Согласую поля, повторы и действия при ошибке, проверю появление нужной записи в принимающей системе.",
+        "_sy3_description": "Свяжу сайт, CRM и рабочие сервисы. Согласую поля, повторы и действия при ошибке, проверю появление нужной записи в принимающей системе."
+      },
+      "action": "REWRITE",
+      "reason": "Понятный результат обмена вместо абстрактной связи систем; возможности подключения проверяются в body.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 b9c89a5c8e87387ab5b3b7c1629355036a2e8c33987c75c74e59d39f99fd8447",
+        "Runtime baseline body SHA256 c2be56f7c8c5c29b3479b4af0b88db0625f22646fd40a11a7e78321371985724"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 11,
+      "type": "sy3_service",
+      "slug": "ai-automation",
+      "baseline_body_hash": "099aa65f3b56f8acee437118bbdbeb8cc43454ef45352159ea483a9a738d9bec",
+      "baseline_fields_hash": "991ff30274c74221ac1155416fabcf9e1069cc40c0be14fdbb41339c791c6bbf",
+      "candidate_fields_hash": "fc613bc3ce0984da58074767b4117d5968c29885042fcea94ba06de2c3f6a05e",
+      "before": {
+        "post_title": "ИИ в конкретном рабочем процессе",
+        "post_excerpt": "Выбор полезного сценария, ограниченный пилот и проверка качества. С понятной ролью человека и стоимостью обработки.",
+        "_sy3_description": "Выбор полезного сценария, ограниченный пилот и проверка качества. С понятной ролью человека и стоимостью обработки."
+      },
+      "after": {
+        "post_title": "ИИ в конкретном рабочем процессе",
+        "post_excerpt": "Помогу выбрать одну задачу для ИИ и проверить пробную версию на примерах вашей работы. Согласуем данные, участие сотрудника и расходы на обработку.",
+        "_sy3_description": "Помогу выбрать одну задачу для ИИ и проверить пробную версию на примерах вашей работы. Согласуем данные, участие сотрудника и расходы на обработку."
+      },
+      "action": "REWRITE",
+      "reason": "Ограниченный пилот с ручной проверкой, не обещание автоматизации отдела.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 5bdc9d82438c603ef8a3c2d597691f0e48a4de4773c70f9f5b41c29338b4474d",
+        "Runtime baseline body SHA256 099aa65f3b56f8acee437118bbdbeb8cc43454ef45352159ea483a9a738d9bec"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 12,
+      "type": "sy3_case",
+      "slug": "bitrix24-doors",
+      "baseline_body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80",
+      "baseline_fields_hash": "f289b0cc23ab87a14812ed64058c4e5d9d6ed00efee721468f8cc0c459c0f9b7",
+      "candidate_fields_hash": "f289b0cc23ab87a14812ed64058c4e5d9d6ed00efee721468f8cc0c459c0f9b7",
+      "before": {
+        "post_title": "CRM для компании по продаже дверей",
+        "post_excerpt": "Обращения из мессенджеров, почты и сайта — в Битрикс24. Распределение между менеджерами и договоры из данных сделки.",
+        "_sy3_description": "Обращения из мессенджеров, почты и сайта — в Битрикс24. Распределение между менеджерами и договоры из данных сделки."
+      },
+      "after": {
+        "post_title": "CRM для компании по продаже дверей",
+        "post_excerpt": "Обращения из мессенджеров, почты и сайта — в Битрикс24. Распределение между менеджерами и договоры из данных сделки.",
+        "_sy3_description": "Обращения из мессенджеров, почты и сайта — в Битрикс24. Распределение между менеджерами и договоры из данных сделки."
+      },
+      "action": "KEEP",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/bitrix24-doors.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 ecb5ad93d8ffd156031d37080d51628cd95837c095a3f4b5d50ccd0f06e9c134",
+        "Runtime baseline body SHA256 816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 14,
+      "type": "sy3_case",
+      "slug": "bitrix24-training",
+      "baseline_body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d",
+      "baseline_fields_hash": "06fcd0e0dca4a18833055fc2df6df374cc640f1e933a91270b99d9ae4cabed26",
+      "candidate_fields_hash": "06fcd0e0dca4a18833055fc2df6df374cc640f1e933a91270b99d9ae4cabed26",
+      "before": {
+        "post_title": "Заявки на обучение в Bitrix24",
+        "post_excerpt": "Одна форма для курсов и мероприятий: данные сохраняются в CRM, а задача автоматически поступает в поток отдела обучения.",
+        "_sy3_description": "Одна форма для курсов и мероприятий: данные сохраняются в CRM, а задача автоматически поступает в поток отдела обучения."
+      },
+      "after": {
+        "post_title": "Заявки на обучение в Bitrix24",
+        "post_excerpt": "Одна форма для курсов и мероприятий: данные сохраняются в CRM, а задача автоматически поступает в поток отдела обучения.",
+        "_sy3_description": "Одна форма для курсов и мероприятий: данные сохраняются в CRM, а задача автоматически поступает в поток отдела обучения."
+      },
+      "action": "KEEP",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/bitrix24-training.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 868303c7f818211de6902609930feacaf4bf778fd70ec1395fd0b64148b53548",
+        "Runtime baseline body SHA256 fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 16,
+      "type": "sy3_case",
+      "slug": "glosscheck",
+      "baseline_body_hash": "2fae148aefd14ef278d2aafa3fb847ccf40034148e2fddba5e79f72f31bf4406",
+      "baseline_fields_hash": "1a94148d30881f2385fee45e9a3349dfdc7343f77e73233e8950d59e7d3fea97",
+      "candidate_fields_hash": "6ab2e8528ab0e5eb2d754c8527549b1b49cf503ed9e09c52ff71906134e2cbaa",
+      "before": {
+        "post_title": "GlossCheck: ИИ-сервис с чатом, файлами и OCR",
+        "post_excerpt": "От идеи к ИИ-сервису: чат, распознавание текста с фотографий и документов, история диалогов и управление лимитами.",
+        "_sy3_description": "От идеи к ИИ-сервису: чат, распознавание текста с фотографий и документов, история диалогов и управление лимитами."
+      },
+      "after": {
+        "post_title": "GlossCheck: ИИ-сервис с чатом, файлами и OCR",
+        "post_excerpt": "Разработал ИИ-чат на WordPress: вопросы, фото и документы, распознавание текста, история диалогов и настройки лимитов для администратора.",
+        "_sy3_description": "Разработал ИИ-чат на WordPress: вопросы, фото и документы, распознавание текста, история диалогов и настройки лимитов для администратора."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/glosscheck.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 245818588f0de8e7d5252a22dc5cab92951411490129e096edada193320eca16",
+        "Runtime baseline body SHA256 2fae148aefd14ef278d2aafa3fb847ccf40034148e2fddba5e79f72f31bf4406"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 18,
+      "type": "sy3_case",
+      "slug": "antispam-24-sites",
+      "baseline_body_hash": "71614c1bae1f87dc685ff5572711b6c5b4d5d8903211d3b87a3bd2fc64ffe7d7",
+      "baseline_fields_hash": "3266f615cd93a49a645e7db8c1fd6c67e300428dba8a19ae02d247c5a261ef87",
+      "candidate_fields_hash": "982004c4b0f6c3dcb67aee930bb1303befbd96f0367d97b1c4042a92f5cbda4e",
+      "before": {
+        "post_title": "Антиспам: 24 сайта и 91 форма без CAPTCHA",
+        "post_excerpt": "На одном хостинге работали 24 лендинга с разными шаблонами и несколькими вариантами PHP-обработчиков.",
+        "_sy3_description": "На одном хостинге работали 24 лендинга с разными шаблонами и несколькими вариантами PHP-обработчиков."
+      },
+      "after": {
+        "post_title": "Антиспам: 24 сайта и 91 форма без CAPTCHA",
+        "post_excerpt": "Добавил защиту без CAPTCHA на 24 лендинга с 91 формой. Проверил обычные, всплывающие и динамические формы; доставка писем оценивается отдельно.",
+        "_sy3_description": "Добавил защиту без CAPTCHA на 24 лендинга с 91 формой. Проверил обычные, всплывающие и динамические формы; доставка писем оценивается отдельно."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/antispam-24-sites.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 490ce69a86243e9430951f382e66155af1543dae2a122e827173880e46e99fba",
+        "Runtime baseline body SHA256 71614c1bae1f87dc685ff5572711b6c5b4d5d8903211d3b87a3bd2fc64ffe7d7"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 19,
+      "type": "sy3_case",
+      "slug": "matklass",
+      "baseline_body_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315",
+      "baseline_fields_hash": "c8e9e4263f3cbe13096aab2ff32868b7b0f2b7e717f1a7aa52976e2adae7a79d",
+      "candidate_fields_hash": "4ca03f8187bc3a8b295577fa69c99edd01cc15d4e7158df84443c0896c342d11",
+      "before": {
+        "post_title": "Маткласс: проверка пути заявки до amoCRM",
+        "post_excerpt": "Проверить, что обращения с основного сайта, блогов и отдельных лендингов доходят до CRM.",
+        "_sy3_description": "Проверить, что обращения с основного сайта, блогов и отдельных лендингов доходят до CRM."
+      },
+      "after": {
+        "post_title": "Маткласс: проверка пути заявки до amoCRM",
+        "post_excerpt": "Проверил обращения с сайта, блогов и лендингов до amoCRM, исправил переходы и зависание формы. В проверках созданы 12 тестовых сделок.",
+        "_sy3_description": "Проверил обращения с сайта, блогов и лендингов до amoCRM, исправил переходы и зависание формы. В проверках созданы 12 тестовых сделок."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/matklass.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 22ed025da726ba976e6b36f6cd18c1905c4545c66baf7ccc108ae69c4d604bb2",
+        "Runtime baseline body SHA256 cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 21,
+      "type": "sy3_case",
+      "slug": "libertygas",
+      "baseline_body_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d",
+      "baseline_fields_hash": "c2544ba03e61862108e5f49f5890d5a4e9ad8e22261383eafd99b2e2eb875d34",
+      "candidate_fields_hash": "fc391a9e27f85f7e9c6caa241dd15de7b88690f57ff2b4b6ebd65b445369306a",
+      "before": {
+        "post_title": "LibertyGas: автономный редактор референс-листов A4",
+        "post_excerpt": "Сотрудник самостоятельно собирает страницы объектов, меняет фотографии и получает PDF: один объект — один лист A4.",
+        "_sy3_description": "Сотрудник самостоятельно собирает страницы объектов, меняет фотографии и получает PDF: один объект — один лист A4."
+      },
+      "after": {
+        "post_title": "LibertyGas: автономный редактор референс-листов A4",
+        "post_excerpt": "Разработал редактор документов LibertyGas: тексты, три фотографии на объект и PDF по правилу «один объект — один лист A4». Работает и как автономный HTML.",
+        "_sy3_description": "Разработал редактор документов LibertyGas: тексты, три фотографии на объект и PDF по правилу «один объект — один лист A4». Работает и как автономный HTML."
+      },
+      "action": "REWRITE",
+      "reason": "Подтверждённый инструмент, редактирование и автономный формат из пилота; без утверждений об измеренной экономии.",
+      "evidence": [
+        "wordpress/docs/editorial/pilot/commercial.json",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 80fae79ec8950360d6c9343b8d05ca74b1ad377b7635b1199ea15d5b41cfee21",
+        "Runtime baseline body SHA256 fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 23,
+      "type": "sy3_case",
+      "slug": "postavki26",
+      "baseline_body_hash": "56919fb0c29bcd356e527b480b6f2e075f68b32dbfc6ae04c3f66125d181e3fd",
+      "baseline_fields_hash": "5891a4c90716957f62d39e7be104c6c6d5eeb7cc995495bcd990878dacc1194e",
+      "candidate_fields_hash": "5b81f25f2c932fcb6f34db40d262d1a300a4bd1a46e2cfa72149f0d7af258db1",
+      "before": {
+        "post_title": "Поставки26: площадка поставщиков с личными кабинетами",
+        "post_excerpt": "Postavki26 — это городской портал поставщиков, созданный для того, чтобы предприниматели Ставрополя могли размещать свои товары и услуги, находить новых партнёров, покупателей и поставщиков.",
+        "_sy3_description": "Postavki26 — это городской портал поставщиков, созданный для того, чтобы предприниматели Ставрополя могли размещать свои товары и услуги, находить новых партнёров, покупателей и поставщиков."
+      },
+      "after": {
+        "post_title": "Поставки26: площадка поставщиков с личными кабинетами",
+        "post_excerpt": "Разработал площадку поставщиков: регистрация, личные кабинеты, самостоятельное добавление товаров и общий каталог с поиском.",
+        "_sy3_description": "Разработал площадку поставщиков: регистрация, личные кабинеты, самостоятельное добавление товаров и общий каталог с поиском."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/postavki26.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 aa9cc60d99b36957353a86a730e43e24430daf68560b3a623e19a3e413c67713",
+        "Runtime baseline body SHA256 56919fb0c29bcd356e527b480b6f2e075f68b32dbfc6ae04c3f66125d181e3fd"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 25,
+      "type": "sy3_case",
+      "slug": "shumakova-yookassa",
+      "baseline_body_hash": "b4a5211e52b290c06386409ccad4faa3e158c2a15672478ebbed5afa6b6cade0",
+      "baseline_fields_hash": "ddbc266216a1fdc603ee27fdf2f51acf44781c35184d676f481fbd7f8c066639",
+      "candidate_fields_hash": "ad1e6c6b02904c6671fac1641d34d1bf06adc01eb4e91461ee2b9256da4d6c7d",
+      "before": {
+        "post_title": "Лендинг с бронированием и оплатой через ЮKassa",
+        "post_excerpt": "Анастасия Шумакова работает в направлениях татуировки, пирсинга и обучения пирсингу в Москве.",
+        "_sy3_description": "Анастасия Шумакова работает в направлениях татуировки, пирсинга и обучения пирсингу в Москве."
+      },
+      "after": {
+        "post_title": "Лендинг с бронированием и оплатой через ЮKassa",
+        "post_excerpt": "Собрал лендинг и бронирование, подключил ЮKassa. Подтверждённый платёж связывается с заявкой, после чего владелец получает уведомление в Telegram.",
+        "_sy3_description": "Собрал лендинг и бронирование, подключил ЮKassa. Подтверждённый платёж связывается с заявкой, после чего владелец получает уведомление в Telegram."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/shumakova-yookassa.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 ed032823093c848ccabb43ccf92fec0fe39f0ff6ba6af94c5b502bb5aa338980",
+        "Runtime baseline body SHA256 b4a5211e52b290c06386409ccad4faa3e158c2a15672478ebbed5afa6b6cade0"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 27,
+      "type": "sy3_case",
+      "slug": "stilspace",
+      "baseline_body_hash": "9cdb293b3434401cbedf78978ed85051d224ad6bb488f4ac94b0d9433b5001aa",
+      "baseline_fields_hash": "58443bcfb22421feb5d6258d37b5ae39f7dcde6696a452f92163e3c12f7b4535",
+      "candidate_fields_hash": "21eb48ebe6ed066eb95ead157646d0bb7c5da583a4c7ff7ad4cebed84460b63d",
+      "before": {
+        "post_title": "СТИЛСПЭЙС: готовая вёрстка и удобное управление в 1С-Битрикс",
+        "post_excerpt": "СТИЛСПЭЙС — российский оператор спутников дистанционного зондирования Земли.",
+        "_sy3_description": "СТИЛСПЭЙС — российский оператор спутников дистанционного зондирования Земли."
+      },
+      "after": {
+        "post_title": "СТИЛСПЭЙС: готовая вёрстка и удобное управление в 1С-Битрикс",
+        "post_excerpt": "Интегрировал готовую вёрстку корпоративного сайта в 1С-Битрикс. Тексты, изображения и данные блоков редакторы обновляют через поля CMS.",
+        "_sy3_description": "Интегрировал готовую вёрстку корпоративного сайта в 1С-Битрикс. Тексты, изображения и данные блоков редакторы обновляют через поля CMS."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/stilspace.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 b3019cf208690004d5c4b1d6880f73375a5d70b0eb70d681f0a0d818892c311b",
+        "Runtime baseline body SHA256 9cdb293b3434401cbedf78978ed85051d224ad6bb488f4ac94b0d9433b5001aa"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 29,
+      "type": "sy3_case",
+      "slug": "star26",
+      "baseline_body_hash": "13c3544dd4ae264c76eac30f15abeae6663982ee75aa295a968a0aebc4e4964b",
+      "baseline_fields_hash": "a0688ace416e79a6581267ed523d57291b6688c44767da6826bd411cfb0d9797",
+      "candidate_fields_hash": "3fa00d55f152072ee50d4fbcd986dacbf0c9b1d9bd64e86b7b6b0aced46ab9b7",
+      "before": {
+        "post_title": "Звёздный: сайт посёлка с редактируемой картой",
+        "post_excerpt": "«Звёздный» — коттеджный посёлок в Ставрополе, в котором продаются земельные участки ИЖС, таунхаусы и отдельно стоящие дома.",
+        "_sy3_description": "«Звёздный» — коттеджный посёлок в Ставрополе, в котором продаются земельные участки ИЖС, таунхаусы и отдельно стоящие дома."
+      },
+      "after": {
+        "post_title": "Звёздный: сайт посёлка с редактируемой картой",
+        "post_excerpt": "Разработал WordPress-сайт по Figma с каталогом объектов и интерактивной картой посёлка. Данные карты и контент меняются в административной части.",
+        "_sy3_description": "Разработал WordPress-сайт по Figma с каталогом объектов и интерактивной картой посёлка. Данные карты и контент меняются в административной части."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/star26.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 6b45f84f958dd94d477b21ea26d2ff7c27925879f2030efbbc2da511d4ae0bb3",
+        "Runtime baseline body SHA256 13c3544dd4ae264c76eac30f15abeae6663982ee75aa295a968a0aebc4e4964b"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 31,
+      "type": "sy3_case",
+      "slug": "trimed",
+      "baseline_body_hash": "8e1c23cbc0b65239f0424cd9771a820f25d52241bb603366db38f596c15fcb26",
+      "baseline_fields_hash": "e692914daf16b7709ef01b1a9d62aed9f0ce403a133009c788b1270d6d0686b1",
+      "candidate_fields_hash": "a8342488f239dd94a34d61edfee08bdecb8bac67dbcfdd6062695f5c790bd6bd",
+      "before": {
+        "post_title": "ТриМед: многостраничный сайт по макетам Figma",
+        "post_excerpt": "«ТриМед» занимается комплексным оснащением медицинских учреждений: клиник, стоматологий, лабораторий и медицинских центров.",
+        "_sy3_description": "«ТриМед» занимается комплексным оснащением медицинских учреждений: клиник, стоматологий, лабораторий и медицинских центров."
+      },
+      "after": {
+        "post_title": "ТриМед: многостраничный сайт по макетам Figma",
+        "post_excerpt": "Разработал многостраничную WordPress-тему по Figma: главная, четыре направления, формы и FAQ. Ключевые секции редактируются через ACF.",
+        "_sy3_description": "Разработал многостраничную WordPress-тему по Figma: главная, четыре направления, формы и FAQ. Ключевые секции редактируются через ACF."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/trimed.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 370eb33ec15db239d22533e60d1d0f092bb415d248c79a37498b32dea9e5a995",
+        "Runtime baseline body SHA256 8e1c23cbc0b65239f0424cd9771a820f25d52241bb603366db38f596c15fcb26"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 33,
+      "type": "sy3_case",
+      "slug": "formula-lead",
+      "baseline_body_hash": "c3e569a4990ca5a4e2341c525cb78a9454dec8da2cb4afe1e9566b102c2cff1f",
+      "baseline_fields_hash": "14a39189d3a9ebd44955a3ea7da50abf74368f93453422742d2290d6a6af56e7",
+      "candidate_fields_hash": "a0848e9242beb650793e2485c843cf5b0db196b31c9f08dd0f075695ee3bdf49",
+      "before": {
+        "post_title": "Формула лидов: сайт услуг, кейсы и блог",
+        "post_excerpt": "«Формула лидов» — проект авитолога Владимира Кочина, ориентированный на компании, которые хотят использовать Авито как системный канал привлечения клиентов.",
+        "_sy3_description": "«Формула лидов» — проект авитолога Владимира Кочина, ориентированный на компании, которые хотят использовать Авито как системный канал привлечения клиентов."
+      },
+      "after": {
+        "post_title": "Формула лидов: сайт услуг, кейсы и блог",
+        "post_excerpt": "Собрал WordPress-сайт по ТЗ заказчика: услуги, три тарифа, кейсы, видео и блог. Адаптив проверен для компьютеров, планшетов и телефонов.",
+        "_sy3_description": "Собрал WordPress-сайт по ТЗ заказчика: услуги, три тарифа, кейсы, видео и блог. Адаптив проверен для компьютеров, планшетов и телефонов."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/formula-lead.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 80b0ee957969838c07b46b0fb6934b237b51a0781ff09977182ae842d37c0266",
+        "Runtime baseline body SHA256 c3e569a4990ca5a4e2341c525cb78a9454dec8da2cb4afe1e9566b102c2cff1f"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 34,
+      "type": "sy3_case",
+      "slug": "chitayka",
+      "baseline_body_hash": "7d32027e34b32f51859970b9a122dc020987bf442a6b2e960dcd8ee36c70e982",
+      "baseline_fields_hash": "3be64acd207fb521dd2bb72a4bae3364069226710ebf9fdad2fd4d16f9947abc",
+      "candidate_fields_hash": "c9f748f47d0cdda121a3fa5f3212c6fe114b82a55355367a4c446ffeba3feb2b",
+      "before": {
+        "post_title": "Читай-ка: сайт детского центра с фирменным персонажем",
+        "post_excerpt": "«Читай-ка» — детский центр в Калининграде с программами обучения чтению, подготовки к школе, развития и продлёнки для школьников.",
+        "_sy3_description": "«Читай-ка» — детский центр в Калининграде с программами обучения чтению, подготовки к школе, развития и продлёнки для школьников."
+      },
+      "after": {
+        "post_title": "Читай-ка: сайт детского центра с фирменным персонажем",
+        "post_excerpt": "Собрал сайт детского центра на WordPress: три сценария записи, галерея из 14 фотографий и редактирование десяти секций главной и контактов.",
+        "_sy3_description": "Собрал сайт детского центра на WordPress: три сценария записи, галерея из 14 фотографий и редактирование десяти секций главной и контактов."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/chitayka.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 eba2dea80f626eb43265c7ec5a1460d5f532afc9835427340668d637e58d6425",
+        "Runtime baseline body SHA256 7d32027e34b32f51859970b9a122dc020987bf442a6b2e960dcd8ee36c70e982"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 36,
+      "type": "sy3_case",
+      "slug": "barella",
+      "baseline_body_hash": "25b1103ae0b50f6ada2975a7e9ed35c118d7264527ea25b028ae2dd6666791c2",
+      "baseline_fields_hash": "386eb400ff25a86755c18f97e94d5800741359129e63e5b57efa8841a06c4c6b",
+      "candidate_fields_hash": "e7f3907b30f3e01505808d2663ab72c30c017037096993ddb6c378aab972f820",
+      "before": {
+        "post_title": "Barella: корпоративные разделы и каталог объектов",
+        "post_excerpt": "Barella занимается проектированием, монтажом и обслуживанием систем вентиляции, кондиционирования и отопления.",
+        "_sy3_description": "Barella занимается проектированием, монтажом и обслуживанием систем вентиляции, кондиционирования и отопления."
+      },
+      "after": {
+        "post_title": "Barella: корпоративные разделы и каталог объектов",
+        "post_excerpt": "Доработал существующий WordPress-сайт: корпоративные разделы, каталог и десять страниц объектов. Новые CTA связаны с формами обращения.",
+        "_sy3_description": "Доработал существующий WordPress-сайт: корпоративные разделы, каталог и десять страниц объектов. Новые CTA связаны с формами обращения."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/barella.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 17cc73bda61ae1340903b200fecffb3f779ef26a2ee1f319c8eb4fa1a5a64a82",
+        "Runtime baseline body SHA256 25b1103ae0b50f6ada2975a7e9ed35c118d7264527ea25b028ae2dd6666791c2"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 38,
+      "type": "sy3_case",
+      "slug": "real-flacon",
+      "baseline_body_hash": "23e84a30d2bdec68f7026ff26ba7648014e34a38a2f1103affe96e7c903d4cf7",
+      "baseline_fields_hash": "f1fe05580321b033813cd7e1e4b387357bbf8cb2c3a2936e09758359a95bbaa9",
+      "candidate_fields_hash": "0759142e3ba74002054db8a84774c2b138926046288c2e4f38c629e4b9cad8c5",
+      "before": {
+        "post_title": "Real Flacon: каталог, корзина и оформление заказа",
+        "post_excerpt": "Real Flacon — интернет-магазин селективной парфюмерии с большим каталогом товаров, категориями по типу парфюмерии и брендам, корзиной и оформлением заказа.",
+        "_sy3_description": "Real Flacon — интернет-магазин селективной парфюмерии с большим каталогом товаров, категориями по типу парфюмерии и брендам, корзиной и оформлением заказа."
+      },
+      "after": {
+        "post_title": "Real Flacon: каталог, корзина и оформление заказа",
+        "post_excerpt": "Доработал действующий WooCommerce-магазин: подборки и навигацию, корзину, поля заказа, проверку телефона и подсказки адреса через сервер.",
+        "_sy3_description": "Доработал действующий WooCommerce-магазин: подборки и навигацию, корзину, поля заказа, проверку телефона и подсказки адреса через сервер."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/real-flacon.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 77ccd27778925b47a60a6fdb717c3151040f5852c63f2dbca4bbd48de3ec220c",
+        "Runtime baseline body SHA256 23e84a30d2bdec68f7026ff26ba7648014e34a38a2f1103affe96e7c903d4cf7"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 40,
+      "type": "sy3_case",
+      "slug": "digital-belka",
+      "baseline_body_hash": "5038a272c5c218d3fbefeb2257062407b2fdd2d0566419d0d1b7f8c33b61db39",
+      "baseline_fields_hash": "7f62dd76963f3bb44210eaae7f05eb17fe8f14d7c6e1bfbcff3b9cce4c3c32d0",
+      "candidate_fields_hash": "e15ac87a9b1c636beee1c6e99e1e1ee3e61478d3c595d0818abeb0a6f3927278",
+      "before": {
+        "post_title": "Digital Belka: единый дизайн и мобильная версия",
+        "post_excerpt": "Digital Belka — персональный сайт эксперта по карьерному развитию и нейрокоучингу.",
+        "_sy3_description": "Digital Belka — персональный сайт эксперта по карьерному развитию и нейрокоучингу."
+      },
+      "after": {
+        "post_title": "Digital Belka: единый дизайн и мобильная версия",
+        "post_excerpt": "Доработал существующий WordPress-сайт: единое оформление ключевых страниц, мобильная версия и удаление части лишних ресурсов с сохранением контента.",
+        "_sy3_description": "Доработал существующий WordPress-сайт: единое оформление ключевых страниц, мобильная версия и удаление части лишних ресурсов с сохранением контента."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/digital-belka.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 82e27bf420a68f9cc1aa1463f54bb9c391dfca95d38cab1e621f0d166b9ee1d6",
+        "Runtime baseline body SHA256 5038a272c5c218d3fbefeb2257062407b2fdd2d0566419d0d1b7f8c33b61db39"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 42,
+      "type": "sy3_case",
+      "slug": "lemesh-pro",
+      "baseline_body_hash": "a8b6dd854a8a34cd459b2212f213bc14a164f63ab299c464f48993fe863cb3d9",
+      "baseline_fields_hash": "5030895241faf13c5127f0419de8ba3d11c87dc5a0331e497b1322902001a614",
+      "candidate_fields_hash": "9d24abb4460b3627d35690200d4d636c2108b96f93c7252c2a6e42627bbdc291",
+      "before": {
+        "post_title": "LEMESH PRO: сайт компании по остеклению",
+        "post_excerpt": "LEMESH PRO занимается остеклением квартир, балконов, частных домов, веранд, витрин и коммерческих объектов в Москве и Московской области.",
+        "_sy3_description": "LEMESH PRO занимается остеклением квартир, балконов, частных домов, веранд, витрин и коммерческих объектов в Москве и Московской области."
+      },
+      "after": {
+        "post_title": "LEMESH PRO: сайт компании по остеклению",
+        "post_excerpt": "Разработал WordPress-сайт компании по остеклению: услуги, квиз, формы, управляемые кейсы и фотографии объектов. Проект подготовлен к переносу клиенту.",
+        "_sy3_description": "Разработал WordPress-сайт компании по остеклению: услуги, квиз, формы, управляемые кейсы и фотографии объектов. Проект подготовлен к переносу клиенту."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/lemesh-pro.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 8b5c1b83d6cc0315605bda6ff2f8245d53980fcc99734736789f96be54a82e6f",
+        "Runtime baseline body SHA256 a8b6dd854a8a34cd459b2212f213bc14a164f63ab299c464f48993fe863cb3d9"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 44,
+      "type": "sy3_case",
+      "slug": "saneq-technology",
+      "baseline_body_hash": "4ccd2378ce3da2002063ddab42d316f5f9b970046e51f92b0df64828f04fa400",
+      "baseline_fields_hash": "421018b4d4a00349c628216a8a1e4b495d5943d419976d3658142cccd5626ba9",
+      "candidate_fields_hash": "fa8bca8b6678513779a90ce85af7ff5a95f53e7bed2de516aa4894f313c359ec",
+      "before": {
+        "post_title": "SANEQ Technology: SEO и структура сайта оборудования",
+        "post_excerpt": "SANEQ Technology — сайт поставщика промышленного оборудования для мойки, гигиены и пищевых производств.",
+        "_sy3_description": "SANEQ Technology — сайт поставщика промышленного оборудования для мойки, гигиены и пищевых производств."
+      },
+      "after": {
+        "post_title": "SANEQ Technology: SEO и структура сайта оборудования",
+        "post_excerpt": "Исправил технические и контентные замечания на сайте оборудования. В приёмке проверены 53 страницы и содержимое 41 страницы оборудования.",
+        "_sy3_description": "Исправил технические и контентные замечания на сайте оборудования. В приёмке проверены 53 страницы и содержимое 41 страницы оборудования."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/saneq-technology.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 910f0655ba37a17fc96fd7753f2daad62b3a2d42c8c851f851de1bed18739198",
+        "Runtime baseline body SHA256 4ccd2378ce3da2002063ddab42d316f5f9b970046e51f92b0df64828f04fa400"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 46,
+      "type": "sy3_case",
+      "slug": "design-moskva",
+      "baseline_body_hash": "53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8",
+      "baseline_fields_hash": "c5b42a6568467bcfa2ddc0a43face15ead74f81b6a5ef5c087fec34ab4927bee",
+      "candidate_fields_hash": "91d3019037d328408386d3ad5577b987826d142c81610b5fb37396c12733f6e2",
+      "before": {
+        "post_title": "Design-Moskva: техническая диагностика и исправления",
+        "post_excerpt": "Design-Moskva — сайт архитектурной студии «Дизайн-Москва».",
+        "_sy3_description": "Design-Moskva — сайт архитектурной студии «Дизайн-Москва»."
+      },
+      "after": {
+        "post_title": "Design-Moskva: техническая диагностика и исправления",
+        "post_excerpt": "Исправил ссылки и замечания SEO-аудита WordPress. Нашёл конфликт плагинов, вызывавший ошибку админки, и сделал точечное исправление.",
+        "_sy3_description": "Исправил ссылки и замечания SEO-аудита WordPress. Нашёл конфликт плагинов, вызывавший ошибку админки, и сделал точечное исправление."
+      },
+      "action": "REWRITE",
+      "reason": "Narrow reopen по независимому review: двусмысленное «конфликт плагинов по памяти» заменено точным описанием найденной причины ошибки административной части; выполненная работа и title сохранены.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/design-moskva.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 258e9023151e46858aca6d153171b8ff48ea56e5c9f3ac3fbe538f6d6a260158",
+        "Runtime baseline body SHA256 53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 48,
+      "type": "sy3_case",
+      "slug": "anfilada-design",
+      "baseline_body_hash": "17d720f6444168b3e20de2b14b2c9dc74447806f1df9dc1a7031ce7245276538",
+      "baseline_fields_hash": "4c5d2a7b290311eae2752f4041ee8bb40bc6b48289201e55c5265eb14c88dc95",
+      "candidate_fields_hash": "d9d9d7c1db49b0bd1820ee31f8ebc1b9064e30d650d835bf883d6e1757cd6ae5",
+      "before": {
+        "post_title": "Anfilada Design: исправление SEO-ошибок WordPress",
+        "post_excerpt": "Anfilada Design — сайт архитектурно-дизайнерской студии, работающей с проектированием зданий и дизайном интерьеров в Москве и по России.",
+        "_sy3_description": "Anfilada Design — сайт архитектурно-дизайнерской студии, работающей с проектированием зданий и дизайном интерьеров в Москве и по России."
+      },
+      "after": {
+        "post_title": "Anfilada Design: исправление SEO-ошибок WordPress",
+        "post_excerpt": "Нашёл и исправил старые ссылки, пустые кнопки и ошибки Elementor на действующем WordPress-сайте. Сохранил дизайн, popup-формы и структуру.",
+        "_sy3_description": "Нашёл и исправил старые ссылки, пустые кнопки и ошибки Elementor на действующем WordPress-сайте. Сохранил дизайн, popup-формы и структуру."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/anfilada-design.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 feb5b6082853db18008e98e49781529e7fd30246192687e507a98be5f636ec87",
+        "Runtime baseline body SHA256 17d720f6444168b3e20de2b14b2c9dc74447806f1df9dc1a7031ce7245276538"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 50,
+      "type": "sy3_case",
+      "slug": "avg-realestate",
+      "baseline_body_hash": "cc33652f6ef956ebc456ecbc2ed93859a474cd7760f37f785600e2495b4743ee",
+      "baseline_fields_hash": "4befba73cfdc9e4b0512268083c57739847068399d47b78b61060e2e9056f01c",
+      "candidate_fields_hash": "b6bb5cbdb9bca140f3062981c40c0d871c2429dd3afe978baa371c81e98ca4db",
+      "before": {
+        "post_title": "AVG Real Estate: формы, документы и диагностика домена",
+        "post_excerpt": "AVG Real Estate — сайт агентства недвижимости Анны Гусевой.",
+        "_sy3_description": "AVG Real Estate — сайт агентства недвижимости Анны Гусевой."
+      },
+      "after": {
+        "post_title": "AVG Real Estate: формы, документы и диагностика домена",
+        "post_excerpt": "Добавил документы, реквизиты, согласия и honeypot в формы WordPress. Отдельно локализовал проблему домена и SSL и подготовил обращение хостингу.",
+        "_sy3_description": "Добавил документы, реквизиты, согласия и honeypot в формы WordPress. Отдельно локализовал проблему домена и SSL и подготовил обращение хостингу."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/avg-realestate.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 e24f4192edeff3a005f741c3d5139e2a576ed88a4113e27a555baa9244618001",
+        "Runtime baseline body SHA256 cc33652f6ef956ebc456ecbc2ed93859a474cd7760f37f785600e2495b4743ee"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 52,
+      "type": "sy3_case",
+      "slug": "ocifrovkavideokasset",
+      "baseline_body_hash": "42eaf07f68d48718f8e8d9d459fdbfa499cbd0de68079c588e28477639c9a7e7",
+      "baseline_fields_hash": "59dd7af1dc46ca38e20d1b0bc22a9977e635280aed6a8139cce46efd65474183",
+      "candidate_fields_hash": "6cbe176c6d9aefe90aeb48267ec6fea3695498187da4ed774f4a8fde61380203",
+      "before": {
+        "post_title": "МосЦифра: восстановление MODX после заражения",
+        "post_excerpt": "ocifrovkavideokasset.ru — сайт услуги по оцифровке видеокассет.",
+        "_sy3_description": "ocifrovkavideokasset.ru — сайт услуги по оцифровке видеокассет."
+      },
+      "after": {
+        "post_title": "МосЦифра: восстановление MODX после заражения",
+        "post_excerpt": "Восстановил сайт услуги оцифровки на MODX после заражения: доступ в manager, отображение страниц, обновление CMS и совместимое окружение PHP.",
+        "_sy3_description": "Восстановил сайт услуги оцифровки на MODX после заражения: доступ в manager, отображение страниц, обновление CMS и совместимое окружение PHP."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/ocifrovkavideokasset.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 4c3893a5678354bea558736e1de4415bc23d8770b8136a3133153b72b683dc4c",
+        "Runtime baseline body SHA256 42eaf07f68d48718f8e8d9d459fdbfa499cbd0de68079c588e28477639c9a7e7"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 54,
+      "type": "sy3_case",
+      "slug": "petlifeexpo",
+      "baseline_body_hash": "b565c2dc8d2b22d416146f7be4a04ea54279af1b3ad8ca073416a872d4f7f129",
+      "baseline_fields_hash": "d71046e265acdd3364cac76d4a40d0cbe0037f1132949adb166b28eafa24166e",
+      "candidate_fields_hash": "8f228fc69182193aaace1fce1eac1b12fb9ef8744fa09c3d03dd4c48d041d18e",
+      "before": {
+        "post_title": "Pet Life Expo: перенос из Gamma на собственный хостинг",
+        "post_excerpt": "Pet Life Expo — сайт выставочного проекта для pet-индустрии.",
+        "_sy3_description": "Pet Life Expo — сайт выставочного проекта для pet-индустрии."
+      },
+      "after": {
+        "post_title": "Pet Life Expo: перенос из Gamma на собственный хостинг",
+        "post_excerpt": "Перенёс сайт из Gamma в статический HTML на собственном хостинге: локальные изображения, шрифты и стили, мобильная версия и анимация.",
+        "_sy3_description": "Перенёс сайт из Gamma в статический HTML на собственном хостинге: локальные изображения, шрифты и стили, мобильная версия и анимация."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/petlifeexpo.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 c144b12c2ef983d771332646a27be0f0263d37db99bfda660c6779d93ca089f9",
+        "Runtime baseline body SHA256 b565c2dc8d2b22d416146f7be4a04ea54279af1b3ad8ca073416a872d4f7f129"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 56,
+      "type": "sy3_case",
+      "slug": "proffstroy",
+      "baseline_body_hash": "73ec0c335d9945a384b1aad16acc8d89de93c1623599b68c70a9425a32fb5004",
+      "baseline_fields_hash": "647bd0865f17c740fad7ab3b1392a5547e5c27d8c8531861aa510ac3eb980744",
+      "candidate_fields_hash": "36a4087d92cf9b26427b41561e7cd18da3854a8c9f4c20d7bfb5b6211cf08ca8",
+      "before": {
+        "post_title": "ПроффСтрой: строительный лендинг по макету Figma",
+        "post_excerpt": "ПроффСтрой — сайт строительной компании, которая занимается ремонтом квартир и домов, строительством капитальных и каркасных домов, а также достройкой и реконструкцией объектов в Кисловодске и окрестностях.",
+        "_sy3_description": "ПроффСтрой — сайт строительной компании, которая занимается ремонтом квартир и домов, строительством капитальных и каркасных домов, а также достройкой и реконструкцией объектов в Кисловодске и окрестностях."
+      },
+      "after": {
+        "post_title": "ПроффСтрой: строительный лендинг по макету Figma",
+        "post_excerpt": "Собрал строительный лендинг по Figma, внёс правки заказчика, добавил галерею и формы. Подготовил переносимый проект с условиями для PHP-обработчика.",
+        "_sy3_description": "Собрал строительный лендинг по Figma, внёс правки заказчика, добавил галерею и формы. Подготовил переносимый проект с условиями для PHP-обработчика."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/proffstroy.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 3dbc809cf9962825909472502b8977968df3f792463a3e3a31537c02f385f955",
+        "Runtime baseline body SHA256 73ec0c335d9945a384b1aad16acc8d89de93c1623599b68c70a9425a32fb5004"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 58,
+      "type": "sy3_case",
+      "slug": "asia-shadrin",
+      "baseline_body_hash": "8b1bb693c3c9371c2bac57c9f0b0ce1a20c78b8a58e3f384c2318630e6809088",
+      "baseline_fields_hash": "98a94dcb745e5c75db616687d45ebfc143ccdccd5a5ccb191653a08fba331ec7",
+      "candidate_fields_hash": "f9effa8db7be9730f5dda7e8e247e1265a266cb3e7b917b66dd1f03cd1777544",
+      "before": {
+        "post_title": "Asia Shadrin: шаблон статьи и адаптивная вёрстка",
+        "post_excerpt": "Для сайта Asia Shadrin нужно было сверстать и опубликовать новую страницу статьи для блога по макету из Figma.",
+        "_sy3_description": "Для сайта Asia Shadrin нужно было сверстать и опубликовать новую страницу статьи для блога по макету из Figma."
+      },
+      "after": {
+        "post_title": "Asia Shadrin: шаблон статьи и адаптивная вёрстка",
+        "post_excerpt": "Сверстал первую статью блога по Figma и встроил её в MODX. Адаптировал под телефон без отдельного мобильного макета, добавил две формы и опубликовал.",
+        "_sy3_description": "Сверстал первую статью блога по Figma и встроил её в MODX. Адаптировал под телефон без отдельного мобильного макета, добавил две формы и опубликовал."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-02/asia-shadrin.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 77647812c228ee2a83d109d1a90f434fba7b5d35f260a1aa9ac9cf9f103d3c29",
+        "Runtime baseline body SHA256 8b1bb693c3c9371c2bac57c9f0b0ce1a20c78b8a58e3f384c2318630e6809088"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 242,
+      "type": "sy3_service",
+      "slug": "web-development",
+      "baseline_body_hash": "3d36de4b73012eb79735baa5c3624099508f1768a3c85cedb8c7bbb0d5988bbb",
+      "baseline_fields_hash": "83570bd16fa8968b7eb1e2c8898ec06e168e16bb2fda3b1559d8dd98ec3d38b1",
+      "candidate_fields_hash": "1e850b464bd8dc9496b849d82bb5c5f0e56ccbb3af1086918effd5181f7af4fc",
+      "before": {
+        "post_title": "Создание сайтов и веб-сервисов",
+        "post_excerpt": "Лендинги, корпоративные сайты, каталоги и веб-приложения под задачи бизнеса. Проектирование, разработка, CMS и интеграции — до рабочего пользовательского сценария.",
+        "_sy3_description": "Лендинги, корпоративные сайты, каталоги и веб-приложения под задачи бизнеса. Проектирование, разработка, CMS и интеграции — до рабочего пользовательского сценария."
+      },
+      "after": {
+        "post_title": "Создание сайтов и веб-сервисов",
+        "post_excerpt": "Разработаю лендинг, корпоративный сайт, каталог или веб-сервис. Согласую действия посетителя и редактора, CMS и интеграции, затем проверю готовый сценарий.",
+        "_sy3_description": "Разработаю лендинг, корпоративный сайт, каталог или веб-сервис. Согласую действия посетителя и редактора, CMS и интеграции, затем проверю готовый сценарий."
+      },
+      "action": "REWRITE",
+      "reason": "Сохранены форматы разработки и управление контентом; результат описан через действия пользователей.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/web-development.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 21aa8e236f469cd05e665ef3e91d53d8f3794203c66a684edee755a876f04798",
+        "Runtime baseline body SHA256 3d36de4b73012eb79735baa5c3624099508f1768a3c85cedb8c7bbb0d5988bbb"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 249,
+      "type": "sy3_service",
+      "slug": "website-support",
+      "baseline_body_hash": "c83caf3fba6903a619ae0c54200f84efd40b5e2271e9e24ebbc6225be1ca398c",
+      "baseline_fields_hash": "786a89b82dfe543b064df4c7d8f353ebe8f9a8782ee6ccebcf87e6f9e7a5f176",
+      "candidate_fields_hash": "6ce9184a23d145de9c52dcc927c0f24349cb1ca1bde1b17489bfd2553cbcc053",
+      "before": {
+        "post_title": "Техническая поддержка сайта",
+        "post_excerpt": "Исправление ошибок, контроль заявок, обновления и развитие действующего сайта. Понятный список работ, приоритеты и проверка результата — с Артёмом на связи.",
+        "_sy3_description": "Исправление ошибок, контроль заявок, обновления и развитие действующего сайта. Понятный список работ, приоритеты и проверка результата — с Артёмом на связи."
+      },
+      "after": {
+        "post_title": "Техническая поддержка сайта",
+        "post_excerpt": "Разберу ошибку страницы, формы или административной части и предложу исправление. Беру действующие сайты в поддержку; условия регулярной работы согласуем отдельно.",
+        "_sy3_description": "Разберу ошибку страницы, формы или административной части и предложу исправление. Беру действующие сайты в поддержку; условия регулярной работы согласуем отдельно."
+      },
+      "action": "REWRITE",
+      "reason": "Убрано третье лицо «с Артёмом на связи»; отдельная ошибка и регулярная поддержка имеют разные условия.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/website-support.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 900ea9c95fbe6ecb468c461e4ae3c963f6e9372fe76adb24a8cd6efc29e5a263",
+        "Runtime baseline body SHA256 c83caf3fba6903a619ae0c54200f84efd40b5e2271e9e24ebbc6225be1ca398c"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 250,
+      "type": "sy3_service",
+      "slug": "website-modernization",
+      "baseline_body_hash": "223ef5fe02a0ec052d612c24fd43e4eabf69931653c03c279f1d5fa601273dce",
+      "baseline_fields_hash": "23a70d3ea6b3b5572870131267a013585cdc5da0a5628981947e0c639c4fae75",
+      "candidate_fields_hash": "812048c7741c441405c8ce1d1d85629ae973c68e6dbe59da286f163e6798be31",
+      "before": {
+        "post_title": "Модернизация и доработка сайта",
+        "post_excerpt": "Новые функции, удобная мобильная версия, управляемый контент и исправление пользовательских сценариев. Развиваем работающий сайт по приоритетам бизнеса.",
+        "_sy3_description": "Новые функции, удобная мобильная версия, управляемый контент и исправление пользовательских сценариев. Развиваем работающий сайт по приоритетам бизнеса."
+      },
+      "after": {
+        "post_title": "Модернизация и доработка сайта",
+        "post_excerpt": "Доработаю каталог, заказ, мобильную страницу или управление контентом на действующем сайте. До правок определю зависимости и согласую, что нужно сохранить.",
+        "_sy3_description": "Доработаю каталог, заказ, мобильную страницу или управление контентом на действующем сайте. До правок определю зависимости и согласую, что нужно сохранить."
+      },
+      "action": "REWRITE",
+      "reason": "Вместо общего развития сайта перечислены конкретные изменения и условие сохранения работающих частей.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/website-modernization.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 b61b6779b7c21dfd869eb03d3ca9afddddc72f2b0e3b3547e9189dd4a3406156",
+        "Runtime baseline body SHA256 223ef5fe02a0ec052d612c24fd43e4eabf69931653c03c279f1d5fa601273dce"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 251,
+      "type": "sy3_service",
+      "slug": "website-audit",
+      "baseline_body_hash": "d9cf5c030b5453568a3579fbdd46c8af690e03163d6b935ad1e483971647fb09",
+      "baseline_fields_hash": "a94e4a2c0c1ae63b177e4a163dc623c245f6216364274d09fd154f1412bc2232",
+      "candidate_fields_hash": "0e4be1edfbf3e30cc1cc4b49a6066782b0762388b0f941ab1e970528f99627c0",
+      "before": {
+        "post_title": "Технический аудит сайта",
+        "post_excerpt": "Проверка индексации, редиректов, скорости, форм и технического состояния сайта. На выходе — приоритеты, воспроизводимые ошибки и план исправлений.",
+        "_sy3_description": "Проверка индексации, редиректов, скорости, форм и технического состояния сайта. На выходе — приоритеты, воспроизводимые ошибки и план исправлений."
+      },
+      "after": {
+        "post_title": "Технический аудит сайта",
+        "post_excerpt": "Проверю техническое состояние сайта под вашу задачу: индексацию, адреса, формы и важные действия. Подготовлю подтверждённые замечания и порядок исправлений.",
+        "_sy3_description": "Проверю техническое состояние сайта под вашу задачу: индексацию, адреса, формы и важные действия. Подготовлю подтверждённые замечания и порядок исправлений."
+      },
+      "action": "REWRITE",
+      "reason": "Аудит описан как обследование с результатом; исправления и активные проверки не обещаны автоматически.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/website-audit.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 1cba620201ec841270003213df9268160c2f753fd197591d6f7899da24fe1d3f",
+        "Runtime baseline body SHA256 d9cf5c030b5453568a3579fbdd46c8af690e03163d6b935ad1e483971647fb09"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 252,
+      "type": "sy3_service",
+      "slug": "wordpress-support",
+      "baseline_body_hash": "634b984421f10c314013af692698db23a08c8f54c24ca23c4873f0be2fde8fb8",
+      "baseline_fields_hash": "ace29b59e9e96dbc3dea6056b0636a68d7ed0fddc48209d98d5493b323fbe734",
+      "candidate_fields_hash": "15330d56622aede6d5d39758ae3023d0f6502f80724e0444ffd9590035e316a8",
+      "before": {
+        "post_title": "Поддержка и доработка WordPress",
+        "post_excerpt": "Обновления, исправления, формы, шаблоны, WooCommerce и развитие административной части WordPress. Сохраняем контент и проверяем важные действия сайта.",
+        "_sy3_description": "Обновления, исправления, формы, шаблоны, WooCommerce и развитие административной части WordPress. Сохраняем контент и проверяем важные действия сайта."
+      },
+      "after": {
+        "post_title": "Поддержка и доработка WordPress",
+        "post_excerpt": "Исправлю ошибку темы или плагина, доработаю шаблоны, формы и WooCommerce. Сначала разберу зависимости WordPress, после изменений проверю важные действия.",
+        "_sy3_description": "Исправлю ошибку темы или плагина, доработаю шаблоны, формы и WooCommerce. Сначала разберу зависимости WordPress, после изменений проверю важные действия."
+      },
+      "action": "REWRITE",
+      "reason": "От первого лица, с конкретными объектами поддержки и связью с проверкой.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/wordpress-support.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 7197ec4ad70bbe5ee4c9cd522495dd7fa0f5641d8e3bc4164fb9230edb9de7ce",
+        "Runtime baseline body SHA256 634b984421f10c314013af692698db23a08c8f54c24ca23c4873f0be2fde8fb8"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 253,
+      "type": "sy3_service",
+      "slug": "bitrix24-support",
+      "baseline_body_hash": "6a795b04fc71190dbb3958891943c734ec7aef15f08fb7e2c2a0e4492043328e",
+      "baseline_fields_hash": "f2baed158b66774e339c3ecaa9852e6faf27109f295a82d1b302d00efd7565d3",
+      "candidate_fields_hash": "151d2b889a0351df5a394c99886b8d78de8b7bee35c10fb3d12b1c27ff703528",
+      "before": {
+        "post_title": "Сопровождение и доработка Битрикс24",
+        "post_excerpt": "Развитие действующего Битрикс24: поля, воронки, роботы, доступы, интеграции и рабочие инструкции. Разбираем сбои и проверяем изменения на реальных сценариях.",
+        "_sy3_description": "Развитие действующего Битрикс24: поля, воронки, роботы, доступы, интеграции и рабочие инструкции. Разбираем сбои и проверяем изменения на реальных сценариях."
+      },
+      "after": {
+        "post_title": "Сопровождение и доработка Битрикс24",
+        "post_excerpt": "Разберу сбой робота, прав или интеграции Битрикс24, доработаю поля и воронки. Проверю результат под рабочей ролью; состав сопровождения согласуем отдельно.",
+        "_sy3_description": "Разберу сбой робота, прав или интеграции Битрикс24, доработаю поля и воронки. Проверю результат под рабочей ролью; состав сопровождения согласуем отдельно."
+      },
+      "action": "REWRITE",
+      "reason": "Сохранено отличие доработки действующего портала от нового внедрения; нет неоговорённого SLA.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/bitrix24-support.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 a3c62ecb73c7dd4d029b3b31b048a2c33439a5f935833414bcd196cc604c36bd",
+        "Runtime baseline body SHA256 6a795b04fc71190dbb3958891943c734ec7aef15f08fb7e2c2a0e4492043328e"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 254,
+      "type": "sy3_service",
+      "slug": "business-analysis",
+      "baseline_body_hash": "541e7c2433a7da7114520c79e66ad96bafb53105c070f973f2b10f783b634093",
+      "baseline_fields_hash": "13e94fabb643f33fcd559a8e8c2fad46442c787c2be2ef4202c4253256b648f1",
+      "candidate_fields_hash": "c73f1eb29e03ead3db73e80a82a219c1d9f269103c9b7b4802051cbf3805c342",
+      "before": {
+        "post_title": "Бизнес-анализ перед автоматизацией",
+        "post_excerpt": "Разбираем текущие процессы, данные и ограничения. На выходе — согласованная модель работы, приоритеты, требования и критерии приёмки будущей системы.",
+        "_sy3_description": "Разбираем текущие процессы, данные и ограничения. На выходе — согласованная модель работы, приоритеты, требования и критерии приёмки будущей системы."
+      },
+      "after": {
+        "post_title": "Бизнес-анализ перед автоматизацией",
+        "post_excerpt": "Разберу процесс с заказчиком и пользователями, опишу данные, правила и исключения. Подготовлю требования и критерии приёмки для оценки и разработки.",
+        "_sy3_description": "Разберу процесс с заказчиком и пользователями, опишу данные, правила и исключения. Подготовлю требования и критерии приёмки для оценки и разработки."
+      },
+      "action": "REWRITE",
+      "reason": "Конкретные действия аналитика и самостоятельный результат этапа без гарантии эффекта внедрения.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/business-analysis.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 676be9620dc8b039092ebc09bb8105f084ebb2cd32c1cd7a695dc84dd8830c6a",
+        "Runtime baseline body SHA256 541e7c2433a7da7114520c79e66ad96bafb53105c070f973f2b10f783b634093"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 255,
+      "type": "sy3_service",
+      "slug": "business-process-automation",
+      "baseline_body_hash": "7cfd179180e6b16221b4c01e6b3d161133202612086ac998b80a688cb314aa17",
+      "baseline_fields_hash": "dabecfbbede7194b87e44785f5394165b9a7fe32ef94acb09b1c123ba9b51bd2",
+      "candidate_fields_hash": "91a35809dfda2fa8a5f5df2af5e6803bfba6ff9ba6db7870e2cd2a0d5401c928",
+      "before": {
+        "post_title": "Автоматизация бизнес-процессов",
+        "post_excerpt": "Заявки, согласования, документы и межсистемный обмен. Связываем участников, правила и инструменты в рабочий процесс с понятными точками контроля.",
+        "_sy3_description": "Заявки, согласования, документы и межсистемный обмен. Связываем участников, правила и инструменты в рабочий процесс с понятными точками контроля."
+      },
+      "after": {
+        "post_title": "Автоматизация бизнес-процессов",
+        "post_excerpt": "Помогу убрать выбранную ручную операцию: передать заявку, назначить исполнителя или собрать документ. Опишу правила, реализую согласованный участок и проверю его.",
+        "_sy3_description": "Помогу убрать выбранную ручную операцию: передать заявку, назначить исполнителя или собрать документ. Опишу правила, реализую согласованный участок и проверю его."
+      },
+      "action": "REWRITE",
+      "reason": "Один ограниченный процесс вместо обещания комплексной автоматизации всего бизнеса.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/business-process-automation.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 4be9eb856420fa5357ca2134b0c686542fbf593ccbba1b14cd14ce1fece649ab",
+        "Runtime baseline body SHA256 7cfd179180e6b16221b4c01e6b3d161133202612086ac998b80a688cb314aa17"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 256,
+      "type": "sy3_service",
+      "slug": "website-migration",
+      "baseline_body_hash": "d2cff76a48be39db3684251dcff1721fcc699311b783f33359d6ce023a99afe7",
+      "baseline_fields_hash": "27121afc6128798eb807bb054cf86f1f3fdcfdeaaebb1e093a7fb866a6ca8e16",
+      "candidate_fields_hash": "8e673a7979f93b2418fc3a540000cd123236fa98c9c5d7592a0d442d03ac218f",
+      "before": {
+        "post_title": "Перенос сайта на новую платформу или хостинг",
+        "post_excerpt": "Переносим контент, структуру и рабочие сценарии. Составляем карту адресов, проверяем формы, изображения, редиректы и административную часть после публикации.",
+        "_sy3_description": "Переносим контент, структуру и рабочие сценарии. Составляем карту адресов, проверяем формы, изображения, редиректы и административную часть после публикации."
+      },
+      "after": {
+        "post_title": "Перенос сайта на новую платформу или хостинг",
+        "post_excerpt": "Подготовлю перенос сайта с учётом адресов, контента, форм и подключений. Составлю карту переходов и проверю важные действия после согласованного переключения.",
+        "_sy3_description": "Подготовлю перенос сайта с учётом адресов, контента, форм и подключений. Составлю карту переходов и проверю важные действия после согласованного переключения."
+      },
+      "action": "REWRITE",
+      "reason": "Перенос не сводится к копированию файлов; позиции в поиске и публикация без согласования не обещаны.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/website-migration.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 8c3c0042ef58d28bf206490ff101deaac3a5ccedc80553c902982c5f47f974ed",
+        "Runtime baseline body SHA256 d2cff76a48be39db3684251dcff1721fcc699311b783f33359d6ce023a99afe7"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 257,
+      "type": "sy3_service",
+      "slug": "crm-audit",
+      "baseline_body_hash": "c9696fefa3eac66a665fd7ac1b102bd104c89f93abe20afdd28cd69835f8fa1e",
+      "baseline_fields_hash": "7834d232e74c43c0504e284fd2eb15108afce28e8a7ad441a9f67ee5e6d7bdbe",
+      "candidate_fields_hash": "8db6851b4055c0ae6a021217fcd765d5ce27cfc05c883c9f023d01a16140ad6b",
+      "before": {
+        "post_title": "Аудит Битрикс24 и действующей CRM",
+        "post_excerpt": "Проверяем путь заявки, воронки, поля, права, автоматизацию и интеграции. Получаете список подтверждённых проблем и приоритетный план развития CRM.",
+        "_sy3_description": "Проверяем путь заявки, воронки, поля, права, автоматизацию и интеграции. Получаете список подтверждённых проблем и приоритетный план развития CRM."
+      },
+      "after": {
+        "post_title": "Аудит Битрикс24 и действующей CRM",
+        "post_excerpt": "Проверю CRM на примерах обращений: источники, карточки, права, автоматизацию и обмен. Подготовлю список подтверждённых проблем и предложу первый этап исправлений.",
+        "_sy3_description": "Проверю CRM на примерах обращений: источники, карточки, права, автоматизацию и обмен. Подготовлю список подтверждённых проблем и предложу первый этап исправлений."
+      },
+      "action": "REWRITE",
+      "reason": "Диагностика отличается от выполнения правок, сохранён предмет аудита.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/crm-audit.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 d757e80110a6e1c8e44d3898d995dd58089839d1eed56968f48521145f13fee0",
+        "Runtime baseline body SHA256 c9696fefa3eac66a665fd7ac1b102bd104c89f93abe20afdd28cd69835f8fa1e"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 258,
+      "type": "sy3_service",
+      "slug": "website-crm-integration",
+      "baseline_body_hash": "e60741b31adca662af57e5abf4a557c9888ac84808d5bfdb2236feed5eaef601",
+      "baseline_fields_hash": "0684cda0a5eb47ff89662ab8a7238f11c3ebc7ba9d3fa999a3d8113bccbbf0ba",
+      "candidate_fields_hash": "583027c47f32436f0760c18e3a2e7b6e24e35d89601a57a14d6a6ee571857d1e",
+      "before": {
+        "post_title": "Интеграция сайта с CRM",
+        "post_excerpt": "Связываем формы сайта с Битрикс24 и другими CRM: поля, источники, ответственные, повторы и диагностика ошибок. Проверяем не уведомление, а полный путь обращения.",
+        "_sy3_description": "Связываем формы сайта с Битрикс24 и другими CRM: поля, источники, ответственные, повторы и диагностика ошибок. Проверяем не уведомление, а полный путь обращения."
+      },
+      "after": {
+        "post_title": "Интеграция сайта с CRM",
+        "post_excerpt": "Подключу формы сайта к CRM и проверю путь до карточки и ответственного. Согласую поля, источники, повторы и поведение при ошибках передачи.",
+        "_sy3_description": "Подключу формы сайта к CRM и проверю путь до карточки и ответственного. Согласую поля, источники, повторы и поведение при ошибках передачи."
+      },
+      "action": "REWRITE",
+      "reason": "Краткое самостоятельное описание полного маршрута формы без отрицательных рекламных сравнений.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/website-crm-integration.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 116630e9179efab460c845bcb8213aa76af9e3b2bac12e7cfd44b059d4d0be12",
+        "Runtime baseline body SHA256 e60741b31adca662af57e5abf4a557c9888ac84808d5bfdb2236feed5eaef601"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 259,
+      "type": "sy3_service",
+      "slug": "1c-integration",
+      "baseline_body_hash": "dd6b17b499a1cd9adfd85e1b57a439a00171cb9ad524f6b9fae7ece37624754e",
+      "baseline_fields_hash": "fb3c94c44eba450b758115856892cede8cc41d0f5e9df1dfc26a79ceb03da3d4",
+      "candidate_fields_hash": "bff840eca1ccd7204cc4ee2de4efb99b230abda558bcd1712f6146530dc6e39e",
+      "before": {
+        "post_title": "Доработка 1С и интеграции с бизнес-системами",
+        "post_excerpt": "Обмен между 1С, CRM, сайтом и рабочими сервисами. Я разбираю процесс и веду проект, профильные работы по 1С выполняют проверенные подрядчики.",
+        "_sy3_description": "Обмен между 1С, CRM, сайтом и рабочими сервисами. Я разбираю процесс и веду проект, профильные работы по 1С выполняют проверенные подрядчики."
+      },
+      "after": {
+        "post_title": "Доработка 1С и интеграции с бизнес-системами",
+        "post_excerpt": "Организую обмен между 1С, CRM и сайтом: разберу данные, подготовлю требования и проверю связанный результат. Изменения в 1С выполняют профильные подрядчики.",
+        "_sy3_description": "Организую обмен между 1С, CRM и сайтом: разберу данные, подготовлю требования и проверю связанный результат. Изменения в 1С выполняют профильные подрядчики."
+      },
+      "action": "REWRITE",
+      "reason": "Сохранены точные роли: я веду требования и координацию, подрядчик выполняет работы внутри 1С.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/1c-integration.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 44dc0fefb291d3f84ab6631c20bed2acf98077871b8febb42c7cd7e891aea041",
+        "Runtime baseline body SHA256 dd6b17b499a1cd9adfd85e1b57a439a00171cb9ad524f6b9fae7ece37624754e"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 260,
+      "type": "sy3_service",
+      "slug": "bi-dashboards",
+      "baseline_body_hash": "6d3ee287305eef5810d358bd792133903e0c4cf4a634110f59fb11dd5881e666",
+      "baseline_fields_hash": "df6cfc6e60a1ba9f8b202e887cf0026735441bfb39ed32590b53b627fe9c1a20",
+      "candidate_fields_hash": "962603a3203ac1d8d7f6e46720ba138931d2fbfdadd64cfbe59319ba6fed6df3",
+      "before": {
+        "post_title": "BI-дашборды и управленческая аналитика",
+        "post_excerpt": "Дашборды по данным CRM, 1С, сайта и таблиц. Вместе с профильными дата-аналитиками связываем показатели с решениями руководителя и проверяем качество исходных данных.",
+        "_sy3_description": "Дашборды по данным CRM, 1С, сайта и таблиц. Вместе с профильными дата-аналитиками связываем показатели с решениями руководителя и проверяем качество исходных данных."
+      },
+      "after": {
+        "post_title": "BI-дашборды и управленческая аналитика",
+        "post_excerpt": "Помогу определить показатели и источники для дашборда. Вместе с профильными дата-аналитиками подготовлю отчёт и сверю расчёты с исходными данными.",
+        "_sy3_description": "Помогу определить показатели и источники для дашборда. Вместе с профильными дата-аналитиками подготовлю отчёт и сверю расчёты с исходными данными."
+      },
+      "action": "REWRITE",
+      "reason": "Уточнены определения и сверка данных; роль профильных аналитиков сохранена без обещания любых источников.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/services-01/bi-dashboards.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 609ce28332ce25b2b82590c58cd725776db6043880dfcfb8da72ca8915567117",
+        "Runtime baseline body SHA256 6d3ee287305eef5810d358bd792133903e0c4cf4a634110f59fb11dd5881e666"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 574,
+      "type": "sy3_case",
+      "slug": "hiring-funnel-dashboard",
+      "baseline_body_hash": "23e27546858edd0192d8f565cfa6b751b5baa9c90af5843cb21547904e3ff2d1",
+      "baseline_fields_hash": "3fb4301f4c9422eba1b34fe91ad7c21174ece4055dc17f29ad9427646f578b9e",
+      "candidate_fields_hash": "68f3e6c47d3ab624b48867ca80be26bfaa3eafb2edb90d6fa620ed0fe65f2411",
+      "before": {
+        "post_title": "Дашборд найма: воронка подбора сотрудников",
+        "post_excerpt": "Дашборд подбора сотрудников с представлением процесса в виде воронки. Выполненный проект по HR-аналитике.",
+        "_sy3_description": "Дашборд подбора сотрудников с представлением процесса в виде воронки. Выполненный проект по HR-аналитике."
+      },
+      "after": {
+        "post_title": "Дашборд найма: воронка подбора сотрудников",
+        "post_excerpt": "Собрал дашборд найма с представлением подбора сотрудников в виде воронки. Публичный кейс — без названия компании и данных кандидатов.",
+        "_sy3_description": "Собрал дашборд найма с представлением подбора сотрудников в виде воронки. Публичный кейс — без названия компании и данных кандидатов."
+      },
+      "action": "REWRITE",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/hiring-funnel-dashboard.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 9ea054d25697d8d0572d308cad4aaa0d4a764d65802d3e46bcf70260f99c45fe",
+        "Runtime baseline body SHA256 23e27546858edd0192d8f565cfa6b751b5baa9c90af5843cb21547904e3ff2d1"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    },
+    {
+      "id": 576,
+      "type": "sy3_case",
+      "slug": "crm-hr-requirements",
+      "baseline_body_hash": "f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468",
+      "baseline_fields_hash": "55c22f33ebd854eee37c877ce855f8f5aeca257867eefc9d567101ecdc91c349",
+      "candidate_fields_hash": "55c22f33ebd854eee37c877ce855f8f5aeca257867eefc9d567101ecdc91c349",
+      "before": {
+        "post_title": "От анкеты CRM к требованиям кадрового сервиса",
+        "post_excerpt": "Подготовил ТЗ для связи анкеты CRM с кадровым процессом: источники данных, сопоставление записей, статусы, права и ошибки. Результат этапа — требования для разработки.",
+        "_sy3_description": "Подготовил ТЗ для связи анкеты CRM с кадровым процессом: источники данных, сопоставление записей, статусы, права и ошибки. Результат этапа — требования для разработки."
+      },
+      "after": {
+        "post_title": "От анкеты CRM к требованиям кадрового сервиса",
+        "post_excerpt": "Подготовил ТЗ для связи анкеты CRM с кадровым процессом: источники данных, сопоставление записей, статусы, права и ошибки. Результат этапа — требования для разработки.",
+        "_sy3_description": "Подготовил ТЗ для связи анкеты CRM с кадровым процессом: источники данных, сопоставление записей, статусы, права и ошибки. Результат этапа — требования для разработки."
+      },
+      "action": "KEEP",
+      "reason": "Повторно использовано индивидуальное описание из принятого source-пакета кейсов; кратко описывает выполненную работу, а не отрасль клиента.",
+      "evidence": [
+        "wordpress/docs/editorial/batches/cases-01/crm-hr-requirements.html",
+        "Соответствующий подготовленный body прочитан целиком; SHA256 13394badfb8a06cfba86875880af67c04d82d33b7b98f3906bdff635e778d66c",
+        "Runtime baseline body SHA256 f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468"
+      ],
+      "review_state": "NEEDS_EDITORIAL_REVIEW"
+    }
+  ]
+}

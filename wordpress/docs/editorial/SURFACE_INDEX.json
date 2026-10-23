@@ -1,0 +1,3625 @@
+{
+  "source_body_commit": "a74fcd23af7f75ba784020b5067ddfa652a7ed50",
+  "production_authority": false,
+  "runtime_or_queue_changed": false,
+  "objects": 360,
+  "metadata_rewrite": 155,
+  "metadata_keep": 205,
+  "changed_fields": 313,
+  "article_support_sets": 311,
+  "contextual_ctas": 622,
+  "copy_faq_sets": 171,
+  "body_authored_faq_sets": 140,
+  "publisher_approval_created": false,
+  "candidates": [
+    {
+      "id": 3,
+      "type": "page",
+      "slug": "privacy-policy",
+      "action": "KEEP",
+      "baseline_fields_hash": "2fb216da386185ff490413dc0f0305d6439e8a1bfbe9ef3c4dbb193c4388dfda",
+      "candidate_fields_hash": "2fb216da386185ff490413dc0f0305d6439e8a1bfbe9ef3c4dbb193c4388dfda",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 4,
+      "type": "page",
+      "slug": "home",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c006c0077a8f635fe7101cce215deaee548fd20c0c1c8315218b28ca88cfbef9",
+      "candidate_fields_hash": "4864082a4d256c5aaa9caf697ba5ea23d37211e28671b58082ee6e458648ae65",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 5,
+      "type": "page",
+      "slug": "about",
+      "action": "REWRITE",
+      "baseline_fields_hash": "9a46df04061763e0c89319772e48e008c6d86a5b2dde1fb660eb487d6812d12f",
+      "candidate_fields_hash": "cdbf1b2b78d01c378a49b5b582afb422cb25c1b90e750db9d9617fdd61162013",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 6,
+      "type": "page",
+      "slug": "contacts",
+      "action": "REWRITE",
+      "baseline_fields_hash": "9e9de2460820d3ad220d0796ee184facbf425497eeebf96c7c6190a73b52fb26",
+      "candidate_fields_hash": "cf4a503673a95cdc39cbcc7fc7a4a94edf7d189a6f4e7e9512bbe1030d57278e",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 7,
+      "type": "page",
+      "slug": "privacy",
+      "action": "KEEP",
+      "baseline_fields_hash": "360b1a72c79c6302dfd5bf5712b92f2fcec107d6b02cda1e607ca243b1586409",
+      "candidate_fields_hash": "360b1a72c79c6302dfd5bf5712b92f2fcec107d6b02cda1e607ca243b1586409",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 8,
+      "type": "page",
+      "slug": "journal",
+      "action": "REWRITE",
+      "baseline_fields_hash": "109b1b0dbb9b02cd774b0f1b38944918a53bb4942b2383859c121d829809c216",
+      "candidate_fields_hash": "e5876f8dd47f1bfb4e727860d6f9488c4fec4d297aee377b32a3af0f0da2433f",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 9,
+      "type": "sy3_service",
+      "slug": "bitrix24",
+      "action": "REWRITE",
+      "baseline_fields_hash": "0ddaa485212be27e5d485de25dc31cf0e3d2b4e146d89cbc93b7a873292c7541",
+      "candidate_fields_hash": "326d5b5516d75ade744d40fcae87b160b876cced5f4b99d25a36e0e9f4d8df76",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 10,
+      "type": "sy3_service",
+      "slug": "integrations",
+      "action": "REWRITE",
+      "baseline_fields_hash": "00034a041f7ba33e50a5507f461c79160381a5da0dd324ff65a39b284588007b",
+      "candidate_fields_hash": "6ba696a5ef0c5423e830ae946bbf97e0e15b5a34efe6a930764f8398335b8455",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 11,
+      "type": "sy3_service",
+      "slug": "ai-automation",
+      "action": "REWRITE",
+      "baseline_fields_hash": "991ff30274c74221ac1155416fabcf9e1069cc40c0be14fdbb41339c791c6bbf",
+      "candidate_fields_hash": "fc613bc3ce0984da58074767b4117d5968c29885042fcea94ba06de2c3f6a05e",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 12,
+      "type": "sy3_case",
+      "slug": "bitrix24-doors",
+      "action": "KEEP",
+      "baseline_fields_hash": "f289b0cc23ab87a14812ed64058c4e5d9d6ed00efee721468f8cc0c459c0f9b7",
+      "candidate_fields_hash": "f289b0cc23ab87a14812ed64058c4e5d9d6ed00efee721468f8cc0c459c0f9b7",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 14,
+      "type": "sy3_case",
+      "slug": "bitrix24-training",
+      "action": "KEEP",
+      "baseline_fields_hash": "06fcd0e0dca4a18833055fc2df6df374cc640f1e933a91270b99d9ae4cabed26",
+      "candidate_fields_hash": "06fcd0e0dca4a18833055fc2df6df374cc640f1e933a91270b99d9ae4cabed26",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 16,
+      "type": "sy3_case",
+      "slug": "glosscheck",
+      "action": "REWRITE",
+      "baseline_fields_hash": "1a94148d30881f2385fee45e9a3349dfdc7343f77e73233e8950d59e7d3fea97",
+      "candidate_fields_hash": "6ab2e8528ab0e5eb2d754c8527549b1b49cf503ed9e09c52ff71906134e2cbaa",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 18,
+      "type": "sy3_case",
+      "slug": "antispam-24-sites",
+      "action": "REWRITE",
+      "baseline_fields_hash": "3266f615cd93a49a645e7db8c1fd6c67e300428dba8a19ae02d247c5a261ef87",
+      "candidate_fields_hash": "982004c4b0f6c3dcb67aee930bb1303befbd96f0367d97b1c4042a92f5cbda4e",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 19,
+      "type": "sy3_case",
+      "slug": "matklass",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c8e9e4263f3cbe13096aab2ff32868b7b0f2b7e717f1a7aa52976e2adae7a79d",
+      "candidate_fields_hash": "4ca03f8187bc3a8b295577fa69c99edd01cc15d4e7158df84443c0896c342d11",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 21,
+      "type": "sy3_case",
+      "slug": "libertygas",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c2544ba03e61862108e5f49f5890d5a4e9ad8e22261383eafd99b2e2eb875d34",
+      "candidate_fields_hash": "fc391a9e27f85f7e9c6caa241dd15de7b88690f57ff2b4b6ebd65b445369306a",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 23,
+      "type": "sy3_case",
+      "slug": "postavki26",
+      "action": "REWRITE",
+      "baseline_fields_hash": "5891a4c90716957f62d39e7be104c6c6d5eeb7cc995495bcd990878dacc1194e",
+      "candidate_fields_hash": "5b81f25f2c932fcb6f34db40d262d1a300a4bd1a46e2cfa72149f0d7af258db1",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 25,
+      "type": "sy3_case",
+      "slug": "shumakova-yookassa",
+      "action": "REWRITE",
+      "baseline_fields_hash": "ddbc266216a1fdc603ee27fdf2f51acf44781c35184d676f481fbd7f8c066639",
+      "candidate_fields_hash": "ad1e6c6b02904c6671fac1641d34d1bf06adc01eb4e91461ee2b9256da4d6c7d",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 27,
+      "type": "sy3_case",
+      "slug": "stilspace",
+      "action": "REWRITE",
+      "baseline_fields_hash": "58443bcfb22421feb5d6258d37b5ae39f7dcde6696a452f92163e3c12f7b4535",
+      "candidate_fields_hash": "21eb48ebe6ed066eb95ead157646d0bb7c5da583a4c7ff7ad4cebed84460b63d",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 29,
+      "type": "sy3_case",
+      "slug": "star26",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a0688ace416e79a6581267ed523d57291b6688c44767da6826bd411cfb0d9797",
+      "candidate_fields_hash": "3fa00d55f152072ee50d4fbcd986dacbf0c9b1d9bd64e86b7b6b0aced46ab9b7",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 31,
+      "type": "sy3_case",
+      "slug": "trimed",
+      "action": "REWRITE",
+      "baseline_fields_hash": "e692914daf16b7709ef01b1a9d62aed9f0ce403a133009c788b1270d6d0686b1",
+      "candidate_fields_hash": "a8342488f239dd94a34d61edfee08bdecb8bac67dbcfdd6062695f5c790bd6bd",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 33,
+      "type": "sy3_case",
+      "slug": "formula-lead",
+      "action": "REWRITE",
+      "baseline_fields_hash": "14a39189d3a9ebd44955a3ea7da50abf74368f93453422742d2290d6a6af56e7",
+      "candidate_fields_hash": "a0848e9242beb650793e2485c843cf5b0db196b31c9f08dd0f075695ee3bdf49",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 34,
+      "type": "sy3_case",
+      "slug": "chitayka",
+      "action": "REWRITE",
+      "baseline_fields_hash": "3be64acd207fb521dd2bb72a4bae3364069226710ebf9fdad2fd4d16f9947abc",
+      "candidate_fields_hash": "c9f748f47d0cdda121a3fa5f3212c6fe114b82a55355367a4c446ffeba3feb2b",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 36,
+      "type": "sy3_case",
+      "slug": "barella",
+      "action": "REWRITE",
+      "baseline_fields_hash": "386eb400ff25a86755c18f97e94d5800741359129e63e5b57efa8841a06c4c6b",
+      "candidate_fields_hash": "e7f3907b30f3e01505808d2663ab72c30c017037096993ddb6c378aab972f820",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 38,
+      "type": "sy3_case",
+      "slug": "real-flacon",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f1fe05580321b033813cd7e1e4b387357bbf8cb2c3a2936e09758359a95bbaa9",
+      "candidate_fields_hash": "0759142e3ba74002054db8a84774c2b138926046288c2e4f38c629e4b9cad8c5",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 40,
+      "type": "sy3_case",
+      "slug": "digital-belka",
+      "action": "REWRITE",
+      "baseline_fields_hash": "7f62dd76963f3bb44210eaae7f05eb17fe8f14d7c6e1bfbcff3b9cce4c3c32d0",
+      "candidate_fields_hash": "e15ac87a9b1c636beee1c6e99e1e1ee3e61478d3c595d0818abeb0a6f3927278",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 42,
+      "type": "sy3_case",
+      "slug": "lemesh-pro",
+      "action": "REWRITE",
+      "baseline_fields_hash": "5030895241faf13c5127f0419de8ba3d11c87dc5a0331e497b1322902001a614",
+      "candidate_fields_hash": "9d24abb4460b3627d35690200d4d636c2108b96f93c7252c2a6e42627bbdc291",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 44,
+      "type": "sy3_case",
+      "slug": "saneq-technology",
+      "action": "REWRITE",
+      "baseline_fields_hash": "421018b4d4a00349c628216a8a1e4b495d5943d419976d3658142cccd5626ba9",
+      "candidate_fields_hash": "fa8bca8b6678513779a90ce85af7ff5a95f53e7bed2de516aa4894f313c359ec",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 46,
+      "type": "sy3_case",
+      "slug": "design-moskva",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c5b42a6568467bcfa2ddc0a43face15ead74f81b6a5ef5c087fec34ab4927bee",
+      "candidate_fields_hash": "91d3019037d328408386d3ad5577b987826d142c81610b5fb37396c12733f6e2",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 48,
+      "type": "sy3_case",
+      "slug": "anfilada-design",
+      "action": "REWRITE",
+      "baseline_fields_hash": "4c5d2a7b290311eae2752f4041ee8bb40bc6b48289201e55c5265eb14c88dc95",
+      "candidate_fields_hash": "d9d9d7c1db49b0bd1820ee31f8ebc1b9064e30d650d835bf883d6e1757cd6ae5",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 50,
+      "type": "sy3_case",
+      "slug": "avg-realestate",
+      "action": "REWRITE",
+      "baseline_fields_hash": "4befba73cfdc9e4b0512268083c57739847068399d47b78b61060e2e9056f01c",
+      "candidate_fields_hash": "b6bb5cbdb9bca140f3062981c40c0d871c2429dd3afe978baa371c81e98ca4db",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 52,
+      "type": "sy3_case",
+      "slug": "ocifrovkavideokasset",
+      "action": "REWRITE",
+      "baseline_fields_hash": "59dd7af1dc46ca38e20d1b0bc22a9977e635280aed6a8139cce46efd65474183",
+      "candidate_fields_hash": "6cbe176c6d9aefe90aeb48267ec6fea3695498187da4ed774f4a8fde61380203",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 54,
+      "type": "sy3_case",
+      "slug": "petlifeexpo",
+      "action": "REWRITE",
+      "baseline_fields_hash": "d71046e265acdd3364cac76d4a40d0cbe0037f1132949adb166b28eafa24166e",
+      "candidate_fields_hash": "8f228fc69182193aaace1fce1eac1b12fb9ef8744fa09c3d03dd4c48d041d18e",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 56,
+      "type": "sy3_case",
+      "slug": "proffstroy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "647bd0865f17c740fad7ab3b1392a5547e5c27d8c8531861aa510ac3eb980744",
+      "candidate_fields_hash": "36a4087d92cf9b26427b41561e7cd18da3854a8c9f4c20d7bfb5b6211cf08ca8",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 58,
+      "type": "sy3_case",
+      "slug": "asia-shadrin",
+      "action": "REWRITE",
+      "baseline_fields_hash": "98a94dcb745e5c75db616687d45ebfc143ccdccd5a5ccb191653a08fba331ec7",
+      "candidate_fields_hash": "f9effa8db7be9730f5dda7e8e247e1265a266cb3e7b917b66dd1f03cd1777544",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 60,
+      "type": "post",
+      "slug": "crm-est-zayavki-teryayutsya",
+      "action": "KEEP",
+      "baseline_fields_hash": "20163d1d387840bbcb8c7a22c5ab74cf6c5fff7acf70cb2bc61ad20123284282",
+      "candidate_fields_hash": "20163d1d387840bbcb8c7a22c5ab74cf6c5fff7acf70cb2bc61ad20123284282",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "0668296361e87d2ffb0c5a95d14ec43a0500ffe7cc5ea2e6abcd29da85fb48fe"
+    },
+    {
+      "id": 61,
+      "type": "post",
+      "slug": "proverka-form-do-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "7d1de617954c8be1dc228647caf9d8f2005ff2cdb9a171a971f4dbf5f3e75af6",
+      "candidate_fields_hash": "7d1de617954c8be1dc228647caf9d8f2005ff2cdb9a171a971f4dbf5f3e75af6",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "06561723573999a00b1322af94d170ad651c7d887c3b1a8839f5ea61db7e658f"
+    },
+    {
+      "id": 62,
+      "type": "post",
+      "slug": "do-vnedreniya-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "5d7292a6957604d41db872881b0c717c5cafd4f749e03e18a6fd076210b50444",
+      "candidate_fields_hash": "5d7292a6957604d41db872881b0c717c5cafd4f749e03e18a6fd076210b50444",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "beb052df39ae7d71bd239657628375e2b272fa393ca8c906852f80474fa85eda"
+    },
+    {
+      "id": 63,
+      "type": "post",
+      "slug": "pervyy-ai-pilot",
+      "action": "KEEP",
+      "baseline_fields_hash": "b1ffde0785ecc4861d21279d7a0982cc7757fef71a3f0bf0491fa887097af2c3",
+      "candidate_fields_hash": "b1ffde0785ecc4861d21279d7a0982cc7757fef71a3f0bf0491fa887097af2c3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "5b57db4c7da0bd65d94cf333cdb2a0720d23e8fe3ea78ea60923f8cc68b09b8a"
+    },
+    {
+      "id": 64,
+      "type": "post",
+      "slug": "ai-chelovek-proverka",
+      "action": "KEEP",
+      "baseline_fields_hash": "e5440fffa0fbe698970f30da493d6c046a0e455bf27a2bbab9861397527f053a",
+      "candidate_fields_hash": "e5440fffa0fbe698970f30da493d6c046a0e455bf27a2bbab9861397527f053a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "12cd01709b5fc6fd367bdc79bfd87741a9462e36c6cbbf666410b0ffb1bccc7a"
+    },
+    {
+      "id": 65,
+      "type": "post",
+      "slug": "priemka-avtomatizatsii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f4618f635a0c731239bdcd89c42393007e3656d922df5ae3d07d1b27d266c66e",
+      "candidate_fields_hash": "96b3f5c3907112fa0dbde63215865131e8624fc7fd70b9ac9d8ffdb3a13644b9",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "106ce79f7b24e529daefae19f651a87996f13fac698c5e5aeed00136141d6411"
+    },
+    {
+      "id": 66,
+      "type": "post",
+      "slug": "integratsiya-dubli-i-povtory",
+      "action": "KEEP",
+      "baseline_fields_hash": "bd8b7f741e7e471292e9446fc8a7ead9b43303308ab1ae01c8f4888110d251cd",
+      "candidate_fields_hash": "bd8b7f741e7e471292e9446fc8a7ead9b43303308ab1ae01c8f4888110d251cd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "70149b89493015e11f33a024b94e12864c775bae0debd0af7d23580dc714b254"
+    },
+    {
+      "id": 67,
+      "type": "post",
+      "slug": "karta-ruchnyh-operatsiy",
+      "action": "KEEP",
+      "baseline_fields_hash": "71eaf87962d950c0eafe4eaa5d0ac10a7ac27fb16a824933aa9c96e34e595967",
+      "candidate_fields_hash": "71eaf87962d950c0eafe4eaa5d0ac10a7ac27fb16a824933aa9c96e34e595967",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "e4a6079d1427c2688c252722e72e71574d12b865d50eef0fda734ca45c42ddba"
+    },
+    {
+      "id": 68,
+      "type": "post",
+      "slug": "ai-kontent-redaktor",
+      "action": "KEEP",
+      "baseline_fields_hash": "78d72b819ac15121906305ec0034d02b3d5ed01cf1d018e971c44dc5bf5c4685",
+      "candidate_fields_hash": "78d72b819ac15121906305ec0034d02b3d5ed01cf1d018e971c44dc5bf5c4685",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "6cb38b0c17a3d9e371dae406d5e31f3107d0eff16d88cf81f4df4b706f21c3d7"
+    },
+    {
+      "id": 69,
+      "type": "post",
+      "slug": "crm-lms-integratsiya",
+      "action": "KEEP",
+      "baseline_fields_hash": "bc88ffa2b5f3f676c1cf67f2b5f1db937fad560e1345038516f6498129927e4e",
+      "candidate_fields_hash": "bc88ffa2b5f3f676c1cf67f2b5f1db937fad560e1345038516f6498129927e4e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "f87465c423d58fb04dac7ae28c7f581abcdb413f6d5062276d6fb857b7e02e87"
+    },
+    {
+      "id": 138,
+      "type": "post",
+      "slug": "u-zayavki-dolzhen-byt-hozyain",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a360f604fb75acd6217940294d0ba72bd8367b1ceaea517c85ff1617b8c032ab",
+      "candidate_fields_hash": "37750159b1c69f3ab34496ead0f29fcb47beab198f476656af889a43f674917d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "62d850edca26fb1e29e94b988d2c020f490e1c214b29d2f7900fe5d242278fde"
+    },
+    {
+      "id": 139,
+      "type": "post",
+      "slug": "ravnomernaya-ochered-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "288b37fbe871dcb3e51caf4994d4da974d8c14e03eb86e72489272325475a902",
+      "candidate_fields_hash": "7721ef8fded8c52ad242e626549643b3c5fbbc4c2b4da92c93f475bdd1ac8b00",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "98e24a6a09a15d81b8a6ab46d24f28684642b58133c019e00286c65c9e6e5e02"
+    },
+    {
+      "id": 141,
+      "type": "post",
+      "slug": "pisma-s-sayta-v-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "7e39200da8b1e8e97683509a801125e03c75ac9c67f1f975bf50655812c1e297",
+      "candidate_fields_hash": "d2fb91d31a2341e37e73ca40a3aa160e6129288eb6f9e05c9d5757f8b151882d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "efe865c796b0213d19a382d1ea96cc6c8a3c7632bd35cbeee61ad2019e294597"
+    },
+    {
+      "id": 142,
+      "type": "post",
+      "slug": "neaktivnye-sotrudniki-v-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a76003b60562e725b73beb2724b7fd69a5f2e94ac47b423873407f8aac8f7bb2",
+      "candidate_fields_hash": "6089d3ed2d8d3d72e1c04724cbd0a189806296e28746e6bc80334510e9414328",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5f6f9b2d1e2547c0eec40f075795c334ff37b633ea9fb12834222dd9dece02b5"
+    },
+    {
+      "id": 143,
+      "type": "post",
+      "slug": "dogovor-iz-sdelki-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a11e41f6091b55a7c44556a8b6f343a98bddcf1f3378bda2389a026bdf50fd9f",
+      "candidate_fields_hash": "c772fac867339d2f534b08ac3a13f22845e5ececcbf9a053980ae4954a9a9672",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "3ebfae119e507aa0f878372fbf165c7f6d7a8250d9698089654477b01efa781a"
+    },
+    {
+      "id": 145,
+      "type": "post",
+      "slug": "prodazhi-i-servis-v-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "063ce3914d7cb33a39e9f5583956459b0b13950819f7151e418c6748418a18e1",
+      "candidate_fields_hash": "915b8da0729c4f6146850eac7e401aa901147d441d0ed0c415f9cabbcae95a6d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "62d81cccf6aa93712f211f3682234e98bd2236874d7a609b35bee16cd3055234"
+    },
+    {
+      "id": 146,
+      "type": "post",
+      "slug": "edinaya-forma-zayavok-na-obuchenie",
+      "action": "REWRITE",
+      "baseline_fields_hash": "6a2b47629451894a700ae965267a9ae804c071c39534bed33b796c9dd77359f4",
+      "candidate_fields_hash": "08a6eb88ae50f95300bb4635a1047fbb075efd8b8e9a89609d1f8eef41cc5951",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "41eda4bd8ec4e774a8b0fcdac9e8989cd770dbbfde7f2262be91abda1697b825"
+    },
+    {
+      "id": 147,
+      "type": "post",
+      "slug": "identifikator-vmesto-imeni",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a9ea131a360141e38ad3e7463f506b05ba3afe913e9735de8d96cf5ff2b1c088",
+      "candidate_fields_hash": "7b3be5dfb9bb31bbd8d43698f4fdd6bfe43415b55cdd8025523d4fb9a52511d4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "9bc4abf5dc863126f7f45c69833a0fd6f3d071cdf9d7b45d39fdecfeb1cc661d"
+    },
+    {
+      "id": 148,
+      "type": "post",
+      "slug": "prava-menedzhera-priemka-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "da9fa3e1de0503516d24f937fae2b2ddf25ed7c5631bd9005c1e4b675d08921c",
+      "candidate_fields_hash": "e314c1f73390d87bf63f6543db07044f5b622fc84bd5120be4237bd555721731",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "f54e4be1c92468f9d1cbbdda0d034f20a9c8f9599faa5c479d824291c5940fec"
+    },
+    {
+      "id": 149,
+      "type": "post",
+      "slug": "crm-kontrolnye-scenarii-kanalov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "743883f46019c67a16fca35b8a847b7f7ac3043953bee46445541530dbdf073c",
+      "candidate_fields_hash": "4a523bbb980908fb5f77eec49872a310b707c3597dc237c94dfc2e86646a2ee0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "e84d39f75188a2e64303c167b09ddfe22593d02e75d648d1c8e6966239db27d7"
+    },
+    {
+      "id": 150,
+      "type": "post",
+      "slug": "forma-otpravlena-no-zayavki-net",
+      "action": "REWRITE",
+      "baseline_fields_hash": "554c3074485a7b2865baed1f63a8247f84697150afbb485c021d2b3cf0a3afd9",
+      "candidate_fields_hash": "46bde1d940eb5bca165f3750c49a03e39c91426d87d4406aacb37f2c598008dd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "e4bd30d48d97638b2d2c3c681d2a8e435f36db776fd50f18061b9cff3ea80f16"
+    },
+    {
+      "id": 151,
+      "type": "post",
+      "slug": "inventarizaciya-form-na-neskolkih-saytah",
+      "action": "REWRITE",
+      "baseline_fields_hash": "94164fece14d654fd70cdf4697aa04cda2b472d57601018028c1b3492c5d52bc",
+      "candidate_fields_hash": "940473943633e944223d82ffd97b1c6906abcc859ee82222e0e4620e1010c97f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "cfed1e2d33bd75efa989b73ab766c1967114cfb076e16c12254fd43f6cbc2e1d"
+    },
+    {
+      "id": 152,
+      "type": "post",
+      "slug": "antispam-bez-kapchi",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c38ff6fd1cec1bc130ab3c2a5dfa7467b62abf8dd53c28633208c0e1dfd8bad9",
+      "candidate_fields_hash": "a9bf3317c18baf078b79b0c7c0774a3aa6317422d7d1894b46e0acb4575397e0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "3d2e2d5596d7c1834338d7dc37184e0a54848429b044f8e0c71360d955d29e3c"
+    },
+    {
+      "id": 153,
+      "type": "post",
+      "slug": "kak-izmerit-rabotu-antispama",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c071a590ba7561af9f089456727589f3f7c06c62f0d03dee0f565bf108e25869",
+      "candidate_fields_hash": "d2f72f880713dfcf0d9b820d87b9a9d6b4edc130161d4d966fc978b117a112db",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "4198141a83b287a3b754f0b4b44b087ed0cd96ecc764d785b9df36266cb083c5"
+    },
+    {
+      "id": 154,
+      "type": "post",
+      "slug": "povtornaya-otpravka-bez-dubley",
+      "action": "REWRITE",
+      "baseline_fields_hash": "540ccae16f6153b5392b9ef47c802c8b1225e0f21832d5d6e1b1c537eb748311",
+      "candidate_fields_hash": "294d671740c2a33be0b7b5ce334ceb0f60354b7e7418c7c3fb002bd4ea4f15b1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "fbf093496aca109bfb957b61e51481a220c7839491d93bc661d01f2c79c18b44"
+    },
+    {
+      "id": 155,
+      "type": "post",
+      "slug": "glavnaya-sistema-dlya-kazhdogo-polya",
+      "action": "REWRITE",
+      "baseline_fields_hash": "3a42ebeca96513f5d82e96623c13a3a88582118839d6036810443edb65ba5476",
+      "candidate_fields_hash": "f509fc10f53b2044c79b93ee339579a13536b5dbfb0965c9388e172bafdab218",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "6899efb4b42cf7f55fbc1ffb26864d96025bc096476ad4a14394e014666a0d20"
+    },
+    {
+      "id": 156,
+      "type": "post",
+      "slug": "zhurnal-integracii-dlya-biznesa",
+      "action": "REWRITE",
+      "baseline_fields_hash": "09dd1199260a866bb80786b0608ce629248ecc56b3848fdbc0c0f5fd8d955a4b",
+      "candidate_fields_hash": "b93708ea2a6c28345db32d874a4df9730edd9416492d5e49d5b354666bb3a5ef",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "f8d6a999f6f46f4e346c428e8cae45c4e3a087151e3bde06977b1a096af4051f"
+    },
+    {
+      "id": 157,
+      "type": "post",
+      "slug": "oshibki-vneshnego-api",
+      "action": "REWRITE",
+      "baseline_fields_hash": "717844076ef7a0452485b02f8bf71e8f47a9232d6101a551b5fbc5ccbbbb6136",
+      "candidate_fields_hash": "ce1ea5834407f22d231370585a8001f9b695b6e934a1cac65b8180c1227cb717",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d30da3fc531d205d4b96bf1a7e5a1d7dfd97158f454ad6cad214792d5a709a20"
+    },
+    {
+      "id": 158,
+      "type": "post",
+      "slug": "izmenenie-formata-integracii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "681366ce5baa89e1fcd9a418ad4caf68bef1447832d7ba4ada681ed6163ffda1",
+      "candidate_fields_hash": "0edd97b7fd796348e7a9d0539678ded63ce37e7c656f22eda67c098f1b02b466",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "53cde4d03964c8ae53e9a25d90adcdfd4979fa4b5be2fcc9301dcaa60a14bf4e"
+    },
+    {
+      "id": 159,
+      "type": "post",
+      "slug": "integraciya-chtenie-ili-zapis",
+      "action": "REWRITE",
+      "baseline_fields_hash": "209066c2be9debacd0a4e93a2cde4d69e83b6eba258fb326b75d51d7bf90589f",
+      "candidate_fields_hash": "3b3ec8c844ea204732f4b5b4976cb0fccb6cd889d4aa05421501bf2787c16c8f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "a422dba610fe43adfc3db06e7318af7bdc2ab2d2ea6a09c7c94e4dc4280ae3b8"
+    },
+    {
+      "id": 160,
+      "type": "post",
+      "slug": "ocr-ili-analiz-izobrazheniya",
+      "action": "REWRITE",
+      "baseline_fields_hash": "054bb147340c45befb03ba84ce6623dc4591522f201d4da364eb51d158d7036a",
+      "candidate_fields_hash": "b1dc6ee469b79c5f6d59a56684b11478381a3968d4687423bb5db43449247020",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5334543a4f55559e10d04c7d50400b7f39bb200aca8a097b9ea7d9a00d1f8652"
+    },
+    {
+      "id": 162,
+      "type": "post",
+      "slug": "istoriya-ai-chata-i-stoimost",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f38619e7c18100b6b77f7847fc42aef403f34b6ba2832e374020b2f46a324bb8",
+      "candidate_fields_hash": "5fdc1039b9ee42cf027eb7032adc3a74ea316a1e855697184f10a86a5ee008a2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "72dccb0cd170d3fd4f0e6975640e7ded8c181048328811a59d23083c0035ce8c"
+    },
+    {
+      "id": 163,
+      "type": "post",
+      "slug": "upravlenie-promptom-iz-adminki",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a45d33620f01417c45027b1eac20bec952de6c06aed892be169f3b526e916f73",
+      "candidate_fields_hash": "0e9b6ca43ca217060b12225da219acb1f684866414619b193b3b923bdc666476",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "f6031d99555624a4d0d558abe6c08590a7553a1e85a761b9ed547520370fc713"
+    },
+    {
+      "id": 164,
+      "type": "post",
+      "slug": "gostevoy-ai-chat",
+      "action": "REWRITE",
+      "baseline_fields_hash": "6b3406746449731e69a13a7198d69e3264891ec57faa9e633a98e412dac78aa8",
+      "candidate_fields_hash": "53775ade70ac0788ee9fa7673a2a1fe7d1ea0fa4ff9180058cf2e240924b4543",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "46afb8612eaa76b8f7b90c347c586d6aa7ddbcbfd6f6cbadac5b97d16f309b6b"
+    },
+    {
+      "id": 165,
+      "type": "post",
+      "slug": "limity-ai-zaprosov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "83419601caa80ac2ac1a47623fb7aedf8565c65006c7338e99b74f63bdbf5b73",
+      "candidate_fields_hash": "a3bab5024522204652cf746fc4087cf2e244d682ad4dc78a4515a8367b4bf5cc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7935fb9f85341a1f56304dc267c97cbaa511b80da6ae706b5217326344b7f19b"
+    },
+    {
+      "id": 166,
+      "type": "post",
+      "slug": "golosovoe-soobshchenie-v-zadachu",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b74993f6ad41b79719d6a0feceb869195f3953dde0e3cd62ec6f02b392c68520",
+      "candidate_fields_hash": "f867ca191a2d05fb263c746d4c6d728ffa065c695caea06d97ff3252e4440001",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "84ceadad7cc06ef7021c10a8f71b8c7faf8be256e018550fe95131bfc5ba299a"
+    },
+    {
+      "id": 167,
+      "type": "post",
+      "slug": "ai-gotovit-chelovek-podtverzhdaet",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a2003de61e0b3e0f6dcdf478ba9e284ea9834b01ecb3cc5f6d4b25bda6d2c852",
+      "candidate_fields_hash": "36b210c59469a13893dacd5f8e5a5aae808ffdb45d1bd784c43d5d171c25b18a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "d4d1106ce14990869a817260e076006ef43fe1a2e8fae3ef95c37a39c9a466e1"
+    },
+    {
+      "id": 168,
+      "type": "post",
+      "slug": "fayly-dlya-ai-proverka-na-vhode",
+      "action": "REWRITE",
+      "baseline_fields_hash": "0eafd2a17e6e5c90637dec98b40cc2da695d250ce48b0b029a41f94a3cf71660",
+      "candidate_fields_hash": "12f06a0f7235fb4d85bb910ca64bf98478c604e038a75c42f46b1742c79cdd46",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d6fa1a1f00afeddd876e31e348c1b131c404d7d9d3c657523a2606b0a5fd737f"
+    },
+    {
+      "id": 169,
+      "type": "post",
+      "slug": "sravnenie-ai-video-modeley",
+      "action": "REWRITE",
+      "baseline_fields_hash": "fe4057455e7495a4d1f28361cc861cc5fb262188dbf4e303e1d1075321f3d6a6",
+      "candidate_fields_hash": "c714092b6ed49f477d392a37adb4a3999c926681d219bb4cdf8c54b69586f698",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "446722bc433de5421e2b697851ef2fe320ae8fcfcef290e5bba8e45e71ba78b5"
+    },
+    {
+      "id": 170,
+      "type": "post",
+      "slug": "granicy-ai-pomoshchnika",
+      "action": "KEEP",
+      "baseline_fields_hash": "0a2e1175ddf9df0c29bab5e5106b50dabca40bc866ed427219a11c1ebe195cdd",
+      "candidate_fields_hash": "0a2e1175ddf9df0c29bab5e5106b50dabca40bc866ed427219a11c1ebe195cdd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0ba77ad38d6ac07c360fd9f3d4fed1e9a9ab0374e9c9f083efebf83b718a2283"
+    },
+    {
+      "id": 171,
+      "type": "post",
+      "slug": "odin-obekt-odin-list-a4",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b479a30e2dd653293d4fd64bef465a19809b517c4992629e969e1257e8b75aa0",
+      "candidate_fields_hash": "34297f3ae5f21f63b1b9a33ae4c93d4b633ac0a4aa75f5d9b9425c1d2a0791b4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0d7c5afc267c090ac2a48e3340b26c9c2fc4fe52355c6302a48a07c4840fe1c5"
+    },
+    {
+      "id": 172,
+      "type": "post",
+      "slug": "avtonomnyy-redaktor-dokumentov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "8ca7d859a1b446ba134ed5c81e2071edc14adacf4eb3b6ccff63b847689dc60d",
+      "candidate_fields_hash": "98c84a91aae104656e4dc24d6e8d31571325b5a47463f40a40593422f9df6d66",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "da034966cbf3e0a720d40849571a4c9a8caa294bdf86efd7840bef030e0fad2e"
+    },
+    {
+      "id": 173,
+      "type": "post",
+      "slug": "mnogostranichnyy-pdf-iz-dannyh",
+      "action": "REWRITE",
+      "baseline_fields_hash": "8591fd358586c77916ac08113ea97ada8f09ba149c621fcdb25918dd0a385934",
+      "candidate_fields_hash": "afe1d1284eed2c66db45d654621b05edb6e53f782c85de47321831880a26969f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "87f167a62f3b3ebbda61649e4a39b0b08116c809aef9a1575a5554582a5fa350"
+    },
+    {
+      "id": 174,
+      "type": "post",
+      "slug": "versii-shablonov-dokumentov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "bf9137d1e5f43b13f7021ce52baead1ffa3d5a931731675024295b036afac3e8",
+      "candidate_fields_hash": "2bc07650be251f7b1a9b25d7d78eaa07b8fc4aad03e4f415ca0cda318d241141",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "9aa4a56b94adaabb284715c4b81c7b03563cafb68af367d59bdc2cdcc783e664"
+    },
+    {
+      "id": 175,
+      "type": "post",
+      "slug": "pustye-polya-v-dokumentah",
+      "action": "REWRITE",
+      "baseline_fields_hash": "011fd2814c23ce34e359a66722c145553ac76b4ad30a2e900424fde3634da2ce",
+      "candidate_fields_hash": "a93fc743d3993ad47e36c534de757cad0bdd1f404afb2139d8b4623d2356e8c3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "b54d9989bf074d3619638a070aad56f9b7d8f39999d094fea02fa425d2b1be36"
+    },
+    {
+      "id": 176,
+      "type": "post",
+      "slug": "dinamicheskie-polya-i-roli",
+      "action": "REWRITE",
+      "baseline_fields_hash": "060814ac0b21484f98367743ecd3deefb28b6b3b3b268c989c26bf9ba9b5ee58",
+      "candidate_fields_hash": "dc76bdde37dd8aaf1793c65806803d8fc8e1384e39c9671b7377236be1b30666",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2bb261824811bd7d402f444c5827e7906f7eb769c590d678f6ba4182be37f319"
+    },
+    {
+      "id": 177,
+      "type": "post",
+      "slug": "istoriya-pravok-dokumenta",
+      "action": "REWRITE",
+      "baseline_fields_hash": "18a243d89c0acc14e81329084630d41ce7f7337f26bb2aeb0659d309a2e97c1b",
+      "candidate_fields_hash": "38c4beee2f15be4a007a872e1d40f559c1f8f8a78deb8a46daec53c4ecd2e2f4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2406d547735a3518500c24848cdf71ad24bf10c55d3ae66d85b08586a9a3db6f"
+    },
+    {
+      "id": 178,
+      "type": "post",
+      "slug": "prototip-dokumentnogo-servisa",
+      "action": "REWRITE",
+      "baseline_fields_hash": "8a218450918f0117b0b26f0e6012b8fe4186551db3ceb7e601e10480983aa156",
+      "candidate_fields_hash": "14abc3c74363848d294960d6cf624acbfcddb0714eea4bfd2ba2465d010436d1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "36e6543008ff842e0f198ddf0f30c03ea2449f3a56be48f1257666e8d7d893cf"
+    },
+    {
+      "id": 179,
+      "type": "post",
+      "slug": "rekvizity-bez-ruchnogo-kopirovaniya",
+      "action": "REWRITE",
+      "baseline_fields_hash": "ace1b85972fdf33302133d22b25cc0dfaa180d1666dd270bd99db0a598643a6e",
+      "candidate_fields_hash": "0cf853160c893d58044c6800352b7e20461495a3b4c90c77b4a3d68bbc1b27fc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "18011a08d06e9413cbb79873cd2666d87d071843ceea738920148fbc63fdc4ac"
+    },
+    {
+      "id": 180,
+      "type": "post",
+      "slug": "poshagovyy-konstruktor-dokumentov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "74dc7f5c85330cdc258bba393334eee1a117f4e446ea58d26557fb14d1f8419a",
+      "candidate_fields_hash": "89456083dbd1c77794530a9e67c3512f9a656a036758dcbd0514adb94f1c46fb",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2b08a959cf76f4279dd715256567473c34b7a6f06da804f385686e4042b55f84"
+    },
+    {
+      "id": 182,
+      "type": "post",
+      "slug": "dvoinoe-bronirovanie-resursa",
+      "action": "KEEP",
+      "baseline_fields_hash": "485435de71d4ff4263d9f8a59eb211b21c6f3689e474397df798ff903aced9eb",
+      "candidate_fields_hash": "485435de71d4ff4263d9f8a59eb211b21c6f3689e474397df798ff903aced9eb",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "a144a9d8d6a0a9164232f48cf2ddf8d7823e58001e40b1d3383e69e25b2fab56"
+    },
+    {
+      "id": 183,
+      "type": "post",
+      "slug": "bronirovanie-neskolkih-ploshchadok",
+      "action": "REWRITE",
+      "baseline_fields_hash": "616acf0c550ded537a7a8176806fe444aa51d3978bdea70986e8cb0cd226772a",
+      "candidate_fields_hash": "be2ccb2c3f74be499e9ee349a4ec1d819204d7a34b59b547ec1a6c9a1d716c96",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "3c1c79f77d0a4527708146f05a70eb75a06aeeba7db535b2fe6373312b8343d5"
+    },
+    {
+      "id": 184,
+      "type": "post",
+      "slug": "statusy-broni-i-zanyatost",
+      "action": "REWRITE",
+      "baseline_fields_hash": "2627f531b9f2444b8695547b08743baf9f41444188620eae44d89a2f2abea270",
+      "candidate_fields_hash": "4b202bc581638ded945f6eb583694b0af8a815714366304f82a99440769fe3bc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2b12c8099fb76c00ac88b9ea8d3f34e056262c963b9582ae84fa62ab872fccd3"
+    },
+    {
+      "id": 185,
+      "type": "post",
+      "slug": "kalendar-vnutri-sdelki-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "fd04048583599d924e3be0ffa37a3bbedd2a662cf46ddf31b3a014b82826b35e",
+      "candidate_fields_hash": "3df38b3681206a25889d05435bff6d2c658e61e0b24dbb778fa5d9afc2d6a39c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5dfc76eba50a39749a316cf6ffafa054448379564904e891224760c1dbca4725"
+    },
+    {
+      "id": 186,
+      "type": "post",
+      "slug": "dostup-k-kalendaryu-i-dannym-klienta",
+      "action": "REWRITE",
+      "baseline_fields_hash": "cadddb7968cdc5115549ec345b3b6faee37f0c94a83c4c83a8a0072e7e06c62a",
+      "candidate_fields_hash": "27d585f5959fca82817fd667211e257df3f478b2fbcd72e2f3f4d6de601f1d01",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "fc46e25eeab6c317f144b0091cf73726ad801df55cceb44bab912916ee1fb71a"
+    },
+    {
+      "id": 187,
+      "type": "post",
+      "slug": "otmena-broni-bez-potery-istorii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "e404d78c2e37cbfab17b807c0e0740d732cdf25653e72bbf7b20d3263c8a23b3",
+      "candidate_fields_hash": "e9a492a7a41fb829e5d54ec1b24f8bc4d0dd71662a0c7201cfb4b4d6c0be49a3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "f23f574433f39c3c1e90c635208a40bfcc7bda07cb60946b13610ebbf368bd2e"
+    },
+    {
+      "id": 188,
+      "type": "post",
+      "slug": "shag-kalendarya-i-dlitelnost-broni",
+      "action": "REWRITE",
+      "baseline_fields_hash": "cd8671d93d220372389e88f94bf56f4ba6dd46b9102db3f82050ede069272002",
+      "candidate_fields_hash": "b9c61ce733a672db8b80a9341fdf4326b7b8c34b1193a43a67e18869516630ae",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2ca66d718f38361f5b20e3cf58fe3c6ec87226ed0f69efda60069d61ca6a0a8e"
+    },
+    {
+      "id": 189,
+      "type": "post",
+      "slug": "perehod-ot-prototipa-k-kalendaryu",
+      "action": "REWRITE",
+      "baseline_fields_hash": "d39fab746ed29a7b029a8bb1597fcac35a8feb4df27bc891b4a0bf3565154586",
+      "candidate_fields_hash": "7816e9546cc16e277b86b80c10a8c40fe827eed4257b5e9a21ac0ccc38d0e420",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "17e36b7631ccd78e47cd395006f79bd79b0c07fe20ab155bd4f9e99c4762db72"
+    },
+    {
+      "id": 190,
+      "type": "post",
+      "slug": "obshchie-resursy-v-raspisanii",
+      "action": "KEEP",
+      "baseline_fields_hash": "43ff55eb5614933efaaaefe1ac3cef2b8f43e7b1c433a8150838d8bb2eaa33e1",
+      "candidate_fields_hash": "43ff55eb5614933efaaaefe1ac3cef2b8f43e7b1c433a8150838d8bb2eaa33e1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "df651fc3481d09fc3abe3be0140e2f47039ab19b2d9a93a8439fb97bad0782c7"
+    },
+    {
+      "id": 191,
+      "type": "post",
+      "slug": "bron-i-oplata-raznye-sobytiya",
+      "action": "KEEP",
+      "baseline_fields_hash": "ef77d7b89b65ae3c4e441274293e664554b640f270229370557eebc0261ed22f",
+      "candidate_fields_hash": "ef77d7b89b65ae3c4e441274293e664554b640f270229370557eebc0261ed22f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "c68f22b4ea2f2e7553ce5c1b0f01f2a94a0cfa8a4c5e95db4a2667e90b38f2ab"
+    },
+    {
+      "id": 192,
+      "type": "post",
+      "slug": "semya-kak-model-klienta",
+      "action": "REWRITE",
+      "baseline_fields_hash": "eb7b4438374a8d2d9b8328324a48183c24aeaff3e8c8d26fc598640540330d8a",
+      "candidate_fields_hash": "dddd35a8262c8e1c4df1448c2fdfa31223708141e817ec99b3920c0741035b72",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "bf866a5046751ca83470ee94e18a4c9708f10ef631055965941b9c9342ea492b"
+    },
+    {
+      "id": 193,
+      "type": "post",
+      "slug": "peredacha-rebenka-upolnomochennomu",
+      "action": "REWRITE",
+      "baseline_fields_hash": "2ccf67314bd960ac024a9323a15bea6b9691c32248f35554fa018362f713a0ae",
+      "candidate_fields_hash": "1f9382e7f58fdf5a22176d58d6f76429e2eed5e4b74e531a610bfa77f69b3442",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "db237e1e8005342c2139e1d0adb6d5869b00b62d46778d84e5c6c3895a035208"
+    },
+    {
+      "id": 194,
+      "type": "post",
+      "slug": "list-ozhidaniya-po-vmestimosti",
+      "action": "REWRITE",
+      "baseline_fields_hash": "97e63d0f5d00b918ead8c1120934beac6629dd927f1538736327c879e17038b6",
+      "candidate_fields_hash": "aa42f1db8a63c990b96ed4ff266ec3527a3bed6e365f95c796338e5fcd51b6d4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "f25c54bf0af2b843d23e3ba371bcebdf250a7a4f8fa37993c69726990c073c98"
+    },
+    {
+      "id": 195,
+      "type": "post",
+      "slug": "poslednee-mesto-v-gruppe",
+      "action": "REWRITE",
+      "baseline_fields_hash": "590002372aaf18b2546af62613f941b562f8688578fa168df894877040668d1b",
+      "candidate_fields_hash": "e2acfd5e506701c4109251db0bc53f30dfe88d7c54833738f1f8619198872435",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "85651b44be784df74f35ae760dd33ba6a8d58a7e2c657bff86c7e587ca29cadb"
+    },
+    {
+      "id": 196,
+      "type": "post",
+      "slug": "istoriyu-poseshcheniy-nelzya-perepisyvat",
+      "action": "REWRITE",
+      "baseline_fields_hash": "899304098390af0872df3777944d294c91b3ef2fbab333d7905bf511d1a5f08c",
+      "candidate_fields_hash": "542b18e1cc1712aa872c16650bd8abf099e00ac747db1bc285231e68033273d5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "dd916e355954349124574723fe6b6c74042023d4f8c5683d009f7d478e901b7c"
+    },
+    {
+      "id": 197,
+      "type": "post",
+      "slug": "offline-dannye-nuzhno-podtverzhdat",
+      "action": "REWRITE",
+      "baseline_fields_hash": "22a663d65a1f63d9b06d5aa07ac4015e6ee2873dc7ea1bdd30f5882f52fd0e94",
+      "candidate_fields_hash": "2a0a653653dc3c75adbdbced3c887ef5ad085c991cc553593cf375f7c5e1e784",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "cd7ef2acfe8316475a1aac63191021af02b45a7e9048ef762b86f1eb9d5e9950"
+    },
+    {
+      "id": 198,
+      "type": "post",
+      "slug": "abonement-ne-raven-vyruchke",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f51f9f7229b8adaa6da32ea837c8ca7de68d71643230b8ed41f02fe38d1a640b",
+      "candidate_fields_hash": "badf442bb6e05b312b7bc302a0e6b0cd29416c07e2e3701bbf39cf997fc9b909",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c7999e4ccdc7b53d49bf0d749cda2c3b0cd3275092204e59e11da0ca22041f6f"
+    },
+    {
+      "id": 199,
+      "type": "post",
+      "slug": "filialy-v-odnoy-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "655909f5d49fa3d40b9ea0e7642be8257e02571f22da8ef651c92a132ca9fed7",
+      "candidate_fields_hash": "5c081b3b9d388d3560e277de1052927f8555cf6ac7da2617eda5fd4465e13aa2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a4dbe45dd51129f7c1da367c4f277cf18212cf3926258104c2a9146a9514804c"
+    },
+    {
+      "id": 200,
+      "type": "post",
+      "slug": "konflikty-pedagoga-i-kabineta",
+      "action": "KEEP",
+      "baseline_fields_hash": "ad7300147478f09998691141196bf8019542f8455787e540f82abfabf22ab47b",
+      "candidate_fields_hash": "ad7300147478f09998691141196bf8019542f8455787e540f82abfabf22ab47b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "fc188a2bbb2c53401ef506c8f70501d3644be9353063248a6abc9feb99c3eb3e"
+    },
+    {
+      "id": 201,
+      "type": "post",
+      "slug": "ot-zayavki-do-zachisleniya",
+      "action": "KEEP",
+      "baseline_fields_hash": "f6770f7961c7eac6f4096accccefc0ed796178fb49fca192757e10ce927e80c3",
+      "candidate_fields_hash": "f6770f7961c7eac6f4096accccefc0ed796178fb49fca192757e10ce927e80c3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5c355980dc42d36b01bb59e76399c823ab281177189a173aca78aa15af63aa55"
+    },
+    {
+      "id": 202,
+      "type": "post",
+      "slug": "cms-dlya-redaktora-a-ne-razrabotchika",
+      "action": "REWRITE",
+      "baseline_fields_hash": "42b27f01cd027efe962be426a72a20f1aed35606727bfe94972673e407243a54",
+      "candidate_fields_hash": "bc3650d42051b44e4f80c95fd708a1bb1fb404b1a331580953daa5d5795d81d8",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a98eab5de09cb36a53dd84cd38dbc3aa86924303a6b7257b3bf6d1f10b2a7313"
+    },
+    {
+      "id": 203,
+      "type": "post",
+      "slug": "zayavka-sayta-dolzhna-sohranyatsya",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b611773f03b2ff5b9d4cde4606b4e94236a28fe67a8091a4dc106ae81184fb49",
+      "candidate_fields_hash": "f2fa2c02cc3ea8f9708eba57c08c9f2161f9321b094045584b5af5391a9e2bb6",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4370deea0578757b4b73e6bc1a9c9ffd833dc87ec7ebdd9c267dc7eaf7a054d1"
+    },
+    {
+      "id": 204,
+      "type": "post",
+      "slug": "filtr-kataloga-nachinaetsya-s-dannyh",
+      "action": "REWRITE",
+      "baseline_fields_hash": "e5787a62a3ef14b5cf0a10365dfec3b263ab415a459efe30b8a83aedb857f2eb",
+      "candidate_fields_hash": "b33815eb230548d99554cd11e14942c142b9cb8e98c537cdb2e57c4a03fac138",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "ca325af1bd5badc3ed4fbc8dd80289c56621bcc2df79c4672904ac04a246f9f5"
+    },
+    {
+      "id": 205,
+      "type": "post",
+      "slug": "korzina-i-checkout-odin-scenariy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "e9e579de9466f64342e533b84aa189a59cbaf9349f24e461d9d5162c740e5cd5",
+      "candidate_fields_hash": "2d0e0d00871fd1e5b6945f819426dfa9dae6c4f63e58181ba64941f30cd20d94",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c715247970c6c3fbf60a9f9592b529992a2f8c3287a91d739df39fe3fe72562e"
+    },
+    {
+      "id": 206,
+      "type": "post",
+      "slug": "perenos-s-konstruktora-bez-zavisimostey",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c5afb720c6e1c1719a58197219a6690fb225a047ce4c9eb08e32843b98e81481",
+      "candidate_fields_hash": "98681b0b628deefae36b73f753d7a007f756d6019669996af1b29220b383e15e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "85f00cc0c691bcb3d471a89dd1478689e0e12925fa52b6ee8eb4854ea02a1f5a"
+    },
+    {
+      "id": 207,
+      "type": "post",
+      "slug": "mediateka-s3-sohranit-starye-ssylki",
+      "action": "REWRITE",
+      "baseline_fields_hash": "1485fe0ac54ba07319fa92f437dc103ac15bb2a5009bf41b28f0f91f5ed25dc2",
+      "candidate_fields_hash": "f0fc403ead968a19e50d747fa7f1e94e7a3ffd29cfcc66a878dd67fe180850e4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a6319de77a90372e9f2f8872b7dc0b1619a53928cc7a326a09d1bcb04a3c3104"
+    },
+    {
+      "id": 208,
+      "type": "post",
+      "slug": "seo-audit-prevratit-v-priemku",
+      "action": "REWRITE",
+      "baseline_fields_hash": "7d144b71a903e01366294b9876502fcfb0b81bf414b5867f2012de2567d78c3f",
+      "candidate_fields_hash": "465757b864ad24e3e30047b0963326a20d0e894550ade69a73ce851fb36082a8",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4ac63d7c5837b66b90ef079d464da64a30e77b1772c18d1c47bd6bc64e6f367f"
+    },
+    {
+      "id": 209,
+      "type": "post",
+      "slug": "shablon-stati-v-deystvuyushchey-cms",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b7a3cd67c044efe5e15e36ba10f7af9aac75c08280aa52100f3f665ac3a294fb",
+      "candidate_fields_hash": "a828311f68e786cfedfab08a8c6642ed9113448101b228eb04346006635500e3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "14d0368b860f426a278252c07f521cf60b0851b491654e7b180ed157c23862e9"
+    },
+    {
+      "id": 210,
+      "type": "post",
+      "slug": "karta-obektov-s-upravleniem-iz-cms",
+      "action": "REWRITE",
+      "baseline_fields_hash": "6708d1c14cd8eda4e185ac192e39842c9253efa45137b5a5d88415beea74fc96",
+      "candidate_fields_hash": "fc8315eeb9438e55e1c84b4574772c0728d3d9ee66c09c6ba22cf24ef2ab9f1d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ddb29ddff713b358f5c4cf68f3f26230014f347b89c95e7aa842bea11c810819"
+    },
+    {
+      "id": 211,
+      "type": "post",
+      "slug": "lending-s-oplatoy-bez-bolshogo-magazina",
+      "action": "REWRITE",
+      "baseline_fields_hash": "bd2ff969ca6c7c78c9431dd6f1fe2b3ce6d0a1871346fa02cbff35cabbb648a2",
+      "candidate_fields_hash": "1d5972315060efcc9da244c95bac4c21873e78d5afc9fd0735574c263eb1b4ca",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "88f5a88303ffcf81b8b571b8b5fe7b9b3c6c7dfffb2ee23344d4ebf29f9eda4e"
+    },
+    {
+      "id": 212,
+      "type": "post",
+      "slug": "edinaya-tochka-priema-rabochih-zaprosov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "2161edeaa0e3daa03e4edf3fd93e1380aa25ada8de492a2f1f260a95c4789c41",
+      "candidate_fields_hash": "98c63e8f21038afc8a193fb82750c93afb63305245ad63c4c2bd3871890ec189",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "99a804acf4adc5defe55ef972de45360ff10cab6ad650e5d0d581ef11bdce26f"
+    },
+    {
+      "id": 213,
+      "type": "post",
+      "slug": "status-gotovo-tolko-posle-rezultata",
+      "action": "REWRITE",
+      "baseline_fields_hash": "9b731faa92ab7f719af6ac7af7006f3dc94a5842ee0deffe6d9965a39dc05c1a",
+      "candidate_fields_hash": "929e38ff30891888cdae142bba923b975f36a345d415c7586288ad1171f5598f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "b0e3912ef6e2f6977c6444bba489f27fcb16a7ecd2d9192b3378b34b872c8c10"
+    },
+    {
+      "id": 214,
+      "type": "post",
+      "slug": "aktualnyy-istochnik-dlya-raboty-ai",
+      "action": "REWRITE",
+      "baseline_fields_hash": "3c53d5ee277713e8ef49c50e54636e4cae9ceb7b001fb0de4e6935e4a560fa1d",
+      "candidate_fields_hash": "5a7da66bdd37f0fbc0e9d243448dca4f8abc6af2ad55492233d1033d187075fa",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "60dbf9558b64c894201326841c5d5b910361a0125a3e2727ce30be594a7cba8b"
+    },
+    {
+      "id": 215,
+      "type": "post",
+      "slug": "nezavisimaya-proverka-izmeneniy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f1502af67ed2ac885aa818d27b4f4d63a5e695f2ddb3182d729a652f6fcf25c5",
+      "candidate_fields_hash": "b649ac1136d3745136e5cf303554c084f2bdb8bf0cff210b397a2623e54fdb42",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "7fc1b698b8e5aab68bc027537dd8c18ade1b5981bc61cb25a88a208101e9b02e"
+    },
+    {
+      "id": 216,
+      "type": "post",
+      "slug": "izmeneniya-kotorye-mozhno-otmenit",
+      "action": "REWRITE",
+      "baseline_fields_hash": "d9dbb9f0b7722e9baf45f7c7bc39a88d96462da70c0b7d025408ea53ea8e988b",
+      "candidate_fields_hash": "a865b600cae24ac3c34951e9f9b31eec63c85f7a9c881c52de0e0e77f62d82a7",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "7dcde9fe7f8aef3d2127ad66c9f42773533b433d1d5ff0d40e711c63b4bd1c6b"
+    },
+    {
+      "id": 217,
+      "type": "post",
+      "slug": "prava-ai-na-deystviya",
+      "action": "REWRITE",
+      "baseline_fields_hash": "36ea92ac702a6050dd414afe7e43abec3b521d06eff23e72183a65b086ece2fa",
+      "candidate_fields_hash": "1eb36582c3b9466d142ab0e3fa893b85e9edbb39a67e0d78278020a7fdd09525",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "cd7be7339006b470aab3c047899b97bdcb7eb81334a011a2a8ef2a1c81162cdd"
+    },
+    {
+      "id": 218,
+      "type": "post",
+      "slug": "servis-rabotaet-a-zadacha-ne-vypolnyaetsya",
+      "action": "REWRITE",
+      "baseline_fields_hash": "2da3398a178ba7d60de3aca3bbf9229727727b379b3e3b1ecc6c4c06c8d4bbf5",
+      "candidate_fields_hash": "d82a16db17c307d7d4ba89e597a3c2c66e43dee4669513fac8230caf8baf9ded",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "dd3a2d3be7ae02d14fccc716ee8ad4cfed373d4914b5148b4d03c943d9f86c24"
+    },
+    {
+      "id": 219,
+      "type": "post",
+      "slug": "predprosmotr-i-publikaciya-raznye-etapy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "ef89b605fda0e6ad81a89899f07d557d9f2cbe6ca30ccc0b63633a9e1f3cd4f5",
+      "candidate_fields_hash": "a2f0853ce5bf77dbbfdb0d7966da6f8f6ec66fca2fdfa59732639c6f8d8dda1c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "b55472b18ae3846141c92be635a20614ff1240cbe81121763e0e8c4ad9d70b3e"
+    },
+    {
+      "id": 220,
+      "type": "post",
+      "slug": "kontekst-proekta-dlya-komandy-i-ai",
+      "action": "REWRITE",
+      "baseline_fields_hash": "296e96145b39eee02c9f92ae51e36a0ac696520ec12da4ceb79f5079328a2180",
+      "candidate_fields_hash": "e77b0e93f3981b9414cca31a7c3b2c4ae67ec7d539dae8df8617b2198a5fd45e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "1fd811d50e13007fb0990bb75c539dfec78d2d3ebecace53449b3f8a8e6d5d8a"
+    },
+    {
+      "id": 221,
+      "type": "post",
+      "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai",
+      "action": "REWRITE",
+      "baseline_fields_hash": "e6e4caa855fbe23b60c0cc46b4fda8d15eb653cd7a2465d101bba924ab9e01c3",
+      "candidate_fields_hash": "0ee1791c20bd8e35bb0c21eb3404c4058ddb8e402aa853d4f80d8f829050fc4e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2267c14cf49bcfd87208832f440a0f40e6ff2ed077a3748b6f3d45b2506ab3f8"
+    },
+    {
+      "id": 222,
+      "type": "post",
+      "slug": "spravochnik-statey-operatsiy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "999176177666388e3ce1a0bc6302f25dedf8e6d8c71c17e34075cfe7e32ee434",
+      "candidate_fields_hash": "4730ad3516aab0df32056170526c1189dab29fc5c347c7e16bc309c252a89ced",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "157553a7a64266783239a3f4af03c7b077a665a5b621e0b45dc19f47e7ea98e7"
+    },
+    {
+      "id": 223,
+      "type": "post",
+      "slug": "dvizhenie-deneg-i-pribyl-v-otchetah",
+      "action": "REWRITE",
+      "baseline_fields_hash": "5659dcf711a9f68fc029da9119b32e9b5dbee69ef95b2eeda84050dea49b43e8",
+      "candidate_fields_hash": "89473536caf593c44f013eaeb5999ef24f29ae6d63f6c4e2ea3a71720c4e3cb7",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "66cd2ded9424185f51fffebd7c7f51a4d6a426d12ff9a8fc8ea470b6cfd27161"
+    },
+    {
+      "id": 224,
+      "type": "post",
+      "slug": "pravila-avtozapolneniya-operatsiy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "e8cbecc1647f6471357b104f37b8305820d0e6f7a0d8b055ec3fe8b02a7d02a0",
+      "candidate_fields_hash": "592f76c008e55b12bee052c0369093d9567508319868690289fa2801fa868413",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d0e1c24cf6c0ce749a4e5aaad02cea507e1582326565a3f794e4ddaf6f66d33e"
+    },
+    {
+      "id": 225,
+      "type": "post",
+      "slug": "zayavka-na-rashod-i-soglasovanie",
+      "action": "REWRITE",
+      "baseline_fields_hash": "42e7cceadb72d6b8a65a827d4bae57210595a6aeef5a4d078c7193f4ca2bc1a5",
+      "candidate_fields_hash": "d993cc9b92ac400a7d592aa7abb6a561d6e6bb5ec7c794df4587a45efff3c11c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d6cb48ec056d2ba5482318996c6982a77e1ba42a34864e4803df261f354633d2"
+    },
+    {
+      "id": 226,
+      "type": "post",
+      "slug": "versii-premialnyh-shem",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b6676e5f41d8c208d3fae33ec09e493bd5b5e01ae62adb53b24a2156d382f3d9",
+      "candidate_fields_hash": "83907a0a4571f0c9d991e850800809dbf5f63611938c10818c4d8dc95914b9ec",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "33e96f88ce977003c1776e68e09de244fb11c48d534b7af8e147e0cc216b0330"
+    },
+    {
+      "id": 227,
+      "type": "post",
+      "slug": "edinyy-spravochnik-sotrudnikov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "2de8636301bb040a85afa4ff1415ddfaf6e79ed502697f0bbd9709b803ec180f",
+      "candidate_fields_hash": "5190da58535659e76b1859a53b07cdb76ee0181375e39565cce81bdbb497a78d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "b61530a043c15112f59e22f1681fb5feab1ad2ba0ddafc6b4b67c122a9f111f6"
+    },
+    {
+      "id": 228,
+      "type": "post",
+      "slug": "testy-nastraivaemyh-kpi-formul",
+      "action": "REWRITE",
+      "baseline_fields_hash": "5fdef5195b07f8aaab9822d73d6739f218ddb601ffbcfdc986808171ecd32efb",
+      "candidate_fields_hash": "ad9c097a3807e2a864e6744d6cce07f5563f589123ffb2608236b5d978e5f629",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "8479fcaf38cbcd51a2d144c383d930a96a9d492ff60af8ab4307204d4902792a"
+    },
+    {
+      "id": 229,
+      "type": "post",
+      "slug": "zakrytie-perioda-v-avtomatizatsii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "8d80da311aae9ded1b64b89ade71a3c10f8837354928319bd135ca53f8007eac",
+      "candidate_fields_hash": "94b5b3b653a1e14040fb7c81452286a91fc84ca9ba9f6aca334dd390993fbfe3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "84dc5312c35a71acada762ff7740535cc87b1e527d1078288d7273ac9fbc52f4"
+    },
+    {
+      "id": 230,
+      "type": "post",
+      "slug": "ochered-isklyucheniy-byudzheta",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c638daaa22cffe17c5687184ea9dd68734dc01c12fd7d8daeff74b45f63895a9",
+      "candidate_fields_hash": "29b90f6e8c99cd47827a92d87f2d242fc84d1a7a29f5c682582ccec56fbec506",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "89c8e51ef273550ff1b963a5524cacdddd4dcdf43bf9b58ee6c20bc9b3d984af"
+    },
+    {
+      "id": 231,
+      "type": "post",
+      "slug": "audit-pered-perenosom-sistemy",
+      "action": "REWRITE",
+      "baseline_fields_hash": "99db40efb06cbf1477f34ac1d274c478ac950cbaec3e2fc0780cf2b841b7c857",
+      "candidate_fields_hash": "b45a0baccc78321d9c1f53ca1feaf0e35c2adc2065b3a46eb81ac92b12840f23",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "408983bca6a936f71233b139279a2d32c7a4a3b6238375e39840bce9fa5a2c63"
+    },
+    {
+      "id": 232,
+      "type": "post",
+      "slug": "granitsy-mvp-avtomatizatsii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "c0ed3197e6c0ce5756607dc2a0ae268565f31ad9f097bbf30b5d0596b3f33218",
+      "candidate_fields_hash": "90dc6c12b4dbb3b80ab17c22ea465d8657da19ba3a3b6f02a3a67beebae90a12",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "134d95f3b7f9cfd3f9186aa0fb052161904792559b077d6aa5df8701ee1d20ef"
+    },
+    {
+      "id": 233,
+      "type": "post",
+      "slug": "gotovaya-sistema-ili-razrabotka",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f8bf3eb9ecac24d95f062725874e531e8621a796cf4cd5e90fbb1e0510ef6d62",
+      "candidate_fields_hash": "c1cc4304170319bb87ec8225b5c603aa464255b66de947d45549ce6bfb75115c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "9187145a81da3c60e04241b6967bc3977bd3f0649f532eb83a6d3a2eee9ebb7b"
+    },
+    {
+      "id": 234,
+      "type": "post",
+      "slug": "prioritety-avtomatizatsii-biznesa",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f425ba264e961e30a52a62280eba86995c6b1ecbae2c4f41b94a5e4807b745e7",
+      "candidate_fields_hash": "81ac428b0e1f585eda406443cd494fd2d682b0dbbf60c68fa133cbcc0ff2fda1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "8de92e65fea60217e1435f9ad85f4d64d5f23c4e9d0fafc6b67ddd5f747c9747"
+    },
+    {
+      "id": 235,
+      "type": "post",
+      "slug": "vygruzki-i-perenosimost-dannyh",
+      "action": "REWRITE",
+      "baseline_fields_hash": "00644e5fc764c18bd70079e839ce5ee48ce9a839bd19fea14c160ecdb5d43808",
+      "candidate_fields_hash": "6a33cfc82b0e518cf17a8f529f82a2df60845f2a5d743a675b3e9ba18e6639c6",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "ec2af6e188ffd6ca117c7b9a6854cf8fe5723f7d20dae9daafd5fcb9348a66a0"
+    },
+    {
+      "id": 236,
+      "type": "post",
+      "slug": "neskolko-kompaniy-v-odnoy-crm",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a29c8258f6fc9bf2473428677b55ec257a4c3fcc06fda7b03d29e3b39c35641b",
+      "candidate_fields_hash": "27a38f76302c18aeaecf83b81a988d26b34dce26e6d5cfeec611646152243df2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "197439e281e5985d1afc275d4662ee60824b9434819835328464aee565b0f526"
+    },
+    {
+      "id": 237,
+      "type": "post",
+      "slug": "dostup-podderzhki-po-soglasiyu",
+      "action": "REWRITE",
+      "baseline_fields_hash": "acb327186efcbc5eb28594e962a3e31d4e153b37acdc93c22fb570f9afc0e954",
+      "candidate_fields_hash": "24fe6828a44c9afdadae8df3aedb939c93cc476248ef2126542e5aa34a5a92d6",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "75d04bd2f66061100506bc00deaa425cd4f1271a9cc95a5aae02c7944de1274a"
+    },
+    {
+      "id": 238,
+      "type": "post",
+      "slug": "obshchaya-platforma-i-otraslevye-moduli",
+      "action": "REWRITE",
+      "baseline_fields_hash": "4b7119a2d65da6c644f1e9f0dace9a2938ee10a35cda9136420559c4ca0189a3",
+      "candidate_fields_hash": "cd99dd1f8c3bf76dc483a9b90d98c382b2a6bdfedf82a67ac345d8ea76ed2775",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c103af322af29a780fc334116a6860f3d152c75caee00a865725f01674e7cb78"
+    },
+    {
+      "id": 239,
+      "type": "post",
+      "slug": "redaktsionnyy-konveyer-s-ii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "82869cb6f201caeaec87a3c046ce9b605b1f0018eeea606351fe206ad51d9d5e",
+      "candidate_fields_hash": "282b78368e69fad0c78309781faceba46c1feabc80d802dd4605a9d7ac9d2721",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "358e0a2a305fc2a2d3224dbe15cc60dc78b1db4482e00f6d1404e192065989ca"
+    },
+    {
+      "id": 240,
+      "type": "post",
+      "slug": "izmereniya-posle-zapuska-avtomatizatsii",
+      "action": "REWRITE",
+      "baseline_fields_hash": "7af8e4c9ebdc6f1a99b672590a641937228b2e3a0d82bbd1dc965f4db143c4fc",
+      "candidate_fields_hash": "f4f78bf75b3a30d43ff3dfced0bf1041506bb69fbfb365f90daf5fec55500cc3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ae7d7f02dfc028ceade389f254ae12453db26893568cef5d282628f9c055d6d7"
+    },
+    {
+      "id": 241,
+      "type": "post",
+      "slug": "biznes-brif-na-avtomatizatsiyu",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b64091f62823431407d50bb5027d08978e6a111ef08514b826dd0a6d3ae64a3e",
+      "candidate_fields_hash": "2b88a828710af924243b69c8e9ef1cbb4b4e5f782d436494d071065fa9eb7355",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "b099398a798b508437d2103b259505db740130db4b60873cefb20874e0469ab4"
+    },
+    {
+      "id": 242,
+      "type": "sy3_service",
+      "slug": "web-development",
+      "action": "REWRITE",
+      "baseline_fields_hash": "83570bd16fa8968b7eb1e2c8898ec06e168e16bb2fda3b1559d8dd98ec3d38b1",
+      "candidate_fields_hash": "1e850b464bd8dc9496b849d82bb5c5f0e56ccbb3af1086918effd5181f7af4fc",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 249,
+      "type": "sy3_service",
+      "slug": "website-support",
+      "action": "REWRITE",
+      "baseline_fields_hash": "786a89b82dfe543b064df4c7d8f353ebe8f9a8782ee6ccebcf87e6f9e7a5f176",
+      "candidate_fields_hash": "6ce9184a23d145de9c52dcc927c0f24349cb1ca1bde1b17489bfd2553cbcc053",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 250,
+      "type": "sy3_service",
+      "slug": "website-modernization",
+      "action": "REWRITE",
+      "baseline_fields_hash": "23a70d3ea6b3b5572870131267a013585cdc5da0a5628981947e0c639c4fae75",
+      "candidate_fields_hash": "812048c7741c441405c8ce1d1d85629ae973c68e6dbe59da286f163e6798be31",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 251,
+      "type": "sy3_service",
+      "slug": "website-audit",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a94e4a2c0c1ae63b177e4a163dc623c245f6216364274d09fd154f1412bc2232",
+      "candidate_fields_hash": "0e4be1edfbf3e30cc1cc4b49a6066782b0762388b0f941ab1e970528f99627c0",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 252,
+      "type": "sy3_service",
+      "slug": "wordpress-support",
+      "action": "REWRITE",
+      "baseline_fields_hash": "ace29b59e9e96dbc3dea6056b0636a68d7ed0fddc48209d98d5493b323fbe734",
+      "candidate_fields_hash": "15330d56622aede6d5d39758ae3023d0f6502f80724e0444ffd9590035e316a8",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 253,
+      "type": "sy3_service",
+      "slug": "bitrix24-support",
+      "action": "REWRITE",
+      "baseline_fields_hash": "f2baed158b66774e339c3ecaa9852e6faf27109f295a82d1b302d00efd7565d3",
+      "candidate_fields_hash": "151d2b889a0351df5a394c99886b8d78de8b7bee35c10fb3d12b1c27ff703528",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 254,
+      "type": "sy3_service",
+      "slug": "business-analysis",
+      "action": "REWRITE",
+      "baseline_fields_hash": "13e94fabb643f33fcd559a8e8c2fad46442c787c2be2ef4202c4253256b648f1",
+      "candidate_fields_hash": "c73f1eb29e03ead3db73e80a82a219c1d9f269103c9b7b4802051cbf3805c342",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 255,
+      "type": "sy3_service",
+      "slug": "business-process-automation",
+      "action": "REWRITE",
+      "baseline_fields_hash": "dabecfbbede7194b87e44785f5394165b9a7fe32ef94acb09b1c123ba9b51bd2",
+      "candidate_fields_hash": "91a35809dfda2fa8a5f5df2af5e6803bfba6ff9ba6db7870e2cd2a0d5401c928",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 256,
+      "type": "sy3_service",
+      "slug": "website-migration",
+      "action": "REWRITE",
+      "baseline_fields_hash": "27121afc6128798eb807bb054cf86f1f3fdcfdeaaebb1e093a7fb866a6ca8e16",
+      "candidate_fields_hash": "8e673a7979f93b2418fc3a540000cd123236fa98c9c5d7592a0d442d03ac218f",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 257,
+      "type": "sy3_service",
+      "slug": "crm-audit",
+      "action": "REWRITE",
+      "baseline_fields_hash": "7834d232e74c43c0504e284fd2eb15108afce28e8a7ad441a9f67ee5e6d7bdbe",
+      "candidate_fields_hash": "8db6851b4055c0ae6a021217fcd765d5ce27cfc05c883c9f023d01a16140ad6b",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 258,
+      "type": "sy3_service",
+      "slug": "website-crm-integration",
+      "action": "REWRITE",
+      "baseline_fields_hash": "0684cda0a5eb47ff89662ab8a7238f11c3ebc7ba9d3fa999a3d8113bccbbf0ba",
+      "candidate_fields_hash": "583027c47f32436f0760c18e3a2e7b6e24e35d89601a57a14d6a6ee571857d1e",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 259,
+      "type": "sy3_service",
+      "slug": "1c-integration",
+      "action": "REWRITE",
+      "baseline_fields_hash": "fb3c94c44eba450b758115856892cede8cc41d0f5e9df1dfc26a79ceb03da3d4",
+      "candidate_fields_hash": "bff840eca1ccd7204cc4ee2de4efb99b230abda558bcd1712f6146530dc6e39e",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 260,
+      "type": "sy3_service",
+      "slug": "bi-dashboards",
+      "action": "REWRITE",
+      "baseline_fields_hash": "df6cfc6e60a1ba9f8b202e887cf0026735441bfb39ed32590b53b627fe9c1a20",
+      "candidate_fields_hash": "962603a3203ac1d8d7f6e46720ba138931d2fbfdadd64cfbe59319ba6fed6df3",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 262,
+      "type": "post",
+      "slug": "xml-i-html-karta-sayta",
+      "action": "KEEP",
+      "baseline_fields_hash": "f0073f633ed04d4458f91a62309ebdc0586a4e8a77752f84a2161a483d628244",
+      "candidate_fields_hash": "f0073f633ed04d4458f91a62309ebdc0586a4e8a77752f84a2161a483d628244",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "c03663933ff8abe26a6b9fbb36e6d5d227b1f5cea3d43cf752dccb1a773cfc04"
+    },
+    {
+      "id": 263,
+      "type": "post",
+      "slug": "sitemap-wordpress-proverka",
+      "action": "KEEP",
+      "baseline_fields_hash": "402ab8bffd0ba160bb1de31b32404b3966aa524f2c0b43903632e347cc99acc3",
+      "candidate_fields_hash": "402ab8bffd0ba160bb1de31b32404b3966aa524f2c0b43903632e347cc99acc3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "c67362cfad206c1747b024cfe496abb5dea32e7f8c7018268e669fc901e42361"
+    },
+    {
+      "id": 264,
+      "type": "post",
+      "slug": "robots-txt-chto-proveryat",
+      "action": "KEEP",
+      "baseline_fields_hash": "869309f6aa8a6a7957be202a2c55d2a482372d6bd9fca8c4e4fdd44b22bc2237",
+      "candidate_fields_hash": "869309f6aa8a6a7957be202a2c55d2a482372d6bd9fca8c4e4fdd44b22bc2237",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "6d6274ba83d0f2242003e19f67af91bebc3d16fbb4804dcdf41dbcb497e3f8c7"
+    },
+    {
+      "id": 265,
+      "type": "post",
+      "slug": "noindex-proverka-stranicy",
+      "action": "KEEP",
+      "baseline_fields_hash": "3fb27d878ed3c0654060ca0459a530f4dd3fb6c893aa77f0ba01f959c118e15e",
+      "candidate_fields_hash": "3fb27d878ed3c0654060ca0459a530f4dd3fb6c893aa77f0ba01f959c118e15e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "dde244c142f6a03957c6f091027e0b09af3e77154ae50f9fd2fd52621661d9c8"
+    },
+    {
+      "id": 266,
+      "type": "post",
+      "slug": "canonical-kak-proverit",
+      "action": "KEEP",
+      "baseline_fields_hash": "e6bedfa8ebd0dc5e5cdf18278252d8592bdf83b3f164b05497766071ee53dd59",
+      "candidate_fields_hash": "e6bedfa8ebd0dc5e5cdf18278252d8592bdf83b3f164b05497766071ee53dd59",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "6ba1179c18c46592397261077a72e0e7930ded2840ad439f47bfe6cf93c10047"
+    },
+    {
+      "id": 267,
+      "type": "post",
+      "slug": "301-ili-302-redirekt",
+      "action": "KEEP",
+      "baseline_fields_hash": "b083df6a274892958f57b1854754ad8dd479fc80f72a0c6474b4942ab83eae60",
+      "candidate_fields_hash": "b083df6a274892958f57b1854754ad8dd479fc80f72a0c6474b4942ab83eae60",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "435b39053ae9e6571ade57a17f23ef27f7da735828e58acf30f766c0a7e432d7"
+    },
+    {
+      "id": 268,
+      "type": "post",
+      "slug": "http-https-nginx-redirekt",
+      "action": "KEEP",
+      "baseline_fields_hash": "0051bba63d55ea9b8b0e11b2214d15b5c98b4aac8db8cf21085b6f06f63e2848",
+      "candidate_fields_hash": "0051bba63d55ea9b8b0e11b2214d15b5c98b4aac8db8cf21085b6f06f63e2848",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "940f51d2811617f559405595b6b33e9a1e1ff9a41869dac2487f58abf66e2c29"
+    },
+    {
+      "id": 269,
+      "type": "post",
+      "slug": "http-https-apache-redirekt",
+      "action": "KEEP",
+      "baseline_fields_hash": "d8ace923d2fd746d352e839102863fe5a8307fd8b3057725cc624888eb66189a",
+      "candidate_fields_hash": "d8ace923d2fd746d352e839102863fe5a8307fd8b3057725cc624888eb66189a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "4d198df1417ad01d8c5446c5fc78a5e9af07e88b09c05a4f3a351cef500bc62c"
+    },
+    {
+      "id": 270,
+      "type": "post",
+      "slug": "cikl-redirektov-kak-nayti",
+      "action": "KEEP",
+      "baseline_fields_hash": "bf5f32890b3f9703fd91b87ae6cd9ebe76425cdb3eefab676f1a827480010c18",
+      "candidate_fields_hash": "bf5f32890b3f9703fd91b87ae6cd9ebe76425cdb3eefab676f1a827480010c18",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "9e31cd78d97915bb65405e822b9f4b1b7a63edf5c674ba5b5128a27a37319e5c"
+    },
+    {
+      "id": 271,
+      "type": "post",
+      "slug": "mixed-content-posle-https",
+      "action": "KEEP",
+      "baseline_fields_hash": "c3986310be644c17fcc802ae0d6d464b8ee928be4d3da4d0f32a01c8b318c8e9",
+      "candidate_fields_hash": "c3986310be644c17fcc802ae0d6d464b8ee928be4d3da4d0f32a01c8b318c8e9",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d0cbb8ef7279491bd0efd97065b0f431b08b67c00c388387b6091b7162075b31"
+    },
+    {
+      "id": 272,
+      "type": "post",
+      "slug": "srok-ssl-sertifikata-monitoring",
+      "action": "KEEP",
+      "baseline_fields_hash": "97fa29883e01801815c58c71a02eeedb05d8d3d53949bd3fbf6c76e3f9f381a5",
+      "candidate_fields_hash": "97fa29883e01801815c58c71a02eeedb05d8d3d53949bd3fbf6c76e3f9f381a5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "15b97c421030894aef221da9834a1f9b9634c95f310571e837c60fa6c35cde64"
+    },
+    {
+      "id": 273,
+      "type": "post",
+      "slug": "www-bez-www-osnovnoy-domen",
+      "action": "KEEP",
+      "baseline_fields_hash": "663b8733beb91f67bbacb0aa6a9cfeaec3d3972ad893580a1f9b898d65c7b753",
+      "candidate_fields_hash": "663b8733beb91f67bbacb0aa6a9cfeaec3d3972ad893580a1f9b898d65c7b753",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7e6e6514e98ad058b30e580becbada4eaa387b1408a3c1a7a5f29ee8c30f9aae"
+    },
+    {
+      "id": 274,
+      "type": "post",
+      "slug": "stranica-404-pravilnyy-otvet",
+      "action": "KEEP",
+      "baseline_fields_hash": "2b8e7dd99a7bb69c097902a1f96b67b27c0d448c6b477673752843f1cc2b70f5",
+      "candidate_fields_hash": "2b8e7dd99a7bb69c097902a1f96b67b27c0d448c6b477673752843f1cc2b70f5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "725926befde9d55130201f69c0e5d01feaf7cd46ea7cf8c066f28c0ca8645c3d"
+    },
+    {
+      "id": 275,
+      "type": "post",
+      "slug": "massovye-404-posle-perenosa",
+      "action": "KEEP",
+      "baseline_fields_hash": "ccc436ea363e09b931f8826cc87859e6ce44341cd2a4ab700e71b5568835c81e",
+      "candidate_fields_hash": "ccc436ea363e09b931f8826cc87859e6ce44341cd2a4ab700e71b5568835c81e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "82b5fcc5820cead628492131595f65774f4d2b92ecac72eee49dab1fe38b73e7"
+    },
+    {
+      "id": 276,
+      "type": "post",
+      "slug": "smena-domena-sohranenie-url",
+      "action": "KEEP",
+      "baseline_fields_hash": "2da8396c22d8874616aeb1fb6e746f3c62dcd0b644d8c63ed6710b6e67f25202",
+      "candidate_fields_hash": "2da8396c22d8874616aeb1fb6e746f3c62dcd0b644d8c63ed6710b6e67f25202",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ba52b0051bb634707eabd85f5b9d795030e71621080932a58ce17b097947bbd3"
+    },
+    {
+      "id": 277,
+      "type": "post",
+      "slug": "karta-staryh-novyh-url",
+      "action": "KEEP",
+      "baseline_fields_hash": "2f46885d6cfbb229d2ae249a5d8e6f8cb211288b957fce118f2f9533456eeaea",
+      "candidate_fields_hash": "2f46885d6cfbb229d2ae249a5d8e6f8cb211288b957fce118f2f9533456eeaea",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d17ce048094f94bac592467946a6870d2965e4934e617770b5dcada21bfa899b"
+    },
+    {
+      "id": 278,
+      "type": "post",
+      "slug": "zakryt-stend-ot-indeksacii",
+      "action": "KEEP",
+      "baseline_fields_hash": "15188b4b35c9fe1b523b315445a2c02e3cc9234c4d78dbfe7c08d0ca3106dfd4",
+      "candidate_fields_hash": "15188b4b35c9fe1b523b315445a2c02e3cc9234c4d78dbfe7c08d0ca3106dfd4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a6b1e87e4da7e54292f725a40a6fa66b28fe94940d6d2808d68ef3b0685778d2"
+    },
+    {
+      "id": 279,
+      "type": "post",
+      "slug": "title-description-kak-proverit",
+      "action": "KEEP",
+      "baseline_fields_hash": "829a287d25ccdc5f443734fdfafbf2a2fdd380752680a90caa49b6e22ef45b51",
+      "candidate_fields_hash": "829a287d25ccdc5f443734fdfafbf2a2fdd380752680a90caa49b6e22ef45b51",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a050d645b6809a89538bd388199b11633618c0720066333147489bc87ef63974"
+    },
+    {
+      "id": 280,
+      "type": "post",
+      "slug": "paginaciya-indeksaciya-canonical",
+      "action": "KEEP",
+      "baseline_fields_hash": "2202870d96aaf3424bb7398bffa92388dceed30e5fb585f40a9aa152470a53bc",
+      "candidate_fields_hash": "2202870d96aaf3424bb7398bffa92388dceed30e5fb585f40a9aa152470a53bc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c1d1ab3298bd1db5624b37120cd5c2e4eedd3964dd8ab55a082c824c4429496a"
+    },
+    {
+      "id": 281,
+      "type": "post",
+      "slug": "chto-vhodit-v-backup-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "ae5c997000a1cec1c5c6e8948cb161cf6cdff1e9213f9b0ff4247cf2216aee2e",
+      "candidate_fields_hash": "ae5c997000a1cec1c5c6e8948cb161cf6cdff1e9213f9b0ff4247cf2216aee2e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "26242087a69e86fcb9195ad176bf40316636ccf5e38f2b9668ce3e820f006ff3"
+    },
+    {
+      "id": 282,
+      "type": "post",
+      "slug": "kak-proverit-vosstanovlenie-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "8ea2dccc27c500282519adf8b76b4c8c981092f5a2c1bb7c82acf407fc5efa07",
+      "candidate_fields_hash": "8ea2dccc27c500282519adf8b76b4c8c981092f5a2c1bb7c82acf407fc5efa07",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5c9e950bbc20ad9f32fa54d3a189bb02b2e094f80a163f91836a6537724d0747"
+    },
+    {
+      "id": 283,
+      "type": "post",
+      "slug": "kopii-sayta-vne-hostinga",
+      "action": "KEEP",
+      "baseline_fields_hash": "5fceeaaa5e3daff63ae10547faa2a38f54d8d42808c77eb49abe73c23aa4c1b0",
+      "candidate_fields_hash": "5fceeaaa5e3daff63ae10547faa2a38f54d8d42808c77eb49abe73c23aa4c1b0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "95c3c7550ef3823d8ad4b10e70165a045e79ebc1ddaea50661f20fb92bb7dbc1"
+    },
+    {
+      "id": 284,
+      "type": "post",
+      "slug": "sroki-hraneniya-rezervnyh-kopiy",
+      "action": "KEEP",
+      "baseline_fields_hash": "cc9a75018ad89041c7a1564576e6bc1d39fd5a9faa116753c1525c0c8d3601f8",
+      "candidate_fields_hash": "cc9a75018ad89041c7a1564576e6bc1d39fd5a9faa116753c1525c0c8d3601f8",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "bfca96f571ff75081d207475cb709638deb7d1c856e8549216877af1d90124c3"
+    },
+    {
+      "id": 285,
+      "type": "post",
+      "slug": "obnovlenie-wordpress-bez-polomki",
+      "action": "KEEP",
+      "baseline_fields_hash": "2f47531c2e7c70af05369a3cbf79481c3b7d8b8d0181da61b40bf1ca438beed5",
+      "candidate_fields_hash": "2f47531c2e7c70af05369a3cbf79481c3b7d8b8d0181da61b40bf1ca438beed5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "04b7663651ff1d0b78afc2eaaf934d088257e6afa99c9c51b094381d8be27725"
+    },
+    {
+      "id": 286,
+      "type": "post",
+      "slug": "nastroyka-bitrix24-s-chego-nachat",
+      "action": "KEEP",
+      "baseline_fields_hash": "e1f01d2299b3cef42c66b5b0a915b79cc95461496871c5073756bc6dcc3c488b",
+      "candidate_fields_hash": "e1f01d2299b3cef42c66b5b0a915b79cc95461496871c5073756bc6dcc3c488b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "b23260ab47c5d1586e84b45408ac6d03f7f80033947257c86b9ee397dd18d654"
+    },
+    {
+      "id": 287,
+      "type": "post",
+      "slug": "bitrix24-oblako-ili-korobka",
+      "action": "KEEP",
+      "baseline_fields_hash": "1abf63fa9479136c2a1909c7d2c86d2b5f518ccd74b4583caaf4c612581f9221",
+      "candidate_fields_hash": "1abf63fa9479136c2a1909c7d2c86d2b5f518ccd74b4583caaf4c612581f9221",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "957150028adefe62d8ce5157567fec020d879767d20a934c115fc063958881db"
+    },
+    {
+      "id": 288,
+      "type": "post",
+      "slug": "lidy-ili-sdelki-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "bb5c5569d483826db8cf58b8e3b0c3cbd7e448c218f4bd46b6942dddce093de5",
+      "candidate_fields_hash": "bb5c5569d483826db8cf58b8e3b0c3cbd7e448c218f4bd46b6942dddce093de5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "353496510fe081743b4a339d9906c68fd6b84a6a23976826eaf31108a81a19fd"
+    },
+    {
+      "id": 289,
+      "type": "post",
+      "slug": "obyazatelnye-polya-crm-po-stadiyam",
+      "action": "KEEP",
+      "baseline_fields_hash": "a876faf0dd3b91fcf03ddf124860295ac1db16bc7f16c3ab5928bbc7ef5b32c3",
+      "candidate_fields_hash": "a876faf0dd3b91fcf03ddf124860295ac1db16bc7f16c3ab5928bbc7ef5b32c3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "8174ab950a06c2f206421246a643b32d5f7ecdde38f7cabb4c2f0567903ca252"
+    },
+    {
+      "id": 290,
+      "type": "post",
+      "slug": "stadii-voronki-prodazh-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "1e748e03ac9062bf67cd9f54165614e72cc002602c720342397950a894be6cbe",
+      "candidate_fields_hash": "1e748e03ac9062bf67cd9f54165614e72cc002602c720342397950a894be6cbe",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "41ce21ca274017a835849e7201b3496db544eb44a90d54ac3276de77a7b243a8"
+    },
+    {
+      "id": 291,
+      "type": "post",
+      "slug": "prava-dostupa-bitrix24-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "b14d431e436843a71137bdda4f6ec0749a6d55f5b7f11e257ba7ad4c20a90d9d",
+      "candidate_fields_hash": "b14d431e436843a71137bdda4f6ec0749a6d55f5b7f11e257ba7ad4c20a90d9d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "640f314b0fa4168b81ea32e485dd7b775b48f041c73d674ba1617c1a8f8d9d79"
+    },
+    {
+      "id": 292,
+      "type": "post",
+      "slug": "dubli-klientov-v-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "1a03fafc1feb77de89f2612a7aafe2ccfb764093b39b8092c68af6794eb23287",
+      "candidate_fields_hash": "1a03fafc1feb77de89f2612a7aafe2ccfb764093b39b8092c68af6794eb23287",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "634bc079bcfd1136112560e8a70edf34cfd9d66f5e9bd3f35111755d27191034"
+    },
+    {
+      "id": 293,
+      "type": "post",
+      "slug": "perenos-excel-v-bitrix24-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "b0b5511ba1d5fdebcb5bc346549bc75b024f34f0c77361378319e35e9d2978a8",
+      "candidate_fields_hash": "b0b5511ba1d5fdebcb5bc346549bc75b024f34f0c77361378319e35e9d2978a8",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "f3d2b58624fef00de7400ca9e1846150464996a5629cd15a5d33cc55155cc3ba"
+    },
+    {
+      "id": 294,
+      "type": "post",
+      "slug": "podklyuchenie-pochty-k-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "ebcbe7f2409922df5c9e25cfe42e1b586a6121869999764b88f86d843f0e0777",
+      "candidate_fields_hash": "ebcbe7f2409922df5c9e25cfe42e1b586a6121869999764b88f86d843f0e0777",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "91ab674996b060c219fa6320170929d9ba69ca8eaab019bdba8dffb2176c5763"
+    },
+    {
+      "id": 295,
+      "type": "post",
+      "slug": "telefoniya-v-crm-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "1eefcc6cfc67a407f331716be711feec3038adf1f53946df9fdcd97a98297a43",
+      "candidate_fields_hash": "1eefcc6cfc67a407f331716be711feec3038adf1f53946df9fdcd97a98297a43",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "bbe7c5581b86c58191e2029e3d59a63dae2eb4b517365924280d58b8ccb7fb62"
+    },
+    {
+      "id": 296,
+      "type": "post",
+      "slug": "crm-forma-na-sayte-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "d3c3a250ba561d272b62dd2a0ea18365aba7d7a9483c58b4d560b7c20fbd7ea4",
+      "candidate_fields_hash": "d3c3a250ba561d272b62dd2a0ea18365aba7d7a9483c58b4d560b7c20fbd7ea4",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4e1dff85f2ce51717824189c169d836bd9fd8b48d95a4f64a8a1bab9cabfc0eb"
+    },
+    {
+      "id": 297,
+      "type": "post",
+      "slug": "utm-metki-v-crm-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "ab73aa945a862688c5c20e3969e59b6d41831a4f621cb0c8d086fea4301d5748",
+      "candidate_fields_hash": "ab73aa945a862688c5c20e3969e59b6d41831a4f621cb0c8d086fea4301d5748",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "68200a51b1883bbce2798e57c8c126a84fc6c7e9db1c57c9116447864e1cdbc8"
+    },
+    {
+      "id": 298,
+      "type": "post",
+      "slug": "roboty-ili-biznes-processy-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "01047d6e991b4ad36f1335e052f83b365c065f3196e364da46dace327f02350b",
+      "candidate_fields_hash": "01047d6e991b4ad36f1335e052f83b365c065f3196e364da46dace327f02350b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "353e99e73bd9642bbbfd05e2641b51b2a808123eed1e7110a089b855f798d8fa"
+    },
+    {
+      "id": 299,
+      "type": "post",
+      "slug": "smart-processy-bitrix24-kogda-nuzhny",
+      "action": "KEEP",
+      "baseline_fields_hash": "88c988420c763b67d444324da5cd147bdefbc2044818caad9dd303ff194824ef",
+      "candidate_fields_hash": "88c988420c763b67d444324da5cd147bdefbc2044818caad9dd303ff194824ef",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "bb1ac3fec60f974d163c98f49b5c61181edd507b790f0f83d2ce358d0a0cae93"
+    },
+    {
+      "id": 300,
+      "type": "post",
+      "slug": "prosrochennye-dela-crm-napominaniya",
+      "action": "KEEP",
+      "baseline_fields_hash": "37f6a9196d9178b837a162a76ce8051ddf3d22ef7b2e7d4e4a592292b2cd4b99",
+      "candidate_fields_hash": "37f6a9196d9178b837a162a76ce8051ddf3d22ef7b2e7d4e4a592292b2cd4b99",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "d1922aa1346a8382b8b61f24d1a46ba124ece8c46c5f27b6b4dc877086fdea4e"
+    },
+    {
+      "id": 301,
+      "type": "post",
+      "slug": "ne-rabotaet-robot-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "c5f2a02cb8d226b9b9e98aea904beb31e8c3f4d183ad29b5f9aee1e6109fbd1d",
+      "candidate_fields_hash": "c5f2a02cb8d226b9b9e98aea904beb31e8c3f4d183ad29b5f9aee1e6109fbd1d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c45aa3c94aa3c7ca9b544ecc10756b2ccf5fdff9727dff8e6b3d774f65aee7ff"
+    },
+    {
+      "id": 302,
+      "type": "post",
+      "slug": "audit-nastroek-crm-bitrix24",
+      "action": "KEEP",
+      "baseline_fields_hash": "ca35ae4dba5122c32b3a8391cfef75575e815d500e40347806d373befebf41a0",
+      "candidate_fields_hash": "ca35ae4dba5122c32b3a8391cfef75575e815d500e40347806d373befebf41a0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4f13448cfe990e254199e4ee6f4505c29ea0f7a51c59fb53753fa0c8997ac4be"
+    },
+    {
+      "id": 303,
+      "type": "post",
+      "slug": "soprovozhdenie-bitrix24-chto-vhodit",
+      "action": "KEEP",
+      "baseline_fields_hash": "c1e6e02a8d1d202fea23398f1dee445ee1d34e0936f0eef8409e27078a7a9173",
+      "candidate_fields_hash": "c1e6e02a8d1d202fea23398f1dee445ee1d34e0936f0eef8409e27078a7a9173",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "e8f3824ed89422ca2895de90ffd18b7092949d7df6e07eca4f49d7b961f56467"
+    },
+    {
+      "id": 304,
+      "type": "post",
+      "slug": "obuchenie-i-priemka-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "7fc0fb789e87883e0c541e02e42d7390f686b7c41c3f5f71154746653616fc9e",
+      "candidate_fields_hash": "7fc0fb789e87883e0c541e02e42d7390f686b7c41c3f5f71154746653616fc9e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "788c9ec1246bd8ec5fbcc00d9a47f72eb69bb810090daf476fde989a6420e0cf"
+    },
+    {
+      "id": 305,
+      "type": "post",
+      "slug": "kak-opisat-biznes-process",
+      "action": "KEEP",
+      "baseline_fields_hash": "ca3b3a74323a47c2cc5044ec3e4aa80e6e2071095de0b1f9aa047f66c30efa67",
+      "candidate_fields_hash": "ca3b3a74323a47c2cc5044ec3e4aa80e6e2071095de0b1f9aa047f66c30efa67",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "8d5e6cf7e5cb1e0fe61a79ea6142378ef5ca5c2c7c6b7dbbcb66dff41954e60a"
+    },
+    {
+      "id": 326,
+      "type": "post",
+      "slug": "ai-shlyuz-beget-crm-sayt-processy",
+      "action": "KEEP",
+      "baseline_fields_hash": "a019f5e5e30842861dba9c2747ad0230cfdc48f7c3f7e7a0c44b9de3aef0d4a2",
+      "candidate_fields_hash": "a019f5e5e30842861dba9c2747ad0230cfdc48f7c3f7e7a0c44b9de3aef0d4a2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-pilot/manifest.json",
+      "article_support_body_hash": "07c3bd2d475b1369b7101ade94fce972d18c66aba068b97d9952dff221f033fd"
+    },
+    {
+      "id": 328,
+      "type": "post",
+      "slug": "obnovlenie-php-dlya-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "4cfc6ba77f0c6e7977363c03fb0a15b4e2509f295ceea14fe83faeda6caca2be",
+      "candidate_fields_hash": "4cfc6ba77f0c6e7977363c03fb0a15b4e2509f295ceea14fe83faeda6caca2be",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "42fc2314aef2c2964d9b31515afeb03c4d528ad39740bd89ad75bd0f270df32f"
+    },
+    {
+      "id": 329,
+      "type": "post",
+      "slug": "konflikt-plaginov-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "f3a87b63b3e31aadf8fb0769cac5803c4756bbdbc472533e1a620c8a9d09df80",
+      "candidate_fields_hash": "f3a87b63b3e31aadf8fb0769cac5803c4756bbdbc472533e1a620c8a9d09df80",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5c696ae4f2734a35ccc7e17bd60508757f743d37235341fa244408e3cad21494"
+    },
+    {
+      "id": 330,
+      "type": "post",
+      "slug": "staging-dlya-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "4b018bdb6c1fe17a5fa680b2a5443b0283b7e5f490e0f12f62d85237a66dc485",
+      "candidate_fields_hash": "4b018bdb6c1fe17a5fa680b2a5443b0283b7e5f490e0f12f62d85237a66dc485",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "2926dffac79fc050b8f5fe90f6500ee52d69588efd551c2bca9ba4e7c68048ae"
+    },
+    {
+      "id": 331,
+      "type": "post",
+      "slug": "prava-administratorov-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "a1e25f32883c19c333265e94f8ed2b1e16b280fd545ea71236b7a14e85509e33",
+      "candidate_fields_hash": "a1e25f32883c19c333265e94f8ed2b1e16b280fd545ea71236b7a14e85509e33",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "50ce244f477d8a00c1fbfa613ad1422d74472427395b333db0497971ef079a06"
+    },
+    {
+      "id": 332,
+      "type": "post",
+      "slug": "domen-na-vladelce-biznesa",
+      "action": "KEEP",
+      "baseline_fields_hash": "7b53ed175b678f9ebdf617c4472b5af13c36c9b1da486cef9693182d4425fdd5",
+      "candidate_fields_hash": "7b53ed175b678f9ebdf617c4472b5af13c36c9b1da486cef9693182d4425fdd5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "67274bc852f7a8ee165767968225b6f47cea4cadc07a2e8e90666f18470ed408"
+    },
+    {
+      "id": 333,
+      "type": "post",
+      "slug": "oshibka-500-diagnostika",
+      "action": "KEEP",
+      "baseline_fields_hash": "21bdfb38e0537b746c494c9eeea38dd86eeb918c307483181aae6d7a171895cf",
+      "candidate_fields_hash": "21bdfb38e0537b746c494c9eeea38dd86eeb918c307483181aae6d7a171895cf",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "56574ce297d971b31eb6ad8450816057814892e8c1533908f151198959ac3dbe"
+    },
+    {
+      "id": 334,
+      "type": "post",
+      "slug": "oshibki-502-504-chto-proveryat",
+      "action": "KEEP",
+      "baseline_fields_hash": "e6f02dc954be3927c73a81a97d4b96a5cd333688fb225da47553633288b29b51",
+      "candidate_fields_hash": "e6f02dc954be3927c73a81a97d4b96a5cd333688fb225da47553633288b29b51",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "3768b0257e497e4afc093874277264cb948e915a27e9b610de7e730e94baeb8e"
+    },
+    {
+      "id": 335,
+      "type": "post",
+      "slug": "belyy-ekran-wordpress",
+      "action": "KEEP",
+      "baseline_fields_hash": "7f8bc38e2beaaead8e046c6c5875d957dc6d79bd9c540abeca62113eb1e98588",
+      "candidate_fields_hash": "7f8bc38e2beaaead8e046c6c5875d957dc6d79bd9c540abeca62113eb1e98588",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "9cd7b6fcaa69f508021c0620e81e9f15fc1656b874122108ca8a6002b0311382"
+    },
+    {
+      "id": 336,
+      "type": "post",
+      "slug": "monitoring-dostupnosti-sayta",
+      "action": "KEEP",
+      "baseline_fields_hash": "c9b022f53bedcb83922b50bf27414521d9d99af8406666d86871257257fef7ed",
+      "candidate_fields_hash": "c9b022f53bedcb83922b50bf27414521d9d99af8406666d86871257257fef7ed",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "9f86ba49920a91a249aedc16eb0928d140c1b423f001d4768e6d5d58c3d4cbd6"
+    },
+    {
+      "id": 337,
+      "type": "post",
+      "slug": "logirovanie-form-zayavok",
+      "action": "KEEP",
+      "baseline_fields_hash": "0e53c234784bebc1bb5b5dac71a69b3684977a26875a4079e1d5231007b92027",
+      "candidate_fields_hash": "0e53c234784bebc1bb5b5dac71a69b3684977a26875a4079e1d5231007b92027",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "a8f21c8b0e2a9d130a53b9bf5c935abb36a8057d1d766115653871d3d42c9320"
+    },
+    {
+      "id": 338,
+      "type": "post",
+      "slug": "core-web-vitals-chto-ispravlyat",
+      "action": "KEEP",
+      "baseline_fields_hash": "9abc1b6de388599c8d1be86f1d438990bc1dfceb9c0aebced4f58403d9b70cc3",
+      "candidate_fields_hash": "9abc1b6de388599c8d1be86f1d438990bc1dfceb9c0aebced4f58403d9b70cc3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "fcc74e4c3bac0f3d819020135607007a81d83784806e3deeac869a6f517c8460"
+    },
+    {
+      "id": 339,
+      "type": "post",
+      "slug": "optimizaciya-izobrazheniy-sayta",
+      "action": "KEEP",
+      "baseline_fields_hash": "9fa2c726bdb942fe21e0d9b3420ce8b21344d6d0eeace2ab007634df0a008396",
+      "candidate_fields_hash": "9fa2c726bdb942fe21e0d9b3420ce8b21344d6d0eeace2ab007634df0a008396",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "1390951f01f421dda759f5b1c840ed5296904011dcbc66e721494d6485c3fca2"
+    },
+    {
+      "id": 340,
+      "type": "post",
+      "slug": "kesh-sayta-starye-izmeneniya",
+      "action": "KEEP",
+      "baseline_fields_hash": "a0e856e0429a9cd7b41e79a7b69b83a99bcd571d3b0dd1955cc3180c3c860ed3",
+      "candidate_fields_hash": "a0e856e0429a9cd7b41e79a7b69b83a99bcd571d3b0dd1955cc3180c3c860ed3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "98d9230898f05671f7438afdc13abb01226918fae2f6475f8c76df17b176e5f0"
+    },
+    {
+      "id": 341,
+      "type": "post",
+      "slug": "mobilnaya-verstka-proverka",
+      "action": "KEEP",
+      "baseline_fields_hash": "b6e95ad78ba6bd935a8f2bd537ffcd572b01f5604c4563d6c63b22e95661ece2",
+      "candidate_fields_hash": "b6e95ad78ba6bd935a8f2bd537ffcd572b01f5604c4563d6c63b22e95661ece2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "31eb70afe7e4089e5d96924694c153c38acbe43530bcf4f9a2b8bdbf5e4c3e21"
+    },
+    {
+      "id": 342,
+      "type": "post",
+      "slug": "dostupnost-form-cheklist",
+      "action": "KEEP",
+      "baseline_fields_hash": "fbafc05a38d9573ef6a85e7a50f47597506a7d479bcf2e6162253f9ec7d9d65c",
+      "candidate_fields_hash": "fbafc05a38d9573ef6a85e7a50f47597506a7d479bcf2e6162253f9ec7d9d65c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "6a527557d54ee8ff4b0475f53bd42572c8c90a0e41bfb57cb28298dbb04724a7"
+    },
+    {
+      "id": 343,
+      "type": "post",
+      "slug": "priemka-sayta-prakticheskiy-cheklist",
+      "action": "KEEP",
+      "baseline_fields_hash": "77b3e2f03054383c5ae11ae19139a366bf531056f718f0c7a2fbecdda847bc9b",
+      "candidate_fields_hash": "77b3e2f03054383c5ae11ae19139a366bf531056f718f0c7a2fbecdda847bc9b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ccff546237344d444fae57e423db74bd8e4ff66dcec3504a24844eaf12f06b01"
+    },
+    {
+      "id": 344,
+      "type": "post",
+      "slug": "as-is-to-be-biznes-process",
+      "action": "KEEP",
+      "baseline_fields_hash": "3f0e72455fdb798dfdf4005b4a191fa25c6e4b60543838f82a46dfe450b6725a",
+      "candidate_fields_hash": "3f0e72455fdb798dfdf4005b4a191fa25c6e4b60543838f82a46dfe450b6725a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7717e7ff9fe374bbf8f4c94b329f6f0a1f6bdaf5e1ef7ab042b8dd827ce802cd"
+    },
+    {
+      "id": 345,
+      "type": "post",
+      "slug": "intervyu-sotrudnikov-dlya-avtomatizatsii",
+      "action": "KEEP",
+      "baseline_fields_hash": "c0dce52484ed0ed4c627232149304b6d9c2fb441bf8f1aa84a77a1f008312822",
+      "candidate_fields_hash": "c0dce52484ed0ed4c627232149304b6d9c2fb441bf8f1aa84a77a1f008312822",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "210dffc00079786fcf1521a3c732f3429fd2320e271f18e94f8757582e4a9473"
+    },
+    {
+      "id": 346,
+      "type": "post",
+      "slug": "bpmn-dlya-zakazchika",
+      "action": "KEEP",
+      "baseline_fields_hash": "eaf5e70e561cc3edd6cc5aab74e3da74b6934c2afd57573a5803f128eab5cb41",
+      "candidate_fields_hash": "eaf5e70e561cc3edd6cc5aab74e3da74b6934c2afd57573a5803f128eab5cb41",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a2e4258ca18e5d69a6346b5c6a52bef08e811971afb584cdc01191fd3b73cd27"
+    },
+    {
+      "id": 347,
+      "type": "post",
+      "slug": "sipoc-opisanie-processa",
+      "action": "KEEP",
+      "baseline_fields_hash": "9709109c9a4f9285f6299b201c201699409f628a44af2f6a15d1accb1cd170ea",
+      "candidate_fields_hash": "9709109c9a4f9285f6299b201c201699409f628a44af2f6a15d1accb1cd170ea",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "75a28bfdabbc27a3790d70544d101a5f17dcff817ffafcc8153f771d3f20f17e"
+    },
+    {
+      "id": 348,
+      "type": "post",
+      "slug": "raci-raspredelenie-otvetstvennosti",
+      "action": "KEEP",
+      "baseline_fields_hash": "4e5243fe6640fb6821d4c6ef7aed8afcf7562f357eece19f4a96c41433f13d4b",
+      "candidate_fields_hash": "4e5243fe6640fb6821d4c6ef7aed8afcf7562f357eece19f4a96c41433f13d4b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ade7854427deaf8273a44d3e46e9a2c36f7efc6aab10c3db89b313ab62aab705"
+    },
+    {
+      "id": 349,
+      "type": "post",
+      "slug": "reglament-biznes-processa",
+      "action": "KEEP",
+      "baseline_fields_hash": "9c027805af730413090181b963c33fb617bcf385d080bde66d5cac48efab3cdb",
+      "candidate_fields_hash": "9c027805af730413090181b963c33fb617bcf385d080bde66d5cac48efab3cdb",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "766a76e19bbfade40f77188595ecf1b5423f333cd079bcac865e3ae3e065f912"
+    },
+    {
+      "id": 350,
+      "type": "post",
+      "slug": "avtomatizatsiya-soglasovaniya-dokumentov",
+      "action": "KEEP",
+      "baseline_fields_hash": "901b4f3736b427010f96f40ed15d0ff07452b310f720eb6f1d8ad8cb14e75acb",
+      "candidate_fields_hash": "901b4f3736b427010f96f40ed15d0ff07452b310f720eb6f1d8ad8cb14e75acb",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "126282a8505f55acce8cbb0a9cdcd060546403bc781013fa00ea50bf240668a1"
+    },
+    {
+      "id": 351,
+      "type": "post",
+      "slug": "marshrut-vhodyashchey-zayavki",
+      "action": "KEEP",
+      "baseline_fields_hash": "d0ec8fa5956e07216b247babf42d72058c0b2015049adf9013ab9eeee11f4a61",
+      "candidate_fields_hash": "d0ec8fa5956e07216b247babf42d72058c0b2015049adf9013ab9eeee11f4a61",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "13d234e00c0624bbf2bda08e0e84f22d768d84946e15999058729959f64d3203"
+    },
+    {
+      "id": 352,
+      "type": "post",
+      "slug": "isklyucheniya-biznes-processa",
+      "action": "KEEP",
+      "baseline_fields_hash": "93d8527bb832991a281c8478e94f99a6ca3d2da7671a84502e44048973b378cd",
+      "candidate_fields_hash": "93d8527bb832991a281c8478e94f99a6ca3d2da7671a84502e44048973b378cd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "6f66b63ea65bff81a0f62c2034ad9489b80a4fdbd0cfa18e79f5b9a80f4c3b89"
+    },
+    {
+      "id": 353,
+      "type": "post",
+      "slug": "kpi-biznes-processa",
+      "action": "KEEP",
+      "baseline_fields_hash": "2e891b116047c2c32e8d1cda20a7d8e72c39e2fe1c30a2e97696544b08958d8d",
+      "candidate_fields_hash": "2e891b116047c2c32e8d1cda20a7d8e72c39e2fe1c30a2e97696544b08958d8d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "af8c274b1dc014b6c1066c5a157bf05cf4288a62606c7fd2c5c585353940e06b"
+    },
+    {
+      "id": 354,
+      "type": "post",
+      "slug": "otsenka-effekta-avtomatizatsii",
+      "action": "KEEP",
+      "baseline_fields_hash": "800ecdabf32b51b156f7f3b5a3cfffd86b3bdcf14e337bca7f5ea6d10bacd7bc",
+      "candidate_fields_hash": "800ecdabf32b51b156f7f3b5a3cfffd86b3bdcf14e337bca7f5ea6d10bacd7bc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "c5f062ac4a20da06435d429c4bd1583cfd6d1d3166bb32a3d604c358579a18ef"
+    },
+    {
+      "id": 355,
+      "type": "post",
+      "slug": "prioritizatsiya-zadach-avtomatizatsii",
+      "action": "KEEP",
+      "baseline_fields_hash": "9e926cea69ed7591c8668924cd29650d3be23d018b808277c5e47ab656ba550a",
+      "candidate_fields_hash": "9e926cea69ed7591c8668924cd29650d3be23d018b808277c5e47ab656ba550a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "de11b4ce483228c2fefaf092813d1803a940150fbfa44ad4a23fee18d959d9eb"
+    },
+    {
+      "id": 356,
+      "type": "post",
+      "slug": "tehnicheskoe-zadanie-na-avtomatizatsiyu",
+      "action": "KEEP",
+      "baseline_fields_hash": "421af453e38da6202c2b041d4b1216bf23dffe8bd3f782470da4a7b70f5df24a",
+      "candidate_fields_hash": "421af453e38da6202c2b041d4b1216bf23dffe8bd3f782470da4a7b70f5df24a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ddf3da29f7aac37bf98f2fb4ef6ac00744760100df25b260c8b5a6f78f1cbbf8"
+    },
+    {
+      "id": 357,
+      "type": "post",
+      "slug": "kriterii-priemki-avtomatizatsii",
+      "action": "KEEP",
+      "baseline_fields_hash": "1069bda00287ad4d20336431646231a51fb3a8bb119ba97a0c7b68f5fdc1e5ec",
+      "candidate_fields_hash": "1069bda00287ad4d20336431646231a51fb3a8bb119ba97a0c7b68f5fdc1e5ec",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "be61926a0eb6c45c28b8f92acbf178f887bbd0520106ac4fe629383ee0a919d1"
+    },
+    {
+      "id": 358,
+      "type": "post",
+      "slug": "avtomatizatsiya-zakupok-process",
+      "action": "KEEP",
+      "baseline_fields_hash": "b4c57f90012e98e5b8a2433500e33536071e465e54204b893999c23c2fbed2f5",
+      "candidate_fields_hash": "b4c57f90012e98e5b8a2433500e33536071e465e54204b893999c23c2fbed2f5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4b8f762df1aa40e5787cf9f27c039f73731a2258ca97daa483e596ae648a7b62"
+    },
+    {
+      "id": 359,
+      "type": "post",
+      "slug": "avtomatizatsiya-zayavok-sotrudnikov",
+      "action": "KEEP",
+      "baseline_fields_hash": "3afb8c989b1286893d014a21324631290699169f687c33038e8abbd882fa49d1",
+      "candidate_fields_hash": "3afb8c989b1286893d014a21324631290699169f687c33038e8abbd882fa49d1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "8b828b7d4b0f0e38b9a68a782aa627be338d5e7f2b9f99b65d9c068f8aa94bc2"
+    },
+    {
+      "id": 360,
+      "type": "post",
+      "slug": "upravlenie-izmeneniyami-trebovaniy",
+      "action": "KEEP",
+      "baseline_fields_hash": "ed4413058920d6d9e767d100f271a8cc858d6fa517a977d44e7e586ef4ae95db",
+      "candidate_fields_hash": "ed4413058920d6d9e767d100f271a8cc858d6fa517a977d44e7e586ef4ae95db",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "75fa1449f9e03fdee366cddb003484a4715bb84d31a196b37ca4407de124646a"
+    },
+    {
+      "id": 361,
+      "type": "post",
+      "slug": "karta-integratsiy-biznes-sistem",
+      "action": "KEEP",
+      "baseline_fields_hash": "ac43c74d50b94b7b6ffebd1f1466b27bab28fb113775918420ca94bf776148ee",
+      "candidate_fields_hash": "ac43c74d50b94b7b6ffebd1f1466b27bab28fb113775918420ca94bf776148ee",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0300125202c2acd3f4036f5c25e0e88ce341bafd213dc6ddf9d95392d1c4ee88"
+    },
+    {
+      "id": 362,
+      "type": "post",
+      "slug": "podderzhka-posle-vnedreniya-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "3a0c8682b38f8e634da61625075235dc173dfb4ace730cfa2d0badd818555768",
+      "candidate_fields_hash": "3a0c8682b38f8e634da61625075235dc173dfb4ace730cfa2d0badd818555768",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "924b01af23cc38e33eead067a2ef1d923c84312e6bdc7db0e3b128848a9f7b0d"
+    },
+    {
+      "id": 363,
+      "type": "post",
+      "slug": "kak-vybrat-biznes-analitika",
+      "action": "KEEP",
+      "baseline_fields_hash": "90cdada98366f2127a1a5edef92502c4d60b24dbfde14b77b101064fd9ba2fd9",
+      "candidate_fields_hash": "90cdada98366f2127a1a5edef92502c4d60b24dbfde14b77b101064fd9ba2fd9",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "428668594168f9a642ddb1f38066258112e43fd17d4138387e9dcf4517bb38c5"
+    },
+    {
+      "id": 364,
+      "type": "post",
+      "slug": "sposob-integracii-sayta-s-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "c69eb5efffdc06d7b74d955288c85984dbbc93e6102a936043c3e63728d12e4f",
+      "candidate_fields_hash": "c69eb5efffdc06d7b74d955288c85984dbbc93e6102a936043c3e63728d12e4f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7b423046c9ddaee32bf9450bdb2c07c70b08fda19e1903a22df597b1f98d4960"
+    },
+    {
+      "id": 365,
+      "type": "post",
+      "slug": "webhook-kak-proverit-dostavku",
+      "action": "KEEP",
+      "baseline_fields_hash": "03712ca84b438561eac35da4d035fa5c2e5710814433a3d8f6c027af04b14fcd",
+      "candidate_fields_hash": "03712ca84b438561eac35da4d035fa5c2e5710814433a3d8f6c027af04b14fcd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "39e89b766e5bec1e0e51736135647e780a20ea15ede39891cd6c15c0d5f403d3"
+    },
+    {
+      "id": 366,
+      "type": "post",
+      "slug": "idempotentnost-api-zayavki",
+      "action": "KEEP",
+      "baseline_fields_hash": "a86ada5da6483f2ccabaf9c7750d69f5c2f9ae4020f3a9d2b0c6f2aed68fa82c",
+      "candidate_fields_hash": "a86ada5da6483f2ccabaf9c7750d69f5c2f9ae4020f3a9d2b0c6f2aed68fa82c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "70af5becaf8d743d3a2bdda232244797242f252781eab20998718846d8506e13"
+    },
+    {
+      "id": 367,
+      "type": "post",
+      "slug": "oshibka-429-api-retry-after",
+      "action": "KEEP",
+      "baseline_fields_hash": "3f5276f970f3c6fd3cc045d75f12aa58e0073a56b46ad8d5b1db6f6f6aac3ddc",
+      "candidate_fields_hash": "3f5276f970f3c6fd3cc045d75f12aa58e0073a56b46ad8d5b1db6f6f6aac3ddc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "64e5bb4ca5860e78b167056b836f14884a77fce6e57cfcd25910cddfe2dd4576"
+    },
+    {
+      "id": 368,
+      "type": "post",
+      "slug": "wordpress-ne-otpravlyaet-pisma",
+      "action": "KEEP",
+      "baseline_fields_hash": "00c11eb0e30acf1115fa54448d40bd3089f4a71c4533369eb3663048d141d614",
+      "candidate_fields_hash": "00c11eb0e30acf1115fa54448d40bd3089f4a71c4533369eb3663048d141d614",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "32098ee2619caca3c5582c814a8176d410a79840654457f388330ee13575b7e0"
+    },
+    {
+      "id": 369,
+      "type": "post",
+      "slug": "antispam-form-server-check",
+      "action": "KEEP",
+      "baseline_fields_hash": "205e36d92aa57a60761d664c4a923ae37ca5a98aab773d3b481171b7fdba491d",
+      "candidate_fields_hash": "205e36d92aa57a60761d664c4a923ae37ca5a98aab773d3b481171b7fdba491d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "fb63bbaab223050e183b01a8cad4cea7f49fb165a3ec7f54834166d662f146ac"
+    },
+    {
+      "id": 370,
+      "type": "post",
+      "slug": "yookassa-oplata-status-zakaza",
+      "action": "KEEP",
+      "baseline_fields_hash": "ccafe2ce784a59a7be9a0a9dfc6cc1eb68df232d8e7fb3be59e5fea37f8ce88c",
+      "candidate_fields_hash": "ccafe2ce784a59a7be9a0a9dfc6cc1eb68df232d8e7fb3be59e5fea37f8ce88c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2a9f80c2c7982a59304ebd048a05f04ec77104132bc5bb222a57467a9e0fdce5"
+    },
+    {
+      "id": 391,
+      "type": "post",
+      "slug": "kompleksnaya-avtomatizaciya-biznesa-plan",
+      "action": "REWRITE",
+      "baseline_fields_hash": "73d7916cadf46f15fbefee335d1b76f3a8397aeb5c01d9aea45fedf51d9a373c",
+      "candidate_fields_hash": "33af4f795ad4e35de88f48e6404a466357724e138900bc35a116c4974aee85cd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "b95f01388120fc539cbd8b1c73c5e8e2a041cc8943749bbd604801495fe0d1b4"
+    },
+    {
+      "id": 392,
+      "type": "post",
+      "slug": "polya-checkout-woocommerce",
+      "action": "KEEP",
+      "baseline_fields_hash": "0eaa81c356137d73b9585bc9b07dadd0aae94bc2275be24135a875af1cba060f",
+      "candidate_fields_hash": "0eaa81c356137d73b9585bc9b07dadd0aae94bc2275be24135a875af1cba060f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0d67e73614880c3468fd2214573bc98131ac301bda6a8c0c60783e61fc83422e"
+    },
+    {
+      "id": 393,
+      "type": "post",
+      "slug": "woocommerce-nepravilnaya-dostavka",
+      "action": "KEEP",
+      "baseline_fields_hash": "c53c4d3bb61c6763c903961bbb7f375cc5177fb8e8176fa71d4a696b7e3585df",
+      "candidate_fields_hash": "c53c4d3bb61c6763c903961bbb7f375cc5177fb8e8176fa71d4a696b7e3585df",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4734964d2626f0c44808e383d7ca00fe8276a9244f7973e6024cc3b4764417d5"
+    },
+    {
+      "id": 394,
+      "type": "post",
+      "slug": "proverka-odnovremennogo-bronirovaniya",
+      "action": "KEEP",
+      "baseline_fields_hash": "7b30ea9e9ffca3630c20d11a16ad35362e152cd47f9414c2b971e09253dca3c2",
+      "candidate_fields_hash": "7b30ea9e9ffca3630c20d11a16ad35362e152cd47f9414c2b971e09253dca3c2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "a9913e26db04906fbc697c891087972c8d3eb38d25b431512ca7306fdb9de490"
+    },
+    {
+      "id": 395,
+      "type": "post",
+      "slug": "chasovye-poyasa-onlayn-zapis",
+      "action": "KEEP",
+      "baseline_fields_hash": "f27dee61f422a9efb93455238f0c19f6cb49f5d937d74ccd244c1ab295f98a1b",
+      "candidate_fields_hash": "f27dee61f422a9efb93455238f0c19f6cb49f5d937d74ccd244c1ab295f98a1b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "4e08440e911f81085b18b25f457d1f9d235cc7af49dc4cc9f958dc0a67379b91"
+    },
+    {
+      "id": 396,
+      "type": "post",
+      "slug": "ii-pomoshchnik-po-baze-znaniy",
+      "action": "KEEP",
+      "baseline_fields_hash": "91cbdbdcbc5ae4e24d8cd3798083d2b5448434c3e4ccf5f087cd452b1652244b",
+      "candidate_fields_hash": "91cbdbdcbc5ae4e24d8cd3798083d2b5448434c3e4ccf5f087cd452b1652244b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "da4708dd87cbf04463dde5193387c77fbafc05086fb20b59736d32ada22c7a9e"
+    },
+    {
+      "id": 397,
+      "type": "post",
+      "slug": "proverka-oshibok-ii-pomoshchnika",
+      "action": "KEEP",
+      "baseline_fields_hash": "ef1863782394d610e693a77bf0bb63bf588c773d868374f6e5ded9e70e113a17",
+      "candidate_fields_hash": "ef1863782394d610e693a77bf0bb63bf588c773d868374f6e5ded9e70e113a17",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "7d1b7a8a63437be0f0a689af714f466ab1abf1e8dbac139db2ce351ead18759e"
+    },
+    {
+      "id": 398,
+      "type": "post",
+      "slug": "kakie-dannye-davat-ii",
+      "action": "KEEP",
+      "baseline_fields_hash": "cfa60870e29cf88cb997211e2738e7d9f98851e8b213f65eeaafbc1760b521e0",
+      "candidate_fields_hash": "cfa60870e29cf88cb997211e2738e7d9f98851e8b213f65eeaafbc1760b521e0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "1ecef40bed0f652428fb10fb4345540efbc61f2e81a3a009aea81723d3e4ce35"
+    },
+    {
+      "id": 399,
+      "type": "post",
+      "slug": "stoimost-ii-stsenariya",
+      "action": "KEEP",
+      "baseline_fields_hash": "afea8c058af2b034abb7cde3b8c1271a890a996870d26d28dedb713a179c7e63",
+      "candidate_fields_hash": "afea8c058af2b034abb7cde3b8c1271a890a996870d26d28dedb713a179c7e63",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7e9cac5464cb6fa22d4d1f3bd9575f9928512d628c0c2621accca816675fa1e1"
+    },
+    {
+      "id": 400,
+      "type": "post",
+      "slug": "aktualnost-bazy-znaniy-kompanii",
+      "action": "KEEP",
+      "baseline_fields_hash": "efdc54bc6b532159643b226378e965a5cdf4b757b202a7f9f9bfa8d56cf1a39b",
+      "candidate_fields_hash": "efdc54bc6b532159643b226378e965a5cdf4b757b202a7f9f9bfa8d56cf1a39b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "845ec167eae12bab043d71f5a2149ec1003d8f7a04ccd3e0c1860701d2243e12"
+    },
+    {
+      "id": 401,
+      "type": "post",
+      "slug": "lichnyy-kabinet-klienta-trebovaniya",
+      "action": "KEEP",
+      "baseline_fields_hash": "2a2208e71e8cebccdfc97ce9e35dd46610b65ad0c14bd4edee56eb385c26687c",
+      "candidate_fields_hash": "2a2208e71e8cebccdfc97ce9e35dd46610b65ad0c14bd4edee56eb385c26687c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "f7b74e1425d18acdb6df57d82b26bbe653f7f5447980ce65bf5c165e61252e07"
+    },
+    {
+      "id": 402,
+      "type": "post",
+      "slug": "veb-servis-ili-mobilnoe-prilozhenie",
+      "action": "KEEP",
+      "baseline_fields_hash": "9f2b0a6c1ffd8b8cf13615e577181ddfc20d740ab907ce348872d523c731a678",
+      "candidate_fields_hash": "9f2b0a6c1ffd8b8cf13615e577181ddfc20d740ab907ce348872d523c731a678",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "cabe68aab8b5ee2e6e7ea5d7b28609f90bbd25e6be35bb17755eab78437aa0f8"
+    },
+    {
+      "id": 403,
+      "type": "post",
+      "slug": "predproektnoe-obsledovanie-avtomatizatsii",
+      "action": "KEEP",
+      "baseline_fields_hash": "27df033feb4cc8ca3faa71e93a59065b87000988f26659d0ac8bbe27ce775054",
+      "candidate_fields_hash": "27df033feb4cc8ca3faa71e93a59065b87000988f26659d0ac8bbe27ce775054",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7bf717cfee41a6b42dd05e35083f0f4cd7804f68530d5503057b6de31e5cbbce"
+    },
+    {
+      "id": 404,
+      "type": "post",
+      "slug": "sla-podderzhki-sayta",
+      "action": "KEEP",
+      "baseline_fields_hash": "3644da479bbeef058461d751e5cebdea9e5298b81f153b447633da773d932cf8",
+      "candidate_fields_hash": "3644da479bbeef058461d751e5cebdea9e5298b81f153b447633da773d932cf8",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "ad40d70895bcca4f998bb987622085ec7d4cbf92ca940893bf94ec74a26da486"
+    },
+    {
+      "id": 475,
+      "type": "post",
+      "slug": "beget-ai-gateway-responses-404",
+      "action": "KEEP",
+      "baseline_fields_hash": "5df8e8ff3e0a5f77d6da03ae11f8549921b2db4c436dbecd789ff38b5bd0fc20",
+      "candidate_fields_hash": "5df8e8ff3e0a5f77d6da03ae11f8549921b2db4c436dbecd789ff38b5bd0fc20",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "792c314dcefff67b04a79edd3d32b2daa295f18052054dbee4e328faa44d39e3"
+    },
+    {
+      "id": 476,
+      "type": "post",
+      "slug": "ai-beget-byudzhet-pilota",
+      "action": "KEEP",
+      "baseline_fields_hash": "5c7f2a51d8e867fd95099fa76f5761683b70c0fbc43439039439635944a61afc",
+      "candidate_fields_hash": "5c7f2a51d8e867fd95099fa76f5761683b70c0fbc43439039439635944a61afc",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "d1c4747374c0da3fa1ba9301164de688a0e9ac6e1602f6e17b384d5b5e30055f"
+    },
+    {
+      "id": 477,
+      "type": "post",
+      "slug": "beget-ai-gateway-kluch-server",
+      "action": "KEEP",
+      "baseline_fields_hash": "83e793721b23c42dde35035cc8d14d379130d94d85847339b5c8a3d47fed885f",
+      "candidate_fields_hash": "83e793721b23c42dde35035cc8d14d379130d94d85847339b5c8a3d47fed885f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "640cfeed8d57b794406560baf6860a79fe2bd8feb948cecbe08222a1fa511fe8"
+    },
+    {
+      "id": 478,
+      "type": "post",
+      "slug": "beget-ai-gateway-test-modeli",
+      "action": "KEEP",
+      "baseline_fields_hash": "21365db9cc09bbda132a6db777cc2a51a7e441050fb63d5f46a0fc9633556a4f",
+      "candidate_fields_hash": "21365db9cc09bbda132a6db777cc2a51a7e441050fb63d5f46a0fc9633556a4f",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "bd2124e9acd5c953b745214f73f1f70912b2e709fdf24e1dc0ac9bf2c2d946c1"
+    },
+    {
+      "id": 479,
+      "type": "post",
+      "slug": "beget-ai-gateway-ochered-zayavok",
+      "action": "KEEP",
+      "baseline_fields_hash": "53b6321040fbe1a89f75da6faeb365e455ba45f27fcd59f7adaa5d73e500c949",
+      "candidate_fields_hash": "53b6321040fbe1a89f75da6faeb365e455ba45f27fcd59f7adaa5d73e500c949",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "92c9f502df976a2ee927d30bccf82a68d67871b57296f5f30c6911b0d634aa46"
+    },
+    {
+      "id": 480,
+      "type": "post",
+      "slug": "beget-ai-gateway-kontekst-dannyh",
+      "action": "KEEP",
+      "baseline_fields_hash": "ce58230e4262049a02f2290bc89a9eeda63e49e99d3194b8be2f3601582935ce",
+      "candidate_fields_hash": "ce58230e4262049a02f2290bc89a9eeda63e49e99d3194b8be2f3601582935ce",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "9ae907b5d61deedc809f880cf52d903410869a18bc3f2ce4fe4f2030a29e9aae"
+    },
+    {
+      "id": 481,
+      "type": "post",
+      "slug": "beget-embeddings-baza-znaniy",
+      "action": "KEEP",
+      "baseline_fields_hash": "6a5e7f8e8f1128e4b0f0a9ccc6bcef16d2ac0790aa034e2fce54153b0c73bc59",
+      "candidate_fields_hash": "6a5e7f8e8f1128e4b0f0a9ccc6bcef16d2ac0790aa034e2fce54153b0c73bc59",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "1e48fe93b9e857b9d39ef425f96a856943d699a2dc8cc9baed12da43d8ed4695"
+    },
+    {
+      "id": 482,
+      "type": "post",
+      "slug": "beget-ai-vnutrenniy-redaktor",
+      "action": "REWRITE",
+      "baseline_fields_hash": "94933a9cebde80ed5a4b94226a6d2247c107dd3ec926890e1e19375fa71182d0",
+      "candidate_fields_hash": "4417b1969b04ae29c943060789b4dacfbd0e444342762389aec1b3070b83f5c2",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "65251144c9b4ec13cff6d1d2d99cb452355d04326182aa7c8191b402ebddf696"
+    },
+    {
+      "id": 483,
+      "type": "post",
+      "slug": "beget-ai-instrumenty-prava",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b91859b77d0c4a7447270d11a721201dd2cf1889e1905fd1ff22ffdacc77fb79",
+      "candidate_fields_hash": "05b267dfde8ba29f2d343425ad2b6115dbd342aa1207f03e789a3c07429a1f0b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "783dcfd2b044f86160fda71eaeb9595b8a40a2e2bebd5f76fb26c1af4e49e51c"
+    },
+    {
+      "id": 484,
+      "type": "post",
+      "slug": "beget-shared-ili-vps-forma",
+      "action": "REWRITE",
+      "baseline_fields_hash": "b7bc8a0561e9a9124eda4b7d20b75077ea8d8043f5e0cccb6d4beb7ef6e9881e",
+      "candidate_fields_hash": "be622ffa47d0f9e875a0abd1262b68fb0ddfb483e34b8e0bde4c951d64738998",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "db9d964aab78ba8e7e2314e26a4518d38a3073286c9f6637adcdffdfbab19843"
+    },
+    {
+      "id": 485,
+      "type": "post",
+      "slug": "beget-wordpress-zapusk-priemka",
+      "action": "REWRITE",
+      "baseline_fields_hash": "afd4492af99d33a60ae2d04ba426cf725353f4b7715336944a0f215c4efed54b",
+      "candidate_fields_hash": "ca41e46fbdfc96e4d501211d08505d27ba18386702a10864faa1628317967325",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "7c278194a747c85176e6f1188033e7963bd72e3aaf720e06cd00d118ab46fa45"
+    },
+    {
+      "id": 486,
+      "type": "post",
+      "slug": "beget-katalogi-neskolko-saytov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "d7383d164918c3ece5244ba3a8f397c808582a5516b9058d300ac37833946e93",
+      "candidate_fields_hash": "10fde57076d726171fd2c84d3640763e5f2552f12c919c1053e10d5f164879ce",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "37031941d1ba29bc2278e5b9e50f89094ff9b7a91d691d28cc18762fcd1770ce"
+    },
+    {
+      "id": 487,
+      "type": "post",
+      "slug": "beget-perenos-kontrol-platezhey",
+      "action": "REWRITE",
+      "baseline_fields_hash": "1c02ca06f79fdb432631fbb3c0eba700ea5048dc913513857e2a856f256e1bde",
+      "candidate_fields_hash": "c04069aa0c7ccecbf9800a5dc0f6751b2c2ef9a12390165ae9011cc41f200a82",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4584524cef0f0483a29c9b86c410b0857b79275946173fd48bf5e1ab5851e2af"
+    },
+    {
+      "id": 488,
+      "type": "post",
+      "slug": "beget-php-smena-diagnostika",
+      "action": "REWRITE",
+      "baseline_fields_hash": "269888ae8f8ff542d2825cc2f6254bcc498158e642087cbe9fd7e55b65002d08",
+      "candidate_fields_hash": "d1bc8f340629b6d6f733699e13b5cd5633a94e9683b1bd70862f0538f1fb4812",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "f17f9e3b4da9301f0821535d831b9033e097a2fa38421709cdaa25ce054c6399"
+    },
+    {
+      "id": 489,
+      "type": "post",
+      "slug": "beget-php-session-zavisanie",
+      "action": "REWRITE",
+      "baseline_fields_hash": "76bb29162d3c145c81e68bd0f5c51a6908ca597484b4c345f16da81c224f17e2",
+      "candidate_fields_hash": "fc033d87f7ef7614dac01e82216a8e8d62174f62a0751f347058d9246a8ff472",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "fbcd434b38667a198208eb2b9c255f8ed173eed7e6879b1b6d01bd39d1a1076f"
+    },
+    {
+      "id": 490,
+      "type": "post",
+      "slug": "beget-migraciya-bez-pochty",
+      "action": "REWRITE",
+      "baseline_fields_hash": "0f77dea9bbf86fd30e68c9c8096d9bdb0dcc41a54dadeaa3ca925457c1555d44",
+      "candidate_fields_hash": "416e107a7c608749a5388a4b1e452e8c0cba8c44ae62288fb0fc3aa839a030f3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "814bd2591855c010fe04d7c71fe37e1a139a1f3658ab8b6c020a6db84cf53639"
+    },
+    {
+      "id": 491,
+      "type": "post",
+      "slug": "beget-vosstanovlenie-odin-fayl",
+      "action": "REWRITE",
+      "baseline_fields_hash": "93cb8f9a055c79b84119a1a90bdd7ed0b35722bb70faf6945214e179985c8094",
+      "candidate_fields_hash": "f70e4204bdcad6617d04dcef3e9cd8b1c8692012ce67a3374b4582bd7dd69101",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "31d66eb4583b9aae3b6802ad7d62f4ab64e272d9ede767996940c4229a8e02b3"
+    },
+    {
+      "id": 492,
+      "type": "post",
+      "slug": "beget-snapshot-baza-zakazov",
+      "action": "REWRITE",
+      "baseline_fields_hash": "a880747a2169e6cd9edaedd4d647206221d082674206813997d0fd9b6aa731c3",
+      "candidate_fields_hash": "26f4409b4958404f045bb6a6c60f221631677f4e43bdbd46e6d8bb5143448939",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "835e5cfa3586974e81efc1ab0647ba8bbdbdc543392d46093a6f18b9182f4278"
+    },
+    {
+      "id": 493,
+      "type": "post",
+      "slug": "beget-wordpress-cloud-db-priemka",
+      "action": "KEEP",
+      "baseline_fields_hash": "2aaa4a2201867704258c8d496dacb41c82dfbe0435719ff5bf18249b17c7f43c",
+      "candidate_fields_hash": "2aaa4a2201867704258c8d496dacb41c82dfbe0435719ff5bf18249b17c7f43c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "d2a5c22d7f4ef24e553a103d456a5fae276543a85e26626c7543cfb330bd987c"
+    },
+    {
+      "id": 494,
+      "type": "post",
+      "slug": "beget-bitrix-cloud-db-integracii",
+      "action": "KEEP",
+      "baseline_fields_hash": "2de0655cbd2de92ca4c19f38d42ce7e2cf3a3edc3d6614b125e1303bd0d586b1",
+      "candidate_fields_hash": "2de0655cbd2de92ca4c19f38d42ce7e2cf3a3edc3d6614b125e1303bd0d586b1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "fb468d070cd8a87aa7693c3ab6a1984a823baa1fb47a17cdc917e8a8c13d71c9"
+    },
+    {
+      "id": 495,
+      "type": "post",
+      "slug": "beget-mysql-private-network",
+      "action": "KEEP",
+      "baseline_fields_hash": "ead88a0e572744f4f4c0abc78213a230387f333e77c67c3f693beaf6835b0423",
+      "candidate_fields_hash": "ead88a0e572744f4f4c0abc78213a230387f333e77c67c3f693beaf6835b0423",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7a55047491294af0e05d78d2eb42b82853cbd809c21fec92a3ea4ef28e83aad0"
+    },
+    {
+      "id": 496,
+      "type": "post",
+      "slug": "beget-postgresql-analitika-vitrina",
+      "action": "KEEP",
+      "baseline_fields_hash": "5ae9d4225e59f010097609ec8fdc9f89e74293659fe91cb107e35ea838802352",
+      "candidate_fields_hash": "5ae9d4225e59f010097609ec8fdc9f89e74293659fe91cb107e35ea838802352",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "33964571acc6815a56c583177e1bfceb9823acc78e732351dc19ca270c0a91ef"
+    },
+    {
+      "id": 497,
+      "type": "post",
+      "slug": "beget-postgresql-roli-otchetov",
+      "action": "KEEP",
+      "baseline_fields_hash": "449ae1da6e8a686d3e61d83097b68936ab809e0d1b7e878a18aa9e88eb415bcf",
+      "candidate_fields_hash": "449ae1da6e8a686d3e61d83097b68936ab809e0d1b7e878a18aa9e88eb415bcf",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "4b7eb1661c2cdc93cf515b2b9211df8d70909ae3a5cb74896193494f8f00433b"
+    },
+    {
+      "id": 498,
+      "type": "post",
+      "slug": "beget-postgresql-restore-pilot",
+      "action": "KEEP",
+      "baseline_fields_hash": "62492a31d74dd4c5f950652da1fae2a9292e6e0d106aeb142ddd0f447ed64c31",
+      "candidate_fields_hash": "62492a31d74dd4c5f950652da1fae2a9292e6e0d106aeb142ddd0f447ed64c31",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0aa297640ff7b498ec53aaabb9ec5a96a18606f6b14d6f8e3c8d3c4e92a3541b"
+    },
+    {
+      "id": 499,
+      "type": "post",
+      "slug": "beget-sql-join-dubli-dashbord",
+      "action": "KEEP",
+      "baseline_fields_hash": "7036a453a7c91d962581fdb675ba265ea720ad9587d1989172150ce1fadfe363",
+      "candidate_fields_hash": "7036a453a7c91d962581fdb675ba265ea720ad9587d1989172150ce1fadfe363",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "2ed1cfdb5ff91b3c83b7237faf2fdb55c4a36e77987eca052a41385e34b207c4"
+    },
+    {
+      "id": 500,
+      "type": "post",
+      "slug": "beget-mysql-polzovateli-servisov",
+      "action": "KEEP",
+      "baseline_fields_hash": "22d5e9a56b048766d92fa17321d6f6016c2b999bd3aa6400d6dcbc37578eb9ac",
+      "candidate_fields_hash": "22d5e9a56b048766d92fa17321d6f6016c2b999bd3aa6400d6dcbc37578eb9ac",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "1288e21e7ca5a637a4ff25532e2322280148e33994d270855872e5075465e280"
+    },
+    {
+      "id": 501,
+      "type": "post",
+      "slug": "beget-statistika-pik-zaprosov",
+      "action": "KEEP",
+      "baseline_fields_hash": "3f3fddb30fd5b44fe2e48bbfc7130341f4c7235b9fa7316f6b622026d59a978d",
+      "candidate_fields_hash": "3f3fddb30fd5b44fe2e48bbfc7130341f4c7235b9fa7316f6b622026d59a978d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "6104131c7b49b43b09a3b671730e058d8de7906eecee6c827dbfcd01eb33864c"
+    },
+    {
+      "id": 502,
+      "type": "post",
+      "slug": "beget-2fa-dostup-vladelca",
+      "action": "KEEP",
+      "baseline_fields_hash": "53d0d0153dc7baedf504963da18f625f0c1cd29545f556b51a7cfabb635e1562",
+      "candidate_fields_hash": "53d0d0153dc7baedf504963da18f625f0c1cd29545f556b51a7cfabb635e1562",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "1143a9322b04c550988c7a8d8da31b02e9b585ff3094637523f2ee896bdc37f6"
+    },
+    {
+      "id": 503,
+      "type": "post",
+      "slug": "beget-ftp-podryadchik-dostup",
+      "action": "KEEP",
+      "baseline_fields_hash": "014f26b538fe3e903b158b73103f3a8d620ca00e8b2c885996dd8f95b4fde94d",
+      "candidate_fields_hash": "014f26b538fe3e903b158b73103f3a8d620ca00e8b2c885996dd8f95b4fde94d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "1a4440525a377d8c460235712028075ee4d843d725437e0aff59a1cd00844fd3"
+    },
+    {
+      "id": 504,
+      "type": "post",
+      "slug": "beget-vps-pervaya-priemka",
+      "action": "KEEP",
+      "baseline_fields_hash": "950b9b40d31932a59adfb88560790758d5ed6b88d11921cb3a92c09efc5a4dcf",
+      "candidate_fields_hash": "950b9b40d31932a59adfb88560790758d5ed6b88d11921cb3a92c09efc5a4dcf",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7292b303d8046334da9a2c494400c8d973efe2679bc7945f0ecb03367e7d274c"
+    },
+    {
+      "id": 505,
+      "type": "post",
+      "slug": "beget-ufw-webhook-dostup",
+      "action": "KEEP",
+      "baseline_fields_hash": "ca0dcc9f45916761ac40d31238e6f2a9fc3e72d3414721e19e1af071da1bccc7",
+      "candidate_fields_hash": "ca0dcc9f45916761ac40d31238e6f2a9fc3e72d3414721e19e1af071da1bccc7",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "9f2565fc8d668a5f17b4de095b0db36d8939936822236ad2499d8768b22d7329"
+    },
+    {
+      "id": 506,
+      "type": "post",
+      "slug": "beget-fail2ban-neblokirovat-komandu",
+      "action": "KEEP",
+      "baseline_fields_hash": "8b6dabbb1bbce9804f239e337a422a77f99e878948307eab60b8b37a1a81b9a9",
+      "candidate_fields_hash": "8b6dabbb1bbce9804f239e337a422a77f99e878948307eab60b8b37a1a81b9a9",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "cd3adad472e21c42b83d37b9dc749f48248e9787b445166e32a8d1216a36c91e"
+    },
+    {
+      "id": 507,
+      "type": "post",
+      "slug": "beget-docker-python-peredacha",
+      "action": "KEEP",
+      "baseline_fields_hash": "b759e3d153e5833f6088d0753e797d2739fd037b2235e7ab86a42bfb0c9b26f0",
+      "candidate_fields_hash": "b759e3d153e5833f6088d0753e797d2739fd037b2235e7ab86a42bfb0c9b26f0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "5e3bfe6e0e191fedd8d06b843bfde2b48e8f2c1fa16e11b1906236711037dc98"
+    },
+    {
+      "id": 508,
+      "type": "post",
+      "slug": "beget-portainer-vladelec-servisa",
+      "action": "KEEP",
+      "baseline_fields_hash": "53c9cf8f37871cdcd3d46b276bf3b66ce496be984219e7a287c91495fe4fce29",
+      "candidate_fields_hash": "53c9cf8f37871cdcd3d46b276bf3b66ce496be984219e7a287c91495fe4fce29",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "dcfda5f4877ab73c7b3f65042d0a35c5fec8037634d935055874945c26aa8507"
+    },
+    {
+      "id": 509,
+      "type": "post",
+      "slug": "beget-docker-volumes-udaleniye",
+      "action": "KEEP",
+      "baseline_fields_hash": "4c29cec652c3cc24763c6b869e0a57a73e54404c377ab6ecfc631dd9b196f509",
+      "candidate_fields_hash": "4c29cec652c3cc24763c6b869e0a57a73e54404c377ab6ecfc631dd9b196f509",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "66502dada5af0a433facc093c5845efb5ddfcdefcc00593d738cbc893e6b167c"
+    },
+    {
+      "id": 510,
+      "type": "post",
+      "slug": "beget-terraform-plan-soglasovanie",
+      "action": "KEEP",
+      "baseline_fields_hash": "66268d5194364371e1333d7fa6b9a925943a9908e0c9bb569e4594510783e88e",
+      "candidate_fields_hash": "66268d5194364371e1333d7fa6b9a925943a9908e0c9bb569e4594510783e88e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "4eebc5a7391e9fac98e7d7ec4ca63c8adb641513caf61e5a39e2ba0c1e75a08a"
+    },
+    {
+      "id": 511,
+      "type": "post",
+      "slug": "beget-ci-release-forma",
+      "action": "KEEP",
+      "baseline_fields_hash": "369f10588248ceb4f906d9c5917f71ec9bc2c9464f82ca8abd072a2d625ba405",
+      "candidate_fields_hash": "369f10588248ceb4f906d9c5917f71ec9bc2c9464f82ca8abd072a2d625ba405",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "67d4b9b8718762b74e476bd1bd87adc71181b2f661048e4b09973051828940e7"
+    },
+    {
+      "id": 512,
+      "type": "post",
+      "slug": "beget-systemd-fonovyy-servis",
+      "action": "KEEP",
+      "baseline_fields_hash": "a8b4ff6eab25cbe4fa3ed58cb2d58d293916e0eebbc1652bd51ff103ed9e8564",
+      "candidate_fields_hash": "a8b4ff6eab25cbe4fa3ed58cb2d58d293916e0eebbc1652bd51ff103ed9e8564",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0011bec7e05a3da7fa2bd3ed421f91ac58a715f3df8d5bba48e4ca4df984c2d1"
+    },
+    {
+      "id": 513,
+      "type": "post",
+      "slug": "beget-sla-granicy-otvetstvennosti",
+      "action": "KEEP",
+      "baseline_fields_hash": "be3e6e3d95314e0ebf578dacd07fcfc9636118ad03e9e735bd12066f733c134b",
+      "candidate_fields_hash": "be3e6e3d95314e0ebf578dacd07fcfc9636118ad03e9e735bd12066f733c134b",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "01773059f5834b18b215d2deb1684527b80cd75a608b4558deccdb66fe9aeb0b"
+    },
+    {
+      "id": 514,
+      "type": "post",
+      "slug": "beget-ekspluatacionnyy-pasport",
+      "action": "KEEP",
+      "baseline_fields_hash": "e5bdd750b29cbcfa48702243e77dae8eecb32989f4b0f7046ea27862eaff9fe9",
+      "candidate_fields_hash": "e5bdd750b29cbcfa48702243e77dae8eecb32989f4b0f7046ea27862eaff9fe9",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "48a6ea06394f06e684424b80d92f255b00dc1bc539659148b5385c4537e6442c"
+    },
+    {
+      "id": 515,
+      "type": "post",
+      "slug": "beget-pereezd-proverka-do-dns",
+      "action": "REWRITE",
+      "baseline_fields_hash": "00996685249d4d410e5c07d8ddfadbf7ff08ed6d63a056b238219bc9cd76205f",
+      "candidate_fields_hash": "86d3fdf0da98c147e7bcf46273255685b195e6ad1f59d52e03202c6f91a5126c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "7c0e8f14f712658ed0b52fb24841d14c64b8d85104760a63f470b0dd41b5ac05"
+    },
+    {
+      "id": 516,
+      "type": "post",
+      "slug": "beget-dns-webhook-perekluchenie",
+      "action": "REWRITE",
+      "baseline_fields_hash": "dfd67863698d9bb8189b473853563fc33a01a5278619662b132b2bc841bc965f",
+      "candidate_fields_hash": "5f2ade3c5f0da00cea12fec78a19401aa207f10d14e9fb98a0bb54b03eb7f547",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "777cd9f13232c1fc7899534d0c83702ceb9213eb94435f784659cef064fbf57d"
+    },
+    {
+      "id": 517,
+      "type": "post",
+      "slug": "beget-domen-prodlenie-process",
+      "action": "REWRITE",
+      "baseline_fields_hash": "bf0d9e0c008c87fd3f7570e04e6fddc09dd806a1b7cee6a2ff48ac84c376add2",
+      "candidate_fields_hash": "f64e8c51e4c6749a1a1df031b92a4cee053438381f325cfa4491f417a1d33f68",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "3a9150a55936ebdf028a90b35c6c9e370ce0fade662f005780ac7ba2fa8122d7"
+    },
+    {
+      "id": 518,
+      "type": "post",
+      "slug": "beget-poddomen-lichnyy-kabinet",
+      "action": "REWRITE",
+      "baseline_fields_hash": "3e8e28d54d1aec7e8717493c4e4c8a910cd326ab31644eab42aa36a5d3c912e5",
+      "candidate_fields_hash": "4cefd9505f5bae81da68d3ad836cd108cc24dfefc8db28faac55c263297b9375",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "348c352c2b0a59ef05fe165203943d94fc26ccb8400dcd53765dbe25ad4d1df1"
+    },
+    {
+      "id": 519,
+      "type": "post",
+      "slug": "beget-spf-neskolko-otpraviteley",
+      "action": "KEEP",
+      "baseline_fields_hash": "b61a67ade8f474f87489e2d20164acf0b40563d73a0b4db605c90cbb67cc092a",
+      "candidate_fields_hash": "b61a67ade8f474f87489e2d20164acf0b40563d73a0b4db605c90cbb67cc092a",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "ba24d898e80d79dc6001ca3c1ecc7ca84030654db1b87ce83bc1e3c489a6bc72"
+    },
+    {
+      "id": 520,
+      "type": "post",
+      "slug": "beget-dkim-smena-pochty",
+      "action": "KEEP",
+      "baseline_fields_hash": "67abdde7d17ebb44ab8c2ea42fd84284aef9298133e1f052d7428997319640e9",
+      "candidate_fields_hash": "67abdde7d17ebb44ab8c2ea42fd84284aef9298133e1f052d7428997319640e9",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "71ec4e9e8d66e6a0d309537ba261dd64e920c3385a7d3b5a90d1ebc132446656"
+    },
+    {
+      "id": 521,
+      "type": "post",
+      "slug": "beget-dmarc-otchety-process",
+      "action": "KEEP",
+      "baseline_fields_hash": "514844b5df2e2944d152dce675afb8f7c94436b0e50e63a3831024ac26e63281",
+      "candidate_fields_hash": "514844b5df2e2944d152dce675afb8f7c94436b0e50e63a3831024ac26e63281",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "72d61b30c71eb4bf7c27102215fd14d1bb41748019de7c433d11de84d9710cd0"
+    },
+    {
+      "id": 522,
+      "type": "post",
+      "slug": "beget-pochta-pereadresaciya-obrashcheniy",
+      "action": "KEEP",
+      "baseline_fields_hash": "539a1e0448c236bafd893af43b6a9ec1fab0e358508adb0e65a973a6ec5f1469",
+      "candidate_fields_hash": "539a1e0448c236bafd893af43b6a9ec1fab0e358508adb0e65a973a6ec5f1469",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "94f9820cd260084ab6d14893f35fcc26cc363535625694c5dd2b68ebd7aed93b"
+    },
+    {
+      "id": 523,
+      "type": "post",
+      "slug": "beget-db-rashozhdenie-istochnikov",
+      "action": "KEEP",
+      "baseline_fields_hash": "5f3f4bb7fbe0947368ac2307e668345b6320f3a71c92b862a6ba6221169ab553",
+      "candidate_fields_hash": "5f3f4bb7fbe0947368ac2307e668345b6320f3a71c92b862a6ba6221169ab553",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "b3a468892756cf91ef3d8c9d1b6dc94dac1128ce3ec969ac8be4aab0cfe3127b"
+    },
+    {
+      "id": 524,
+      "type": "post",
+      "slug": "beget-s3-wordpress-media-migraciya",
+      "action": "KEEP",
+      "baseline_fields_hash": "defd54a523cbbbae7a70b3196b0888c4da87fed4fff5e76218e18683bf8e5282",
+      "candidate_fields_hash": "defd54a523cbbbae7a70b3196b0888c4da87fed4fff5e76218e18683bf8e5282",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c3f6dd9304bd44638f8604c75b0cf5216bbdb02d31021fb3e368f288aea5d35f"
+    },
+    {
+      "id": 525,
+      "type": "post",
+      "slug": "beget-s3-zakrytye-dokumenty",
+      "action": "KEEP",
+      "baseline_fields_hash": "840572b873debff56a9ae30efbb36f47dfa9869ffa8bc1dd89b904817bac274e",
+      "candidate_fields_hash": "840572b873debff56a9ae30efbb36f47dfa9869ffa8bc1dd89b904817bac274e",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "2d0e6a827d0a4adf56185e6cefeb301d4431b1da6e7ce41c15885f569bb280fb"
+    },
+    {
+      "id": 526,
+      "type": "post",
+      "slug": "beget-s3-imya-fayla-versii",
+      "action": "KEEP",
+      "baseline_fields_hash": "f2fbf193ec957226af103f7f4d347cfe3dec1b2890fdee8457ba00e4b8f9d00c",
+      "candidate_fields_hash": "f2fbf193ec957226af103f7f4d347cfe3dec1b2890fdee8457ba00e4b8f9d00c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "0fa60fa909c2eae1ff0227b0ea48d8c8cb3082fc1640fd98af20f6fc3568ec49"
+    },
+    {
+      "id": 527,
+      "type": "post",
+      "slug": "beget-s3-wordpress-backup-uchyot",
+      "action": "KEEP",
+      "baseline_fields_hash": "3ea238ccc9f3903a1c3646ea66d7b6088b01bb5468ff14518fd31924787705c0",
+      "candidate_fields_hash": "3ea238ccc9f3903a1c3646ea66d7b6088b01bb5468ff14518fd31924787705c0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "37cb4bc5564e325b759d0b4ac1410bef3c1b3e6f12ef9fa9ccb20b85b9e149f7"
+    },
+    {
+      "id": 528,
+      "type": "post",
+      "slug": "beget-s3-perenos-sverka",
+      "action": "KEEP",
+      "baseline_fields_hash": "ffd7860f4647caaca5f43da912ad90a71467864ca2a4451d3a2319415f677bb0",
+      "candidate_fields_hash": "ffd7860f4647caaca5f43da912ad90a71467864ca2a4451d3a2319415f677bb0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "7c9d8991bc2784b1b7d0d0ed5111e5e761be381554a8e83677e9b60936219948"
+    },
+    {
+      "id": 529,
+      "type": "post",
+      "slug": "beget-rclone-biznes-fayly",
+      "action": "KEEP",
+      "baseline_fields_hash": "edd189259b5c5c5c60eded82149d4e475514da5507399234de13a6b93cd71192",
+      "candidate_fields_hash": "edd189259b5c5c5c60eded82149d4e475514da5507399234de13a6b93cd71192",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "3d2f7f2db5dbf0e90c92d64ceb388c9ce0ef0b324455914cb1332fd1799ed419"
+    },
+    {
+      "id": 530,
+      "type": "post",
+      "slug": "beget-s3-bitrix-kartochki",
+      "action": "KEEP",
+      "baseline_fields_hash": "0a1fb7eca4f1b984bf5eed9f774172472a590d49e904bf8a48da0686dc23a511",
+      "candidate_fields_hash": "0a1fb7eca4f1b984bf5eed9f774172472a590d49e904bf8a48da0686dc23a511",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "2cf11453f6ff404ce35c2e648af4997000b7d38d4035237c8270c20097c4c7ee"
+    },
+    {
+      "id": 531,
+      "type": "post",
+      "slug": "beget-cdn-wordpress-obnovlenie",
+      "action": "KEEP",
+      "baseline_fields_hash": "4535772ef405250d562267eb8673c7f50ad28fa7e62240abe5e0a243ba4049be",
+      "candidate_fields_hash": "4535772ef405250d562267eb8673c7f50ad28fa7e62240abe5e0a243ba4049be",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "5b14c99569fe2ce2b61dfea3798a5b377ffb4ff28b9f3a1577b8dd1691ff1c8a"
+    },
+    {
+      "id": 532,
+      "type": "post",
+      "slug": "beget-cdn-lichnyy-kabinet",
+      "action": "KEEP",
+      "baseline_fields_hash": "344283c57bcaba3bcf67066c30c1e21bb057df19939206d9bbae12a3f4af8010",
+      "candidate_fields_hash": "344283c57bcaba3bcf67066c30c1e21bb057df19939206d9bbae12a3f4af8010",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "0abcb1371c9211cf66a93376ad84287df8acddc2ac35490beaea02b763501f7b"
+    },
+    {
+      "id": 533,
+      "type": "post",
+      "slug": "beget-logs-edinaya-kartina",
+      "action": "KEEP",
+      "baseline_fields_hash": "22a0bf36bc74e458c19a8dcb6ee1a9ba649d0cd5f8cb424d75db9ee16a42f3e3",
+      "candidate_fields_hash": "22a0bf36bc74e458c19a8dcb6ee1a9ba649d0cd5f8cb424d75db9ee16a42f3e3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "18bc393902fb9907853a5200410efc5e62bbe336cd0ff2db179c953c4f936100"
+    },
+    {
+      "id": 534,
+      "type": "post",
+      "slug": "beget-nginx-logs-forma",
+      "action": "KEEP",
+      "baseline_fields_hash": "38cf5c9788ee1728ee2b25fc7ad46d921f5d3505122cc4766ecf02e322c68643",
+      "candidate_fields_hash": "38cf5c9788ee1728ee2b25fc7ad46d921f5d3505122cc4766ecf02e322c68643",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "fe74766bc5aba4fb8f09c9007feb3f9edbe0afffc5a9405901cc310e10f7854f"
+    },
+    {
+      "id": 535,
+      "type": "post",
+      "slug": "beget-log-rotation-hranenie",
+      "action": "KEEP",
+      "baseline_fields_hash": "00250896c7ab37d78c123b65708e12c88fee77022a3b3aa2aac3ef1d5f9b868c",
+      "candidate_fields_hash": "00250896c7ab37d78c123b65708e12c88fee77022a3b3aa2aac3ef1d5f9b868c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "b9355aca00f9cff3b01c365ca22ac0adc70f10daac43deee25493a68ccef60af"
+    },
+    {
+      "id": 536,
+      "type": "post",
+      "slug": "beget-container-registry-postavka",
+      "action": "KEEP",
+      "baseline_fields_hash": "02efe24448200c789f78640dece2ef44d04f0f0b5591d8e97f1deabf1ee53860",
+      "candidate_fields_hash": "02efe24448200c789f78640dece2ef44d04f0f0b5591d8e97f1deabf1ee53860",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "80bdea4a603f7066c7f08a61ca01147e6a95fd0957ab2522a6336a88798f95d5"
+    },
+    {
+      "id": 537,
+      "type": "post",
+      "slug": "beget-rootless-servis-ekspluataciya",
+      "action": "KEEP",
+      "baseline_fields_hash": "fc4d5ffc6c0133006348ab07971bbd816f4f492ac8bb614171e515bca62310c1",
+      "candidate_fields_hash": "fc4d5ffc6c0133006348ab07971bbd816f4f492ac8bb614171e515bca62310c1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "c28de0df6bf9aae03e06b4d2f2fc25c8f7a7bbf4f833233bcd61306718af03ad"
+    },
+    {
+      "id": 538,
+      "type": "post",
+      "slug": "beget-private-network-app-db",
+      "action": "KEEP",
+      "baseline_fields_hash": "eb1b748b60c1080189872d6be36aefabcb27c5c8d5b05444bccab0d0dd177a94",
+      "candidate_fields_hash": "eb1b748b60c1080189872d6be36aefabcb27c5c8d5b05444bccab0d0dd177a94",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "41403f085dda148da36f0ed96dd3d9a17c96f296ba63fc5017bbfe147457afa1"
+    },
+    {
+      "id": 539,
+      "type": "post",
+      "slug": "beget-balansirovshchik-sessii",
+      "action": "KEEP",
+      "baseline_fields_hash": "8e05aa6d4bacdee880e1659cea459e88261ba8681b3866c3785328e05487d2f0",
+      "candidate_fields_hash": "8e05aa6d4bacdee880e1659cea459e88261ba8681b3866c3785328e05487d2f0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "697d49fc1aeabf6118d3d7c716c69b776d781d3cd75197c7251a6506edfcccfa"
+    },
+    {
+      "id": 540,
+      "type": "post",
+      "slug": "beget-ipv6-api-diagnostika",
+      "action": "KEEP",
+      "baseline_fields_hash": "ca339c392e04fa443e1ffe7cec7415146b3f9912fbfed79575b9247375f311de",
+      "candidate_fields_hash": "ca339c392e04fa443e1ffe7cec7415146b3f9912fbfed79575b9247375f311de",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "b661e2c1fee18059f2196f3392c1146892b88b109ef7fbe061338a767a0ef019"
+    },
+    {
+      "id": 541,
+      "type": "post",
+      "slug": "beget-moodle-korporativnoe-obuchenie",
+      "action": "KEEP",
+      "baseline_fields_hash": "3bd88f75970afe4f33bd87e6d98e3eb6c5b61dffede093b918cf30b92ce87742",
+      "candidate_fields_hash": "3bd88f75970afe4f33bd87e6d98e3eb6c5b61dffede093b918cf30b92ce87742",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "2d3883e0bcd0946b9b3899def97a5eec2207ed934bca99b8de67c3aab7223108"
+    },
+    {
+      "id": 542,
+      "type": "post",
+      "slug": "beget-moodle-registraciya-istochnik",
+      "action": "KEEP",
+      "baseline_fields_hash": "8a9a61a77c37724cac9801af75167335c7874c4cb0a2567a5d6f67e697c42593",
+      "candidate_fields_hash": "8a9a61a77c37724cac9801af75167335c7874c4cb0a2567a5d6f67e697c42593",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "a2a50530f33f004c9bc75f511ae9c06d520dd0f47111a2ea6e103fb08c51e3d6"
+    },
+    {
+      "id": 543,
+      "type": "post",
+      "slug": "beget-moodle-kurs-obnovlenie",
+      "action": "KEEP",
+      "baseline_fields_hash": "6288066fd73c2e14c2cf52df03b01b57a9031f911c99d46931c78790b7063942",
+      "candidate_fields_hash": "6288066fd73c2e14c2cf52df03b01b57a9031f911c99d46931c78790b7063942",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "b552b8409dcc0ccfb43866addf63935671f36dc69f6f8d24e7d4bc46f828afba"
+    },
+    {
+      "id": 544,
+      "type": "post",
+      "slug": "beget-moodle-vebinar-dostupy",
+      "action": "KEEP",
+      "baseline_fields_hash": "861627790babf0353ca385843b37d2e5e0277dd93e5ff2da7902021d9520bd59",
+      "candidate_fields_hash": "861627790babf0353ca385843b37d2e5e0277dd93e5ff2da7902021d9520bd59",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "197c9277cc45f884a51ac245eaa9d29cb22ca735061bbdfb78d279518354036f"
+    },
+    {
+      "id": 545,
+      "type": "post",
+      "slug": "beget-authelia-vnutrennie-instrumenty",
+      "action": "KEEP",
+      "baseline_fields_hash": "bb33b9401258565c6e2c44bc4d6095e73ed35ccd6e19945ce0681b8323b2dff7",
+      "candidate_fields_hash": "bb33b9401258565c6e2c44bc4d6095e73ed35ccd6e19945ce0681b8323b2dff7",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "61fade4f6690637bdf47dc685ac8b6e49d5f4c463c247cf13e99bcaf58ea8e26"
+    },
+    {
+      "id": 546,
+      "type": "post",
+      "slug": "beget-pochta-smena-sotrudnika",
+      "action": "KEEP",
+      "baseline_fields_hash": "764b9cbf8fd26aca122c9fd81cac9c65feae74e1918a86c3a25b3d2d740edd9d",
+      "candidate_fields_hash": "764b9cbf8fd26aca122c9fd81cac9c65feae74e1918a86c3a25b3d2d740edd9d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "23178246196fe8e735006777738a9e064889409ab0e18e5def1ce5eafa4b2361"
+    },
+    {
+      "id": 547,
+      "type": "post",
+      "slug": "beget-imap-sinhronizaciya",
+      "action": "KEEP",
+      "baseline_fields_hash": "4f9465244b9942e1bbdf6bbb878eac8c5245520dcab7408235eb6d0b22da03a3",
+      "candidate_fields_hash": "4f9465244b9942e1bbdf6bbb878eac8c5245520dcab7408235eb6d0b22da03a3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "7c1aac5d6de99ad51756805a17f5bae9805a219fb52e269f8e76efc2185fef8e"
+    },
+    {
+      "id": 548,
+      "type": "post",
+      "slug": "beget-pochta-formy-nezavisimost",
+      "action": "KEEP",
+      "baseline_fields_hash": "b7adeca16a91183b00df83fa205642db42f7ac32ab447d2a14d7c183a0660974",
+      "candidate_fields_hash": "b7adeca16a91183b00df83fa205642db42f7ac32ab447d2a14d7c183a0660974",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "562daca1ab84d5a9771c4faa4265f78b9a90094a811e4c683195af766b067558"
+    },
+    {
+      "id": 549,
+      "type": "post",
+      "slug": "beget-cloud-mysql-kogda-vynos",
+      "action": "KEEP",
+      "baseline_fields_hash": "e2a85a8034147c0a7f653bbc5564ffb8db15297b167bb548239f3aa7cf1c3a68",
+      "candidate_fields_hash": "e2a85a8034147c0a7f653bbc5564ffb8db15297b167bb548239f3aa7cf1c3a68",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "87893ecd5039c253bfbe2c980eee62adcbc0733dac19682df8801e9271eec4fa"
+    },
+    {
+      "id": 550,
+      "type": "post",
+      "slug": "beget-s3-stoimost-hraneniya",
+      "action": "KEEP",
+      "baseline_fields_hash": "9a3ad8ddc471fce1ec9e1f8038cc913ebf1cffb8e7f2fa33324395f1be946afa",
+      "candidate_fields_hash": "9a3ad8ddc471fce1ec9e1f8038cc913ebf1cffb8e7f2fa33324395f1be946afa",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "dea7f5268c7a1464e11375b52b6ef3befca0bd350ef9b4cf91b0d345e6f8aabd"
+    },
+    {
+      "id": 551,
+      "type": "post",
+      "slug": "beget-cron-obmen-priemka",
+      "action": "KEEP",
+      "baseline_fields_hash": "54599ad4646459fd746c8463009fb010ace8c45f29b06478d8a03fb8e51d4523",
+      "candidate_fields_hash": "54599ad4646459fd746c8463009fb010ace8c45f29b06478d8a03fb8e51d4523",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "0331c7b6efddc760589eff500b82424629ef2cff7433712f48be659aafbf21a1"
+    },
+    {
+      "id": 552,
+      "type": "post",
+      "slug": "beget-cron-perekrutie-zadaniy",
+      "action": "KEEP",
+      "baseline_fields_hash": "db4504910a396fb17068454a86273a35c1026cf89fa6895ddb3dc9ada0a5ddd6",
+      "candidate_fields_hash": "db4504910a396fb17068454a86273a35c1026cf89fa6895ddb3dc9ada0a5ddd6",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "d0f7a2d643bb40568d27de6b50bcd315d87003e62e3bfba2e0620c3ef9eace70"
+    },
+    {
+      "id": 553,
+      "type": "post",
+      "slug": "beget-n8n-obrashcheniya-marshrut",
+      "action": "KEEP",
+      "baseline_fields_hash": "5b9e8c37dd2a3b45e41e195ae9a29c10d1f588f76ced73723be95359fcbf3e25",
+      "candidate_fields_hash": "5b9e8c37dd2a3b45e41e195ae9a29c10d1f588f76ced73723be95359fcbf3e25",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-commercial/manifest.json",
+      "article_support_body_hash": "0679441428c44b1ecdf872ccca3314af7fa72e910edf23385672f21b85de0695"
+    },
+    {
+      "id": 554,
+      "type": "post",
+      "slug": "beget-n8n-dostupy-peredacha",
+      "action": "KEEP",
+      "baseline_fields_hash": "fe01189e9e61e9c35312efb32c830ae9aa1ff6b96f003fa4eb59097ee2463c68",
+      "candidate_fields_hash": "fe01189e9e61e9c35312efb32c830ae9aa1ff6b96f003fa4eb59097ee2463c68",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "0a17efaf4373c716f80180fa530ab534e2a16bf3f76a71df186c6ab2f72a1403"
+    },
+    {
+      "id": 555,
+      "type": "post",
+      "slug": "beget-node-obrabotchik-vebhukov",
+      "action": "KEEP",
+      "baseline_fields_hash": "a7bb8a9641baba34a47a79aad2079d630cb0f484c82647aff0559c424654dff5",
+      "candidate_fields_hash": "a7bb8a9641baba34a47a79aad2079d630cb0f484c82647aff0559c424654dff5",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "e78e4c5d24593f0e8a065914c0626ddad378c0c5cba60488604242f470b9ea54"
+    },
+    {
+      "id": 556,
+      "type": "post",
+      "slug": "beget-python-import-kataloga",
+      "action": "KEEP",
+      "baseline_fields_hash": "aa3d26ef8cdbc3fd3a4c665f776f50b61c2fa88a0880bb4f470632a2647a9172",
+      "candidate_fields_hash": "aa3d26ef8cdbc3fd3a4c665f776f50b61c2fa88a0880bb4f470632a2647a9172",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "16ec538d9d4254f8f13dd4660375058125e7d7becc72be8d0f8da20b23366c64"
+    },
+    {
+      "id": 557,
+      "type": "post",
+      "slug": "beget-redis-spravochik-crm",
+      "action": "KEEP",
+      "baseline_fields_hash": "d1e841a7349947278c7b85a031dc5b427ed1f1ff4de04147306c13e542f75f39",
+      "candidate_fields_hash": "d1e841a7349947278c7b85a031dc5b427ed1f1ff4de04147306c13e542f75f39",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "4899860afd3f16ea938d4fb141a782b86a051e6867674b12343245ef97f39251"
+    },
+    {
+      "id": 558,
+      "type": "post",
+      "slug": "beget-redis-seansy-sayta",
+      "action": "KEEP",
+      "baseline_fields_hash": "490b0cb2a2c30e58088e21c6848c9a4c63069457ba91c2bac7ffd9c8d4faa540",
+      "candidate_fields_hash": "490b0cb2a2c30e58088e21c6848c9a4c63069457ba91c2bac7ffd9c8d4faa540",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "a1aa9e4b13d892057632814e5d2429a4ae5618836e73c1c9b35e8784c224a61c"
+    },
+    {
+      "id": 559,
+      "type": "post",
+      "slug": "beget-cron-otchet-analitika",
+      "action": "KEEP",
+      "baseline_fields_hash": "ed68bdc09a4a6d20250b02a40944f9e14631dcaac54ea2c1c8929d3444e74405",
+      "candidate_fields_hash": "ed68bdc09a4a6d20250b02a40944f9e14631dcaac54ea2c1c8929d3444e74405",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "d5b4c248e5a996f4a4d8818f9530ddda2b51d172b5614fa7da95013a763db63f"
+    },
+    {
+      "id": 560,
+      "type": "post",
+      "slug": "beget-fonovaya-zadacha-otmena",
+      "action": "KEEP",
+      "baseline_fields_hash": "acb8cafcc093c2d0cd6df3813de550c201af74acf3fd000f1d7f841be998d8bd",
+      "candidate_fields_hash": "acb8cafcc093c2d0cd6df3813de550c201af74acf3fd000f1d7f841be998d8bd",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "d5c95247a131a9ec7e13135a88ebc1f4858c38bb2d332bcae63b70c076e429f0"
+    },
+    {
+      "id": 561,
+      "type": "post",
+      "slug": "beget-sentry-oshibka-zayavki",
+      "action": "KEEP",
+      "baseline_fields_hash": "eecb8bbf8fa2c66597b99b8125d7748471ed8df0ec922a542417e153e833bae3",
+      "candidate_fields_hash": "eecb8bbf8fa2c66597b99b8125d7748471ed8df0ec922a542417e153e833bae3",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "8d5b05ee36eaa277c99f78969b763e976e5009b1f3b1b2f186fcb99a6225742f"
+    },
+    {
+      "id": 562,
+      "type": "post",
+      "slug": "beget-seafile-peredacha-dokumentov",
+      "action": "KEEP",
+      "baseline_fields_hash": "0356ba1f97ec91c8b43800abcd23b1f5f3f87d195e2ac9e4d4e98d6b3ed165a0",
+      "candidate_fields_hash": "0356ba1f97ec91c8b43800abcd23b1f5f3f87d195e2ac9e4d4e98d6b3ed165a0",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "8eff7fef3e92b294aee0c80550a81dbf8aa76b29f3943debb6703f19125d3646"
+    },
+    {
+      "id": 563,
+      "type": "post",
+      "slug": "beget-vikunja-obrashcheniya-podderzhki",
+      "action": "KEEP",
+      "baseline_fields_hash": "3a6618f598284c6793822683864616080a2288ce7b330129adf41991def97b5d",
+      "candidate_fields_hash": "3a6618f598284c6793822683864616080a2288ce7b330129adf41991def97b5d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "4f6bd11fb00baa2abb1f0fee688831f25c916a6eb03ded6701d3f65fdc989845"
+    },
+    {
+      "id": 564,
+      "type": "post",
+      "slug": "beget-markdown-baza-reglamentov",
+      "action": "KEEP",
+      "baseline_fields_hash": "c938e0fc08267b4f1761d6a155c233821fca20972c7151e646a0cbc8ea366225",
+      "candidate_fields_hash": "c938e0fc08267b4f1761d6a155c233821fca20972c7151e646a0cbc8ea366225",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "bff315e2721b793550809fbd68a563ceb9fd5b330abcef5550fd29f7a40ff138"
+    },
+    {
+      "id": 565,
+      "type": "post",
+      "slug": "beget-lms-vybor-shared-vps",
+      "action": "KEEP",
+      "baseline_fields_hash": "5dfa41df12843c1abba01df9a3843993aa50c8633388a496befed571a549850c",
+      "candidate_fields_hash": "5dfa41df12843c1abba01df9a3843993aa50c8633388a496befed571a549850c",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "36a06e830f9d5e1b6368b3931502cb667f40a78c1f0a89564c593c9c084cdc9b"
+    },
+    {
+      "id": 566,
+      "type": "post",
+      "slug": "beget-obuchenie-dashbord-pokazateli",
+      "action": "KEEP",
+      "baseline_fields_hash": "3dde281714c6fd0bcc07ff4eb42565fbe3a5d51ccbd7c3aca113e338de8dd823",
+      "candidate_fields_hash": "3dde281714c6fd0bcc07ff4eb42565fbe3a5d51ccbd7c3aca113e338de8dd823",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "5620273ca7ddfc86ef4c6d386a91fa2efaf36d8ebb9492002e990d0b2632954b"
+    },
+    {
+      "id": 567,
+      "type": "post",
+      "slug": "beget-multiakkaunt-klienty",
+      "action": "KEEP",
+      "baseline_fields_hash": "df19a6fe27e3d072d452c031a06043b61b95881166646b780050a59f847ab563",
+      "candidate_fields_hash": "df19a6fe27e3d072d452c031a06043b61b95881166646b780050a59f847ab563",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "e891117a0ba75f82959a0c9ae7a878979eb4178945d764439ade261969b65a85"
+    },
+    {
+      "id": 568,
+      "type": "post",
+      "slug": "beget-dostupy-karta-proekta",
+      "action": "KEEP",
+      "baseline_fields_hash": "39791c9b1a85f9b24b53ea6e146d03efdb79b394886627da758b78385e7c86f1",
+      "candidate_fields_hash": "39791c9b1a85f9b24b53ea6e146d03efdb79b394886627da758b78385e7c86f1",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "be094ff2515371a5eafa7e91fc64eb38cc54dd962011b0ed5b9a75ce3f2e0431"
+    },
+    {
+      "id": 569,
+      "type": "post",
+      "slug": "beget-dokumenty-zakryvayushchie",
+      "action": "KEEP",
+      "baseline_fields_hash": "e1ef718cca4989f3a91f608af34ef4dfd98a40b0c3cc173131dcde39fb7d726d",
+      "candidate_fields_hash": "e1ef718cca4989f3a91f608af34ef4dfd98a40b0c3cc173131dcde39fb7d726d",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "b172a8af69e61cbc501d2da60dc29027a3e1c3a2287bbbf70b2bc1e8287f8197"
+    },
+    {
+      "id": 570,
+      "type": "post",
+      "slug": "beget-support-zapros-diagnostika",
+      "action": "KEEP",
+      "baseline_fields_hash": "1fb7d19ed43e4a2d255894aa2459f9d68867da30db33f6c02305b8b91a3683c7",
+      "candidate_fields_hash": "1fb7d19ed43e4a2d255894aa2459f9d68867da30db33f6c02305b8b91a3683c7",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "1e6df0c502327bea1ef9dc1d7d20b0129d578aa55f88bbc8fd4c144633e2c03b"
+    },
+    {
+      "id": 571,
+      "type": "post",
+      "slug": "beget-api-inventarizaciya",
+      "action": "KEEP",
+      "baseline_fields_hash": "911c55b2b0faa7d2dae8ae1683e542f5fe2f581d28072ff100ea974258eb2c12",
+      "candidate_fields_hash": "911c55b2b0faa7d2dae8ae1683e542f5fe2f581d28072ff100ea974258eb2c12",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "f1f9c2e50f87997ed26eedf63bb795663c0476e0d94ec00a30d745ec1afc404b"
+    },
+    {
+      "id": 572,
+      "type": "post",
+      "slug": "beget-plavayushchiy-ip-pereezd",
+      "action": "KEEP",
+      "baseline_fields_hash": "c0e56c55e1998e6bab8ac05919398dc491def060ef9f9fb56f033b7ed86b3b31",
+      "candidate_fields_hash": "c0e56c55e1998e6bab8ac05919398dc491def060ef9f9fb56f033b7ed86b3b31",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "db02643330a118e9255bf6ce3de5cb27b4e5f9a4b274b38dc7a4e3b52d0cac28"
+    },
+    {
+      "id": 573,
+      "type": "post",
+      "slug": "beget-uslugi-nenuzhnyy-resurs",
+      "action": "KEEP",
+      "baseline_fields_hash": "7f4b59a68c3f18ab2809313f8cc9d10b327e86bc244fa37b7713c26f24ce2188",
+      "candidate_fields_hash": "7f4b59a68c3f18ab2809313f8cc9d10b327e86bc244fa37b7713c26f24ce2188",
+      "manifest": "wordpress/docs/editorial/surfaces/articles-finance/manifest.json",
+      "article_support_body_hash": "8cbdb1d2d18037ada69104d95f3160e1800536b0f362d8b53ee37b5fbfc20319"
+    },
+    {
+      "id": 574,
+      "type": "sy3_case",
+      "slug": "hiring-funnel-dashboard",
+      "action": "REWRITE",
+      "baseline_fields_hash": "3fb4301f4c9422eba1b34fe91ad7c21174ece4055dc17f29ad9427646f578b9e",
+      "candidate_fields_hash": "68f3e6c47d3ab624b48867ca80be26bfaa3eafb2edb90d6fa620ed0fe65f2411",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    },
+    {
+      "id": 576,
+      "type": "sy3_case",
+      "slug": "crm-hr-requirements",
+      "action": "KEEP",
+      "baseline_fields_hash": "55c22f33ebd854eee37c877ce855f8f5aeca257867eefc9d567101ecdc91c349",
+      "candidate_fields_hash": "55c22f33ebd854eee37c877ce855f8f5aeca257867eefc9d567101ecdc91c349",
+      "manifest": "wordpress/docs/editorial/surfaces/commercial-01/manifest.json",
+      "article_support_body_hash": null
+    }
+  ],
+  "cover_alt": {
+    "manifest": "wordpress/docs/editorial/surfaces/cover-alt/manifest.json",
+    "unique_attachments": 37,
+    "referencing_objects": 334,
+    "rewrite": 33,
+    "keep": 4,
+    "images_or_captions_changed": false,
+    "runtime_applied": false
+  }
+}
