@@ -1,0 +1,454 @@
+{
+  "candidates": [
+    {
+      "id": 138,
+      "slug": "u-zayavki-dolzhen-byt-hozyain",
+      "type": "post",
+      "baseline_hash": "71bc670dd70f5c3f7541322af072e754b9bbfdb3a09d6901820685e2f45fd909",
+      "file": "u-zayavki-dolzhen-byt-hozyain.html",
+      "candidate_hash": "62d850edca26fb1e29e94b988d2c020f490e1c214b29d2f7900fe5d242278fde",
+      "visible_chars": 12589,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=1",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-1.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Runtime body read in full; mapped editorial ID1 and longform article-1 source inspected.",
+        "cases.json bitrix24-doors: queue, availability and previous-owner bypass confirmed; SMS and historical redistribution excluded.",
+        "Primary visited 2026-10-23: https://helpdesk.bitrix24.ru/open/26228062/ ; https://helpdesk.bitrix24.ru/open/25115040/ ; role docs checked in pilot.",
+        "REWRITE: duplicate early responsibility/result sections and redundant source list removed; case, table, diagram, acceptance retained; current-order/new-request counterexample added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 286,
+      "slug": "nastroyka-bitrix24-s-chego-nachat",
+      "type": "post",
+      "baseline_hash": "783c258ff26b90adf315671d7c4f23175b96422f4ed9b21a8798d9513ccfa819",
+      "file": "nastroyka-bitrix24-s-chego-nachat.html",
+      "candidate_hash": "b23260ab47c5d1586e84b45408ac6d03f7f80033947257c86b9ee397dd18d654",
+      "visible_chars": 13289,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/142-nastroyka-bitrix24-s-chego-nachat.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Runtime body read in full; mapped source142 headings/source inspected.",
+        "Primary visited 2026-10-23: https://helpdesk.bitrix24.ru/open/23172742/ confirms two CRM modes; availability requires portal check.",
+        "cases.json bitrix24-doors: only confirmed queue, mail, website lead and document results used, SMS/historical limits retained.",
+        "REWRITE: duplicate early example/readiness summaries removed; detailed setup, tables, process, retry and training retained; scoped case and unknown-price handoff example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 305,
+      "slug": "kak-opisat-biznes-process",
+      "type": "post",
+      "baseline_hash": "114c0adb294cc7af58058a212cb855d4cfbaf1328dcecb82b59d0350633359e4",
+      "file": "kak-opisat-biznes-process.html",
+      "candidate_hash": "8d5e6cf7e5cb1e0fe61a79ea6142378ef5ca5c2c7c6b7dbbcb66dff41954e60a",
+      "visible_chars": 12757,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/161-kak-opisat-biznes-process.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime body read in full; source161 mapped through CONTENT_INVENTORY.csv.",
+        "Primary visited 2026-10-23: https://www.omg.org/spec/BPMN/2.0.2/ ; no unsupported notation details added.",
+        "cases.json crm-hr-requirements: prepared requirements only, READY FOR DECOMPOSITION status; implementation not claimed.",
+        "REWRITE: removed three duplicate early summaries; retained passport, step table, exception and acceptance matrices; added bounded real analysis deliverable and incomplete-handoff counterexample."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 364,
+      "slug": "sposob-integracii-sayta-s-crm",
+      "type": "post",
+      "baseline_hash": "d88b0e926ca86f46da40ed14827f807458539c6a1fa3cff4ac8d358bee8578b8",
+      "file": "sposob-integracii-sayta-s-crm.html",
+      "candidate_hash": "7b423046c9ddaee32bf9450bdb2c07c70b08fda19e1903a22df597b1f98d4960",
+      "visible_chars": 11529,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/182-sposob-integracii-sayta-s-crm.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime body read in full; source182 mapped through CONTENT_INVENTORY.csv.",
+        "Primary visited 2026-10-23: https://apidocs.bitrix24.ru/ ; API scope/authorization treated as concrete-method checks, no tariff/method guarantees.",
+        "cases.json matklass confirms control CRM records; no claim about a particular implementation method for that client.",
+        "REWRITE: removed repeated early pilot/readiness summaries and duplicate source list; retained comparison, secret-handling, failure and acceptance sections; added plugin-gap decision example."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 150,
+      "slug": "forma-otpravlena-no-zayavki-net",
+      "type": "post",
+      "baseline_hash": "674b05ba1396bd5468506856c7d9a9a05dc71f8dac1f592a5102b5f0fe707349",
+      "file": "forma-otpravlena-no-zayavki-net.html",
+      "candidate_hash": "e4bd30d48d97638b2d2c3c681d2a8e435f36db776fd50f18061b9cff3ea80f16",
+      "visible_chars": 11845,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=11",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-11.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Selected body150 read in full; editorial ID11 and longform article-11 mapped and inspected.",
+        "Primary visited 2026-10-23: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/200 ; https://developer.wordpress.org/reference/functions/wp_mail/ (true is not recipient-delivery proof).",
+        "cases.json matklass and antispam-24-sites: CRM-deal proof and handler-acceptance proof explicitly distinguished; 91 not claimed delivered mail.",
+        "REWRITE: early trace/request checklist duplication removed; retained layered evidence table, incident flow and negative tests; added comparison of real evidence boundaries and receiver-restoration example."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 370,
+      "slug": "yookassa-oplata-status-zakaza",
+      "type": "post",
+      "baseline_hash": "9fdab2faef32a9afe8803d478f676ecef8c91fe848ce57f97d9660f3a3cd579b",
+      "file": "yookassa-oplata-status-zakaza.html",
+      "candidate_hash": "2a9f80c2c7982a59304ebd048a05f04ec77104132bc5bb222a57467a9e0fdce5",
+      "visible_chars": 12630,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/188-yookassa-oplata-status-zakaza.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected body370 read in full; source188 mapped through inventory and inspected.",
+        "Primary visited 2026-10-23: https://yookassa.ru/developers/using-api/webhooks ; https://yookassa.ru/developers/using-api/interaction-format . Official HTTP200 confirmation and authenticity/object-state verification checked; no foreign-provider signature invented.",
+        "cases.json shumakova-yookassa confirms own applications DB, payment linkage, webhook plus server verification, owner notice; hypothetical failures not attributed to client.",
+        "REWRITE: four duplicate early diagnostic/acceptance summaries removed; preserved detailed state/URL/linkage/retry scenarios, table and process; added receipt-versus-application distinction and sourced case."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 394,
+      "slug": "proverka-odnovremennogo-bronirovaniya",
+      "type": "post",
+      "baseline_hash": "8293f41227d418cfe2e3ad6c14460201a3d9b6e0980b3313b7d3a0c359cd56b3",
+      "file": "proverka-odnovremennogo-bronirovaniya.html",
+      "candidate_hash": "a9913e26db04906fbc697c891087972c8d3eb38d25b431512ca7306fdb9de490",
+      "visible_chars": 12566,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/191-proverka-odnovremennogo-bronirovaniya.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime body394 read in full; source191 mapped; no client implementation inferred.",
+        "Primary visited 2026-10-23: https://www.postgresql.org/docs/current/ddl-constraints.html ; https://www.postgresql.org/docs/current/rangetypes.html (range exclusion example checked).",
+        "REWRITE: four early summaries duplicated detailed sections and were removed; table/process, resource lifecycle, partial-state and acceptance analysis retained.",
+        "Added explicitly hypothetical two-operation barrier protocol; no real load, booking or payment test performed."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 396,
+      "slug": "ii-pomoshchnik-po-baze-znaniy",
+      "type": "post",
+      "baseline_hash": "b080b4d72a03c4e084565a5b9a9c44658c05ba5b1f31738734ca1dd9bb0f40e2",
+      "file": "ii-pomoshchnik-po-baze-znaniy.html",
+      "candidate_hash": "da4708dd87cbf04463dde5193387c77fbafc05086fb20b59736d32ada22c7a9e",
+      "visible_chars": 12914,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/193-ii-pomoshchnik-po-baze-znaniy.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime body396 read in full; source193 mapped; conceptual source-only assistant, no API calls/prices used.",
+        "OpenAI Docs skill applied; official search and retrieval page fetched 2026-10-23: https://developers.openai.com/api/docs/guides/retrieval ; semantic search and attribute-filtering concepts verified.",
+        "REWRITE: duplicate early example/test summaries removed; source passports, source preparation, separation of retrieval/answer error, access and acceptance tables retained.",
+        "Added unsupported-citation counterexample; no claim of own completed RAG deployment or zero hallucinations."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 160,
+      "slug": "ocr-ili-analiz-izobrazheniya",
+      "type": "post",
+      "baseline_hash": "81deefe88708e55ca584fb0ce01b076d410d98c09bf1f3c2f9e1a183762f876f",
+      "file": "ocr-ili-analiz-izobrazheniya.html",
+      "candidate_hash": "5334543a4f55559e10d04c7d50400b7f39bb200aca8a097b9ea7d9a00d1f8652",
+      "visible_chars": 11516,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=21",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-21.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Runtime160 read in full; editorial ID21/longform article-21 source inspected.",
+        "cases.json glosscheck confirms OCR/files/AI analysis but does not name Tesseract; client-specific Tesseract attribution removed as NEEDS_FACTS resolved by narrower claim.",
+        "Primary visited 2026-10-23: https://tesseract-ocr.github.io/tessdoc/ImproveQuality.html ; image preparation/table limitations checked, no numerical accuracy guarantee.",
+        "REWRITE: duplicate risk/pilot intro removed; retained table-structure, field truth, cost and human-control sections; added date-role error example."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 401,
+      "slug": "lichnyy-kabinet-klienta-trebovaniya",
+      "type": "post",
+      "baseline_hash": "173a75e4c86313d6feeb967b9a89706d5a889fac99e54509c4bb25116a836189",
+      "file": "lichnyy-kabinet-klienta-trebovaniya.html",
+      "candidate_hash": "f7b74e1425d18acdb6df57d82b26bbe653f7f5447980ce65bf5c165e61252e07",
+      "visible_chars": 12433,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/198-lichnyy-kabinet-klienta-trebovaniya.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Runtime401 read in full; source198 mapped and inspected.",
+        "Primary visited 2026-10-23: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html ; per-request object permission and static-resource authorization checked.",
+        "cases.json postavki26: own supplier product publication/catalog only; example B2B approver roles not attributed to this project.",
+        "REWRITE: early repeated example/acceptance summary removed; full role/data/receipt/version workflow and matrices retained; external-status section moved before handover, case boundaries added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 403,
+      "slug": "predproektnoe-obsledovanie-avtomatizatsii",
+      "type": "post",
+      "baseline_hash": "88637efea21ecaa197f57793803f04dc770bd4ca97f6f362743ea6adf1b350ac",
+      "file": "predproektnoe-obsledovanie-avtomatizatsii.html",
+      "candidate_hash": "7bf717cfee41a6b42dd05e35083f0f4cd7804f68530d5503057b6de31e5cbbce",
+      "visible_chars": 12990,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/200-predproektnoe-obsledovanie-avtomatizatsii.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime403 read in full; source200 mapped; source jargon/SEO-filler flags reviewed in context.",
+        "Primary visited 2026-10-23: https://www.iiba.org/knowledgehub/the-business-analysis-standard/2-understanding-business-analysis/2-2-a-model-for-effective-analysis-baccm/ ; need/context/value relation checked, no claimed certification.",
+        "cases.json crm-hr-requirements: completed requirements only; downstream software implementation not asserted.",
+        "REWRITE: duplicate early result/example and final acceptance summary removed; artifacts heading clarified, sponsor term narrowed; detailed evidence/dependency process retained and case/contra-example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 263,
+      "slug": "sitemap-wordpress-proverka",
+      "type": "post",
+      "baseline_hash": "29d1c3e5426f537da5f9ba667177982aaaa8503113a713425c75851b28c8f264",
+      "file": "sitemap-wordpress-proverka.html",
+      "candidate_hash": "c67362cfad206c1747b024cfe496abb5dea32e7f8c7018268e669fc901e42361",
+      "visible_chars": 11690,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/103-sitemap-wordpress-proverka.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime263 read in full; source103 mapped.",
+        "Primary visited 2026-10-23: https://developer.wordpress.org/reference/classes/wp_sitemaps/ ; core rewrite/index/provider and enablement source inspected. Google sitemap build doc verified in pilot.",
+        "cases.json anfilada-design: sitemap/robots/public HTML technical checks confirmed; no invented generator replacement or SEO-traffic metric.",
+        "REWRITE: duplicate early multi-map/new-post-type summaries removed; detailed generator diagnosis, lifecycle and external-visibility limits retained; sourced case and editor-driven paired publication test added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 171,
+      "slug": "odin-obekt-odin-list-a4",
+      "type": "post",
+      "baseline_hash": "e42856837b660237580e11f106f915fa91fb64cf82a27fab9476831044a92b48",
+      "file": "odin-obekt-odin-list-a4.html",
+      "candidate_hash": "0d7c5afc267c090ac2a48e3340b26c9c2fc4fe52355c6302a48a07c4840fe1c5",
+      "visible_chars": 10680,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=31",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-31.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime171 read in full; editorial ID31/longform article-31 source inspected.",
+        "cases.json libertygas checked: A4 one/two/three-object checks, long description, photo positioning, offline HTML and repeat export confirmed; template-version archive not claimed implemented.",
+        "Primary visited 2026-10-23: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Printing ; print media and page rules checked.",
+        "REWRITE: early length/print-test summaries removed; complete overflow, packet and acceptance analysis retained; explicit verified-case-versus-new-requirement boundary added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 282,
+      "slug": "kak-proverit-vosstanovlenie-wordpress",
+      "type": "post",
+      "baseline_hash": "8051e4e28795cd6d44d83ad82116655a5c03a21655970ed8982b69a98350ad04",
+      "file": "kak-proverit-vosstanovlenie-wordpress.html",
+      "candidate_hash": "5c9e950bbc20ad9f32fa54d3a189bb02b2e094f80a163f91836a6537724d0747",
+      "visible_chars": 12808,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/122-kak-proverit-vosstanovlenie-wordpress.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime282 read in full; source122 mapped and inspected.",
+        "Primary WordPress backup/database docs checked in pilot; https://developer.wordpress.org/cli/commands/search-replace/ visited 2026-10-23 for serialized data and dry-run properties.",
+        "No public WordPress restore case invented; all added recovery scenarios explicitly hypothetical, no actual copies/imports/cleanup run.",
+        "REWRITE: repeated goal/example prelude removed; isolation, external-source, unwanted-notification, role/time and cleanup sections retained; partial-proof and structured-URL-change reasoning added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 287,
+      "slug": "bitrix24-oblako-ili-korobka",
+      "type": "post",
+      "baseline_hash": "933e484b1c05e8cef810b0f2347b8849a92f8b06168bd7c7b641755b74733c72",
+      "file": "bitrix24-oblako-ili-korobka.html",
+      "candidate_hash": "957150028adefe62d8ce5157567fec020d879767d20a934c115fc063958881db",
+      "visible_chars": 12038,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/143-bitrix24-oblako-ili-korobka.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime287 read in full; source143 mapped.",
+        "Primary visited 2026-10-23: https://helpdesk.bitrix24.ru/open/23155430/ confirms cloud/vendor hosting and box/server modification distinction. No current prices, user limits or license-period promises copied.",
+        "REWRITE: three overlapping early decision/example summaries removed; detailed deployment duties, cost-scope, evidence, access and transition tables retained; unequal-scope estimate counterexample added.",
+        "No client deployment version inferred from doors/other cases; example remains methodological."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 344,
+      "slug": "as-is-to-be-biznes-process",
+      "type": "post",
+      "baseline_hash": "5ff1fd2113f9f86843ce2b3376a8040679e098f03c21d374e450b9dbaf78acbb",
+      "file": "as-is-to-be-biznes-process.html",
+      "candidate_hash": "7717e7ff9fe374bbf8f4c94b329f6f0a1f6bdaf5e1ef7ab042b8dd827ce802cd",
+      "visible_chars": 12932,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/162-as-is-to-be-biznes-process.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime344 read in full; source162 mapped.",
+        "Primary IIBA BACCM page visited and need/context/solution relation checked 2026-10-23; AS-IS/TO-BE workflow is author's methodology.",
+        "cases.json crm-hr-requirements: current gap/scope/requirements and ambiguity handling only; no claim that future integration was implemented.",
+        "REWRITE: duplicate early comparison/test summaries removed, artifact jargon reduced; detailed evidence distinction, transition and metrics retained; real requirements boundary and measurement-start counterexample added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 182,
+      "slug": "dvoinoe-bronirovanie-resursa",
+      "type": "post",
+      "baseline_hash": "bdf81e85b10d59bae41fa5a60a2159408d5e69fc6c9fd918fdb6750fde41b5bd",
+      "file": "dvoinoe-bronirovanie-resursa.html",
+      "candidate_hash": "a144a9d8d6a0a9164232f48cf2ddf8d7823e58001e40b1d3383e69e25b2fab56",
+      "visible_chars": 13404,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=41",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-41.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "Runtime182 read in full; editorial ID41/longform article-41 mapped.",
+        "Primary visited 2026-10-23: https://www.postgresql.org/docs/current/transaction-iso.html ; no universal isolation-level guarantee claimed.",
+        "NEEDS_FACTS narrowed: own calendar-prototype implementation claim not established by selected public cases, replaced with methodological requirement; no client inferred.",
+        "REWRITE: duplicate early interval/acceptance summary removed; interval tables, buffers, move rollback, stale edit and operation identity retained; provisional-customer-promise example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 365,
+      "slug": "webhook-kak-proverit-dostavku",
+      "type": "post",
+      "baseline_hash": "40dc3d8fd58af87d50a99635da169d6987e09359e9042a7b734a612721e0584d",
+      "file": "webhook-kak-proverit-dostavku.html",
+      "candidate_hash": "39e89b766e5bec1e0e51736135647e780a20ea15ede39891cd6c15c0d5f403d3",
+      "visible_chars": 11258,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/183-webhook-kak-proverit-dostavku.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Runtime365 read in full; source183 mapped.",
+        "Primary ЮKassa incoming notification page visited 2026-10-23; authenticating method/confirmation/retry contract not generalized to every provider.",
+        "cases.json shumakova-yookassa confirms webhook+server check+application state; queue/log architecture not inferred.",
+        "REWRITE: overlapping early delivery/retry/receipt summaries removed; detailed receipt loss, per-object state, trust and acceptance retained; ambiguous journal-cleanup wording corrected and case architecture boundary added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 392,
+      "slug": "polya-checkout-woocommerce",
+      "type": "post",
+      "baseline_hash": "a91f3ad5547eacc1c8a753857c4431d79f5ffd7079320c4539ab2efe146f3c64",
+      "file": "polya-checkout-woocommerce.html",
+      "candidate_hash": "0d67e73614880c3468fd2214573bc98131ac301bda6a8c0c60783e61fc83422e",
+      "visible_chars": 12338,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/189-polya-checkout-woocommerce.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime392 read in full; source189 mapped and inspected.",
+        "Primary WooCommerce block extensibility and classic checkout actions/filters pages visited 2026-10-23; no universal hook/snippet claimed for Checkout Blocks.",
+        "cases.json real-flacon confirms reduced fields, phone validation and protected server-side address suggestions; no same schema asserted for all stores.",
+        "REWRITE: early duplicated server/hidden-field/acceptance summaries removed; detailed dynamic delivery, product/customer, validation and test sections retained; sourced case boundaries and mixed-cart roundtrip example added."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 395,
+      "slug": "chasovye-poyasa-onlayn-zapis",
+      "type": "post",
+      "baseline_hash": "246367f4a5e23741cb1cce4f59e109a3a0f7aed2f3f3802aace3a2e47ffd5793",
+      "file": "chasovye-poyasa-onlayn-zapis.html",
+      "candidate_hash": "4e08440e911f81085b18b25f457d1f9d235cc7af49dc4cc9f958dc0a67379b91",
+      "visible_chars": 11681,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/search-content/articles/192-chasovye-poyasa-onlayn-zapis.md",
+        "wordpress/search-content/manifest.json"
+      ],
+      "evidence": [
+        "Selected runtime395 read in full; source192 mapped and inspected.",
+        "Primary MDN Intl.DateTimeFormat and Temporal.ZonedDateTime pages visited 2026-10-23; explicit timeZone formatting, gaps/ambiguity and changing zone rules checked. Temporal browser availability not promised.",
+        "REWRITE: three early summaries duplicated later workflow and acceptance; retained model tables, recurrence, ambiguous-hour policy and diagnosis; concrete UTC-to-next-date example added.",
+        "No client/timezone implementation inferred; date arithmetic is hypothetical fixed-offset example, no live booking or notification sent."
+      ],
+      "action": "REWRITE"
+    }
+  ]
+}
