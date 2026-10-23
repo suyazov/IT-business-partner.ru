@@ -80,8 +80,22 @@ function sy3_related(int $id): void {
     if (!$ids) return;
     $items = get_posts(['post__in' => $ids, 'post_type' => ['sy3_service', 'sy3_case', 'post'], 'orderby' => 'post__in', 'post_status' => 'publish', 'posts_per_page' => 3]);
     if (!$items) return;
-    echo '<section class="related-section wrap"><p class="eyebrow">Продолжить разбор</p><h2>По теме</h2><div class="card-grid">';
-    foreach ($items as $item) if (function_exists('sy3_post_card')) sy3_post_card($item);
+    if (sy3_is_personal()) {
+        echo '<section class="related-section wrap"><p class="eyebrow">Продолжить разбор</p><h2>По теме</h2><div class="card-grid">';
+        foreach ($items as $item) if (function_exists('sy3_post_card')) sy3_post_card($item);
+        echo '</div></section>';
+        return;
+    }
+    echo '<section class="related-section wrap" aria-labelledby="related-heading"><h2 id="related-heading">По теме</h2><div class="related-grid">';
+    foreach ($items as $item) {
+        $kind = ['sy3_service' => 'Услуга', 'sy3_case' => 'Кейс', 'post' => 'Статья'][$item->post_type] ?? 'Материал';
+        $title_id = 'related-title-' . $item->ID;
+        echo '<a class="related-card" href="' . esc_url(get_permalink($item)) . '" aria-labelledby="' . esc_attr($title_id) . '">';
+        echo '<span class="related-kind">' . esc_html($kind) . '</span>';
+        echo '<h3 id="' . esc_attr($title_id) . '">' . esc_html(get_the_title($item)) . '</h3>';
+        echo '<p class="related-summary">' . esc_html(get_the_excerpt($item)) . '</p>';
+        echo '<span class="related-action">' . ($item->post_type === 'sy3_case' ? 'Читать кейс' : 'Подробнее') . '</span></a>';
+    }
     echo '</div></section>';
 }
 
