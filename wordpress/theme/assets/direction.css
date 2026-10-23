@@ -85,8 +85,11 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
 .brand-sy3 .hero-editorial .wp-block-button__link{background:var(--ink);color:#fff;border-color:var(--ink)}
 .brand-sy3 .hero-editorial .is-style-outline .wp-block-button__link{background:transparent;color:var(--ink);border-color:#9ea69a;padding-inline:26px}
 .brand-sy3 .hero-editorial .hero-note{max-width:580px;font-size:13px;color:var(--muted);line-height:1.6;letter-spacing:0;margin:0}
-.brand-sy3 .hero-editorial .trust-strip{margin:0;border-color:var(--line);grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding-block:25px 28px;color:var(--muted);font-size:13px}
-.brand-sy3 .hero-editorial .trust-strip strong{color:var(--ink);font-size:16px;font-weight:500}
+.brand-sy3 .hero-editorial .trust-strip{margin:0;border-color:var(--line);grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 0;padding-block:25px 28px;color:var(--muted);font-size:13px}
+.brand-sy3 .hero-editorial .trust-strip>p{min-width:0;margin:0;padding-inline:20px;text-align:center;text-wrap:balance;line-height:1.6}
+.brand-sy3 .hero-editorial .trust-strip>p+p{border-left:1px solid var(--line)}
+.brand-sy3 .hero-editorial .trust-strip strong{display:block;margin-bottom:6px;color:var(--ink);font-size:16px;font-weight:500;line-height:1.35}
+.brand-sy3 .hero-editorial .trust-strip strong+br{display:none}
 .brand-sy3 .work-section{background:#eef0e9;border-radius:0;padding-top:92px}
 .brand-sy3 .cases-grid{gap:64px 32px;align-items:start}
 .brand-sy3 .archive-grid>.sy3_case .card-art{aspect-ratio:4/3;flex-shrink:0;background:#eae8e3}
@@ -167,7 +170,7 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
 .brand-sy3 .footer-requisites dt{color:#b3bba9}
 .brand-sy3 .footer-requisites dd{margin:0;overflow-wrap:anywhere}
 .brand-sy3 .footer-sy3 .footer-bottom{padding-block:20px;font-size:14px;line-height:1.5;border-color:#3d4539;gap:12px;color:#b3bba9}
-@media(max-width:1100px){.brand-sy3 .footer-messengers{grid-template-columns:1fr}}
+@media(max-width:1100px){.brand-sy3 .footer-messengers{grid-template-columns:1fr}.brand-sy3 .hero-editorial .trust-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-sy3 .hero-editorial .trust-strip>p:nth-child(odd){border-left:0}}
 @media(max-width:760px){.brand-sy3 .footer-main,.brand-sy3 .footer-legal{grid-template-columns:1fr;gap:24px}.brand-sy3 .footer-sy3{padding-top:32px}.brand-sy3 .footer-contact h2{font-size:27px}.brand-sy3 .footer-services{gap:12px 20px;padding-block:24px}.brand-sy3 .footer-requisites dl{grid-template-columns:1fr;gap:4px}.brand-sy3 .footer-requisites dd{margin-bottom:12px}}
 @media(min-width:1600px){.brand-sy3 .hero-editorial{padding-top:70px}.brand-sy3 .hero-editorial h1{margin-bottom:65px}}
 @media(max-width:1150px){
@@ -206,7 +209,7 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
  .brand-sy3 .hero-editorial .portrait-role br{display:none}
  .brand-sy3 .hero-editorial .portrait-link{font-size:13px}
  .brand-sy3 .hero-editorial .hero-intro{font-size:20px;max-width:650px}
- .brand-sy3 .hero-editorial .trust-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+ .brand-sy3 .hero-editorial .trust-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 0}
  .brand-sy3 .section{padding-block:76px}
  .brand-sy3 .section-heading{align-items:start;gap:25px;flex-direction:column;margin-bottom:36px}
  .brand-sy3 .curated-cases>.entry-card:nth-child(even){padding-top:55px}
@@ -238,8 +241,9 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
  .brand-sy3 .hero-bottom{gap:30px!important;padding-bottom:30px}
  .brand-sy3 .hero-editorial .hero-person{gap:16px}
  .brand-sy3 .hero-editorial .portrait-role{font-size:13px;line-height:1.55}
- .brand-sy3 .hero-editorial .trust-strip{font-size:12px;padding-block:24px;gap:20px}
- .brand-sy3 .hero-editorial .trust-strip strong{font-size:14px}
+ .brand-sy3 .hero-editorial .trust-strip{font-size:12px;padding-block:24px;gap:20px 0}
+ .brand-sy3 .hero-editorial .trust-strip>p{padding-inline:12px}
+ .brand-sy3 .hero-editorial .trust-strip strong{font-size:14px;min-height:2.7em;display:flex;align-items:center;justify-content:center}
  .brand-sy3 .section{padding-block:64px}
  .brand-sy3 h2,.brand-sy3 .section-heading h2,.brand-sy3 .author-grid h2{font-size:39px;line-height:1.1;letter-spacing:-.06em}
  .brand-sy3 .eyebrow{font-size:11px;margin-bottom:22px}
