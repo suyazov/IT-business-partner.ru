@@ -97,7 +97,7 @@ try {
     $upload = wp_upload_bits(basename($cover['file']), null, file_get_contents($source));
     if ($upload['error']) throw new RuntimeException('Cover upload failed.');
     $receipt['uploaded_file'] = $upload['file']; $save();
-    $attachment = wp_insert_attachment(['post_mime_type' => 'image/webp', 'post_title' => $cover['alt'], 'post_excerpt' => $cover['caption'], 'post_status' => 'inherit', 'post_author' => (int) $record['post']['post_author']], $upload['file'], 574, true);
+    $attachment = wp_insert_attachment(['post_mime_type' => 'image/webp', 'post_name' => 'hiring-dashboard-overview', 'post_title' => $cover['alt'], 'post_excerpt' => $cover['caption'], 'post_status' => 'inherit', 'post_author' => (int) $record['post']['post_author']], $upload['file'], 574, true);
     if (is_wp_error($attachment)) throw new RuntimeException('Attachment creation failed.');
     $receipt['attachment'] = $attachment; $save();
     add_filter('intermediate_image_sizes_advanced', '__return_empty_array');
