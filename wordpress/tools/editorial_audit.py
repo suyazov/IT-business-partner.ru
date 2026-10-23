@@ -401,7 +401,8 @@ def main():
                 raise ValueError("Missing/mismatched runtime cover capture: " + str(r["ID"]))
             alt_row = make_row(r, "cover_alt", cover["alt"], src, "RUNTIME_ATTACHMENT_ID_VERIFIED",
                                "Captured attachment #" + str(cover["id"]) + "; actual alt/caption/URL read-only captured; image suitability not visually reviewed")
-            alt_row["current_phrase"] = cover["alt"][:180]
+            if "PRIVACY_CRITICAL" not in alt_row["issues"]:
+                alt_row["current_phrase"] = cover["alt"][:180]
             inventory.append(alt_row)
         ctas = [label for href, label in visible.anchors if ("t.me/" in href or "max.ru/" in href or href.startswith("mailto:") or "button" in label.lower())]
         if ctas:
