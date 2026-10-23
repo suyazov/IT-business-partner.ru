@@ -22,7 +22,7 @@ foreach($services as $s){
     foreach($s['case_slugs'] as $slug){$case=get_page_by_path($slug,OBJECT,'sy3_case');if(!$case||$case->post_status!=='publish')WP_CLI::error('Missing approved case: '.$slug);$ids[]=$case->ID;$links[]='<a href="'.esc_url(get_permalink($case)).'">'.esc_html(get_the_title($case)).'</a>';}
     if($links)$body.=sy3_h('Практика по теме').sy3_list($links);
     $body.=sy3_h('Частые вопросы');foreach($s['faqs'] as [$q,$a])$body.=sy3_faq($q,$a);
-    $body.=sy3_buttons([['Обсудить задачу с Артёмом','https://t.me/moi_imperator']]);
+    $body.=sy3_buttons([['Обсудить проект','https://t.me/sy3_support_bot?start=site_sy3']]);
     $bodies[$s['slug']]=$body;$related[$s['slug']]=$ids;
 }
 $new_home=sy3_home_content();
