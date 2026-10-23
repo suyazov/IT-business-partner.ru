@@ -85,11 +85,14 @@ function sy3_post_card(WP_Post $item): void {
     $topic = get_post_meta($item->ID, '_sy3_label', true) ?: $kind;
     $art = get_post_meta($item->ID, '_sy3_art', true);
     $safe_art = in_array($art, ['crm', 'integration', 'ai', 'antispam', 'matklass'], true) ? $art : '';
+    $article = !sy3_personal() && $item->post_type === 'post';
     ?>
     <article class="entry-card <?php echo esc_attr($item->post_type); ?>">
+        <?php if ($article): ?><div class="card-media"><?php sy3_article_tags($item->ID); ?><?php endif; ?>
         <?php if (has_post_thumbnail($item)): ?><a class="card-art portfolio-cover" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo get_the_post_thumbnail($item, 'large', ['alt' => '', 'loading' => 'lazy']); ?></a>
         <?php elseif ($safe_art): ?><a class="card-art art-<?php echo esc_attr($safe_art); ?>" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><img loading="lazy" width="640" height="360" src="<?php echo esc_url(get_theme_file_uri('assets/' . $safe_art . '.svg')); ?>" alt=""></a><?php endif; ?>
-        <div class="card-copy"><p class="eyebrow"><?php echo esc_html($topic); ?></p>
+        <?php if ($article): ?></div><?php endif; ?>
+        <div class="card-copy"><?php if (!$article): ?><p class="eyebrow"><?php echo esc_html($topic); ?></p><?php endif; ?>
         <h3><a href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo esc_html(get_the_title($item)); ?></a></h3>
         <p><?php echo esc_html(get_the_excerpt($item)); ?></p>
         <?php $proof = get_post_meta($item->ID, '_sy3_proof', true); if (is_array($proof) && $proof): ?><div class="case-proof"><?php foreach ($proof as $fact): ?><span><?php echo esc_html($fact); ?></span><?php endforeach; ?></div><?php endif; ?>
@@ -103,5 +106,12 @@ add_filter('excerpt_more', fn() => '…');
 
 add_filter('document_title_parts', function ($parts) {
     if (is_front_page()) return ['title' => sy3_personal() ? 'Артём Суязов — IT-бизнес-партнёр' : 'Создание сайтов, веб-сервисов и автоматизация бизнеса — Сутри'];
+    if (!sy3_personal() && is_home()) {
+        $topic = sy3_journal_topic(get_query_var('journal_topic'));
+        $parts['title'] = $topic === 'all'
+            ? 'Автоматизация бизнеса, CRM, сайты и ИИ — журнал Сутри'
+            : sy3_journal_topics()[$topic]['label'] . ' — статьи об автоматизации бизнеса | Сутри';
+        unset($parts['site'], $parts['tagline']);
+    }
     return $parts;
 });
