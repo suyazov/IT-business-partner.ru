@@ -37,6 +37,12 @@ function sy3_shortcode(string $value): string { return sy3_b('shortcode', $value
 function sy3_faq(string $question, string $answer): string {
     return sy3_b('details', '<details class="wp-block-details"><summary>' . esc_html($question) . '</summary>' . sy3_p(wp_kses_post($answer)) . '</details>');
 }
+function sy3_table(array $headers, array $rows): string {
+    $head = '<tr>' . implode('', array_map(fn($cell) => '<th>' . esc_html($cell) . '</th>', $headers)) . '</tr>';
+    $body = '';
+    foreach ($rows as $row) $body .= '<tr>' . implode('', array_map(fn($cell) => '<td>' . esc_html($cell) . '</td>', $row)) . '</tr>';
+    return sy3_b('table', '<figure class="wp-block-table"><table><thead>' . $head . '</thead><tbody>' . $body . '</tbody></table></figure>', ['hasFixedLayout' => false]);
+}
 function sy3_sections(array $sections): string {
     $html = '';
     foreach ($sections as $s) {
@@ -44,7 +50,9 @@ function sy3_sections(array $sections): string {
         if (!empty($s['image'])) $html .= sy3_image(basename($s['image']), $s['image_alt'] ?? '', '', $s['image_caption'] ?? '');
         foreach ($s['paragraphs'] ?? [] as $p) $html .= sy3_p(wp_kses_post($p));
         if (!empty($s['items'])) $html .= sy3_list($s['items'], !empty($s['ordered']));
+        if (!empty($s['table'])) $html .= sy3_table($s['table']['headers'], $s['table']['rows']);
         if (!empty($s['callout'])) $html .= sy3_g(sy3_p(wp_kses_post($s['callout'])), 'callout');
+        if (!empty($s['buttons'])) $html .= sy3_buttons($s['buttons']);
     }
     return $html;
 }
