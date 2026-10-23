@@ -1,0 +1,25 @@
+{
+  "count": 49,
+  "types": {
+    "page": 6,
+    "sy3_service": 16,
+    "sy3_case": 27
+  },
+  "changed": 44,
+  "kept": 5,
+  "fields_hash_algorithm": "SHA256 UTF8 json.dumps(mapping, ensure_ascii=False, separators=(comma,colon), sort_keys=True)",
+  "body_changed": false,
+  "runtime_changed": false,
+  "approval_created": false,
+  "reader_review": "NOT_RUN; parent owns independent review",
+  "narrow_reopen": {
+    "id": 46,
+    "fields": [
+      "post_excerpt",
+      "_sy3_description"
+    ],
+    "reason": "Independent reviewer requested removal of ambiguous memory-conflict wording.",
+    "other48_rows_canonical_sha256": "3b71ea59247c57aba08d19c101748b5a15149d710aa4b068b47146741bbb864e",
+    "other48_rows_unchanged": true
+  }
+}
