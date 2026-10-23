@@ -96,6 +96,29 @@ function sy3_main_copy(string $content): string {
 }
 add_filter('the_content', 'sy3_main_copy', 19);
 
+function sy3_version_case_illustrations(string $content): string {
+    if (sy3_personal() || is_admin() || is_feed() || wp_doing_ajax() || (defined('REST_REQUEST') && REST_REQUEST)) return $content;
+    if (!str_contains($content, 'hiring-funnel.svg') && !str_contains($content, 'hr-requirements.svg')) return $content;
+    $owned = [get_theme_file_uri('assets/hiring-funnel.svg'), get_theme_file_uri('assets/hr-requirements.svg')];
+    $html = new WP_HTML_Tag_Processor($content);
+    while ($html->next_tag('IMG')) {
+        $src = $html->get_attribute('src');
+        if (!is_string($src) || !in_array(remove_query_arg('ver', $src), $owned, true)) continue;
+        $html->set_attribute('src', add_query_arg('ver', wp_get_theme()->get('Version'), $src));
+    }
+    return $html->get_updated_html();
+}
+add_filter('render_block_core/image', 'sy3_version_case_illustrations');
+
+function sy3_cover_caption(int $attachment_id): string {
+    $caption = get_the_excerpt($attachment_id);
+    if (!sy3_personal() && in_array(trim(wp_strip_all_tags($caption)), [
+        'Редакционная иллюстрация проекта.',
+        'Редакционная иллюстрация Сутри.',
+    ], true)) return '';
+    return $caption;
+}
+
 function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';
     $topic = get_post_meta($item->ID, '_sy3_label', true) ?: $kind;
@@ -106,7 +129,7 @@ function sy3_post_card(WP_Post $item): void {
     <article class="entry-card <?php echo esc_attr($item->post_type); ?>">
         <?php if ($article): ?><div class="card-media"><?php sy3_article_tags($item->ID); ?><?php endif; ?>
         <?php if (has_post_thumbnail($item)): ?><a class="card-art portfolio-cover" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo get_the_post_thumbnail($item, 'large', ['alt' => '', 'loading' => 'lazy']); ?></a>
-        <?php elseif ($safe_art): ?><a class="card-art art-<?php echo esc_attr($safe_art); ?>" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><img loading="lazy" width="640" height="360" src="<?php echo esc_url(get_theme_file_uri('assets/' . $safe_art . '.svg')); ?>" alt=""></a><?php endif; ?>
+        <?php elseif ($safe_art): ?><a class="card-art art-<?php echo esc_attr($safe_art); ?>" tabindex="-1" aria-hidden="true" href="<?php echo esc_url(get_permalink($item)); ?>"><img loading="lazy" width="640" height="360" src="<?php echo esc_url(add_query_arg('ver', wp_get_theme()->get('Version'), get_theme_file_uri('assets/' . $safe_art . '.svg'))); ?>" alt=""></a><?php endif; ?>
         <?php if ($article): ?></div><?php endif; ?>
         <div class="card-copy"><?php if (!$article): ?><p class="eyebrow"><?php echo esc_html($topic); ?></p><?php endif; ?>
         <h3><a href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo esc_html(get_the_title($item)); ?></a></h3>

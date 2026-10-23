@@ -24,7 +24,7 @@ get_header();
         <?php endif; ?>
     </header>
     <div class="article-layout wrap">
-        <article class="article-body"><?php if ($kind === 'post' && !sy3_personal()) sy3_article_tags(get_the_ID()); ?><?php if (in_array($kind, ['sy3_case', 'post'], true) && has_post_thumbnail()): ?><figure class="case-cover"><?php the_post_thumbnail('large', ['loading' => 'eager']); ?><?php if ($caption = get_the_excerpt(get_post_thumbnail_id())): ?><figcaption><?php echo esc_html($caption); ?></figcaption><?php endif; ?></figure><?php endif; ?><?php the_content(); ?></article>
+        <article class="article-body"><?php if ($kind === 'post' && !sy3_personal()) sy3_article_tags(get_the_ID()); ?><?php if (in_array($kind, ['sy3_case', 'post'], true) && has_post_thumbnail()): ?><figure class="case-cover"><?php the_post_thumbnail('large', ['loading' => 'eager']); ?><?php if ($caption = sy3_cover_caption(get_post_thumbnail_id())): ?><figcaption><?php echo esc_html($caption); ?></figcaption><?php endif; ?></figure><?php endif; ?><?php the_content(); ?></article>
         <aside class="article-aside">
             <?php if (!sy3_personal()): ?><a class="aside-profile" href="<?php echo esc_url(home_url('/about/')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('assets/artem-suyazov.jpg')); ?>" alt="" width="64" height="64" loading="lazy"><span>Артём Суязов<small>IT-бизнес-партнёр</small></span></a><?php endif; ?>
             <p class="eyebrow">Есть похожая задача?</p>
