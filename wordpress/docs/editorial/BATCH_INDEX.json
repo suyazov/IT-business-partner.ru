@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "b20c6d5867852eb866dda9f6642436f53c9fe162",
+  "source_git_commit": "1badc80079bc21f2d953e4a0d1a0d2acde8a0bca",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 219,
+  "prepared_objects": 239,
   "prepared_by_type": {
     "page": 3,
-    "post": 173,
+    "post": 193,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -554,6 +554,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 143,
+      "type": "post",
+      "slug": "dogovor-iz-sdelki-crm",
+      "baseline_hash": "4ee2870d34aa6b6d8ddcac32fbba4b0de171db078a107c0b07b262b520b437b3",
+      "candidate_hash": "3ebfae119e507aa0f878372fbf165c7f6d7a8250d9698089654477b01efa781a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/dogovor-iz-sdelki-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11875,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 150,
       "type": "post",
       "slug": "forma-otpravlena-no-zayavki-net",
@@ -598,6 +610,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-07/kak-izmerit-rabotu-antispama.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
       "content_characters_declared": 12574,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 154,
+      "type": "post",
+      "slug": "povtornaya-otpravka-bez-dubley",
+      "baseline_hash": "aad92e891abbd4f65eed6d379887d2328df8ee74753a051a0fc1d19521429f43",
+      "candidate_hash": "fbf093496aca109bfb957b61e51481a220c7839491d93bc661d01f2c79c18b44",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/povtornaya-otpravka-bez-dubley.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11920,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -650,6 +674,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 165,
+      "type": "post",
+      "slug": "limity-ai-zaprosov",
+      "baseline_hash": "3abbab0911c338070dde4c1c3babfbabbd6e9aec0f48171393e0d788fdded02f",
+      "candidate_hash": "7935fb9f85341a1f56304dc267c97cbaa511b80da6ae706b5217326344b7f19b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/limity-ai-zaprosov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11365,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 171,
       "type": "post",
       "slug": "odin-obekt-odin-list-a4",
@@ -698,6 +734,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 175,
+      "type": "post",
+      "slug": "pustye-polya-v-dokumentah",
+      "baseline_hash": "ce00a2b7f61ff14f9fd40f8bcfb5b00c4a81c2af03a887ad363fac75e6a27062",
+      "candidate_hash": "b54d9989bf074d3619638a070aad56f9b7d8f39999d094fea02fa425d2b1be36",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/pustye-polya-v-dokumentah.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11845,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 182,
       "type": "post",
       "slug": "dvoinoe-bronirovanie-resursa",
@@ -742,6 +790,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-07/kalendar-vnutri-sdelki-crm.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
       "content_characters_declared": 13041,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 186,
+      "type": "post",
+      "slug": "dostup-k-kalendaryu-i-dannym-klienta",
+      "baseline_hash": "effd87d3c49ca0533e18c439c4a016f3a604d503086727f759b8d9d7721d9025",
+      "candidate_hash": "fc46e25eeab6c317f144b0091cf73726ad801df55cceb44bab912916ee1fb71a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/dostup-k-kalendaryu-i-dannym-klienta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 14029,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2570,6 +2630,90 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 493,
+      "type": "post",
+      "slug": "beget-wordpress-cloud-db-priemka",
+      "baseline_hash": "0ac1e32be1225670754bc09caa7f0a476948f0e357d26917b0a330c310299239",
+      "candidate_hash": "d2a5c22d7f4ef24e553a103d456a5fae276543a85e26626c7543cfb330bd987c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-wordpress-cloud-db-priemka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 13643,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 494,
+      "type": "post",
+      "slug": "beget-bitrix-cloud-db-integracii",
+      "baseline_hash": "779929e188c03c95f20c05018729b793f1551eba5ed16c2bf79f331d3245560d",
+      "candidate_hash": "fb468d070cd8a87aa7693c3ab6a1984a823baa1fb47a17cdc917e8a8c13d71c9",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-bitrix-cloud-db-integracii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 13928,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 495,
+      "type": "post",
+      "slug": "beget-mysql-private-network",
+      "baseline_hash": "7f255d682a5c7444336a7e41376c3449dc27f5337ee9c59cd6e4a60ad8c208bb",
+      "candidate_hash": "7a55047491294af0e05d78d2eb42b82853cbd809c21fec92a3ea4ef28e83aad0",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-mysql-private-network.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 13931,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 496,
+      "type": "post",
+      "slug": "beget-postgresql-analitika-vitrina",
+      "baseline_hash": "41eb48948d917d5ce6495470f22122953cfaec840c43d0155675293fb170f4bd",
+      "candidate_hash": "33964571acc6815a56c583177e1bfceb9823acc78e732351dc19ca270c0a91ef",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-postgresql-analitika-vitrina.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 10953,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 497,
+      "type": "post",
+      "slug": "beget-postgresql-roli-otchetov",
+      "baseline_hash": "f68d8ca665642543297f099d0af616534dd70408262dc9bdc2655ed58f29fa53",
+      "candidate_hash": "4b7eb1661c2cdc93cf515b2b9211df8d70909ae3a5cb74896193494f8f00433b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-postgresql-roli-otchetov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11086,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 498,
+      "type": "post",
+      "slug": "beget-postgresql-restore-pilot",
+      "baseline_hash": "9af98be35feb0069b3e61d35c2af297ad1f930d251e442696b7d0588bc30f18f",
+      "candidate_hash": "0aa297640ff7b498ec53aaabb9ec5a96a18606f6b14d6f8e3c8d3c4e92a3541b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-postgresql-restore-pilot.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11075,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 499,
+      "type": "post",
+      "slug": "beget-sql-join-dubli-dashbord",
+      "baseline_hash": "b8b7ae895ae12eb4632a67853b5846c1796755b1792d9db3f5e2b82daaf37611",
+      "candidate_hash": "2ed1cfdb5ff91b3c83b7237faf2fdb55c4a36e77987eca052a41385e34b207c4",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-sql-join-dubli-dashbord.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 10785,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 515,
       "type": "post",
       "slug": "beget-pereezd-proverka-do-dns",
@@ -2618,6 +2762,102 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 519,
+      "type": "post",
+      "slug": "beget-spf-neskolko-otpraviteley",
+      "baseline_hash": "0b2cb70ff29aab51642dfff725698d436549d026ffb054d6c4b1ed2a5a13a7c5",
+      "candidate_hash": "ba24d898e80d79dc6001ca3c1ecc7ca84030654db1b87ce83bc1e3c489a6bc72",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-spf-neskolko-otpraviteley.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11882,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 520,
+      "type": "post",
+      "slug": "beget-dkim-smena-pochty",
+      "baseline_hash": "fef870e1d0244b5a1c9ca001955cdf6a64ca0b6bd19b35c2653fd301e868468d",
+      "candidate_hash": "71ec4e9e8d66e6a0d309537ba261dd64e920c3385a7d3b5a90d1ebc132446656",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-dkim-smena-pochty.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 12057,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 521,
+      "type": "post",
+      "slug": "beget-dmarc-otchety-process",
+      "baseline_hash": "cbf308bf9e9cc9184a29948b087effc4faa1cfd6d89881d884378d6e35c9a33a",
+      "candidate_hash": "72d61b30c71eb4bf7c27102215fd14d1bb41748019de7c433d11de84d9710cd0",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-dmarc-otchety-process.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11997,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 522,
+      "type": "post",
+      "slug": "beget-pochta-pereadresaciya-obrashcheniy",
+      "baseline_hash": "dadc8d2d89f962bd28713d859deb3257521d21a57990b16db2b3a9601e94e847",
+      "candidate_hash": "94f9820cd260084ab6d14893f35fcc26cc363535625694c5dd2b68ebd7aed93b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-pochta-pereadresaciya-obrashcheniy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 12022,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 546,
+      "type": "post",
+      "slug": "beget-pochta-smena-sotrudnika",
+      "baseline_hash": "61330e57e24473c8bd9ff3e7415673f896850f08b795a17c55592abefc7877fb",
+      "candidate_hash": "23178246196fe8e735006777738a9e064889409ab0e18e5def1ce5eafa4b2361",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-pochta-smena-sotrudnika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 11914,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 547,
+      "type": "post",
+      "slug": "beget-imap-sinhronizaciya",
+      "baseline_hash": "4edbafd8365a709b670a77372f29b2702707b241f4ab700c7e064da2443acb5c",
+      "candidate_hash": "7c1aac5d6de99ad51756805a17f5bae9805a219fb52e269f8e76efc2185fef8e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-imap-sinhronizaciya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 12077,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 548,
+      "type": "post",
+      "slug": "beget-pochta-formy-nezavisimost",
+      "baseline_hash": "29c81215c2809f6e48a63f54b7f27c2d563eb779a3d6e58c27275bda9c489ef4",
+      "candidate_hash": "562daca1ab84d5a9771c4faa4265f78b9a90094a811e4c683195af766b067558",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-pochta-formy-nezavisimost.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 12576,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 549,
+      "type": "post",
+      "slug": "beget-cloud-mysql-kogda-vynos",
+      "baseline_hash": "b874bfee01fe33ac6025220e4f3028e7bac052e9943a4523026abb357b54555f",
+      "candidate_hash": "87893ecd5039c253bfbe2c980eee62adcbc0733dac19682df8801e9271eec4fa",
+      "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-cloud-mysql-kogda-vynos.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
+      "content_characters_declared": 12885,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 574,
       "type": "sy3_case",
       "slug": "hiring-funnel-dashboard",
@@ -2659,11 +2899,6 @@
       "slug": "journal"
     },
     {
-      "id": 143,
-      "type": "post",
-      "slug": "dogovor-iz-sdelki-crm"
-    },
-    {
       "id": 145,
       "type": "post",
       "slug": "prodazhi-i-servis-v-crm"
@@ -2687,11 +2922,6 @@
       "id": 149,
       "type": "post",
       "slug": "crm-kontrolnye-scenarii-kanalov"
-    },
-    {
-      "id": 154,
-      "type": "post",
-      "slug": "povtornaya-otpravka-bez-dubley"
     },
     {
       "id": 155,
@@ -2719,11 +2949,6 @@
       "slug": "integraciya-chtenie-ili-zapis"
     },
     {
-      "id": 165,
-      "type": "post",
-      "slug": "limity-ai-zaprosov"
-    },
-    {
       "id": 166,
       "type": "post",
       "slug": "golosovoe-soobshchenie-v-zadachu"
@@ -2749,11 +2974,6 @@
       "slug": "granicy-ai-pomoshchnika"
     },
     {
-      "id": 175,
-      "type": "post",
-      "slug": "pustye-polya-v-dokumentah"
-    },
-    {
       "id": 176,
       "type": "post",
       "slug": "dinamicheskie-polya-i-roli"
@@ -2777,11 +2997,6 @@
       "id": 180,
       "type": "post",
       "slug": "poshagovyy-konstruktor-dokumentov"
-    },
-    {
-      "id": 186,
-      "type": "post",
-      "slug": "dostup-k-kalendaryu-i-dannym-klienta"
     },
     {
       "id": 187,
@@ -2964,41 +3179,6 @@
       "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
     },
     {
-      "id": 493,
-      "type": "post",
-      "slug": "beget-wordpress-cloud-db-priemka"
-    },
-    {
-      "id": 494,
-      "type": "post",
-      "slug": "beget-bitrix-cloud-db-integracii"
-    },
-    {
-      "id": 495,
-      "type": "post",
-      "slug": "beget-mysql-private-network"
-    },
-    {
-      "id": 496,
-      "type": "post",
-      "slug": "beget-postgresql-analitika-vitrina"
-    },
-    {
-      "id": 497,
-      "type": "post",
-      "slug": "beget-postgresql-roli-otchetov"
-    },
-    {
-      "id": 498,
-      "type": "post",
-      "slug": "beget-postgresql-restore-pilot"
-    },
-    {
-      "id": 499,
-      "type": "post",
-      "slug": "beget-sql-join-dubli-dashbord"
-    },
-    {
       "id": 500,
       "type": "post",
       "slug": "beget-mysql-polzovateli-servisov"
@@ -3072,26 +3252,6 @@
       "id": 514,
       "type": "post",
       "slug": "beget-ekspluatacionnyy-pasport"
-    },
-    {
-      "id": 519,
-      "type": "post",
-      "slug": "beget-spf-neskolko-otpraviteley"
-    },
-    {
-      "id": 520,
-      "type": "post",
-      "slug": "beget-dkim-smena-pochty"
-    },
-    {
-      "id": 521,
-      "type": "post",
-      "slug": "beget-dmarc-otchety-process"
-    },
-    {
-      "id": 522,
-      "type": "post",
-      "slug": "beget-pochta-pereadresaciya-obrashcheniy"
     },
     {
       "id": 523,
@@ -3207,26 +3367,6 @@
       "id": 545,
       "type": "post",
       "slug": "beget-authelia-vnutrennie-instrumenty"
-    },
-    {
-      "id": 546,
-      "type": "post",
-      "slug": "beget-pochta-smena-sotrudnika"
-    },
-    {
-      "id": 547,
-      "type": "post",
-      "slug": "beget-imap-sinhronizaciya"
-    },
-    {
-      "id": 548,
-      "type": "post",
-      "slug": "beget-pochta-formy-nezavisimost"
-    },
-    {
-      "id": 549,
-      "type": "post",
-      "slug": "beget-cloud-mysql-kogda-vynos"
     },
     {
       "id": 550,

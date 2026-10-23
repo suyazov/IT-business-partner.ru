@@ -1,0 +1,163 @@
+[
+  {
+    "url": "https://beget.com/ru/kb/faq/cloud/nastrojka-otdachi-kartinok-iz-s3-dlya-bitriks",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/cloud/nastrojka-otdachi-kartinok-iz-s3-dlya-bitriks",
+    "title": "Настройка передачи изображений из S3 для Bitrix"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/cloud/perenos-dannyh-v-oblachnoe-hranilishche-s3-beget",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/cloud/perenos-dannyh-v-oblachnoe-hranilishche-s3-beget",
+    "title": "Перенос данных в облачное хранилище S3 Beget из другого хранилища S3"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-baketa-kak-diska-v-windows-rclone",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-baketa-kak-diska-v-windows-rclone",
+    "title": "Подключение бакета S3 как диска в Windows – rclone"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-s3-v-wordpress-i-nastrojka-hraneniya-izobrazhenij-v-nem",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/cloud/podklyuchenie-s3-v-wordpress-i-nastrojka-hraneniya-izobrazhenij-v-nem",
+    "title": "Подключение S3 в WordPress и настройка хранения изображений в нем"
+  },
+  {
+    "url": "https://beget.com/ru/kb/faq/cloud/rezervnoe-kopirovanie-wordpress-v-s3-nastrojka-sozdanie-i-vosstanovlenie",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/faq/cloud/rezervnoe-kopirovanie-wordpress-v-s3-nastrojka-sozdanie-i-vosstanovlenie",
+    "title": "Резервное копирование WordPress в S3: Настройка, создание и восстановление"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/n8n-shablony-i-scenarii-primineniya",
+    "title": "n8n – Шаблоны и сценарии применения"
+  },
+  {
+    "url": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/how-to/vps/podklyuchenie-cdn-wordpress",
+    "title": "CDN для WordPress подключение и настройка"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/cloud-server",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/cloud-server",
+    "title": "Облачные серверы MySQL – Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/crontab",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/crontab",
+    "title": "Настройка планировщика Cron – Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/mysql",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/mysql",
+    "title": "Управление базами данных MySQL – Beget"
+  },
+  {
+    "url": "https://beget.com/ru/kb/manual/obektnoe-hranilishche-s3-v-beget",
+    "status": 200,
+    "resolved": "https://beget.com/ru/kb/manual/obektnoe-hranilishche-s3-v-beget",
+    "title": "Объектное хранилище S3: Общая информация и подключение в Бегете"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+    "title": "Logging - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Multi_Tenant_Security_Cheat_Sheet.html",
+    "status": 200,
+    "resolved": "https://cheatsheetseries.owasp.org/cheatsheets/Multi_Tenant_Security_Cheat_Sheet.html",
+    "title": "Multi Tenant Security - OWASP Cheat Sheet Series"
+  },
+  {
+    "url": "https://dev.mysql.com/doc/refman/8.4/en/grant.html",
+    "error": "HTTP Error 403: Forbidden",
+    "browser_read_status": "WEB_EXTRACTOR_READ_SUCCEEDED; direct urllib returned 403"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching",
+    "status": 200,
+    "resolved": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching",
+    "title": "HTTP caching - HTTP | MDN"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
+    "status": 200,
+    "resolved": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
+    "title": "Cache-Control header - HTTP | MDN"
+  },
+  {
+    "url": "https://developer.wordpress.org/advanced-administration/upgrade/migrating/",
+    "status": 200,
+    "resolved": "https://developer.wordpress.org/advanced-administration/upgrade/migrating/",
+    "title": "Migrating WordPress – Advanced Administration Handbook | Developer.WordPress.org"
+  },
+  {
+    "url": "https://developer.wordpress.org/reference/functions/wp_enqueue_style/",
+    "status": 200,
+    "resolved": "https://developer.wordpress.org/reference/functions/wp_enqueue_style/",
+    "title": "wp_enqueue_style() – Function | Developer.WordPress.org"
+  },
+  {
+    "url": "https://developer.wordpress.org/reference/functions/wp_get_attachment_image/",
+    "status": 200,
+    "resolved": "https://developer.wordpress.org/reference/functions/wp_get_attachment_image/",
+    "title": "wp_get_attachment_image() – Function | Developer.WordPress.org"
+  },
+  {
+    "url": "https://docs.n8n.io/flow-logic/error-handling/",
+    "status": 200,
+    "resolved": "https://docs.n8n.io/build/flow-logic/handle-errors-gracefully",
+    "title": "Handle errors gracefully | Build | n8n Docs"
+  },
+  {
+    "url": "https://git-scm.com/docs/git-revert",
+    "status": 200,
+    "resolved": "https://git-scm.com/docs/git-revert",
+    "title": "Git - git-revert Documentation"
+  },
+  {
+    "url": "https://rclone.org/commands/rclone_check/",
+    "status": 200,
+    "resolved": "https://rclone.org/commands/rclone_check/",
+    "title": "rclone check"
+  },
+  {
+    "url": "https://rclone.org/commands/rclone_mount/",
+    "status": 200,
+    "resolved": "https://rclone.org/commands/rclone_mount/",
+    "title": "rclone mount"
+  },
+  {
+    "url": "https://wordpress.org/documentation/article/media-library-screen/",
+    "status": 200,
+    "resolved": "https://wordpress.org/documentation/article/media-library-screen/",
+    "title": "Media Library screen – Documentation – WordPress.org"
+  },
+  {
+    "url": "https://wordpress.org/documentation/article/wordpress-backups/",
+    "status": 200,
+    "resolved": "https://developer.wordpress.org/advanced-administration/security/backup/",
+    "title": "Backups – Advanced Administration Handbook | Developer.WordPress.org"
+  },
+  {
+    "url": "https://www.omg.org/spec/DMN/1.5/",
+    "status": 200,
+    "resolved": "https://www.omg.org/spec/DMN/1.5/",
+    "title": "About the Decision Model and Notation Specification Version 1.5"
+  },
+  {
+    "url": "https://www.postgresql.org/docs/current/explicit-locking.html",
+    "status": 200,
+    "resolved": "https://www.postgresql.org/docs/current/explicit-locking.html",
+    "title": "PostgreSQL: Documentation: 18: 13.3. Explicit Locking"
+  }
+]
