@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/blocks.php';
 function sy3_home_content(): string {
-    $contact = 'https://t.me/moi_imperator';
+    $contact = 'https://t.me/sy3_support_bot?start=site_sy3';
     $hero = sy3_p('СУТРИ / ЦИФРОВЫЕ РЕШЕНИЯ ДЛЯ БИЗНЕСА', 'eyebrow hero-kicker') .
         sy3_h('Сайты, сервисы<br>и автоматизация.<br><em>С фокусом на бизнес.</em>', 1) .
         sy3_cols([
@@ -48,7 +48,7 @@ function sy3_home_content(): string {
         sy3_faq('Кто будет работать над задачами по 1С и аналитике?', 'Подключаем профильных подрядчиков по 1С и специалистов по аналитике данных. Артём ведёт постановку задачи, согласование участников и проверку решения в общем процессе.'), 'faq-list');
     $cta = sy3_cols([
         sy3_p('Начнём с вашей задачи', 'eyebrow') . sy3_h('Есть задача?<br><em>Давайте разберёмся.</em>'),
-        sy3_p('Расскажите, что хотите запустить или улучшить. Обсудим, с чего начать, какой результат нужен и как его проверить.') . sy3_buttons([['Обсудить проект с Артёмом', $contact]]) . sy3_p('<a href="tel:+79064790552">+7 (906) 479-05-52</a>', 'contact-alternative')
+        sy3_p('Расскажите, что хотите запустить или улучшить. Обсудим, с чего начать, какой результат нужен и как его проверить.') . sy3_buttons([['Обсудить проект с Артёмом', $contact]]) . sy3_p('<a href="https://max.ru/id263514840335_1_bot?start=site_sy3">Написать в MAX</a>', 'contact-alternative')
     ], 'cta-panel');
     return sy3_g(sy3_g($hero, 'section-inner'), 'hero hero-redesign hero-editorial', 'section') . sy3_section($cases, 'work-section') . sy3_section($services, 'services-section') . sy3_section($process, 'section-dark') . sy3_section($author, 'author-section') . sy3_section($journal, 'journal-section') . sy3_section($faq) . sy3_section($cta, 'contact-section');
 }

@@ -69,7 +69,10 @@ function sy3_main_url(string $path = ''): string {
     return sy3_personal() ? rtrim(get_option('sy3_main_url', 'https://sy3.ru'), '/') . '/' . ltrim($path, '/') : home_url('/' . ltrim($path, '/'));
 }
 function sy3_label(): string { return sy3_personal() ? 'Артём Суязов' : 'сутри'; }
-function sy3_contact_url(): string { return sy3_personal() ? home_url('/contacts/') : (function_exists('sy3_leads_form') ? '#request-form' : 'https://t.me/moi_imperator'); }
+function sy3_contact_url(): string { return sy3_personal() ? home_url('/contacts/') : (function_exists('sy3_leads_form') ? '#request-form' : 'https://t.me/sy3_support_bot?start=site_sy3'); }
+
+// Keep editor-owned article bodies intact while routing public contact links to the inbox.
+add_filter('the_content', fn($content) => sy3_personal() ? $content : str_replace('https://t.me/moi_imperator', 'https://t.me/sy3_support_bot?start=site_sy3', $content), 19);
 
 function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';
