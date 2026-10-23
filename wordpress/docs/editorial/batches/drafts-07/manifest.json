@@ -254,8 +254,8 @@
       "type": "post",
       "baseline_hash": "870deca93f507c4d93f98bd501e986c8b42c4150826de1ea77293e77f34e228a",
       "file": "beget-ai-gateway-responses-404.html",
-      "candidate_hash": "058f9b8990e8cbe41c18332dd77cd9b8ae235c617e0ef02cbd2201a190786571",
-      "visible_chars": 12420,
+      "candidate_hash": "792c314dcefff67b04a79edd3d32b2daa295f18052054dbee4e328faa44d39e3",
+      "visible_chars": 12387,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -266,7 +266,8 @@
         "Полностью прочитан mappedBeget203 ивсеruntimeдополнения. Основной разбор уже последовательный и предметный; KEEP без добавления главы ради объёма.",
         "Begetai-gateway официально перепроверен23.10.2026:ResponsesAPIнеподдерживается,404можетотноситьсякмаршруту/модели/разрешениюключа;это неуниверсальныйдиагноз.",
         "Исходныйучебныйредакторневыданзаклиентскоевнедрение; сохраненытаблица/схема/источники иединственнаяпартнёрскаяссылка сраскрытием.",
-        "ИзменёнтолькоконтактныйCTAнаконкретныйпервыйшагипринятыеsupportbots; платныхвызовов/реальныхотправокнет."
+        "ИзменёнтолькоконтактныйCTAнаконкретныйпервыйшагипринятыеsupportbots; платныхвызовов/реальныхотправокнет.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "KEEP"
     },
@@ -300,8 +301,8 @@
       "type": "post",
       "baseline_hash": "08901dc02948d3b4e46d050f4e410ada786133bb22d68ac1c2afa9580573b7e6",
       "file": "ai-beget-byudzhet-pilota.html",
-      "candidate_hash": "92b2ff70aec3865574a90f44156141b8f83bd028c75bd083702afe5881383550",
-      "visible_chars": 12725,
+      "candidate_hash": "d1c4747374c0da3fa1ba9301164de688a0e9ac6e1602f6e17b384d5b5e30055f",
+      "visible_chars": 12721,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -312,7 +313,8 @@
         "Полностью прочитан mappedBeget204 иruntimeдополнения. KEEP:полныйпоследовательныйразборужеразделяетвызов/полезныйрезультат/проверку/эксплуатацию,безраннегодублирующегорезюме.",
         "Begetai-gatewaymanual иофициальнаястраницауслугиоткрыты23.10.2026:расходзависитотмоделиииспользования;текущиецены/бесплатность/фиктивнаяэкономиянедобавлялись.",
         "Сохранены исходнаятаблица/схема/sourceпанель ировнооднапартнёрскаяссылкаскороткимраскрытием.",
-        "ИзменёнтолькоконтактныйCTAнапервыйконкретныйшагисupportbots;финансовыйрезультатневыдуман,платныхвызововнет."
+        "ИзменёнтолькоконтактныйCTAнапервыйконкретныйшагисupportbots;финансовыйрезультатневыдуман,платныхвызововнет.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "KEEP"
     },
@@ -322,8 +324,8 @@
       "type": "post",
       "baseline_hash": "7851c35c16f943f19db0d61d85c6db03647cc524b0d55cc4b5a9329c247ab23b",
       "file": "beget-ai-gateway-kluch-server.html",
-      "candidate_hash": "5f3f27e9b6da871f3f7ace7e1e555595c6783b1a7753cc976251586263e33916",
-      "visible_chars": 12779,
+      "candidate_hash": "640cfeed8d57b794406560baf6860a79fe2bd8feb948cecbe08222a1fa511fe8",
+      "visible_chars": 12763,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -334,7 +336,8 @@
         "Полностью прочитан mappedBeget205 иruntimeдополнения. KEEP:основнойматериалпредметноразделяетвнешнийключ/правапользователя/хранение/замену/диагностику.",
         "BegetAIруководствопроверено23.10.2026,OWASPSecretsManagement первичныйисточник открыт; сервису не приписаны неизвестныеузкиеправапроектов.",
         "УпрощёнанглийскийзаголовокSharedhosting,конкретизированCTA;общиедублирующиеглавынедобавлялись.",
-        "Таблица/схема/sourceпанель/партнёрскаяссылкаскороткимраскрытиемсохранены;реальныеключи/пути/доступынечитались."
+        "Таблица/схема/sourceпанель/партнёрскаяссылкаскороткимраскрытиемсохранены;реальныеключи/пути/доступынечитались.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "KEEP"
     },
@@ -344,8 +347,8 @@
       "type": "post",
       "baseline_hash": "efcf271e147e81f5167bacc04924d8e7fc8360d268c436f064685fc27e7ef50a",
       "file": "beget-ai-gateway-test-modeli.html",
-      "candidate_hash": "852843eab888df138a7aac7b4fbee280bef48e2a31c47b5c2caa86dda0d36100",
-      "visible_chars": 12041,
+      "candidate_hash": "bd2124e9acd5c953b745214f73f1f70912b2e709fdf24e1dc0ac9bf2c2d946c1",
+      "visible_chars": 12033,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -356,7 +359,8 @@
         "Полностью прочитан mappedBeget206 иruntimeдополнения. KEEP:полнаяметодикасравненияужевключаетобычный/неполный/противоречивыйвход,совместимость,возврат.",
         "BegetAIофициальноеруководствопроверено23.10.2026:моделииподдерживаемыевозможностипроверяютсяпосценарию;текущийрейтинг/ценынедобавлены.",
         "Финальнаянеподтверждённаяформулировкауменьшенияслучайныхизмененийзамененапроверяемымсоставомрешения;CTAпервоголица.",
-        "Исходныетаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;платныхэкспериментовнет."
+        "Исходныетаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;платныхэкспериментовнет.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "KEEP"
     },
@@ -390,8 +394,8 @@
       "type": "post",
       "baseline_hash": "6da29e9c4a7e112dd87851ca591ebaa5b6d8cbef385fcbac4a5a867b1ad9ee18",
       "file": "beget-ai-gateway-ochered-zayavok.html",
-      "candidate_hash": "baa6c014fd75f626d4e0809725df6f0e18d77bb2e5ad7aa13b55a406fb8fb868",
-      "visible_chars": 12102,
+      "candidate_hash": "92c9f502df976a2ee927d30bccf82a68d67871b57296f5f30c6911b0d634aa46",
+      "visible_chars": 12091,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -402,7 +406,8 @@
         "Полностью прочитан mappedBeget207 иruntimeдополнения. KEEP:полныйразборужеразличаетзаявку/задание/попытку,частичноесостояние,старуюочередьиактуальность.",
         "BegetAIруководство иMicrosoftAzureRetry первичныеисточникипроверены23.10.2026;идемпотентность/очередьнеприписаныпровайдерупоумолчанию.",
         "Неподтверждённаякоммерческаяформулировка «сохраняетпродажи» суженадомаршрутаприёмаиучётазатрат;CTAпервоголица.",
-        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;реальныесообщения/заданияневыполнялись."
+        "Таблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены;реальныесообщения/заданияневыполнялись.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "KEEP"
     },
@@ -412,8 +417,8 @@
       "type": "post",
       "baseline_hash": "7372857722e3951c89d4b593d5a769bc4fbb096dbf3130466d058c9cf63382fa",
       "file": "beget-ai-gateway-kontekst-dannyh.html",
-      "candidate_hash": "47b54581bf407cf21482f8e58da69832c97596135dcebed449fad6dcfa18eb6d",
-      "visible_chars": 13228,
+      "candidate_hash": "9ae907b5d61deedc809f880cf52d903410869a18bc3f2ce4fe4f2030a29e9aae",
+      "visible_chars": 13206,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -424,7 +429,8 @@
         "Полностью прочитан mappedBeget208 иruntimeдополнения; основные разделы ужесильные,сохранены таблица/схема/sourceпанель/партнёрскаяссылка.",
         "REWRITEточечногофакта:Begetруководство23.10.2026 прямоограничиваетPII/payment/credentials/tradesecrets,внутреннееразрешениевладельцанедостаточно.",
         "Добавлен предметный раздел о применимости картыданныхкправиламсервиса;PIIвтаблиценеобъявленаразрешённойпередачейчерезBeget.",
-        "OWASPPromptInjectionпервичныйисточникпроверен23.10.2026;модельныйответнеприравненкпроверкефактическихдействий."
+        "OWASPPromptInjectionпервичныйисточникпроверен23.10.2026;модельныйответнеприравненкпроверкефактическихдействий.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "REWRITE"
     },
@@ -434,8 +440,8 @@
       "type": "post",
       "baseline_hash": "ec4fe2a54fd16c243bfeefb78a1c26859a07af2fc6017495e3ca585fcfa2532f",
       "file": "beget-embeddings-baza-znaniy.html",
-      "candidate_hash": "029170aca27b4aa041f4cb62c83e3385582af9a1e823017b8295ed22a9e058a2",
-      "visible_chars": 13244,
+      "candidate_hash": "1e48fe93b9e857b9d39ef425f96a856943d699a2dc8cc9baed12da43d8ed4695",
+      "visible_chars": 13234,
       "policy_state": "LENGTH_REQUIREMENT_MET",
       "review_state": "NEEDS_EDITORIAL_REVIEW",
       "source_files": [
@@ -446,7 +452,8 @@
         "Полностью прочитан mappedBeget209 иruntimeдополнения;сильнаяметодикакорпуса/версий/прав/фрагментов/переиндексациисохранена.",
         "Begetруководство23.10.2026 подтверждаетembeddingsиограниченияпередаваемыхданных;добавленконкретныйразборвнешнегоэтапаиндексации.",
         "ОфициальныеQdrantFilteringиpgvectorREADMEпроверены23.10.2026;поддержкаметаданных/векторовнеобъявленаавтоматическойавторизацией.",
-        "REWRITEуточненияграницданных;исходныетаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены."
+        "REWRITEуточненияграницданных;исходныетаблица/схема/sourceпанель/однапартнёрскаяссылкаскороткимраскрытиемсохранены.",
+        "Primary Beget AI Gateway FAQ checked raw HTTP200 2026-10-23: gateway excluded from affiliate program; qualifying services only; disclosure first person; affiliate URL/rel retained."
       ],
       "action": "REWRITE"
     }

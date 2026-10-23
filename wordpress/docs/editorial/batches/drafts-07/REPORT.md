@@ -1,5 +1,7 @@
 # drafts-07: FROZEN
 
+Устранено замечание независимого review P2: в семи AI-материалах раскрытие ссылки теперь написано от первого лица и прямо исключает ИИ-шлюз из партнёрской программы. Участвующие услуги и сам шлюз не смешиваются. Факт подтверждён FAQ [Beget](https://beget.com/ru/kb/manual/ai-gateway), raw HTTP200 от23.10.2026; URL и rel=sponsored/nofollow сохранены. Длины и hashes пересчитаны; таблица ниже отражает итоговые версии. Защищённые таблицы/process-map/source-блоки не менялись; affiliate-параграфы не выдаются за побайтно сохранённые. Это фактическая коррекция раскрытия, а не клиентский KPI.
+
 20 полных Gutenberg HTML — **NEEDS_EDITORIAL_REVIEW**. Публикационного одобрения нет. Исходные тела, WordPress, очередь, статусы, SEO-метаданные и approval hashes не изменялись. Родитель собирает scoped commit.
 
 Каждый mapped source прочитан целиком; все runtime-дополнения прочитаны после сопоставления с исходным текстом. Решения индивидуальны: полезная подробность сохранена, повторы удалены, добавлены предметные проверки и только подтверждённые факты. KEEP означает сохранение сильного основного разбора с конкретизацией контакта и указанными точечными редакторскими правками; REWRITE — смысловую переработку или уточнение фактической границы. Дополнительные главы ради объёма не добавлялись.
@@ -23,15 +25,15 @@
 |164|11267|11409|REWRITE|[gostevoy-ai-chat](gostevoy-ai-chat.html)|
 |368|13980|11541|REWRITE|[wordpress-ne-otpravlyaet-pisma](wordpress-ne-otpravlyaet-pisma.html)|
 |369|13794|11529|REWRITE|[antispam-form-server-check](antispam-form-server-check.html)|
-|475|12525|12420|KEEP|[beget-ai-gateway-responses-404](beget-ai-gateway-responses-404.html)|
+|475|12525|12387|KEEP|[beget-ai-gateway-responses-404](beget-ai-gateway-responses-404.html)|
 |174|11241|11401|REWRITE|[versii-shablonov-dokumentov](versii-shablonov-dokumentov.html)|
-|476|12834|12725|KEEP|[ai-beget-byudzhet-pilota](ai-beget-byudzhet-pilota.html)|
-|477|12875|12779|KEEP|[beget-ai-gateway-kluch-server](beget-ai-gateway-kluch-server.html)|
-|478|12174|12041|KEEP|[beget-ai-gateway-test-modeli](beget-ai-gateway-test-modeli.html)|
+|476|12834|12721|KEEP|[ai-beget-byudzhet-pilota](ai-beget-byudzhet-pilota.html)|
+|477|12875|12763|KEEP|[beget-ai-gateway-kluch-server](beget-ai-gateway-kluch-server.html)|
+|478|12174|12033|KEEP|[beget-ai-gateway-test-modeli](beget-ai-gateway-test-modeli.html)|
 |185|12804|13041|REWRITE|[kalendar-vnutri-sdelki-crm](kalendar-vnutri-sdelki-crm.html)|
-|479|12184|12102|KEEP|[beget-ai-gateway-ochered-zayavok](beget-ai-gateway-ochered-zayavok.html)|
-|480|12436|13228|REWRITE|[beget-ai-gateway-kontekst-dannyh](beget-ai-gateway-kontekst-dannyh.html)|
-|481|12087|13244|REWRITE|[beget-embeddings-baza-znaniy](beget-embeddings-baza-znaniy.html)|
+|479|12184|12091|KEEP|[beget-ai-gateway-ochered-zayavok](beget-ai-gateway-ochered-zayavok.html)|
+|480|12436|13206|REWRITE|[beget-ai-gateway-kontekst-dannyh](beget-ai-gateway-kontekst-dannyh.html)|
+|481|12087|13234|REWRITE|[beget-embeddings-baza-znaniy](beget-embeddings-baza-znaniy.html)|
 
 ## Смысловые решения и доказательства
 
@@ -217,7 +219,7 @@ Source mapping: `wordpress/beget-content/articles/209-beget-embeddings-baza-znan
 
 ## Проверки
 
-- Actual gate:20/20 complete, 10923–13244 знаков; counts и candidate SHA256 совпали с manifest.
+- Actual gate:20/20 complete, 10923–13234 знаков; counts и candidate SHA256 совпали с manifest.
 - 74 исходных верхнеуровневых блоков таблиц, process-map и editorial-sources сохранены побайтно, включая SVG/CSV.
 - PHP WordPress parser:2543 блоков, непустых freeform-блоков0. Это не native validation Gutenberg.
 - Baseline SHA256, source files, значимые исходные href и валидность добавленных case slugs проверены. Личного Telegram нет.

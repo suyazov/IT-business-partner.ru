@@ -1,5 +1,7 @@
 # Проверка партии public-articles-01
 
+Фактправка326 после исходной приёмки: партнёрская ссылка относится к участвующим услугам; ИИ-шлюз в программе не участвует. Raw первичка и8 исправленных AI-disclosures — private/editorial-refactor-20261023/affiliate-fix-quality.json и beget-affiliate-source-check.json. Для326 повторены4viewport-сценария и96nativeblocks: invalid0, overflow/сломанных изображений/JSошибок нет. Новая длина19 443; тело остальных девяти статей не менялось. Исторические показатели ниже относятся к первоначальному пакету, а текущие hashes/counts — manifest.json.
+
 23.10.2026. Полные HTML-кандидаты, production не менялся.
 
 - Identity: 10 baseline/candidate hashes сопоставлены с сохранённым read-only WordPress baseline.
