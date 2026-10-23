@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Дашборд найма — иллюстрация формата воронки</title>
+  <desc id="desc">Абстрактная воронка символизирует представление найма. Это иллюстрация, а не снимок рабочего интерфейса; этапы и показатели заказчика не раскрываются.</desc>
+  <rect width="1200" height="900" fill="#e9eee6"/>
+  <g font-family="Arial, sans-serif" fill="#202923">
+    <text x="64" y="78" font-size="20" letter-spacing="3">HR / АНАЛИТИКА</text>
+    <text x="64" y="164" font-size="65" letter-spacing="-3">Дашборд найма</text>
+    <text x="66" y="210" font-size="24" fill="#59665a">Процесс в виде воронки</text>
+    <circle cx="415" cy="511" r="248" fill="#dbe6de"/>
+    <path d="M135 332h560l-70 115H205z" fill="#123f54"/>
+    <path d="M216 465h398l-70 115H286z" fill="#247487"/>
+    <path d="M297 598h236l-70 115h-96z" fill="#74a89f"/>
+    <path d="M762 332v381" stroke="#bdcdbf" stroke-width="2"/>
+    <text x="810" y="397" font-size="32">Найм</text>
+    <text x="810" y="439" font-size="23" fill="#59665a">через процесс</text>
+    <text x="810" y="561" font-size="32">Воронка</text>
+    <text x="810" y="603" font-size="23" fill="#59665a">в одном дашборде</text>
+    <text x="64" y="840" font-size="17" letter-spacing="1" fill="#59665a">ИЛЛЮСТРАЦИЯ ФОРМАТА / БЕЗ ДАННЫХ ЗАКАЗЧИКА</text>
+  </g>
+</svg>

@@ -30,7 +30,7 @@ add_action('wp_enqueue_scripts', function () {
 add_shortcode('sy3_featured_cases', function (): string {
     ob_start();
     echo '<div class="card-grid cases-grid curated-cases">';
-    foreach (['chitayka', 'stilspace', 'glosscheck', 'libertygas', 'matklass', 'bitrix24-doors'] as $slug) {
+    foreach (['hiring-funnel-dashboard', 'chitayka', 'stilspace', 'glosscheck', 'libertygas', 'matklass'] as $slug) {
         $item = get_page_by_path($slug, OBJECT, 'sy3_case');
         if ($item && $item->post_status === 'publish') sy3_post_card($item);
     }
@@ -84,7 +84,7 @@ function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';
     $topic = get_post_meta($item->ID, '_sy3_label', true) ?: $kind;
     $art = get_post_meta($item->ID, '_sy3_art', true);
-    $safe_art = in_array($art, ['crm', 'integration', 'ai', 'antispam', 'matklass'], true) ? $art : '';
+    $safe_art = in_array($art, ['crm', 'integration', 'ai', 'antispam', 'matklass', 'hiring-funnel', 'hr-requirements'], true) ? $art : '';
     $article = !sy3_personal() && $item->post_type === 'post';
     ?>
     <article class="entry-card <?php echo esc_attr($item->post_type); ?>">
