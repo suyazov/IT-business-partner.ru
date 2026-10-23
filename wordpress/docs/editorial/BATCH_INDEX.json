@@ -1,0 +1,2792 @@
+{
+  "source_git_commit": "be9120078a73f4cfdbb59ba73f22eff33bbe80ef",
+  "baseline_site": "https://sy3.ru/",
+  "production_authority": false,
+  "runtime_or_queue_changed": false,
+  "baseline_objects": 360,
+  "prepared_objects": 139,
+  "prepared_by_type": {
+    "page": 3,
+    "post": 93,
+    "sy3_case": 27,
+    "sy3_service": 16
+  },
+  "length_note": "Article counts are manifest declarations; actual plugin checks and independent review are separate evidence. No publisher approval is created.",
+  "candidates": [
+    {
+      "id": 4,
+      "type": "page",
+      "slug": "home",
+      "baseline_hash": "5d4535fc03f8dec3eba29a02f27d4f2cbbd005abda8583a4af1413f36942cab8",
+      "candidate_hash": "b642f15239c20e68e45d5f5c44b53c9cda2b152adac9550f7103a0ef2b84f783",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/0/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 5,
+      "type": "page",
+      "slug": "about",
+      "baseline_hash": "767433e8e3efec0337ca321078bcc515665f692a29bd2349131e6dfa50912d6e",
+      "candidate_hash": "7d7a8479834f31d9d4ec5700e401b4802bfc35870e3ca2f0266d3e3e1727dc9d",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/1/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 6,
+      "type": "page",
+      "slug": "contacts",
+      "baseline_hash": "fb66406983c71066aea5b2e35a0111706036e7bee37a207770b9f40997411293",
+      "candidate_hash": "d617bf37f0b5550de72cb954e63197ed8547be0848eb7ba0d0e9c3e810fd1c59",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/2/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 9,
+      "type": "sy3_service",
+      "slug": "bitrix24",
+      "baseline_hash": "5e641940af8c0867e525eddbdf5f0e521fc0a7c84486e28420998d7426be400e",
+      "candidate_hash": "fe99fc6f4a0b1528e837664db44a530911356c56362ff9e5adfab3f2cc757d63",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/3/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 10,
+      "type": "sy3_service",
+      "slug": "integrations",
+      "baseline_hash": "c2be56f7c8c5c29b3479b4af0b88db0625f22646fd40a11a7e78321371985724",
+      "candidate_hash": "b9c89a5c8e87387ab5b3b7c1629355036a2e8c33987c75c74e59d39f99fd8447",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/4/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 11,
+      "type": "sy3_service",
+      "slug": "ai-automation",
+      "baseline_hash": "099aa65f3b56f8acee437118bbdbeb8cc43454ef45352159ea483a9a738d9bec",
+      "candidate_hash": "5bdc9d82438c603ef8a3c2d597691f0e48a4de4773c70f9f5b41c29338b4474d",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/5/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 12,
+      "type": "sy3_case",
+      "slug": "bitrix24-doors",
+      "baseline_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80",
+      "candidate_hash": "ecb5ad93d8ffd156031d37080d51628cd95837c095a3f4b5d50ccd0f06e9c134",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/bitrix24-doors.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 14,
+      "type": "sy3_case",
+      "slug": "bitrix24-training",
+      "baseline_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d",
+      "candidate_hash": "868303c7f818211de6902609930feacaf4bf778fd70ec1395fd0b64148b53548",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/bitrix24-training.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 16,
+      "type": "sy3_case",
+      "slug": "glosscheck",
+      "baseline_hash": "2fae148aefd14ef278d2aafa3fb847ccf40034148e2fddba5e79f72f31bf4406",
+      "candidate_hash": "245818588f0de8e7d5252a22dc5cab92951411490129e096edada193320eca16",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/glosscheck.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 18,
+      "type": "sy3_case",
+      "slug": "antispam-24-sites",
+      "baseline_hash": "71614c1bae1f87dc685ff5572711b6c5b4d5d8903211d3b87a3bd2fc64ffe7d7",
+      "candidate_hash": "490ce69a86243e9430951f382e66155af1543dae2a122e827173880e46e99fba",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/antispam-24-sites.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 19,
+      "type": "sy3_case",
+      "slug": "matklass",
+      "baseline_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315",
+      "candidate_hash": "22ed025da726ba976e6b36f6cd18c1905c4545c66baf7ccc108ae69c4d604bb2",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/matklass.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 21,
+      "type": "sy3_case",
+      "slug": "libertygas",
+      "baseline_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d",
+      "candidate_hash": "80fae79ec8950360d6c9343b8d05ca74b1ad377b7635b1199ea15d5b41cfee21",
+      "new_version": "wordpress/docs/editorial/pilot/commercial.json#/candidates/6/content",
+      "manifest": "wordpress/docs/editorial/pilot/commercial.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 23,
+      "type": "sy3_case",
+      "slug": "postavki26",
+      "baseline_hash": "56919fb0c29bcd356e527b480b6f2e075f68b32dbfc6ae04c3f66125d181e3fd",
+      "candidate_hash": "aa9cc60d99b36957353a86a730e43e24430daf68560b3a623e19a3e413c67713",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/postavki26.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 25,
+      "type": "sy3_case",
+      "slug": "shumakova-yookassa",
+      "baseline_hash": "b4a5211e52b290c06386409ccad4faa3e158c2a15672478ebbed5afa6b6cade0",
+      "candidate_hash": "ed032823093c848ccabb43ccf92fec0fe39f0ff6ba6af94c5b502bb5aa338980",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/shumakova-yookassa.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 27,
+      "type": "sy3_case",
+      "slug": "stilspace",
+      "baseline_hash": "9cdb293b3434401cbedf78978ed85051d224ad6bb488f4ac94b0d9433b5001aa",
+      "candidate_hash": "b3019cf208690004d5c4b1d6880f73375a5d70b0eb70d681f0a0d818892c311b",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/stilspace.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 29,
+      "type": "sy3_case",
+      "slug": "star26",
+      "baseline_hash": "13c3544dd4ae264c76eac30f15abeae6663982ee75aa295a968a0aebc4e4964b",
+      "candidate_hash": "6b45f84f958dd94d477b21ea26d2ff7c27925879f2030efbbc2da511d4ae0bb3",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/star26.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 31,
+      "type": "sy3_case",
+      "slug": "trimed",
+      "baseline_hash": "8e1c23cbc0b65239f0424cd9771a820f25d52241bb603366db38f596c15fcb26",
+      "candidate_hash": "370eb33ec15db239d22533e60d1d0f092bb415d248c79a37498b32dea9e5a995",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/trimed.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 33,
+      "type": "sy3_case",
+      "slug": "formula-lead",
+      "baseline_hash": "c3e569a4990ca5a4e2341c525cb78a9454dec8da2cb4afe1e9566b102c2cff1f",
+      "candidate_hash": "80b0ee957969838c07b46b0fb6934b237b51a0781ff09977182ae842d37c0266",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/formula-lead.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 34,
+      "type": "sy3_case",
+      "slug": "chitayka",
+      "baseline_hash": "7d32027e34b32f51859970b9a122dc020987bf442a6b2e960dcd8ee36c70e982",
+      "candidate_hash": "eba2dea80f626eb43265c7ec5a1460d5f532afc9835427340668d637e58d6425",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/chitayka.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 36,
+      "type": "sy3_case",
+      "slug": "barella",
+      "baseline_hash": "25b1103ae0b50f6ada2975a7e9ed35c118d7264527ea25b028ae2dd6666791c2",
+      "candidate_hash": "17cc73bda61ae1340903b200fecffb3f779ef26a2ee1f319c8eb4fa1a5a64a82",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/barella.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 38,
+      "type": "sy3_case",
+      "slug": "real-flacon",
+      "baseline_hash": "23e84a30d2bdec68f7026ff26ba7648014e34a38a2f1103affe96e7c903d4cf7",
+      "candidate_hash": "77ccd27778925b47a60a6fdb717c3151040f5852c63f2dbca4bbd48de3ec220c",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/real-flacon.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 40,
+      "type": "sy3_case",
+      "slug": "digital-belka",
+      "baseline_hash": "5038a272c5c218d3fbefeb2257062407b2fdd2d0566419d0d1b7f8c33b61db39",
+      "candidate_hash": "82e27bf420a68f9cc1aa1463f54bb9c391dfca95d38cab1e621f0d166b9ee1d6",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/digital-belka.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 42,
+      "type": "sy3_case",
+      "slug": "lemesh-pro",
+      "baseline_hash": "a8b6dd854a8a34cd459b2212f213bc14a164f63ab299c464f48993fe863cb3d9",
+      "candidate_hash": "8b5c1b83d6cc0315605bda6ff2f8245d53980fcc99734736789f96be54a82e6f",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/lemesh-pro.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 44,
+      "type": "sy3_case",
+      "slug": "saneq-technology",
+      "baseline_hash": "4ccd2378ce3da2002063ddab42d316f5f9b970046e51f92b0df64828f04fa400",
+      "candidate_hash": "910f0655ba37a17fc96fd7753f2daad62b3a2d42c8c851f851de1bed18739198",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/saneq-technology.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 46,
+      "type": "sy3_case",
+      "slug": "design-moskva",
+      "baseline_hash": "53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8",
+      "candidate_hash": "258e9023151e46858aca6d153171b8ff48ea56e5c9f3ac3fbe538f6d6a260158",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/design-moskva.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 48,
+      "type": "sy3_case",
+      "slug": "anfilada-design",
+      "baseline_hash": "17d720f6444168b3e20de2b14b2c9dc74447806f1df9dc1a7031ce7245276538",
+      "candidate_hash": "feb5b6082853db18008e98e49781529e7fd30246192687e507a98be5f636ec87",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/anfilada-design.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 50,
+      "type": "sy3_case",
+      "slug": "avg-realestate",
+      "baseline_hash": "cc33652f6ef956ebc456ecbc2ed93859a474cd7760f37f785600e2495b4743ee",
+      "candidate_hash": "e24f4192edeff3a005f741c3d5139e2a576ed88a4113e27a555baa9244618001",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/avg-realestate.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 52,
+      "type": "sy3_case",
+      "slug": "ocifrovkavideokasset",
+      "baseline_hash": "42eaf07f68d48718f8e8d9d459fdbfa499cbd0de68079c588e28477639c9a7e7",
+      "candidate_hash": "4c3893a5678354bea558736e1de4415bc23d8770b8136a3133153b72b683dc4c",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/ocifrovkavideokasset.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 54,
+      "type": "sy3_case",
+      "slug": "petlifeexpo",
+      "baseline_hash": "b565c2dc8d2b22d416146f7be4a04ea54279af1b3ad8ca073416a872d4f7f129",
+      "candidate_hash": "c144b12c2ef983d771332646a27be0f0263d37db99bfda660c6779d93ca089f9",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/petlifeexpo.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 56,
+      "type": "sy3_case",
+      "slug": "proffstroy",
+      "baseline_hash": "73ec0c335d9945a384b1aad16acc8d89de93c1623599b68c70a9425a32fb5004",
+      "candidate_hash": "3dbc809cf9962825909472502b8977968df3f792463a3e3a31537c02f385f955",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/proffstroy.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 58,
+      "type": "sy3_case",
+      "slug": "asia-shadrin",
+      "baseline_hash": "8b1bb693c3c9371c2bac57c9f0b0ce1a20c78b8a58e3f384c2318630e6809088",
+      "candidate_hash": "77647812c228ee2a83d109d1a90f434fba7b5d35f260a1aa9ac9cf9f103d3c29",
+      "new_version": "wordpress/docs/editorial/batches/cases-02/asia-shadrin.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-02/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 60,
+      "type": "post",
+      "slug": "crm-est-zayavki-teryayutsya",
+      "baseline_hash": "dec80abe41fccd0f4d777ababb0de958c7b2defec7b8941ea5059f32a10d6346",
+      "candidate_hash": "0668296361e87d2ffb0c5a95d14ec43a0500ffe7cc5ea2e6abcd29da85fb48fe",
+      "new_version": "wordpress/docs/editorial/pilot/articles/crm-est-zayavki-teryayutsya.html",
+      "manifest": "wordpress/docs/editorial/pilot/articles/manifest.json",
+      "content_characters_declared": 11421,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 61,
+      "type": "post",
+      "slug": "proverka-form-do-crm",
+      "baseline_hash": "17d8ed4abee28ba3176269175079a2ad272784cf936235503c6d7041fb99a84e",
+      "candidate_hash": "06561723573999a00b1322af94d170ad651c7d887c3b1a8839f5ea61db7e658f",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/proverka-form-do-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 13329,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 62,
+      "type": "post",
+      "slug": "do-vnedreniya-bitrix24",
+      "baseline_hash": "35293d495236fde1d4ffdbb36f9c320fdc488ded6248a3bdf630f3fcf81e8cb8",
+      "candidate_hash": "beb052df39ae7d71bd239657628375e2b272fa393ca8c906852f80474fa85eda",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/do-vnedreniya-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 14167,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 63,
+      "type": "post",
+      "slug": "pervyy-ai-pilot",
+      "baseline_hash": "0f04e5b071f7d4f9257c9450e3740476147b3740f466b3c844c3e0ce47a69df3",
+      "candidate_hash": "5b57db4c7da0bd65d94cf333cdb2a0720d23e8fe3ea78ea60923f8cc68b09b8a",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/pervyy-ai-pilot.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 12450,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 64,
+      "type": "post",
+      "slug": "ai-chelovek-proverka",
+      "baseline_hash": "7048ea2c719645f1aba9b942ef2672a5d6dc14b252d480c2d71e11e4c5d47c35",
+      "candidate_hash": "12cd01709b5fc6fd367bdc79bfd87741a9462e36c6cbbf666410b0ffb1bccc7a",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/ai-chelovek-proverka.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 12867,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 65,
+      "type": "post",
+      "slug": "priemka-avtomatizatsii",
+      "baseline_hash": "757f7f51c06a01416670a56212bccf807478aae4b0929d15c6ef69c3e4aa8c8e",
+      "candidate_hash": "106ce79f7b24e529daefae19f651a87996f13fac698c5e5aeed00136141d6411",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/priemka-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 13856,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 66,
+      "type": "post",
+      "slug": "integratsiya-dubli-i-povtory",
+      "baseline_hash": "fd33433faf284f733d5b93b1c1f2b36479d56b585d2e0e9432386109658cf243",
+      "candidate_hash": "70149b89493015e11f33a024b94e12864c775bae0debd0af7d23580dc714b254",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/integratsiya-dubli-i-povtory.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 14261,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 67,
+      "type": "post",
+      "slug": "karta-ruchnyh-operatsiy",
+      "baseline_hash": "c7eb79bb7a1d0c838b6b3e606855b60647fd8123e3f1201c0adbff6b09d4382c",
+      "candidate_hash": "e4a6079d1427c2688c252722e72e71574d12b865d50eef0fda734ca45c42ddba",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/karta-ruchnyh-operatsiy.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 15197,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 68,
+      "type": "post",
+      "slug": "ai-kontent-redaktor",
+      "baseline_hash": "00f911d512ba175f7d4716e25fb96a2017903898a838f434fd5607f614e586c3",
+      "candidate_hash": "6cb38b0c17a3d9e371dae406d5e31f3107d0eff16d88cf81f4df4b706f21c3d7",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/ai-kontent-redaktor.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 15317,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 69,
+      "type": "post",
+      "slug": "crm-lms-integratsiya",
+      "baseline_hash": "b58f7a0091bab31cfbf2a46e4ef0bd1a4c68285ca5b4a796df4a14e47be21d5c",
+      "candidate_hash": "f87465c423d58fb04dac7ae28c7f581abcdb413f6d5062276d6fb857b7e02e87",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/crm-lms-integratsiya.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 18427,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 138,
+      "type": "post",
+      "slug": "u-zayavki-dolzhen-byt-hozyain",
+      "baseline_hash": "71bc670dd70f5c3f7541322af072e754b9bbfdb3a09d6901820685e2f45fd909",
+      "candidate_hash": "62d850edca26fb1e29e94b988d2c020f490e1c214b29d2f7900fe5d242278fde",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/u-zayavki-dolzhen-byt-hozyain.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12589,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 139,
+      "type": "post",
+      "slug": "ravnomernaya-ochered-crm",
+      "baseline_hash": "1aecd9ef7852e4c91e9f90a44100e3d5429b32ad7f71d08ef7e1c25815bc1cd8",
+      "candidate_hash": "98e24a6a09a15d81b8a6ab46d24f28684642b58133c019e00286c65c9e6e5e02",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/ravnomernaya-ochered-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11005,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 150,
+      "type": "post",
+      "slug": "forma-otpravlena-no-zayavki-net",
+      "baseline_hash": "674b05ba1396bd5468506856c7d9a9a05dc71f8dac1f592a5102b5f0fe707349",
+      "candidate_hash": "e4bd30d48d97638b2d2c3c681d2a8e435f36db776fd50f18061b9cff3ea80f16",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/forma-otpravlena-no-zayavki-net.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 11845,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 151,
+      "type": "post",
+      "slug": "inventarizaciya-form-na-neskolkih-saytah",
+      "baseline_hash": "a8af07de4bdc7d7ea4367f1f8ebc7486d3fd260bfeb2f52abc7fdaa8e7a66b96",
+      "candidate_hash": "cfed1e2d33bd75efa989b73ab766c1967114cfb076e16c12254fd43f6cbc2e1d",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/inventarizaciya-form-na-neskolkih-saytah.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11431,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 160,
+      "type": "post",
+      "slug": "ocr-ili-analiz-izobrazheniya",
+      "baseline_hash": "81deefe88708e55ca584fb0ce01b076d410d98c09bf1f3c2f9e1a183762f876f",
+      "candidate_hash": "5334543a4f55559e10d04c7d50400b7f39bb200aca8a097b9ea7d9a00d1f8652",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/ocr-ili-analiz-izobrazheniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 11516,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 162,
+      "type": "post",
+      "slug": "istoriya-ai-chata-i-stoimost",
+      "baseline_hash": "7593de91f5c7076c6d06bbb9fded1b3dadd2037dfceb707500760f0edcc8bbeb",
+      "candidate_hash": "72dccb0cd170d3fd4f0e6975640e7ded8c181048328811a59d23083c0035ce8c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/istoriya-ai-chata-i-stoimost.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11036,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 171,
+      "type": "post",
+      "slug": "odin-obekt-odin-list-a4",
+      "baseline_hash": "e42856837b660237580e11f106f915fa91fb64cf82a27fab9476831044a92b48",
+      "candidate_hash": "0d7c5afc267c090ac2a48e3340b26c9c2fc4fe52355c6302a48a07c4840fe1c5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/odin-obekt-odin-list-a4.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 10680,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 172,
+      "type": "post",
+      "slug": "avtonomnyy-redaktor-dokumentov",
+      "baseline_hash": "5e6db5446d6d4da2800d4c534c766e0e70fc014ca4f54d94524dad00a68965a1",
+      "candidate_hash": "da034966cbf3e0a720d40849571a4c9a8caa294bdf86efd7840bef030e0fad2e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/avtonomnyy-redaktor-dokumentov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11552,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 182,
+      "type": "post",
+      "slug": "dvoinoe-bronirovanie-resursa",
+      "baseline_hash": "bdf81e85b10d59bae41fa5a60a2159408d5e69fc6c9fd918fdb6750fde41b5bd",
+      "candidate_hash": "a144a9d8d6a0a9164232f48cf2ddf8d7823e58001e40b1d3383e69e25b2fab56",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/dvoinoe-bronirovanie-resursa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 13404,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 183,
+      "type": "post",
+      "slug": "bronirovanie-neskolkih-ploshchadok",
+      "baseline_hash": "28ebde0b084bda2398e315c4cf1b872d18e9029344922f7c724dc8d2112cb393",
+      "candidate_hash": "3c1c79f77d0a4527708146f05a70eb75a06aeeba7db535b2fe6373312b8343d5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/bronirovanie-neskolkih-ploshchadok.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 13974,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 192,
+      "type": "post",
+      "slug": "semya-kak-model-klienta",
+      "baseline_hash": "ff92d5c3447237ecfe54da4977a2584c01ad2377d3cced5b3764c16ca545ca5a",
+      "candidate_hash": "bf866a5046751ca83470ee94e18a4c9708f10ef631055965941b9c9342ea492b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/semya-kak-model-klienta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 13273,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 193,
+      "type": "post",
+      "slug": "peredacha-rebenka-upolnomochennomu",
+      "baseline_hash": "4f72158c9be10339811711bcb10bb9f48f3f969a53b84d1a1c53645638cb746c",
+      "candidate_hash": "db237e1e8005342c2139e1d0adb6d5869b00b62d46778d84e5c6c3895a035208",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/peredacha-rebenka-upolnomochennomu.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12951,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 202,
+      "type": "post",
+      "slug": "cms-dlya-redaktora-a-ne-razrabotchika",
+      "baseline_hash": "7b80b4bb49b31738bd1a84012ec71db81cfde26a3f6e6b4e9edf955f010842b8",
+      "candidate_hash": "a98eab5de09cb36a53dd84cd38dbc3aa86924303a6b7257b3bf6d1f10b2a7313",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/cms-dlya-redaktora-a-ne-razrabotchika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12982,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 203,
+      "type": "post",
+      "slug": "zayavka-sayta-dolzhna-sohranyatsya",
+      "baseline_hash": "e706d64da7af516192bc4997ec07feb7b402a5692e8ec08d982f0cf098cc1c93",
+      "candidate_hash": "4370deea0578757b4b73e6bc1a9c9ffd833dc87ec7ebdd9c267dc7eaf7a054d1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/zayavka-sayta-dolzhna-sohranyatsya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 13413,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 212,
+      "type": "post",
+      "slug": "edinaya-tochka-priema-rabochih-zaprosov",
+      "baseline_hash": "35d15c15cc069f3f575d1d843922d5db67b113fa789f8dd0b03ae9dc3c56e901",
+      "candidate_hash": "99a804acf4adc5defe55ef972de45360ff10cab6ad650e5d0d581ef11bdce26f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/edinaya-tochka-priema-rabochih-zaprosov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11729,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 213,
+      "type": "post",
+      "slug": "status-gotovo-tolko-posle-rezultata",
+      "baseline_hash": "fcd440bf9afabda8ffad9431c8865e6fdad1a614fa49e8d8afdc3d2790b8e1b1",
+      "candidate_hash": "b0e3912ef6e2f6977c6444bba489f27fcb16a7ecd2d9192b3378b34b872c8c10",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/status-gotovo-tolko-posle-rezultata.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12481,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 222,
+      "type": "post",
+      "slug": "spravochnik-statey-operatsiy",
+      "baseline_hash": "93733b3b358758d5554c6d6706518bfb215e1dcafa733b6e3aeff6f26e923e5a",
+      "candidate_hash": "157553a7a64266783239a3f4af03c7b077a665a5b621e0b45dc19f47e7ea98e7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/spravochnik-statey-operatsiy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11285,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 223,
+      "type": "post",
+      "slug": "dvizhenie-deneg-i-pribyl-v-otchetah",
+      "baseline_hash": "5c0d357e6fdc4a5f0737174ba03c39cbbd7124e1bac93ce64db02c251693e59f",
+      "candidate_hash": "66cd2ded9424185f51fffebd7c7f51a4d6a426d12ff9a8fc8ea470b6cfd27161",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/dvizhenie-deneg-i-pribyl-v-otchetah.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11842,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 232,
+      "type": "post",
+      "slug": "granitsy-mvp-avtomatizatsii",
+      "baseline_hash": "6c75df30f029a0da1b63568e0b682bc3204e787914b5aac557a4f1f3dc7b85b7",
+      "candidate_hash": "134d95f3b7f9cfd3f9186aa0fb052161904792559b077d6aa5df8701ee1d20ef",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/granitsy-mvp-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11851,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 233,
+      "type": "post",
+      "slug": "gotovaya-sistema-ili-razrabotka",
+      "baseline_hash": "74fc7a1cdcf5d2a1834047910a367f42d6c01d7c31956a2027af4b719d204041",
+      "candidate_hash": "9187145a81da3c60e04241b6967bc3977bd3f0649f532eb83a6d3a2eee9ebb7b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/gotovaya-sistema-ili-razrabotka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 13290,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 242,
+      "type": "sy3_service",
+      "slug": "web-development",
+      "baseline_hash": "3d36de4b73012eb79735baa5c3624099508f1768a3c85cedb8c7bbb0d5988bbb",
+      "candidate_hash": "21aa8e236f469cd05e665ef3e91d53d8f3794203c66a684edee755a876f04798",
+      "new_version": "wordpress/docs/editorial/batches/services-01/web-development.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 249,
+      "type": "sy3_service",
+      "slug": "website-support",
+      "baseline_hash": "c83caf3fba6903a619ae0c54200f84efd40b5e2271e9e24ebbc6225be1ca398c",
+      "candidate_hash": "900ea9c95fbe6ecb468c461e4ae3c963f6e9372fe76adb24a8cd6efc29e5a263",
+      "new_version": "wordpress/docs/editorial/batches/services-01/website-support.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 250,
+      "type": "sy3_service",
+      "slug": "website-modernization",
+      "baseline_hash": "223ef5fe02a0ec052d612c24fd43e4eabf69931653c03c279f1d5fa601273dce",
+      "candidate_hash": "b61b6779b7c21dfd869eb03d3ca9afddddc72f2b0e3b3547e9189dd4a3406156",
+      "new_version": "wordpress/docs/editorial/batches/services-01/website-modernization.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 251,
+      "type": "sy3_service",
+      "slug": "website-audit",
+      "baseline_hash": "d9cf5c030b5453568a3579fbdd46c8af690e03163d6b935ad1e483971647fb09",
+      "candidate_hash": "1cba620201ec841270003213df9268160c2f753fd197591d6f7899da24fe1d3f",
+      "new_version": "wordpress/docs/editorial/batches/services-01/website-audit.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 252,
+      "type": "sy3_service",
+      "slug": "wordpress-support",
+      "baseline_hash": "634b984421f10c314013af692698db23a08c8f54c24ca23c4873f0be2fde8fb8",
+      "candidate_hash": "7197ec4ad70bbe5ee4c9cd522495dd7fa0f5641d8e3bc4164fb9230edb9de7ce",
+      "new_version": "wordpress/docs/editorial/batches/services-01/wordpress-support.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 253,
+      "type": "sy3_service",
+      "slug": "bitrix24-support",
+      "baseline_hash": "6a795b04fc71190dbb3958891943c734ec7aef15f08fb7e2c2a0e4492043328e",
+      "candidate_hash": "a3c62ecb73c7dd4d029b3b31b048a2c33439a5f935833414bcd196cc604c36bd",
+      "new_version": "wordpress/docs/editorial/batches/services-01/bitrix24-support.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 254,
+      "type": "sy3_service",
+      "slug": "business-analysis",
+      "baseline_hash": "541e7c2433a7da7114520c79e66ad96bafb53105c070f973f2b10f783b634093",
+      "candidate_hash": "676be9620dc8b039092ebc09bb8105f084ebb2cd32c1cd7a695dc84dd8830c6a",
+      "new_version": "wordpress/docs/editorial/batches/services-01/business-analysis.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 255,
+      "type": "sy3_service",
+      "slug": "business-process-automation",
+      "baseline_hash": "7cfd179180e6b16221b4c01e6b3d161133202612086ac998b80a688cb314aa17",
+      "candidate_hash": "4be9eb856420fa5357ca2134b0c686542fbf593ccbba1b14cd14ce1fece649ab",
+      "new_version": "wordpress/docs/editorial/batches/services-01/business-process-automation.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 256,
+      "type": "sy3_service",
+      "slug": "website-migration",
+      "baseline_hash": "d2cff76a48be39db3684251dcff1721fcc699311b783f33359d6ce023a99afe7",
+      "candidate_hash": "8c3c0042ef58d28bf206490ff101deaac3a5ccedc80553c902982c5f47f974ed",
+      "new_version": "wordpress/docs/editorial/batches/services-01/website-migration.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 257,
+      "type": "sy3_service",
+      "slug": "crm-audit",
+      "baseline_hash": "c9696fefa3eac66a665fd7ac1b102bd104c89f93abe20afdd28cd69835f8fa1e",
+      "candidate_hash": "d757e80110a6e1c8e44d3898d995dd58089839d1eed56968f48521145f13fee0",
+      "new_version": "wordpress/docs/editorial/batches/services-01/crm-audit.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 258,
+      "type": "sy3_service",
+      "slug": "website-crm-integration",
+      "baseline_hash": "e60741b31adca662af57e5abf4a557c9888ac84808d5bfdb2236feed5eaef601",
+      "candidate_hash": "116630e9179efab460c845bcb8213aa76af9e3b2bac12e7cfd44b059d4d0be12",
+      "new_version": "wordpress/docs/editorial/batches/services-01/website-crm-integration.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 259,
+      "type": "sy3_service",
+      "slug": "1c-integration",
+      "baseline_hash": "dd6b17b499a1cd9adfd85e1b57a439a00171cb9ad524f6b9fae7ece37624754e",
+      "candidate_hash": "44dc0fefb291d3f84ab6631c20bed2acf98077871b8febb42c7cd7e891aea041",
+      "new_version": "wordpress/docs/editorial/batches/services-01/1c-integration.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 260,
+      "type": "sy3_service",
+      "slug": "bi-dashboards",
+      "baseline_hash": "6d3ee287305eef5810d358bd792133903e0c4cf4a634110f59fb11dd5881e666",
+      "candidate_hash": "609ce28332ce25b2b82590c58cd725776db6043880dfcfb8da72ca8915567117",
+      "new_version": "wordpress/docs/editorial/batches/services-01/bi-dashboards.html",
+      "manifest": "wordpress/docs/editorial/batches/services-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 262,
+      "type": "post",
+      "slug": "xml-i-html-karta-sayta",
+      "baseline_hash": "7a198f8040c55247955a9ea3d1f666bd035ff46c41814cc80f4e8e3ce6255610",
+      "candidate_hash": "c03663933ff8abe26a6b9fbb36e6d5d227b1f5cea3d43cf752dccb1a773cfc04",
+      "new_version": "wordpress/docs/editorial/pilot/articles/xml-i-html-karta-sayta.html",
+      "manifest": "wordpress/docs/editorial/pilot/articles/manifest.json",
+      "content_characters_declared": 11170,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 263,
+      "type": "post",
+      "slug": "sitemap-wordpress-proverka",
+      "baseline_hash": "29d1c3e5426f537da5f9ba667177982aaaa8503113a713425c75851b28c8f264",
+      "candidate_hash": "c67362cfad206c1747b024cfe496abb5dea32e7f8c7018268e669fc901e42361",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/sitemap-wordpress-proverka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 11690,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 264,
+      "type": "post",
+      "slug": "robots-txt-chto-proveryat",
+      "baseline_hash": "b22cbeb907ac85e5e8fd15c1284d7d20ee606fd811b34fb2c4566a80b909f8d1",
+      "candidate_hash": "6d6274ba83d0f2242003e19f67af91bebc3d16fbb4804dcdf41dbcb497e3f8c7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/robots-txt-chto-proveryat.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11965,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 265,
+      "type": "post",
+      "slug": "noindex-proverka-stranicy",
+      "baseline_hash": "7f68542fa31a186da5407683ea6d0a6619b52f893d36aadbe3b9a21c9f819ed7",
+      "candidate_hash": "dde244c142f6a03957c6f091027e0b09af3e77154ae50f9fd2fd52621661d9c8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/noindex-proverka-stranicy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11783,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 266,
+      "type": "post",
+      "slug": "canonical-kak-proverit",
+      "baseline_hash": "ab3a0d897e0c0515baebec0d2d579157d4d84ee0a6c667d53853445e3f18c3bf",
+      "candidate_hash": "6ba1179c18c46592397261077a72e0e7930ded2840ad439f47bfe6cf93c10047",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/canonical-kak-proverit.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11332,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 267,
+      "type": "post",
+      "slug": "301-ili-302-redirekt",
+      "baseline_hash": "99c53c8dc79a3babb89b050548dd1b7fa08e2320dda06ddaa42d62419161b171",
+      "candidate_hash": "435b39053ae9e6571ade57a17f23ef27f7da735828e58acf30f766c0a7e432d7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/301-ili-302-redirekt.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11505,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 268,
+      "type": "post",
+      "slug": "http-https-nginx-redirekt",
+      "baseline_hash": "0a0590cb5212d1a299ca5ff1aac1ec9ad0132b25b9ecee3a17583508340e2ffc",
+      "candidate_hash": "940f51d2811617f559405595b6b33e9a1e1ff9a41869dac2487f58abf66e2c29",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/http-https-nginx-redirekt.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 12333,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 269,
+      "type": "post",
+      "slug": "http-https-apache-redirekt",
+      "baseline_hash": "2b1999496249a821b996f2609cc157f79fb94d2c5725ca2b4c618cec7baa1f65",
+      "candidate_hash": "4d198df1417ad01d8c5446c5fc78a5e9af07e88b09c05a4f3a351cef500bc62c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/http-https-apache-redirekt.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11818,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 270,
+      "type": "post",
+      "slug": "cikl-redirektov-kak-nayti",
+      "baseline_hash": "20248be5b8bc3e1715789e0a96468d34dec0255f5d884f9de0e3bcbb621dd77c",
+      "candidate_hash": "9e31cd78d97915bb65405e822b9f4b1b7a63edf5c674ba5b5128a27a37319e5c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/cikl-redirektov-kak-nayti.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11220,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 271,
+      "type": "post",
+      "slug": "mixed-content-posle-https",
+      "baseline_hash": "dd30d2b76e1cb262c1bb2c2e9d86bde76d8b83012546533dba7d1e349e8c6c9c",
+      "candidate_hash": "d0cbb8ef7279491bd0efd97065b0f431b08b67c00c388387b6091b7162075b31",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/mixed-content-posle-https.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11706,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 272,
+      "type": "post",
+      "slug": "srok-ssl-sertifikata-monitoring",
+      "baseline_hash": "db4a6dd6ebe0b50a6c2fcb0bd353fdf5e77528a3b57db03f814064b7d95e206b",
+      "candidate_hash": "15b97c421030894aef221da9834a1f9b9634c95f310571e837c60fa6c35cde64",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/srok-ssl-sertifikata-monitoring.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11621,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 281,
+      "type": "post",
+      "slug": "chto-vhodit-v-backup-wordpress",
+      "baseline_hash": "d8c014f3feec4affe99d719b2955287c30f00b054c7e7a25c2ece54888cafd56",
+      "candidate_hash": "26242087a69e86fcb9195ad176bf40316636ccf5e38f2b9668ce3e820f006ff3",
+      "new_version": "wordpress/docs/editorial/pilot/articles/chto-vhodit-v-backup-wordpress.html",
+      "manifest": "wordpress/docs/editorial/pilot/articles/manifest.json",
+      "content_characters_declared": 11030,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 282,
+      "type": "post",
+      "slug": "kak-proverit-vosstanovlenie-wordpress",
+      "baseline_hash": "8051e4e28795cd6d44d83ad82116655a5c03a21655970ed8982b69a98350ad04",
+      "candidate_hash": "5c9e950bbc20ad9f32fa54d3a189bb02b2e094f80a163f91836a6537724d0747",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/kak-proverit-vosstanovlenie-wordpress.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12808,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 283,
+      "type": "post",
+      "slug": "kopii-sayta-vne-hostinga",
+      "baseline_hash": "b9c75ba64c2d36b96830d3b45ac0cf8c365cd9a5dc05adea9f77ba2d3d51a4d7",
+      "candidate_hash": "95c3c7550ef3823d8ad4b10e70165a045e79ebc1ddaea50661f20fb92bb7dbc1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/kopii-sayta-vne-hostinga.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11665,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 284,
+      "type": "post",
+      "slug": "sroki-hraneniya-rezervnyh-kopiy",
+      "baseline_hash": "6be511d066c9d128cc4d4d37b108a91180d957cd4836bd7af72d0ffee765c39e",
+      "candidate_hash": "bfca96f571ff75081d207475cb709638deb7d1c856e8549216877af1d90124c3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/sroki-hraneniya-rezervnyh-kopiy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12238,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 285,
+      "type": "post",
+      "slug": "obnovlenie-wordpress-bez-polomki",
+      "baseline_hash": "cd1db7086156d7f6c31b9946aeaecccfba0e035a9117b9b6c8f4faa0dd74ad6a",
+      "candidate_hash": "04b7663651ff1d0b78afc2eaaf934d088257e6afa99c9c51b094381d8be27725",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/obnovlenie-wordpress-bez-polomki.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11038,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 286,
+      "type": "post",
+      "slug": "nastroyka-bitrix24-s-chego-nachat",
+      "baseline_hash": "783c258ff26b90adf315671d7c4f23175b96422f4ed9b21a8798d9513ccfa819",
+      "candidate_hash": "b23260ab47c5d1586e84b45408ac6d03f7f80033947257c86b9ee397dd18d654",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/nastroyka-bitrix24-s-chego-nachat.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 13289,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 287,
+      "type": "post",
+      "slug": "bitrix24-oblako-ili-korobka",
+      "baseline_hash": "933e484b1c05e8cef810b0f2347b8849a92f8b06168bd7c7b641755b74733c72",
+      "candidate_hash": "957150028adefe62d8ce5157567fec020d879767d20a934c115fc063958881db",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/bitrix24-oblako-ili-korobka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12038,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 288,
+      "type": "post",
+      "slug": "lidy-ili-sdelki-bitrix24",
+      "baseline_hash": "f48ee9c772cba43ce5ed20d16e8422d6a4cf7e135a3265ae1672c02578bd763a",
+      "candidate_hash": "353496510fe081743b4a339d9906c68fd6b84a6a23976826eaf31108a81a19fd",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/lidy-ili-sdelki-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12240,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 289,
+      "type": "post",
+      "slug": "obyazatelnye-polya-crm-po-stadiyam",
+      "baseline_hash": "4bf2dd1cc2b67d83fc40b151c5d03281cf6bb2e9509c24a9e3ebd431e9dd3652",
+      "candidate_hash": "8174ab950a06c2f206421246a643b32d5f7ecdde38f7cabb4c2f0567903ca252",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/obyazatelnye-polya-crm-po-stadiyam.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12453,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 290,
+      "type": "post",
+      "slug": "stadii-voronki-prodazh-crm",
+      "baseline_hash": "6b643f4825219cacad19545afe374bc2181db42a7244edafa568e8e8366b6fcf",
+      "candidate_hash": "41ce21ca274017a835849e7201b3496db544eb44a90d54ac3276de77a7b243a8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/stadii-voronki-prodazh-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 12572,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 291,
+      "type": "post",
+      "slug": "prava-dostupa-bitrix24-crm",
+      "baseline_hash": "b03fea7e1ec31324a57b5549e7db96af5554ccd7a4afa988116fad5714f63de0",
+      "candidate_hash": "640f314b0fa4168b81ea32e485dd7b775b48f041c73d674ba1617c1a8f8d9d79",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/prava-dostupa-bitrix24-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11754,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 292,
+      "type": "post",
+      "slug": "dubli-klientov-v-crm",
+      "baseline_hash": "828218f398f7305eee04c594af398964bbca36f2e5fe37de4a457ed14614cdc8",
+      "candidate_hash": "634bc079bcfd1136112560e8a70edf34cfd9d66f5e9bd3f35111755d27191034",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/dubli-klientov-v-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11668,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 293,
+      "type": "post",
+      "slug": "perenos-excel-v-bitrix24-crm",
+      "baseline_hash": "27fb41141e92ff43e67d4794050d1cf5a97c39279463912e61e6ff83e83e7e20",
+      "candidate_hash": "f3d2b58624fef00de7400ca9e1846150464996a5629cd15a5d33cc55155cc3ba",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/perenos-excel-v-bitrix24-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11542,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 294,
+      "type": "post",
+      "slug": "podklyuchenie-pochty-k-crm",
+      "baseline_hash": "59794430bfd1af944716acbb5f5e9f5728b8cd5a35a75598a97185cedf6d3b22",
+      "candidate_hash": "91ab674996b060c219fa6320170929d9ba69ca8eaab019bdba8dffb2176c5763",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/podklyuchenie-pochty-k-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 13073,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 295,
+      "type": "post",
+      "slug": "telefoniya-v-crm-bitrix24",
+      "baseline_hash": "209841c210428637f1e4ae102af92323a987dae58d899684c784e8eeb156fce2",
+      "candidate_hash": "bbe7c5581b86c58191e2029e3d59a63dae2eb4b517365924280d58b8ccb7fb62",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/telefoniya-v-crm-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12320,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 296,
+      "type": "post",
+      "slug": "crm-forma-na-sayte-bitrix24",
+      "baseline_hash": "c1bff4ab59a982526350449c9f60c2603a2dec5f975dac033ee6009bffdf87e4",
+      "candidate_hash": "4e1dff85f2ce51717824189c169d836bd9fd8b48d95a4f64a8a1bab9cabfc0eb",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/crm-forma-na-sayte-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12205,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 305,
+      "type": "post",
+      "slug": "kak-opisat-biznes-process",
+      "baseline_hash": "114c0adb294cc7af58058a212cb855d4cfbaf1328dcecb82b59d0350633359e4",
+      "candidate_hash": "8d5e6cf7e5cb1e0fe61a79ea6142378ef5ca5c2c7c6b7dbbcb66dff41954e60a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/kak-opisat-biznes-process.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12757,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 326,
+      "type": "post",
+      "slug": "ai-shlyuz-beget-crm-sayt-processy",
+      "baseline_hash": "871ad305df7e15c1f31a8d27687ecd7c4d457262d4bf20a06daa1fb77801d8d9",
+      "candidate_hash": "cb41031ce69a8cf15237aadc967824a396acb2b43f7364946738f0d0aa436dfe",
+      "new_version": "wordpress/docs/editorial/batches/public-articles-01/ai-shlyuz-beget-crm-sayt-processy.html",
+      "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
+      "content_characters_declared": 19472,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 328,
+      "type": "post",
+      "slug": "obnovlenie-php-dlya-wordpress",
+      "baseline_hash": "3ebe1ffbf5fad8a9b2ec4437dc932d6653d6fe69b72b68df75901121c12cb596",
+      "candidate_hash": "42fc2314aef2c2964d9b31515afeb03c4d528ad39740bd89ad75bd0f270df32f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/obnovlenie-php-dlya-wordpress.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 10690,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 329,
+      "type": "post",
+      "slug": "konflikt-plaginov-wordpress",
+      "baseline_hash": "1a139b7f770c3c0fd94ad579b21fc2217706dc135bf60bfb464c5fe84d5fd1d2",
+      "candidate_hash": "5c696ae4f2734a35ccc7e17bd60508757f743d37235341fa244408e3cad21494",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/konflikt-plaginov-wordpress.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11578,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 330,
+      "type": "post",
+      "slug": "staging-dlya-wordpress",
+      "baseline_hash": "126a1d5a76fb6f6247907e800e0de071365a08cbe7cecf6177d4b9529d60fcfa",
+      "candidate_hash": "2926dffac79fc050b8f5fe90f6500ee52d69588efd551c2bca9ba4e7c68048ae",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/staging-dlya-wordpress.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12448,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 331,
+      "type": "post",
+      "slug": "prava-administratorov-wordpress",
+      "baseline_hash": "7cfdda9d133055746fd5048142c6ab5fa5fea643dfd4ff3af8f99aca11b9a3f0",
+      "candidate_hash": "50ce244f477d8a00c1fbfa613ad1422d74472427395b333db0497971ef079a06",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/prava-administratorov-wordpress.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12927,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 332,
+      "type": "post",
+      "slug": "domen-na-vladelce-biznesa",
+      "baseline_hash": "37a0001299bafa06e31e9ec844d3ad4279b0bf5216a8e91b9975613758695cf0",
+      "candidate_hash": "67274bc852f7a8ee165767968225b6f47cea4cadc07a2e8e90666f18470ed408",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/domen-na-vladelce-biznesa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12578,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 333,
+      "type": "post",
+      "slug": "oshibka-500-diagnostika",
+      "baseline_hash": "e489848d19b1a5ad6d7069d3353f524a728ba26852e2a84793ccd70c295517cb",
+      "candidate_hash": "56574ce297d971b31eb6ad8450816057814892e8c1533908f151198959ac3dbe",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/oshibka-500-diagnostika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12655,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 344,
+      "type": "post",
+      "slug": "as-is-to-be-biznes-process",
+      "baseline_hash": "5ff1fd2113f9f86843ce2b3376a8040679e098f03c21d374e450b9dbaf78acbb",
+      "candidate_hash": "7717e7ff9fe374bbf8f4c94b329f6f0a1f6bdaf5e1ef7ab042b8dd827ce802cd",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/as-is-to-be-biznes-process.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12932,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 345,
+      "type": "post",
+      "slug": "intervyu-sotrudnikov-dlya-avtomatizatsii",
+      "baseline_hash": "db4fbd4eba6b994b6f2402b8409491f2076ff39e68d16609cd3c111404889931",
+      "candidate_hash": "210dffc00079786fcf1521a3c732f3429fd2320e271f18e94f8757582e4a9473",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/intervyu-sotrudnikov-dlya-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11649,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 346,
+      "type": "post",
+      "slug": "bpmn-dlya-zakazchika",
+      "baseline_hash": "8e9fb3af63b6462a0f5e06ffb9051ca2092cda6a4ce4fb219c3e712882692f5e",
+      "candidate_hash": "a2e4258ca18e5d69a6346b5c6a52bef08e811971afb584cdc01191fd3b73cd27",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/bpmn-dlya-zakazchika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12082,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 347,
+      "type": "post",
+      "slug": "sipoc-opisanie-processa",
+      "baseline_hash": "7fed3bc160d6366505d5640fc0c39fc5f569265e716737efc7c493e76b1e45d8",
+      "candidate_hash": "75a28bfdabbc27a3790d70544d101a5f17dcff817ffafcc8153f771d3f20f17e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/sipoc-opisanie-processa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11279,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 348,
+      "type": "post",
+      "slug": "raci-raspredelenie-otvetstvennosti",
+      "baseline_hash": "8a225535235d02325e118184f7c62d942238337cb90c50f6f72d12f13c39bef0",
+      "candidate_hash": "ade7854427deaf8273a44d3e46e9a2c36f7efc6aab10c3db89b313ab62aab705",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/raci-raspredelenie-otvetstvennosti.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 12311,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 349,
+      "type": "post",
+      "slug": "reglament-biznes-processa",
+      "baseline_hash": "29ae3eb45cfa29fa1e1c8e09c9a289ebddd3a913478bbf112b60cd6b48964eca",
+      "candidate_hash": "766a76e19bbfade40f77188595ecf1b5423f333cd079bcac865e3ae3e065f912",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/reglament-biznes-processa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 11433,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 350,
+      "type": "post",
+      "slug": "avtomatizatsiya-soglasovaniya-dokumentov",
+      "baseline_hash": "20435b93c43531693053384e0854513bc4b8c9b748574ebe747bba8468d612c8",
+      "candidate_hash": "126282a8505f55acce8cbb0a9cdcd060546403bc781013fa00ea50bf240668a1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/avtomatizatsiya-soglasovaniya-dokumentov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11891,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 351,
+      "type": "post",
+      "slug": "marshrut-vhodyashchey-zayavki",
+      "baseline_hash": "e883a91b03f417961c407804f47075e48da417ab824d0f51b8a83feaf61160ed",
+      "candidate_hash": "13d234e00c0624bbf2bda08e0e84f22d768d84946e15999058729959f64d3203",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/marshrut-vhodyashchey-zayavki.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12717,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 352,
+      "type": "post",
+      "slug": "isklyucheniya-biznes-processa",
+      "baseline_hash": "40e95d887a0b5dc472e721eca706fec393e7348331faa5bd4d7d54648b7412d6",
+      "candidate_hash": "6f66b63ea65bff81a0f62c2034ad9489b80a4fdbd0cfa18e79f5b9a80f4c3b89",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/isklyucheniya-biznes-processa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 12591,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 353,
+      "type": "post",
+      "slug": "kpi-biznes-processa",
+      "baseline_hash": "b160d4f4a932e7a7d0c67762e52d3673d15ca7281d8255447e913af03f85ed22",
+      "candidate_hash": "af8c274b1dc014b6c1066c5a157bf05cf4288a62606c7fd2c5c585353940e06b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-04/kpi-biznes-processa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
+      "content_characters_declared": 11754,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 364,
+      "type": "post",
+      "slug": "sposob-integracii-sayta-s-crm",
+      "baseline_hash": "d88b0e926ca86f46da40ed14827f807458539c6a1fa3cff4ac8d358bee8578b8",
+      "candidate_hash": "7b423046c9ddaee32bf9450bdb2c07c70b08fda19e1903a22df597b1f98d4960",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/sposob-integracii-sayta-s-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 11529,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 365,
+      "type": "post",
+      "slug": "webhook-kak-proverit-dostavku",
+      "baseline_hash": "40dc3d8fd58af87d50a99635da169d6987e09359e9042a7b734a612721e0584d",
+      "candidate_hash": "39e89b766e5bec1e0e51736135647e780a20ea15ede39891cd6c15c0d5f403d3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/webhook-kak-proverit-dostavku.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 11258,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 366,
+      "type": "post",
+      "slug": "idempotentnost-api-zayavki",
+      "baseline_hash": "2d41b019786e25fbb9cedf6a0da6941fa7528a539ed45988ba33ee3b5b488bb7",
+      "candidate_hash": "70af5becaf8d743d3a2bdda232244797242f252781eab20998718846d8506e13",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/idempotentnost-api-zayavki.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12585,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 367,
+      "type": "post",
+      "slug": "oshibka-429-api-retry-after",
+      "baseline_hash": "a59ca6ffbb53427ca700b4ccea80933216510c4cce026d0d85514a0e519b1356",
+      "candidate_hash": "64e5bb4ca5860e78b167056b836f14884a77fce6e57cfcd25910cddfe2dd4576",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/oshibka-429-api-retry-after.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12567,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 370,
+      "type": "post",
+      "slug": "yookassa-oplata-status-zakaza",
+      "baseline_hash": "9fdab2faef32a9afe8803d478f676ecef8c91fe848ce57f97d9660f3a3cd579b",
+      "candidate_hash": "2a9f80c2c7982a59304ebd048a05f04ec77104132bc5bb222a57467a9e0fdce5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/yookassa-oplata-status-zakaza.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12630,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 392,
+      "type": "post",
+      "slug": "polya-checkout-woocommerce",
+      "baseline_hash": "a91f3ad5547eacc1c8a753857c4431d79f5ffd7079320c4539ab2efe146f3c64",
+      "candidate_hash": "0d67e73614880c3468fd2214573bc98131ac301bda6a8c0c60783e61fc83422e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/polya-checkout-woocommerce.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12338,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 393,
+      "type": "post",
+      "slug": "woocommerce-nepravilnaya-dostavka",
+      "baseline_hash": "fc202928650f8e25bb76eb94d982042bc9a2f67ea44a3d33bd7a25b5d53889dc",
+      "candidate_hash": "4734964d2626f0c44808e383d7ca00fe8276a9244f7973e6024cc3b4764417d5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/woocommerce-nepravilnaya-dostavka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 13122,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 394,
+      "type": "post",
+      "slug": "proverka-odnovremennogo-bronirovaniya",
+      "baseline_hash": "8293f41227d418cfe2e3ad6c14460201a3d9b6e0980b3313b7d3a0c359cd56b3",
+      "candidate_hash": "a9913e26db04906fbc697c891087972c8d3eb38d25b431512ca7306fdb9de490",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/proverka-odnovremennogo-bronirovaniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12566,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 395,
+      "type": "post",
+      "slug": "chasovye-poyasa-onlayn-zapis",
+      "baseline_hash": "246367f4a5e23741cb1cce4f59e109a3a0f7aed2f3f3802aace3a2e47ffd5793",
+      "candidate_hash": "4e08440e911f81085b18b25f457d1f9d235cc7af49dc4cc9f958dc0a67379b91",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/chasovye-poyasa-onlayn-zapis.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 11681,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 396,
+      "type": "post",
+      "slug": "ii-pomoshchnik-po-baze-znaniy",
+      "baseline_hash": "b080b4d72a03c4e084565a5b9a9c44658c05ba5b1f31738734ca1dd9bb0f40e2",
+      "candidate_hash": "da4708dd87cbf04463dde5193387c77fbafc05086fb20b59736d32ada22c7a9e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/ii-pomoshchnik-po-baze-znaniy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12914,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 397,
+      "type": "post",
+      "slug": "proverka-oshibok-ii-pomoshchnika",
+      "baseline_hash": "fe930cf76cb12d2ca448c4d7395df78792e2b8f1855fe1d4fb6bc6306e4cbffb",
+      "candidate_hash": "7d1b7a8a63437be0f0a689af714f466ab1abf1e8dbac139db2ce351ead18759e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/proverka-oshibok-ii-pomoshchnika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12114,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 398,
+      "type": "post",
+      "slug": "kakie-dannye-davat-ii",
+      "baseline_hash": "ca0bac212a12bf00620934dfdf9edd975e3cf8b1cd19cbdc9e69e0ef0d5e7aa7",
+      "candidate_hash": "1ecef40bed0f652428fb10fb4345540efbc61f2e81a3a009aea81723d3e4ce35",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/kakie-dannye-davat-ii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12172,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 399,
+      "type": "post",
+      "slug": "stoimost-ii-stsenariya",
+      "baseline_hash": "e3d40be88f8914b83f0dae32861ceadc1d6c4db6e1ec88f12c1a8f55574b4fe4",
+      "candidate_hash": "7e9cac5464cb6fa22d4d1f3bd9575f9928512d628c0c2621accca816675fa1e1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/stoimost-ii-stsenariya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 12402,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 400,
+      "type": "post",
+      "slug": "aktualnost-bazy-znaniy-kompanii",
+      "baseline_hash": "eb5d3d8c1aa53b7c07144855f7bd84fdc97d79892ba03dbe428b0b1c8ae9c39c",
+      "candidate_hash": "845ec167eae12bab043d71f5a2149ec1003d8f7a04ccd3e0c1860701d2243e12",
+      "new_version": "wordpress/docs/editorial/batches/drafts-03/aktualnost-bazy-znaniy-kompanii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
+      "content_characters_declared": 12450,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 401,
+      "type": "post",
+      "slug": "lichnyy-kabinet-klienta-trebovaniya",
+      "baseline_hash": "173a75e4c86313d6feeb967b9a89706d5a889fac99e54509c4bb25116a836189",
+      "candidate_hash": "f7b74e1425d18acdb6df57d82b26bbe653f7f5447980ce65bf5c165e61252e07",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/lichnyy-kabinet-klienta-trebovaniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12433,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 402,
+      "type": "post",
+      "slug": "veb-servis-ili-mobilnoe-prilozhenie",
+      "baseline_hash": "08336bea20bb33dbd7bacb25748ccead54b70c9b50542a9440f3d301b840c308",
+      "candidate_hash": "cabe68aab8b5ee2e6e7ea5d7b28609f90bbd25e6be35bb17755eab78437aa0f8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/veb-servis-ili-mobilnoe-prilozhenie.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 11602,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 403,
+      "type": "post",
+      "slug": "predproektnoe-obsledovanie-avtomatizatsii",
+      "baseline_hash": "88637efea21ecaa197f57793803f04dc770bd4ca97f6f362743ea6adf1b350ac",
+      "candidate_hash": "7bf717cfee41a6b42dd05e35083f0f4cd7804f68530d5503057b6de31e5cbbce",
+      "new_version": "wordpress/docs/editorial/batches/drafts-01/predproektnoe-obsledovanie-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-01/manifest.json",
+      "content_characters_declared": 12990,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 404,
+      "type": "post",
+      "slug": "sla-podderzhki-sayta",
+      "baseline_hash": "3917b63e4a80b61ec434e0a5bcacc301b5f9b0b984dbfd15ae4af459da7c4948",
+      "candidate_hash": "ad40d70895bcca4f998bb987622085ec7d4cbf92ca940893bf94ec74a26da486",
+      "new_version": "wordpress/docs/editorial/batches/drafts-02/sla-podderzhki-sayta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
+      "content_characters_declared": 12376,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 574,
+      "type": "sy3_case",
+      "slug": "hiring-funnel-dashboard",
+      "baseline_hash": "23e27546858edd0192d8f565cfa6b751b5baa9c90af5843cb21547904e3ff2d1",
+      "candidate_hash": "9ea054d25697d8d0572d308cad4aaa0d4a764d65802d3e46bcf70260f99c45fe",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/hiring-funnel-dashboard.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": true,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 576,
+      "type": "sy3_case",
+      "slug": "crm-hr-requirements",
+      "baseline_hash": "f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468",
+      "candidate_hash": "13394badfb8a06cfba86875880af67c04d82d33b7b98f3906bdff635e778d66c",
+      "new_version": "wordpress/docs/editorial/batches/cases-01/crm-hr-requirements.html",
+      "manifest": "wordpress/docs/editorial/batches/cases-01/manifest.json",
+      "content_characters_declared": null,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    }
+  ],
+  "body_not_prepared": [
+    {
+      "id": 3,
+      "type": "page",
+      "slug": "privacy-policy"
+    },
+    {
+      "id": 7,
+      "type": "page",
+      "slug": "privacy"
+    },
+    {
+      "id": 8,
+      "type": "page",
+      "slug": "journal"
+    },
+    {
+      "id": 141,
+      "type": "post",
+      "slug": "pisma-s-sayta-v-crm"
+    },
+    {
+      "id": 142,
+      "type": "post",
+      "slug": "neaktivnye-sotrudniki-v-crm"
+    },
+    {
+      "id": 143,
+      "type": "post",
+      "slug": "dogovor-iz-sdelki-crm"
+    },
+    {
+      "id": 145,
+      "type": "post",
+      "slug": "prodazhi-i-servis-v-crm"
+    },
+    {
+      "id": 146,
+      "type": "post",
+      "slug": "edinaya-forma-zayavok-na-obuchenie"
+    },
+    {
+      "id": 147,
+      "type": "post",
+      "slug": "identifikator-vmesto-imeni"
+    },
+    {
+      "id": 148,
+      "type": "post",
+      "slug": "prava-menedzhera-priemka-crm"
+    },
+    {
+      "id": 149,
+      "type": "post",
+      "slug": "crm-kontrolnye-scenarii-kanalov"
+    },
+    {
+      "id": 152,
+      "type": "post",
+      "slug": "antispam-bez-kapchi"
+    },
+    {
+      "id": 153,
+      "type": "post",
+      "slug": "kak-izmerit-rabotu-antispama"
+    },
+    {
+      "id": 154,
+      "type": "post",
+      "slug": "povtornaya-otpravka-bez-dubley"
+    },
+    {
+      "id": 155,
+      "type": "post",
+      "slug": "glavnaya-sistema-dlya-kazhdogo-polya"
+    },
+    {
+      "id": 156,
+      "type": "post",
+      "slug": "zhurnal-integracii-dlya-biznesa"
+    },
+    {
+      "id": 157,
+      "type": "post",
+      "slug": "oshibki-vneshnego-api"
+    },
+    {
+      "id": 158,
+      "type": "post",
+      "slug": "izmenenie-formata-integracii"
+    },
+    {
+      "id": 159,
+      "type": "post",
+      "slug": "integraciya-chtenie-ili-zapis"
+    },
+    {
+      "id": 163,
+      "type": "post",
+      "slug": "upravlenie-promptom-iz-adminki"
+    },
+    {
+      "id": 164,
+      "type": "post",
+      "slug": "gostevoy-ai-chat"
+    },
+    {
+      "id": 165,
+      "type": "post",
+      "slug": "limity-ai-zaprosov"
+    },
+    {
+      "id": 166,
+      "type": "post",
+      "slug": "golosovoe-soobshchenie-v-zadachu"
+    },
+    {
+      "id": 167,
+      "type": "post",
+      "slug": "ai-gotovit-chelovek-podtverzhdaet"
+    },
+    {
+      "id": 168,
+      "type": "post",
+      "slug": "fayly-dlya-ai-proverka-na-vhode"
+    },
+    {
+      "id": 169,
+      "type": "post",
+      "slug": "sravnenie-ai-video-modeley"
+    },
+    {
+      "id": 170,
+      "type": "post",
+      "slug": "granicy-ai-pomoshchnika"
+    },
+    {
+      "id": 173,
+      "type": "post",
+      "slug": "mnogostranichnyy-pdf-iz-dannyh"
+    },
+    {
+      "id": 174,
+      "type": "post",
+      "slug": "versii-shablonov-dokumentov"
+    },
+    {
+      "id": 175,
+      "type": "post",
+      "slug": "pustye-polya-v-dokumentah"
+    },
+    {
+      "id": 176,
+      "type": "post",
+      "slug": "dinamicheskie-polya-i-roli"
+    },
+    {
+      "id": 177,
+      "type": "post",
+      "slug": "istoriya-pravok-dokumenta"
+    },
+    {
+      "id": 178,
+      "type": "post",
+      "slug": "prototip-dokumentnogo-servisa"
+    },
+    {
+      "id": 179,
+      "type": "post",
+      "slug": "rekvizity-bez-ruchnogo-kopirovaniya"
+    },
+    {
+      "id": 180,
+      "type": "post",
+      "slug": "poshagovyy-konstruktor-dokumentov"
+    },
+    {
+      "id": 184,
+      "type": "post",
+      "slug": "statusy-broni-i-zanyatost"
+    },
+    {
+      "id": 185,
+      "type": "post",
+      "slug": "kalendar-vnutri-sdelki-crm"
+    },
+    {
+      "id": 186,
+      "type": "post",
+      "slug": "dostup-k-kalendaryu-i-dannym-klienta"
+    },
+    {
+      "id": 187,
+      "type": "post",
+      "slug": "otmena-broni-bez-potery-istorii"
+    },
+    {
+      "id": 188,
+      "type": "post",
+      "slug": "shag-kalendarya-i-dlitelnost-broni"
+    },
+    {
+      "id": 189,
+      "type": "post",
+      "slug": "perehod-ot-prototipa-k-kalendaryu"
+    },
+    {
+      "id": 190,
+      "type": "post",
+      "slug": "obshchie-resursy-v-raspisanii"
+    },
+    {
+      "id": 191,
+      "type": "post",
+      "slug": "bron-i-oplata-raznye-sobytiya"
+    },
+    {
+      "id": 194,
+      "type": "post",
+      "slug": "list-ozhidaniya-po-vmestimosti"
+    },
+    {
+      "id": 195,
+      "type": "post",
+      "slug": "poslednee-mesto-v-gruppe"
+    },
+    {
+      "id": 196,
+      "type": "post",
+      "slug": "istoriyu-poseshcheniy-nelzya-perepisyvat"
+    },
+    {
+      "id": 197,
+      "type": "post",
+      "slug": "offline-dannye-nuzhno-podtverzhdat"
+    },
+    {
+      "id": 198,
+      "type": "post",
+      "slug": "abonement-ne-raven-vyruchke"
+    },
+    {
+      "id": 199,
+      "type": "post",
+      "slug": "filialy-v-odnoy-crm"
+    },
+    {
+      "id": 200,
+      "type": "post",
+      "slug": "konflikty-pedagoga-i-kabineta"
+    },
+    {
+      "id": 201,
+      "type": "post",
+      "slug": "ot-zayavki-do-zachisleniya"
+    },
+    {
+      "id": 204,
+      "type": "post",
+      "slug": "filtr-kataloga-nachinaetsya-s-dannyh"
+    },
+    {
+      "id": 205,
+      "type": "post",
+      "slug": "korzina-i-checkout-odin-scenariy"
+    },
+    {
+      "id": 206,
+      "type": "post",
+      "slug": "perenos-s-konstruktora-bez-zavisimostey"
+    },
+    {
+      "id": 207,
+      "type": "post",
+      "slug": "mediateka-s3-sohranit-starye-ssylki"
+    },
+    {
+      "id": 208,
+      "type": "post",
+      "slug": "seo-audit-prevratit-v-priemku"
+    },
+    {
+      "id": 209,
+      "type": "post",
+      "slug": "shablon-stati-v-deystvuyushchey-cms"
+    },
+    {
+      "id": 210,
+      "type": "post",
+      "slug": "karta-obektov-s-upravleniem-iz-cms"
+    },
+    {
+      "id": 211,
+      "type": "post",
+      "slug": "lending-s-oplatoy-bez-bolshogo-magazina"
+    },
+    {
+      "id": 214,
+      "type": "post",
+      "slug": "aktualnyy-istochnik-dlya-raboty-ai"
+    },
+    {
+      "id": 215,
+      "type": "post",
+      "slug": "nezavisimaya-proverka-izmeneniy"
+    },
+    {
+      "id": 216,
+      "type": "post",
+      "slug": "izmeneniya-kotorye-mozhno-otmenit"
+    },
+    {
+      "id": 217,
+      "type": "post",
+      "slug": "prava-ai-na-deystviya"
+    },
+    {
+      "id": 218,
+      "type": "post",
+      "slug": "servis-rabotaet-a-zadacha-ne-vypolnyaetsya"
+    },
+    {
+      "id": 219,
+      "type": "post",
+      "slug": "predprosmotr-i-publikaciya-raznye-etapy"
+    },
+    {
+      "id": 220,
+      "type": "post",
+      "slug": "kontekst-proekta-dlya-komandy-i-ai"
+    },
+    {
+      "id": 221,
+      "type": "post",
+      "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai"
+    },
+    {
+      "id": 224,
+      "type": "post",
+      "slug": "pravila-avtozapolneniya-operatsiy"
+    },
+    {
+      "id": 225,
+      "type": "post",
+      "slug": "zayavka-na-rashod-i-soglasovanie"
+    },
+    {
+      "id": 226,
+      "type": "post",
+      "slug": "versii-premialnyh-shem"
+    },
+    {
+      "id": 227,
+      "type": "post",
+      "slug": "edinyy-spravochnik-sotrudnikov"
+    },
+    {
+      "id": 228,
+      "type": "post",
+      "slug": "testy-nastraivaemyh-kpi-formul"
+    },
+    {
+      "id": 229,
+      "type": "post",
+      "slug": "zakrytie-perioda-v-avtomatizatsii"
+    },
+    {
+      "id": 230,
+      "type": "post",
+      "slug": "ochered-isklyucheniy-byudzheta"
+    },
+    {
+      "id": 231,
+      "type": "post",
+      "slug": "audit-pered-perenosom-sistemy"
+    },
+    {
+      "id": 234,
+      "type": "post",
+      "slug": "prioritety-avtomatizatsii-biznesa"
+    },
+    {
+      "id": 235,
+      "type": "post",
+      "slug": "vygruzki-i-perenosimost-dannyh"
+    },
+    {
+      "id": 236,
+      "type": "post",
+      "slug": "neskolko-kompaniy-v-odnoy-crm"
+    },
+    {
+      "id": 237,
+      "type": "post",
+      "slug": "dostup-podderzhki-po-soglasiyu"
+    },
+    {
+      "id": 238,
+      "type": "post",
+      "slug": "obshchaya-platforma-i-otraslevye-moduli"
+    },
+    {
+      "id": 239,
+      "type": "post",
+      "slug": "redaktsionnyy-konveyer-s-ii"
+    },
+    {
+      "id": 240,
+      "type": "post",
+      "slug": "izmereniya-posle-zapuska-avtomatizatsii"
+    },
+    {
+      "id": 241,
+      "type": "post",
+      "slug": "biznes-brif-na-avtomatizatsiyu"
+    },
+    {
+      "id": 273,
+      "type": "post",
+      "slug": "www-bez-www-osnovnoy-domen"
+    },
+    {
+      "id": 274,
+      "type": "post",
+      "slug": "stranica-404-pravilnyy-otvet"
+    },
+    {
+      "id": 275,
+      "type": "post",
+      "slug": "massovye-404-posle-perenosa"
+    },
+    {
+      "id": 276,
+      "type": "post",
+      "slug": "smena-domena-sohranenie-url"
+    },
+    {
+      "id": 277,
+      "type": "post",
+      "slug": "karta-staryh-novyh-url"
+    },
+    {
+      "id": 278,
+      "type": "post",
+      "slug": "zakryt-stend-ot-indeksacii"
+    },
+    {
+      "id": 279,
+      "type": "post",
+      "slug": "title-description-kak-proverit"
+    },
+    {
+      "id": 280,
+      "type": "post",
+      "slug": "paginaciya-indeksaciya-canonical"
+    },
+    {
+      "id": 297,
+      "type": "post",
+      "slug": "utm-metki-v-crm-bitrix24"
+    },
+    {
+      "id": 298,
+      "type": "post",
+      "slug": "roboty-ili-biznes-processy-bitrix24"
+    },
+    {
+      "id": 299,
+      "type": "post",
+      "slug": "smart-processy-bitrix24-kogda-nuzhny"
+    },
+    {
+      "id": 300,
+      "type": "post",
+      "slug": "prosrochennye-dela-crm-napominaniya"
+    },
+    {
+      "id": 301,
+      "type": "post",
+      "slug": "ne-rabotaet-robot-bitrix24"
+    },
+    {
+      "id": 302,
+      "type": "post",
+      "slug": "audit-nastroek-crm-bitrix24"
+    },
+    {
+      "id": 303,
+      "type": "post",
+      "slug": "soprovozhdenie-bitrix24-chto-vhodit"
+    },
+    {
+      "id": 304,
+      "type": "post",
+      "slug": "obuchenie-i-priemka-crm"
+    },
+    {
+      "id": 334,
+      "type": "post",
+      "slug": "oshibki-502-504-chto-proveryat"
+    },
+    {
+      "id": 335,
+      "type": "post",
+      "slug": "belyy-ekran-wordpress"
+    },
+    {
+      "id": 336,
+      "type": "post",
+      "slug": "monitoring-dostupnosti-sayta"
+    },
+    {
+      "id": 337,
+      "type": "post",
+      "slug": "logirovanie-form-zayavok"
+    },
+    {
+      "id": 338,
+      "type": "post",
+      "slug": "core-web-vitals-chto-ispravlyat"
+    },
+    {
+      "id": 339,
+      "type": "post",
+      "slug": "optimizaciya-izobrazheniy-sayta"
+    },
+    {
+      "id": 340,
+      "type": "post",
+      "slug": "kesh-sayta-starye-izmeneniya"
+    },
+    {
+      "id": 341,
+      "type": "post",
+      "slug": "mobilnaya-verstka-proverka"
+    },
+    {
+      "id": 342,
+      "type": "post",
+      "slug": "dostupnost-form-cheklist"
+    },
+    {
+      "id": 343,
+      "type": "post",
+      "slug": "priemka-sayta-prakticheskiy-cheklist"
+    },
+    {
+      "id": 354,
+      "type": "post",
+      "slug": "otsenka-effekta-avtomatizatsii"
+    },
+    {
+      "id": 355,
+      "type": "post",
+      "slug": "prioritizatsiya-zadach-avtomatizatsii"
+    },
+    {
+      "id": 356,
+      "type": "post",
+      "slug": "tehnicheskoe-zadanie-na-avtomatizatsiyu"
+    },
+    {
+      "id": 357,
+      "type": "post",
+      "slug": "kriterii-priemki-avtomatizatsii"
+    },
+    {
+      "id": 358,
+      "type": "post",
+      "slug": "avtomatizatsiya-zakupok-process"
+    },
+    {
+      "id": 359,
+      "type": "post",
+      "slug": "avtomatizatsiya-zayavok-sotrudnikov"
+    },
+    {
+      "id": 360,
+      "type": "post",
+      "slug": "upravlenie-izmeneniyami-trebovaniy"
+    },
+    {
+      "id": 361,
+      "type": "post",
+      "slug": "karta-integratsiy-biznes-sistem"
+    },
+    {
+      "id": 362,
+      "type": "post",
+      "slug": "podderzhka-posle-vnedreniya-crm"
+    },
+    {
+      "id": 363,
+      "type": "post",
+      "slug": "kak-vybrat-biznes-analitika"
+    },
+    {
+      "id": 368,
+      "type": "post",
+      "slug": "wordpress-ne-otpravlyaet-pisma"
+    },
+    {
+      "id": 369,
+      "type": "post",
+      "slug": "antispam-form-server-check"
+    },
+    {
+      "id": 391,
+      "type": "post",
+      "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
+    },
+    {
+      "id": 475,
+      "type": "post",
+      "slug": "beget-ai-gateway-responses-404"
+    },
+    {
+      "id": 476,
+      "type": "post",
+      "slug": "ai-beget-byudzhet-pilota"
+    },
+    {
+      "id": 477,
+      "type": "post",
+      "slug": "beget-ai-gateway-kluch-server"
+    },
+    {
+      "id": 478,
+      "type": "post",
+      "slug": "beget-ai-gateway-test-modeli"
+    },
+    {
+      "id": 479,
+      "type": "post",
+      "slug": "beget-ai-gateway-ochered-zayavok"
+    },
+    {
+      "id": 480,
+      "type": "post",
+      "slug": "beget-ai-gateway-kontekst-dannyh"
+    },
+    {
+      "id": 481,
+      "type": "post",
+      "slug": "beget-embeddings-baza-znaniy"
+    },
+    {
+      "id": 482,
+      "type": "post",
+      "slug": "beget-ai-vnutrenniy-redaktor"
+    },
+    {
+      "id": 483,
+      "type": "post",
+      "slug": "beget-ai-instrumenty-prava"
+    },
+    {
+      "id": 484,
+      "type": "post",
+      "slug": "beget-shared-ili-vps-forma"
+    },
+    {
+      "id": 485,
+      "type": "post",
+      "slug": "beget-wordpress-zapusk-priemka"
+    },
+    {
+      "id": 486,
+      "type": "post",
+      "slug": "beget-katalogi-neskolko-saytov"
+    },
+    {
+      "id": 487,
+      "type": "post",
+      "slug": "beget-perenos-kontrol-platezhey"
+    },
+    {
+      "id": 488,
+      "type": "post",
+      "slug": "beget-php-smena-diagnostika"
+    },
+    {
+      "id": 489,
+      "type": "post",
+      "slug": "beget-php-session-zavisanie"
+    },
+    {
+      "id": 490,
+      "type": "post",
+      "slug": "beget-migraciya-bez-pochty"
+    },
+    {
+      "id": 491,
+      "type": "post",
+      "slug": "beget-vosstanovlenie-odin-fayl"
+    },
+    {
+      "id": 492,
+      "type": "post",
+      "slug": "beget-snapshot-baza-zakazov"
+    },
+    {
+      "id": 493,
+      "type": "post",
+      "slug": "beget-wordpress-cloud-db-priemka"
+    },
+    {
+      "id": 494,
+      "type": "post",
+      "slug": "beget-bitrix-cloud-db-integracii"
+    },
+    {
+      "id": 495,
+      "type": "post",
+      "slug": "beget-mysql-private-network"
+    },
+    {
+      "id": 496,
+      "type": "post",
+      "slug": "beget-postgresql-analitika-vitrina"
+    },
+    {
+      "id": 497,
+      "type": "post",
+      "slug": "beget-postgresql-roli-otchetov"
+    },
+    {
+      "id": 498,
+      "type": "post",
+      "slug": "beget-postgresql-restore-pilot"
+    },
+    {
+      "id": 499,
+      "type": "post",
+      "slug": "beget-sql-join-dubli-dashbord"
+    },
+    {
+      "id": 500,
+      "type": "post",
+      "slug": "beget-mysql-polzovateli-servisov"
+    },
+    {
+      "id": 501,
+      "type": "post",
+      "slug": "beget-statistika-pik-zaprosov"
+    },
+    {
+      "id": 502,
+      "type": "post",
+      "slug": "beget-2fa-dostup-vladelca"
+    },
+    {
+      "id": 503,
+      "type": "post",
+      "slug": "beget-ftp-podryadchik-dostup"
+    },
+    {
+      "id": 504,
+      "type": "post",
+      "slug": "beget-vps-pervaya-priemka"
+    },
+    {
+      "id": 505,
+      "type": "post",
+      "slug": "beget-ufw-webhook-dostup"
+    },
+    {
+      "id": 506,
+      "type": "post",
+      "slug": "beget-fail2ban-neblokirovat-komandu"
+    },
+    {
+      "id": 507,
+      "type": "post",
+      "slug": "beget-docker-python-peredacha"
+    },
+    {
+      "id": 508,
+      "type": "post",
+      "slug": "beget-portainer-vladelec-servisa"
+    },
+    {
+      "id": 509,
+      "type": "post",
+      "slug": "beget-docker-volumes-udaleniye"
+    },
+    {
+      "id": 510,
+      "type": "post",
+      "slug": "beget-terraform-plan-soglasovanie"
+    },
+    {
+      "id": 511,
+      "type": "post",
+      "slug": "beget-ci-release-forma"
+    },
+    {
+      "id": 512,
+      "type": "post",
+      "slug": "beget-systemd-fonovyy-servis"
+    },
+    {
+      "id": 513,
+      "type": "post",
+      "slug": "beget-sla-granicy-otvetstvennosti"
+    },
+    {
+      "id": 514,
+      "type": "post",
+      "slug": "beget-ekspluatacionnyy-pasport"
+    },
+    {
+      "id": 515,
+      "type": "post",
+      "slug": "beget-pereezd-proverka-do-dns"
+    },
+    {
+      "id": 516,
+      "type": "post",
+      "slug": "beget-dns-webhook-perekluchenie"
+    },
+    {
+      "id": 517,
+      "type": "post",
+      "slug": "beget-domen-prodlenie-process"
+    },
+    {
+      "id": 518,
+      "type": "post",
+      "slug": "beget-poddomen-lichnyy-kabinet"
+    },
+    {
+      "id": 519,
+      "type": "post",
+      "slug": "beget-spf-neskolko-otpraviteley"
+    },
+    {
+      "id": 520,
+      "type": "post",
+      "slug": "beget-dkim-smena-pochty"
+    },
+    {
+      "id": 521,
+      "type": "post",
+      "slug": "beget-dmarc-otchety-process"
+    },
+    {
+      "id": 522,
+      "type": "post",
+      "slug": "beget-pochta-pereadresaciya-obrashcheniy"
+    },
+    {
+      "id": 523,
+      "type": "post",
+      "slug": "beget-db-rashozhdenie-istochnikov"
+    },
+    {
+      "id": 524,
+      "type": "post",
+      "slug": "beget-s3-wordpress-media-migraciya"
+    },
+    {
+      "id": 525,
+      "type": "post",
+      "slug": "beget-s3-zakrytye-dokumenty"
+    },
+    {
+      "id": 526,
+      "type": "post",
+      "slug": "beget-s3-imya-fayla-versii"
+    },
+    {
+      "id": 527,
+      "type": "post",
+      "slug": "beget-s3-wordpress-backup-uchyot"
+    },
+    {
+      "id": 528,
+      "type": "post",
+      "slug": "beget-s3-perenos-sverka"
+    },
+    {
+      "id": 529,
+      "type": "post",
+      "slug": "beget-rclone-biznes-fayly"
+    },
+    {
+      "id": 530,
+      "type": "post",
+      "slug": "beget-s3-bitrix-kartochki"
+    },
+    {
+      "id": 531,
+      "type": "post",
+      "slug": "beget-cdn-wordpress-obnovlenie"
+    },
+    {
+      "id": 532,
+      "type": "post",
+      "slug": "beget-cdn-lichnyy-kabinet"
+    },
+    {
+      "id": 533,
+      "type": "post",
+      "slug": "beget-logs-edinaya-kartina"
+    },
+    {
+      "id": 534,
+      "type": "post",
+      "slug": "beget-nginx-logs-forma"
+    },
+    {
+      "id": 535,
+      "type": "post",
+      "slug": "beget-log-rotation-hranenie"
+    },
+    {
+      "id": 536,
+      "type": "post",
+      "slug": "beget-container-registry-postavka"
+    },
+    {
+      "id": 537,
+      "type": "post",
+      "slug": "beget-rootless-servis-ekspluataciya"
+    },
+    {
+      "id": 538,
+      "type": "post",
+      "slug": "beget-private-network-app-db"
+    },
+    {
+      "id": 539,
+      "type": "post",
+      "slug": "beget-balansirovshchik-sessii"
+    },
+    {
+      "id": 540,
+      "type": "post",
+      "slug": "beget-ipv6-api-diagnostika"
+    },
+    {
+      "id": 541,
+      "type": "post",
+      "slug": "beget-moodle-korporativnoe-obuchenie"
+    },
+    {
+      "id": 542,
+      "type": "post",
+      "slug": "beget-moodle-registraciya-istochnik"
+    },
+    {
+      "id": 543,
+      "type": "post",
+      "slug": "beget-moodle-kurs-obnovlenie"
+    },
+    {
+      "id": 544,
+      "type": "post",
+      "slug": "beget-moodle-vebinar-dostupy"
+    },
+    {
+      "id": 545,
+      "type": "post",
+      "slug": "beget-authelia-vnutrennie-instrumenty"
+    },
+    {
+      "id": 546,
+      "type": "post",
+      "slug": "beget-pochta-smena-sotrudnika"
+    },
+    {
+      "id": 547,
+      "type": "post",
+      "slug": "beget-imap-sinhronizaciya"
+    },
+    {
+      "id": 548,
+      "type": "post",
+      "slug": "beget-pochta-formy-nezavisimost"
+    },
+    {
+      "id": 549,
+      "type": "post",
+      "slug": "beget-cloud-mysql-kogda-vynos"
+    },
+    {
+      "id": 550,
+      "type": "post",
+      "slug": "beget-s3-stoimost-hraneniya"
+    },
+    {
+      "id": 551,
+      "type": "post",
+      "slug": "beget-cron-obmen-priemka"
+    },
+    {
+      "id": 552,
+      "type": "post",
+      "slug": "beget-cron-perekrutie-zadaniy"
+    },
+    {
+      "id": 553,
+      "type": "post",
+      "slug": "beget-n8n-obrashcheniya-marshrut"
+    },
+    {
+      "id": 554,
+      "type": "post",
+      "slug": "beget-n8n-dostupy-peredacha"
+    },
+    {
+      "id": 555,
+      "type": "post",
+      "slug": "beget-node-obrabotchik-vebhukov"
+    },
+    {
+      "id": 556,
+      "type": "post",
+      "slug": "beget-python-import-kataloga"
+    },
+    {
+      "id": 557,
+      "type": "post",
+      "slug": "beget-redis-spravochik-crm"
+    },
+    {
+      "id": 558,
+      "type": "post",
+      "slug": "beget-redis-seansy-sayta"
+    },
+    {
+      "id": 559,
+      "type": "post",
+      "slug": "beget-cron-otchet-analitika"
+    },
+    {
+      "id": 560,
+      "type": "post",
+      "slug": "beget-fonovaya-zadacha-otmena"
+    },
+    {
+      "id": 561,
+      "type": "post",
+      "slug": "beget-sentry-oshibka-zayavki"
+    },
+    {
+      "id": 562,
+      "type": "post",
+      "slug": "beget-seafile-peredacha-dokumentov"
+    },
+    {
+      "id": 563,
+      "type": "post",
+      "slug": "beget-vikunja-obrashcheniya-podderzhki"
+    },
+    {
+      "id": 564,
+      "type": "post",
+      "slug": "beget-markdown-baza-reglamentov"
+    },
+    {
+      "id": 565,
+      "type": "post",
+      "slug": "beget-lms-vybor-shared-vps"
+    },
+    {
+      "id": 566,
+      "type": "post",
+      "slug": "beget-obuchenie-dashbord-pokazateli"
+    },
+    {
+      "id": 567,
+      "type": "post",
+      "slug": "beget-multiakkaunt-klienty"
+    },
+    {
+      "id": 568,
+      "type": "post",
+      "slug": "beget-dostupy-karta-proekta"
+    },
+    {
+      "id": 569,
+      "type": "post",
+      "slug": "beget-dokumenty-zakryvayushchie"
+    },
+    {
+      "id": 570,
+      "type": "post",
+      "slug": "beget-support-zapros-diagnostika"
+    },
+    {
+      "id": 571,
+      "type": "post",
+      "slug": "beget-api-inventarizaciya"
+    },
+    {
+      "id": 572,
+      "type": "post",
+      "slug": "beget-plavayushchiy-ip-pereezd"
+    },
+    {
+      "id": 573,
+      "type": "post",
+      "slug": "beget-uslugi-nenuzhnyy-resurs"
+    }
+  ]
+}
