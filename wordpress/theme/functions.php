@@ -119,6 +119,18 @@ function sy3_cover_caption(int $attachment_id): string {
     return $caption;
 }
 
+function sy3_case_tags(int $post_id): void {
+    if (sy3_personal() || get_post_type($post_id) !== 'sy3_case') return;
+    $terms = get_the_terms($post_id, 'sy3_case_tag');
+    if (!$terms || is_wp_error($terms)) return;
+    $links = [];
+    foreach ($terms as $term) {
+        $url = get_term_link($term);
+        if (!is_wp_error($url)) $links[] = '<li><a href="' . esc_url($url) . '" rel="tag">' . esc_html($term->name) . '</a></li>';
+    }
+    if ($links) echo '<ul class="article-tags case-tags" aria-label="Теги кейса">' . implode('', $links) . '</ul>';
+}
+
 function sy3_post_card(WP_Post $item): void {
     $kind = ['sy3_case' => 'Кейс', 'sy3_service' => 'Направление', 'post' => 'Разбор', 'sy3_legacy' => 'Архив проекта'][$item->post_type] ?? 'Материал';
     $topic = get_post_meta($item->ID, '_sy3_label', true) ?: $kind;
@@ -134,7 +146,7 @@ function sy3_post_card(WP_Post $item): void {
         <div class="card-copy"><?php if (!$article): ?><p class="eyebrow"><?php echo esc_html($topic); ?></p><?php endif; ?>
         <h3><a href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo esc_html(get_the_title($item)); ?></a></h3>
         <p><?php echo esc_html(get_the_excerpt($item)); ?></p>
-        <?php $proof = get_post_meta($item->ID, '_sy3_proof', true); if (is_array($proof) && $proof): ?><div class="case-proof"><?php foreach ($proof as $fact): ?><span><?php echo esc_html($fact); ?></span><?php endforeach; ?></div><?php endif; ?>
+        <?php if ($item->post_type === 'sy3_case' && !sy3_personal()): sy3_case_tags($item->ID); else: $proof = get_post_meta($item->ID, '_sy3_proof', true); if (is_array($proof) && $proof): ?><div class="case-proof"><?php foreach ($proof as $fact): ?><span><?php echo esc_html($fact); ?></span><?php endforeach; ?></div><?php endif; endif; ?>
         <a class="text-link" href="<?php echo esc_url(get_permalink($item)); ?>"><?php echo $item->post_type === 'sy3_case' ? 'Читать кейс' : 'Подробнее'; ?></a></div>
     </article>
     <?php
