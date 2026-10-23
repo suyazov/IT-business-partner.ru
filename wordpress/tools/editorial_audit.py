@@ -452,7 +452,7 @@ def main():
     if out.resolve() == args.baseline.resolve():
         raise ValueError("Output must not overwrite input")
     with out.open("w", newline="") as f:
-        writer = csv.DictWriter(f, FIELDS)
+        writer = csv.DictWriter(f, FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(inventory)
     report = {
