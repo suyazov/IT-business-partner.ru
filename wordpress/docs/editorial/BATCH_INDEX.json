@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "91b6e9f09e30b1a8acc6843ce5e764bcd5ab25b0",
+  "source_git_commit": "4dab6c961c28fc6370a7addda32cfb1c8aabd133",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 139,
+  "prepared_objects": 159,
   "prepared_by_type": {
     "page": 3,
-    "post": 93,
+    "post": 113,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -530,6 +530,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 141,
+      "type": "post",
+      "slug": "pisma-s-sayta-v-crm",
+      "baseline_hash": "4a017f6ea2d88adbf4284597256b852704300551ba943c475b97afa49ea1b2d5",
+      "candidate_hash": "efe865c796b0213d19a382d1ea96cc6c8a3c7632bd35cbeee61ad2019e294597",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/pisma-s-sayta-v-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11502,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 150,
       "type": "post",
       "slug": "forma-otpravlena-no-zayavki-net",
@@ -550,6 +562,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-03/inventarizaciya-form-na-neskolkih-saytah.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
       "content_characters_declared": 11431,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 152,
+      "type": "post",
+      "slug": "antispam-bez-kapchi",
+      "baseline_hash": "18573f1da9736e0e62164a9b645508616d1499cf0524153fa255a0e34a6a2fab",
+      "candidate_hash": "3d2e2d5596d7c1834338d7dc37184e0a54848429b044f8e0c71360d955d29e3c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/antispam-bez-kapchi.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11988,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -578,6 +602,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 163,
+      "type": "post",
+      "slug": "upravlenie-promptom-iz-adminki",
+      "baseline_hash": "3074b9c98f442a74be602631733f9ec35f6fad5a6de0c633a399ce9210d6c09c",
+      "candidate_hash": "f6031d99555624a4d0d558abe6c08590a7553a1e85a761b9ed547520370fc713",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/upravlenie-promptom-iz-adminki.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11472,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 171,
       "type": "post",
       "slug": "odin-obekt-odin-list-a4",
@@ -602,6 +638,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 173,
+      "type": "post",
+      "slug": "mnogostranichnyy-pdf-iz-dannyh",
+      "baseline_hash": "d7de385ce2dc51d7fd62b293faf3cdce9deb0ac3a0dc5b9aa956789b01a3a591",
+      "candidate_hash": "87f167a62f3b3ebbda61649e4a39b0b08116c809aef9a1575a5554582a5fa350",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/mnogostranichnyy-pdf-iz-dannyh.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11836,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 182,
       "type": "post",
       "slug": "dvoinoe-bronirovanie-resursa",
@@ -622,6 +670,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-03/bronirovanie-neskolkih-ploshchadok.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-03/manifest.json",
       "content_characters_declared": 13974,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 184,
+      "type": "post",
+      "slug": "statusy-broni-i-zanyatost",
+      "baseline_hash": "051d66f104b737bbc7af0a7fbbc07a2a54ebbf585fbdbcfb06501c88d063cdd6",
+      "candidate_hash": "2b12c8099fb76c00ac88b9ea8d3f34e056262c963b9582ae84fa62ab872fccd3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/statusy-broni-i-zanyatost.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 14366,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1034,6 +1094,54 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 273,
+      "type": "post",
+      "slug": "www-bez-www-osnovnoy-domen",
+      "baseline_hash": "7f64fd4ee99a84a0ee28ef1167ada6afbde2aecbb8f25b6b5d1a2376a8829af4",
+      "candidate_hash": "7e6e6514e98ad058b30e580becbada4eaa387b1408a3c1a7a5f29ee8c30f9aae",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/www-bez-www-osnovnoy-domen.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11173,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 274,
+      "type": "post",
+      "slug": "stranica-404-pravilnyy-otvet",
+      "baseline_hash": "b5e127e2b85bebdaac185154f8f1554217cab55bdcd191826bc3c8768b2575ae",
+      "candidate_hash": "725926befde9d55130201f69c0e5d01feaf7cd46ea7cf8c066f28c0ca8645c3d",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/stranica-404-pravilnyy-otvet.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11123,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 275,
+      "type": "post",
+      "slug": "massovye-404-posle-perenosa",
+      "baseline_hash": "af4005da767204b90bffd153afd12aed17f658b5f8f16af60dc27aeea580780a",
+      "candidate_hash": "82b5fcc5820cead628492131595f65774f4d2b92ecac72eee49dab1fe38b73e7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/massovye-404-posle-perenosa.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 10617,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 276,
+      "type": "post",
+      "slug": "smena-domena-sohranenie-url",
+      "baseline_hash": "9b60b85e0189096d2c45f48134c74c8fc3f921043a60f4dd45c69948731c10cc",
+      "candidate_hash": "ba52b0051bb634707eabd85f5b9d795030e71621080932a58ce17b097947bbd3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/smena-domena-sohranenie-url.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 10618,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 281,
       "type": "post",
       "slug": "chto-vhodit-v-backup-wordpress",
@@ -1226,6 +1334,54 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 297,
+      "type": "post",
+      "slug": "utm-metki-v-crm-bitrix24",
+      "baseline_hash": "1d9a3b14a76fcbbbcf733cecf288039f9c41168f42159ac1e8f7fd84080959d6",
+      "candidate_hash": "68200a51b1883bbce2798e57c8c126a84fc6c7e9db1c57c9116447864e1cdbc8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/utm-metki-v-crm-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 10577,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 298,
+      "type": "post",
+      "slug": "roboty-ili-biznes-processy-bitrix24",
+      "baseline_hash": "d4ccc3b680200f7570fb045a68cb5c0ee8ed2c1187070ec3b5a993fae3aff957",
+      "candidate_hash": "353e99e73bd9642bbbfd05e2641b51b2a808123eed1e7110a089b855f798d8fa",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/roboty-ili-biznes-processy-bitrix24.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11569,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 299,
+      "type": "post",
+      "slug": "smart-processy-bitrix24-kogda-nuzhny",
+      "baseline_hash": "50941e379624f852b41238e145da71ef0aaa2679301613329b178f2837c53cbd",
+      "candidate_hash": "bb1ac3fec60f974d163c98f49b5c61181edd507b790f0f83d2ce358d0a0cae93",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/smart-processy-bitrix24-kogda-nuzhny.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11291,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 300,
+      "type": "post",
+      "slug": "prosrochennye-dela-crm-napominaniya",
+      "baseline_hash": "9bfe5f0c7e00b805973b8baedbcd6d3b8f79c83fe26665f07b89d198040234c0",
+      "candidate_hash": "d1922aa1346a8382b8b61f24d1a46ba124ece8c46c5f27b6b4dc877086fdea4e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/prosrochennye-dela-crm-napominaniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11478,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 305,
       "type": "post",
       "slug": "kak-opisat-biznes-process",
@@ -1318,6 +1474,54 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-04/oshibka-500-diagnostika.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
       "content_characters_declared": 12655,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 334,
+      "type": "post",
+      "slug": "oshibki-502-504-chto-proveryat",
+      "baseline_hash": "ada5e2b3b556e1beb8e017f41ec3b33c3fd8bfd4e1fddd18e853f894bdc2d7fc",
+      "candidate_hash": "3768b0257e497e4afc093874277264cb948e915a27e9b610de7e730e94baeb8e",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/oshibki-502-504-chto-proveryat.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11769,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 335,
+      "type": "post",
+      "slug": "belyy-ekran-wordpress",
+      "baseline_hash": "8204933da66ae007a03369488d5bd1488754c3f8e15230477f8ef9f8b13c8e6c",
+      "candidate_hash": "9cd7b6fcaa69f508021c0620e81e9f15fc1656b874122108ca8a6002b0311382",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/belyy-ekran-wordpress.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 12412,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 336,
+      "type": "post",
+      "slug": "monitoring-dostupnosti-sayta",
+      "baseline_hash": "183dce256e5af2d7d0369f322396fd5e7d10e0b46b71a0ba82222d4c450fa0db",
+      "candidate_hash": "9f86ba49920a91a249aedc16eb0928d140c1b423f001d4768e6d5d58c3d4cbd6",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/monitoring-dostupnosti-sayta.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 12094,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 337,
+      "type": "post",
+      "slug": "logirovanie-form-zayavok",
+      "baseline_hash": "c232997d4f29e3c15011a3404b38abbfa8140f732087830c714dc39eeea6c739",
+      "candidate_hash": "a8f21c8b0e2a9d130a53b9bf5c935abb36a8057d1d766115653871d3d42c9320",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/logirovanie-form-zayavok.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11380,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1438,6 +1642,42 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-04/kpi-biznes-processa.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-04/manifest.json",
       "content_characters_declared": 11754,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 354,
+      "type": "post",
+      "slug": "otsenka-effekta-avtomatizatsii",
+      "baseline_hash": "6735dc04a792c1d6f82c6458824eccfc5da3263b18c800fef511c7b4aa115179",
+      "candidate_hash": "c5f062ac4a20da06435d429c4bd1583cfd6d1d3166bb32a3d604c358579a18ef",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/otsenka-effekta-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11464,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 355,
+      "type": "post",
+      "slug": "prioritizatsiya-zadach-avtomatizatsii",
+      "baseline_hash": "8e0599633ac933715ca2c1c8161c178f18abf9771ab0d3ad5b38f9a5a1d0fd19",
+      "candidate_hash": "de11b4ce483228c2fefaf092813d1803a940150fbfa44ad4a23fee18d959d9eb",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/prioritizatsiya-zadach-avtomatizatsii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11043,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 356,
+      "type": "post",
+      "slug": "tehnicheskoe-zadanie-na-avtomatizatsiyu",
+      "baseline_hash": "4adf62486e170c7d1ff09db2d5ebb8b39b76e91ae10e816ba82ae1e835b05b73",
+      "candidate_hash": "ddf3da29f7aac37bf98f2fb4ef6ac00744760100df25b260c8b5a6f78f1cbbf8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-05/tehnicheskoe-zadanie-na-avtomatizatsiyu.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
+      "content_characters_declared": 11895,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1699,11 +1939,6 @@
       "slug": "journal"
     },
     {
-      "id": 141,
-      "type": "post",
-      "slug": "pisma-s-sayta-v-crm"
-    },
-    {
       "id": 142,
       "type": "post",
       "slug": "neaktivnye-sotrudniki-v-crm"
@@ -1737,11 +1972,6 @@
       "id": 149,
       "type": "post",
       "slug": "crm-kontrolnye-scenarii-kanalov"
-    },
-    {
-      "id": 152,
-      "type": "post",
-      "slug": "antispam-bez-kapchi"
     },
     {
       "id": 153,
@@ -1779,11 +2009,6 @@
       "slug": "integraciya-chtenie-ili-zapis"
     },
     {
-      "id": 163,
-      "type": "post",
-      "slug": "upravlenie-promptom-iz-adminki"
-    },
-    {
       "id": 164,
       "type": "post",
       "slug": "gostevoy-ai-chat"
@@ -1819,11 +2044,6 @@
       "slug": "granicy-ai-pomoshchnika"
     },
     {
-      "id": 173,
-      "type": "post",
-      "slug": "mnogostranichnyy-pdf-iz-dannyh"
-    },
-    {
       "id": 174,
       "type": "post",
       "slug": "versii-shablonov-dokumentov"
@@ -1857,11 +2077,6 @@
       "id": 180,
       "type": "post",
       "slug": "poshagovyy-konstruktor-dokumentov"
-    },
-    {
-      "id": 184,
-      "type": "post",
-      "slug": "statusy-broni-i-zanyatost"
     },
     {
       "id": 185,
@@ -2099,26 +2314,6 @@
       "slug": "biznes-brif-na-avtomatizatsiyu"
     },
     {
-      "id": 273,
-      "type": "post",
-      "slug": "www-bez-www-osnovnoy-domen"
-    },
-    {
-      "id": 274,
-      "type": "post",
-      "slug": "stranica-404-pravilnyy-otvet"
-    },
-    {
-      "id": 275,
-      "type": "post",
-      "slug": "massovye-404-posle-perenosa"
-    },
-    {
-      "id": 276,
-      "type": "post",
-      "slug": "smena-domena-sohranenie-url"
-    },
-    {
       "id": 277,
       "type": "post",
       "slug": "karta-staryh-novyh-url"
@@ -2139,26 +2334,6 @@
       "slug": "paginaciya-indeksaciya-canonical"
     },
     {
-      "id": 297,
-      "type": "post",
-      "slug": "utm-metki-v-crm-bitrix24"
-    },
-    {
-      "id": 298,
-      "type": "post",
-      "slug": "roboty-ili-biznes-processy-bitrix24"
-    },
-    {
-      "id": 299,
-      "type": "post",
-      "slug": "smart-processy-bitrix24-kogda-nuzhny"
-    },
-    {
-      "id": 300,
-      "type": "post",
-      "slug": "prosrochennye-dela-crm-napominaniya"
-    },
-    {
       "id": 301,
       "type": "post",
       "slug": "ne-rabotaet-robot-bitrix24"
@@ -2177,26 +2352,6 @@
       "id": 304,
       "type": "post",
       "slug": "obuchenie-i-priemka-crm"
-    },
-    {
-      "id": 334,
-      "type": "post",
-      "slug": "oshibki-502-504-chto-proveryat"
-    },
-    {
-      "id": 335,
-      "type": "post",
-      "slug": "belyy-ekran-wordpress"
-    },
-    {
-      "id": 336,
-      "type": "post",
-      "slug": "monitoring-dostupnosti-sayta"
-    },
-    {
-      "id": 337,
-      "type": "post",
-      "slug": "logirovanie-form-zayavok"
     },
     {
       "id": 338,
@@ -2227,21 +2382,6 @@
       "id": 343,
       "type": "post",
       "slug": "priemka-sayta-prakticheskiy-cheklist"
-    },
-    {
-      "id": 354,
-      "type": "post",
-      "slug": "otsenka-effekta-avtomatizatsii"
-    },
-    {
-      "id": 355,
-      "type": "post",
-      "slug": "prioritizatsiya-zadach-avtomatizatsii"
-    },
-    {
-      "id": 356,
-      "type": "post",
-      "slug": "tehnicheskoe-zadanie-na-avtomatizatsiyu"
     },
     {
       "id": 357,
