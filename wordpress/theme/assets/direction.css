@@ -1,5 +1,22 @@
 /* Load AFTER refinement.css. Main site only. No JavaScript required for visibility. */
 body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--accent:#d8f089;--dark:#202322;background:var(--paper);color:var(--ink)}
+.brand-sy3 .article-body .article-inline-cta{padding:28px;margin:40px 0;background:#edf2e3;border:1px solid #d5dfc6;border-radius:16px;min-width:0}
+.brand-sy3 .article-body .article-inline-cta:nth-of-type(even){background:#e8edf6;border-color:#d5deed}
+.brand-sy3 .article-body .article-inline-cta h3{font-size:27px;line-height:1.2;letter-spacing:-.035em;margin:0 0 14px;overflow-wrap:anywhere}
+.brand-sy3 .article-body .article-inline-cta p{font-size:17px;line-height:1.65;margin:0 0 18px}
+.brand-sy3 .article-body .article-inline-cta .article-cta-kicker{font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.brand-sy3 .article-cta-actions{display:flex;align-items:center;gap:12px 20px;flex-wrap:wrap}
+.brand-sy3 .article-body .article-cta-actions .button{min-height:48px;padding:13px 20px;font-size:15px;line-height:1.4;text-decoration:none;text-align:center;white-space:normal}
+.brand-sy3 .article-cta-alt{font-size:15px;min-height:48px;display:inline-flex;align-items:center}
+.brand-sy3 .article-body .article-inline-cta .article-cta-note{font-size:13px;line-height:1.6;margin:14px 0 0;color:var(--muted)}
+.brand-sy3 .article-body .article-faq{margin-top:48px;padding-top:28px;border-top:1px solid var(--line)}
+.brand-sy3 .article-body .article-faq h2{font-size:30px;line-height:1.2;letter-spacing:-.035em;margin:0 0 24px}
+.brand-sy3 .article-faq details{padding:18px 0;border-bottom:1px solid var(--line)}
+.brand-sy3 .article-faq summary{cursor:pointer;font-size:19px;line-height:1.45;font-weight:500;overflow-wrap:anywhere}
+.brand-sy3 .article-faq summary:focus-visible,.brand-sy3 .article-cta-alt:focus-visible{outline:2px solid var(--ink);outline-offset:5px;border-radius:3px}
+.brand-sy3 .article-body .article-faq details p{font-size:17px;line-height:1.75;margin:16px 0 0}
+.brand-sy3 .article-body .article-faq-jump{font-size:14px;margin:0 0 24px}
+@media(max-width:760px){.brand-sy3 .article-body .article-inline-cta{padding:20px;margin-block:30px}.brand-sy3 .article-body .article-inline-cta h3{font-size:24px}.brand-sy3 .article-body .article-inline-cta p{font-size:16px}.brand-sy3 .article-body .article-faq h2{font-size:28px}.brand-sy3 .article-faq summary{font-size:18px}.brand-sy3 .article-body .article-faq details p{font-size:16px}}
 .brand-sy3 .wrap,.brand-sy3 .section-inner{width:min(1392px,calc(100% - 96px))}
 .brand-sy3 .site-header,.home.brand-sy3 .site-header{height:100px;background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line)}
 .brand-sy3 .header-inner{width:min(1500px,calc(100% - 96px))}
