@@ -1,0 +1,2169 @@
+{
+  "batch": "drafts-04",
+  "source_base": "273d8b4",
+  "production_authority": false,
+  "database_changed": false,
+  "article_policy_changed": false,
+  "candidates": [
+    {
+      "id": 193,
+      "slug": "peredacha-rebenka-upolnomochennomu",
+      "type": "post",
+      "baseline_hash": "4f72158c9be10339811711bcb10bb9f48f3f969a53b84d1a1c53645638cb746c",
+      "file": "peredacha-rebenka-upolnomochennomu.html",
+      "candidate_hash": "db237e1e8005342c2139e1d0adb6d5869b00b62d46778d84e5c6c3895a035208",
+      "visible_chars": 12951,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убраны ранние утверждения о собственном внедрении полномочий и повторный обзор. Сохранена подробная методика: основание, актуальность, история, доступ, матрица тестов. Не заявляется внедрение процедуры в конкретном парке.",
+      "source_files": [
+        "wordpress/editorial/articles/06-education.md#id=52",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-52.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Кто может забрать ребёнка: почему контакт в CRM ещё не означает полномочие",
+        "post_excerpt": "В карточке есть несколько телефонов родственников. Сотрудник видит знакомое имя и считает, что человеку можно передать ребёнка. Для системы это опасная неоднозначность: контакт и разрешённое действие не равны.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:23",
+        "post_modified_gmt": "2026-10-22 21:30:23",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=193",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "052",
+          "_sy3_editorial_at": "1796799600",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "В карточке есть несколько телефонов родственников. Сотрудник видит знакомое имя и считает, что человеку можно передать ребёнка. Для системы это опасная неоднозначность: контакт и разрешённое действие не равны.",
+          "_sy3_label": "Процессы",
+          "_sy3_related": "",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 9,
+            "name": "Процессы",
+            "slug": "protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 9,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-52.csv",
+          "file": "wordpress/theme/assets/infographics/article-52.csv",
+          "sha256": "6cb3158a9d063686b21a1463927ca1178e3a35eecfa4e1b64f541a056fd8edcc"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-52.svg",
+          "file": "wordpress/theme/assets/infographics/article-52.svg",
+          "sha256": "336104170bc8d930c26f35349b2039883c7b732508622cd3c4e84c509d63ba89"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1593,
+        "protected_blocks": 4
+      },
+      "quality": {
+        "characters": 12951,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 330,
+      "slug": "staging-dlya-wordpress",
+      "type": "post",
+      "baseline_hash": "126a1d5a76fb6f6247907e800e0de071365a08cbe7cecf6177d4b9529d60fcfa",
+      "file": "staging-dlya-wordpress.html",
+      "candidate_hash": "2926dffac79fc050b8f5fe90f6500ee52d69588efd551c2bca9ba4e7c68048ae",
+      "visible_chars": 12448,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Вместо повторного введения — конфликт тестовой и актуальной рабочей базы. KEEP предметного разбора изоляции, переноса и проверки опубликованной версии. Стенд не приписан неподтверждённому клиентскому проекту.",
+      "source_files": [
+        "wordpress/search-content/articles/128-staging-dlya-wordpress.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.wordpress.org/advanced-administration/security/hardening/",
+            "https://developer.wordpress.org/advanced-administration/upgrade/upgrading/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Staging для WordPress: что проверять на стенде и что нельзя переносить обратно",
+        "post_excerpt": "Как связать staging с принятой версией, отделить код от свежих заказов и ручных правок и проверить доставку изменения на основном домене.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:21",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:21",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=330",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "128",
+          "_sy3_editorial_at": "1796799600",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как связать staging с принятой версией, отделить код от свежих заказов и ручных правок и проверить доставку изменения на основном домене.",
+          "_sy3_label": "Поддержка сайта",
+          "_sy3_related": "242",
+          "_thumbnail_id": "127"
+        },
+        "terms": [
+          {
+            "term_id": 21,
+            "name": "Поддержка сайта",
+            "slug": "podderzhka-sayta",
+            "term_group": 0,
+            "term_taxonomy_id": 21,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 127,
+          "alt": "Иллюстрация к статье «Как выбрать первый процесс для ИИ-автоматизации»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-launch.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-128.csv",
+          "file": "wordpress/theme/assets/infographics/article-128.csv",
+          "sha256": "ccd4dfadbe2bb419a68fe636bc18fba60def4504c5a2ffd180c2554bf4ca9be1"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-128.svg",
+          "file": "wordpress/theme/assets/infographics/article-128.svg",
+          "sha256": "03f05d0ed7322ea607fcdc0acb082e20ad7ba7f3c29af4ee750fd588b10983c8"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1958,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 12448,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 293,
+      "slug": "perenos-excel-v-bitrix24-crm",
+      "type": "post",
+      "baseline_hash": "27fb41141e92ff43e67d4794050d1cf5a97c39279463912e61e6ff83e83e7e20",
+      "file": "perenos-excel-v-bitrix24-crm.html",
+      "candidate_hash": "f3d2b58624fef00de7400ca9e1846150464996a5629cd15a5d33cc55155cc3ba",
+      "visible_chars": 11542,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Снят повтор краткой инструкции по настройкам; усилено различие технически завершённой загрузки и проверенного переноса. Старые сделки из исключённого объёма дверного проекта не представлены выполненной миграцией.",
+      "source_files": [
+        "wordpress/search-content/articles/149-perenos-excel-v-bitrix24-crm.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://helpdesk.bitrix24.ru/open/25999954/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Перенос Excel в CRM Битрикс24: подготовка файла, импорт и сверка результата",
+        "post_excerpt": "Как подготовить Excel к переносу в CRM: разделить сущности, сопоставить колонки, испытать CSV и сверить результат. Матрица проверки связей, дат и повторной загрузки.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=293",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "149",
+          "_sy3_editorial_at": "1796886000",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как подготовить Excel к переносу в CRM: разделить сущности, сопоставить колонки, испытать CSV и сверить результат. Матрица проверки связей, дат и повторной загрузки.",
+          "_sy3_label": "Битрикс24",
+          "_sy3_related": "9",
+          "_thumbnail_id": "129"
+        },
+        "terms": [
+          {
+            "term_id": 22,
+            "name": "Битрикс24",
+            "slug": "bitriks24",
+            "term_group": 0,
+            "term_taxonomy_id": 22,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 129,
+          "alt": "Иллюстрация к статье «Как принять автоматизацию: сценарий вместо списка настроек»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-acceptance.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-149.csv",
+          "file": "wordpress/theme/assets/infographics/article-149.csv",
+          "sha256": "cc428a5cff78f288b1b9e05c694ea300a42da28f3e91e1bf4a2238d09e86deb3"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-149.svg",
+          "file": "wordpress/theme/assets/infographics/article-149.svg",
+          "sha256": "39f43d997ec972eacae88dd7091e139d5d42c911b5c8448f54b2f86ee3049003"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2900,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 11542,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 350,
+      "slug": "avtomatizatsiya-soglasovaniya-dokumentov",
+      "type": "post",
+      "baseline_hash": "20435b93c43531693053384e0854513bc4b8c9b748574ebe747bba8468d612c8",
+      "file": "avtomatizatsiya-soglasovaniya-dokumentov.html",
+      "candidate_hash": "126282a8505f55acce8cbb0a9cdcd060546403bc781013fa00ea50bf240668a1",
+      "visible_chars": 11891,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Повтор вводной инструкции заменён конфликтом версий. Сохранены состояния, параллельные решения, замещение, доступ и матрица приёмки. Нет неподтверждённого кейса внедрения согласования.",
+      "source_files": [
+        "wordpress/search-content/articles/168-avtomatizatsiya-soglasovaniya-dokumentov.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://helpdesk.bitrix24.ru/open/21290220/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Автоматизация согласования документов: маршрут, версии и возврат на исправление",
+        "post_excerpt": "Как автоматизировать согласование документов с учётом версий и полномочий. Маршрут решений, возвраты, ожидания, отмена и матрица приёмки.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:22",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:22",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=350",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "168",
+          "_sy3_editorial_at": "1796972400",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как автоматизировать согласование документов с учётом версий и полномочий. Маршрут решений, возвраты, ожидания, отмена и матрица приёмки.",
+          "_sy3_label": "Бизнес-процессы",
+          "_sy3_related": "255",
+          "_thumbnail_id": "131"
+        },
+        "terms": [
+          {
+            "term_id": 23,
+            "name": "Бизнес-процессы",
+            "slug": "biznes-protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 23,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 131,
+          "alt": "Иллюстрация к статье «Как найти ручные операции, с которых стоит начать автоматизацию»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-workflow.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-168.csv",
+          "file": "wordpress/theme/assets/infographics/article-168.csv",
+          "sha256": "c09209152cebf908bbac77a2ac9416d671e3e7b120a0ae353ce71b7088970d62"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-168.svg",
+          "file": "wordpress/theme/assets/infographics/article-168.svg",
+          "sha256": "bf657523483b98fbbb30d4eb4c222d1e2bce1d13349db9b9566cbab418962f92"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2836,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 11891,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 203,
+      "slug": "zayavka-sayta-dolzhna-sohranyatsya",
+      "type": "post",
+      "baseline_hash": "e706d64da7af516192bc4997ec07feb7b402a5692e8ec08d982f0cf098cc1c93",
+      "file": "zayavka-sayta-dolzhna-sohranyatsya.html",
+      "candidate_hash": "4370deea0578757b4b73e6bc1a9c9ffd833dc87ec7ebdd9c267dc7eaf7a054d1",
+      "visible_chars": 13413,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Удалено неподтверждённое утверждение о выполненном собственном WordPress-хранилище. KEEP подробного проектирования состояний, повторов и защиты данных. Существующие ссылки на Маткласс и Formula Lead сохранены в исходном контексте.",
+      "source_files": [
+        "wordpress/editorial/articles/07-web.md#id=62",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-62.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "matklass",
+          "id": 19,
+          "url": "https://sy3.ru/cases/matklass/",
+          "body_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "VERIFIED",
+          "case_slug": "formula-lead",
+          "id": 33,
+          "url": "https://sy3.ru/cases/formula-lead/",
+          "body_hash": "c3e569a4990ca5a4e2341c525cb78a9454dec8da2cb4afe1e9566b102c2cff1f",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/202",
+            "https://developer.wordpress.org/plugins/creating-tables-with-plugins/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Уведомление потерялось, заявка осталась: зачем форме собственное хранилище",
+        "post_excerpt": "Владелец привык получать обращения в мессенджере. Однажды доставка перестаёт работать: изменились настройки, закончился доступ, внешний сервис недоступен. Если единственным результатом отправки было сообщение, ",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:23",
+        "post_modified_gmt": "2026-10-22 21:30:23",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=203",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "062",
+          "_sy3_editorial_at": "1797058800",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Владелец привык получать обращения в мессенджере. Однажды доставка перестаёт работать: изменились настройки, закончился доступ, внешний сервис недоступен. Если единственным результатом отправки было сообщение,",
+          "_sy3_label": "Сайты",
+          "_sy3_related": "242,33",
+          "_thumbnail_id": "131"
+        },
+        "terms": [
+          {
+            "term_id": 15,
+            "name": "Сайты",
+            "slug": "sayty",
+            "term_group": 0,
+            "term_taxonomy_id": 15,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 131,
+          "alt": "Иллюстрация к статье «Как найти ручные операции, с которых стоит начать автоматизацию»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-workflow.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-62.csv",
+          "file": "wordpress/theme/assets/infographics/article-62.csv",
+          "sha256": "e2195e7bd507ffbe03da36f755cd50459f7d8e7972269daaf2c1cdfe5df2f6dc"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-62.svg",
+          "file": "wordpress/theme/assets/infographics/article-62.svg",
+          "sha256": "01b65edaaabcfe0e0798a4469ef36466df56d5bdf244813d2fcfde73b604db37"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1839,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 13413,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 270,
+      "slug": "cikl-redirektov-kak-nayti",
+      "type": "post",
+      "baseline_hash": "20248be5b8bc3e1715789e0a96468d34dec0255f5d884f9de0e3bcbb621dd77c",
+      "file": "cikl-redirektov-kak-nayti.html",
+      "candidate_hash": "9e31cd78d97915bb65405e822b9f4b1b7a63edf5c674ba5b5128a27a37319e5c",
+      "visible_chars": 11220,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Вместо общей инструкции — наглядный конфликт владельцев адреса. KEEP диаграммы, таблиц и диагностики HTTP/HTTPS, слеша, прокси и входа. Исправление петли не приписано SEO-кейсу без такого факта.",
+      "source_files": [
+        "wordpress/search-content/articles/110-cikl-redirektov-kak-nayti.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+            "https://httpd.apache.org/docs/2.4/rewrite/remapping.html"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Цикл редиректов: как найти два конфликтующих правила",
+        "post_excerpt": "Как сохранить цепочку Location, найти противоречащие правила домена, протокола или сессии и подтвердить исправление цикла на реальном пользовательском пути.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=270",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "110",
+          "_sy3_editorial_at": "1797058800",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как сохранить цепочку Location, найти противоречащие правила домена, протокола или сессии и подтвердить исправление цикла на реальном пользовательском пути.",
+          "_sy3_label": "Техническое SEO",
+          "_sy3_related": "249",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 20,
+            "name": "Техническое SEO",
+            "slug": "tekhnicheskoe-seo",
+            "term_group": 0,
+            "term_taxonomy_id": 20,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-110.csv",
+          "file": "wordpress/theme/assets/infographics/article-110.csv",
+          "sha256": "0265259598359c535fc54ca3e9cd4d0141ceadb8dcc346973c0370801b95ac0f"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-110.svg",
+          "file": "wordpress/theme/assets/infographics/article-110.svg",
+          "sha256": "af47b766319dc8c58fd6f293269ebfd184eee166fe379ee4897f9fcf8f7b12b5"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2043,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 11220,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 331,
+      "slug": "prava-administratorov-wordpress",
+      "type": "post",
+      "baseline_hash": "7cfdda9d133055746fd5048142c6ab5fa5fea643dfd4ff3af8f99aca11b9a3f0",
+      "file": "prava-administratorov-wordpress.html",
+      "candidate_hash": "50ce244f477d8a00c1fbfa613ad1422d74472427395b333db0497971ef079a06",
+      "visible_chars": 12927,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Роль описана через рабочее действие, а не общие требования безопасности. KEEP проверки фактических capabilities, отдельных аккаунтов и завершения доступа. Не выдумана выполненная настройка ролей у портфельного клиента.",
+      "source_files": [
+        "wordpress/search-content/articles/129-prava-administratorov-wordpress.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.wordpress.org/advanced-administration/security/hardening/",
+            "https://wordpress.org/documentation/article/roles-and-capabilities/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Права администраторов WordPress: как дать сотруднику доступ к работе, а не ко всему сайту",
+        "post_excerpt": "Как подобрать роли WordPress по действиям сотрудника, проверить реальные полномочия и отозвать доступ без потери материалов и важных связей проекта.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:21",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:21",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=331",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "129",
+          "_sy3_editorial_at": "1797145200",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как подобрать роли WordPress по действиям сотрудника, проверить реальные полномочия и отозвать доступ без потери материалов и важных связей проекта.",
+          "_sy3_label": "Поддержка сайта",
+          "_sy3_related": "252",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 21,
+            "name": "Поддержка сайта",
+            "slug": "podderzhka-sayta",
+            "term_group": 0,
+            "term_taxonomy_id": 21,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-129.csv",
+          "file": "wordpress/theme/assets/infographics/article-129.csv",
+          "sha256": "6b49d74e9e139e554d8e56805fe5c49a46ab9851ff3da7abe4cec6ea299a5a30"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-129.svg",
+          "file": "wordpress/theme/assets/infographics/article-129.svg",
+          "sha256": "8240dc3a749de92910b5c5821f53bcde13f627106ca8e4c7017752382ae0372a"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1874,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 12927,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 294,
+      "slug": "podklyuchenie-pochty-k-crm",
+      "type": "post",
+      "baseline_hash": "59794430bfd1af944716acbb5f5e9f5728b8cd5a35a75598a97185cedf6d3b22",
+      "file": "podklyuchenie-pochty-k-crm.html",
+      "candidate_hash": "91ab674996b060c219fa6320170929d9ba69ca8eaab019bdba8dffb2176c5763",
+      "visible_chars": 13073,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сокращён повтор инструкции, введён конфликт письма и нужной сделки. Кейс дверной компании подтверждает многоканальный процесс; не добавлены неизвестные функции почтовой интеграции.",
+      "source_files": [
+        "wordpress/search-content/articles/150-podklyuchenie-pochty-k-crm.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "bitrix24-doors",
+          "id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://helpdesk.bitrix24.ru/open/18344444/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Подключение почты к CRM: как настроить общий ящик и проверить маршрут письма",
+        "post_excerpt": "Как подключить общий ящик к CRM и принять полный маршрут письма. Правила новых и повторных запросов, доступ менеджеров, вложения и проверка фактического ответа.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=294",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "150",
+          "_sy3_editorial_at": "1797231600",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как подключить общий ящик к CRM и принять полный маршрут письма. Правила новых и повторных запросов, доступ менеджеров, вложения и проверка фактического ответа.",
+          "_sy3_label": "Битрикс24",
+          "_sy3_related": "9,12",
+          "_thumbnail_id": "131"
+        },
+        "terms": [
+          {
+            "term_id": 22,
+            "name": "Битрикс24",
+            "slug": "bitriks24",
+            "term_group": 0,
+            "term_taxonomy_id": 22,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 131,
+          "alt": "Иллюстрация к статье «Как найти ручные операции, с которых стоит начать автоматизацию»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-workflow.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-150.csv",
+          "file": "wordpress/theme/assets/infographics/article-150.csv",
+          "sha256": "0d7c7b337135af9617224d14cc35c47cc7274c5d13b39b0fc25367c0702202dc"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-150.svg",
+          "file": "wordpress/theme/assets/infographics/article-150.svg",
+          "sha256": "1de009b9e4cf209c7af5d09b6ecb82f2e9551eb9e1db7d0f18309652f184ddf2"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2949,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 13073,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 213,
+      "slug": "status-gotovo-tolko-posle-rezultata",
+      "type": "post",
+      "baseline_hash": "fcd440bf9afabda8ffad9431c8865e6fdad1a614fa49e8d8afdc3d2790b8e1b1",
+      "file": "status-gotovo-tolko-posle-rezultata.html",
+      "candidate_hash": "b0e3912ef6e2f6977c6444bba489f27fcb16a7ecd2d9192b3378b34b872c8c10",
+      "visible_chars": 12481,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Удалены расплывчатые заявления о собственной системе исполнения. Добавлен подтверждённый LibertyGas с конкретной приёмкой и передачей. KEEP лестницы результатов, версий и достаточной проверки.",
+      "source_files": [
+        "wordpress/editorial/articles/08-operations.md#id=72",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-72.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "libertygas",
+          "id": 21,
+          "url": "https://sy3.ru/cases/libertygas/",
+          "body_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://docs.github.com/en/pull-requests/reference/pull-request-reviews"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Статус «готово» должен означать результат, который можно открыть и проверить",
+        "post_excerpt": "Подрядчик отправил отчёт о завершении. В нём перечислены выполненные команды, созданная ветка и успешные тесты. Заказчик открывает сайт и не видит изменения. Обе стороны говорят о разных точках завершения одной",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:44",
+        "post_modified_gmt": "2026-10-22 22:07:44",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=213",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "072",
+          "_sy3_editorial_at": "1797318000",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Подрядчик отправил отчёт о завершении. В нём перечислены выполненные команды, созданная ветка и успешные тесты. Заказчик открывает сайт и не видит изменения. Обе стороны говорят о разных точках завершения одной",
+          "_sy3_label": "Процессы",
+          "_sy3_related": "",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 9,
+            "name": "Процессы",
+            "slug": "protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 9,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 2,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-72.csv",
+          "file": "wordpress/theme/assets/infographics/article-72.csv",
+          "sha256": "cbd59194670d9abe5fac6d58959f8a2d4d19ef61a0b6a399712176407ffd3937"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-72.svg",
+          "file": "wordpress/theme/assets/infographics/article-72.svg",
+          "sha256": "e38afb4f46367f13d5db74bb9d31864a179badc85307e006262233087a9d679f"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1808,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 12481,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 351,
+      "slug": "marshrut-vhodyashchey-zayavki",
+      "type": "post",
+      "baseline_hash": "e883a91b03f417961c407804f47075e48da417ab824d0f51b8a83feaf61160ed",
+      "file": "marshrut-vhodyashchey-zayavki.html",
+      "candidate_hash": "13d234e00c0624bbf2bda08e0e84f22d768d84946e15999058729959f64d3203",
+      "visible_chars": 12717,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Вместо повторного обзора показан разрыв между назначением и принятием. Добавлено доказанное разделение курса/мероприятия, без названия клиента и выдуманного эффекта. Старая ссылка дверного кейса сохранена.",
+      "source_files": [
+        "wordpress/search-content/articles/169-marshrut-vhodyashchey-zayavki.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "bitrix24-training",
+          "id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "VERIFIED",
+          "case_slug": "bitrix24-doors",
+          "id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://asq.org/quality-resources/flowchart"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Маршрут входящей заявки: как настроить приём, назначение и передачу в работу",
+        "post_excerpt": "Как построить полный маршрут входящей заявки. Источники, классификация, приоритет правил, принятие ответственности и разбор неполных или повторных запросов.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:22",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:22",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=351",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "169",
+          "_sy3_editorial_at": "1797318000",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как построить полный маршрут входящей заявки. Источники, классификация, приоритет правил, принятие ответственности и разбор неполных или повторных запросов.",
+          "_sy3_label": "Бизнес-процессы",
+          "_sy3_related": "255,12",
+          "_thumbnail_id": "131"
+        },
+        "terms": [
+          {
+            "term_id": 23,
+            "name": "Бизнес-процессы",
+            "slug": "biznes-protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 23,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 131,
+          "alt": "Иллюстрация к статье «Как найти ручные операции, с которых стоит начать автоматизацию»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-workflow.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-169.csv",
+          "file": "wordpress/theme/assets/infographics/article-169.csv",
+          "sha256": "b6276759010f99d6e13f7001192fccb0b06f1e49d0acb986828b0a82ade1a45f"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-169.svg",
+          "file": "wordpress/theme/assets/infographics/article-169.svg",
+          "sha256": "065216078ce760fcedb40b572b9e9063373f17c1f4ea05352665cdc6da5382d4"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2862,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 12717,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 271,
+      "slug": "mixed-content-posle-https",
+      "type": "post",
+      "baseline_hash": "dd30d2b76e1cb262c1bb2c2e9d86bde76d8b83012546533dba7d1e349e8c6c9c",
+      "file": "mixed-content-posle-https.html",
+      "candidate_hash": "d0cbb8ef7279491bd0efd97065b0f431b08b67c00c388387b6091b7162075b31",
+      "visible_chars": 11706,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Снят повтор базового определения; точка входа — видимый сбой и источник запроса. KEEP различия типов ресурсов, структурированных настроек и обычных ссылок. SEO-кейс не выдан за исправление mixed content.",
+      "source_files": [
+        "wordpress/search-content/articles/111-mixed-content-posle-https.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Mixed_content"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Mixed content после перехода на HTTPS: где искать старые HTTP-ресурсы",
+        "post_excerpt": "Как найти HTTP-ресурс внутри HTTPS-страницы, определить источник адреса и проверить исправление на динамических блоках, мобильной версии и новых материалах.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=271",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "111",
+          "_sy3_editorial_at": "1797404400",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как найти HTTP-ресурс внутри HTTPS-страницы, определить источник адреса и проверить исправление на динамических блоках, мобильной версии и новых материалах.",
+          "_sy3_label": "Техническое SEO",
+          "_sy3_related": "249",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 20,
+            "name": "Техническое SEO",
+            "slug": "tekhnicheskoe-seo",
+            "term_group": 0,
+            "term_taxonomy_id": 20,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-111.csv",
+          "file": "wordpress/theme/assets/infographics/article-111.csv",
+          "sha256": "1a9a8fdb8dc1710dbabd0b808751ba3367763804d17bb869f6228643fbd252db"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-111.svg",
+          "file": "wordpress/theme/assets/infographics/article-111.svg",
+          "sha256": "8dede1480e9fffbd5c9da9533892bff5ed7fcb509bb96250ce8d07e64918fd46"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1939,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 11706,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 332,
+      "slug": "domen-na-vladelce-biznesa",
+      "type": "post",
+      "baseline_hash": "37a0001299bafa06e31e9ec844d3ad4279b0bf5216a8e91b9975613758695cf0",
+      "file": "domen-na-vladelce-biznesa.html",
+      "candidate_hash": "67274bc852f7a8ee165767968225b6f47cea4cadc07a2e8e90666f18470ed408",
+      "visible_chars": 12578,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Введение привязано к передаче сайта и восстановлению доступа. KEEP различий регистрации/DNS/хостинга, продления и зональных правил. Нет выдуманного клиентского конфликта или юридической гарантии.",
+      "source_files": [
+        "wordpress/search-content/articles/130-domen-na-vladelce-biznesa.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://www.icann.org/resources/pages/domain-name-registration-process-2023-11-02-en"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Домен на владельце бизнеса: что проверить до смены подрядчика",
+        "post_excerpt": "Что проверить в регистрации, DNS и продлении домена, чтобы бизнес управлял своим адресом и мог сменить подрядчика без случайного отключения сайта и почты.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:21",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:21",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=332",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "130",
+          "_sy3_editorial_at": "1797490800",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Что проверить в регистрации, DNS и продлении домена, чтобы бизнес управлял своим адресом и мог сменить подрядчика без случайного отключения сайта и почты.",
+          "_sy3_label": "Поддержка сайта",
+          "_sy3_related": "249",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 21,
+            "name": "Поддержка сайта",
+            "slug": "podderzhka-sayta",
+            "term_group": 0,
+            "term_taxonomy_id": 21,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-130.csv",
+          "file": "wordpress/theme/assets/infographics/article-130.csv",
+          "sha256": "c70bcee771877cf0b9020b7ca3dadf564c01d97f8d6bc809ec04a1b1e524daad"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-130.svg",
+          "file": "wordpress/theme/assets/infographics/article-130.svg",
+          "sha256": "a8fb8758e24791d467a245bc946a1302a07aef31976f8dfe8679b63a9d15abb7"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2184,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 12578,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 223,
+      "slug": "dvizhenie-deneg-i-pribyl-v-otchetah",
+      "type": "post",
+      "baseline_hash": "5c0d357e6fdc4a5f0737174ba03c39cbbd7124e1bac93ce64db02c251693e59f",
+      "file": "dvizhenie-deneg-i-pribyl-v-otchetah.html",
+      "candidate_hash": "66cd2ded9424185f51fffebd7c7f51a4d6a426d12ff9a8fc8ea470b6cfd27161",
+      "visible_chars": 11842,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Снято неподтверждённое описание финансового прототипа. Сохранены предметные различия событий, дат, состава и неизвестных данных. Примеры методические, IAS7 не представлен обязательным правилом любой компании.",
+      "source_files": [
+        "wordpress/editorial/articles/09-finance.md#id=82",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-82.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Деньги на счёте и прибыль: как не смешать два вопроса в одном отчёте",
+        "post_excerpt": "Руководитель открывает панель и видит зелёную сумму. Что она означает: поступления за месяц, разницу платежей или результат деятельности? Если подпись не совпадает с логикой расчёта, даже технически исправная с",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=223",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "082",
+          "_sy3_editorial_at": "1797577200",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Руководитель открывает панель и видит зелёную сумму. Что она означает: поступления за месяц, разницу платежей или результат деятельности? Если подпись не совпадает с логикой расчёта, даже технически исправная с",
+          "_sy3_label": "Финансы",
+          "_sy3_related": "",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 16,
+            "name": "Финансы",
+            "slug": "finansy",
+            "term_group": 0,
+            "term_taxonomy_id": 16,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-82.csv",
+          "file": "wordpress/theme/assets/infographics/article-82.csv",
+          "sha256": "f966173a89b31ef070dbae7d987eb9d1b990d819099b812ab75c8f9937dbf913"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-82.svg",
+          "file": "wordpress/theme/assets/infographics/article-82.svg",
+          "sha256": "005d83a556f5f876c3e9428101609525e8dc8b8685f6edbb2c86a806c4ca8121"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1871,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 11842,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 295,
+      "slug": "telefoniya-v-crm-bitrix24",
+      "type": "post",
+      "baseline_hash": "209841c210428637f1e4ae102af92323a987dae58d899684c784e8eeb156fce2",
+      "file": "telefoniya-v-crm-bitrix24.html",
+      "candidate_hash": "bbe7c5581b86c58191e2029e3d59a63dae2eb4b517365924280d58b8ccb7fb62",
+      "visible_chars": 12320,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Инструкция привязана к результату входящего звонка. KEEP технических вариантов и ограничений записи разговоров. Внешняя телефонная очередь не приписана дверному проекту, где была исключена из объёма.",
+      "source_files": [
+        "wordpress/search-content/articles/151-telefoniya-v-crm-bitrix24.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://helpdesk.bitrix24.ru/open/6450911/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Телефония в CRM Битрикс24: что выбрать и как проверить входящие звонки",
+        "post_excerpt": "Как выбрать подключение телефонии к Битрикс24 и проверить клиентский маршрут. Номер, устройства, очередь, карточки, пропущенные вызовы и границы поддержки.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=295",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "151",
+          "_sy3_editorial_at": "1797577200",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как выбрать подключение телефонии к Битрикс24 и проверить клиентский маршрут. Номер, устройства, очередь, карточки, пропущенные вызовы и границы поддержки.",
+          "_sy3_label": "Битрикс24",
+          "_sy3_related": "9",
+          "_thumbnail_id": "124"
+        },
+        "terms": [
+          {
+            "term_id": 22,
+            "name": "Битрикс24",
+            "slug": "bitriks24",
+            "term_group": 0,
+            "term_taxonomy_id": 22,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 124,
+          "alt": "Иллюстрация к статье «CRM уже есть, а заявки всё равно теряются: что проверить первым»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-crm.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-151.csv",
+          "file": "wordpress/theme/assets/infographics/article-151.csv",
+          "sha256": "c8a8cdd2d67ecdfe25e31d1e023053270f4d860c6e18f548b20befe90f7f339b"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-151.svg",
+          "file": "wordpress/theme/assets/infographics/article-151.svg",
+          "sha256": "a1ffcbdf349cda7796f64a9e36b1c2356d45fecccf77912aece789454cf4b82d"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2904,
+        "protected_blocks": 4
+      },
+      "quality": {
+        "characters": 12320,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 352,
+      "slug": "isklyucheniya-biznes-processa",
+      "type": "post",
+      "baseline_hash": "40e95d887a0b5dc472e721eca706fec393e7348331faa5bd4d7d54648b7412d6",
+      "file": "isklyucheniya-biznes-processa.html",
+      "candidate_hash": "6f66b63ea65bff81a0f62c2034ad9489b80a4fdbd0cfa18e79f5b9a80f4c3b89",
+      "visible_chars": 12591,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Введение через неизвестный исход и риск дубля. Добавлен аналитический HR-кейс в точной границе результата: требования, не внедрённый движок исключений. KEEP состояний и частичного выполнения.",
+      "source_files": [
+        "wordpress/search-content/articles/170-isklyucheniya-biznes-processa.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "crm-hr-requirements",
+          "id": 576,
+          "url": "https://sy3.ru/cases/crm-hr-requirements/",
+          "body_hash": "f93c6675f5918f47b4f6edb942cf93ae9e6af9833f1d6daf5efd0b4bf415e468",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://www.omg.org/spec/BPMN/2.0.2/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Исключения бизнес-процесса: как описать отказы, отмены и недостающие данные",
+        "post_excerpt": "Как проектировать исключения процесса. Неполнота, отказ, неизвестный результат, повтор и отмена с сохранением контекста и понятным владельцем решения.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:22",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:22",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=352",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "170",
+          "_sy3_editorial_at": "1797663600",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как проектировать исключения процесса. Неполнота, отказ, неизвестный результат, повтор и отмена с сохранением контекста и понятным владельцем решения.",
+          "_sy3_label": "Бизнес-процессы",
+          "_sy3_related": "255",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 23,
+            "name": "Бизнес-процессы",
+            "slug": "biznes-protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 23,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-170.csv",
+          "file": "wordpress/theme/assets/infographics/article-170.csv",
+          "sha256": "a124d78a959e65f2ecbf32210dcd88fc0ea7fe01cce23d7dab9c16ce27033004"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-170.svg",
+          "file": "wordpress/theme/assets/infographics/article-170.svg",
+          "sha256": "4b8b54fd63edc81f0d4931bd7bbb83cfbd7c8be7fac912728b1627c69a3a74ed"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2786,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 12591,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 272,
+      "slug": "srok-ssl-sertifikata-monitoring",
+      "type": "post",
+      "baseline_hash": "db4a6dd6ebe0b50a6c2fcb0bd353fdf5e77528a3b57db03f814064b7d95e206b",
+      "file": "srok-ssl-sertifikata-monitoring.html",
+      "candidate_hash": "15b97c421030894aef221da9834a1f9b9634c95f310571e837c60fa6c35cde64",
+      "visible_chars": 11621,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Убрано повторное введение о сроке; точка входа — расхождение выпуска и публичного соединения. Прекращение писем подтверждено официально; статичные сроки сертификатов и обещание круглосуточной реакции не добавлены.",
+      "source_files": [
+        "wordpress/search-content/articles/112-srok-ssl-sertifikata-monitoring.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://letsencrypt.org/docs/expiration-emails/",
+            "https://letsencrypt.org/docs/integration-guide/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Срок SSL-сертификата: проверять нужно тот сертификат, который видит посетитель",
+        "post_excerpt": "Почему успешный выпуск сертификата не подтверждает его применение и как проверить публичный TLS, автоматическое обновление и получение предупреждения ответственным.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=272",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "112",
+          "_sy3_editorial_at": "1797750000",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Почему успешный выпуск сертификата не подтверждает его применение и как проверить публичный TLS, автоматическое обновление и получение предупреждения ответственным.",
+          "_sy3_label": "Техническое SEO",
+          "_sy3_related": "249",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 20,
+            "name": "Техническое SEO",
+            "slug": "tekhnicheskoe-seo",
+            "term_group": 0,
+            "term_taxonomy_id": 20,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-112.csv",
+          "file": "wordpress/theme/assets/infographics/article-112.csv",
+          "sha256": "1a3128ac84e98c0e6d4aeed457039a93e09fdbacdccc020a42c5ab6d660d8b11"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-112.svg",
+          "file": "wordpress/theme/assets/infographics/article-112.svg",
+          "sha256": "916c26ba97317ec48c625c1e252b47b3cd40c29b7dd7720743767afda8e4597f"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2012,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 11621,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 233,
+      "slug": "gotovaya-sistema-ili-razrabotka",
+      "type": "post",
+      "baseline_hash": "74fc7a1cdcf5d2a1834047910a367f42d6c01d7c31956a2027af4b719d204041",
+      "file": "gotovaya-sistema-ili-razrabotka.html",
+      "candidate_hash": "9187145a81da3c60e04241b6967bc3977bd3f0649f532eb83a6d3a2eee9ebb7b",
+      "visible_chars": 13290,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Общее сравнение заменено выбором по одинаковым сценариям. Добавлены два подтверждённых разных решения без их вымышленной связи. KEEP TCO, контроля данных и границ прототипа; государственные правила GOV.UK не перенесены на частный бизнес.",
+      "source_files": [
+        "wordpress/editorial/articles/10-strategy.md#id=92",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-92.md",
+        "wordpress/longform/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "bitrix24-doors",
+          "id": 12,
+          "url": "https://sy3.ru/cases/bitrix24-doors/",
+          "body_hash": "816496233bc88b6d79567c4d72ea922f50d834b0a6199dfcb642d1003d0b3c80",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "VERIFIED",
+          "case_slug": "libertygas",
+          "id": 21,
+          "url": "https://sy3.ru/cases/libertygas/",
+          "body_hash": "fe2f715ea3d724ef4dfa71e75978a12cd835e000fb740f80159a26f141474e2d",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://www.gov.uk/service-manual/technology/choosing-technology-an-introduction"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Готовая система или своя разработка: что сравнивать кроме цены лицензии",
+        "post_excerpt": "Одни предлагают решить всё настройкой готовой CRM, другие сразу рисуют собственную платформу. Выбор часто превращается в спор технологий. Для бизнеса важнее другое: какой вариант поддержит нужный процесс и скол",
+        "post_status": "draft",
+        "post_date": "2026-10-22 21:45:16",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 01:07:45",
+        "post_modified_gmt": "2026-10-22 22:07:45",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=233",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "092",
+          "_sy3_editorial_at": "1797836400",
+          "_sy3_editorial_batch": "sy3-expertise-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Одни предлагают решить всё настройкой готовой CRM, другие сразу рисуют собственную платформу. Выбор часто превращается в спор технологий. Для бизнеса важнее другое: какой вариант поддержит нужный процесс и скол",
+          "_sy3_label": "Стратегия",
+          "_sy3_related": "",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 19,
+            "name": "Стратегия",
+            "slug": "strategiya",
+            "term_group": 0,
+            "term_taxonomy_id": 19,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-92.csv",
+          "file": "wordpress/theme/assets/infographics/article-92.csv",
+          "sha256": "816bb6dafe240217d6be0be8f1a7a8829449cb6414bbc1bd6613568d6a45dc6a"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-92.svg",
+          "file": "wordpress/theme/assets/infographics/article-92.svg",
+          "sha256": "e6f67164b849e88eef65111dc4083a30643c9ebf8a2b9d9698bbf9f99ad7b751"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1880,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 13290,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 333,
+      "slug": "oshibka-500-diagnostika",
+      "type": "post",
+      "baseline_hash": "e489848d19b1a5ad6d7069d3353f524a728ba26852e2a84793ccd70c295517cb",
+      "file": "oshibka-500-diagnostika.html",
+      "candidate_hash": "56574ce297d971b31eb6ad8450816057814892e8c1533908f151198959ac3dbe",
+      "visible_chars": 12655,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Снята повторная диагностика общего уровня. Добавлен проверенный критический WordPress-сбой с явным ограничением атрибуции HTTP-статуса. KEEP частичных эффектов формы и защищённых журналов.",
+      "source_files": [
+        "wordpress/search-content/articles/131-oshibka-500-diagnostika.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "design-moskva",
+          "id": 46,
+          "url": "https://sy3.ru/cases/design-moskva/",
+          "body_hash": "53763acecaf5110045100136916a08be2d1439dedc695219815cf03e4e4432e8",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/500",
+            "https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "Ошибка 500 на сайте: что собрать для диагностики и как не ухудшить ситуацию",
+        "post_excerpt": "Как локализовать ошибку 500 по точному запросу и журналу, проверить результат операции и подтвердить исправление без лишних повторов и случайных изменений.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:21",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:21",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=333",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "131",
+          "_sy3_editorial_at": "1797836400",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как локализовать ошибку 500 по точному запросу и журналу, проверить результат операции и подтвердить исправление без лишних повторов и случайных изменений.",
+          "_sy3_label": "Поддержка сайта",
+          "_sy3_related": "249",
+          "_thumbnail_id": "125"
+        },
+        "terms": [
+          {
+            "term_id": 21,
+            "name": "Поддержка сайта",
+            "slug": "podderzhka-sayta",
+            "term_group": 0,
+            "term_taxonomy_id": 21,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 125,
+          "alt": "Иллюстрация к статье «Как проверить путь заявки с сайта до CRM»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-audit.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-131.csv",
+          "file": "wordpress/theme/assets/infographics/article-131.csv",
+          "sha256": "7396ed047ce0a6f4f9624b136526911be0ac479f14fe8c7ef12c22ba557c9899"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-131.svg",
+          "file": "wordpress/theme/assets/infographics/article-131.svg",
+          "sha256": "60b2d63d4964461b667c685b2bd445828d213a61de747f783743f382be0505d1"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 1793,
+        "protected_blocks": 3
+      },
+      "quality": {
+        "characters": 12655,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 296,
+      "slug": "crm-forma-na-sayte-bitrix24",
+      "type": "post",
+      "baseline_hash": "c1bff4ab59a982526350449c9f60c2603a2dec5f975dac033ee6009bffdf87e4",
+      "file": "crm-forma-na-sayte-bitrix24.html",
+      "candidate_hash": "4e1dff85f2ce51717824189c169d836bd9fd8b48d95a4f64a8a1bab9cabfc0eb",
+      "visible_chars": 12205,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Сокращён дублирующий мини-гайд; сохранены полная карта данных и тестовые матрицы. Кейс Битрикс24 соответствует форме, Маткласс явно ограничен amoCRM. Не добавлены неизвестные клиентские проверки.",
+      "source_files": [
+        "wordpress/search-content/articles/152-crm-forma-na-sayte-bitrix24.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "bitrix24-training",
+          "id": 14,
+          "url": "https://sy3.ru/cases/bitrix24-training/",
+          "body_hash": "fb258d165825793c8f773cdf325e05b7cd1a42ee15796900fba74ab4730b445d",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "VERIFIED",
+          "case_slug": "matklass",
+          "id": 19,
+          "url": "https://sy3.ru/cases/matklass/",
+          "body_hash": "cb152c5fd3a2bb6d3ccfb81ca1d34ce7ae446a5f7108a1a22a14d4ecfc6c5315",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://helpdesk.bitrix24.ru/open/24730032/"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "CRM-форма на сайте: настройка полей, ответственного и проверка отправки",
+        "post_excerpt": "Как настроить CRM-форму на сайте от полей до принятой заявки. Карта данных, распределение, мобильный ввод, вложения и матрица контрольных отправок.",
+        "post_status": "draft",
+        "post_date": "2026-10-22 23:47:28",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-22 23:47:28",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=296",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "152",
+          "_sy3_editorial_at": "1797922800",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как настроить CRM-форму на сайте от полей до принятой заявки. Карта данных, распределение, мобильный ввод, вложения и матрица контрольных отправок.",
+          "_sy3_label": "Битрикс24",
+          "_sy3_related": "9,19",
+          "_thumbnail_id": "129"
+        },
+        "terms": [
+          {
+            "term_id": 22,
+            "name": "Битрикс24",
+            "slug": "bitriks24",
+            "term_group": 0,
+            "term_taxonomy_id": 22,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 129,
+          "alt": "Иллюстрация к статье «Как принять автоматизацию: сценарий вместо списка настроек»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-acceptance.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-152.csv",
+          "file": "wordpress/theme/assets/infographics/article-152.csv",
+          "sha256": "75e033273f15f3f4b7580ac95c891c2aba1028b03ffe746c0a44f3cfa2ecc3a6"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-152.svg",
+          "file": "wordpress/theme/assets/infographics/article-152.svg",
+          "sha256": "81ff20bd5e7b2985bb1f326abadc0a4d3a9e973272f467832a779d98c0c506f6"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 2872,
+        "protected_blocks": 4
+      },
+      "quality": {
+        "characters": 12205,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    },
+    {
+      "id": 353,
+      "slug": "kpi-biznes-processa",
+      "type": "post",
+      "baseline_hash": "b160d4f4a932e7a7d0c67762e52d3673d15ca7281d8255447e913af03f85ed22",
+      "file": "kpi-biznes-processa.html",
+      "candidate_hash": "af8c274b1dc014b6c1066c5a157bf05cf4288a62606c7fd2c5c585353940e06b",
+      "visible_chars": 11754,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "action": "TARGETED_REWRITE_KEEP_SUBSTANTIVE_ANALYSIS",
+      "reason": "Вместо повторной вводной — конфликт красивого KPI и результата. Добавлен подтверждённый анонимный дашборд найма без изобретения платформы и эффекта. KEEP формулы, календаря, выборки и изменений методики.",
+      "source_files": [
+        "wordpress/search-content/articles/171-kpi-biznes-processa.md",
+        "wordpress/search-content/manifest.json",
+        "wordpress/theme/functions.php"
+      ],
+      "evidence": [
+        {
+          "status": "VERIFIED",
+          "case_slug": "hiring-funnel-dashboard",
+          "id": 574,
+          "url": "https://sy3.ru/cases/hiring-funnel-dashboard/",
+          "body_hash": "23e27546858edd0192d8f565cfa6b751b5baa9c90af5843cb21547904e3ff2d1",
+          "scope": "Accepted public case only; no additional client functions, new live audit or business-effect claim."
+        },
+        {
+          "status": "ILLUSTRATIVE_EXAMPLE",
+          "scope": "Methodical examples remain explicitly illustrative; proposed tests are not client results."
+        },
+        {
+          "status": "PRIMARY_SOURCE_CHECKED",
+          "checked_on": "2026-10-23",
+          "urls": [
+            "https://www.iso.org/iso/iso9001_2015_process_approach.pdf"
+          ],
+          "scope": "Targeted documentation sections and claim boundaries; see REPORT.md. Not a complete standards audit or legal conclusion."
+        }
+      ],
+      "preserved": {
+        "post_title": "KPI бизнес-процесса: как выбрать показатели и задать правила расчёта",
+        "post_excerpt": "Как выбрать KPI процесса и задать воспроизводимую формулу. Единица учёта, события, исключения, контрольная выборка и ограничения управленческого отчёта.",
+        "post_status": "draft",
+        "post_date": "2026-10-23 00:30:22",
+        "post_date_gmt": "0000-00-00 00:00:00",
+        "post_modified": "2026-10-23 00:30:22",
+        "post_modified_gmt": "0000-00-00 00:00:00",
+        "post_author": "1",
+        "post_parent": "0",
+        "menu_order": "0",
+        "url": "https://sy3.ru/?p=353",
+        "meta": {
+          "_sy3_seed": "",
+          "_sy3_seed_hash": "",
+          "_sy3_editorial_key": "171",
+          "_sy3_editorial_at": "1798009200",
+          "_sy3_editorial_batch": "sy3-search-20261022",
+          "_sy3_editorial_review_hash": "",
+          "_sy3_description": "Как выбрать KPI процесса и задать воспроизводимую формулу. Единица учёта, события, исключения, контрольная выборка и ограничения управленческого отчёта.",
+          "_sy3_label": "Бизнес-процессы",
+          "_sy3_related": "254",
+          "_thumbnail_id": "128"
+        },
+        "terms": [
+          {
+            "term_id": 23,
+            "name": "Бизнес-процессы",
+            "slug": "biznes-protsessy",
+            "term_group": 0,
+            "term_taxonomy_id": 23,
+            "taxonomy": "category",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+          }
+        ],
+        "cover": {
+          "id": 128,
+          "alt": "Иллюстрация к статье «Где в автоматизации с ИИ оставить человека»",
+          "caption": "Редакционная иллюстрация Сутри.",
+          "url": "https://sy3.ru/wp-content/uploads/2026/10/editorial-control.webp"
+        }
+      },
+      "protected_artifacts": [
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-171.csv",
+          "file": "wordpress/theme/assets/infographics/article-171.csv",
+          "sha256": "f720b0d3499ba692dca36bd39e6672d279447d5bc19649a6cbba606db6f454bf"
+        },
+        {
+          "url": "https://sy3.ru/wp-content/themes/sy3/assets/infographics/article-171.svg",
+          "file": "wordpress/theme/assets/infographics/article-171.svg",
+          "sha256": "55d6d25f40fd6ea757b2b42f36a6a79a24b31e74f8df5b5ea6195e24d4a420ac"
+        }
+      ],
+      "audit": {
+        "removed_prefix_characters": 3267,
+        "protected_blocks": 5
+      },
+      "quality": {
+        "characters": 11754,
+        "table": true,
+        "diagram": true,
+        "complete": true
+      },
+      "quality_function_hash": "e29ed13c1583bf7b9476c79120551c6f0177435a290143cf8fd9c277884ba8da",
+      "review_hash_created": false,
+      "reader_test": "READER_TEST_NOT_RUN"
+    }
+  ]
+}
