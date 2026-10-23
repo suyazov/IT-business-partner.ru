@@ -74,8 +74,8 @@ function sy3_contact_url(): string { return sy3_personal() ? home_url('/contacts
 
 // Keep editor-owned article bodies intact while routing public contact links to the inbox.
 add_filter('the_content', fn($content) => sy3_personal() ? $content : str_replace(
-    ['https://t.me/moi_imperator', 'Обсудить задачу с Артёмом'],
-    ['https://t.me/sy3_support_bot?start=site_sy3', 'Обсудить проект'],
+    ['https://t.me/moi_imperator', 'Обсудить задачу с Артёмом', 'artem.suyazov@gmail.com'],
+    ['https://t.me/sy3_support_bot?start=site_sy3', 'Обсудить проект', 'help@sy3.ru'],
     $content
 ), 19);
 
