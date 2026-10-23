@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "1badc80079bc21f2d953e4a0d1a0d2acde8a0bca",
+  "source_git_commit": "3a10f44e57184dff34d84e4afe3e5cbba387f572",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 239,
+  "prepared_objects": 259,
   "prepared_by_type": {
     "page": 3,
-    "post": 193,
+    "post": 213,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -854,6 +854,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 196,
+      "type": "post",
+      "slug": "istoriyu-poseshcheniy-nelzya-perepisyvat",
+      "baseline_hash": "62c68f12abade3d81eaa8465873ead3da0d19b6fdc4ad66fbcb4c9ae40698f5b",
+      "candidate_hash": "dd916e355954349124574723fe6b6c74042023d4f8c5683d009f7d478e901b7c",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/istoriyu-poseshcheniy-nelzya-perepisyvat.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 13165,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 202,
       "type": "post",
       "slug": "cms-dlya-redaktora-a-ne-razrabotchika",
@@ -898,6 +910,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-08/korzina-i-checkout-odin-scenariy.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
       "content_characters_declared": 12191,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 206,
+      "type": "post",
+      "slug": "perenos-s-konstruktora-bez-zavisimostey",
+      "baseline_hash": "99d3dae5422fbff887e4f017216aa5e5195d1df40af8ec9e449cf1b9a571fe4a",
+      "candidate_hash": "85f00cc0c691bcb3d471a89dd1478689e0e12925fa52b6ee8eb4854ea02a1f5a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/perenos-s-konstruktora-bez-zavisimostey.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11637,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -950,6 +974,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 216,
+      "type": "post",
+      "slug": "izmeneniya-kotorye-mozhno-otmenit",
+      "baseline_hash": "c94a0e43e0a775d3d26603e9107a4eda8eb6c96ed5ce4c02a286af5ad05960cc",
+      "candidate_hash": "7dcde9fe7f8aef3d2127ad66c9f42773533b433d1d5ff0d40e711c63b4bd1c6b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/izmeneniya-kotorye-mozhno-otmenit.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 12613,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 222,
       "type": "post",
       "slug": "spravochnik-statey-operatsiy",
@@ -998,6 +1034,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 226,
+      "type": "post",
+      "slug": "versii-premialnyh-shem",
+      "baseline_hash": "382df450efc32751d1ec7cf926a17d3fbb8e0869f168b590cbeb1cdf3688ebe9",
+      "candidate_hash": "33e96f88ce977003c1776e68e09de244fb11c48d534b7af8e147e0cc216b0330",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/versii-premialnyh-shem.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11382,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 232,
       "type": "post",
       "slug": "granitsy-mvp-avtomatizatsii",
@@ -1042,6 +1090,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-08/vygruzki-i-perenosimost-dannyh.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-08/manifest.json",
       "content_characters_declared": 13393,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 236,
+      "type": "post",
+      "slug": "neskolko-kompaniy-v-odnoy-crm",
+      "baseline_hash": "34332b9e3f1e57b97eec3ba98b0f081acefc35742168ab9318c641eafe6fc52b",
+      "candidate_hash": "197439e281e5985d1afc275d4662ee60824b9434819835328464aee565b0f526",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/neskolko-kompaniy-v-odnoy-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 12787,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2714,6 +2774,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 500,
+      "type": "post",
+      "slug": "beget-mysql-polzovateli-servisov",
+      "baseline_hash": "c78f7bd138f6e1c4cf2e76f5021053e1157b2e98223d2041e3347c85c6bb3508",
+      "candidate_hash": "1288e21e7ca5a637a4ff25532e2322280148e33994d270855872e5075465e280",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-mysql-polzovateli-servisov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11382,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 515,
       "type": "post",
       "slug": "beget-pereezd-proverka-do-dns",
@@ -2810,6 +2882,126 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 523,
+      "type": "post",
+      "slug": "beget-db-rashozhdenie-istochnikov",
+      "baseline_hash": "b64f6b5b22e1ecf24344b36ce426d013c96ef414c65db90c86584507f7a8d6ca",
+      "candidate_hash": "b3a468892756cf91ef3d8c9d1b6dc94dac1128ce3ec969ac8be4aab0cfe3127b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-db-rashozhdenie-istochnikov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11382,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 524,
+      "type": "post",
+      "slug": "beget-s3-wordpress-media-migraciya",
+      "baseline_hash": "50eed810f3fe28d6b1bdef9e0c1fed56fac49d88ac66d2c393a670da44707893",
+      "candidate_hash": "c3f6dd9304bd44638f8604c75b0cf5216bbdb02d31021fb3e368f288aea5d35f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-wordpress-media-migraciya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10717,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 525,
+      "type": "post",
+      "slug": "beget-s3-zakrytye-dokumenty",
+      "baseline_hash": "c1bf9f92443e8818519fb19d59336185923403aae27632361aa6f50c354e866f",
+      "candidate_hash": "2d0e6a827d0a4adf56185e6cefeb301d4431b1da6e7ce41c15885f569bb280fb",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-zakrytye-dokumenty.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10752,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 526,
+      "type": "post",
+      "slug": "beget-s3-imya-fayla-versii",
+      "baseline_hash": "956a5424eac1f6fb2d729095d53b917fdab472ec0da75f799725c28b5465a43f",
+      "candidate_hash": "0fa60fa909c2eae1ff0227b0ea48d8c8cb3082fc1640fd98af20f6fc3568ec49",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-imya-fayla-versii.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10899,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 527,
+      "type": "post",
+      "slug": "beget-s3-wordpress-backup-uchyot",
+      "baseline_hash": "8d94a95488682fbabd263335869261323843c6e1cfe923913e392a6e01f6aa9a",
+      "candidate_hash": "37cb4bc5564e325b759d0b4ac1410bef3c1b3e6f12ef9fa9ccb20b85b9e149f7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-wordpress-backup-uchyot.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11920,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 528,
+      "type": "post",
+      "slug": "beget-s3-perenos-sverka",
+      "baseline_hash": "f721db1a3a81d1e3e5302a935febfc174560e6d47fb705f46c13e9bed84728ca",
+      "candidate_hash": "7c9d8991bc2784b1b7d0d0ed5111e5e761be381554a8e83677e9b60936219948",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-perenos-sverka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10801,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 529,
+      "type": "post",
+      "slug": "beget-rclone-biznes-fayly",
+      "baseline_hash": "50eb22d9f6fc287b6a3d37f53c0a668f71f18ffec7c04b889be293ed52a11d3b",
+      "candidate_hash": "3d2f7f2db5dbf0e90c92d64ceb388c9ce0ef0b324455914cb1332fd1799ed419",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-rclone-biznes-fayly.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11052,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 530,
+      "type": "post",
+      "slug": "beget-s3-bitrix-kartochki",
+      "baseline_hash": "80c8c4a0626aed1ea437c1634ac8da72ba54e748808efcbda75cf916830a07cc",
+      "candidate_hash": "2cf11453f6ff404ce35c2e648af4997000b7d38d4035237c8270c20097c4c7ee",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-bitrix-kartochki.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10796,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 531,
+      "type": "post",
+      "slug": "beget-cdn-wordpress-obnovlenie",
+      "baseline_hash": "4205366251230563cfb7ac01a011a07931ebaa88ba2144fa9dfb9e54870b162b",
+      "candidate_hash": "5b14c99569fe2ce2b61dfea3798a5b377ffb4ff28b9f3a1577b8dd1691ff1c8a",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-cdn-wordpress-obnovlenie.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10920,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 532,
+      "type": "post",
+      "slug": "beget-cdn-lichnyy-kabinet",
+      "baseline_hash": "828220c3690be660c18be9c642126377743c52e9b3807a29aed0b4cb1604faa8",
+      "candidate_hash": "0abcb1371c9211cf66a93376ad84287df8acddc2ac35490beaea02b763501f7b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-cdn-lichnyy-kabinet.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11474,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 546,
       "type": "post",
       "slug": "beget-pochta-smena-sotrudnika",
@@ -2854,6 +3046,54 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-09/beget-cloud-mysql-kogda-vynos.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-09/manifest.json",
       "content_characters_declared": 12885,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 550,
+      "type": "post",
+      "slug": "beget-s3-stoimost-hraneniya",
+      "baseline_hash": "02d245a8d0b4172a4787bf7a565e4a18b19025c8a5793b9e3b5f8f55a95ee33c",
+      "candidate_hash": "dea7f5268c7a1464e11375b52b6ef3befca0bd350ef9b4cf91b0d345e6f8aabd",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-s3-stoimost-hraneniya.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 11512,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 551,
+      "type": "post",
+      "slug": "beget-cron-obmen-priemka",
+      "baseline_hash": "351a3df49e805cc707798a471b7766aaa3ecb1457b14db4bebd38f8430c4ef08",
+      "candidate_hash": "0331c7b6efddc760589eff500b82424629ef2cff7433712f48be659aafbf21a1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-cron-obmen-priemka.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10994,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 552,
+      "type": "post",
+      "slug": "beget-cron-perekrutie-zadaniy",
+      "baseline_hash": "9c8dd5f7e440c4ca0d4ac31aba63b157e5bf3c5ddedf9d418b7d99c45a152c52",
+      "candidate_hash": "d0f7a2d643bb40568d27de6b50bcd315d87003e62e3bfba2e0620c3ef9eace70",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-cron-perekrutie-zadaniy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10831,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 553,
+      "type": "post",
+      "slug": "beget-n8n-obrashcheniya-marshrut",
+      "baseline_hash": "deaa05c462aba3d555e62aa72a554f90117e2e532f9d1c5b909cc66602d378b8",
+      "candidate_hash": "0679441428c44b1ecdf872ccca3314af7fa72e910edf23385672f21b85de0695",
+      "new_version": "wordpress/docs/editorial/batches/drafts-10/beget-n8n-obrashcheniya-marshrut.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-10/manifest.json",
+      "content_characters_declared": 10979,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -3024,11 +3264,6 @@
       "slug": "bron-i-oplata-raznye-sobytiya"
     },
     {
-      "id": 196,
-      "type": "post",
-      "slug": "istoriyu-poseshcheniy-nelzya-perepisyvat"
-    },
-    {
       "id": 197,
       "type": "post",
       "slug": "offline-dannye-nuzhno-podtverzhdat"
@@ -3052,11 +3287,6 @@
       "id": 201,
       "type": "post",
       "slug": "ot-zayavki-do-zachisleniya"
-    },
-    {
-      "id": 206,
-      "type": "post",
-      "slug": "perenos-s-konstruktora-bez-zavisimostey"
     },
     {
       "id": 207,
@@ -3084,11 +3314,6 @@
       "slug": "lending-s-oplatoy-bez-bolshogo-magazina"
     },
     {
-      "id": 216,
-      "type": "post",
-      "slug": "izmeneniya-kotorye-mozhno-otmenit"
-    },
-    {
       "id": 217,
       "type": "post",
       "slug": "prava-ai-na-deystviya"
@@ -3114,11 +3339,6 @@
       "slug": "kak-prinimat-razrabotku-s-pomoshchyu-ai"
     },
     {
-      "id": 226,
-      "type": "post",
-      "slug": "versii-premialnyh-shem"
-    },
-    {
       "id": 227,
       "type": "post",
       "slug": "edinyy-spravochnik-sotrudnikov"
@@ -3142,11 +3362,6 @@
       "id": 231,
       "type": "post",
       "slug": "audit-pered-perenosom-sistemy"
-    },
-    {
-      "id": 236,
-      "type": "post",
-      "slug": "neskolko-kompaniy-v-odnoy-crm"
     },
     {
       "id": 237,
@@ -3177,11 +3392,6 @@
       "id": 391,
       "type": "post",
       "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
-    },
-    {
-      "id": 500,
-      "type": "post",
-      "slug": "beget-mysql-polzovateli-servisov"
     },
     {
       "id": 501,
@@ -3254,56 +3464,6 @@
       "slug": "beget-ekspluatacionnyy-pasport"
     },
     {
-      "id": 523,
-      "type": "post",
-      "slug": "beget-db-rashozhdenie-istochnikov"
-    },
-    {
-      "id": 524,
-      "type": "post",
-      "slug": "beget-s3-wordpress-media-migraciya"
-    },
-    {
-      "id": 525,
-      "type": "post",
-      "slug": "beget-s3-zakrytye-dokumenty"
-    },
-    {
-      "id": 526,
-      "type": "post",
-      "slug": "beget-s3-imya-fayla-versii"
-    },
-    {
-      "id": 527,
-      "type": "post",
-      "slug": "beget-s3-wordpress-backup-uchyot"
-    },
-    {
-      "id": 528,
-      "type": "post",
-      "slug": "beget-s3-perenos-sverka"
-    },
-    {
-      "id": 529,
-      "type": "post",
-      "slug": "beget-rclone-biznes-fayly"
-    },
-    {
-      "id": 530,
-      "type": "post",
-      "slug": "beget-s3-bitrix-kartochki"
-    },
-    {
-      "id": 531,
-      "type": "post",
-      "slug": "beget-cdn-wordpress-obnovlenie"
-    },
-    {
-      "id": 532,
-      "type": "post",
-      "slug": "beget-cdn-lichnyy-kabinet"
-    },
-    {
       "id": 533,
       "type": "post",
       "slug": "beget-logs-edinaya-kartina"
@@ -3367,26 +3527,6 @@
       "id": 545,
       "type": "post",
       "slug": "beget-authelia-vnutrennie-instrumenty"
-    },
-    {
-      "id": 550,
-      "type": "post",
-      "slug": "beget-s3-stoimost-hraneniya"
-    },
-    {
-      "id": 551,
-      "type": "post",
-      "slug": "beget-cron-obmen-priemka"
-    },
-    {
-      "id": 552,
-      "type": "post",
-      "slug": "beget-cron-perekrutie-zadaniy"
-    },
-    {
-      "id": 553,
-      "type": "post",
-      "slug": "beget-n8n-obrashcheniya-marshrut"
     },
     {
       "id": 554,

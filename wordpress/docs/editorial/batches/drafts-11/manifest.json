@@ -1,0 +1,456 @@
+{
+  "candidates": [
+    {
+      "id": 145,
+      "slug": "prodazhi-i-servis-v-crm",
+      "type": "post",
+      "baseline_hash": "8d5b1bdb6a1118d91398f74a6b277c2afb8f77121bf821e5a153c2df449166ef",
+      "file": "prodazhi-i-servis-v-crm.html",
+      "candidate_hash": "62d81cccf6aa93712f211f3682234e98bd2236874d7a609b35bee16cd3055234",
+      "visible_chars": 11985,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/01-crm.md#id=6",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-6.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полноценно прочитаны longform6 и runtime. Удалены три кратких повторяющих раздела; основная последовательная методика передачи сохранена.",
+        "cases.json bitrix24-doors подтверждает структуру5сотрудников/3продажи/2сервис и очередь новых обращений; эти факты отделены от проектируемого маршрута сервисной приёмки.",
+        "Добавлены разные роли покупателя/встречающего и противоположный сценарий без выезда; это методические примеры, не клиентские результаты.",
+        "Битрикс24 смена ответственного/права к делам открыты23.10.2026; автор не обещает, что смена владельца автоматически передаёт все доступы и обязательства."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 554,
+      "slug": "beget-n8n-dostupy-peredacha",
+      "type": "post",
+      "baseline_hash": "61ddbf4b8dc7eff4285daa25fe488b21f478393704369c1a419754d89c35ee04",
+      "file": "beget-n8n-dostupy-peredacha.html",
+      "candidate_hash": "0a17efaf4373c716f80180fa530ab534e2a16bf3f76a71df186c6ab2f72a1403",
+      "visible_chars": 10843,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/255-beget-n8n-dostupy-peredacha.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source255/runtime. Уже различены экспорт схемы, инфраструктура, внешние полномочия, шифрование и самостоятельность продолжения; дополнительная глава не нужна.",
+        "n8n encryption key и Beget n8n открыты23.10.2026: зависимость сохранённых подключений от ключа не подменена обещанием достаточности одной копииБД.",
+        "Учебная связка почта/CRM не приписана реальному внедрению; доступы и ключи не опубликованы.",
+        "Заменены scope/обобщённое мы, партнёрский доход ограничен участвующими услугами, CTA от первого лица."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 555,
+      "slug": "beget-node-obrabotchik-vebhukov",
+      "type": "post",
+      "baseline_hash": "4eef55ee8af8bbb8170021941b4705f4cfd57bd00efe288482fddf6f9a883c74",
+      "file": "beget-node-obrabotchik-vebhukov.html",
+      "candidate_hash": "e78e4c5d24593f0e8a065914c0626ddad378c0c5cba60488604242f470b9ea54",
+      "visible_chars": 10908,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/256-beget-node-obrabotchik-vebhukov.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source256/runtime. Уже содержатся паспорт события, устойчивый приём, порядок сообщений, частичный успех и потерянное подтверждение; добавление типовых глав было бы повтором.",
+        "MDN202 и GitHub webhook best practices открыты23.10.2026:202не подтверждает завершение, поставщик задаёт свой контракт. GitHub-протокол не распространён на CRM.",
+        "Учебная CRM-ситуация не названа внедрением, Node.js/Beget не представлены готовой идемпотентностью.",
+        "Только точечная редактура первого лица вaffiliate и предметный CTA; сохраняются все блоки/ссылки."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 556,
+      "slug": "beget-python-import-kataloga",
+      "type": "post",
+      "baseline_hash": "64bbb6b5d7918a0816cb375c61d17352f850ee58e4b19f0a8d7e1bb489441103",
+      "file": "beget-python-import-kataloga.html",
+      "candidate_hash": "16ec538d9d4254f8f13dd4660375058125e7d7becc72be8d0f8da20b23366c64",
+      "visible_chars": 11116,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/257-beget-python-import-kataloga.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source257/runtime, содержат конкретные ключи, пустоты, полныйсрез/дельту, dry-runidentity и семь испытаний, без недоказанного клиентского кейса.",
+        "Официальный Python CSV и Beget Python открыты23.10.2026; синтаксическое чтение не приравнено к числовой/справочной корректности. Не добавлены установка/версии/неподтверждённые библиотеки.",
+        "План привязан к неизменному пакету и актуальному состоянию, прямая запись не обещает всех эффектов приложения.",
+        "Партнёрская формулировка уточнена по участвующим услугам, CTA предлагает небольшой контрольный пакет и личную роль."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 155,
+      "slug": "glavnaya-sistema-dlya-kazhdogo-polya",
+      "type": "post",
+      "baseline_hash": "b07162303b6fb149e9857b871a2653c639edc058613e3c4a20aaf9fc5bb306cc",
+      "file": "glavnaya-sistema-dlya-kazhdogo-polya.html",
+      "candidate_hash": "6899efb4b42cf7f55fbc1ffb26864d96025bc096476ad4a14394e014666a0d20",
+      "visible_chars": 11644,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/02-integrations.md#id=16",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-16.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform16/runtime; удалены три ранних кратких повтора, сохранены карта владения/история/петля обмена.",
+        "Добавлен последовательный набор архив→подтверждённая новая правка→очистка/отсутствие. Он проверяет право изменения, а не только результат копирования.",
+        "CloudEvents v1.0.2 и MDN PATCH открыты23.10.2026; идентичность события не подменяет бизнесовую версию, семантика null определяется конкретным форматом/контрактом.",
+        "Нет придуманных внедрений/результатов; CTAотпервоголица предлагает конкретный спорный объект."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 557,
+      "slug": "beget-redis-spravochik-crm",
+      "type": "post",
+      "baseline_hash": "6cb752e0e0e3896eafce037033bfdc90474158dc521281303e96ea8105003045",
+      "file": "beget-redis-spravochik-crm.html",
+      "candidate_hash": "4899860afd3f16ea938d4fb141a782b86a051e6867674b12343245ef97f39251",
+      "visible_chars": 11416,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/258-beget-redis-spravochik-crm.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source258/runtime; предметно различены TTL/бизнесовая свежесть, пустойсписок/ошибка, области компаний и проверка конечного действия.",
+        "Redis EXPIRE и Beget Redis открыты23.10.2026; срок жизни ключа не представлен механизмом синхронизации всех изменений источника.",
+        "Учебная категория CRM не выдана за реально доступное событие API или внедрение; полный контракт источника требуется отдельно.",
+        "Уточнены первое лицо/условия affiliate; без добавления общих глав, исходные матрицы и диаграмма сохранены."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 558,
+      "slug": "beget-redis-seansy-sayta",
+      "type": "post",
+      "baseline_hash": "1a9c78fb394c3b85a030014e98ce1f940cee6011407dfaa0b0ba0d68f8db0c36",
+      "file": "beget-redis-seansy-sayta.html",
+      "candidate_hash": "a1aa9e4b13d892057632814e5d2429a4ae5618836e73c1c9b35e8784c224a61c",
+      "visible_chars": 12535,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/259-beget-redis-seansy-sayta.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source259/runtime; предметно различены сессия, бизнес-факт,TTL,сохранение,вытеснение, повторы и отозванные права.",
+        "Redis persistence/eviction и Beget Redis открыты23.10.2026: RDB/AOFне обещают сохранность любого последнего действия; конкретный эффект зависит от конфигурации.",
+        "Повторный заказ после ошибки сессии разобран как учебный прикладной запрос, не как установленный дефект Redis/клиентский результат.",
+        "Нет массовых команд очистки или обещания сохранности всей незавершённой работы; affiliate и CTAточечнопервое лицо."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 559,
+      "slug": "beget-cron-otchet-analitika",
+      "type": "post",
+      "baseline_hash": "013d4754c9749cadce1896b54259fe585465403f1c43e38b7792c8ba0cf9c2cd",
+      "file": "beget-cron-otchet-analitika.html",
+      "candidate_hash": "d5b4c248e5a996f4a4d8818f9530ddda2b51d172b5614fa7da95013a763db63f",
+      "visible_chars": 12242,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/260-beget-cron-otchet-analitika.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source260/runtime. Уже есть период/часовойпояс,пагинация,кандидатvsпубликация,контрольхешаvsполноты,JOIN и конкурентные сборки.",
+        "Beget CronTab открыт23.10.2026; расписание не названо проверкой бизнесовой полноты. Microsoft Retry checked ранее темжередакторскимэтапом; ограниченныеповторынеуниверсальныдляэффектов.",
+        "Сумма платежей не приравнена к заказам; закрытие периода и допустимая задержка согласуются владельцем.",
+        "Никаких реальных цифр/внедрения/расписания не добавлено; сохранены подробности и прямой личный CTA."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 166,
+      "slug": "golosovoe-soobshchenie-v-zadachu",
+      "type": "post",
+      "baseline_hash": "9ef116d82287a4c9d9e52627b12726463a2f05eeb83ac78e4cc1de225f017ee0",
+      "file": "golosovoe-soobshchenie-v-zadachu.html",
+      "candidate_hash": "84ceadad7cc06ef7021c10a8f71b8c7faf8be256e018550fe95131bfc5ba299a",
+      "visible_chars": 11426,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/03-ai.md#id=26",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-26.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform26/runtime. Удалены три кратких повторяющих раздела и недостаточно подтверждённая личная формулировка о готовой системе.",
+        "Добавлены последовательные контрпримеры: поздняя отмена исполнения в пользу оценки, точечная правка числа, тотжеаудиофайлдляиногообъекта; это методические тесты, не внедрения.",
+        "OWASP Authorization и IIBAtraceability прочитаны в текущем этапе; исходная потребность/подтверждение/полномочия не объявлены взаимозаменяемыми.",
+        "Нет API-рецептов/обещаний распознавания безошибок; сохранены матрицы, схема и документальные href."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 560,
+      "slug": "beget-fonovaya-zadacha-otmena",
+      "type": "post",
+      "baseline_hash": "d7ede53cf211eb8e6636836c7efb5c1f0506f545e2f33b1802473ef08c48f272",
+      "file": "beget-fonovaya-zadacha-otmena.html",
+      "candidate_hash": "d5c95247a131a9ec7e13135a88ebc1f4858c38bb2d332bcae63b70c076e429f0",
+      "visible_chars": 12346,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/261-beget-fonovaya-zadacha-otmena.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: source261/runtime полностью прочитаны; текст уже отделяет приём/расписание/очередь/исполнителя, неизвестныйрезультат,остаток и проверку старогоформата.",
+        "BegetCronTab проверен23.10.2026, MicrosoftRetry ранее в текущем этапе; остановка будущих запусков не приравнена к завершению активного процесса.",
+        "Все сценарии проектные/учебные, отсутствует универсальная kill-команда или обещание безопасного повтора любого API.",
+        "Партнёрское раскрытие исправлено по первому лицу/участвующим услугам; практический CTAбезобещаний."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 561,
+      "slug": "beget-sentry-oshibka-zayavki",
+      "type": "post",
+      "baseline_hash": "7e6c52d5f25660912c1ee14bab51d932ea41ae75f2439132bd3d413afb01faa5",
+      "file": "beget-sentry-oshibka-zayavki.html",
+      "candidate_hash": "8d5b05ee36eaa277c99f78969b763e976e5009b1f3b1b2f186fcb99a6225742f",
+      "visible_chars": 13872,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/262-beget-sentry-oshibka-zayavki.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source262/runtime. Текст предметно отличает исключение от потери, контекст запроса от общего состояния, прикладной статус от доставки телеметрии.",
+        "SentryTags/DataScrubbing открыты23.10.2026; механизм конкретного SDK не объявлен универсальным для всех типовтелеметрии. Очистка проверяется на синтетических значениях.",
+        "Ни одной реально потерянной заявки/измеренного эффекта не приписано клиенту. Все сбои учебные и требуют собственной приёмки.",
+        "Уточнено партнёрское раскрытие и личный CTA. Подробная девятисценарная приёмка/таблица не сокращены."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 533,
+      "slug": "beget-logs-edinaya-kartina",
+      "type": "post",
+      "baseline_hash": "b10d044a989e1c983c1529d5ab34a442867264d99693e5280f6895f5b3063caf",
+      "file": "beget-logs-edinaya-kartina.html",
+      "candidate_hash": "18bc393902fb9907853a5200410efc5e62bbe336cd0ff2db179c953c4f936100",
+      "visible_chars": 12353,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/263-beget-logs-edinaya-kartina.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source263/runtime; предметный словарь состояний, попытки,коды,JSONпример и матрицадаютготовуюсамостоятельнуюметодику.",
+        "Vector Concepts/Pipeline Components открыты23.10.2026: sources/transforms/sinks реальны, но доставка определяется компонентами/настройками, не самим процессомсборщика.",
+        "Учебный JSON не выдан за клиентский лог; ключ операции не подменяет авторизацию, чувствительное содержимое минимизировано.",
+        "Роль автора приведена к первому лицу без заявления о несуществующей команде. Сервисные и документальные ссылки, артефакты сохранены.",
+        "Финальная проверка affiliate: добавлено явное условие вознаграждения только за услуги, участвующие в программе; одна ссылка и её атрибуты сохранены."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 176,
+      "slug": "dinamicheskie-polya-i-roli",
+      "type": "post",
+      "baseline_hash": "db50c071527284e121bbf79df6be255d42caea44fdfeae3725d4ace4a1a8c10b",
+      "file": "dinamicheskie-polya-i-roli.html",
+      "candidate_hash": "2bb261824811bd7d402f444c5827e7906f7eb769c590d678f6ba4182be37f319",
+      "visible_chars": 11298,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/04-documents.md#id=36",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-36.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform36/runtime; удалены три кратких повтора, включая неподтверждённую реализацию универсальной политики в документной платформе.",
+        "Добавлена связная проверка конфликта обязательность+скрытое поле, старойкарточки,финальноговыпуска и прав администратора схемы.",
+        "OWASPAuthorization проверен в текущем этапе: право проверяется на запрос/объект/действие; настройка UIне объявлена достаточной защитой.",
+        "Не добавлены клиентские имена/результаты/платформенные обещания. Исходные таблицы и схема побайтно сохранены."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 534,
+      "slug": "beget-nginx-logs-forma",
+      "type": "post",
+      "baseline_hash": "4f94254746b16512f7be427ab0d3d52a8560a96aa844a9096eb9148dfce73e6e",
+      "file": "beget-nginx-logs-forma.html",
+      "candidate_hash": "fe74766bc5aba4fb8f09c9007feb3f9edbe0afffc5a9405901cc310e10f7854f",
+      "visible_chars": 12200,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/264-beget-nginx-logs-forma.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source264/runtime; последовательность browserrequest→accesslog→application→CRM уже содержательна, есть три предметных матрицы.",
+        "NginxHTTPLog/Upstream документы проверены в текущем этапе: формат/буферизация/времена отличаются, HTTP-код не доказывает сохранение заявки.",
+        "Нет утверждения о фактической потере или исправлении клиента. Условный сбойпослесохранения требует сверки перед повтором.",
+        "Scope заменён простым русским выражением, личный CTAсоднимпервымэпизодом; все значимыеhref/артефакты сохранены.",
+        "Финальная проверка affiliate: добавлено явное условие вознаграждения только за услуги, участвующие в программе; одна ссылка и её атрибуты сохранены."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 535,
+      "slug": "beget-log-rotation-hranenie",
+      "type": "post",
+      "baseline_hash": "97056e272c9eecc2f2add588f2dc3e8c9cea132b60aaa095bd06c16eb818b269",
+      "file": "beget-log-rotation-hranenie.html",
+      "candidate_hash": "b9355aca00f9cff3b01c365ca22ac0adc70f10daac43deee25493a68ccef60af",
+      "visible_chars": 13034,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/265-beget-log-rotation-hranenie.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полностью прочитаны source265/runtime. Содержательны классификация,рост,ротация,сборщик,сроки и проверка записи; расчёт2ГБ×14=28ГБ явно учебный.",
+        "Официальный NginxControl открыт23.10.2026: переоткрытие при ротации не требует универсального перезапуска всехсайтов. Активныйфайлне удаляется по одному возрасту.",
+        "Не добавлены команды удаления/универсальные юридические сроки. Protectedтаблица сownership сохранена побайтно по требованию артефактов.",
+        "Scope/обобщённое мы исправлены вне артефактов; добавлено условное affiliateраскрытие и личный CTA."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 501,
+      "slug": "beget-statistika-pik-zaprosov",
+      "type": "post",
+      "baseline_hash": "5c0363d088f9c0dc9b0bcd1fa12f0af196c28e618d4f443efa9587ead89e2c26",
+      "file": "beget-statistika-pik-zaprosov.html",
+      "candidate_hash": "6104131c7b49b43b09a3b671730e058d8de7906eecee6c827dbfcd01eb33864c",
+      "visible_chars": 12490,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/266-beget-statistika-pik-zaprosov.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source266/runtime+metadata. Ужеесть временнаялиния,4условныхинтервала,матрицагипотез и разделениезапросов/людей/лидов.",
+        "BegetСтатистика открыт23.10.2026: CP/дневнаяагрегация не приравнены кпосетителям/моментусбоя. Прямойhref добавлен ксуществующемуупоминанию, потому исходнаяпанельисточниковпуста.",
+        "Учебные80/85/24итднеприписаны клиенту; двадцатикратныйрост85→1640примерноописан, нерезультат внедрения.",
+        "Исправлены грамматика/паттерн/личнаяроль; affiliateдоходявно ограниченучаствующимиуслугами."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 187,
+      "slug": "otmena-broni-bez-potery-istorii",
+      "type": "post",
+      "baseline_hash": "c439ea25c1a3489724cbd03f976dffefc5e0639f147d9c120bb9368fe99dad4b",
+      "file": "otmena-broni-bez-potery-istorii.html",
+      "candidate_hash": "f23f574433f39c3c1e90c635208a40bfcc7bda07cb60946b13610ebbf368bd2e",
+      "visible_chars": 13935,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/editorial/articles/05-booking.md#id=46",
+        "wordpress/editorial/calendar.json",
+        "wordpress/longform/articles/article-46.md",
+        "wordpress/longform/manifest.json"
+      ],
+      "evidence": [
+        "REWRITE: полностью прочитаны longform46/runtime; удалены ранние краткие повторы и неподтверждённое заявление о реализованном календарном прототипе.",
+        "Сохранён полный разбор отмена≠удаление/возвратденег,комплект,повтор,конфликтверсии и прав. Добавлен конкретный разбор позднего внесения отмены.",
+        "GoogleCalendarEvents открыто23.10.2026: отменённые записи/поля имеют ограничения, внешнее событие не гарантирует полноценный долгосрочный архив. Сервис не приписан клиентскому проекту.",
+        "Нет финансовых рекомендаций/придуманных результатов; все примеры обозначены методическими."
+      ],
+      "action": "REWRITE"
+    },
+    {
+      "id": 502,
+      "slug": "beget-2fa-dostup-vladelca",
+      "type": "post",
+      "baseline_hash": "9c5426c7caebe883df92f90d9398818a7b9eaf09aabbdbd5e72bb6005be982c0",
+      "file": "beget-2fa-dostup-vladelca.html",
+      "candidate_hash": "1143a9322b04c550988c7a8d8da31b02e9b585ff3094637523f2ee896bdc37f6",
+      "visible_chars": 13687,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/267-beget-2fa-dostup-vladelca.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полное чтение source267/runtime; есть конкретное разделение владельца/техническойроли,обычноговхода/восстановления,плановойзамены/потериустройства.",
+        "Точная Beget2FAинструкция открыта23.10.2026; QR/backupcodesнеперенесены, обещания обойти восстановление/вернуть по однойпочтенет.",
+        "Учебная ситуация бывшего разработчика не приписана конкретному клиенту. Подтверждение доступа ограничено реально проверяемым аккаунтом.",
+        "Исправлены обобщённое мы/условность affiliate, CTAнепроситсекреты и описывает личную координирующую роль."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 503,
+      "slug": "beget-ftp-podryadchik-dostup",
+      "type": "post",
+      "baseline_hash": "f0a362a2bac60273f54c9e205887d6421d1a3310882b57289387d27858bc6023",
+      "file": "beget-ftp-podryadchik-dostup.html",
+      "candidate_hash": "1a4440525a377d8c460235712028075ee4d843d725437e0aff59a1cd00844fd3",
+      "visible_chars": 13632,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/268-beget-ftp-podryadchik-dostup.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полный source268/runtime содержит конкретные матрицы полномочий/приёмки/отзыва,исходноесостояние и сохранениенезавершённыхработ.",
+        "BegetFTPпервоисточник проверен23.10.2026: ограничение каталога не представлено гарантией изоляции кода/SSH или всех сайтов. SFTP/FTP/SSHразличены.",
+        "Сценарий мобильнойформы учебный; не выдумано внедрение. Локальныйпросмотр/эмуляциянеприравненыкреальномутелефону/внешнейсети.",
+        "Убраны scope в ordinaryheading/body и обобщённое «мы», уточнён affiliate; protectedтаблицы/схеманеизменны, включаяисходныеобозначенияscope."
+      ],
+      "action": "KEEP"
+    },
+    {
+      "id": 504,
+      "slug": "beget-vps-pervaya-priemka",
+      "type": "post",
+      "baseline_hash": "b6e8fe3fee1a2ddf283dd50c28f7e407141d987898cb48159b569c3cb54ddfe9",
+      "file": "beget-vps-pervaya-priemka.html",
+      "candidate_hash": "7292b303d8046334da9a2c494400c8d973efe2679bc7945f0ecb03367e7d274c",
+      "visible_chars": 11542,
+      "policy_state": "LENGTH_REQUIREMENT_MET",
+      "review_state": "NEEDS_EDITORIAL_REVIEW",
+      "source_files": [
+        "wordpress/beget-content/articles/269-beget-vps-pervaya-priemka.md",
+        "wordpress/beget-content/manifest.json"
+      ],
+      "evidence": [
+        "KEEP: полноценно прочитаны source269/runtime; технический доступ,приложение,состояние и эксплуатация последовательно разделены,естьматрица и2артефактапередачи.",
+        "Точная BegetVPSfirststeps открыта23.10.2026; первичнаянастройканеобъявленаготовностьюприложенияилинагрузочнойгарантией.",
+        "Убрана неуместнаядисклеймернаяфразаввступлении, роль/affiliateотпервоголица. Контрольныйсбойзаявки явно учебный.",
+        "Никакихреальныхсерверныхопераций/секретов/новыхкопий,права/срокиподдержкинеобещаныбезсогласования."
+      ],
+      "action": "KEEP"
+    }
+  ]
+}
