@@ -1,13 +1,13 @@
 {
-  "source_git_commit": "b540576d25beffb4a9d04fe21ca61404290dc1e7",
+  "source_git_commit": "633bf5b289b6cb31355ee6121945d49900ac7c22",
   "baseline_site": "https://sy3.ru/",
   "production_authority": false,
   "runtime_or_queue_changed": false,
   "baseline_objects": 360,
-  "prepared_objects": 179,
+  "prepared_objects": 199,
   "prepared_by_type": {
     "page": 3,
-    "post": 133,
+    "post": 153,
     "sy3_case": 27,
     "sy3_service": 16
   },
@@ -542,6 +542,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 142,
+      "type": "post",
+      "slug": "neaktivnye-sotrudniki-v-crm",
+      "baseline_hash": "61a9997c2c5721df6d282ed268e825f856a389b7a93d4c755b64921ccf16bbf0",
+      "candidate_hash": "5f6f9b2d1e2547c0eec40f075795c334ff37b633ea9fb12834222dd9dece02b5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/neaktivnye-sotrudniki-v-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11860,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 150,
       "type": "post",
       "slug": "forma-otpravlena-no-zayavki-net",
@@ -574,6 +586,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-05/antispam-bez-kapchi.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
       "content_characters_declared": 11988,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 153,
+      "type": "post",
+      "slug": "kak-izmerit-rabotu-antispama",
+      "baseline_hash": "5e6c23534c0de96e46519fc999df57da69d03ea4f9bfc659e8d0157a1483b8da",
+      "candidate_hash": "4198141a83b287a3b754f0b4b44b087ed0cd96ecc764d785b9df36266cb083c5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/kak-izmerit-rabotu-antispama.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12574,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -614,6 +638,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 164,
+      "type": "post",
+      "slug": "gostevoy-ai-chat",
+      "baseline_hash": "1dc2e8e1e78cb12b0c841ba2e180c287492b03d75a6033b1353e4a118b4fd8ad",
+      "candidate_hash": "46afb8612eaa76b8f7b90c347c586d6aa7ddbcbfd6f6cbadac5b97d16f309b6b",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/gostevoy-ai-chat.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11409,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 171,
       "type": "post",
       "slug": "odin-obekt-odin-list-a4",
@@ -650,6 +686,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 174,
+      "type": "post",
+      "slug": "versii-shablonov-dokumentov",
+      "baseline_hash": "1f1565ae4b774b82d1a30bb3f5a22f0da70ffde93a00991b5743e05b00026c94",
+      "candidate_hash": "9aa4a56b94adaabb284715c4b81c7b03563cafb68af367d59bdc2cdcc783e664",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/versii-shablonov-dokumentov.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11401,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 182,
       "type": "post",
       "slug": "dvoinoe-bronirovanie-resursa",
@@ -682,6 +730,18 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-05/statusy-broni-i-zanyatost.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-05/manifest.json",
       "content_characters_declared": 14366,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 185,
+      "type": "post",
+      "slug": "kalendar-vnutri-sdelki-crm",
+      "baseline_hash": "26db7defb7ddec0e0a24b9dd683a1748bf70bf110135027c14ba0b1df1618f28",
+      "candidate_hash": "5dfc76eba50a39749a316cf6ffafa054448379564904e891224760c1dbca4725",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/kalendar-vnutri-sdelki-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 13041,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1526,6 +1586,18 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 304,
+      "type": "post",
+      "slug": "obuchenie-i-priemka-crm",
+      "baseline_hash": "b1c9605aaa2ca4429687133f25dabe9fa66320828cc4900b3c7f8a3da71b9adc",
+      "candidate_hash": "788c9ec1246bd8ec5fbcc00d9a47f72eb69bb810090daf476fde989a6420e0cf",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/obuchenie-i-priemka-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11264,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 305,
       "type": "post",
       "slug": "kak-opisat-biznes-process",
@@ -1542,10 +1614,10 @@
       "type": "post",
       "slug": "ai-shlyuz-beget-crm-sayt-processy",
       "baseline_hash": "871ad305df7e15c1f31a8d27687ecd7c4d457262d4bf20a06daa1fb77801d8d9",
-      "candidate_hash": "cb41031ce69a8cf15237aadc967824a396acb2b43f7364946738f0d0aa436dfe",
+      "candidate_hash": "07c3bd2d475b1369b7101ade94fce972d18c66aba068b97d9952dff221f033fd",
       "new_version": "wordpress/docs/editorial/batches/public-articles-01/ai-shlyuz-beget-crm-sayt-processy.html",
       "manifest": "wordpress/docs/editorial/batches/public-articles-01/manifest.json",
-      "content_characters_declared": 19472,
+      "content_characters_declared": 19443,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1714,6 +1786,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-06/mobilnaya-verstka-proverka.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-06/manifest.json",
       "content_characters_declared": 11919,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 342,
+      "type": "post",
+      "slug": "dostupnost-form-cheklist",
+      "baseline_hash": "5ccc68bad1b2e01c15707b5945ce9903577d8a3b7572e8a05319125e16ed8cce",
+      "candidate_hash": "6a527557d54ee8ff4b0475f53bd42572c8c90a0e41bfb57cb28298dbb04724a7",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/dostupnost-form-cheklist.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12858,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 343,
+      "type": "post",
+      "slug": "priemka-sayta-prakticheskiy-cheklist",
+      "baseline_hash": "db084f4194558e9742fe60945d72dee66a4511b4be47ef610aa3bc6b05a82330",
+      "candidate_hash": "ccff546237344d444fae57e423db74bd8e4ff66dcec3504a24844eaf12f06b01",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/priemka-sayta-prakticheskiy-cheklist.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12431,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -1922,6 +2018,42 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 361,
+      "type": "post",
+      "slug": "karta-integratsiy-biznes-sistem",
+      "baseline_hash": "cbe4d5f06ed2016aadf5483e54745c31b420622a3109432749693a20b5780605",
+      "candidate_hash": "0300125202c2acd3f4036f5c25e0e88ce341bafd213dc6ddf9d95392d1c4ee88",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/karta-integratsiy-biznes-sistem.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11001,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 362,
+      "type": "post",
+      "slug": "podderzhka-posle-vnedreniya-crm",
+      "baseline_hash": "4f95c8146fca1e9dc90edcc676c7dcb3b199a2791d3967ea330c396d36296d1b",
+      "candidate_hash": "924b01af23cc38e33eead067a2ef1d923c84312e6bdc7db0e3b128848a9f7b0d",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/podderzhka-posle-vnedreniya-crm.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11018,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 363,
+      "type": "post",
+      "slug": "kak-vybrat-biznes-analitika",
+      "baseline_hash": "09f38087c56669f8f4a7a8a96f97dcc54cc7ea99882f5f29402063608c93ece9",
+      "candidate_hash": "428668594168f9a642ddb1f38066258112e43fd17d4138387e9dcf4517bb38c5",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/kak-vybrat-biznes-analitika.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 10923,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 364,
       "type": "post",
       "slug": "sposob-integracii-sayta-s-crm",
@@ -1966,6 +2098,30 @@
       "new_version": "wordpress/docs/editorial/batches/drafts-02/oshibka-429-api-retry-after.html",
       "manifest": "wordpress/docs/editorial/batches/drafts-02/manifest.json",
       "content_characters_declared": 12567,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 368,
+      "type": "post",
+      "slug": "wordpress-ne-otpravlyaet-pisma",
+      "baseline_hash": "757dd20a040b3510a37b543272bc7c3e3dc8f353ad817e2771c3b1c9be8b122c",
+      "candidate_hash": "32098ee2619caca3c5582c814a8176d410a79840654457f388330ee13575b7e0",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/wordpress-ne-otpravlyaet-pisma.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11541,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 369,
+      "type": "post",
+      "slug": "antispam-form-server-check",
+      "baseline_hash": "27273ba05140e4e64b0b1fbafed7d37f08988b1003bea83c50b7ddbb2364e4b0",
+      "candidate_hash": "fb63bbaab223050e183b01a8cad4cea7f49fb165a3ec7f54834166d662f146ac",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/antispam-form-server-check.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 11529,
       "excerpt_change_prepared": false,
       "publisher_approval": "NOT_CREATED"
     },
@@ -2138,6 +2294,90 @@
       "publisher_approval": "NOT_CREATED"
     },
     {
+      "id": 475,
+      "type": "post",
+      "slug": "beget-ai-gateway-responses-404",
+      "baseline_hash": "870deca93f507c4d93f98bd501e986c8b42c4150826de1ea77293e77f34e228a",
+      "candidate_hash": "792c314dcefff67b04a79edd3d32b2daa295f18052054dbee4e328faa44d39e3",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/beget-ai-gateway-responses-404.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12387,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 476,
+      "type": "post",
+      "slug": "ai-beget-byudzhet-pilota",
+      "baseline_hash": "08901dc02948d3b4e46d050f4e410ada786133bb22d68ac1c2afa9580573b7e6",
+      "candidate_hash": "d1c4747374c0da3fa1ba9301164de688a0e9ac6e1602f6e17b384d5b5e30055f",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/ai-beget-byudzhet-pilota.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12721,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 477,
+      "type": "post",
+      "slug": "beget-ai-gateway-kluch-server",
+      "baseline_hash": "7851c35c16f943f19db0d61d85c6db03647cc524b0d55cc4b5a9329c247ab23b",
+      "candidate_hash": "640cfeed8d57b794406560baf6860a79fe2bd8feb948cecbe08222a1fa511fe8",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/beget-ai-gateway-kluch-server.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12763,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 478,
+      "type": "post",
+      "slug": "beget-ai-gateway-test-modeli",
+      "baseline_hash": "efcf271e147e81f5167bacc04924d8e7fc8360d268c436f064685fc27e7ef50a",
+      "candidate_hash": "bd2124e9acd5c953b745214f73f1f70912b2e709fdf24e1dc0ac9bf2c2d946c1",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/beget-ai-gateway-test-modeli.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12033,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 479,
+      "type": "post",
+      "slug": "beget-ai-gateway-ochered-zayavok",
+      "baseline_hash": "6da29e9c4a7e112dd87851ca591ebaa5b6d8cbef385fcbac4a5a867b1ad9ee18",
+      "candidate_hash": "92c9f502df976a2ee927d30bccf82a68d67871b57296f5f30c6911b0d634aa46",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/beget-ai-gateway-ochered-zayavok.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 12091,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 480,
+      "type": "post",
+      "slug": "beget-ai-gateway-kontekst-dannyh",
+      "baseline_hash": "7372857722e3951c89d4b593d5a769bc4fbb096dbf3130466d058c9cf63382fa",
+      "candidate_hash": "9ae907b5d61deedc809f880cf52d903410869a18bc3f2ce4fe4f2030a29e9aae",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/beget-ai-gateway-kontekst-dannyh.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 13206,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
+      "id": 481,
+      "type": "post",
+      "slug": "beget-embeddings-baza-znaniy",
+      "baseline_hash": "ec4fe2a54fd16c243bfeefb78a1c26859a07af2fc6017495e3ca585fcfa2532f",
+      "candidate_hash": "1e48fe93b9e857b9d39ef425f96a856943d699a2dc8cc9baed12da43d8ed4695",
+      "new_version": "wordpress/docs/editorial/batches/drafts-07/beget-embeddings-baza-znaniy.html",
+      "manifest": "wordpress/docs/editorial/batches/drafts-07/manifest.json",
+      "content_characters_declared": 13234,
+      "excerpt_change_prepared": false,
+      "publisher_approval": "NOT_CREATED"
+    },
+    {
       "id": 574,
       "type": "sy3_case",
       "slug": "hiring-funnel-dashboard",
@@ -2179,11 +2419,6 @@
       "slug": "journal"
     },
     {
-      "id": 142,
-      "type": "post",
-      "slug": "neaktivnye-sotrudniki-v-crm"
-    },
-    {
       "id": 143,
       "type": "post",
       "slug": "dogovor-iz-sdelki-crm"
@@ -2212,11 +2447,6 @@
       "id": 149,
       "type": "post",
       "slug": "crm-kontrolnye-scenarii-kanalov"
-    },
-    {
-      "id": 153,
-      "type": "post",
-      "slug": "kak-izmerit-rabotu-antispama"
     },
     {
       "id": 154,
@@ -2249,11 +2479,6 @@
       "slug": "integraciya-chtenie-ili-zapis"
     },
     {
-      "id": 164,
-      "type": "post",
-      "slug": "gostevoy-ai-chat"
-    },
-    {
       "id": 165,
       "type": "post",
       "slug": "limity-ai-zaprosov"
@@ -2284,11 +2509,6 @@
       "slug": "granicy-ai-pomoshchnika"
     },
     {
-      "id": 174,
-      "type": "post",
-      "slug": "versii-shablonov-dokumentov"
-    },
-    {
       "id": 175,
       "type": "post",
       "slug": "pustye-polya-v-dokumentah"
@@ -2317,11 +2537,6 @@
       "id": 180,
       "type": "post",
       "slug": "poshagovyy-konstruktor-dokumentov"
-    },
-    {
-      "id": 185,
-      "type": "post",
-      "slug": "kalendar-vnutri-sdelki-crm"
     },
     {
       "id": 186,
@@ -2529,84 +2744,9 @@
       "slug": "biznes-brif-na-avtomatizatsiyu"
     },
     {
-      "id": 304,
-      "type": "post",
-      "slug": "obuchenie-i-priemka-crm"
-    },
-    {
-      "id": 342,
-      "type": "post",
-      "slug": "dostupnost-form-cheklist"
-    },
-    {
-      "id": 343,
-      "type": "post",
-      "slug": "priemka-sayta-prakticheskiy-cheklist"
-    },
-    {
-      "id": 361,
-      "type": "post",
-      "slug": "karta-integratsiy-biznes-sistem"
-    },
-    {
-      "id": 362,
-      "type": "post",
-      "slug": "podderzhka-posle-vnedreniya-crm"
-    },
-    {
-      "id": 363,
-      "type": "post",
-      "slug": "kak-vybrat-biznes-analitika"
-    },
-    {
-      "id": 368,
-      "type": "post",
-      "slug": "wordpress-ne-otpravlyaet-pisma"
-    },
-    {
-      "id": 369,
-      "type": "post",
-      "slug": "antispam-form-server-check"
-    },
-    {
       "id": 391,
       "type": "post",
       "slug": "kompleksnaya-avtomatizaciya-biznesa-plan"
-    },
-    {
-      "id": 475,
-      "type": "post",
-      "slug": "beget-ai-gateway-responses-404"
-    },
-    {
-      "id": 476,
-      "type": "post",
-      "slug": "ai-beget-byudzhet-pilota"
-    },
-    {
-      "id": 477,
-      "type": "post",
-      "slug": "beget-ai-gateway-kluch-server"
-    },
-    {
-      "id": 478,
-      "type": "post",
-      "slug": "beget-ai-gateway-test-modeli"
-    },
-    {
-      "id": 479,
-      "type": "post",
-      "slug": "beget-ai-gateway-ochered-zayavok"
-    },
-    {
-      "id": 480,
-      "type": "post",
-      "slug": "beget-ai-gateway-kontekst-dannyh"
-    },
-    {
-      "id": 481,
-      "type": "post",
-      "slug": "beget-embeddings-baza-znaniy"
     },
     {
       "id": 482,
