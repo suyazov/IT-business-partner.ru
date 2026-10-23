@@ -30,7 +30,7 @@ get_header();
             <p class="eyebrow">Есть похожая задача?</p>
             <h2><?php echo sy3_personal() ? 'Начнём<br>с вашего процесса.' : 'Обсудим<br>вашу задачу.'; ?></h2>
             <p><?php echo sy3_personal() ? 'Расскажите, где теряются заявки или время команды. Разберём исходную ситуацию и следующий шаг.' : 'Расскажите, что хотите запустить или улучшить: сайт, CRM, интеграцию или работу команды. Предложу понятный первый шаг.'; ?></p>
-            <a class="button" href="<?php echo esc_url(sy3_contact_url()); ?>">Обсудить задачу</a>
+            <?php if (sy3_personal()): ?><a class="button" href="<?php echo esc_url(sy3_contact_url()); ?>">Обсудить задачу</a><?php else: echo sy3_messenger_choice('aside-messengers'); endif; ?>
             <p class="aside-author"><?php echo sy3_personal() ? 'Артём Суязов<br><span>CRM · интеграции · ИИ</span>' : 'Вы пишете мне напрямую.<br><span>Начнём с задачи — готовое ТЗ не нужно.</span>'; ?></p>
         </aside>
     </div>
