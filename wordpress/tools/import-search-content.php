@@ -50,7 +50,7 @@ foreach ($services as $n => $service) {
     if ($links) $body .= sy3_h('Практика по теме') . sy3_list($links);
     $body .= sy3_h('Частые вопросы');
     foreach ($service['faqs'] as [$question,$answer]) $body .= sy3_faq($question,$answer);
-    $body .= sy3_buttons([['Обсудить задачу с Артёмом','https://t.me/moi_imperator']]);
+    $body .= sy3_buttons([['Обсудить проект','https://t.me/sy3_support_bot?start=site_sy3']]);
     $id = wp_insert_post(wp_slash(['post_type'=>'sy3_service','post_status'=>'publish','post_author'=>$author->ID,'post_name'=>$service['slug'],'post_title'=>$service['title'],'post_excerpt'=>$service['excerpt'],'post_content'=>$body,'menu_order'=>10+$n,'comment_status'=>'closed','ping_status'=>'closed','meta_input'=>['_sy3_seed'=>'service:'.$service['slug'],'_sy3_seed_hash'=>hash('sha256',$body),'_sy3_label'=>$service['label'],'_sy3_art'=>$service['art'],'_sy3_description'=>$service['excerpt'],'_sy3_search_query'=>$service['primary_query'],'_sy3_related'=>implode(',',array_map(fn($s)=>$case_ids[$s],array_slice($service['case_slugs'],0,3)))]]),true);
     if (is_wp_error($id)) WP_CLI::error($id->get_error_message());
     $service_ids[$service['slug']] = $id; $receipt['services'][] = ['slug'=>$service['slug'],'id'=>$id,'action'=>'created'];

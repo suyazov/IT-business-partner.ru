@@ -108,7 +108,7 @@ foreach ($records as $record) {
         foreach (array_slice($related, 0, 2) as $case) $links[] = '<a href="' . esc_url(get_permalink($case)) . '">' . esc_html(get_the_title($case)) . '</a>';
         $body .= sy3_list($links);
     }
-    $body .= sy3_p('<a href="' . esc_url(home_url('/services/')) . '">Направления автоматизации</a> · <a href="https://t.me/moi_imperator">Обсудить задачу с Артёмом</a>', 'editorial-contact');
+    $body .= sy3_p('<a href="' . esc_url(home_url('/services/')) . '">Направления автоматизации</a> · <a href="https://t.me/sy3_support_bot?start=site_sy3">Обсудить проект</a>', 'editorial-contact');
     $excerpt = mb_substr(preg_split('/\n\s*\n/', $record['body'])[0], 0, 210);
     $term = term_exists($record['category'], 'category') ?: wp_insert_term($record['category'], 'category');
     if (is_wp_error($term)) WP_CLI::error($term->get_error_message());
