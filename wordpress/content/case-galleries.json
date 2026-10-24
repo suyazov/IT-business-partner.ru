@@ -1,0 +1,721 @@
+{
+  "version": 1,
+  "site": "https://sy3.ru/",
+  "source": "Existing portfolio images; selected and visually reviewed 2026-10-24. Cover images are preserved.",
+  "cases": [
+    {
+      "slug": "matklass",
+      "images": [
+        {
+          "file": "matklass/source-03.webp",
+          "sha256": "f7045169fa17e7d669cc2f196ce657809104bebe01a79fbfcba3d2a60111a958",
+          "width": 1672,
+          "height": 941,
+          "alt": "Маткласс: ключевые страницы и контакты",
+          "caption": "Маткласс: ключевые страницы и контакты",
+          "visual_review": "approved"
+        },
+        {
+          "file": "matklass/source-04.webp",
+          "sha256": "c8db338def44c7a3f063a5ca23b967ba48929390ea100ecfa99ae4c10bb34fab",
+          "width": 1672,
+          "height": 941,
+          "alt": "Маткласс: блог и формы контентных разделов",
+          "caption": "Маткласс: блог и формы контентных разделов",
+          "visual_review": "approved"
+        },
+        {
+          "file": "matklass/source-05.webp",
+          "sha256": "d7e15bfe7c91b820bad43368de7f4d4d6b241553a7340109fad8c476cd2e2796",
+          "width": 1672,
+          "height": 941,
+          "alt": "Маткласс: вход в личный кабинет",
+          "caption": "Маткласс: вход в личный кабинет",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "barella",
+      "images": [
+        {
+          "file": "barella/source-02.webp",
+          "sha256": "9fb31ab8b4cf1c6a7200dea98890cf1eea56e14a4642b83a19154ed7ee18b61c",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Barella: исходные замечания к страницам и формам",
+          "caption": "Barella: исходные замечания к страницам и формам",
+          "visual_review": "approved"
+        },
+        {
+          "file": "barella/source-03.webp",
+          "sha256": "0c0c1333d6c2f57d6849e67085023cbaf92fa6650c334f8b73f312b128dad723",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Barella: обзор корпоративных страниц и каталога объектов",
+          "caption": "Barella: обзор корпоративных страниц и каталога объектов",
+          "visual_review": "approved"
+        },
+        {
+          "file": "barella/source-05.webp",
+          "sha256": "f07269fbb3333727cb5776fc35555e25d74386dad3f4d3b3467288d81c5dd3d6",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Barella: корпоративные разделы, объекты и формы",
+          "caption": "Barella: корпоративные разделы, объекты и формы",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "bitrix24-doors",
+      "images": [
+        {
+          "file": "bitrix24-doors/source-02.webp",
+          "sha256": "9189113bb2da0d7f2f7f494e8e0872e43560b4c1ae3e585d1b63caf569c3fb18",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Bitrix24: структура отделов продаж и сервиса",
+          "caption": "Bitrix24: структура отделов продаж и сервиса",
+          "visual_review": "approved"
+        },
+        {
+          "file": "bitrix24-doors/source-03.webp",
+          "sha256": "223b580e519edaa160b2074a818f9b32c0262f927166aca8e5d432049e711e7a",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Bitrix24: настройки равномерного распределения обращений",
+          "caption": "Bitrix24: настройки равномерного распределения обращений",
+          "visual_review": "approved"
+        },
+        {
+          "file": "bitrix24-doors/source-04.webp",
+          "sha256": "21158d2a80a455f53ca619caabfd9caba03ecdb7d2269bf0ff852dbe14592efa",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Bitrix24: меню шаблонов документов в сделке",
+          "caption": "Bitrix24: меню шаблонов документов в сделке",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "bitrix24-training",
+      "images": [
+        {
+          "file": "bitrix24-training/source-02.webp",
+          "sha256": "a6b20322e3b42077e068b5ff968177fbb8fdbfc933baf6560cdad91657c96103",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Bitrix24: форма заявки на курс",
+          "caption": "Bitrix24: форма заявки на курс — демонстрационный пример",
+          "visual_review": "approved"
+        },
+        {
+          "file": "bitrix24-training/source-03.webp",
+          "sha256": "6866449b9e1926dcde9fcafc0b4fed474a1cd2fa144a2710235bccd4033041cd",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Bitrix24: предупреждение при смене формата заявки",
+          "caption": "Bitrix24: предупреждение при смене формата заявки — демонстрационный пример",
+          "visual_review": "approved"
+        },
+        {
+          "file": "bitrix24-training/source-04.webp",
+          "sha256": "076eb9c3404b9f14672e3125f584675da4bd6adb6c216308e863821adb295903",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Bitrix24: связь учебной заявки с задачей отдела",
+          "caption": "Bitrix24: связь учебной заявки с задачей отдела — демонстрационный пример",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "glosscheck",
+      "images": [
+        {
+          "file": "glosscheck/source-04.webp",
+          "sha256": "bca9711564487735bf1470ae59673996c857df8425c52089e5139bc5dd5f7428",
+          "width": 1448,
+          "height": 1086,
+          "alt": "GlossCheck: чат, история и загрузка файлов",
+          "caption": "GlossCheck: чат, история и загрузка файлов",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "libertygas",
+      "images": [
+        {
+          "file": "libertygas/source-02.webp",
+          "sha256": "7024aa20c8dc668a1372555866295ef63bf42810d00bebee9a0d30c1f678132b",
+          "width": 1448,
+          "height": 1086,
+          "alt": "LibertyGas: редактор страницы объекта и исходная задача",
+          "caption": "LibertyGas: редактор страницы объекта и исходная задача",
+          "visual_review": "approved"
+        },
+        {
+          "file": "libertygas/source-03.webp",
+          "sha256": "77e638f3234451a513758df557dd13e8bbcdfaea436d7945d839274ed6505de4",
+          "width": 1448,
+          "height": 1086,
+          "alt": "LibertyGas: редактирование объектов и окно печати",
+          "caption": "LibertyGas: редактирование объектов и окно печати",
+          "visual_review": "approved"
+        },
+        {
+          "file": "libertygas/source-04.webp",
+          "sha256": "cd7f8e86dfc5ac05ece7c10d97f9470a779af5c1a791f469baa08b67d64f210c",
+          "width": 1448,
+          "height": 1086,
+          "alt": "LibertyGas: готовый PDF и архив автономного редактора",
+          "caption": "LibertyGas: готовый PDF и архив автономного редактора",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "postavki26",
+      "images": [
+        {
+          "file": "postavki26/source-02.webp",
+          "sha256": "353b72f6bcf39014d09c4bf4c71d7a08ca4b04567aba5c88193cae9062b3920e",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Поставки26: главная страница площадки поставщиков",
+          "caption": "Поставки26: главная страница площадки поставщиков",
+          "visual_review": "approved"
+        },
+        {
+          "file": "postavki26/source-04.webp",
+          "sha256": "648a5f91915daf22251a6383ef8599f15145f216b138cef91977c813ada22742",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Поставки26: технологии проекта и страница",
+          "caption": "Поставки26: технологии проекта и страница",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "shumakova-yookassa",
+      "images": [
+        {
+          "file": "shumakova-yookassa/source-02.webp",
+          "sha256": "7555767532ed4e4e9d65e68e83d0a825ed7159248e8a2dd4690ad0725dcf5b53",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Лендинг обучения пирсингу: программа и форма бронирования",
+          "caption": "Лендинг обучения пирсингу: программа и форма бронирования",
+          "visual_review": "approved"
+        },
+        {
+          "file": "shumakova-yookassa/source-03.webp",
+          "sha256": "aeb535bab9e333b08323ce48697428198045ab372ee619bf5c626ebc42334558",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Бронирование обучения: форма контактов",
+          "caption": "Бронирование обучения: форма контактов",
+          "visual_review": "approved"
+        },
+        {
+          "file": "shumakova-yookassa/source-04.webp",
+          "sha256": "43f1646df2e6be96ef2166e4a639c7caf95c220e756c787ab443158ffc2219f0",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Пример страницы оплаты бронирования через ЮKassa",
+          "caption": "Пример страницы оплаты бронирования через ЮKassa",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "stilspace",
+      "images": [
+        {
+          "file": "stilspace/source-02.webp",
+          "sha256": "f2b0990f0ef58d6a3e42aedcd3c15a877c08ae15a4ba2984b208b2493ac1244b",
+          "width": 1600,
+          "height": 1200,
+          "alt": "СТИЛСПЭЙС: исходная вёрстка и задача подключения CMS",
+          "caption": "СТИЛСПЭЙС: исходная вёрстка и задача подключения CMS",
+          "visual_review": "approved"
+        },
+        {
+          "file": "stilspace/source-03.webp",
+          "sha256": "0fb240865c7e42ad2c06d948da4560fb4c05cc6a786ab6fb5adcc45c0f15aa78",
+          "width": 1600,
+          "height": 1200,
+          "alt": "СТИЛСПЭЙС: схема связи вёрстки и редактируемых полей",
+          "caption": "СТИЛСПЭЙС: схема связи вёрстки и редактируемых полей",
+          "visual_review": "approved"
+        },
+        {
+          "file": "stilspace/source-04.webp",
+          "sha256": "6fbcbeeee357c8578a52b47032c77f4ea3a6ee53af1359c0639ba4fa778021bd",
+          "width": 1600,
+          "height": 1200,
+          "alt": "СТИЛСПЭЙС: страницы готового сайта",
+          "caption": "СТИЛСПЭЙС: страницы готового сайта",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "star26",
+      "images": [
+        {
+          "file": "star26/source-02.webp",
+          "sha256": "a88c5a4e8cef1f0584647628b7203ca2260ea11082d37a486474e840806b0505",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Звёздный: исходная задача и карта участков",
+          "caption": "Звёздный: исходная задача и карта участков",
+          "visual_review": "approved"
+        },
+        {
+          "file": "star26/source-03.webp",
+          "sha256": "03ca43e5d54c7e33f89a07c68a80573e5b2d740043c3b5e6642e6b130769c898",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Звёздный: интерактивная карта и схема управления контентом",
+          "caption": "Звёздный: интерактивная карта и схема управления контентом",
+          "visual_review": "approved"
+        },
+        {
+          "file": "star26/source-04.webp",
+          "sha256": "6be1fab2c04b75b39c95b2ee98d0ee795e6f55f433099fa692ddb8d42ecee59c",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Звёздный: сайт посёлка и форма обращения",
+          "caption": "Звёздный: сайт посёлка и форма обращения",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "trimed",
+      "images": [
+        {
+          "file": "trimed/source-02.webp",
+          "sha256": "3a3ab3555ce352616456936b9213e43831552e7491b03e8d8464d76908377c44",
+          "width": 1448,
+          "height": 1086,
+          "alt": "ТриМед: главная страница и структура сайта",
+          "caption": "ТриМед: главная страница и структура сайта",
+          "visual_review": "approved"
+        },
+        {
+          "file": "trimed/source-04.webp",
+          "sha256": "ecfc96990898f19ad78a0b2ab2e45b8479c35af4292e694a1c86fb3630a05ee6",
+          "width": 1448,
+          "height": 1086,
+          "alt": "ТриМед: готовые разделы, проекты и услуги",
+          "caption": "ТриМед: готовые разделы, проекты и услуги",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "formula-lead",
+      "images": [
+        {
+          "file": "formula-lead/source-02.webp",
+          "sha256": "9cee81494259f78034412a105bc3e9b54d12d0b128db924e6353c06ded9c5f37",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Формула лидов: макет сайта и исходная структура",
+          "caption": "Формула лидов: макет сайта и исходная структура",
+          "visual_review": "approved"
+        },
+        {
+          "file": "formula-lead/source-03.webp",
+          "sha256": "5aaf20104d72797ede2a3c5fc0c61ce03cd3e53e74cf598d1c8e8ea0f3558569",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Формула лидов: редактирование тарифов и видео",
+          "caption": "Формула лидов: редактирование тарифов и видео",
+          "visual_review": "approved"
+        },
+        {
+          "file": "formula-lead/source-04.webp",
+          "sha256": "206418f34ac8d55920416bd65eacf10f41ab12151b0bbb74319b926ad5cddc7d",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Формула лидов: опубликованный блок тарифов",
+          "caption": "Формула лидов: опубликованный блок тарифов",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "chitayka",
+      "images": [
+        {
+          "file": "chitayka/source-02.webp",
+          "sha256": "f161a9c8be15dc770d6eeb2d2e178e26de560f81d8f8c0941cbbde880351bbed",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Читай-ка: исходные блоки и структура главной страницы",
+          "caption": "Читай-ка: исходные блоки и структура главной страницы",
+          "visual_review": "approved"
+        },
+        {
+          "file": "chitayka/source-03.webp",
+          "sha256": "7155b5e217a00c4410b8dad9794fad1b11039e26a203e4bf5627ca52c6ac4978",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Читай-ка: управление секциями и публичные карточки",
+          "caption": "Читай-ка: управление секциями и публичные карточки",
+          "visual_review": "approved"
+        },
+        {
+          "file": "chitayka/source-04.webp",
+          "sha256": "d50ed42aa6d8695eb0120bcc3b630e3147b56fcf27de8b026ff94bb6a3b7f97b",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Читай-ка: готовый сайт на компьютере и телефоне",
+          "caption": "Читай-ка: готовый сайт на компьютере и телефоне",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "real-flacon",
+      "images": [
+        {
+          "file": "real-flacon/source-02.webp",
+          "sha256": "13baff2b9c519dc57f3a3ccdeded2af45bc0ea95f03bde168ff15e6b5c7479ba",
+          "width": 1491,
+          "height": 1055,
+          "alt": "Real Flacon: каталог, главная страница и корзина",
+          "caption": "Real Flacon: каталог, главная страница и корзина",
+          "visual_review": "approved"
+        },
+        {
+          "file": "real-flacon/source-03.webp",
+          "sha256": "b58448d3edfc05ba66095ff87841b9a634904bd3925d9d484df09a55567df7d6",
+          "width": 1491,
+          "height": 1055,
+          "alt": "Real Flacon: главная страница и промоблок",
+          "caption": "Real Flacon: главная страница и промоблок",
+          "visual_review": "approved"
+        },
+        {
+          "file": "real-flacon/source-04.webp",
+          "sha256": "d055f4a77d450db28848f8c4423882b57a96fb7fd1a2b8fedadaadfc9f60f4fb",
+          "width": 1491,
+          "height": 1055,
+          "alt": "Real Flacon: мини-корзина и поле промокода",
+          "caption": "Real Flacon: мини-корзина и поле промокода",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "digital-belka",
+      "images": [
+        {
+          "file": "digital-belka/source-02.webp",
+          "sha256": "09d253863697e9d7c41183f099a84e3933b7ce2b51ac0fcd3578501e6024b15a",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Digital Belka: страница Career services на компьютере и телефоне",
+          "caption": "Digital Belka: страница Career services на компьютере и телефоне",
+          "visual_review": "approved"
+        },
+        {
+          "file": "digital-belka/source-03.webp",
+          "sha256": "6782ab8467b2fade3accf990801f2cf22c387b50b580d32929c26a49dad26a74",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Digital Belka: страница Neurocoaching и общие компоненты",
+          "caption": "Digital Belka: страница Neurocoaching и общие компоненты",
+          "visual_review": "approved"
+        },
+        {
+          "file": "digital-belka/source-04.webp",
+          "sha256": "347c115d23d19ac68c9ed9ba610b1b18e2763793733816feea0614cfd6ec51db",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Digital Belka: страница контактов и форма",
+          "caption": "Digital Belka: страница контактов и форма",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "lemesh-pro",
+      "images": [
+        {
+          "file": "lemesh-pro/source-02.webp",
+          "sha256": "e9465c98e66a697bed9bc0cc0670e09f05965cdb9df87450ef9905e047f8e39f",
+          "width": 1672,
+          "height": 941,
+          "alt": "LEMESH PRO: направления услуг по остеклению",
+          "caption": "LEMESH PRO: направления услуг по остеклению",
+          "visual_review": "approved"
+        },
+        {
+          "file": "lemesh-pro/source-03.webp",
+          "sha256": "d76d9b643b9eff7a95e325a9b3242fc2ce7be1bfa7ae2f10fc0d26658cf218eb",
+          "width": 1672,
+          "height": 941,
+          "alt": "LEMESH PRO: квиз предварительного расчёта",
+          "caption": "LEMESH PRO: квиз предварительного расчёта",
+          "visual_review": "approved"
+        },
+        {
+          "file": "lemesh-pro/source-04.webp",
+          "sha256": "e6c1c540ca4d1b66612d25e821513f2101520e5299176d26f7e055391530c15e",
+          "width": 1672,
+          "height": 941,
+          "alt": "LEMESH PRO: карточка выполненного объекта",
+          "caption": "LEMESH PRO: карточка выполненного объекта",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "saneq-technology",
+      "images": [
+        {
+          "file": "saneq-technology/source-02.webp",
+          "sha256": "d25244d0fc76717bfe79954319c026a9608f45da0f6de9badd68138546d95de8",
+          "width": 1448,
+          "height": 1086,
+          "alt": "SANEQ: исходный SEO-аудит страниц оборудования",
+          "caption": "SANEQ: исходный SEO-аудит страниц оборудования",
+          "visual_review": "approved"
+        },
+        {
+          "file": "saneq-technology/source-03.webp",
+          "sha256": "303dcf3d6090cf91a6591f3cba45941da75bea08e45b5f20c5a0b849e8c01ccc",
+          "width": 1448,
+          "height": 1086,
+          "alt": "SANEQ: каталог оборудования и контентные блоки",
+          "caption": "SANEQ: каталог оборудования и контентные блоки",
+          "visual_review": "approved"
+        },
+        {
+          "file": "saneq-technology/source-04.webp",
+          "sha256": "0ecc431206443f508f72a13cd89b8e2c678fed3fe227dfce00e4975016f6ce83",
+          "width": 1448,
+          "height": 1086,
+          "alt": "SANEQ: содержание карточек и итог технической проверки",
+          "caption": "SANEQ: содержание карточек и итог технической проверки",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "design-moskva",
+      "images": [
+        {
+          "file": "design-moskva/source-02.webp",
+          "sha256": "199a03acfd5957273ba9de8d0f56cf64d7d4c7bf6f11fced19482d45e1213609",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Design-Moskva: главная страница и задача диагностики",
+          "caption": "Design-Moskva: главная страница и задача диагностики",
+          "visual_review": "approved"
+        },
+        {
+          "file": "design-moskva/source-03.webp",
+          "sha256": "118664bf21648e786ace63c1ed5221b892aca21ec9809e4a0ac6936894c56d37",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Design-Moskva: внутренние страницы и структура контента",
+          "caption": "Design-Moskva: внутренние страницы и структура контента",
+          "visual_review": "approved"
+        },
+        {
+          "file": "design-moskva/source-04.webp",
+          "sha256": "c9e5bf8e1e134257667db8075c9c01f1f5d5ca97cf91e7a14a68b81306a75429",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Design-Moskva: страница проекта гостиницы",
+          "caption": "Design-Moskva: страница проекта гостиницы",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "anfilada-design",
+      "images": [
+        {
+          "file": "anfilada-design/source-02.webp",
+          "sha256": "cbea79402b70b8531ab886f53e50fc61b48913dccd5dd61fdf92db2d11b4071a",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Анфилада: технический аудит страниц",
+          "caption": "Анфилада: технический аудит страниц",
+          "visual_review": "approved"
+        },
+        {
+          "file": "anfilada-design/source-03.webp",
+          "sha256": "a83bb5045ab8686eb79afddfa8e40bde0e11369a406f11b1b9ca4d0026b00584",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Анфилада: список редиректов и структура ссылок",
+          "caption": "Анфилада: список редиректов и структура ссылок",
+          "visual_review": "approved"
+        },
+        {
+          "file": "anfilada-design/source-04.webp",
+          "sha256": "14f9e6a933e683595a42076313b50d78e917c2934e023b7ce594ed0014289d6d",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Анфилада: внутренняя страница и структура контента",
+          "caption": "Анфилада: внутренняя страница и структура контента",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "avg-realestate",
+      "images": [
+        {
+          "file": "avg-realestate/source-02.webp",
+          "sha256": "8a933a56e3c6b91cc25fb887c5a066a16d0ffd80fd867f875d2c29cd042dc0db",
+          "width": 1254,
+          "height": 1254,
+          "alt": "AVG Real Estate: исходный сайт и задачи проверки DNS и HTTPS",
+          "caption": "AVG Real Estate: исходный сайт и задачи проверки DNS и HTTPS",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "ocifrovkavideokasset",
+      "images": [
+        {
+          "file": "ocifrovkavideokasset/source-02.webp",
+          "sha256": "661a811fb0adf7e043787432c690faac7ab6aa374ff23b06444cf354d7ef504c",
+          "width": 1672,
+          "height": 941,
+          "alt": "МосЦифра: сайт и исходная проблема MODX",
+          "caption": "МосЦифра: сайт и исходная проблема MODX",
+          "visual_review": "approved"
+        },
+        {
+          "file": "ocifrovkavideokasset/source-03.webp",
+          "sha256": "a15e19e263308a5d81ed77adbec9c67b68647584636c894eba2a88919095a73b",
+          "width": 1672,
+          "height": 941,
+          "alt": "МосЦифра: восстановление файлов и панели MODX",
+          "caption": "МосЦифра: восстановление файлов и панели MODX",
+          "visual_review": "approved"
+        },
+        {
+          "file": "ocifrovkavideokasset/source-04.webp",
+          "sha256": "6fb48520c0b469c91c6c69b3dc3ddbdba7b074521f723b9f1003c1aae68b322a",
+          "width": 1672,
+          "height": 941,
+          "alt": "МосЦифра: обновление MODX и проверка окружения",
+          "caption": "МосЦифра: обновление MODX и проверка окружения",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "petlifeexpo",
+      "images": [
+        {
+          "file": "petlifeexpo/source-02.webp",
+          "sha256": "abf0e74552426a3554a72d498fb3f0656cf5d64178b29bb2d20929e936cd804d",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Pet Life Expo: сайт после переноса из Gamma",
+          "caption": "Pet Life Expo: сайт в версии после переноса из Gamma",
+          "visual_review": "approved"
+        },
+        {
+          "file": "petlifeexpo/source-03.webp",
+          "sha256": "c94dc377941e960c2a022f7e0928454b2153636e44cf2e61395e3ffd7de0a9f2",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Pet Life Expo: мобильные страницы и локальные ресурсы",
+          "caption": "Pet Life Expo: мобильные страницы и локальные ресурсы",
+          "visual_review": "approved"
+        },
+        {
+          "file": "petlifeexpo/source-04.webp",
+          "sha256": "0459d80d6c9ae93869a754846e3bf5c3173428296ffcfb58d153b52a350ae9d7",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Pet Life Expo: схема переноса в автономный HTML",
+          "caption": "Pet Life Expo: схема переноса в автономный HTML",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "proffstroy",
+      "images": [
+        {
+          "file": "proffstroy/source-01.webp",
+          "sha256": "6d135657f32e61d7b1b7c6fa653915ce2ddab939d013b148ed5123eb4160735e",
+          "width": 1254,
+          "height": 1254,
+          "alt": "ПроффСтрой: первый экран строительного лендинга",
+          "caption": "ПроффСтрой: вёрстка первого экрана строительного лендинга",
+          "visual_review": "approved"
+        },
+        {
+          "file": "proffstroy/source-03.webp",
+          "sha256": "bbaa1cd8fb7aecb7a29f5025fc1e72262e24afb1327273b21b1c92fc8f3e0437",
+          "width": 1254,
+          "height": 1254,
+          "alt": "ПроффСтрой: галерея работ, вопросы и форма заявки",
+          "caption": "ПроффСтрой: галерея работ, вопросы и форма заявки",
+          "visual_review": "approved"
+        },
+        {
+          "file": "proffstroy/source-04.webp",
+          "sha256": "b006c451e3e25324b2a4072698e1bd44122a824e08fb2b95a7660927b1ed26f4",
+          "width": 1254,
+          "height": 1254,
+          "alt": "ПроффСтрой: итоговая структура строительного лендинга",
+          "caption": "ПроффСтрой: структура вёрстки строительного лендинга",
+          "visual_review": "approved"
+        }
+      ]
+    },
+    {
+      "slug": "asia-shadrin",
+      "images": [
+        {
+          "file": "asia-shadrin/source-02.webp",
+          "sha256": "63c52c2e1e75ec6153569427ed509c721e865f276959ebfd36e2d2d14dcbf932",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Азия Шадрин: исходный шаблон страницы статьи",
+          "caption": "Азия Шадрин: исходный шаблон страницы статьи",
+          "visual_review": "approved"
+        },
+        {
+          "file": "asia-shadrin/source-03.webp",
+          "sha256": "62296ed5130fe6a87e38ab9c072ba9369e62531b690905db4981a3f39a386fe1",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Азия Шадрин: макет страницы статьи в Figma",
+          "caption": "Азия Шадрин: макет страницы статьи в Figma",
+          "visual_review": "approved"
+        },
+        {
+          "file": "asia-shadrin/source-04.webp",
+          "sha256": "6cc31292c4cc114a3943fa8d4e357f56b9047e4b733f57322937e4d65ee37080",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Азия Шадрин: готовая статья на сайте",
+          "caption": "Азия Шадрин: готовая статья на сайте",
+          "visual_review": "approved"
+        }
+      ]
+    }
+  ]
+}
