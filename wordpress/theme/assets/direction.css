@@ -323,3 +323,13 @@ body.brand-sy3{--paper:#fbfbf7;--ink:#202322;--muted:#60655f;--line:#d6d9d2;--ac
 @media(max-width:760px){.brand-sy3 .journal-heading{padding-block:28px 24px;margin-bottom:28px}.brand-sy3 .journal-heading h1{font-size:40px}.brand-sy3 .journal-intro{font-size:17px}.brand-sy3 .journal-topics{display:block;margin-top:24px;padding-top:20px}.brand-sy3 .journal-topics-label{display:block;margin-bottom:10px}.brand-sy3 .journal-topics ul{gap:6px}.brand-sy3 .journal-topics a{padding:9px 12px;font-size:14px;gap:8px}.brand-sy3 .journal-search .button{padding-inline:16px}}
 @media(prefers-reduced-motion:reduce){.brand-sy3 *,.brand-sy3 *::before,.brand-sy3 *::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 .brand-sy3 .page-heading h1,.brand-sy3 .article-body h2,.brand-sy3 .article-body h3{overflow-wrap:anywhere}
+/* Native case galleries stay compact; WordPress supplies the accessible lightbox. */
+.brand-sy3 .article-body .sy3-case-gallery{margin:32px 0;padding:24px;background:#f1f2ec;border-radius:16px;min-width:0}
+.brand-sy3 .article-body .sy3-case-gallery h3{font-size:clamp(22px,2.2vw,30px);line-height:1.2;margin:0 0 18px}
+.brand-sy3 .sy3-case-gallery .wp-block-gallery.has-nested-images{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0!important;align-items:start}
+.brand-sy3 .sy3-case-gallery.count-1 .wp-block-gallery{grid-template-columns:minmax(0,1fr);max-width:520px}
+.brand-sy3 .sy3-case-gallery.count-2 .wp-block-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+.brand-sy3 .sy3-case-gallery .wp-block-gallery figure.wp-block-image{width:100%!important;min-width:0;flex-grow:0;margin:0!important;display:block}
+.brand-sy3 .sy3-case-gallery figure.wp-block-image img{width:100%;height:auto!important;aspect-ratio:4/3;object-fit:contain!important;border-radius:8px;background:#fff;cursor:zoom-in}
+.brand-sy3 .sy3-case-gallery .wp-block-gallery figure.wp-block-image figcaption{position:static!important;background:none!important;color:#52594f!important;font-size:14px!important;line-height:1.5;padding:10px 0 0!important;margin:0;text-align:left;max-height:none!important;overflow:visible;overflow-wrap:anywhere}
+@media(max-width:620px){.brand-sy3 .article-body .sy3-case-gallery{padding:18px;margin:24px 0}.brand-sy3 .sy3-case-gallery .wp-block-gallery.has-nested-images{grid-template-columns:minmax(0,1fr);gap:22px}}
