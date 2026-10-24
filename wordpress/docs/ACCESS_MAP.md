@@ -18,12 +18,14 @@
 
 Для каждого сайта сгенерированы отдельные новые пароль администратора, пароль базы и salts. Preview-пароли не переносились. Файлы root:root 0600, каталоги 0700; секреты в Git/чат не выводились. wp-config.php — root:php-sy3 0640. Резервные копии текущего переноса удалены по прямой команде владельца; исходные сайты сохранены.
 
-## Аналитика и поиск — 23 октября 2026
+## Аналитика и поиск — 24 октября 2026
 
-| Сервис | Панель | Владелец / логин | Доступ и статус |
-| --- | --- | --- | --- |
-| Яндекс Метрика / Вебмастер | `https://metrika.yandex.ru/`, `https://webmaster.yandex.ru/` | Артём; Яндекс Incan по сообщению владельца | В карте/каталоге проекта credentials не найдены; серверный браузер требует вход. Владелец выбрал авторизоваться сам. Номер счётчика и verification token не получены. |
-| Google Search Console | `https://search.google.com/search-console` | Артём; аккаунт предстоит подтвердить при входе | Авторизация не выполнена; владелец выбрал авторизоваться сам. Verification token не получен. |
-| Настройки кода в WordPress | `https://sy3.ru/wp-admin/options-general.php?page=sy3-measurement` | administrator WordPress | Plugin активирован; все три значения пусты, внешний счётчик и метатеги не выводятся. Пароли сервисов не принимает и не хранит. |
+| Сервис | Панель | Владелец / логин | Защищённое хранилище | Статус |
+| --- | --- | --- | --- | --- |
+| Яндекс Метрика / Вебмастер | `https://metrika.yandex.ru/`, `https://webmaster.yandex.ru/` | Артём; сохранённый логин Incan | `/root/.config/client-access/sy3.ru/yandex.env` | Существующий счётчик55563139 включён; tag.js/watch HTTP200. Права https://sy3.ru подтверждены в кабинете24.10. Sitemap обнаружен из robots.txt; ручное добавление временно недоступно из-за read-only инструмента Яндекса. |
+| Google Search Console | `https://search.google.com/search-console` | Артём; сохранённый логин artem.suyazov | `/root/.config/client-access/sy3.ru/google.env` | Google отклонил автоматический вход. Открыта отдельная серверная вкладка для ручной авторизации; verification token и приёмка Search Console ещё не получены. |
+| eLama | `https://account.elama.global` | Артём | `/root/.config/client-access/sy3.ru/elama.env` | Доступ сохранён ранее; вход в этой задаче не проверялся. |
+| Настройки кода WordPress | `https://sy3.ru/wp-admin/options-general.php?page=sy3-measurement` | administrator WordPress | WordPress option `sy3_measurement_settings` | Сохранены counter ID и Yandex verification content. Google-поле пустое. Пароли сервисов этот плагин не принимает. |
+| Доставка формы | закрытая server-side конфигурация | root operator | `/root/.config/client-access/sy3.ru/lead-delivery.json` | Fixed-owner delivery в Telegram/MAX проверена. Конфигурация ссылается на существующие защищённые bot credentials, без копирования токенов в Git. |
 
-Сохранение кода не означает подтверждение прав в кабинетах. Текущее состояние и следующий шаг — в `context.md`, порядок — `MEASUREMENT.md`. Пароли и токены доступа в эту карту не добавлять.
+Файлы доступов остаются root-only вне Git; пароли не дублируются в этой карте. Сохранение verification content и подтверждение в кабинете — разные шаги. Текущее состояние — `context.md`, реализация — `MEASUREMENT.md`.
