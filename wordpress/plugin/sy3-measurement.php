@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SY3 Measurement
  * Description: Настройки Яндекс Метрики и подтверждения сайта в поисковых сервисах для sy3.ru.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  */
@@ -22,6 +22,7 @@ final class SY3_Measurement {
         add_action('admin_init', array(__CLASS__, 'register_settings'));
         add_action('admin_menu', array(__CLASS__, 'register_page'));
         add_action('wp_head', array(__CLASS__, 'render_head'), 3);
+        add_action('wp_enqueue_scripts', array(__CLASS__, 'enqueue_goals'));
     }
 
     private static function defaults() {
@@ -168,6 +169,12 @@ final class SY3_Measurement {
         return isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] === 'sy3.ru';
     }
 
+    public static function enqueue_goals() {
+        if (self::production_request() && self::options()['counter_id'] !== '') {
+            wp_enqueue_script('sy3-conversion-goals', plugins_url('sy3-measurement-assets/goals.js', __FILE__), array(), '1.1.0', true);
+        }
+    }
+
     public static function render_head() {
         if (self::$printed || !self::production_request()) {
             return;
@@ -188,7 +195,7 @@ final class SY3_Measurement {
             return;
         }
         ?>
-<script id="sy3-yandex-metrica">
+<script id="sy3-yandex-metrica" data-counter="<?php echo esc_attr($options['counter_id']); ?>">
 (function () {
     'use strict';
     if (window.location.protocol !== 'https:' || window.location.hostname !== 'sy3.ru' || window.location.port !== '') {

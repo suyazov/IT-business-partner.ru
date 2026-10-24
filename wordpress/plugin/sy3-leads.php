@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Сутри — защищённые заявки
  * Description: Форма с honeypot, подписанным токеном и закрытой очередью доставки в SY3 Support.
- * Version: 1.0.1
+ * Version: 1.0.2
  */
 defined('ABSPATH') || exit;
 
@@ -162,8 +162,8 @@ function sy3_leads_form(bool $standalone=false): void {
 add_action('sy3_before_footer',function(){if(get_option('sy3_site_mode')==='expertise')sy3_leads_form();});
 add_action('wp_enqueue_scripts',function(){
     if(get_option('sy3_site_mode')!=='expertise')return;
-    wp_enqueue_style('sy3-leads',plugins_url('sy3-leads-assets/leads.css',__FILE__),['sy3-direction'],'1.0.1');
-    wp_enqueue_script('sy3-leads',plugins_url('sy3-leads-assets/leads.js',__FILE__),[],'1.0.1',true);
+    wp_enqueue_style('sy3-leads',plugins_url('sy3-leads-assets/leads.css',__FILE__),['sy3-direction'],'1.0.2');
+    wp_enqueue_script('sy3-leads',plugins_url('sy3-leads-assets/leads.js',__FILE__),[],'1.0.2',true);
 });
 // Existing Telegram/MAX choices stay intact; the form is an additional contact path.
 
