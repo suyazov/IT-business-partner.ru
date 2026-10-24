@@ -4,9 +4,9 @@
 
 Result: владелец разрешил три точные цели Метрики и сохранение обращений в собственный sy3.bitrix24.ru. В кабинете55563139 созданы `sy3_lead_accepted`, `sy3_telegram_click`, `sy3_max_click`; автоцели сохранены. Пароль/вебхук Битрикс24 находятся только в canonical root-only store; мобильное подтверждение владельца завершено. Webhook имеет только scopeCRM, read-only API доступен.
 
-Current state: подготовлены measurement1.1.0 и leads1.0.2: принятие только после серверного reference, без honeypot/replay-конверсий и персональных данных в Метрике; отдельные фиксированные события для реальных Telegram/MAX переходов. Четыре предметных Node-теста и PHP lint PASS. Очереди статей, боты, данные заявок, настройки счётчика и verification tokens не менялись. В CRM режим2 (простой); переключение режима/воронок не выполнялось.
+Current state: PR86 merged и measurement1.1.0/leads1.0.2 опубликованы. Реальные браузерные Telegram/MAX клики вызвали два отдельных reachGoal с тремя фиксированными аргументами, без персональных данных. Принятие формы учитывается только после серверного reference, без honeypot/replay-конверсий. Четыре предметных Node-теста и PHP lint PASS. Очереди статей, боты и настройки счётчика/verification tokens сохраняются. В CRM режим2 (простой), существующая воронка8 «Квалификация»/`C8:NEW`; переключение режима/воронок не выполнялось. Подготовлен CRM-модуль с read-only bot sources, reservations/external IDs, 54 offline tests PASS; LEADS/CRM_LEADS описывают полный контракт.
 
-Next action: независимое exact-head review, публикация четырёх plugin/asset files и targeted browser smoke. Затем отдельная проверяемая CRM-доставка с дедупликацией; предложение последующих сообщений клиенту остаётся проектированием, без рассылки. Новых backup нет. Одна sparse рабочая копия используется для этого этапа и удаляется после merge/delivery.
+Next action: независимое exact-head CRM review, privacy/installer preflight, узкая публикация и одна реальная техническая форма→оба bot receipts→contact/deal read-back→replay. Для естественного public bot→CRM нужен новый внешний диалог после cutoff; не имитировать owner/visitor updates. Предложение последующих сообщений клиенту остаётся проектированием, без рассылки. Новых backup нет. Одна sparse рабочая копия используется для этого этапа и удаляется после merge/delivery.
 
 ## Завершение SY3 — 24 октября 2026
 

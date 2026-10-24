@@ -1,5 +1,5 @@
 [Unit]
-Description=Deliver saved sy3.ru leads to the owner's SY3 Support bots
+Description=Deliver saved sy3.ru leads to SY3 Support and the owner's CRM
 After=network-online.target
 Wants=network-online.target
 
@@ -8,7 +8,7 @@ Type=oneshot
 User=root
 Group=root
 ExecStart=/usr/bin/python3 /usr/local/lib/sy3-leads/dispatcher.py --once
-TimeoutStartSec=90
+TimeoutStartSec=180
 UMask=0077
 NoNewPrivileges=true
 PrivateTmp=true
