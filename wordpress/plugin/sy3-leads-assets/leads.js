@@ -47,6 +47,10 @@ document.querySelectorAll('.sy3-lead-form').forEach((form) => {
         setStatus(result.message || 'Не удалось сохранить заявку. Попробуйте ещё раз.', true);
       } else {
         complete = true;
+        // Honeypot decoys have no reference and must never count as real leads.
+        if (typeof result.reference === 'string' && /^SY3-[A-F0-9]{12}$/.test(result.reference)) {
+          document.dispatchEvent(new CustomEvent('sy3:lead-accepted', { detail: { reference: result.reference } }));
+        }
         setStatus(result.message + (result.reference ? ` Номер: ${result.reference}.` : ''));
         button.textContent = 'Заявка сохранена';
         status.focus({ preventScroll: true });
