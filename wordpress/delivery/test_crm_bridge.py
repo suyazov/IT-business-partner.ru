@@ -130,6 +130,75 @@ class CRMTests(unittest.TestCase):
         self.assertEqual(self.bridge.deliver(form(2)), 'sent')
         self.assertEqual(len(self.api.comments), 1)
 
+    def test_pending_comment_stays_with_closed_original_deal(self):
+        for alternate in [False, True]:
+            with self.subTest(alternate_open_deal=alternate):
+                store, api = Store(), API()
+                bridge = crm.Bridge(store, api, {})
+                first, second = form(), form(2)
+                self.assertEqual(bridge.deliver(first), 'sent')
+                api.lose_reply = 'comment'
+                self.assertEqual(bridge.deliver(second), 'uncertain')
+                original = api.items[2][0]
+                original['closed'] = 'Y'
+                original['categoryId'] = 6
+                if alternate:
+                    api.items[2].append(dict(original, id=2, closed='N', categoryId=8, originId='other'))
+                api.calls.clear()
+                self.assertEqual(bridge.deliver(second), 'sent')
+                self.assertEqual(len(api.items[2]), 2 if alternate else 1)
+                self.assertEqual(len(api.comments), 1)
+                self.assertEqual([m for m, _ in api.calls], ['crm.timeline.comment.list'])
+                state = store.states['crm-job-' + crm.sha(second['key']) + '.json']
+                self.assertEqual(state['deal_id'], original['id'])
+
+    def test_missing_pending_comment_never_creates_another_deal(self):
+        self.bridge.deliver(form())
+        self.api.lose_reply = 'comment'
+        second = form(2)
+        self.assertEqual(self.bridge.deliver(second), 'uncertain')
+        self.api.comments.clear()
+        self.api.items[2][0]['closed'] = 'Y'
+        self.api.calls.clear()
+        self.assertEqual(self.bridge.deliver(second), 'uncertain')
+        self.assertEqual([m for m, _ in self.api.calls], ['crm.timeline.comment.list'])
+        self.assertEqual(len(self.api.items[2]), 1)
+
+    def test_malformed_duplicate_result_never_creates_contact(self):
+        for result in [None, 'invalid', [1], {'CONTACT': None}, {'CONTACT': '1'},
+                       {'CONTACT': [True]}, {'unexpected': []}]:
+            with self.subTest(result=result):
+                store, api = Store(), API()
+                call = api.call
+                def malformed(method, data):
+                    return result if method == 'crm.duplicate.findbycomm' else call(method, data)
+                with patch.object(api, 'call', side_effect=malformed):
+                    self.assertEqual(crm.Bridge(store, api, {}).deliver(form()), 'uncertain')
+                self.assertFalse(any(m == 'crm.item.add' for m, _ in api.calls))
+
+    def test_empty_duplicate_result_schemas_are_accepted(self):
+        for result in [[], {}, {'CONTACT': []}]:
+            with self.subTest(result=result):
+                store, api = Store(), API()
+                call = api.call
+                def empty(method, data):
+                    return result if method == 'crm.duplicate.findbycomm' else call(method, data)
+                with patch.object(api, 'call', side_effect=empty):
+                    self.assertEqual(crm.Bridge(store, api, {}).deliver(form()), 'sent')
+                self.assertEqual((len(api.items[3]), len(api.items[2])), (1, 1))
+
+    def test_malformed_api_envelope_is_unknown(self):
+        for value in [[], 'invalid', None, {'error': []}, {'unexpected': 1}]:
+            with self.subTest(value=value):
+                api = crm.API({'webhook_url': 'https://sy3.bitrix24.ru/rest/1/test/'}, time.monotonic() + 5)
+                class Response:
+                    code = 200
+                    def read(self, limit): return json.dumps(value).encode()
+                    def close(self): pass
+                with patch.object(api.opener, 'open', return_value=Response()):
+                    with self.assertRaises(crm.Unknown):
+                        api.call('crm.duplicate.findbycomm', {})
+
     def test_ambiguous_contacts_are_not_merged(self):
         self.api.items[3] = [{'id': i, 'fm': [{'value': 'customer@example.invalid'}]} for i in [1, 2]]
         self.assertEqual(self.bridge.deliver(form()), 'failed')

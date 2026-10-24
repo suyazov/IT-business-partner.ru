@@ -96,6 +96,10 @@ class API:
                 if response.code >= 500:
                     raise Unknown()
                 value = base.strict_json(raw)
+                if not isinstance(value, dict):
+                    raise Unknown()
+                if value.get('error') is not None and not isinstance(value['error'], str):
+                    raise Unknown()
                 if value.get('error') in {'QUERY_LIMIT_EXCEEDED', 'OPERATION_TIME_LIMIT'}:
                     raise Retry()
                 if value.get('error') or response.code in {400, 401, 403, 404}:
@@ -160,7 +164,7 @@ class Bridge:
         rows = result['items']
         if len(rows) > 1:
             raise Rejected()
-        if rows and not positive(rows[0].get('id')):
+        if rows and (not isinstance(rows[0], dict) or not positive(rows[0].get('id'))):
             raise Unknown()
         return rows[0] if rows else None
 
@@ -191,8 +195,16 @@ class Bridge:
         if job['contact']:
             result = self.api.call('crm.duplicate.findbycomm',
                 {'entity_type': 'CONTACT', 'type': job['type'], 'values': [job['contact']]})
-            ids = result.get('CONTACT', []) if isinstance(result, dict) else []
-            if not isinstance(ids, list) or len(ids) > 1 or any(not positive(i) for i in ids):
+            # Bitrix returns [] for no duplicates, or an object keyed by entity.
+            if result == []:
+                ids = []
+            elif isinstance(result, dict) and set(result) <= {'CONTACT'}:
+                ids = result.get('CONTACT', [])
+            else:
+                raise Unknown()
+            if not isinstance(ids, list) or any(not positive(i) for i in ids):
+                raise Unknown()
+            if len(ids) > 1:
                 raise Rejected()
             if ids:
                 person['contact_id'] = ids[0]
@@ -227,6 +239,23 @@ class Bridge:
         person_file = 'crm-person-' + job['person'] + '.json'
         person = self.store.read_state(person_file) or {'version': 1}
         try:
+            # Reconcile an uncertain comment against its original deal before
+            # looking for any current/open deal. The original may now be closed.
+            if state.get('phase') == 'comment':
+                if not positive(state.get('deal_id')):
+                    raise Unknown()
+                comments = self.api.call('crm.timeline.comment.list', {'filter': {
+                    'ENTITY_ID': state['deal_id'], 'ENTITY_TYPE': 'deal'},
+                    'select': ['ID', 'COMMENT'], 'order': {'ID': 'DESC'}})
+                if not isinstance(comments, list) or any(not isinstance(c, dict) for c in comments):
+                    raise Unknown()
+                found = [c for c in comments if c.get('COMMENT') == message(job)]
+                if len(found) != 1 or not re.fullmatch(r'[1-9][0-9]*', str(found[0].get('ID', ''))):
+                    raise Unknown()
+                state.update(comment_id=int(found[0]['ID']), status='sent', phase=None,
+                             confirmed_at=int(time.time()))
+                self.store.write_state(state_file, state)
+                return 'sent'
             cid = self.contact(job, person, person_file)
             deal = self.external(2, job['key'])
             pending = person.get('pending_deal')
@@ -261,25 +290,17 @@ class Bridge:
                 self.store.write_state(person_file, person)
             state.update(contact_id=cid, deal_id=deal['id'])
             if deal.get('originId') != job['key']:
-                if state.get('phase') == 'comment':
-                    comments = self.api.call('crm.timeline.comment.list', {'filter': {
-                        'ENTITY_ID': deal['id'], 'ENTITY_TYPE': 'deal'}, 'select': ['ID', 'COMMENT'], 'order': {'ID': 'DESC'}})
-                    found = [c for c in comments if c.get('COMMENT') == message(job)] if isinstance(comments, list) else []
-                    if len(found) != 1:
-                        raise Unknown()
-                    state['comment_id'] = found[0]['ID']
-                else:
-                    state.update(status='sending', phase='comment')
-                    self.store.write_state(state_file, state)
-                    try:
-                        mid = self.api.call('crm.timeline.comment.add', {'fields': {
-                            'ENTITY_ID': deal['id'], 'ENTITY_TYPE': 'deal', 'COMMENT': message(job)}})
-                    except (Retry, Rejected):
-                        state['phase'] = None
-                        raise
-                    if not positive(mid):
-                        raise Unknown()
-                    state['comment_id'] = mid
+                state.update(status='sending', phase='comment')
+                self.store.write_state(state_file, state)
+                try:
+                    mid = self.api.call('crm.timeline.comment.add', {'fields': {
+                        'ENTITY_ID': deal['id'], 'ENTITY_TYPE': 'deal', 'COMMENT': message(job)}})
+                except (Retry, Rejected):
+                    state['phase'] = None
+                    raise
+                if not positive(mid):
+                    raise Unknown()
+                state['comment_id'] = mid
             state.update(status='sent', phase=None, confirmed_at=int(time.time()))
         except Retry:
             state['status'] = 'retry'
