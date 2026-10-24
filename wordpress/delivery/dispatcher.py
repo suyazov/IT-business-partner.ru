@@ -679,7 +679,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description='SY3 private lead dispatcher')
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--check', action='store_true', help='validate local config/permissions/TLS; no HTTP')
-    group.add_argument('--once', action='store_true', help='dispatch at most 20 jobs within 75 seconds')
+    group.add_argument('--once', action='store_true', help='bounded notifications and CRM passes, at most 75 seconds each')
     args = parser.parse_args(argv)
     if os.geteuid() != 0:
         print('{"error":"root_required"}')
@@ -689,9 +689,15 @@ def main(argv=None):
         settings = load_settings()
         with Store(ROOT, wp.pw_uid, wp.pw_gid) as store:
             if args.check:
+                from crm_bridge import load_config
+                load_config()  # Optional; validation only, never an HTTP request.
                 print('{"check":"ok","network":false}')
             else:
-                print(json.dumps(Dispatcher(store, Transport(settings)).once(), sort_keys=True))
+                notifications = Dispatcher(store, Transport(settings)).once()
+                # The CRM failure must not suppress confirmed bot delivery.
+                from crm_bridge import once as crm_once
+                crm = crm_once(store)
+                print(json.dumps({'notifications': notifications, 'crm': crm}, sort_keys=True))
         return 0
     except Busy:
         print('{"status":"worker_busy","network":false}')

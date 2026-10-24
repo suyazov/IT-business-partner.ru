@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Сутри — защищённые заявки
  * Description: Форма с honeypot, подписанным токеном и закрытой очередью доставки в SY3 Support.
- * Version: 1.0.2
+ * Version: 1.1.0
  */
 defined('ABSPATH') || exit;
 
@@ -153,7 +153,7 @@ function sy3_leads_form(bool $standalone=false): void {
         <label><span>Телефон или email <span aria-hidden="true">*</span></span><input name="contact" required autocomplete="email" maxlength="200" placeholder="Как с вами связаться"></label>
         <label class="sy3-lead-wide">Что нужно сделать<textarea name="message" rows="4" maxlength="2000" placeholder="Какая задача стоит перед бизнесом? Что уже работает и что хотите изменить?"></textarea></label>
         <div class="sy3-lead-honeypot" aria-hidden="true"><label>Не заполняйте это поле<input name="company_website" tabindex="-1" autocomplete="off" maxlength="200"></label></div>
-        <label class="sy3-lead-consent sy3-lead-wide"><input type="checkbox" name="consent" value="1" required><span>Согласен на обработку данных заявки и её передачу Артёму через Telegram и MAX для ответа на обращение. <a href="<?php echo esc_url(home_url('/privacy/')); ?>">Как обрабатываются данные</a></span></label>
+        <label class="sy3-lead-consent sy3-lead-wide"><input type="checkbox" name="consent" value="1" required><span>Согласен на обработку данных заявки в Битрикс24 и передачу через Telegram и MAX для ответа на обращение. <a href="<?php echo esc_url(home_url('/privacy/')); ?>">Как обрабатываются данные</a></span></label>
         <div class="sy3-lead-wide sy3-lead-submit"><button class="button" type="submit">Отправить заявку</button><p class="sy3-lead-status" role="status" aria-live="polite" tabindex="-1"></p></div>
         <?php if(!$standalone): ?><noscript><p class="sy3-lead-wide">Чтобы отправить заявку без JavaScript, <a href="<?php echo esc_url(admin_url('admin-post.php?action=sy3_lead_form')); ?>">откройте отдельную форму</a>.</p></noscript><?php endif; ?>
       </form></div></section>
@@ -195,7 +195,7 @@ add_action('admin_menu',function(){
         $labels=['pending'=>'Ожидает отправки','retry'=>'Ожидает повторной отправки','sending'=>'Отправляется','sent'=>'Доставка подтверждена','failed'=>'Ошибка доставки','uncertain'=>'Нужно проверить диалог'];
         $files=glob(sy3_leads_storage().'/queue/*.json')?:[];
         usort($files,fn($a,$b)=>filemtime($b)<=>filemtime($a));
-        echo '<table class="widefat striped"><thead><tr><th>Обращение</th><th>Контакт</th><th>Задача</th><th>Telegram / MAX</th></tr></thead><tbody>';
+        echo '<table class="widefat striped"><thead><tr><th>Обращение</th><th>Контакт</th><th>Задача</th><th>Telegram / MAX / CRM</th></tr></thead><tbody>';
         foreach(array_slice($files,0,100)as$file){
             if(is_link($file)||filesize($file)>16384||!preg_match('/\A[a-f0-9]{64}\.json\z/',basename($file)))continue;
             $job=json_decode(file_get_contents($file),true);if(!is_array($job)||!is_string($job['id']??null)||basename($file)!==$job['id'].'.json')continue;
@@ -204,6 +204,12 @@ add_action('admin_menu',function(){
             $state=is_file($state_file)&&!is_link($state_file)&&filesize($state_file)<16384?json_decode(file_get_contents($state_file),true):[];
             echo '<tr><td>'.esc_html('SY3-'.strtoupper(substr($job['id'],0,12))).'<br>'.esc_html(wp_date('d.m.Y H:i',(int)($job['created_at']??0))).'<br>'.esc_html($job['name']??'').'</td><td>'.esc_html($job['contact']??'').'</td><td>'.nl2br(esc_html($job['message']??'')).'<p>'.esc_html($job['page']??'').'</p></td><td>';
             foreach(['telegram','max']as$channel){$status=$state['channels'][$channel]['status']??'pending';echo esc_html(($channel==='telegram'?'Telegram':'MAX').': '.(is_string($status)?($labels[$status]??'Нужно проверить состояние'):'Нужно проверить состояние')).'<br>';}
+            $crm_file=sy3_leads_storage().'/state/crm-job-'.hash('sha256','form:'.$job['id']).'.json';
+            $crm=is_file($crm_file)&&!is_link($crm_file)&&filesize($crm_file)<16384?json_decode(file_get_contents($crm_file),true):[];
+            $crm_labels=['sent'=>'Сохранено','retry'=>'Ожидает обработки','sending'=>'Сохраняется','uncertain'=>'Нужно проверить CRM','failed'=>'Ошибка сохранения'];
+            $crm_status=is_string($crm['status']??null)?$crm['status']:'';
+            echo esc_html('CRM: '.($crm_labels[$crm_status]??'Нет записи')).'<br>';
+            if($crm_status==='sent'&&is_int($crm['deal_id']??null)&&$crm['deal_id']>0)echo '<a href="'.esc_url('https://sy3.bitrix24.ru/crm/deal/details/'.$crm['deal_id'].'/').'">Открыть сделку</a>';
             echo '</td></tr>';
         }
         echo '</tbody></table></div>';
