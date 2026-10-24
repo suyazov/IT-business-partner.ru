@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Сутри — защищённые заявки
  * Description: Форма с honeypot, подписанным токеном и закрытой очередью доставки в SY3 Support.
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 defined('ABSPATH') || exit;
 
@@ -93,7 +93,7 @@ function sy3_leads_accept(array $data, string $ip, ?int $now = null): WP_REST_Re
     $utm=$data['utm']??[];
     if (!is_array($utm) || array_diff(array_keys($utm), ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'])) return sy3_leads_error('fields', 'Проверьте поля формы.');
     foreach ($utm as $value) if (!is_string($value) || !mb_check_encoding($value,'UTF-8') || mb_strlen($value)>120 || preg_match('/[\x00-\x1f\x7f]/u', $value)) return sy3_leads_error('fields', 'Проверьте поля формы.');
-    if (!filter_var($ip, FILTER_VALIDATE_IP) || !sy3_leads_ready()) return sy3_leads_error('unavailable', 'Форма временно недоступна. Напишите Артёму в Telegram или позвоните.', 503);
+    if (!filter_var($ip, FILTER_VALIDATE_IP) || !sy3_leads_ready()) return sy3_leads_error('unavailable', 'Форма временно недоступна. Напишите мне в Telegram или MAX.', 503);
     $root=sy3_leads_storage(); $id=hash('sha256', $token['nonce']);
     // REMOTE_ADDR is the peer supplied by the reviewed server, never a client-supplied forwarding header.
     $ip_key=hash_hmac('sha256', $ip, wp_salt('auth').'|sy3-lead-limit');
@@ -146,7 +146,7 @@ function sy3_leads_form(bool $standalone=false): void {
     $challenge=$standalone?sy3_leads_issue('/') : ['token'=>'','nonce'=>''];
     ?>
     <section class="sy3-lead-section" id="request-form" aria-labelledby="request-title"><div class="wrap sy3-lead-layout">
-      <div class="sy3-lead-intro"><p class="eyebrow">Первый шаг</p><h2 id="request-title">Обсудим<br>вашу задачу</h2><p>Расскажите, что хотите запустить или улучшить. Я уточню задачу и предложу первый шаг.</p><p class="sy3-lead-alternative">Можно написать в бота <a href="https://t.me/sy3_support_bot?start=site_sy3">Telegram</a> или <a href="https://max.ru/id263514840335_1_bot?start=site_sy3">MAX</a>.</p></div>
+      <div class="sy3-lead-intro"><p class="eyebrow">Связаться со мной</p><h2 id="request-title">Обсудим задачу</h2><p class="sy3-lead-alternative"><a href="https://t.me/sy3_support_bot?start=site_sy3">Telegram</a> · <a href="https://max.ru/id263514840335_1_bot?start=site_sy3">MAX</a> · <a href="mailto:help@sy3.ru">help@sy3.ru</a></p></div>
       <form class="sy3-lead-form" method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" data-challenge="<?php echo esc_url(rest_url('sy3-leads/v1/challenge')); ?>" data-submit="<?php echo esc_url(rest_url('sy3-leads/v1/submit')); ?>" <?php if($standalone)echo 'data-standalone="true"'; ?>>
         <input type="hidden" name="action" value="sy3_lead_submit"><input type="hidden" name="token" value="<?php echo esc_attr($challenge['token']); ?>"><input type="hidden" name="nonce" value="<?php echo esc_attr($challenge['nonce']); ?>">
         <label>Как к вам обращаться<input name="name" autocomplete="name" maxlength="120" placeholder="Ваше имя"></label>
@@ -162,14 +162,10 @@ function sy3_leads_form(bool $standalone=false): void {
 add_action('sy3_before_footer',function(){if(get_option('sy3_site_mode')==='expertise')sy3_leads_form();});
 add_action('wp_enqueue_scripts',function(){
     if(get_option('sy3_site_mode')!=='expertise')return;
-    wp_enqueue_style('sy3-leads',plugins_url('sy3-leads-assets/leads.css',__FILE__),['sy3-direction'],'1.0.0');
-    wp_enqueue_script('sy3-leads',plugins_url('sy3-leads-assets/leads.js',__FILE__),[],'1.0.0',true);
+    wp_enqueue_style('sy3-leads',plugins_url('sy3-leads-assets/leads.css',__FILE__),['sy3-direction'],'1.0.1');
+    wp_enqueue_script('sy3-leads',plugins_url('sy3-leads-assets/leads.js',__FILE__),[],'1.0.1',true);
 });
-// Change rendered project CTAs without altering editor content or its approval hashes.
-add_filter('the_content',function($content){
-    if(get_option('sy3_site_mode')!=='expertise')return $content;
-    return preg_replace('~(href=")https://t\.me/(?:moi_imperator|sy3_support_bot\?start=site_sy3)("[^>]*>Обсудить[^<]*</a>)~u','$1#request-form$2',$content);
-},25);
+// Existing Telegram/MAX choices stay intact; the form is an additional contact path.
 
 function sy3_leads_standalone(): void {
     if(get_option('sy3_site_mode')!=='expertise')wp_die('Not found','',404);

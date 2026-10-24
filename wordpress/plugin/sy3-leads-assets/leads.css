@@ -1,6 +1,6 @@
-.sy3-lead-section{background:#dce9c7;color:#263121;padding:100px 0;scroll-margin-top:110px}
-.sy3-lead-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:90px;align-items:start}
-.sy3-lead-intro h2{margin:20px 0 30px}
+.sy3-lead-section{background:#dce9c7;color:#263121;padding:56px 0;scroll-margin-top:110px}
+.sy3-lead-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,5vw,72px);align-items:start}
+.sy3-lead-intro h2{font-size:clamp(32px,3.5vw,54px);line-height:1.12;margin:16px 0 24px}
 .sy3-lead-intro>p:not(.eyebrow){font-size:20px;line-height:1.65;max-width:460px}
 .sy3-lead-intro .sy3-lead-alternative{font-size:16px!important;line-height:1.7;margin-top:28px}
 .sy3-lead-section a{text-decoration:underline;text-underline-offset:4px;color:inherit}
