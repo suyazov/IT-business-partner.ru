@@ -32,9 +32,9 @@
 
 1. **Google Search Console:** Google отклонил автоматический вход. Пароль уже в защищённом хранилище; в серверном браузере открыта отдельная вкладка для ручной авторизации владельца. Альтернатива — verification meta content для https://sy3.ru/. После подтверждения отправить sitemap. Наличие сохранённого пароля не означает доступ к кабинету.
 2. **Яндекс sitemap:** sitemap уже обнаружен из robots.txt, но инструмент Яндекса временно сообщает «Только для чтения». Ручное добавление/переобход не выполнены; нужна доступность внешнего инструмента.
-3. **MAX:** владелец располагает вторым аккаунтом только в Telegram. Естественный visitor→owner Reply→confirmation→visitor и отображение native contact в MAX остаются непроверенными до сообщения другого аккаунта. Offline tests и доставку веб-формы не выдавать за этот сценарий.
+3. **MAX:** владелец располагает вторым аккаунтом только в Telegram. Естественный visitor→черновик/подтверждение владельца→visitor и отображение native contact в MAX остаются непроверенными до сообщения другого аккаунта. Offline tests и доставку веб-формы не выдавать за этот сценарий.
 
-Безопасные operator receipts — `/root/preview/sy3-wordpress-20261022/private/finish-{analytics-progress,phase1-apply,queue-live,form-canary,galleries-apply,galleries-live}-20261024.json`, `finish-galleries-review-20261024.json` и `public-inbox-quiet-success-{apply,review}.json`, root-only вне webroot. Там же план очереди и hash-bound предметная приёмка, без raw credentials и сообщений клиентов. Для актуального поведения ботов owning-документ остаётся в `suyazov/sy3-support/docs/PROJECT_CONTEXT.md`.
+Безопасные operator receipts — `/root/preview/sy3-wordpress-20261022/private/finish-{analytics-progress,phase1-apply,queue-live,queue-final,form-canary,galleries-apply,galleries-live}-20261024.json`, `finish-galleries-review-20261024.json` и `public-inbox-quiet-success-{apply,review}.json`, root-only вне webroot. Там же план очереди и hash-bound предметная приёмка, без raw credentials и сообщений клиентов. Для актуального поведения ботов owning-документ остаётся в `suyazov/sy3-support/docs/PROJECT_CONTEXT.md`.
 
 Техническая проверка дизайна не доказывает рост обращений. Читательская проверка предложения и измерение конверсии ещё не проводились. Второй сайт в этой сверке не переделывался.
 
